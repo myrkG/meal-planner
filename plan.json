@@ -1,0 +1,578 @@
+{
+  "title": "The 14-Day Rotation",
+  "version": "1.0 · November 2026",
+  "anchor_monday": "2026-11-16",
+  "targets": {
+    "regular_calories": "2,350–2,500 kcal",
+    "wednesday_calories": "~1,350 kcal",
+    "regular_protein": "150–180 g",
+    "dessert": "150–200 kcal"
+  },
+  "background": {
+    "schedule": "2 meals on most days; restaurant breakfast on weekends; Wednesdays are protein-shake days",
+    "avoid": [
+      "cheese",
+      "sour cream",
+      "high amounts of bread",
+      "high amounts of milk"
+    ]
+  },
+  "recipes": {
+    "tuna": {
+      "id": "tuna",
+      "title": "Spicy tuna–avocado rice bowl",
+      "minutes": 5,
+      "servings": 1,
+      "ingredients": [
+        "2 cans light tuna, drained (about 220–240 g)",
+        "1½ cups cooked microwave rice",
+        "½ avocado, diced",
+        "½ cucumber, diced",
+        "1 tsp soy sauce + lime juice",
+        "Sriracha to taste"
+      ],
+      "steps": [
+        "Microwave rice and drain tuna.",
+        "Mix soy, lime and sriracha; toss with tuna.",
+        "Add avocado and cucumber over rice; drizzle sauce."
+      ],
+      "tip": "Toss in chili crisp for crunch; measure it if using more than a teaspoon."
+    },
+    "gingerbeef": {
+      "id": "gingerbeef",
+      "title": "Sticky ginger beef noodles",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g lean ground beef",
+        "90 g dry noodles",
+        "2 cups broccoli (frozen is fine)",
+        "2 tbsp reduced-sodium soy sauce",
+        "1 tsp honey",
+        "1 tsp sesame oil",
+        "Garlic and grated ginger"
+      ],
+      "steps": [
+        "Cook noodles according to package.",
+        "Brown beef in a skillet; add broccoli and cook until hot.",
+        "Stir together soy, honey, sesame oil, garlic and ginger; add to pan, toss with noodles."
+      ],
+      "tip": "A splash of rice vinegar or lime gives the sauce more bite."
+    },
+    "lemonpotato": {
+      "id": "lemonpotato",
+      "title": "Lemony chicken and potato bowl",
+      "minutes": 12,
+      "servings": 1,
+      "ingredients": [
+        "225 g cooked chicken breast or thigh",
+        "300 g baby potatoes",
+        "1 cup chopped tomato and cucumber",
+        "2 tsp olive oil",
+        "1 tsp Dijon mustard",
+        "Lemon juice, oregano, salt and pepper"
+      ],
+      "steps": [
+        "Microwave halved potatoes until tender, about 7–9 minutes.",
+        "Warm cooked chicken if preferred.",
+        "Whisk olive oil, Dijon, lemon and oregano; toss everything together."
+      ],
+      "tip": "Use cooked chicken strips or rotisserie chicken to keep this nearly no-prep."
+    },
+    "fajitas": {
+      "id": "fajitas",
+      "title": "Smoky chicken fajita rice bowls",
+      "minutes": 20,
+      "servings": 2,
+      "ingredients": [
+        "450 g raw chicken strips (makes 2 portions)",
+        "2 bell peppers, sliced",
+        "1 onion, sliced",
+        "2 cups cooked rice (for 2 portions)",
+        "1 tbsp olive oil",
+        "2 tsp smoked paprika + 1 tsp cumin",
+        "Lime juice and salsa"
+      ],
+      "steps": [
+        "Season chicken with paprika, cumin, salt and pepper.",
+        "Sear chicken in oil until cooked to 74°C/165°F. Add peppers and onions; cook until tender-crisp.",
+        "Serve half over rice with salsa and lime. Refrigerate the other half promptly for Thursday lunch."
+      ],
+      "tip": "Double the vegetables if hungry; the second portion makes Thursday lunch easy."
+    },
+    "fajitaleft": {
+      "id": "fajitaleft",
+      "title": "Fajita black-bean bowl",
+      "minutes": 5,
+      "servings": 1,
+      "ingredients": [
+        "1 portion cooked fajita chicken and peppers from Tuesday",
+        "1 cup cooked rice",
+        "¾ cup drained canned black beans",
+        "½ cup corn",
+        "Salsa and fresh lime"
+      ],
+      "steps": [
+        "Microwave rice, leftover chicken and beans until piping hot.",
+        "Add corn, salsa and lime."
+      ],
+      "tip": "Leftover cooked chicken should be refrigerated promptly and used within 3–4 days."
+    },
+    "salmon": {
+      "id": "salmon",
+      "title": "Maple–Dijon salmon with potatoes",
+      "minutes": 25,
+      "servings": 1,
+      "ingredients": [
+        "225 g salmon fillet",
+        "300 g baby potatoes, halved",
+        "2 cups green beans",
+        "2 tsp olive oil",
+        "1 tbsp Dijon mustard",
+        "2 tsp maple syrup",
+        "Lemon, black pepper"
+      ],
+      "steps": [
+        "Heat oven or air fryer to 200°C/400°F. Toss potatoes with oil and seasoning; start cooking them first.",
+        "Combine Dijon and maple syrup; brush salmon and cook until done (about 10–14 minutes depending on thickness).",
+        "Steam beans; finish with lemon."
+      ],
+      "tip": "For less cleanup, use foil or a parchment-lined tray."
+    },
+    "meatballs": {
+      "id": "meatballs",
+      "title": "Garlicky meatball marinara pasta",
+      "minutes": 20,
+      "servings": 1,
+      "ingredients": [
+        "220 g cooked lean turkey or beef meatballs",
+        "90 g dry pasta",
+        "¾ cup marinara sauce",
+        "2 cups baby spinach",
+        "1 tsp olive oil",
+        "Garlic, chili flakes and basil"
+      ],
+      "steps": [
+        "Cook pasta and heat meatballs to package directions.",
+        "Warm oil and garlic; stir in marinara and spinach until wilted.",
+        "Toss with pasta and meatballs; finish with chili flakes and basil."
+      ],
+      "tip": "Look for meatballs without cheese if you dislike that flavour."
+    },
+    "chili": {
+      "id": "chili",
+      "title": "Smoky turkey and black-bean chili",
+      "minutes": 25,
+      "servings": 3,
+      "ingredients": [
+        "600 g lean ground turkey",
+        "1 large can crushed tomatoes (796 mL)",
+        "1 can black beans, drained",
+        "1 onion, chopped",
+        "1 bell pepper, chopped",
+        "1 tbsp oil",
+        "Chili powder, cumin, smoked paprika and salt"
+      ],
+      "steps": [
+        "In a pot, sauté onion and pepper in oil; brown the turkey thoroughly.",
+        "Add tomatoes, beans and spices. Simmer 15 minutes, stirring occasionally.",
+        "Eat one portion; cool and freeze at least one additional portion for next Monday."
+      ],
+      "tip": "Makes about 3 portions; top with chopped onion, cilantro and hot sauce."
+    },
+    "porkchop": {
+      "id": "porkchop",
+      "title": "Garlic–lime pork chops and sweet potato",
+      "minutes": 25,
+      "servings": 1,
+      "ingredients": [
+        "225–250 g lean boneless pork chop",
+        "350 g sweet potato, cut in wedges",
+        "2 cups bagged cabbage slaw",
+        "2 tsp olive oil",
+        "Garlic, lime, smoked paprika",
+        "1 tbsp apple cider vinegar"
+      ],
+      "steps": [
+        "Air-fry or roast seasoned sweet potato wedges at 200°C/400°F until crisp, about 18–25 minutes.",
+        "Season pork with paprika and garlic; pan-sear to safe doneness and rest.",
+        "Toss cabbage with vinegar and lime; plate together."
+      ],
+      "tip": "A little hot sauce in the slaw makes it brighter."
+    },
+    "thaicurry": {
+      "id": "thaicurry",
+      "title": "Thai red shrimp curry",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "250 g thawed shrimp",
+        "1 cup light coconut milk",
+        "2 cups frozen stir-fry vegetables",
+        "1–2 tbsp Thai red curry paste",
+        "1½ cups cooked jasmine rice",
+        "Lime juice and fresh cilantro (optional)"
+      ],
+      "steps": [
+        "Heat curry paste in a skillet for 30 seconds.",
+        "Add coconut milk and vegetables; simmer until vegetables are hot.",
+        "Add shrimp and cook until opaque; serve over rice with lime."
+      ],
+      "tip": "Curry pastes vary dramatically in heat—start with 1 tbsp."
+    },
+    "chilipotato": {
+      "id": "chilipotato",
+      "title": "Chili-loaded baked potato",
+      "minutes": 10,
+      "servings": 1,
+      "ingredients": [
+        "1 frozen portion of homemade turkey chili",
+        "350 g russet potato",
+        "2 tbsp chopped onion",
+        "Hot sauce and green onion"
+      ],
+      "steps": [
+        "Pierce potato and microwave until tender, turning once.",
+        "Reheat thawed chili until piping hot.",
+        "Split potato, spoon chili over it and add onion and hot sauce."
+      ],
+      "tip": "If the portion is small, add a handful of extra beans."
+    },
+    "oregano": {
+      "id": "oregano",
+      "title": "Lemon–oregano chicken rice bowl",
+      "minutes": 20,
+      "servings": 1,
+      "ingredients": [
+        "225 g raw chicken breast or thigh",
+        "1½ cups cooked rice",
+        "1½ cups chopped cucumber and tomato",
+        "2 tsp olive oil",
+        "1 lemon",
+        "Garlic, dried oregano, salt and pepper"
+      ],
+      "steps": [
+        "Season chicken with garlic, oregano, lemon zest, salt and pepper.",
+        "Pan-sear in olive oil until chicken reaches 74°C/165°F.",
+        "Serve with warm rice and tomato-cucumber salad dressed with lemon."
+      ],
+      "tip": "A generous amount of lemon keeps this tasting fresh without a cream sauce."
+    },
+    "peanutnoodle": {
+      "id": "peanutnoodle",
+      "title": "Thai peanut chicken noodles",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g chicken strips",
+        "90 g dry rice noodles",
+        "2 cups shredded cabbage and carrot",
+        "1½ tbsp peanut butter",
+        "1 tbsp soy sauce",
+        "Lime juice, chili sauce and warm water"
+      ],
+      "steps": [
+        "Cook noodles and chicken; chicken should reach 74°C/165°F.",
+        "Whisk peanut butter, soy, lime, chili and enough warm water for a pourable sauce.",
+        "Toss noodles with chicken, crunchy vegetables and sauce."
+      ],
+      "tip": "Add extra lime and chili instead of extra peanut butter for a stronger flavour."
+    },
+    "tacoskillet": {
+      "id": "tacoskillet",
+      "title": "Smoky taco beef skillet",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g lean ground beef",
+        "¾ cup drained black beans",
+        "½ bell pepper, diced",
+        "½ cup corn",
+        "1 cup cooked rice",
+        "⅓ avocado",
+        "Salsa, chili powder, cumin and smoked paprika"
+      ],
+      "steps": [
+        "Brown beef in a large skillet; add pepper and taco spices.",
+        "Add beans and corn; cook until heated through.",
+        "Serve over warm rice with diced avocado and salsa."
+      ],
+      "tip": "For a little heat, add chipotle in adobo or pickled jalapeños."
+    },
+    "shrimpmango": {
+      "id": "shrimpmango",
+      "title": "Chili–lime shrimp mango bowl",
+      "minutes": 12,
+      "servings": 1,
+      "ingredients": [
+        "250 g peeled shrimp",
+        "1½ cups cooked rice",
+        "½ mango, diced",
+        "½ cucumber, diced",
+        "2 tsp olive oil",
+        "Lime, chili flakes and cilantro"
+      ],
+      "steps": [
+        "Sear thawed shrimp in oil until opaque and cooked through.",
+        "Mix diced mango and cucumber with lime and chili flakes.",
+        "Serve over rice and finish with cilantro."
+      ],
+      "tip": "Frozen mango chunks can work too—thaw before serving."
+    },
+    "harissa": {
+      "id": "harissa",
+      "title": "Harissa chicken and chickpea tray bake",
+      "minutes": 25,
+      "servings": 1,
+      "ingredients": [
+        "225 g chicken breast or thigh, diced",
+        "¾ cup drained chickpeas",
+        "2 cups sliced peppers and onion",
+        "1 tbsp harissa paste",
+        "2 tsp olive oil",
+        "½ lemon"
+      ],
+      "steps": [
+        "Heat oven or air fryer to 205°C/400°F.",
+        "Toss chicken, chickpeas and vegetables with harissa and oil. Roast, turning once, until chicken is cooked to 74°C/165°F.",
+        "Squeeze lemon over everything."
+      ],
+      "tip": "Harissa is spicy and aromatic; start with less if unfamiliar."
+    },
+    "tunabeans": {
+      "id": "tunabeans",
+      "title": "Tuna, white bean and potato salad",
+      "minutes": 12,
+      "servings": 1,
+      "ingredients": [
+        "2 cans light tuna, drained",
+        "¾ cup white beans, drained",
+        "250 g baby potatoes",
+        "1 cup cherry tomatoes, halved",
+        "2 tsp olive oil",
+        "Lemon juice, parsley, garlic and pepper"
+      ],
+      "steps": [
+        "Microwave potatoes until tender; cool slightly.",
+        "Whisk oil, lemon and garlic.",
+        "Toss with tuna, beans, tomatoes and parsley."
+      ],
+      "tip": "Capers or a teaspoon of Dijon make the dressing sharper."
+    },
+    "koreanbeef": {
+      "id": "koreanbeef",
+      "title": "Korean-style sticky beef bowl",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g lean beef strips",
+        "1½ cups cooked rice",
+        "2 cups broccoli and mushrooms",
+        "1 tbsp soy sauce",
+        "1 tsp brown sugar",
+        "1 tsp sesame oil",
+        "Garlic, ginger and chili flakes"
+      ],
+      "steps": [
+        "Sear beef strips over high heat and remove when cooked.",
+        "Cook broccoli and mushrooms until tender-crisp.",
+        "Return beef; toss with soy, sugar, sesame oil, garlic and ginger. Serve over rice."
+      ],
+      "tip": "Optional sesame seeds and scallions add texture."
+    },
+    "tomatocurry": {
+      "id": "tomatocurry",
+      "title": "Tomato–coconut chicken curry",
+      "minutes": 20,
+      "servings": 1,
+      "ingredients": [
+        "250 g chicken breast or thigh, cubed",
+        "¾ cup canned crushed tomatoes",
+        "½ cup light coconut milk",
+        "2 cups baby spinach",
+        "1½ cups cooked basmati rice",
+        "Curry powder, garam masala, garlic and ginger"
+      ],
+      "steps": [
+        "Sear seasoned chicken until browned.",
+        "Add tomato, coconut milk, garlic, ginger and spices; simmer until chicken reaches 74°C/165°F.",
+        "Stir in spinach and serve over rice."
+      ],
+      "tip": "Toast the dry spices in the pan for 20 seconds before adding liquids."
+    },
+    "stickypork": {
+      "id": "stickypork",
+      "title": "Sticky sesame pork udon",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g lean pork strips",
+        "200 g ready-to-use udon noodles",
+        "2 cups frozen stir-fry vegetables",
+        "1 tbsp soy sauce",
+        "1 tbsp sweet chili sauce",
+        "1 tsp sesame oil",
+        "Garlic and sesame seeds"
+      ],
+      "steps": [
+        "Sear pork in a hot skillet until cooked.",
+        "Add vegetables and cook until heated through.",
+        "Stir in noodles and sauces; toss until glossy, finish with sesame seeds."
+      ],
+      "tip": "Keep the pan hot so the vegetables don’t go soggy."
+    },
+    "restaurant": {
+      "id": "restaurant",
+      "title": "Your regular restaurant breakfast",
+      "minutes": 0,
+      "servings": 1,
+      "ingredients": [
+        "2 eggs",
+        "2 sausages",
+        "2 slices rye bread",
+        "A generous serving of breakfast potatoes"
+      ],
+      "steps": [
+        "Enjoy your usual Saturday and Sunday breakfast.",
+        "For planning, estimate approximately 850–1,100 kcal; restaurant recipes and portion sizes vary."
+      ],
+      "tip": "This is intentionally unchanged. No need to remove the rye bread from this meal."
+    },
+    "shakechoc": {
+      "id": "shakechoc",
+      "title": "Chocolate–banana shake (make 3)",
+      "minutes": 5,
+      "servings": 3,
+      "ingredients": [
+        "PER SHAKE: 1½ scoops chocolate whey",
+        "30 g rolled oats",
+        "1 tbsp peanut butter",
+        "½ banana",
+        "Unsweetened cocoa, water and ice"
+      ],
+      "steps": [
+        "Blend oats with water first for a smoother drink.",
+        "Add the remaining ingredients and blend thoroughly.",
+        "Repeat for three shakes spread throughout Wednesday."
+      ],
+      "tip": "Three shakes provide roughly 1,250–1,450 kcal and 125–150 g protein in total, depending on the whey. Use the label for precision."
+    },
+    "shakeberry": {
+      "id": "shakeberry",
+      "title": "Vanilla–berry shake (make 3)",
+      "minutes": 5,
+      "servings": 3,
+      "ingredients": [
+        "PER SHAKE: 1½ scoops vanilla whey",
+        "30 g rolled oats",
+        "1 tbsp almond or peanut butter",
+        "100 g frozen berries",
+        "Cinnamon, water and ice"
+      ],
+      "steps": [
+        "Blend oats with water first.",
+        "Add whey, nut butter, berries and ice; blend until creamy.",
+        "Repeat for three shakes spread throughout Wednesday."
+      ],
+      "tip": "Whey smoothies alone are not a nutritionally complete long-term meal-replacement regimen."
+    }
+  },
+  "weeks": [
+    [
+      {
+        "day": "Monday",
+        "subtitle": "Spicy & savoury",
+        "lunch": "tuna",
+        "dinner": "gingerbeef"
+      },
+      {
+        "day": "Tuesday",
+        "subtitle": "Lemon & smoky",
+        "lunch": "lemonpotato",
+        "dinner": "fajitas"
+      },
+      {
+        "day": "Wednesday",
+        "subtitle": "Protein day",
+        "lunch": null,
+        "dinner": "shakechoc"
+      },
+      {
+        "day": "Thursday",
+        "subtitle": "Fresh & maple",
+        "lunch": "fajitaleft",
+        "dinner": "salmon"
+      },
+      {
+        "day": "Friday",
+        "subtitle": "Italian & chili",
+        "lunch": "meatballs",
+        "dinner": "chili"
+      },
+      {
+        "day": "Saturday",
+        "subtitle": "Breakfast ritual",
+        "lunch": "restaurant",
+        "dinner": "porkchop"
+      },
+      {
+        "day": "Sunday",
+        "subtitle": "Breakfast & Thai",
+        "lunch": "restaurant",
+        "dinner": "thaicurry"
+      }
+    ],
+    [
+      {
+        "day": "Monday",
+        "subtitle": "Comfort & Mediterranean",
+        "lunch": "chilipotato",
+        "dinner": "oregano"
+      },
+      {
+        "day": "Tuesday",
+        "subtitle": "Peanut & smoky",
+        "lunch": "peanutnoodle",
+        "dinner": "tacoskillet"
+      },
+      {
+        "day": "Wednesday",
+        "subtitle": "Protein day",
+        "lunch": null,
+        "dinner": "shakeberry"
+      },
+      {
+        "day": "Thursday",
+        "subtitle": "Bright & spicy",
+        "lunch": "shrimpmango",
+        "dinner": "harissa"
+      },
+      {
+        "day": "Friday",
+        "subtitle": "Fresh & sticky",
+        "lunch": "tunabeans",
+        "dinner": "koreanbeef"
+      },
+      {
+        "day": "Saturday",
+        "subtitle": "Breakfast ritual",
+        "lunch": "restaurant",
+        "dinner": "tomatocurry"
+      },
+      {
+        "day": "Sunday",
+        "subtitle": "Breakfast & noodles",
+        "lunch": "restaurant",
+        "dinner": "stickypork"
+      }
+    ]
+  ],
+  "notes": [
+    "Nutrition figures are planning estimates, not measured values. Use ingredient labels and adjust portions to match targets.",
+    "On regular days add a protein-rich snack and optional 150–200 kcal dessert. Add a second shake or larger protein portion if needed.",
+    "Restaurant breakfast has substantial uncertainty; no fixed meal calories are promised.",
+    "Wednesday shakes are not nutritionally complete. Supplements do not make a low-variety liquid diet equivalent to balanced meals.",
+    "Cook chicken to 74°C/165°F; refrigerate leftovers promptly.",
+    "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels."
+  ]
+}
