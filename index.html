@@ -2,15 +2,15 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101923"><meta name="description" content="A simple, flavour-first, 14-day meal rotation with recipes, shopping lists and Wednesdays for protein shakes."><title>My 14-Day Meal Plan</title>
 <style>
 :root{color-scheme:dark;--bg:#101923;--panel:#192530;--panel2:#22313c;--line:#35454e;--text:#f6f4ec;--muted:#afbcc2;--mint:#a6dbb0;--gold:#f2c780;--red:#f39b8c;--radius:18px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0;line-height:1.5}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:2px}a{color:var(--mint)}.wrap{max-width:1080px;margin:auto;padding:0 20px}.top{position:sticky;top:0;z-index:10;background:rgba(16,25,35,.96);backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}.topin{display:flex;align-items:center;gap:16px;justify-content:space-between;min-height:72px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:800;letter-spacing:-.03em;font-size:19px}.brandmark{width:34px;height:34px;border-radius:11px;background:var(--mint);color:#13261e;display:grid;place-items:center;font-size:20px}.nav{display:flex;gap:5px;overflow:auto}.nav button,.utility button,.smallbtn{border:1px solid transparent;background:none;color:var(--muted);border-radius:11px;padding:9px 12px;font-weight:650}.nav button:hover,.nav button[aria-selected=true]{background:var(--panel2);color:var(--text)}.hero{padding:47px 0 28px;display:grid;grid-template-columns:1.25fr .75fr;gap:22px;align-items:end}.kicker{text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:800;color:var(--mint)}h1{font-size:clamp(35px,5.2vw,62px);line-height:1.07;letter-spacing:-.055em;margin:8px 0 14px}h2{letter-spacing:-.035em;font-size:28px;margin:0}h3{letter-spacing:-.025em}p{margin:0}.lead{color:var(--muted);max-width:580px;font-size:16px}.heroStat{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(120deg,#23372e,var(--panel));padding:22px;display:grid;gap:13px}.statRow{display:grid;grid-template-columns:1fr 1fr;gap:10px}.statRow span{display:block;color:var(--muted);font-size:12px}.statRow strong{display:block;font-size:19px;letter-spacing:-.025em}.statRow .full{grid-column:span 2}.controlbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:22px 0 17px}.seg{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px}.seg button{border:0;background:none;color:var(--muted);font-weight:750;padding:9px 18px;border-radius:10px}.seg button[aria-pressed=true]{background:var(--mint);color:#18261c}.utility{display:flex;gap:6px;flex-wrap:wrap}.utility button{border-color:var(--line);background:var(--panel);color:var(--text)}.days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}.day{border:1px solid var(--line);border-radius:14px;background:var(--panel);min-height:85px;color:var(--text);text-align:left;padding:12px 8px;transition:border-color .15s,background .15s}.day:hover{border-color:var(--mint)}.day[aria-pressed=true]{background:#274334;border-color:var(--mint)}.day small{display:block;color:var(--muted);font-size:12px}.day strong{display:block;font-size:15px;margin:2px 0}.day em{font-size:11px;font-style:normal;color:var(--mint)}.panel{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);padding:23px}.dayHeading{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin:27px 0 17px}.dayHeading p{color:var(--muted);font-size:14px;margin-top:5px}.pill{display:inline-flex;align-items:center;gap:5px;border:1px solid #597363;color:var(--mint);background:#21392b;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700;white-space:nowrap}.mealgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.mealcard{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);overflow:hidden}.mealcard header{padding:17px 20px 14px;background:#21313b}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.mealcard h3{font-size:23px;letter-spacing:-.035em;margin:4px 0 6px}.mealcard .details{font-size:13px;color:var(--muted)}.mealcard .content{padding:16px 20px 20px}.mealcard h4{margin:0 0 8px;font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--mint)}ul.ingredients{list-style:none;margin:0 0 19px;padding:0;display:grid;gap:8px}.ingredients li{position:relative;padding-left:18px;font-size:14px;color:#dfe7e7}.ingredients li::before{content:'•';position:absolute;left:2px;color:var(--gold)}.steps{margin:0;padding-left:23px;display:grid;gap:9px}.steps li{font-size:14px;padding-left:3px}.tip{border-left:3px solid var(--gold);padding:8px 12px;margin-top:15px;background:#2b3236;font-size:13px;color:#e1e6e0}.note{border:1px solid var(--line);border-radius:14px;background:#202c33;padding:16px;margin:16px 0;font-size:14px;color:#d2ddde}.note strong{color:var(--text)}.snackstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 38px}.minicard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}.minicard strong{font-size:14px}.minicard p{font-size:13px;color:var(--muted);margin-top:5px}.sectionhead{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;margin:25px 0 17px}.muted{color:var(--muted)}.listitem{display:flex;align-items:flex-start;gap:10px;cursor:pointer;padding:10px 9px;border-bottom:1px solid var(--line);font-size:14px}.listitem:last-child{border:0}.listitem input{accent-color:#8bc99a;width:17px;height:17px;margin-top:2px;flex-shrink:0}.listitem:has(input:checked) span{text-decoration:line-through;color:var(--muted)}.groceries{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.groceries h3{margin:0 0 12px}.grow{width:100%}.search{width:100%;padding:13px 15px;border:1px solid var(--line);border-radius:12px;background:#101b23;color:var(--text);margin:8px 0 14px}.recipeDirectory{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.recipeButton{border:1px solid var(--line);border-radius:12px;padding:15px;background:var(--panel);text-align:left;color:var(--text)}.recipeButton strong{display:block;font-size:15px}.recipeButton small{color:var(--muted)}.recipeButton:hover{border-color:var(--mint)}.recipeButton[aria-expanded=true]{border-color:var(--mint);background:#213a2e}.fullRecipe{margin-top:12px}.settings{display:grid;grid-template-columns:1fr 1fr;gap:14px}.settings textarea{width:100%;min-height:135px;background:var(--bg);color:var(--text);padding:12px;border:1px solid var(--line);border-radius:12px;resize:vertical}.footer{border-top:1px solid var(--line);margin-top:38px;padding:23px 0 45px;font-size:12px;color:var(--muted)}.hidden{display:none!important}.section{min-height:430px}.table{display:grid;grid-template-columns:1fr 1fr;gap:15px}.noteItem{font-size:13px;color:var(--muted);margin:7px 0}.accent{color:var(--mint)}.toast{position:fixed;bottom:22px;right:22px;background:var(--mint);padding:10px 16px;border-radius:12px;color:#13261e;font-weight:750;box-shadow:0 9px 32px #0007;z-index:20;opacity:0;pointer-events:none;transition:.2s}.toast.show{opacity:1}@media(max-width:760px){.topin{flex-wrap:wrap;padding:10px 0;gap:6px}.nav{width:100%;justify-content:space-between}.nav button{font-size:13px;padding:8px}.hero{grid-template-columns:1fr;padding-top:30px}.heroStat{padding:17px}.days{display:flex;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory}.day{min-width:95px;scroll-snap-align:start}.mealgrid,.snackstrip,.settings,.table,.groceries,.recipeDirectory{grid-template-columns:1fr}.dayHeading{align-items:start}.dayHeading h2{font-size:24px}.panel{padding:17px}}@media print{body{background:white;color:black}.top,.controlbar,.days,.utility,.footer,#shopping,#recipes,#settings,.snackstrip,.toast{display:none!important}.wrap{max-width:none}.hero{padding:0;display:block}.heroStat{display:none}.mealgrid{grid-template-columns:1fr 1fr}.mealcard,.panel{color:black;background:white;border-color:#bbb}.mealcard header{background:#f4f4f4;color:black}.mealcard h4,.eyebrow{color:#333}.mealcard .details,.ingredients li,.steps li,.tip,.lead,.dayHeading p{color:#333}.mealcard{break-inside:avoid}}
- .langseg{flex-shrink:0}.langseg button{padding:7px 11px;font-size:12px}.langseg button[aria-pressed=true]{background:var(--mint);color:#152219}@media(max-width:720px){.topin{gap:8px;flex-wrap:wrap;padding:10px 0}.nav{order:3;width:100%;justify-content:space-around}.nav button{padding:8px;font-size:12px}.langseg{margin-left:auto}} </style></head><body><header class="top"><div class="wrap topin"><a href="#plan" class="brand"><span class="brandmark">✳</span> The 14-Day Rotation</a><nav class="nav" aria-label="Sections"><button data-nav="plan" aria-selected="true">📅 Plan</button><button data-nav="recipes">🍳 Recipes</button><button data-nav="shopping">🛒 Groceries</button><button data-nav="settings">⚙️ Notes</button></nav><div class="seg langseg" role="group" aria-label="Language / Langue"><button type="button" data-lang="en" aria-pressed="true" title="English">EN</button><button type="button" data-lang="fr" aria-pressed="false" title="Français">FR</button></div></div></header>
+ .langseg{flex-shrink:0}.langseg button{padding:7px 11px;font-size:12px}.langseg button[aria-pressed=true]{background:var(--mint);color:#152219}@media(max-width:720px){.topin{gap:8px;flex-wrap:wrap;padding:10px 0}.nav{order:3;width:100%;justify-content:space-around}.nav button{padding:8px;font-size:12px}.langseg{margin-left:auto}} .nutrition{margin-top:13px;padding:10px 12px;border-radius:11px;background:#15252a;border:1px solid #40585c;display:flex;flex-wrap:wrap;align-items:center;gap:6px 15px}.nutrition-cal{display:flex;gap:8px;align-items:baseline}.nutrition-cal strong{font-size:18px;color:var(--mint);white-space:nowrap}.nutrition-cal small{font-size:11px;color:var(--muted)}.nutrition-macros{display:flex;flex-wrap:wrap;gap:7px 12px;font-size:12px;color:#e0e8e3}.nutrition-summary{flex:1 0 100%;padding-top:5px;border-top:1px solid #40585c;font-size:12px;color:var(--gold)}.recipeButton .macroPreview{display:block;font-size:12px;color:var(--mint);font-weight:600;margin-top:3px}#nutritionNotice{margin-top:-6px;margin-bottom:26px;font-size:12px;line-height:1.5;color:var(--muted)}</style></head><body><header class="top"><div class="wrap topin"><a href="#plan" class="brand"><span class="brandmark">✳</span> The 14-Day Rotation</a><nav class="nav" aria-label="Sections"><button data-nav="plan" aria-selected="true">📅 Plan</button><button data-nav="recipes">🍳 Recipes</button><button data-nav="shopping">🛒 Groceries</button><button data-nav="settings">⚙️ Notes</button></nav><div class="seg langseg" role="group" aria-label="Language / Langue"><button type="button" data-lang="en" aria-pressed="true" title="English">EN</button><button type="button" data-lang="fr" aria-pressed="false" title="Français">FR</button></div></div></header>
 <main class="wrap"><section class="hero"><div><div class="kicker">Simple to cook • Good to eat • Repeatable</div><h1>Food you'll actually<br><span class="accent">look forward to.</span></h1><p class="lead">A two-week meal rotation with real recipes, zero cheese, little bread or milk, your favourite weekend breakfasts, and a dedicated shake day every Wednesday.</p></div><aside class="heroStat" aria-label="Plan targets"><div class="statRow"><div><span>Regular-day target</span><strong>2,350–2,500</strong><span>kcal</span></div><div><span>Protein goal</span><strong>150–180 g</strong><span>on regular days</span></div><div class="full"><span>Wednesday</span><strong>~1,350 kcal · 3 shakes</strong></div></div></aside></section>
-<section id="plan" class="section"><div class="controlbar"><div class="seg" role="group" aria-label="Select week"><button data-week="0" aria-pressed="true">Week 1</button><button data-week="1" aria-pressed="false">Week 2</button></div><div class="utility"><button id="today">↗ Today</button><button id="copyDay">⧉ Copy this day</button><button onclick="window.print()">⎙ Print</button></div></div><div class="days" id="dayTabs"></div><div class="dayHeading"><div><div class="kicker" id="dayKicker">WEEK 1 · MONDAY</div><h2 id="dayTitle">Spicy & savoury</h2><p id="dayDescription"></p></div><span id="dayBadge" class="pill">2 meals</span></div><div id="mealGrid" class="mealgrid"></div><div id="dailyNote" class="note"></div><div class="sectionhead"><h2>Keep it flexible</h2></div><div class="snackstrip"><div class="minicard"><strong>Protein-rich snack</strong><p>Whey with water, fruit and almonds; or eggs, edamame and fruit. Adjust the amount to help reach the day's protein/calorie targets.</p></div><div class="minicard"><strong>Dessert stays</strong><p>Budget 150–200 kcal when you want something sweet. No ban on chocolate or ice cream.</p></div><div class="minicard"><strong>Morning routine</strong><p>If you take supplements, account for any calories. They don't replace a balanced diet.</p></div></div></section>
+<section id="plan" class="section"><div class="controlbar"><div class="seg" role="group" aria-label="Select week"><button data-week="0" aria-pressed="true">Week 1</button><button data-week="1" aria-pressed="false">Week 2</button></div><div class="utility"><button id="today">↗ Today</button><button id="copyDay">⧉ Copy this day</button><button onclick="window.print()">⎙ Print</button></div></div><div class="days" id="dayTabs"></div><div class="dayHeading"><div><div class="kicker" id="dayKicker">WEEK 1 · MONDAY</div><h2 id="dayTitle">Spicy & savoury</h2><p id="dayDescription"></p></div><span id="dayBadge" class="pill">2 meals</span></div><div id="mealGrid" class="mealgrid"></div><div id="dailyNote" class="note"></div><p id="nutritionNotice">Nutrition estimates are per portion; brands and cooking methods vary. Snacks, desserts and supplements are not included.</p><div class="sectionhead"><h2>Keep it flexible</h2></div><div class="snackstrip"><div class="minicard"><strong>Protein-rich snack</strong><p>Whey with water, fruit and almonds; or eggs, edamame and fruit. Adjust the amount to help reach the day's protein/calorie targets.</p></div><div class="minicard"><strong>Dessert stays</strong><p>Budget 150–200 kcal when you want something sweet. No ban on chocolate or ice cream.</p></div><div class="minicard"><strong>Morning routine</strong><p>If you take supplements, account for any calories. They don't replace a balanced diet.</p></div></div></section>
 <section id="recipes" class="section hidden"><div class="sectionhead"><div><div class="kicker">Browse all recipes</div><h2>Recipe library</h2></div><span class="muted" id="recipeCount"></span></div><input id="recipeSearch" class="search" type="search" placeholder="Search chicken, curry, noodles, quick meals..." aria-label="Search recipes"><div class="recipeDirectory" id="recipeDirectory"></div><div id="selectedRecipe"></div></section>
 <section id="shopping" class="section hidden"><div class="sectionhead"><div><div class="kicker">Tap to check off</div><h2>Weekly groceries</h2></div><div class="seg"><button data-shopweek="0" aria-pressed="true">Week 1</button><button data-shopweek="1" aria-pressed="false">Week 2</button></div></div><p class="muted" style="margin-bottom:15px">Grouped for speed, rather than exact aggregated weights. Check individual recipes for amounts; buy fresh fish close to cooking day or use frozen.</p><div id="groceryGrid" class="groceries"></div><div class="utility" style="margin-top:18px"><button id="copyGroceries">⧉ Copy list</button><button id="clearGroceries">↺ Reset checks</button></div></section>
-<section id="settings" class="section hidden"><div class="sectionhead"><div><div class="kicker">Your plan, your adjustments</div><h2>Notes & sharing</h2></div></div><div class="settings"><div class="panel"><h3 style="margin-top:0">Recipe notes</h3><p class="muted" style="margin-bottom:12px;font-size:13px">Record swaps or meals you disliked. These notes stay in this browser, not automatically in ChatGPT.</p><textarea id="notes" placeholder="e.g. Loved the ginger beef, use extra lime in the shrimp curry..." aria-label="Personal meal notes"></textarea><p class="muted" style="font-size:12px;margin-top:8px">Automatically saved locally.</p></div><div class="panel"><h3 style="margin-top:0">Work with ChatGPT</h3><p class="muted" style="font-size:14px;margin-bottom:15px">For me to read the latest plan in another conversation, host <strong>index.html</strong> and <strong>plan.json</strong> at a URL and share the link. I can read the public JSON when asked, but I can't see private browser checkmarks and notes.</p><div class="utility"><button id="export">↓ Download plan.json</button><button id="copyForChat">⧉ Copy notes for ChatGPT</button></div></div></div><div class="panel" style="margin-top:15px"><h3 style="margin-top:0">Guidelines & assumptions</h3><div id="guidelines"></div></div></section></main><footer class="footer"><div class="wrap"><p>Version 1.0 · Personal planning tool · Nutrition values are estimates, not a medical prescription. Recipes are one serving unless marked otherwise.</p></div></footer><div id="toast" class="toast" aria-live="polite"></div>
+<section id="settings" class="section hidden"><div class="sectionhead"><div><div class="kicker">Your plan, your adjustments</div><h2>Notes & sharing</h2></div></div><div class="settings"><div class="panel"><h3 style="margin-top:0">Recipe notes</h3><p class="muted" style="margin-bottom:12px;font-size:13px">Record swaps or meals you disliked. These notes stay in this browser, not automatically in ChatGPT.</p><textarea id="notes" placeholder="e.g. Loved the ginger beef, use extra lime in the shrimp curry..." aria-label="Personal meal notes"></textarea><p class="muted" style="font-size:12px;margin-top:8px">Automatically saved locally.</p></div><div class="panel"><h3 style="margin-top:0">Work with ChatGPT</h3><p class="muted" style="font-size:14px;margin-bottom:15px">For me to read the latest plan in another conversation, host <strong>index.html</strong> and <strong>plan.json</strong> at a URL and share the link. I can read the public JSON when asked, but I can't see private browser checkmarks and notes.</p><div class="utility"><button id="export">↓ Download plan.json</button><button id="copyForChat">⧉ Copy notes for ChatGPT</button></div></div></div><div class="panel" style="margin-top:15px"><h3 style="margin-top:0">Guidelines & assumptions</h3><div id="guidelines"></div></div></section></main><footer class="footer"><div class="wrap"><p>Version 1.2 · Personal planning tool · Nutrition values are estimates, not a medical prescription. Recipes are one serving unless marked otherwise.</p></div></footer><div id="toast" class="toast" aria-live="polite"></div>
 <script id="plan-data" type="application/json">{
   "title": "The 14-Day Rotation",
-  "version": "1.0 · November 2026",
+  "version": "1.2 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -46,7 +46,14 @@
         "Mix soy, lime and sriracha; toss with tuna.",
         "Add avocado and cucumber over rice; drizzle sauce."
       ],
-      "tip": "Toss in chili crisp for crunch; measure it if using more than a teaspoon."
+      "tip": "Toss in chili crisp for crunch; measure it if using more than a teaspoon.",
+      "nutrition": {
+        "calories": 760,
+        "protein_g": 70,
+        "carbs_g": 80,
+        "fat_g": 18,
+        "basis": "per_portion"
+      }
     },
     "gingerbeef": {
       "id": "gingerbeef",
@@ -67,7 +74,14 @@
         "Brown beef in a skillet; add broccoli and cook until hot.",
         "Stir together soy, honey, sesame oil, garlic and ginger; add to pan, toss with noodles."
       ],
-      "tip": "A splash of rice vinegar or lime gives the sauce more bite."
+      "tip": "A splash of rice vinegar or lime gives the sauce more bite.",
+      "nutrition": {
+        "calories": 880,
+        "protein_g": 65,
+        "carbs_g": 88,
+        "fat_g": 30,
+        "basis": "per_portion"
+      }
     },
     "lemonpotato": {
       "id": "lemonpotato",
@@ -87,7 +101,14 @@
         "Warm cooked chicken if preferred.",
         "Whisk olive oil, Dijon, lemon and oregano; toss everything together."
       ],
-      "tip": "Use cooked chicken strips or rotisserie chicken to keep this nearly no-prep."
+      "tip": "Use cooked chicken strips or rotisserie chicken to keep this nearly no-prep.",
+      "nutrition": {
+        "calories": 725,
+        "protein_g": 77,
+        "carbs_g": 65,
+        "fat_g": 17,
+        "basis": "per_portion"
+      }
     },
     "fajitas": {
       "id": "fajitas",
@@ -108,7 +129,14 @@
         "Sear chicken in oil until cooked to 74°C/165°F. Add peppers and onions; cook until tender-crisp.",
         "Serve half over rice with salsa and lime. Refrigerate the other half promptly for Thursday lunch."
       ],
-      "tip": "Double the vegetables if hungry; the second portion makes Thursday lunch easy."
+      "tip": "Double the vegetables if hungry; the second portion makes Thursday lunch easy.",
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 54,
+        "carbs_g": 64,
+        "fat_g": 15,
+        "basis": "per_portion"
+      }
     },
     "fajitaleft": {
       "id": "fajitaleft",
@@ -126,7 +154,14 @@
         "Microwave rice, leftover chicken and beans until piping hot.",
         "Add corn, salsa and lime."
       ],
-      "tip": "Leftover cooked chicken should be refrigerated promptly and used within 3–4 days."
+      "tip": "Leftover cooked chicken should be refrigerated promptly and used within 3–4 days.",
+      "nutrition": {
+        "calories": 830,
+        "protein_g": 65,
+        "carbs_g": 109,
+        "fat_g": 15,
+        "basis": "per_portion"
+      }
     },
     "salmon": {
       "id": "salmon",
@@ -147,7 +182,14 @@
         "Combine Dijon and maple syrup; brush salmon and cook until done (about 10–14 minutes depending on thickness).",
         "Steam beans; finish with lemon."
       ],
-      "tip": "For less cleanup, use foil or a parchment-lined tray."
+      "tip": "For less cleanup, use foil or a parchment-lined tray.",
+      "nutrition": {
+        "calories": 880,
+        "protein_g": 54,
+        "carbs_g": 81,
+        "fat_g": 38,
+        "basis": "per_portion"
+      }
     },
     "meatballs": {
       "id": "meatballs",
@@ -167,7 +209,14 @@
         "Warm oil and garlic; stir in marinara and spinach until wilted.",
         "Toss with pasta and meatballs; finish with chili flakes and basil."
       ],
-      "tip": "Look for meatballs without cheese if you dislike that flavour."
+      "tip": "Look for meatballs without cheese if you dislike that flavour.",
+      "nutrition": {
+        "calories": 875,
+        "protein_g": 58,
+        "carbs_g": 88,
+        "fat_g": 32,
+        "basis": "per_portion"
+      }
     },
     "chili": {
       "id": "chili",
@@ -188,7 +237,14 @@
         "Add tomatoes, beans and spices. Simmer 15 minutes, stirring occasionally.",
         "Eat one portion; cool and freeze at least one additional portion for next Monday."
       ],
-      "tip": "Makes about 3 portions; top with chopped onion, cilantro and hot sauce."
+      "tip": "Makes about 3 portions; top with chopped onion, cilantro and hot sauce.",
+      "nutrition": {
+        "calories": 560,
+        "protein_g": 47,
+        "carbs_g": 45,
+        "fat_g": 21,
+        "basis": "per_portion"
+      }
     },
     "porkchop": {
       "id": "porkchop",
@@ -208,7 +264,14 @@
         "Season pork with paprika and garlic; pan-sear to safe doneness and rest.",
         "Toss cabbage with vinegar and lime; plate together."
       ],
-      "tip": "A little hot sauce in the slaw makes it brighter."
+      "tip": "A little hot sauce in the slaw makes it brighter.",
+      "nutrition": {
+        "calories": 730,
+        "protein_g": 57,
+        "carbs_g": 80,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "thaicurry": {
       "id": "thaicurry",
@@ -228,7 +291,14 @@
         "Add coconut milk and vegetables; simmer until vegetables are hot.",
         "Add shrimp and cook until opaque; serve over rice with lime."
       ],
-      "tip": "Curry pastes vary dramatically in heat—start with 1 tbsp."
+      "tip": "Curry pastes vary dramatically in heat—start with 1 tbsp.",
+      "nutrition": {
+        "calories": 855,
+        "protein_g": 67,
+        "carbs_g": 100,
+        "fat_g": 21,
+        "basis": "per_portion"
+      }
     },
     "chilipotato": {
       "id": "chilipotato",
@@ -246,7 +316,14 @@
         "Reheat thawed chili until piping hot.",
         "Split potato, spoon chili over it and add onion and hot sauce."
       ],
-      "tip": "If the portion is small, add a handful of extra beans."
+      "tip": "If the portion is small, add a handful of extra beans.",
+      "nutrition": {
+        "calories": 845,
+        "protein_g": 54,
+        "carbs_g": 108,
+        "fat_g": 22,
+        "basis": "per_portion"
+      }
     },
     "oregano": {
       "id": "oregano",
@@ -266,7 +343,14 @@
         "Pan-sear in olive oil until chicken reaches 74°C/165°F.",
         "Serve with warm rice and tomato-cucumber salad dressed with lemon."
       ],
-      "tip": "A generous amount of lemon keeps this tasting fresh without a cream sauce."
+      "tip": "A generous amount of lemon keeps this tasting fresh without a cream sauce.",
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 59,
+        "carbs_g": 82,
+        "fat_g": 15,
+        "basis": "per_portion"
+      }
     },
     "peanutnoodle": {
       "id": "peanutnoodle",
@@ -286,7 +370,14 @@
         "Whisk peanut butter, soy, lime, chili and enough warm water for a pourable sauce.",
         "Toss noodles with chicken, crunchy vegetables and sauce."
       ],
-      "tip": "Add extra lime and chili instead of extra peanut butter for a stronger flavour."
+      "tip": "Add extra lime and chili instead of extra peanut butter for a stronger flavour.",
+      "nutrition": {
+        "calories": 820,
+        "protein_g": 65,
+        "carbs_g": 95,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "tacoskillet": {
       "id": "tacoskillet",
@@ -307,7 +398,14 @@
         "Add beans and corn; cook until heated through.",
         "Serve over warm rice with diced avocado and salsa."
       ],
-      "tip": "For a little heat, add chipotle in adobo or pickled jalapeños."
+      "tip": "For a little heat, add chipotle in adobo or pickled jalapeños.",
+      "nutrition": {
+        "calories": 940,
+        "protein_g": 60,
+        "carbs_g": 108,
+        "fat_g": 30,
+        "basis": "per_portion"
+      }
     },
     "shrimpmango": {
       "id": "shrimpmango",
@@ -327,7 +425,14 @@
         "Mix diced mango and cucumber with lime and chili flakes.",
         "Serve over rice and finish with cilantro."
       ],
-      "tip": "Frozen mango chunks can work too—thaw before serving."
+      "tip": "Frozen mango chunks can work too—thaw before serving.",
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 64,
+        "carbs_g": 86,
+        "fat_g": 11,
+        "basis": "per_portion"
+      }
     },
     "harissa": {
       "id": "harissa",
@@ -347,7 +452,14 @@
         "Toss chicken, chickpeas and vegetables with harissa and oil. Roast, turning once, until chicken is cooked to 74°C/165°F.",
         "Squeeze lemon over everything."
       ],
-      "tip": "Harissa is spicy and aromatic; start with less if unfamiliar."
+      "tip": "Harissa is spicy and aromatic; start with less if unfamiliar.",
+      "nutrition": {
+        "calories": 645,
+        "protein_g": 63,
+        "carbs_g": 55,
+        "fat_g": 19,
+        "basis": "per_portion"
+      }
     },
     "tunabeans": {
       "id": "tunabeans",
@@ -367,7 +479,14 @@
         "Whisk oil, lemon and garlic.",
         "Toss with tuna, beans, tomatoes and parsley."
       ],
-      "tip": "Capers or a teaspoon of Dijon make the dressing sharper."
+      "tip": "Capers or a teaspoon of Dijon make the dressing sharper.",
+      "nutrition": {
+        "calories": 740,
+        "protein_g": 75,
+        "carbs_g": 83,
+        "fat_g": 12,
+        "basis": "per_portion"
+      }
     },
     "koreanbeef": {
       "id": "koreanbeef",
@@ -388,7 +507,14 @@
         "Cook broccoli and mushrooms until tender-crisp.",
         "Return beef; toss with soy, sugar, sesame oil, garlic and ginger. Serve over rice."
       ],
-      "tip": "Optional sesame seeds and scallions add texture."
+      "tip": "Optional sesame seeds and scallions add texture.",
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 62,
+        "carbs_g": 85,
+        "fat_g": 28,
+        "basis": "per_portion"
+      }
     },
     "tomatocurry": {
       "id": "tomatocurry",
@@ -408,7 +534,14 @@
         "Add tomato, coconut milk, garlic, ginger and spices; simmer until chicken reaches 74°C/165°F.",
         "Stir in spinach and serve over rice."
       ],
-      "tip": "Toast the dry spices in the pan for 20 seconds before adding liquids."
+      "tip": "Toast the dry spices in the pan for 20 seconds before adding liquids.",
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 64,
+        "carbs_g": 86,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "stickypork": {
       "id": "stickypork",
@@ -429,7 +562,14 @@
         "Add vegetables and cook until heated through.",
         "Stir in noodles and sauces; toss until glossy, finish with sesame seeds."
       ],
-      "tip": "Keep the pan hot so the vegetables don’t go soggy."
+      "tip": "Keep the pan hot so the vegetables don’t go soggy.",
+      "nutrition": {
+        "calories": 750,
+        "protein_g": 56,
+        "carbs_g": 86,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "restaurant": {
       "id": "restaurant",
@@ -446,7 +586,30 @@
         "Enjoy your usual Saturday and Sunday breakfast.",
         "For planning, estimate approximately 850–1,100 kcal; restaurant recipes and portion sizes vary."
       ],
-      "tip": "This is intentionally unchanged. No need to remove the rye bread from this meal."
+      "tip": "This is intentionally unchanged. No need to remove the rye bread from this meal.",
+      "nutrition": {
+        "calories": 1000,
+        "protein_g": 40,
+        "carbs_g": 100,
+        "fat_g": 49,
+        "calories_range": [
+          850,
+          1150
+        ],
+        "protein_range_g": [
+          30,
+          45
+        ],
+        "carbs_range_g": [
+          75,
+          120
+        ],
+        "fat_range_g": [
+          40,
+          65
+        ],
+        "basis": "per_portion"
+      }
     },
     "shakechoc": {
       "id": "shakechoc",
@@ -465,7 +628,14 @@
         "Add the remaining ingredients and blend thoroughly.",
         "Repeat for three shakes spread throughout Wednesday."
       ],
-      "tip": "Three shakes provide roughly 1,250–1,450 kcal and 125–150 g protein in total, depending on the whey. Use the label for precision."
+      "tip": "Three shakes provide roughly 1,250–1,450 kcal and 125–150 g protein in total, depending on the whey. Use the label for precision.",
+      "nutrition": {
+        "calories": 455,
+        "protein_g": 44,
+        "carbs_g": 43,
+        "fat_g": 12,
+        "basis": "per_shake"
+      }
     },
     "shakeberry": {
       "id": "shakeberry",
@@ -484,7 +654,14 @@
         "Add whey, nut butter, berries and ice; blend until creamy.",
         "Repeat for three shakes spread throughout Wednesday."
       ],
-      "tip": "Whey smoothies alone are not a nutritionally complete long-term meal-replacement regimen."
+      "tip": "Whey smoothies alone are not a nutritionally complete long-term meal-replacement regimen.",
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 44,
+        "carbs_g": 40,
+        "fat_g": 13,
+        "basis": "per_shake"
+      }
     }
   },
   "weeks": [
@@ -583,12 +760,32 @@
     "Restaurant breakfast has substantial uncertainty; no fixed meal calories are promised.",
     "Wednesday shakes are not nutritionally complete. Supplements do not make a low-variety liquid diet equivalent to balanced meals.",
     "Cook chicken to 74°C/165°F; refrigerate leftovers promptly.",
-    "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels."
+    "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels.",
+    "Per-meal calories and protein, carbohydrate, and fat are rough estimates from common food composition values and typical package labels; brand, raw/cooked weight, sauce and oil can change the result substantially."
   ]
 }</script><script>
 (()=>{'use strict';let P=JSON.parse(document.getElementById('plan-data').textContent);const P_EN=P;const $=id=>document.getElementById(id);const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));let week=0,day=0,shopWeek=0,section='plan';const dayNames=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];const getDay=()=>P.weeks[week][day];const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};const load=(k,d)=>{try{let v=localStorage.getItem(k);return v?JSON.parse(v):d}catch{return d}};let lang='en',FR=null;const tr=(en,fr)=>lang==='fr'?fr:en;const toast=msg=>{const el=$('toast');el.textContent=msg;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2100)};
 function showSection(name){section=name;document.querySelectorAll('.section').forEach(x=>x.classList.toggle('hidden',x.id!==name));document.querySelectorAll('[data-nav]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.nav===name)));if(location.hash.indexOf('w')<0)history.replaceState(null,'','#'+name)}
-function recipeCard(id,label){const r=P.recipes[id];return `<article class="mealcard"><header><div class="eyebrow">${label}</div><h3>${escapeHtml(r.title)}</h3><div class="details">⏱ ${r.minutes?`${r.minutes} min`:tr('Restaurant','Restaurant')} · ${r.servings} ${r.servings===1?tr('serving','portion'):tr('servings','portions')}</div></header><div class="content"><h4>${tr('What you need','Ingrédients')}</h4><ul class="ingredients">${r.ingredients.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h4>${tr('Make it','Préparation')}</h4><ol class="steps">${r.steps.map(s=>`<li>${escapeHtml(s)}</li>`).join('')}</ol>${r.tip?`<div class="tip">✦ ${escapeHtml(r.tip)}</div>`:''}</div></article>`}
+const fmtNum=n=>Math.round(n).toLocaleString(lang==='fr'?'fr-CA':'en-CA');
+const fmtRange=r=>r.map(fmtNum).join('–');
+function nutritionMarkup(r){
+ const n=r.nutrition;if(!n)return '';
+ const isShake=n.basis==='per_shake',baseLabel=isShake?tr('per shake','par shake'):tr('per portion','par portion');
+ const kcal=n.calories_range?fmtRange(n.calories_range):fmtNum(n.calories);
+ const p=n.protein_range_g?fmtRange(n.protein_range_g):fmtNum(n.protein_g);
+ const c=n.carbs_range_g?fmtRange(n.carbs_range_g):fmtNum(n.carbs_g);
+ const f=n.fat_range_g?fmtRange(n.fat_range_g):fmtNum(n.fat_g);
+ const total=isShake?'<div class="nutrition-summary">'+r.servings+' '+tr('shakes total','shakes au total')+' ≈ '+fmtNum(n.calories*r.servings)+' kcal · '+tr('Protein','Protéines')+' '+fmtNum(n.protein_g*r.servings)+' g · '+tr('Carbs','Glucides')+' '+fmtNum(n.carbs_g*r.servings)+' g · '+tr('Fat','Lipides')+' '+fmtNum(n.fat_g*r.servings)+' g</div>':'';
+ return '<div class="nutrition"><div class="nutrition-cal"><strong>≈ '+kcal+' kcal</strong><small>'+baseLabel+'</small></div><div class="nutrition-macros"><span>'+tr('Protein','Protéines')+' <strong>'+p+' g</strong></span><span>'+tr('Carbs','Glucides')+' <strong>'+c+' g</strong></span><span>'+tr('Fat','Lipides')+' <strong>'+f+' g</strong></span></div>'+total+'</div>';
+}
+function nutritionPreview(r){
+ const n=r.nutrition;if(!n)return '';
+ const p=n.protein_range_g?fmtRange(n.protein_range_g):n.protein_g;
+ const c=n.carbs_range_g?fmtRange(n.carbs_range_g):n.carbs_g;
+ const f=n.fat_range_g?fmtRange(n.fat_range_g):n.fat_g;
+ return '<span class="macroPreview">≈ '+(n.calories_range?fmtRange(n.calories_range):fmtNum(n.calories))+' kcal '+(n.basis==='per_shake'?tr('/ shake','/ shake'):tr('/ serving','/ portion'))+' · P '+p+'g · C '+c+'g · F '+f+'g</span>';
+}
+function recipeCard(id,label){const r=P.recipes[id];return `<article class="mealcard"><header><div class="eyebrow">${label}</div><h3>${escapeHtml(r.title)}</h3><div class="details">⏱ ${r.minutes?`${r.minutes} min`:tr('Restaurant','Restaurant')} · ${r.servings} ${r.servings===1?tr('serving','portion'):tr('servings','portions')}</div>${nutritionMarkup(r)}</header><div class="content"><h4>${tr('What you need','Ingrédients')}</h4><ul class="ingredients">${r.ingredients.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h4>${tr('Make it','Préparation')}</h4><ol class="steps">${r.steps.map(s=>`<li>${escapeHtml(s)}</li>`).join('')}</ol>${r.tip?`<div class="tip">✦ ${escapeHtml(r.tip)}</div>`:''}</div></article>`}
 function renderPlan(){document.querySelectorAll('[data-week]').forEach(x=>x.setAttribute('aria-pressed',String(+x.dataset.week===week)));$('dayTabs').innerHTML=P.weeks[week].map((d,i)=>`<button class="day" data-day="${i}" aria-pressed="${i===day}" aria-label="${d.day}"><small>${d.day.slice(0,3)}</small><strong>${d.day}</strong><em>${i===2?tr('Shake day','Journée shakes'):i>4?tr('Restaurant AM','Déjeuner au resto'):tr('2 meals','2 repas')}</em></button>`).join('');document.querySelectorAll('[data-day]').forEach(x=>x.onclick=()=>{day=+x.dataset.day;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});const d=getDay();$('dayKicker').textContent=`${tr('WEEK','SEMAINE')} ${week+1} · ${d.day.toUpperCase()}`;$('dayTitle').textContent=d.subtitle;$('dayDescription').textContent=day===2?tr('A semi-fast day with three filling, water-based protein shakes.','Une journée de semi-jeûne avec trois shakes protéinés rassasiants à base d’eau.'):day>4?tr('Your usual restaurant breakfast stays in the plan.','Ton déjeuner habituel au restaurant est conservé.'):tr('Two distinct, flavour-forward meals with simple preparation.','Deux repas différents, savoureux et faciles à préparer.');$('dayBadge').textContent=day===2?tr('3 shakes','3 shakes'):day>4?tr('Restaurant AM','Déjeuner au resto'):tr('2 meals','2 repas');$('mealGrid').style.gridTemplateColumns=day===2?'1fr':'';$('mealGrid').innerHTML=day===2?recipeCard(d.dinner,tr('ALL DAY · THREE SHAKES','TOUTE LA JOURNÉE · TROIS SHAKES')):recipeCard(d.lunch,day>4?tr('FIRST MEAL · RESTAURANT','PREMIER REPAS · RESTAURANT'):tr('LUNCH','DÎNER'))+recipeCard(d.dinner,tr('DINNER','SOUPER'));$('dailyNote').innerHTML=day===2?tr('<strong>Wednesday:</strong> Three shakes are roughly 1,250–1,450 kcal depending on your whey. This is not nutritionally complete; it is optional if hunger or training suffers.','<strong>Mercredi :</strong> Les trois shakes fournissent environ 1 250 à 1 450 kcal selon la whey. Ce menu liquide n’est pas complet sur le plan nutritionnel; il est facultatif si la faim ou l’entraînement en souffrent.'):day>4?tr('<strong>Weekend:</strong> Your restaurant breakfast could be 850–1,100+ kcal depending on preparation. Balance the rest of the day with your dinner and, if needed, a protein-rich snack.','<strong>Week-end :</strong> Le déjeuner au restaurant peut représenter de 850 à plus de 1 100 kcal selon la préparation. Ajuster le souper et ajouter une collation protéinée au besoin.'):tr('<strong>Daily target:</strong> These are meal recipes, not guaranteed daily totals. Add a protein-rich snack and optionally 150–200 kcal dessert; adjust rice, oil and protein portions using package labels.','<strong>Objectif du jour :</strong> Ces recettes ne garantissent pas le total calorique de la journée. Ajouter une collation protéinée et, au choix, un dessert de 150 à 200 kcal; ajuster les portions de riz, d’huile et de protéines selon les étiquettes.')}
 function jumpToday(){const local=new Date(),anchor=new Date('2026-11-16T12:00:00'),now=new Date(local.getFullYear(),local.getMonth(),local.getDate(),12);const diff=Math.floor((now-anchor)/86400000),dayIndex=((diff%7)+7)%7,weekIndex=((Math.floor(diff/7)%2)+2)%2;week=weekIndex;day=dayIndex;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`);showSection('plan')}
 let shopping=[
@@ -597,7 +794,7 @@ let shopping=[
 ];
 const shoppingEN=shopping;
 function renderShopping(){document.querySelectorAll('[data-shopweek]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.shopweek===shopWeek)));let done=load('groceries'+shopWeek,{});$('groceryGrid').innerHTML=Object.entries(shopping[shopWeek]).map(([cat,its],categoryIndex)=>`<div class="panel"><h3>${escapeHtml(cat)}</h3>${its.map((t,i)=>{const key='cat'+categoryIndex+'item'+i,legacyKey=Object.keys(shoppingEN[shopWeek])[categoryIndex]+i;return `<label class="listitem"><input type="checkbox" data-check="${escapeHtml(key)}" ${(done[key]??done[legacyKey])?'checked':''}><span>${escapeHtml(t)}</span></label>`}).join('')}</div>`).join('');document.querySelectorAll('[data-check]').forEach(el=>el.onchange=()=>{done[el.dataset.check]=el.checked;save('groceries'+shopWeek,done)})}
-function renderDirectory(){const q=$('recipeSearch').value.trim().toLowerCase();const items=Object.values(P.recipes).filter(x=>(x.title+' '+x.ingredients.join(' ')).toLowerCase().includes(q));$('recipeCount').textContent=items.length+tr(' recipes',' recettes');$('recipeDirectory').innerHTML=items.map(r=>`<button class="recipeButton" data-recipe="${r.id}" aria-expanded="false"><strong>${escapeHtml(r.title)}</strong><small>${r.minutes?r.minutes+' min':tr('Restaurant','Restaurant')} · ${r.servings} ${r.servings===1?tr('serving','portion'):tr('servings','portions')}</small></button>`).join('');document.querySelectorAll('[data-recipe]').forEach(el=>el.onclick=()=>{document.querySelectorAll('[data-recipe]').forEach(x=>x.setAttribute('aria-expanded','false'));el.setAttribute('aria-expanded','true');$('selectedRecipe').innerHTML=`<div class="fullRecipe">${recipeCard(el.dataset.recipe,tr('RECIPE','RECETTE'))}</div>`;$('selectedRecipe').scrollIntoView({behavior:'smooth',block:'nearest'})})}
+function renderDirectory(){const q=$('recipeSearch').value.trim().toLowerCase();const items=Object.values(P.recipes).filter(x=>(x.title+' '+x.ingredients.join(' ')).toLowerCase().includes(q));$('recipeCount').textContent=items.length+tr(' recipes',' recettes');$('recipeDirectory').innerHTML=items.map(r=>`<button class="recipeButton" data-recipe="${r.id}" aria-expanded="false"><strong>${escapeHtml(r.title)}</strong><small>${r.minutes?r.minutes+' min':tr('Restaurant','Restaurant')} · ${r.servings} ${r.servings===1?tr('serving','portion'):tr('servings','portions')}</small>${nutritionPreview(r)}</button>`).join('');document.querySelectorAll('[data-recipe]').forEach(el=>el.onclick=()=>{document.querySelectorAll('[data-recipe]').forEach(x=>x.setAttribute('aria-expanded','false'));el.setAttribute('aria-expanded','true');$('selectedRecipe').innerHTML=`<div class="fullRecipe">${recipeCard(el.dataset.recipe,tr('RECIPE','RECETTE'))}</div>`;$('selectedRecipe').scrollIntoView({behavior:'smooth',block:'nearest'})})}
 
 const staticOriginals={},placeholderOriginals={};
 function applyStaticLabels(){
@@ -628,7 +825,7 @@ async function setLanguage(next){
  }
  lang=next;
  P=lang==='fr'?FR:P_EN;shopping=lang==='fr'?FR.shopping:shoppingEN;
- save('meal-lang',lang);applyStaticLabels();
+ save('meal-lang',lang);applyStaticLabels();$('nutritionNotice').textContent=tr('Nutrition estimates are per portion; brands and cooking methods vary. Snacks, desserts and supplements are not included.','Valeurs nutritives estimées par portion; elles varient selon les marques et la cuisson. Les collations, desserts et suppléments ne sont pas inclus.');
  $('recipeSearch').value='';$('selectedRecipe').innerHTML='';
  $('guidelines').innerHTML=P.notes.map(s=>'<p class="noteItem">• '+escapeHtml(s)+'</p>').join('');
  renderPlan();renderShopping();renderDirectory();
