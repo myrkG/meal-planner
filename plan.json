@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "1.2 · November 2026",
+  "version": "1.3 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -25,14 +25,14 @@
       "servings": 1,
       "ingredients": [
         "2 cans light tuna, drained (about 220–240 g)",
-        "1½ cups cooked microwave rice",
+        "1½ cups cooked rice (rice cooker)",
         "½ avocado, diced",
         "½ cucumber, diced",
         "1 tsp soy sauce + lime juice",
         "Sriracha to taste"
       ],
       "steps": [
-        "Microwave rice and drain tuna.",
+        "Use previously cooked rice (warm it if preferred), and drain tuna.",
         "Mix soy, lime and sriracha; toss with tuna.",
         "Add avocado and cucumber over rice; drizzle sauce."
       ],
@@ -141,7 +141,7 @@
         "Salsa and fresh lime"
       ],
       "steps": [
-        "Microwave rice, leftover chicken and beans until piping hot.",
+        "Reheat cooked rice, leftover chicken and beans until piping hot.",
         "Add corn, salsa and lime."
       ],
       "tip": "Leftover cooked chicken should be refrigerated promptly and used within 3–4 days.",
@@ -751,6 +751,535 @@
     "Wednesday shakes are not nutritionally complete. Supplements do not make a low-variety liquid diet equivalent to balanced meals.",
     "Cook chicken to 74°C/165°F; refrigerate leftovers promptly.",
     "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels.",
-    "Per-meal calories and protein, carbohydrate, and fat are rough estimates from common food composition values and typical package labels; brand, raw/cooked weight, sauce and oil can change the result substantially."
-  ]
+    "Per-meal calories and protein, carbohydrate, and fat are rough estimates from common food composition values and typical package labels; brand, raw/cooked weight, sauce and oil can change the result substantially.",
+    "Rice and quinoa are stocked pantry items; rice portions in recipes refer to the cooked weight/volume, not dry rice or microwave pouches."
+  ],
+  "shopping": [
+    {
+      "Protein & refrigerated": [
+        {
+          "id": "chicken",
+          "name": "Chicken breasts or thighs (~1.1 kg)",
+          "iga": "p:chicken"
+        },
+        {
+          "id": "groundbeef",
+          "name": "Lean ground beef (~225 g)",
+          "iga": "p:groundbeef"
+        },
+        {
+          "id": "groundturkey",
+          "name": "Lean ground turkey (~600 g)",
+          "iga": "p:turkey"
+        },
+        {
+          "id": "salmon",
+          "name": "Salmon fillet (~225 g)",
+          "iga": "p:salmon"
+        },
+        {
+          "id": "porkchop",
+          "name": "Lean pork chop (~250 g)",
+          "iga": "c:pork"
+        },
+        {
+          "id": "shrimp",
+          "name": "Frozen peeled shrimp (~250 g)",
+          "iga": "c:shrimp"
+        },
+        {
+          "id": "tuna",
+          "name": "Light canned tuna (2 cans)",
+          "iga": "p:tuna"
+        },
+        {
+          "id": "meatballs",
+          "name": "Lean meatballs (~220 g)",
+          "iga": "c:meatballs"
+        },
+        {
+          "id": "whey",
+          "name": "Whey protein powder (3 Wednesday shakes)",
+          "iga": null
+        }
+      ],
+      "Produce & frozen": [
+        {
+          "id": "pepper",
+          "name": "Bell peppers (3–4)",
+          "iga": "p:pepper"
+        },
+        {
+          "id": "onion",
+          "name": "Onions (2–3)",
+          "iga": "p:onion"
+        },
+        {
+          "id": "cucumber",
+          "name": "Cucumbers (2)",
+          "iga": "c:cucumber"
+        },
+        {
+          "id": "tomatoes",
+          "name": "Tomatoes or cherry tomatoes",
+          "iga": "p:tomato"
+        },
+        {
+          "id": "broccoli",
+          "name": "Broccoli (fresh or frozen)",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "greenbeans",
+          "name": "Green beans (fresh or frozen)",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "cabbage",
+          "name": "Bagged cabbage slaw",
+          "iga": "c:produce"
+        },
+        {
+          "id": "spinach",
+          "name": "Spinach",
+          "iga": "c:produce"
+        },
+        {
+          "id": "potatoes",
+          "name": "Potatoes (~1 kg)",
+          "iga": "p:potato"
+        },
+        {
+          "id": "sweetpotato",
+          "name": "Sweet potatoes (~350 g)",
+          "iga": "c:potatoes"
+        },
+        {
+          "id": "lemons",
+          "name": "Lemons",
+          "iga": "c:citrus"
+        },
+        {
+          "id": "limes",
+          "name": "Limes",
+          "iga": "c:citrus"
+        },
+        {
+          "id": "avocado",
+          "name": "Avocado (1)",
+          "iga": "p:avocado"
+        },
+        {
+          "id": "bananas",
+          "name": "Bananas (2)",
+          "iga": "c:fruit"
+        },
+        {
+          "id": "stirfryveg",
+          "name": "Frozen stir-fry vegetables",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "garlic",
+          "name": "Garlic",
+          "iga": "c:produce"
+        },
+        {
+          "id": "ginger",
+          "name": "Fresh ginger",
+          "iga": "c:produce"
+        }
+      ],
+      "Beans & staples": [
+        {
+          "id": "pasta",
+          "name": "Dry pasta",
+          "iga": "c:pasta"
+        },
+        {
+          "id": "noodles",
+          "name": "Dry noodles",
+          "iga": "c:pasta"
+        },
+        {
+          "id": "oats",
+          "name": "Rolled oats",
+          "iga": "p:oats"
+        },
+        {
+          "id": "blackbeans",
+          "name": "Black beans (2 cans)",
+          "iga": "p:beans"
+        },
+        {
+          "id": "crushedtomatoes",
+          "name": "Crushed tomatoes (796 mL can)",
+          "iga": "c:canned"
+        },
+        {
+          "id": "corn",
+          "name": "Corn (frozen or canned)",
+          "iga": "c:canned"
+        },
+        {
+          "id": "coconutmilk",
+          "name": "Light coconut milk",
+          "iga": "p:coconut"
+        },
+        {
+          "id": "peanutbutter",
+          "name": "Peanut butter",
+          "iga": "p:peanut"
+        },
+        {
+          "id": "oliveoil",
+          "name": "Olive oil",
+          "iga": "p:olive"
+        }
+      ],
+      "Seasonings & extras": [
+        {
+          "id": "soysauce",
+          "name": "Soy sauce",
+          "iga": "p:soy"
+        },
+        {
+          "id": "sriracha",
+          "name": "Sriracha",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "dijon",
+          "name": "Dijon mustard",
+          "iga": "p:mustard"
+        },
+        {
+          "id": "maple",
+          "name": "Maple syrup",
+          "iga": "p:maple"
+        },
+        {
+          "id": "paprika",
+          "name": "Smoked paprika",
+          "iga": "c:spices"
+        },
+        {
+          "id": "cumin",
+          "name": "Cumin",
+          "iga": "c:spices"
+        },
+        {
+          "id": "chilipowder",
+          "name": "Chili powder",
+          "iga": "c:spices"
+        },
+        {
+          "id": "currypaste",
+          "name": "Thai red curry paste",
+          "iga": "p:curry"
+        },
+        {
+          "id": "marinara",
+          "name": "Marinara sauce",
+          "iga": "p:marinara"
+        },
+        {
+          "id": "salsa",
+          "name": "Salsa",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "honey",
+          "name": "Honey",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "sesameoil",
+          "name": "Sesame oil",
+          "iga": "p:sesameOil"
+        },
+        {
+          "id": "vinegar",
+          "name": "Apple cider vinegar",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "snacks",
+          "name": "Protein-rich snacks",
+          "iga": "c:grocery"
+        },
+        {
+          "id": "desserts",
+          "name": "Desserts of your choice",
+          "iga": "c:grocery"
+        }
+      ]
+    },
+    {
+      "Protein & refrigerated": [
+        {
+          "id": "chicken",
+          "name": "Chicken breasts or thighs (~1 kg)",
+          "iga": "p:chicken"
+        },
+        {
+          "id": "groundbeef",
+          "name": "Lean ground beef (~225 g)",
+          "iga": "p:groundbeef"
+        },
+        {
+          "id": "beefstrips",
+          "name": "Lean beef strips (~225 g)",
+          "iga": "c:beef"
+        },
+        {
+          "id": "porkstrips",
+          "name": "Lean pork strips (~225 g)",
+          "iga": "c:pork"
+        },
+        {
+          "id": "shrimp",
+          "name": "Frozen peeled shrimp (~250 g)",
+          "iga": "c:shrimp"
+        },
+        {
+          "id": "tuna",
+          "name": "Light canned tuna (2 cans)",
+          "iga": "p:tuna"
+        },
+        {
+          "id": "whey",
+          "name": "Whey protein powder (3 Wednesday shakes)",
+          "iga": null
+        }
+      ],
+      "Produce & frozen": [
+        {
+          "id": "cucumber",
+          "name": "Cucumbers (2)",
+          "iga": "c:cucumber"
+        },
+        {
+          "id": "tomatoes",
+          "name": "Tomatoes and cherry tomatoes",
+          "iga": "p:tomato"
+        },
+        {
+          "id": "pepper",
+          "name": "Bell peppers (2–3)",
+          "iga": "p:pepper"
+        },
+        {
+          "id": "onion",
+          "name": "Onions (2)",
+          "iga": "p:onion"
+        },
+        {
+          "id": "broccoli",
+          "name": "Broccoli",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "mushroom",
+          "name": "Mushrooms",
+          "iga": "c:produce"
+        },
+        {
+          "id": "cabbage",
+          "name": "Shredded cabbage",
+          "iga": "c:produce"
+        },
+        {
+          "id": "carrots",
+          "name": "Shredded carrots",
+          "iga": "c:produce"
+        },
+        {
+          "id": "stirfryveg",
+          "name": "Frozen stir-fry vegetables",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "spinach",
+          "name": "Spinach",
+          "iga": "c:produce"
+        },
+        {
+          "id": "potatoes",
+          "name": "Potatoes (~600 g)",
+          "iga": "p:potato"
+        },
+        {
+          "id": "mango",
+          "name": "Mango",
+          "iga": "c:tropical"
+        },
+        {
+          "id": "lemons",
+          "name": "Lemons",
+          "iga": "c:citrus"
+        },
+        {
+          "id": "limes",
+          "name": "Limes",
+          "iga": "c:citrus"
+        },
+        {
+          "id": "berries",
+          "name": "Frozen berries",
+          "iga": "c:frozenFruit"
+        },
+        {
+          "id": "avocado",
+          "name": "Avocado",
+          "iga": "p:avocado"
+        },
+        {
+          "id": "garlic",
+          "name": "Garlic",
+          "iga": "c:produce"
+        },
+        {
+          "id": "ginger",
+          "name": "Fresh ginger",
+          "iga": "c:produce"
+        },
+        {
+          "id": "parsley",
+          "name": "Parsley",
+          "iga": "c:herbs"
+        }
+      ],
+      "Beans & staples": [
+        {
+          "id": "ricenoodles",
+          "name": "Dry rice noodles",
+          "iga": "c:pasta"
+        },
+        {
+          "id": "udon",
+          "name": "Ready-to-use udon noodles",
+          "iga": "c:pasta"
+        },
+        {
+          "id": "oats",
+          "name": "Rolled oats",
+          "iga": "p:oats"
+        },
+        {
+          "id": "blackbeans",
+          "name": "Black beans",
+          "iga": "p:beans"
+        },
+        {
+          "id": "whitebeans",
+          "name": "White beans",
+          "iga": "p:whitebeans"
+        },
+        {
+          "id": "chickpeas",
+          "name": "Chickpeas",
+          "iga": "p:chickpeas"
+        },
+        {
+          "id": "crushedtomatoes",
+          "name": "Canned crushed tomatoes",
+          "iga": "c:canned"
+        },
+        {
+          "id": "coconutmilk",
+          "name": "Light coconut milk",
+          "iga": "p:coconut"
+        },
+        {
+          "id": "peanutbutter",
+          "name": "Peanut butter",
+          "iga": "p:peanut"
+        },
+        {
+          "id": "almondbutter",
+          "name": "Almond butter (optional instead of peanut butter)",
+          "iga": "c:grocery"
+        },
+        {
+          "id": "oliveoil",
+          "name": "Olive oil",
+          "iga": "p:olive"
+        }
+      ],
+      "Seasonings & extras": [
+        {
+          "id": "harissa",
+          "name": "Harissa paste",
+          "iga": "c:spices"
+        },
+        {
+          "id": "soysauce",
+          "name": "Soy sauce",
+          "iga": "p:soy"
+        },
+        {
+          "id": "sweetchili",
+          "name": "Sweet chili sauce",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "currypowder",
+          "name": "Curry powder",
+          "iga": "c:spices"
+        },
+        {
+          "id": "garammasala",
+          "name": "Garam masala",
+          "iga": "c:spices"
+        },
+        {
+          "id": "chilipowder",
+          "name": "Chili powder",
+          "iga": "c:spices"
+        },
+        {
+          "id": "cumin",
+          "name": "Cumin",
+          "iga": "c:spices"
+        },
+        {
+          "id": "paprika",
+          "name": "Smoked paprika",
+          "iga": "c:spices"
+        },
+        {
+          "id": "sesameoil",
+          "name": "Sesame oil",
+          "iga": "p:sesameOil"
+        },
+        {
+          "id": "sesameseeds",
+          "name": "Sesame seeds",
+          "iga": "p:sesameSeeds"
+        },
+        {
+          "id": "hotsauce",
+          "name": "Hot sauce",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "salsa",
+          "name": "Salsa",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "snacks",
+          "name": "Protein-rich snacks",
+          "iga": "c:grocery"
+        },
+        {
+          "id": "desserts",
+          "name": "Desserts of your choice",
+          "iga": "c:grocery"
+        }
+      ]
+    }
+  ],
+  "shopping_note": "Rice and quinoa are already in your pantry. Use your rice cooker for any recipe calling for cooked rice. Reheat refrigerated rice thoroughly; refrigerate promptly after cooking."
 }
