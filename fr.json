@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "1.1 · novembre 2026",
+  "version": "1.2 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -36,7 +36,14 @@
         "Mélanger la sauce soya, la lime et la sriracha, puis enrober le thon.",
         "Déposer le thon, l’avocat et le concombre sur le riz; arroser de sauce."
       ],
-      "tip": "Pour du croquant, ajouter un peu d’huile de chili croustillante; mesurer la quantité au-delà d’une cuillère à thé."
+      "tip": "Pour du croquant, ajouter un peu d’huile de chili croustillante; mesurer la quantité au-delà d’une cuillère à thé.",
+      "nutrition": {
+        "calories": 760,
+        "protein_g": 70,
+        "carbs_g": 80,
+        "fat_g": 18,
+        "basis": "per_portion"
+      }
     },
     "gingerbeef": {
       "id": "gingerbeef",
@@ -57,7 +64,14 @@
         "Faire dorer le bœuf dans une poêle; ajouter le brocoli et cuire jusqu’à ce qu’il soit chaud.",
         "Mélanger sauce soya, miel, huile de sésame, ail et gingembre; verser dans la poêle et mélanger avec les nouilles."
       ],
-      "tip": "Un trait de vinaigre de riz ou de lime rehausse la sauce."
+      "tip": "Un trait de vinaigre de riz ou de lime rehausse la sauce.",
+      "nutrition": {
+        "calories": 880,
+        "protein_g": 65,
+        "carbs_g": 88,
+        "fat_g": 30,
+        "basis": "per_portion"
+      }
     },
     "lemonpotato": {
       "id": "lemonpotato",
@@ -77,7 +91,14 @@
         "Réchauffer le poulet cuit, si désiré.",
         "Fouetter l’huile d’olive, la moutarde, le citron et l’origan; mélanger le tout."
       ],
-      "tip": "Utiliser des lanières de poulet déjà cuites ou du poulet rôti pour réduire la préparation au minimum."
+      "tip": "Utiliser des lanières de poulet déjà cuites ou du poulet rôti pour réduire la préparation au minimum.",
+      "nutrition": {
+        "calories": 725,
+        "protein_g": 77,
+        "carbs_g": 65,
+        "fat_g": 17,
+        "basis": "per_portion"
+      }
     },
     "fajitas": {
       "id": "fajitas",
@@ -98,7 +119,14 @@
         "Saisir le poulet dans l’huile jusqu’à 74 °C (165 °F) à cœur. Ajouter poivrons et oignon; cuire en gardant un peu de croquant.",
         "Servir la moitié sur du riz avec salsa et lime. Réfrigérer rapidement le reste pour le dîner de jeudi."
       ],
-      "tip": "Augmenter les légumes si la faim persiste; la deuxième portion simplifie le repas de jeudi."
+      "tip": "Augmenter les légumes si la faim persiste; la deuxième portion simplifie le repas de jeudi.",
+      "nutrition": {
+        "calories": 610,
+        "protein_g": 54,
+        "carbs_g": 64,
+        "fat_g": 15,
+        "basis": "per_portion"
+      }
     },
     "fajitaleft": {
       "id": "fajitaleft",
@@ -116,7 +144,14 @@
         "Réchauffer le riz, le poulet restant et les haricots jusqu’à ce que le tout soit bien chaud.",
         "Ajouter le maïs, la salsa et le jus de lime."
       ],
-      "tip": "Réfrigérer rapidement le poulet cuit et l’utiliser dans les 3 à 4 jours."
+      "tip": "Réfrigérer rapidement le poulet cuit et l’utiliser dans les 3 à 4 jours.",
+      "nutrition": {
+        "calories": 830,
+        "protein_g": 65,
+        "carbs_g": 109,
+        "fat_g": 15,
+        "basis": "per_portion"
+      }
     },
     "salmon": {
       "id": "salmon",
@@ -137,7 +172,14 @@
         "Mélanger la moutarde et le sirop d’érable, badigeonner le saumon et cuire jusqu’à cuisson complète (environ 10 à 14 min selon l’épaisseur).",
         "Cuire les haricots verts à la vapeur et terminer avec du citron."
       ],
-      "tip": "Pour moins de vaisselle, utiliser une plaque tapissée de papier parchemin ou d’aluminium."
+      "tip": "Pour moins de vaisselle, utiliser une plaque tapissée de papier parchemin ou d’aluminium.",
+      "nutrition": {
+        "calories": 880,
+        "protein_g": 54,
+        "carbs_g": 81,
+        "fat_g": 38,
+        "basis": "per_portion"
+      }
     },
     "meatballs": {
       "id": "meatballs",
@@ -157,7 +199,14 @@
         "Chauffer l’huile et l’ail; ajouter la marinara et les épinards jusqu’à ce qu’ils tombent.",
         "Mélanger avec les pâtes et les boulettes; ajouter flocons de piment et basilic."
       ],
-      "tip": "Choisir des boulettes sans fromage si vous n’aimez pas son goût."
+      "tip": "Choisir des boulettes sans fromage si vous n’aimez pas son goût.",
+      "nutrition": {
+        "calories": 875,
+        "protein_g": 58,
+        "carbs_g": 88,
+        "fat_g": 32,
+        "basis": "per_portion"
+      }
     },
     "chili": {
       "id": "chili",
@@ -178,7 +227,14 @@
         "Ajouter tomates, haricots et épices. Laisser mijoter 15 min en remuant de temps en temps.",
         "Manger une portion; refroidir et congeler au moins une portion supplémentaire pour lundi prochain."
       ],
-      "tip": "Donne environ 3 portions; garnir d’oignon haché, de coriandre et de sauce piquante."
+      "tip": "Donne environ 3 portions; garnir d’oignon haché, de coriandre et de sauce piquante.",
+      "nutrition": {
+        "calories": 560,
+        "protein_g": 47,
+        "carbs_g": 45,
+        "fat_g": 21,
+        "basis": "per_portion"
+      }
     },
     "porkchop": {
       "id": "porkchop",
@@ -198,7 +254,14 @@
         "Assaisonner le porc de paprika et d’ail; le saisir à la poêle jusqu’à cuisson sécuritaire et laisser reposer.",
         "Mélanger le chou avec le vinaigre et la lime; servir le tout."
       ],
-      "tip": "Un peu de sauce piquante dans la salade de chou donne plus de pep."
+      "tip": "Un peu de sauce piquante dans la salade de chou donne plus de pep.",
+      "nutrition": {
+        "calories": 730,
+        "protein_g": 57,
+        "carbs_g": 80,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "thaicurry": {
       "id": "thaicurry",
@@ -218,7 +281,14 @@
         "Ajouter le lait de coco et les légumes; laisser mijoter jusqu’à ce qu’ils soient chauds.",
         "Ajouter les crevettes et cuire jusqu’à ce qu’elles soient opaques; servir sur le riz avec de la lime."
       ],
-      "tip": "Le piquant varie beaucoup selon la pâte de cari : commencer avec 1 c. à soupe."
+      "tip": "Le piquant varie beaucoup selon la pâte de cari : commencer avec 1 c. à soupe.",
+      "nutrition": {
+        "calories": 855,
+        "protein_g": 67,
+        "carbs_g": 100,
+        "fat_g": 21,
+        "basis": "per_portion"
+      }
     },
     "chilipotato": {
       "id": "chilipotato",
@@ -236,7 +306,14 @@
         "Réchauffer le chili décongelé jusqu’à ce qu’il soit très chaud.",
         "Ouvrir la pomme de terre, la garnir de chili, d’oignon et de sauce piquante."
       ],
-      "tip": "Si la portion est petite, ajouter une poignée de haricots."
+      "tip": "Si la portion est petite, ajouter une poignée de haricots.",
+      "nutrition": {
+        "calories": 845,
+        "protein_g": 54,
+        "carbs_g": 108,
+        "fat_g": 22,
+        "basis": "per_portion"
+      }
     },
     "oregano": {
       "id": "oregano",
@@ -256,7 +333,14 @@
         "Saisir dans l’huile d’olive jusqu’à ce que le poulet atteigne 74 °C (165 °F) à cœur.",
         "Servir avec le riz chaud et une salade tomate-concombre citronnée."
       ],
-      "tip": "Bien citronner pour garder un goût frais, sans sauce crémeuse."
+      "tip": "Bien citronner pour garder un goût frais, sans sauce crémeuse.",
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 59,
+        "carbs_g": 82,
+        "fat_g": 15,
+        "basis": "per_portion"
+      }
     },
     "peanutnoodle": {
       "id": "peanutnoodle",
@@ -276,7 +360,14 @@
         "Fouetter le beurre d’arachides, la sauce soya, la lime, la sauce chili et assez d’eau tiède pour une sauce fluide.",
         "Mélanger les nouilles avec le poulet, les légumes croquants et la sauce."
       ],
-      "tip": "Ajouter plus de lime et de piment plutôt que plus de beurre d’arachides pour intensifier le goût."
+      "tip": "Ajouter plus de lime et de piment plutôt que plus de beurre d’arachides pour intensifier le goût.",
+      "nutrition": {
+        "calories": 820,
+        "protein_g": 65,
+        "carbs_g": 95,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "tacoskillet": {
       "id": "tacoskillet",
@@ -297,7 +388,14 @@
         "Ajouter les haricots et le maïs; réchauffer.",
         "Servir sur du riz chaud avec l’avocat en dés et la salsa."
       ],
-      "tip": "Pour relever, ajouter un peu de chipotle en sauce adobo ou des jalapeños marinés."
+      "tip": "Pour relever, ajouter un peu de chipotle en sauce adobo ou des jalapeños marinés.",
+      "nutrition": {
+        "calories": 940,
+        "protein_g": 60,
+        "carbs_g": 108,
+        "fat_g": 30,
+        "basis": "per_portion"
+      }
     },
     "shrimpmango": {
       "id": "shrimpmango",
@@ -317,7 +415,14 @@
         "Mélanger mangue et concombre en dés avec lime et flocons de piment.",
         "Servir sur du riz et terminer avec la coriandre."
       ],
-      "tip": "La mangue surgelée fonctionne aussi : la décongeler avant de servir."
+      "tip": "La mangue surgelée fonctionne aussi : la décongeler avant de servir.",
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 64,
+        "carbs_g": 86,
+        "fat_g": 11,
+        "basis": "per_portion"
+      }
     },
     "harissa": {
       "id": "harissa",
@@ -337,7 +442,14 @@
         "Mélanger poulet, pois chiches et légumes avec harissa et huile. Rôtir en retournant une fois jusqu’à 74 °C (165 °F) à cœur pour le poulet.",
         "Presser le citron sur le tout."
       ],
-      "tip": "L’harissa est relevée et parfumée; commencer avec moins si vous ne la connaissez pas."
+      "tip": "L’harissa est relevée et parfumée; commencer avec moins si vous ne la connaissez pas.",
+      "nutrition": {
+        "calories": 645,
+        "protein_g": 63,
+        "carbs_g": 55,
+        "fat_g": 19,
+        "basis": "per_portion"
+      }
     },
     "tunabeans": {
       "id": "tunabeans",
@@ -357,7 +469,14 @@
         "Fouetter l’huile, le citron et l’ail.",
         "Mélanger avec le thon, les haricots, les tomates et le persil."
       ],
-      "tip": "Des câpres ou une cuillère à thé de Dijon donnent plus de mordant à la vinaigrette."
+      "tip": "Des câpres ou une cuillère à thé de Dijon donnent plus de mordant à la vinaigrette.",
+      "nutrition": {
+        "calories": 740,
+        "protein_g": 75,
+        "carbs_g": 83,
+        "fat_g": 12,
+        "basis": "per_portion"
+      }
     },
     "koreanbeef": {
       "id": "koreanbeef",
@@ -378,7 +497,14 @@
         "Cuire le brocoli et les champignons jusqu’à ce qu’ils soient tendres mais croquants.",
         "Remettre le bœuf et mélanger avec la sauce soya, la cassonade, l’huile de sésame, l’ail et le gingembre. Servir sur le riz."
       ],
-      "tip": "Ajouter au choix graines de sésame et oignons verts pour la texture."
+      "tip": "Ajouter au choix graines de sésame et oignons verts pour la texture.",
+      "nutrition": {
+        "calories": 840,
+        "protein_g": 62,
+        "carbs_g": 85,
+        "fat_g": 28,
+        "basis": "per_portion"
+      }
     },
     "tomatocurry": {
       "id": "tomatocurry",
@@ -398,7 +524,14 @@
         "Ajouter tomates, lait de coco, ail, gingembre et épices; laisser mijoter jusqu’à ce que le poulet atteigne 74 °C (165 °F) à cœur.",
         "Incorporer les épinards et servir sur le riz."
       ],
-      "tip": "Griller les épices sèches 20 secondes dans la poêle avant d’ajouter les liquides."
+      "tip": "Griller les épices sèches 20 secondes dans la poêle avant d’ajouter les liquides.",
+      "nutrition": {
+        "calories": 780,
+        "protein_g": 64,
+        "carbs_g": 86,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "stickypork": {
       "id": "stickypork",
@@ -419,7 +552,14 @@
         "Ajouter les légumes et cuire jusqu’à ce qu’ils soient chauds.",
         "Ajouter nouilles et sauces; mélanger jusqu’à ce que le tout soit bien enrobé, puis terminer avec les graines de sésame."
       ],
-      "tip": "Garder la poêle bien chaude pour éviter que les légumes deviennent mous."
+      "tip": "Garder la poêle bien chaude pour éviter que les légumes deviennent mous.",
+      "nutrition": {
+        "calories": 750,
+        "protein_g": 56,
+        "carbs_g": 86,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "restaurant": {
       "id": "restaurant",
@@ -436,7 +576,30 @@
         "Profiter du déjeuner habituel du samedi et du dimanche.",
         "Pour planifier, compter environ 850 à 1 100 kcal; les recettes et portions varient selon le restaurant."
       ],
-      "tip": "Ce repas reste volontairement inchangé. Pas besoin de retirer le pain de seigle."
+      "tip": "Ce repas reste volontairement inchangé. Pas besoin de retirer le pain de seigle.",
+      "nutrition": {
+        "calories": 1000,
+        "protein_g": 40,
+        "carbs_g": 100,
+        "fat_g": 49,
+        "calories_range": [
+          850,
+          1150
+        ],
+        "protein_range_g": [
+          30,
+          45
+        ],
+        "carbs_range_g": [
+          75,
+          120
+        ],
+        "fat_range_g": [
+          40,
+          65
+        ],
+        "basis": "per_portion"
+      }
     },
     "shakechoc": {
       "id": "shakechoc",
@@ -455,7 +618,14 @@
         "Ajouter le reste des ingrédients et bien mixer.",
         "Préparer trois shakes répartis au cours de la journée de mercredi."
       ],
-      "tip": "Au total, trois shakes fournissent environ 1 250 à 1 450 kcal et 125 à 150 g de protéines, selon la whey. Vérifier l’étiquette."
+      "tip": "Au total, trois shakes fournissent environ 1 250 à 1 450 kcal et 125 à 150 g de protéines, selon la whey. Vérifier l’étiquette.",
+      "nutrition": {
+        "calories": 455,
+        "protein_g": 44,
+        "carbs_g": 43,
+        "fat_g": 12,
+        "basis": "per_shake"
+      }
     },
     "shakeberry": {
       "id": "shakeberry",
@@ -474,7 +644,14 @@
         "Ajouter whey, beurre de noix, petits fruits et glaçons; mixer jusqu’à consistance crémeuse.",
         "Préparer trois shakes répartis au cours de la journée de mercredi."
       ],
-      "tip": "Les shakes de whey seuls ne constituent pas un substitut de repas complet sur le plan nutritionnel à long terme."
+      "tip": "Les shakes de whey seuls ne constituent pas un substitut de repas complet sur le plan nutritionnel à long terme.",
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 44,
+        "carbs_g": 40,
+        "fat_g": 13,
+        "basis": "per_shake"
+      }
     }
   },
   "weeks": [
@@ -573,7 +750,8 @@
     "Les calories du déjeuner au restaurant sont incertaines; aucun total précis n’est garanti.",
     "Les shakes du mercredi ne couvrent pas tous les besoins nutritionnels. Les suppléments ne transforment pas une alimentation liquide peu variée en repas équilibrés.",
     "Cuire le poulet à 74 °C (165 °F) à cœur; réfrigérer rapidement les restes.",
-    "Les suppléments du matin peuvent apporter des calories, notamment le collagène et les fibres en poudre; vérifier les étiquettes."
+    "Les suppléments du matin peuvent apporter des calories, notamment le collagène et les fibres en poudre; vérifier les étiquettes.",
+    "Les calories, protéines, glucides et lipides indiqués par repas sont des estimations fondées sur des aliments génériques et des étiquettes typiques. Les marques, le poids cru ou cuit, les sauces et l’huile peuvent changer sensiblement les résultats."
   ],
   "shopping": [
     {
