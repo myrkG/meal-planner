@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101923"><meta name="description" content="A simple, flavour-first, 14-day meal rotation with recipes, shopping lists and Wednesdays for protein shakes."><title>My 14-Day Meal Plan</title>
+<style>
+:root{color-scheme:dark;--bg:#101923;--panel:#192530;--panel2:#22313c;--line:#35454e;--text:#f6f4ec;--muted:#afbcc2;--mint:#a6dbb0;--gold:#f2c780;--red:#f39b8c;--radius:18px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0;line-height:1.5}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:2px}a{color:var(--mint)}.wrap{max-width:1080px;margin:auto;padding:0 20px}.top{position:sticky;top:0;z-index:10;background:rgba(16,25,35,.96);backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}.topin{display:flex;align-items:center;gap:16px;justify-content:space-between;min-height:72px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:800;letter-spacing:-.03em;font-size:19px}.brandmark{width:34px;height:34px;border-radius:11px;background:var(--mint);color:#13261e;display:grid;place-items:center;font-size:20px}.nav{display:flex;gap:5px;overflow:auto}.nav button,.utility button,.smallbtn{border:1px solid transparent;background:none;color:var(--muted);border-radius:11px;padding:9px 12px;font-weight:650}.nav button:hover,.nav button[aria-selected=true]{background:var(--panel2);color:var(--text)}.hero{padding:47px 0 28px;display:grid;grid-template-columns:1.25fr .75fr;gap:22px;align-items:end}.kicker{text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:800;color:var(--mint)}h1{font-size:clamp(35px,5.2vw,62px);line-height:1.07;letter-spacing:-.055em;margin:8px 0 14px}h2{letter-spacing:-.035em;font-size:28px;margin:0}h3{letter-spacing:-.025em}p{margin:0}.lead{color:var(--muted);max-width:580px;font-size:16px}.heroStat{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(120deg,#23372e,var(--panel));padding:22px;display:grid;gap:13px}.statRow{display:grid;grid-template-columns:1fr 1fr;gap:10px}.statRow span{display:block;color:var(--muted);font-size:12px}.statRow strong{display:block;font-size:19px;letter-spacing:-.025em}.statRow .full{grid-column:span 2}.controlbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:22px 0 17px}.seg{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px}.seg button{border:0;background:none;color:var(--muted);font-weight:750;padding:9px 18px;border-radius:10px}.seg button[aria-pressed=true]{background:var(--mint);color:#18261c}.utility{display:flex;gap:6px;flex-wrap:wrap}.utility button{border-color:var(--line);background:var(--panel);color:var(--text)}.days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}.day{border:1px solid var(--line);border-radius:14px;background:var(--panel);min-height:85px;color:var(--text);text-align:left;padding:12px 8px;transition:border-color .15s,background .15s}.day:hover{border-color:var(--mint)}.day[aria-pressed=true]{background:#274334;border-color:var(--mint)}.day small{display:block;color:var(--muted);font-size:12px}.day strong{display:block;font-size:15px;margin:2px 0}.day em{font-size:11px;font-style:normal;color:var(--mint)}.panel{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);padding:23px}.dayHeading{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin:27px 0 17px}.dayHeading p{color:var(--muted);font-size:14px;margin-top:5px}.pill{display:inline-flex;align-items:center;gap:5px;border:1px solid #597363;color:var(--mint);background:#21392b;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700;white-space:nowrap}.mealgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.mealcard{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);overflow:hidden}.mealcard header{padding:17px 20px 14px;background:#21313b}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.mealcard h3{font-size:23px;letter-spacing:-.035em;margin:4px 0 6px}.mealcard .details{font-size:13px;color:var(--muted)}.mealcard .content{padding:16px 20px 20px}.mealcard h4{margin:0 0 8px;font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--mint)}ul.ingredients{list-style:none;margin:0 0 19px;padding:0;display:grid;gap:8px}.ingredients li{position:relative;padding-left:18px;font-size:14px;color:#dfe7e7}.ingredients li::before{content:'•';position:absolute;left:2px;color:var(--gold)}.steps{margin:0;padding-left:23px;display:grid;gap:9px}.steps li{font-size:14px;padding-left:3px}.tip{border-left:3px solid var(--gold);padding:8px 12px;margin-top:15px;background:#2b3236;font-size:13px;color:#e1e6e0}.note{border:1px solid var(--line);border-radius:14px;background:#202c33;padding:16px;margin:16px 0;font-size:14px;color:#d2ddde}.note strong{color:var(--text)}.snackstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 38px}.minicard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}.minicard strong{font-size:14px}.minicard p{font-size:13px;color:var(--muted);margin-top:5px}.sectionhead{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;margin:25px 0 17px}.muted{color:var(--muted)}.listitem{display:flex;align-items:flex-start;gap:10px;cursor:pointer;padding:10px 9px;border-bottom:1px solid var(--line);font-size:14px}.listitem:last-child{border:0}.listitem input{accent-color:#8bc99a;width:17px;height:17px;margin-top:2px;flex-shrink:0}.listitem:has(input:checked) span{text-decoration:line-through;color:var(--muted)}.groceries{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.groceries h3{margin:0 0 12px}.grow{width:100%}.search{width:100%;padding:13px 15px;border:1px solid var(--line);border-radius:12px;background:#101b23;color:var(--text);margin:8px 0 14px}.recipeDirectory{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.recipeButton{border:1px solid var(--line);border-radius:12px;padding:15px;background:var(--panel);text-align:left;color:var(--text)}.recipeButton strong{display:block;font-size:15px}.recipeButton small{color:var(--muted)}.recipeButton:hover{border-color:var(--mint)}.recipeButton[aria-expanded=true]{border-color:var(--mint);background:#213a2e}.fullRecipe{margin-top:12px}.settings{display:grid;grid-template-columns:1fr 1fr;gap:14px}.settings textarea{width:100%;min-height:135px;background:var(--bg);color:var(--text);padding:12px;border:1px solid var(--line);border-radius:12px;resize:vertical}.footer{border-top:1px solid var(--line);margin-top:38px;padding:23px 0 45px;font-size:12px;color:var(--muted)}.hidden{display:none!important}.section{min-height:430px}.table{display:grid;grid-template-columns:1fr 1fr;gap:15px}.noteItem{font-size:13px;color:var(--muted);margin:7px 0}.accent{color:var(--mint)}.toast{position:fixed;bottom:22px;right:22px;background:var(--mint);padding:10px 16px;border-radius:12px;color:#13261e;font-weight:750;box-shadow:0 9px 32px #0007;z-index:20;opacity:0;pointer-events:none;transition:.2s}.toast.show{opacity:1}@media(max-width:760px){.topin{flex-wrap:wrap;padding:10px 0;gap:6px}.nav{width:100%;justify-content:space-between}.nav button{font-size:13px;padding:8px}.hero{grid-template-columns:1fr;padding-top:30px}.heroStat{padding:17px}.days{display:flex;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory}.day{min-width:95px;scroll-snap-align:start}.mealgrid,.snackstrip,.settings,.table,.groceries,.recipeDirectory{grid-template-columns:1fr}.dayHeading{align-items:start}.dayHeading h2{font-size:24px}.panel{padding:17px}}@media print{body{background:white;color:black}.top,.controlbar,.days,.utility,.footer,#shopping,#recipes,#settings,.snackstrip,.toast{display:none!important}.wrap{max-width:none}.hero{padding:0;display:block}.heroStat{display:none}.mealgrid{grid-template-columns:1fr 1fr}.mealcard,.panel{color:black;background:white;border-color:#bbb}.mealcard header{background:#f4f4f4;color:black}.mealcard h4,.eyebrow{color:#333}.mealcard .details,.ingredients li,.steps li,.tip,.lead,.dayHeading p{color:#333}.mealcard{break-inside:avoid}}
+</style></head><body><header class="top"><div class="wrap topin"><a href="#plan" class="brand"><span class="brandmark">✳</span> The 14-Day Rotation</a><nav class="nav" aria-label="Sections"><button data-nav="plan" aria-selected="true">📅 Plan</button><button data-nav="recipes">🍳 Recipes</button><button data-nav="shopping">🛒 Groceries</button><button data-nav="settings">⚙️ Notes</button></nav></div></header>
+<main class="wrap"><section class="hero"><div><div class="kicker">Simple to cook • Good to eat • Repeatable</div><h1>Food you'll actually<br><span class="accent">look forward to.</span></h1><p class="lead">A two-week meal rotation with real recipes, zero cheese, little bread or milk, your favourite weekend breakfasts, and a dedicated shake day every Wednesday.</p></div><aside class="heroStat" aria-label="Plan targets"><div class="statRow"><div><span>Regular-day target</span><strong>2,350–2,500</strong><span>kcal</span></div><div><span>Protein goal</span><strong>150–180 g</strong><span>on regular days</span></div><div class="full"><span>Wednesday</span><strong>~1,350 kcal · 3 shakes</strong></div></div></aside></section>
+<section id="plan" class="section"><div class="controlbar"><div class="seg" role="group" aria-label="Select week"><button data-week="0" aria-pressed="true">Week 1</button><button data-week="1" aria-pressed="false">Week 2</button></div><div class="utility"><button id="today">↗ Today</button><button id="copyDay">⧉ Copy this day</button><button onclick="window.print()">⎙ Print</button></div></div><div class="days" id="dayTabs"></div><div class="dayHeading"><div><div class="kicker" id="dayKicker">WEEK 1 · MONDAY</div><h2 id="dayTitle">Spicy & savoury</h2><p id="dayDescription"></p></div><span id="dayBadge" class="pill">2 meals</span></div><div id="mealGrid" class="mealgrid"></div><div id="dailyNote" class="note"></div><div class="sectionhead"><h2>Keep it flexible</h2></div><div class="snackstrip"><div class="minicard"><strong>Protein-rich snack</strong><p>Whey with water, fruit and almonds; or eggs, edamame and fruit. Adjust the amount to help reach the day's protein/calorie targets.</p></div><div class="minicard"><strong>Dessert stays</strong><p>Budget 150–200 kcal when you want something sweet. No ban on chocolate or ice cream.</p></div><div class="minicard"><strong>Morning routine</strong><p>If you take supplements, account for any calories. They don't replace a balanced diet.</p></div></div></section>
+<section id="recipes" class="section hidden"><div class="sectionhead"><div><div class="kicker">Browse all recipes</div><h2>Recipe library</h2></div><span class="muted" id="recipeCount"></span></div><input id="recipeSearch" class="search" type="search" placeholder="Search chicken, curry, noodles, quick meals..." aria-label="Search recipes"><div class="recipeDirectory" id="recipeDirectory"></div><div id="selectedRecipe"></div></section>
+<section id="shopping" class="section hidden"><div class="sectionhead"><div><div class="kicker">Tap to check off</div><h2>Weekly groceries</h2></div><div class="seg"><button data-shopweek="0" aria-pressed="true">Week 1</button><button data-shopweek="1" aria-pressed="false">Week 2</button></div></div><p class="muted" style="margin-bottom:15px">Grouped for speed, rather than exact aggregated weights. Check individual recipes for amounts; buy fresh fish close to cooking day or use frozen.</p><div id="groceryGrid" class="groceries"></div><div class="utility" style="margin-top:18px"><button id="copyGroceries">⧉ Copy list</button><button id="clearGroceries">↺ Reset checks</button></div></section>
+<section id="settings" class="section hidden"><div class="sectionhead"><div><div class="kicker">Your plan, your adjustments</div><h2>Notes & sharing</h2></div></div><div class="settings"><div class="panel"><h3 style="margin-top:0">Recipe notes</h3><p class="muted" style="margin-bottom:12px;font-size:13px">Record swaps or meals you disliked. These notes stay in this browser, not automatically in ChatGPT.</p><textarea id="notes" placeholder="e.g. Loved the ginger beef, use extra lime in the shrimp curry..." aria-label="Personal meal notes"></textarea><p class="muted" style="font-size:12px;margin-top:8px">Automatically saved locally.</p></div><div class="panel"><h3 style="margin-top:0">Work with ChatGPT</h3><p class="muted" style="font-size:14px;margin-bottom:15px">For me to read the latest plan in another conversation, host <strong>index.html</strong> and <strong>plan.json</strong> at a URL and share the link. I can read the public JSON when asked, but I can't see private browser checkmarks and notes.</p><div class="utility"><button id="export">↓ Download plan.json</button><button id="copyForChat">⧉ Copy notes for ChatGPT</button></div></div></div><div class="panel" style="margin-top:15px"><h3 style="margin-top:0">Guidelines & assumptions</h3><div id="guidelines"></div></div></section></main><footer class="footer"><div class="wrap"><p>Version 1.0 · Personal planning tool · Nutrition values are estimates, not a medical prescription. Recipes are one serving unless marked otherwise.</p></div></footer><div id="toast" class="toast" aria-live="polite"></div>
+<script id="plan-data" type="application/json">{
+  "title": "The 14-Day Rotation",
+  "version": "1.0 · November 2026",
+  "anchor_monday": "2026-11-16",
+  "targets": {
+    "regular_calories": "2,350–2,500 kcal",
+    "wednesday_calories": "~1,350 kcal",
+    "regular_protein": "150–180 g",
+    "dessert": "150–200 kcal"
+  },
+  "background": {
+    "schedule": "2 meals on most days; restaurant breakfast on weekends; Wednesdays are protein-shake days",
+    "avoid": [
+      "cheese",
+      "sour cream",
+      "high amounts of bread",
+      "high amounts of milk"
+    ]
+  },
+  "recipes": {
+    "tuna": {
+      "id": "tuna",
+      "title": "Spicy tuna–avocado rice bowl",
+      "minutes": 5,
+      "servings": 1,
+      "ingredients": [
+        "2 cans light tuna, drained (about 220–240 g)",
+        "1½ cups cooked microwave rice",
+        "½ avocado, diced",
+        "½ cucumber, diced",
+        "1 tsp soy sauce + lime juice",
+        "Sriracha to taste"
+      ],
+      "steps": [
+        "Microwave rice and drain tuna.",
+        "Mix soy, lime and sriracha; toss with tuna.",
+        "Add avocado and cucumber over rice; drizzle sauce."
+      ],
+      "tip": "Toss in chili crisp for crunch; measure it if using more than a teaspoon."
+    },
+    "gingerbeef": {
+      "id": "gingerbeef",
+      "title": "Sticky ginger beef noodles",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g lean ground beef",
+        "90 g dry noodles",
+        "2 cups broccoli (frozen is fine)",
+        "2 tbsp reduced-sodium soy sauce",
+        "1 tsp honey",
+        "1 tsp sesame oil",
+        "Garlic and grated ginger"
+      ],
+      "steps": [
+        "Cook noodles according to package.",
+        "Brown beef in a skillet; add broccoli and cook until hot.",
+        "Stir together soy, honey, sesame oil, garlic and ginger; add to pan, toss with noodles."
+      ],
+      "tip": "A splash of rice vinegar or lime gives the sauce more bite."
+    },
+    "lemonpotato": {
+      "id": "lemonpotato",
+      "title": "Lemony chicken and potato bowl",
+      "minutes": 12,
+      "servings": 1,
+      "ingredients": [
+        "225 g cooked chicken breast or thigh",
+        "300 g baby potatoes",
+        "1 cup chopped tomato and cucumber",
+        "2 tsp olive oil",
+        "1 tsp Dijon mustard",
+        "Lemon juice, oregano, salt and pepper"
+      ],
+      "steps": [
+        "Microwave halved potatoes until tender, about 7–9 minutes.",
+        "Warm cooked chicken if preferred.",
+        "Whisk olive oil, Dijon, lemon and oregano; toss everything together."
+      ],
+      "tip": "Use cooked chicken strips or rotisserie chicken to keep this nearly no-prep."
+    },
+    "fajitas": {
+      "id": "fajitas",
+      "title": "Smoky chicken fajita rice bowls",
+      "minutes": 20,
+      "servings": 2,
+      "ingredients": [
+        "450 g raw chicken strips (makes 2 portions)",
+        "2 bell peppers, sliced",
+        "1 onion, sliced",
+        "2 cups cooked rice (for 2 portions)",
+        "1 tbsp olive oil",
+        "2 tsp smoked paprika + 1 tsp cumin",
+        "Lime juice and salsa"
+      ],
+      "steps": [
+        "Season chicken with paprika, cumin, salt and pepper.",
+        "Sear chicken in oil until cooked to 74°C/165°F. Add peppers and onions; cook until tender-crisp.",
+        "Serve half over rice with salsa and lime. Refrigerate the other half promptly for Thursday lunch."
+      ],
+      "tip": "Double the vegetables if hungry; the second portion makes Thursday lunch easy."
+    },
+    "fajitaleft": {
+      "id": "fajitaleft",
+      "title": "Fajita black-bean bowl",
+      "minutes": 5,
+      "servings": 1,
+      "ingredients": [
+        "1 portion cooked fajita chicken and peppers from Tuesday",
+        "1 cup cooked rice",
+        "¾ cup drained canned black beans",
+        "½ cup corn",
+        "Salsa and fresh lime"
+      ],
+      "steps": [
+        "Microwave rice, leftover chicken and beans until piping hot.",
+        "Add corn, salsa and lime."
+      ],
+      "tip": "Leftover cooked chicken should be refrigerated promptly and used within 3–4 days."
+    },
+    "salmon": {
+      "id": "salmon",
+      "title": "Maple–Dijon salmon with potatoes",
+      "minutes": 25,
+      "servings": 1,
+      "ingredients": [
+        "225 g salmon fillet",
+        "300 g baby potatoes, halved",
+        "2 cups green beans",
+        "2 tsp olive oil",
+        "1 tbsp Dijon mustard",
+        "2 tsp maple syrup",
+        "Lemon, black pepper"
+      ],
+      "steps": [
+        "Heat oven or air fryer to 200°C/400°F. Toss potatoes with oil and seasoning; start cooking them first.",
+        "Combine Dijon and maple syrup; brush salmon and cook until done (about 10–14 minutes depending on thickness).",
+        "Steam beans; finish with lemon."
+      ],
+      "tip": "For less cleanup, use foil or a parchment-lined tray."
+    },
+    "meatballs": {
+      "id": "meatballs",
+      "title": "Garlicky meatball marinara pasta",
+      "minutes": 20,
+      "servings": 1,
+      "ingredients": [
+        "220 g cooked lean turkey or beef meatballs",
+        "90 g dry pasta",
+        "¾ cup marinara sauce",
+        "2 cups baby spinach",
+        "1 tsp olive oil",
+        "Garlic, chili flakes and basil"
+      ],
+      "steps": [
+        "Cook pasta and heat meatballs to package directions.",
+        "Warm oil and garlic; stir in marinara and spinach until wilted.",
+        "Toss with pasta and meatballs; finish with chili flakes and basil."
+      ],
+      "tip": "Look for meatballs without cheese if you dislike that flavour."
+    },
+    "chili": {
+      "id": "chili",
+      "title": "Smoky turkey and black-bean chili",
+      "minutes": 25,
+      "servings": 3,
+      "ingredients": [
+        "600 g lean ground turkey",
+        "1 large can crushed tomatoes (796 mL)",
+        "1 can black beans, drained",
+        "1 onion, chopped",
+        "1 bell pepper, chopped",
+        "1 tbsp oil",
+        "Chili powder, cumin, smoked paprika and salt"
+      ],
+      "steps": [
+        "In a pot, sauté onion and pepper in oil; brown the turkey thoroughly.",
+        "Add tomatoes, beans and spices. Simmer 15 minutes, stirring occasionally.",
+        "Eat one portion; cool and freeze at least one additional portion for next Monday."
+      ],
+      "tip": "Makes about 3 portions; top with chopped onion, cilantro and hot sauce."
+    },
+    "porkchop": {
+      "id": "porkchop",
+      "title": "Garlic–lime pork chops and sweet potato",
+      "minutes": 25,
+      "servings": 1,
+      "ingredients": [
+        "225–250 g lean boneless pork chop",
+        "350 g sweet potato, cut in wedges",
+        "2 cups bagged cabbage slaw",
+        "2 tsp olive oil",
+        "Garlic, lime, smoked paprika",
+        "1 tbsp apple cider vinegar"
+      ],
+      "steps": [
+        "Air-fry or roast seasoned sweet potato wedges at 200°C/400°F until crisp, about 18–25 minutes.",
+        "Season pork with paprika and garlic; pan-sear to safe doneness and rest.",
+        "Toss cabbage with vinegar and lime; plate together."
+      ],
+      "tip": "A little hot sauce in the slaw makes it brighter."
+    },
+    "thaicurry": {
+      "id": "thaicurry",
+      "title": "Thai red shrimp curry",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "250 g thawed shrimp",
+        "1 cup light coconut milk",
+        "2 cups frozen stir-fry vegetables",
+        "1–2 tbsp Thai red curry paste",
+        "1½ cups cooked jasmine rice",
+        "Lime juice and fresh cilantro (optional)"
+      ],
+      "steps": [
+        "Heat curry paste in a skillet for 30 seconds.",
+        "Add coconut milk and vegetables; simmer until vegetables are hot.",
+        "Add shrimp and cook until opaque; serve over rice with lime."
+      ],
+      "tip": "Curry pastes vary dramatically in heat—start with 1 tbsp."
+    },
+    "chilipotato": {
+      "id": "chilipotato",
+      "title": "Chili-loaded baked potato",
+      "minutes": 10,
+      "servings": 1,
+      "ingredients": [
+        "1 frozen portion of homemade turkey chili",
+        "350 g russet potato",
+        "2 tbsp chopped onion",
+        "Hot sauce and green onion"
+      ],
+      "steps": [
+        "Pierce potato and microwave until tender, turning once.",
+        "Reheat thawed chili until piping hot.",
+        "Split potato, spoon chili over it and add onion and hot sauce."
+      ],
+      "tip": "If the portion is small, add a handful of extra beans."
+    },
+    "oregano": {
+      "id": "oregano",
+      "title": "Lemon–oregano chicken rice bowl",
+      "minutes": 20,
+      "servings": 1,
+      "ingredients": [
+        "225 g raw chicken breast or thigh",
+        "1½ cups cooked rice",
+        "1½ cups chopped cucumber and tomato",
+        "2 tsp olive oil",
+        "1 lemon",
+        "Garlic, dried oregano, salt and pepper"
+      ],
+      "steps": [
+        "Season chicken with garlic, oregano, lemon zest, salt and pepper.",
+        "Pan-sear in olive oil until chicken reaches 74°C/165°F.",
+        "Serve with warm rice and tomato-cucumber salad dressed with lemon."
+      ],
+      "tip": "A generous amount of lemon keeps this tasting fresh without a cream sauce."
+    },
+    "peanutnoodle": {
+      "id": "peanutnoodle",
+      "title": "Thai peanut chicken noodles",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g chicken strips",
+        "90 g dry rice noodles",
+        "2 cups shredded cabbage and carrot",
+        "1½ tbsp peanut butter",
+        "1 tbsp soy sauce",
+        "Lime juice, chili sauce and warm water"
+      ],
+      "steps": [
+        "Cook noodles and chicken; chicken should reach 74°C/165°F.",
+        "Whisk peanut butter, soy, lime, chili and enough warm water for a pourable sauce.",
+        "Toss noodles with chicken, crunchy vegetables and sauce."
+      ],
+      "tip": "Add extra lime and chili instead of extra peanut butter for a stronger flavour."
+    },
+    "tacoskillet": {
+      "id": "tacoskillet",
+      "title": "Smoky taco beef skillet",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g lean ground beef",
+        "¾ cup drained black beans",
+        "½ bell pepper, diced",
+        "½ cup corn",
+        "1 cup cooked rice",
+        "⅓ avocado",
+        "Salsa, chili powder, cumin and smoked paprika"
+      ],
+      "steps": [
+        "Brown beef in a large skillet; add pepper and taco spices.",
+        "Add beans and corn; cook until heated through.",
+        "Serve over warm rice with diced avocado and salsa."
+      ],
+      "tip": "For a little heat, add chipotle in adobo or pickled jalapeños."
+    },
+    "shrimpmango": {
+      "id": "shrimpmango",
+      "title": "Chili–lime shrimp mango bowl",
+      "minutes": 12,
+      "servings": 1,
+      "ingredients": [
+        "250 g peeled shrimp",
+        "1½ cups cooked rice",
+        "½ mango, diced",
+        "½ cucumber, diced",
+        "2 tsp olive oil",
+        "Lime, chili flakes and cilantro"
+      ],
+      "steps": [
+        "Sear thawed shrimp in oil until opaque and cooked through.",
+        "Mix diced mango and cucumber with lime and chili flakes.",
+        "Serve over rice and finish with cilantro."
+      ],
+      "tip": "Frozen mango chunks can work too—thaw before serving."
+    },
+    "harissa": {
+      "id": "harissa",
+      "title": "Harissa chicken and chickpea tray bake",
+      "minutes": 25,
+      "servings": 1,
+      "ingredients": [
+        "225 g chicken breast or thigh, diced",
+        "¾ cup drained chickpeas",
+        "2 cups sliced peppers and onion",
+        "1 tbsp harissa paste",
+        "2 tsp olive oil",
+        "½ lemon"
+      ],
+      "steps": [
+        "Heat oven or air fryer to 205°C/400°F.",
+        "Toss chicken, chickpeas and vegetables with harissa and oil. Roast, turning once, until chicken is cooked to 74°C/165°F.",
+        "Squeeze lemon over everything."
+      ],
+      "tip": "Harissa is spicy and aromatic; start with less if unfamiliar."
+    },
+    "tunabeans": {
+      "id": "tunabeans",
+      "title": "Tuna, white bean and potato salad",
+      "minutes": 12,
+      "servings": 1,
+      "ingredients": [
+        "2 cans light tuna, drained",
+        "¾ cup white beans, drained",
+        "250 g baby potatoes",
+        "1 cup cherry tomatoes, halved",
+        "2 tsp olive oil",
+        "Lemon juice, parsley, garlic and pepper"
+      ],
+      "steps": [
+        "Microwave potatoes until tender; cool slightly.",
+        "Whisk oil, lemon and garlic.",
+        "Toss with tuna, beans, tomatoes and parsley."
+      ],
+      "tip": "Capers or a teaspoon of Dijon make the dressing sharper."
+    },
+    "koreanbeef": {
+      "id": "koreanbeef",
+      "title": "Korean-style sticky beef bowl",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g lean beef strips",
+        "1½ cups cooked rice",
+        "2 cups broccoli and mushrooms",
+        "1 tbsp soy sauce",
+        "1 tsp brown sugar",
+        "1 tsp sesame oil",
+        "Garlic, ginger and chili flakes"
+      ],
+      "steps": [
+        "Sear beef strips over high heat and remove when cooked.",
+        "Cook broccoli and mushrooms until tender-crisp.",
+        "Return beef; toss with soy, sugar, sesame oil, garlic and ginger. Serve over rice."
+      ],
+      "tip": "Optional sesame seeds and scallions add texture."
+    },
+    "tomatocurry": {
+      "id": "tomatocurry",
+      "title": "Tomato–coconut chicken curry",
+      "minutes": 20,
+      "servings": 1,
+      "ingredients": [
+        "250 g chicken breast or thigh, cubed",
+        "¾ cup canned crushed tomatoes",
+        "½ cup light coconut milk",
+        "2 cups baby spinach",
+        "1½ cups cooked basmati rice",
+        "Curry powder, garam masala, garlic and ginger"
+      ],
+      "steps": [
+        "Sear seasoned chicken until browned.",
+        "Add tomato, coconut milk, garlic, ginger and spices; simmer until chicken reaches 74°C/165°F.",
+        "Stir in spinach and serve over rice."
+      ],
+      "tip": "Toast the dry spices in the pan for 20 seconds before adding liquids."
+    },
+    "stickypork": {
+      "id": "stickypork",
+      "title": "Sticky sesame pork udon",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g lean pork strips",
+        "200 g ready-to-use udon noodles",
+        "2 cups frozen stir-fry vegetables",
+        "1 tbsp soy sauce",
+        "1 tbsp sweet chili sauce",
+        "1 tsp sesame oil",
+        "Garlic and sesame seeds"
+      ],
+      "steps": [
+        "Sear pork in a hot skillet until cooked.",
+        "Add vegetables and cook until heated through.",
+        "Stir in noodles and sauces; toss until glossy, finish with sesame seeds."
+      ],
+      "tip": "Keep the pan hot so the vegetables don’t go soggy."
+    },
+    "restaurant": {
+      "id": "restaurant",
+      "title": "Your regular restaurant breakfast",
+      "minutes": 0,
+      "servings": 1,
+      "ingredients": [
+        "2 eggs",
+        "2 sausages",
+        "2 slices rye bread",
+        "A generous serving of breakfast potatoes"
+      ],
+      "steps": [
+        "Enjoy your usual Saturday and Sunday breakfast.",
+        "For planning, estimate approximately 850–1,100 kcal; restaurant recipes and portion sizes vary."
+      ],
+      "tip": "This is intentionally unchanged. No need to remove the rye bread from this meal."
+    },
+    "shakechoc": {
+      "id": "shakechoc",
+      "title": "Chocolate–banana shake (make 3)",
+      "minutes": 5,
+      "servings": 3,
+      "ingredients": [
+        "PER SHAKE: 1½ scoops chocolate whey",
+        "30 g rolled oats",
+        "1 tbsp peanut butter",
+        "½ banana",
+        "Unsweetened cocoa, water and ice"
+      ],
+      "steps": [
+        "Blend oats with water first for a smoother drink.",
+        "Add the remaining ingredients and blend thoroughly.",
+        "Repeat for three shakes spread throughout Wednesday."
+      ],
+      "tip": "Three shakes provide roughly 1,250–1,450 kcal and 125–150 g protein in total, depending on the whey. Use the label for precision."
+    },
+    "shakeberry": {
+      "id": "shakeberry",
+      "title": "Vanilla–berry shake (make 3)",
+      "minutes": 5,
+      "servings": 3,
+      "ingredients": [
+        "PER SHAKE: 1½ scoops vanilla whey",
+        "30 g rolled oats",
+        "1 tbsp almond or peanut butter",
+        "100 g frozen berries",
+        "Cinnamon, water and ice"
+      ],
+      "steps": [
+        "Blend oats with water first.",
+        "Add whey, nut butter, berries and ice; blend until creamy.",
+        "Repeat for three shakes spread throughout Wednesday."
+      ],
+      "tip": "Whey smoothies alone are not a nutritionally complete long-term meal-replacement regimen."
+    }
+  },
+  "weeks": [
+    [
+      {
+        "day": "Monday",
+        "subtitle": "Spicy & savoury",
+        "lunch": "tuna",
+        "dinner": "gingerbeef"
+      },
+      {
+        "day": "Tuesday",
+        "subtitle": "Lemon & smoky",
+        "lunch": "lemonpotato",
+        "dinner": "fajitas"
+      },
+      {
+        "day": "Wednesday",
+        "subtitle": "Protein day",
+        "lunch": null,
+        "dinner": "shakechoc"
+      },
+      {
+        "day": "Thursday",
+        "subtitle": "Fresh & maple",
+        "lunch": "fajitaleft",
+        "dinner": "salmon"
+      },
+      {
+        "day": "Friday",
+        "subtitle": "Italian & chili",
+        "lunch": "meatballs",
+        "dinner": "chili"
+      },
+      {
+        "day": "Saturday",
+        "subtitle": "Breakfast ritual",
+        "lunch": "restaurant",
+        "dinner": "porkchop"
+      },
+      {
+        "day": "Sunday",
+        "subtitle": "Breakfast & Thai",
+        "lunch": "restaurant",
+        "dinner": "thaicurry"
+      }
+    ],
+    [
+      {
+        "day": "Monday",
+        "subtitle": "Comfort & Mediterranean",
+        "lunch": "chilipotato",
+        "dinner": "oregano"
+      },
+      {
+        "day": "Tuesday",
+        "subtitle": "Peanut & smoky",
+        "lunch": "peanutnoodle",
+        "dinner": "tacoskillet"
+      },
+      {
+        "day": "Wednesday",
+        "subtitle": "Protein day",
+        "lunch": null,
+        "dinner": "shakeberry"
+      },
+      {
+        "day": "Thursday",
+        "subtitle": "Bright & spicy",
+        "lunch": "shrimpmango",
+        "dinner": "harissa"
+      },
+      {
+        "day": "Friday",
+        "subtitle": "Fresh & sticky",
+        "lunch": "tunabeans",
+        "dinner": "koreanbeef"
+      },
+      {
+        "day": "Saturday",
+        "subtitle": "Breakfast ritual",
+        "lunch": "restaurant",
+        "dinner": "tomatocurry"
+      },
+      {
+        "day": "Sunday",
+        "subtitle": "Breakfast & noodles",
+        "lunch": "restaurant",
+        "dinner": "stickypork"
+      }
+    ]
+  ],
+  "notes": [
+    "Nutrition figures are planning estimates, not measured values. Use ingredient labels and adjust portions to match targets.",
+    "On regular days add a protein-rich snack and optional 150–200 kcal dessert. Add a second shake or larger protein portion if needed.",
+    "Restaurant breakfast has substantial uncertainty; no fixed meal calories are promised.",
+    "Wednesday shakes are not nutritionally complete. Supplements do not make a low-variety liquid diet equivalent to balanced meals.",
+    "Cook chicken to 74°C/165°F; refrigerate leftovers promptly.",
+    "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels."
+  ]
+}</script><script>
+(()=>{'use strict';const P=JSON.parse(document.getElementById('plan-data').textContent);const $=id=>document.getElementById(id);const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));let week=0,day=0,shopWeek=0,section='plan';const dayNames=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];const getDay=()=>P.weeks[week][day];const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};const load=(k,d)=>{try{let v=localStorage.getItem(k);return v?JSON.parse(v):d}catch{return d}};const toast=msg=>{const el=$('toast');el.textContent=msg;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2100)};
+function showSection(name){section=name;document.querySelectorAll('.section').forEach(x=>x.classList.toggle('hidden',x.id!==name));document.querySelectorAll('[data-nav]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.nav===name)));if(location.hash.indexOf('w')<0)history.replaceState(null,'','#'+name)}
+function recipeCard(id,label){const r=P.recipes[id];return `<article class="mealcard"><header><div class="eyebrow">${label}</div><h3>${escapeHtml(r.title)}</h3><div class="details">⏱ ${r.minutes?`${r.minutes} min`:'Restaurant'} · ${r.servings} ${r.servings===1?'serving':'servings'}</div></header><div class="content"><h4>What you need</h4><ul class="ingredients">${r.ingredients.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h4>Make it</h4><ol class="steps">${r.steps.map(s=>`<li>${escapeHtml(s)}</li>`).join('')}</ol>${r.tip?`<div class="tip">✦ ${escapeHtml(r.tip)}</div>`:''}</div></article>`}
+function renderPlan(){document.querySelectorAll('[data-week]').forEach(x=>x.setAttribute('aria-pressed',String(+x.dataset.week===week)));$('dayTabs').innerHTML=P.weeks[week].map((d,i)=>`<button class="day" data-day="${i}" aria-pressed="${i===day}" aria-label="${d.day}"><small>${d.day.slice(0,3)}</small><strong>${d.day}</strong><em>${i===2?'Shake day':i>4?'Restaurant AM':'2 meals'}</em></button>`).join('');document.querySelectorAll('[data-day]').forEach(x=>x.onclick=()=>{day=+x.dataset.day;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});const d=getDay();$('dayKicker').textContent=`WEEK ${week+1} · ${d.day.toUpperCase()}`;$('dayTitle').textContent=d.subtitle;$('dayDescription').textContent=day===2?'A semi-fast day with three filling, water-based protein shakes.':day>4?'Your usual restaurant breakfast stays in the plan.':'Two distinct, flavour-forward meals with simple preparation.';$('dayBadge').textContent=day===2?'3 shakes':day>4?'Restaurant AM':'2 meals';$('mealGrid').style.gridTemplateColumns=day===2?'1fr':'';$('mealGrid').innerHTML=day===2?recipeCard(d.dinner,'ALL DAY · THREE SHAKES'):recipeCard(d.lunch,day>4?'FIRST MEAL · RESTAURANT':'LUNCH')+recipeCard(d.dinner,'DINNER');$('dailyNote').innerHTML=day===2?'<strong>Wednesday:</strong> Three shakes are roughly 1,250–1,450 kcal depending on your whey. This is not nutritionally complete; it is optional if hunger or training suffers.':day>4?'<strong>Weekend:</strong> Your restaurant breakfast could be 850–1,100+ kcal depending on preparation. Balance the rest of the day with your dinner and, if needed, a protein-rich snack.':'<strong>Daily target:</strong> These are meal recipes, not guaranteed daily totals. Add a protein-rich snack and optionally 150–200 kcal dessert; adjust rice, oil and protein portions using package labels.'}
+function jumpToday(){const local=new Date(),anchor=new Date('2026-11-16T12:00:00'),now=new Date(local.getFullYear(),local.getMonth(),local.getDate(),12);const diff=Math.floor((now-anchor)/86400000),dayIndex=((diff%7)+7)%7,weekIndex=((Math.floor(diff/7)%2)+2)%2;week=weekIndex;day=dayIndex;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`);showSection('plan')}
+const shopping=[
+{'Protein & refrigerated':['Chicken breast or thighs (~900 g–1.1 kg)','Lean ground beef (~225 g)','Lean ground turkey (~600 g)','Salmon fillet (~225 g)','Lean pork chop (~250 g)','Frozen peeled shrimp (~250 g)','Canned light tuna (2 cans)','Lean prepared meatballs (~220 g)','Whey powder (for 3 Wednesday shakes)'],'Produce & frozen':['Bell peppers (3–4)','Onions (2–3)','Cucumber (2)','Tomatoes or cherry tomatoes','Broccoli and green beans (fresh or frozen)','Bagged cabbage slaw','Spinach','Potatoes and sweet potatoes (~1.2 kg)','Lemons and limes','Avocado, bananas','Frozen stir-fry vegetables','Garlic and ginger'],'Rice, beans & staples':['Microwave rice (or dry rice)','Pasta and noodles','Rolled oats','Black beans (2 cans)','Crushed tomatoes (1 large can)','Corn (frozen or canned)','Light coconut milk','Peanut butter','Olive oil'],'Flavour & extras':['Soy sauce, sriracha','Dijon mustard, maple syrup','Smoked paprika, cumin, chili powder','Thai red curry paste','Marinara, salsa','Honey, sesame oil','Apple cider vinegar','Your chosen snacks and desserts']},
+{'Protein & refrigerated':['Chicken breast or thighs (~900 g–1.1 kg)','Lean ground beef (~450 g)','Lean beef strips (~225 g)','Lean pork strips (~225 g)','Frozen peeled shrimp (~250 g)','Canned light tuna (2 cans)','Whey powder (for 3 Wednesday shakes)','Frozen leftover turkey chili from Week 1'],'Produce & frozen':['Cucumber (2)','Tomatoes and cherry tomatoes','Bell peppers (2–3), onions (2)','Broccoli and mushrooms','Shredded cabbage and carrots','Frozen stir-fry vegetables','Spinach','Potatoes (~600 g)','Mango, lemons and limes','Frozen berries','Avocado','Garlic and ginger'],'Rice, beans & staples':['Microwave basmati/jasmine rice (or dry rice)','Rice noodles and ready-to-use udon','Rolled oats','Black beans, white beans, chickpeas','Canned crushed tomatoes','Light coconut milk','Peanut or almond butter','Olive oil'],'Flavour & extras':['Harissa paste','Soy sauce and sweet chili sauce','Curry powder and garam masala','Chili powder, cumin, smoked paprika','Sesame oil, sesame seeds','Hot sauce, salsa','Lemon, lime and parsley','Your chosen snacks and desserts']}
+];
+function renderShopping(){document.querySelectorAll('[data-shopweek]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.shopweek===shopWeek)));let done=load('groceries'+shopWeek,{});$('groceryGrid').innerHTML=Object.entries(shopping[shopWeek]).map(([cat,its])=>`<div class="panel"><h3>${escapeHtml(cat)}</h3>${its.map((t,i)=>{const key=cat+i;return `<label class="listitem"><input type="checkbox" data-check="${escapeHtml(key)}" ${done[key]?'checked':''}><span>${escapeHtml(t)}</span></label>`}).join('')}</div>`).join('');document.querySelectorAll('[data-check]').forEach(el=>el.onchange=()=>{done[el.dataset.check]=el.checked;save('groceries'+shopWeek,done)})}
+function renderDirectory(){const q=$('recipeSearch').value.trim().toLowerCase();const items=Object.values(P.recipes).filter(x=>(x.title+' '+x.ingredients.join(' ')).toLowerCase().includes(q));$('recipeCount').textContent=items.length+' recipes';$('recipeDirectory').innerHTML=items.map(r=>`<button class="recipeButton" data-recipe="${r.id}" aria-expanded="false"><strong>${escapeHtml(r.title)}</strong><small>${r.minutes?r.minutes+' min':'Restaurant'} · ${r.servings} ${r.servings===1?'serving':'servings'}</small></button>`).join('');document.querySelectorAll('[data-recipe]').forEach(el=>el.onclick=()=>{document.querySelectorAll('[data-recipe]').forEach(x=>x.setAttribute('aria-expanded','false'));el.setAttribute('aria-expanded','true');$('selectedRecipe').innerHTML=`<div class="fullRecipe">${recipeCard(el.dataset.recipe,'RECIPE')}</div>`;$('selectedRecipe').scrollIntoView({behavior:'smooth',block:'nearest'})})}
+function init(){document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>{showSection(b.dataset.nav)});document.querySelectorAll('[data-week]').forEach(b=>b.onclick=()=>{week=+b.dataset.week;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});document.querySelectorAll('[data-shopweek]').forEach(b=>b.onclick=()=>{shopWeek=+b.dataset.shopweek;renderShopping()});$('today').onclick=jumpToday;$('recipeSearch').oninput=renderDirectory;$('copyDay').onclick=async()=>{const d=getDay();const ids=day===2?[d.dinner]:[d.lunch,d.dinner];const txt=`Week ${week+1} ${d.day}: ${d.subtitle}\n\n`+ids.map(id=>{const r=P.recipes[id];return `${r.title}\nIngredients: ${r.ingredients.join('; ')}\nMethod: ${r.steps.join(' ')}`}).join('\n\n');await copy(txt);toast('Day copied')};$('copyGroceries').onclick=async()=>{let s=`Week ${shopWeek+1} shopping list\n\n`+Object.entries(shopping[shopWeek]).map(([k,v])=>`${k}\n${v.map(x=>'- '+x).join('\n')}`).join('\n\n');await copy(s);toast('Shopping list copied')};$('clearGroceries').onclick=()=>{save('groceries'+shopWeek,{});renderShopping();toast('Checks cleared')};$('notes').value=load('notes','');$('notes').oninput=()=>save('notes',$('notes').value);$('copyForChat').onclick=async()=>{await copy(`My meal plan is the 14-day rotation version ${P.version}. Please update these personal notes and preferences: \n${$('notes').value||'(none)'}\nAvoid: ${P.background.avoid.join(', ')}. Wednesday: protein shakes. Weekend: usual restaurant breakfast.`);toast('Notes copied for ChatGPT')};$('export').onclick=()=>{const blob=new Blob([JSON.stringify({...P,personal_notes:$('notes').value},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-14-day-plan.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};$('guidelines').innerHTML=P.notes.map(s=>`<p class="noteItem">• ${escapeHtml(s)}</p>`).join('');const hash=location.hash.match(/^#w([12])d([1-7])$/);if(hash){week=+hash[1]-1;day=+hash[2]-1}else{let saved=load('selection',null);if(saved&&[0,1].includes(saved.week)&&saved.day>=0&&saved.day<=6){week=saved.week;day=saved.day}else{let start=new Date('2026-11-16T12:00:00'),now=new Date();let diff=Math.floor((new Date(now.getFullYear(),now.getMonth(),now.getDate(),12)-start)/86400000);week=((Math.floor(diff/7)%2)+2)%2;day=((diff%7)+7)%7}}renderPlan();renderShopping();renderDirectory();if(['shopping','recipes','settings'].includes(location.hash.slice(1)))showSection(location.hash.slice(1))}
+async function copy(str){try{await navigator.clipboard.writeText(str)}catch{let t=document.createElement('textarea');t.value=str;document.body.append(t);t.select();document.execCommand('copy');t.remove()}}init();})();
+</script></body></html>
