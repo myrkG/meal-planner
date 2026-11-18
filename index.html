@@ -1398,7 +1398,7 @@ function renderShopping(){
  $('stockedInventory').innerHTML=saved.length?'<details class="pantry-inventory" id="pantryInventory" '+(pantryOpen?'open':'')+'><summary>'+tr('Already have / Pantry','Déjà en stock / Garde-manger')+' ('+saved.length+')</summary><p>'+tr('These items are hidden from both shopping weeks. Use “Need again” when you run out.','Ces produits sont masqués des deux semaines. Choisis « À racheter » quand tu n’en as plus.')+'</p>'+saved.map(entry=>'<div class="pantry-entry"><span>'+escapeHtml(entry.name)+'</span><button type="button" class="restore-btn" data-restore="'+escapeHtml(entry.id)+'">'+tr('Need again','À racheter')+'</button></div>').join('')+'</details>':'';
  document.querySelectorAll('[data-check]').forEach(el=>el.onchange=()=>{done[el.dataset.check]=el.checked;save(groceryKey(shopWeek),done)});
  document.querySelectorAll('[data-stock]').forEach(el=>el.onclick=()=>{stocked[el.dataset.stock]=true;save('grocery-stocked-v1',stocked);renderShopping();toast(tr('Saved to pantry','Ajouté aux articles en stock'))});
- document.querySelectorAll('[data-restore]').forEach(el=>el.onclick=()=>{delete stocked[el.dataset.restore];save('grocery-stocked-v1',stocked);renderShopping();toast(tr('Returned to grocery list','Remis dans la liste d’épicerie'))});
+ document.querySelectorAll('[data-restore]').forEach(el=>el.onclick=()=>{delete stocked[el.dataset.restore];save('grocery-stocked-v1',stocked);const done=loadGroceryChecks(shopWeek);delete done['item:'+el.dataset.restore];save(groceryKey(shopWeek),done);renderShopping();toast(tr('Returned to grocery list','Remis dans la liste d’épicerie'))});
  const details=$('pantryInventory');if(details)details.ontoggle=()=>{pantryOpen=details.open};
 }
 
