@@ -137,12 +137,12 @@
         "1 portion cooked fajita chicken and peppers from Tuesday",
         "1 cup cooked rice",
         "¾ cup drained canned black beans",
-        "½ cup corn",
+        "½ cup frozen whole-kernel sweet corn",
         "Salsa and fresh lime"
       ],
       "steps": [
-        "Reheat cooked rice, leftover chicken and beans until piping hot.",
-        "Add corn, salsa and lime."
+        "Reheat cooked rice, leftover chicken, beans and frozen corn until piping hot.",
+        "Add salsa and lime."
       ],
       "tip": "Leftover cooked chicken should be refrigerated promptly and used within 3–4 days.",
       "nutrition": {
@@ -378,7 +378,7 @@
         "225 g lean ground beef",
         "¾ cup drained black beans",
         "½ bell pepper, diced",
-        "½ cup corn",
+        "½ cup frozen whole-kernel sweet corn",
         "1 cup cooked rice",
         "⅓ avocado",
         "Salsa, chili powder, cumin and smoked paprika"
@@ -918,8 +918,8 @@
         },
         {
           "id": "corn",
-          "name": "Corn (frozen or canned)",
-          "iga": "c:canned"
+          "name": "Frozen whole-kernel sweet corn (750 g bag)",
+          "iga": "p:corn"
         },
         {
           "id": "coconutmilk",
@@ -1180,6 +1180,11 @@
           "id": "chickpeas",
           "name": "Chickpeas",
           "iga": "p:chickpeas"
+        },
+        {
+          "id": "corn",
+          "name": "Frozen whole-kernel sweet corn (750 g bag)",
+          "iga": "p:corn"
         },
         {
           "id": "crushedtomatoes",
