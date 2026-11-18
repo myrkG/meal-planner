@@ -1,0 +1,726 @@
+{
+  "title": "La rotation de 14 jours",
+  "version": "1.1 · novembre 2026",
+  "anchor_monday": "2026-11-16",
+  "targets": {
+    "regular_calories": "2,350–2,500 kcal",
+    "wednesday_calories": "~1,350 kcal",
+    "regular_protein": "150–180 g",
+    "dessert": "150–200 kcal"
+  },
+  "background": {
+    "schedule": "Deux repas la plupart des jours; déjeuner au restaurant le week-end; shakes protéinés chaque mercredi",
+    "avoid": [
+      "fromage",
+      "crème sure",
+      "grandes quantités de pain",
+      "grandes quantités de lait"
+    ]
+  },
+  "recipes": {
+    "tuna": {
+      "id": "tuna",
+      "title": "Bol de riz au thon épicé et à l’avocat",
+      "minutes": 5,
+      "servings": 1,
+      "ingredients": [
+        "2 boîtes de thon pâle, égoutté (environ 220 à 240 g)",
+        "1½ tasse de riz cuit (pour micro-ondes)",
+        "½ avocat, en dés",
+        "½ concombre, en dés",
+        "1 c. à thé de sauce soya + jus de lime",
+        "Sriracha, au goût"
+      ],
+      "steps": [
+        "Réchauffer le riz au micro-ondes et égoutter le thon.",
+        "Mélanger la sauce soya, la lime et la sriracha, puis enrober le thon.",
+        "Déposer le thon, l’avocat et le concombre sur le riz; arroser de sauce."
+      ],
+      "tip": "Pour du croquant, ajouter un peu d’huile de chili croustillante; mesurer la quantité au-delà d’une cuillère à thé."
+    },
+    "gingerbeef": {
+      "id": "gingerbeef",
+      "title": "Nouilles au bœuf collant, gingembre et ail",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g de bœuf haché maigre",
+        "90 g de nouilles sèches",
+        "2 tasses de brocoli (surgelé, c’est parfait)",
+        "2 c. à soupe de sauce soya réduite en sodium",
+        "1 c. à thé de miel",
+        "1 c. à thé d’huile de sésame",
+        "Ail et gingembre râpé"
+      ],
+      "steps": [
+        "Cuire les nouilles selon l’emballage.",
+        "Faire dorer le bœuf dans une poêle; ajouter le brocoli et cuire jusqu’à ce qu’il soit chaud.",
+        "Mélanger sauce soya, miel, huile de sésame, ail et gingembre; verser dans la poêle et mélanger avec les nouilles."
+      ],
+      "tip": "Un trait de vinaigre de riz ou de lime rehausse la sauce."
+    },
+    "lemonpotato": {
+      "id": "lemonpotato",
+      "title": "Bol de poulet et pommes de terre au citron",
+      "minutes": 12,
+      "servings": 1,
+      "ingredients": [
+        "225 g de poitrine ou de haut de cuisse de poulet cuit",
+        "300 g de petites pommes de terre",
+        "1 tasse de tomates et de concombre hachés",
+        "2 c. à thé d’huile d’olive",
+        "1 c. à thé de moutarde de Dijon",
+        "Jus de citron, origan, sel et poivre"
+      ],
+      "steps": [
+        "Cuire les pommes de terre coupées en deux au micro-ondes jusqu’à tendreté, environ 7 à 9 min.",
+        "Réchauffer le poulet cuit, si désiré.",
+        "Fouetter l’huile d’olive, la moutarde, le citron et l’origan; mélanger le tout."
+      ],
+      "tip": "Utiliser des lanières de poulet déjà cuites ou du poulet rôti pour réduire la préparation au minimum."
+    },
+    "fajitas": {
+      "id": "fajitas",
+      "title": "Bols de riz au poulet façon fajitas fumées",
+      "minutes": 20,
+      "servings": 2,
+      "ingredients": [
+        "450 g de lanières de poulet crues (pour 2 portions)",
+        "2 poivrons, en lanières",
+        "1 oignon, émincé",
+        "2 tasses de riz cuit (pour 2 portions)",
+        "1 c. à soupe d’huile d’olive",
+        "2 c. à thé de paprika fumé + 1 c. à thé de cumin",
+        "Jus de lime et salsa"
+      ],
+      "steps": [
+        "Assaisonner le poulet de paprika fumé, de cumin, de sel et de poivre.",
+        "Saisir le poulet dans l’huile jusqu’à 74 °C (165 °F) à cœur. Ajouter poivrons et oignon; cuire en gardant un peu de croquant.",
+        "Servir la moitié sur du riz avec salsa et lime. Réfrigérer rapidement le reste pour le dîner de jeudi."
+      ],
+      "tip": "Augmenter les légumes si la faim persiste; la deuxième portion simplifie le repas de jeudi."
+    },
+    "fajitaleft": {
+      "id": "fajitaleft",
+      "title": "Bol de fajitas aux haricots noirs",
+      "minutes": 5,
+      "servings": 1,
+      "ingredients": [
+        "1 portion de poulet et de poivrons façon fajitas de mardi",
+        "1 tasse de riz cuit",
+        "¾ tasse de haricots noirs en conserve, égouttés",
+        "½ tasse de maïs",
+        "Salsa et lime fraîche"
+      ],
+      "steps": [
+        "Réchauffer le riz, le poulet restant et les haricots jusqu’à ce que le tout soit bien chaud.",
+        "Ajouter le maïs, la salsa et le jus de lime."
+      ],
+      "tip": "Réfrigérer rapidement le poulet cuit et l’utiliser dans les 3 à 4 jours."
+    },
+    "salmon": {
+      "id": "salmon",
+      "title": "Saumon érable-Dijon et pommes de terre",
+      "minutes": 25,
+      "servings": 1,
+      "ingredients": [
+        "225 g de filet de saumon",
+        "300 g de petites pommes de terre, coupées en deux",
+        "2 tasses de haricots verts",
+        "2 c. à thé d’huile d’olive",
+        "1 c. à soupe de moutarde de Dijon",
+        "2 c. à thé de sirop d’érable",
+        "Citron et poivre noir"
+      ],
+      "steps": [
+        "Préchauffer le four ou la friteuse à air à 200 °C (400 °F). Mélanger les pommes de terre avec l’huile et les épices; commencer leur cuisson.",
+        "Mélanger la moutarde et le sirop d’érable, badigeonner le saumon et cuire jusqu’à cuisson complète (environ 10 à 14 min selon l’épaisseur).",
+        "Cuire les haricots verts à la vapeur et terminer avec du citron."
+      ],
+      "tip": "Pour moins de vaisselle, utiliser une plaque tapissée de papier parchemin ou d’aluminium."
+    },
+    "meatballs": {
+      "id": "meatballs",
+      "title": "Pâtes aux boulettes, marinara et ail",
+      "minutes": 20,
+      "servings": 1,
+      "ingredients": [
+        "220 g de boulettes maigres cuites de dinde ou de bœuf",
+        "90 g de pâtes sèches",
+        "¾ tasse de sauce marinara",
+        "2 tasses de jeunes épinards",
+        "1 c. à thé d’huile d’olive",
+        "Ail, flocons de piment et basilic"
+      ],
+      "steps": [
+        "Cuire les pâtes et réchauffer les boulettes selon l’emballage.",
+        "Chauffer l’huile et l’ail; ajouter la marinara et les épinards jusqu’à ce qu’ils tombent.",
+        "Mélanger avec les pâtes et les boulettes; ajouter flocons de piment et basilic."
+      ],
+      "tip": "Choisir des boulettes sans fromage si vous n’aimez pas son goût."
+    },
+    "chili": {
+      "id": "chili",
+      "title": "Chili fumé de dinde et haricots noirs",
+      "minutes": 25,
+      "servings": 3,
+      "ingredients": [
+        "600 g de dinde hachée maigre",
+        "1 grosse boîte de tomates broyées (796 ml)",
+        "1 boîte de haricots noirs, égouttés",
+        "1 oignon, haché",
+        "1 poivron, haché",
+        "1 c. à soupe d’huile",
+        "Poudre de chili, cumin, paprika fumé et sel"
+      ],
+      "steps": [
+        "Dans une casserole, attendrir l’oignon et le poivron dans l’huile; bien faire dorer la dinde.",
+        "Ajouter tomates, haricots et épices. Laisser mijoter 15 min en remuant de temps en temps.",
+        "Manger une portion; refroidir et congeler au moins une portion supplémentaire pour lundi prochain."
+      ],
+      "tip": "Donne environ 3 portions; garnir d’oignon haché, de coriandre et de sauce piquante."
+    },
+    "porkchop": {
+      "id": "porkchop",
+      "title": "Côtelettes de porc ail-lime et patate douce",
+      "minutes": 25,
+      "servings": 1,
+      "ingredients": [
+        "225 à 250 g de côtelette de porc désossée maigre",
+        "350 g de patate douce, en quartiers",
+        "2 tasses de mélange de chou râpé en sac",
+        "2 c. à thé d’huile d’olive",
+        "Ail, lime et paprika fumé",
+        "1 c. à soupe de vinaigre de cidre"
+      ],
+      "steps": [
+        "Cuire les quartiers de patate douce assaisonnés au four ou à la friteuse à air à 200 °C (400 °F) jusqu’à ce qu’ils soient croustillants, environ 18 à 25 min.",
+        "Assaisonner le porc de paprika et d’ail; le saisir à la poêle jusqu’à cuisson sécuritaire et laisser reposer.",
+        "Mélanger le chou avec le vinaigre et la lime; servir le tout."
+      ],
+      "tip": "Un peu de sauce piquante dans la salade de chou donne plus de pep."
+    },
+    "thaicurry": {
+      "id": "thaicurry",
+      "title": "Cari rouge thaï aux crevettes",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "250 g de crevettes décongelées",
+        "1 tasse de lait de coco léger",
+        "2 tasses de légumes surgelés pour sautés",
+        "1 à 2 c. à soupe de pâte de cari rouge thaï",
+        "1½ tasse de riz jasmin cuit",
+        "Jus de lime et coriandre fraîche (facultatif)"
+      ],
+      "steps": [
+        "Faire chauffer la pâte de cari dans une poêle pendant 30 secondes.",
+        "Ajouter le lait de coco et les légumes; laisser mijoter jusqu’à ce qu’ils soient chauds.",
+        "Ajouter les crevettes et cuire jusqu’à ce qu’elles soient opaques; servir sur le riz avec de la lime."
+      ],
+      "tip": "Le piquant varie beaucoup selon la pâte de cari : commencer avec 1 c. à soupe."
+    },
+    "chilipotato": {
+      "id": "chilipotato",
+      "title": "Pomme de terre garnie au chili",
+      "minutes": 10,
+      "servings": 1,
+      "ingredients": [
+        "1 portion congelée de chili de dinde maison",
+        "350 g de pomme de terre Russet",
+        "2 c. à soupe d’oignon haché",
+        "Sauce piquante et oignon vert"
+      ],
+      "steps": [
+        "Piquer la pomme de terre et la cuire au micro-ondes jusqu’à tendreté en la retournant une fois.",
+        "Réchauffer le chili décongelé jusqu’à ce qu’il soit très chaud.",
+        "Ouvrir la pomme de terre, la garnir de chili, d’oignon et de sauce piquante."
+      ],
+      "tip": "Si la portion est petite, ajouter une poignée de haricots."
+    },
+    "oregano": {
+      "id": "oregano",
+      "title": "Bol de riz au poulet citron-origan",
+      "minutes": 20,
+      "servings": 1,
+      "ingredients": [
+        "225 g de poitrine ou de haut de cuisse de poulet cru",
+        "1½ tasse de riz cuit",
+        "1½ tasse de tomates et de concombre hachés",
+        "2 c. à thé d’huile d’olive",
+        "1 citron",
+        "Ail, origan séché, sel et poivre"
+      ],
+      "steps": [
+        "Assaisonner le poulet d’ail, d’origan, de zeste de citron, de sel et de poivre.",
+        "Saisir dans l’huile d’olive jusqu’à ce que le poulet atteigne 74 °C (165 °F) à cœur.",
+        "Servir avec le riz chaud et une salade tomate-concombre citronnée."
+      ],
+      "tip": "Bien citronner pour garder un goût frais, sans sauce crémeuse."
+    },
+    "peanutnoodle": {
+      "id": "peanutnoodle",
+      "title": "Nouilles thaïes au poulet et aux arachides",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g de lanières de poulet",
+        "90 g de nouilles de riz sèches",
+        "2 tasses de chou et de carottes râpés",
+        "1½ c. à soupe de beurre d’arachides",
+        "1 c. à soupe de sauce soya",
+        "Jus de lime, sauce chili et eau tiède"
+      ],
+      "steps": [
+        "Cuire les nouilles et le poulet; celui-ci doit atteindre 74 °C (165 °F) à cœur.",
+        "Fouetter le beurre d’arachides, la sauce soya, la lime, la sauce chili et assez d’eau tiède pour une sauce fluide.",
+        "Mélanger les nouilles avec le poulet, les légumes croquants et la sauce."
+      ],
+      "tip": "Ajouter plus de lime et de piment plutôt que plus de beurre d’arachides pour intensifier le goût."
+    },
+    "tacoskillet": {
+      "id": "tacoskillet",
+      "title": "Poêlée de bœuf façon tacos fumés",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g de bœuf haché maigre",
+        "¾ tasse de haricots noirs égouttés",
+        "½ poivron en dés",
+        "½ tasse de maïs",
+        "1 tasse de riz cuit",
+        "⅓ avocat",
+        "Salsa, poudre de chili, cumin et paprika fumé"
+      ],
+      "steps": [
+        "Faire dorer le bœuf dans une grande poêle; ajouter poivron et épices à tacos.",
+        "Ajouter les haricots et le maïs; réchauffer.",
+        "Servir sur du riz chaud avec l’avocat en dés et la salsa."
+      ],
+      "tip": "Pour relever, ajouter un peu de chipotle en sauce adobo ou des jalapeños marinés."
+    },
+    "shrimpmango": {
+      "id": "shrimpmango",
+      "title": "Bol de crevettes lime-chili et mangue",
+      "minutes": 12,
+      "servings": 1,
+      "ingredients": [
+        "250 g de crevettes décortiquées",
+        "1½ tasse de riz cuit",
+        "½ mangue en dés",
+        "½ concombre en dés",
+        "2 c. à thé d’huile d’olive",
+        "Lime, flocons de piment et coriandre"
+      ],
+      "steps": [
+        "Saisir les crevettes décongelées dans l’huile jusqu’à ce qu’elles soient opaques et bien cuites.",
+        "Mélanger mangue et concombre en dés avec lime et flocons de piment.",
+        "Servir sur du riz et terminer avec la coriandre."
+      ],
+      "tip": "La mangue surgelée fonctionne aussi : la décongeler avant de servir."
+    },
+    "harissa": {
+      "id": "harissa",
+      "title": "Poulet harissa, pois chiches et légumes sur plaque",
+      "minutes": 25,
+      "servings": 1,
+      "ingredients": [
+        "225 g de poitrine ou de haut de cuisse de poulet, en dés",
+        "¾ tasse de pois chiches égouttés",
+        "2 tasses de poivrons et d’oignon en lanières",
+        "1 c. à soupe de pâte de harissa",
+        "2 c. à thé d’huile d’olive",
+        "½ citron"
+      ],
+      "steps": [
+        "Préchauffer le four ou la friteuse à air à 205 °C (400 °F).",
+        "Mélanger poulet, pois chiches et légumes avec harissa et huile. Rôtir en retournant une fois jusqu’à 74 °C (165 °F) à cœur pour le poulet.",
+        "Presser le citron sur le tout."
+      ],
+      "tip": "L’harissa est relevée et parfumée; commencer avec moins si vous ne la connaissez pas."
+    },
+    "tunabeans": {
+      "id": "tunabeans",
+      "title": "Salade de thon, haricots blancs et pommes de terre",
+      "minutes": 12,
+      "servings": 1,
+      "ingredients": [
+        "2 boîtes de thon pâle, égoutté",
+        "¾ tasse de haricots blancs égouttés",
+        "250 g de petites pommes de terre",
+        "1 tasse de tomates cerises coupées en deux",
+        "2 c. à thé d’huile d’olive",
+        "Jus de citron, persil, ail et poivre"
+      ],
+      "steps": [
+        "Cuire les pommes de terre au micro-ondes jusqu’à tendreté; laisser tiédir.",
+        "Fouetter l’huile, le citron et l’ail.",
+        "Mélanger avec le thon, les haricots, les tomates et le persil."
+      ],
+      "tip": "Des câpres ou une cuillère à thé de Dijon donnent plus de mordant à la vinaigrette."
+    },
+    "koreanbeef": {
+      "id": "koreanbeef",
+      "title": "Bol de bœuf collant à la coréenne",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g de lanières de bœuf maigre",
+        "1½ tasse de riz cuit",
+        "2 tasses de brocoli et de champignons",
+        "1 c. à soupe de sauce soya",
+        "1 c. à thé de cassonade",
+        "1 c. à thé d’huile de sésame",
+        "Ail, gingembre et flocons de piment"
+      ],
+      "steps": [
+        "Saisir les lanières de bœuf à feu vif, puis retirer une fois cuites.",
+        "Cuire le brocoli et les champignons jusqu’à ce qu’ils soient tendres mais croquants.",
+        "Remettre le bœuf et mélanger avec la sauce soya, la cassonade, l’huile de sésame, l’ail et le gingembre. Servir sur le riz."
+      ],
+      "tip": "Ajouter au choix graines de sésame et oignons verts pour la texture."
+    },
+    "tomatocurry": {
+      "id": "tomatocurry",
+      "title": "Cari de poulet tomates et lait de coco",
+      "minutes": 20,
+      "servings": 1,
+      "ingredients": [
+        "250 g de poitrine ou de haut de cuisse de poulet en cubes",
+        "¾ tasse de tomates broyées en conserve",
+        "½ tasse de lait de coco léger",
+        "2 tasses de jeunes épinards",
+        "1½ tasse de riz basmati cuit",
+        "Poudre de cari, garam masala, ail et gingembre"
+      ],
+      "steps": [
+        "Saisir le poulet assaisonné jusqu’à coloration.",
+        "Ajouter tomates, lait de coco, ail, gingembre et épices; laisser mijoter jusqu’à ce que le poulet atteigne 74 °C (165 °F) à cœur.",
+        "Incorporer les épinards et servir sur le riz."
+      ],
+      "tip": "Griller les épices sèches 20 secondes dans la poêle avant d’ajouter les liquides."
+    },
+    "stickypork": {
+      "id": "stickypork",
+      "title": "Udon au porc collant et au sésame",
+      "minutes": 15,
+      "servings": 1,
+      "ingredients": [
+        "225 g de lanières de porc maigre",
+        "200 g de nouilles udon prêtes à utiliser",
+        "2 tasses de légumes surgelés pour sautés",
+        "1 c. à soupe de sauce soya",
+        "1 c. à soupe de sauce chili douce",
+        "1 c. à thé d’huile de sésame",
+        "Ail et graines de sésame"
+      ],
+      "steps": [
+        "Saisir le porc dans une poêle chaude jusqu’à cuisson complète.",
+        "Ajouter les légumes et cuire jusqu’à ce qu’ils soient chauds.",
+        "Ajouter nouilles et sauces; mélanger jusqu’à ce que le tout soit bien enrobé, puis terminer avec les graines de sésame."
+      ],
+      "tip": "Garder la poêle bien chaude pour éviter que les légumes deviennent mous."
+    },
+    "restaurant": {
+      "id": "restaurant",
+      "title": "Ton déjeuner habituel au restaurant",
+      "minutes": 0,
+      "servings": 1,
+      "ingredients": [
+        "2 œufs",
+        "2 saucisses",
+        "2 tranches de pain de seigle",
+        "Une généreuse portion de pommes de terre déjeuner"
+      ],
+      "steps": [
+        "Profiter du déjeuner habituel du samedi et du dimanche.",
+        "Pour planifier, compter environ 850 à 1 100 kcal; les recettes et portions varient selon le restaurant."
+      ],
+      "tip": "Ce repas reste volontairement inchangé. Pas besoin de retirer le pain de seigle."
+    },
+    "shakechoc": {
+      "id": "shakechoc",
+      "title": "Shake chocolat-banane (en faire 3)",
+      "minutes": 5,
+      "servings": 3,
+      "ingredients": [
+        "PAR SHAKE : 1½ mesure de whey au chocolat",
+        "30 g de flocons d’avoine",
+        "1 c. à soupe de beurre d’arachides",
+        "½ banane",
+        "Cacao non sucré, eau et glaçons"
+      ],
+      "steps": [
+        "Mixer d’abord l’avoine avec l’eau pour un breuvage plus lisse.",
+        "Ajouter le reste des ingrédients et bien mixer.",
+        "Préparer trois shakes répartis au cours de la journée de mercredi."
+      ],
+      "tip": "Au total, trois shakes fournissent environ 1 250 à 1 450 kcal et 125 à 150 g de protéines, selon la whey. Vérifier l’étiquette."
+    },
+    "shakeberry": {
+      "id": "shakeberry",
+      "title": "Shake vanille et petits fruits (en faire 3)",
+      "minutes": 5,
+      "servings": 3,
+      "ingredients": [
+        "PAR SHAKE : 1½ mesure de whey à la vanille",
+        "30 g de flocons d’avoine",
+        "1 c. à soupe de beurre d’amandes ou d’arachides",
+        "100 g de petits fruits surgelés",
+        "Cannelle, eau et glaçons"
+      ],
+      "steps": [
+        "Mixer d’abord l’avoine avec l’eau.",
+        "Ajouter whey, beurre de noix, petits fruits et glaçons; mixer jusqu’à consistance crémeuse.",
+        "Préparer trois shakes répartis au cours de la journée de mercredi."
+      ],
+      "tip": "Les shakes de whey seuls ne constituent pas un substitut de repas complet sur le plan nutritionnel à long terme."
+    }
+  },
+  "weeks": [
+    [
+      {
+        "day": "Lundi",
+        "subtitle": "Épicé et savoureux",
+        "lunch": "tuna",
+        "dinner": "gingerbeef"
+      },
+      {
+        "day": "Mardi",
+        "subtitle": "Citron et fumé",
+        "lunch": "lemonpotato",
+        "dinner": "fajitas"
+      },
+      {
+        "day": "Mercredi",
+        "subtitle": "Journée protéines",
+        "lunch": null,
+        "dinner": "shakechoc"
+      },
+      {
+        "day": "Jeudi",
+        "subtitle": "Fraîcheur et érable",
+        "lunch": "fajitaleft",
+        "dinner": "salmon"
+      },
+      {
+        "day": "Vendredi",
+        "subtitle": "Italie et chili",
+        "lunch": "meatballs",
+        "dinner": "chili"
+      },
+      {
+        "day": "Samedi",
+        "subtitle": "Déjeuner traditionnel",
+        "lunch": "restaurant",
+        "dinner": "porkchop"
+      },
+      {
+        "day": "Dimanche",
+        "subtitle": "Déjeuner et saveurs thaïes",
+        "lunch": "restaurant",
+        "dinner": "thaicurry"
+      }
+    ],
+    [
+      {
+        "day": "Lundi",
+        "subtitle": "Réconfort et Méditerranée",
+        "lunch": "chilipotato",
+        "dinner": "oregano"
+      },
+      {
+        "day": "Mardi",
+        "subtitle": "Arachides et épices fumées",
+        "lunch": "peanutnoodle",
+        "dinner": "tacoskillet"
+      },
+      {
+        "day": "Mercredi",
+        "subtitle": "Journée protéines",
+        "lunch": null,
+        "dinner": "shakeberry"
+      },
+      {
+        "day": "Jeudi",
+        "subtitle": "Frais et relevé",
+        "lunch": "shrimpmango",
+        "dinner": "harissa"
+      },
+      {
+        "day": "Vendredi",
+        "subtitle": "Frais et caramélisé",
+        "lunch": "tunabeans",
+        "dinner": "koreanbeef"
+      },
+      {
+        "day": "Samedi",
+        "subtitle": "Déjeuner traditionnel",
+        "lunch": "restaurant",
+        "dinner": "tomatocurry"
+      },
+      {
+        "day": "Dimanche",
+        "subtitle": "Déjeuner et nouilles",
+        "lunch": "restaurant",
+        "dinner": "stickypork"
+      }
+    ]
+  ],
+  "notes": [
+    "Les valeurs nutritionnelles sont des estimations de planification, pas des mesures précises. Vérifier les étiquettes et ajuster les portions selon les objectifs.",
+    "Les jours habituels, ajouter une collation riche en protéines et, au choix, un dessert de 150 à 200 kcal. Ajouter un deuxième shake ou une portion plus généreuse de protéines au besoin.",
+    "Les calories du déjeuner au restaurant sont incertaines; aucun total précis n’est garanti.",
+    "Les shakes du mercredi ne couvrent pas tous les besoins nutritionnels. Les suppléments ne transforment pas une alimentation liquide peu variée en repas équilibrés.",
+    "Cuire le poulet à 74 °C (165 °F) à cœur; réfrigérer rapidement les restes.",
+    "Les suppléments du matin peuvent apporter des calories, notamment le collagène et les fibres en poudre; vérifier les étiquettes."
+  ],
+  "shopping": [
+    {
+      "Protéines et produits réfrigérés": [
+        "Poitrine ou hauts de cuisse de poulet (environ 900 g à 1,1 kg)",
+        "Bœuf haché maigre (environ 225 g)",
+        "Dinde hachée maigre (environ 600 g)",
+        "Filet de saumon (environ 225 g)",
+        "Côtelette de porc maigre (environ 250 g)",
+        "Crevettes décortiquées surgelées (environ 250 g)",
+        "Thon pâle en conserve (2 boîtes)",
+        "Boulettes de viande maigres préparées (environ 220 g)",
+        "Whey en poudre (pour les 3 shakes du mercredi)"
+      ],
+      "Fruits, légumes et surgelés": [
+        "Poivrons (3 à 4)",
+        "Oignons (2 à 3)",
+        "Concombres (2)",
+        "Tomates ou tomates cerises",
+        "Brocoli et haricots verts (frais ou surgelés)",
+        "Mélange de chou râpé en sac",
+        "Épinards",
+        "Pommes de terre et patates douces (environ 1,2 kg)",
+        "Citrons et limes",
+        "Avocat et bananes",
+        "Légumes surgelés pour sautés",
+        "Ail et gingembre"
+      ],
+      "Riz, haricots et produits de base": [
+        "Riz pour micro-ondes (ou riz sec)",
+        "Pâtes et nouilles",
+        "Flocons d’avoine",
+        "Haricots noirs (2 boîtes)",
+        "Tomates broyées (1 grosse boîte)",
+        "Maïs (surgelé ou en conserve)",
+        "Lait de coco léger",
+        "Beurre d’arachides",
+        "Huile d’olive"
+      ],
+      "Assaisonnements et extras": [
+        "Sauce soya, sriracha",
+        "Moutarde de Dijon, sirop d’érable",
+        "Paprika fumé, cumin, poudre de chili",
+        "Pâte de cari rouge thaï",
+        "Sauce marinara, salsa",
+        "Miel, huile de sésame",
+        "Vinaigre de cidre",
+        "Collations et desserts au choix"
+      ]
+    },
+    {
+      "Protéines et produits réfrigérés": [
+        "Poitrine ou hauts de cuisse de poulet (environ 900 g à 1,1 kg)",
+        "Bœuf haché maigre (environ 450 g)",
+        "Lanières de bœuf maigre (environ 225 g)",
+        "Lanières de porc maigre (environ 225 g)",
+        "Crevettes décortiquées surgelées (environ 250 g)",
+        "Thon pâle en conserve (2 boîtes)",
+        "Whey en poudre (pour les 3 shakes du mercredi)",
+        "Reste de chili de dinde congelé de la semaine 1"
+      ],
+      "Fruits, légumes et surgelés": [
+        "Concombres (2)",
+        "Tomates et tomates cerises",
+        "Poivrons (2 à 3), oignons (2)",
+        "Brocoli et champignons",
+        "Chou et carottes râpés",
+        "Légumes surgelés pour sautés",
+        "Épinards",
+        "Pommes de terre (environ 600 g)",
+        "Mangue, citrons et limes",
+        "Petits fruits surgelés",
+        "Avocat",
+        "Ail et gingembre"
+      ],
+      "Riz, haricots et produits de base": [
+        "Riz basmati ou jasmin pour micro-ondes (ou sec)",
+        "Nouilles de riz et udon prêtes à utiliser",
+        "Flocons d’avoine",
+        "Haricots noirs, haricots blancs, pois chiches",
+        "Tomates broyées en conserve",
+        "Lait de coco léger",
+        "Beurre d’arachides ou d’amandes",
+        "Huile d’olive"
+      ],
+      "Assaisonnements et extras": [
+        "Pâte de harissa",
+        "Sauce soya et sauce chili douce",
+        "Poudre de cari et garam masala",
+        "Poudre de chili, cumin, paprika fumé",
+        "Huile et graines de sésame",
+        "Sauce piquante, salsa",
+        "Citron, lime et persil",
+        "Collations et desserts au choix"
+      ]
+    }
+  ],
+  "ui": {
+    "static": {
+      ".brand": "<span class=\"brandmark\">✳</span> Rotation de 14 jours",
+      ".nav [data-nav=\"plan\"]": "📅 Menu",
+      ".nav [data-nav=\"recipes\"]": "🍳 Recettes",
+      ".nav [data-nav=\"shopping\"]": "🛒 Épicerie",
+      ".nav [data-nav=\"settings\"]": "⚙️ Notes",
+      ".hero .kicker": "Facile à cuisiner • Bon à manger • À répéter",
+      ".hero h1": "Des repas qui donnent<br><span class=\"accent\">vraiment envie.</span>",
+      ".hero .lead": "Un menu sur deux semaines avec de vraies recettes, sans fromage, peu de pain ou de lait, tes déjeuners favoris du week-end et une journée de shakes chaque mercredi.",
+      ".heroStat .statRow > div:nth-child(1) span:first-child": "Objectif des jours habituels",
+      ".heroStat .statRow > div:nth-child(2) span:first-child": "Objectif de protéines",
+      ".heroStat .statRow > div:nth-child(2) span:last-child": "les jours habituels",
+      ".heroStat .statRow > div:nth-child(3) span:first-child": "Mercredi",
+      "button[data-week=\"0\"]": "Semaine 1",
+      "button[data-week=\"1\"]": "Semaine 2",
+      "#today": "↗ Aujourd’hui",
+      "#copyDay": "⧉ Copier cette journée",
+      "#plan .controlbar .utility button[onclick]": "⎙ Imprimer",
+      "#plan .sectionhead h2": "Garder de la flexibilité",
+      "#plan .snackstrip .minicard:nth-child(1) strong": "Collation riche en protéines",
+      "#plan .snackstrip .minicard:nth-child(1) p": "Whey avec de l’eau, des fruits et des amandes; ou œufs, edamames et fruits. Ajuster pour atteindre tes objectifs de protéines et de calories.",
+      "#plan .snackstrip .minicard:nth-child(2) strong": "Le dessert reste permis",
+      "#plan .snackstrip .minicard:nth-child(2) p": "Prévoir 150 à 200 kcal quand tu veux une touche sucrée. Pas besoin d’interdire chocolat ou crème glacée.",
+      "#plan .snackstrip .minicard:nth-child(3) strong": "Routine du matin",
+      "#plan .snackstrip .minicard:nth-child(3) p": "Si tu prends des suppléments, compter leurs calories. Ils ne remplacent pas une alimentation équilibrée.",
+      "#recipes .sectionhead .kicker": "Toutes les recettes",
+      "#recipes .sectionhead h2": "Bibliothèque de recettes",
+      "#shopping .sectionhead .kicker": "Cocher au fur et à mesure",
+      "#shopping .sectionhead h2": "Épicerie de la semaine",
+      "button[data-shopweek=\"0\"]": "Semaine 1",
+      "button[data-shopweek=\"1\"]": "Semaine 2",
+      "#shopping > p.muted": "Regroupé pour magasiner plus vite, et non par poids total exact. Consulter chaque recette pour les quantités; acheter le poisson frais près du jour de cuisson ou le prendre surgelé.",
+      "#copyGroceries": "⧉ Copier la liste",
+      "#clearGroceries": "↺ Effacer les coches",
+      "#settings .sectionhead .kicker": "Ton menu, tes ajustements",
+      "#settings .sectionhead h2": "Notes et partage",
+      "#settings .settings .panel:first-child h3": "Notes sur les recettes",
+      "#settings .settings .panel:first-child p.muted:first-of-type": "Noter les substitutions et les repas moins aimés. Ces notes restent dans ce navigateur; elles ne sont pas automatiquement partagées avec ChatGPT.",
+      "#settings .settings .panel:first-child p.muted:last-of-type": "Enregistré automatiquement sur cet appareil.",
+      "#settings .settings .panel:nth-child(2) h3": "Travailler avec ChatGPT",
+      "#settings .settings .panel:nth-child(2) p.muted": "Pour que ChatGPT lise la dernière version du menu dans une autre conversation, fournir l’URL de ce site. Les fichiers publics index.html et plan.json sont accessibles; les coches et notes locales ne le sont pas.",
+      "#export": "↓ Télécharger le plan JSON",
+      "#copyForChat": "⧉ Copier les notes pour ChatGPT",
+      "#settings > .panel h3": "Repères et hypothèses",
+      ".footer p": "Version 1.1 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
+    },
+    "placeholders": {
+      "#recipeSearch": "Chercher poulet, cari, nouilles, recettes rapides…",
+      "#notes": "Ex. : J’ai aimé le bœuf au gingembre; ajouter plus de lime au cari de crevettes…"
+    }
+  }
+}
