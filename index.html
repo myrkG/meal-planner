@@ -6,11 +6,11 @@
 <main class="wrap"><section class="hero"><div><div class="kicker">Simple to cook • Good to eat • Repeatable</div><h1>Food you'll actually<br><span class="accent">look forward to.</span></h1><p class="lead">A two-week meal rotation with real recipes, zero cheese, little bread or milk, your favourite weekend breakfasts, and a dedicated shake day every Wednesday.</p></div><aside class="heroStat" aria-label="Plan targets"><div class="statRow"><div><span>Regular-day target</span><strong>2,350–2,500</strong><span>kcal</span></div><div><span>Protein goal</span><strong>150–180 g</strong><span>on regular days</span></div><div class="full"><span>Wednesday</span><strong>~1,350 kcal · 3 shakes</strong></div></div></aside></section>
 <section id="plan" class="section"><div class="controlbar"><div class="seg" role="group" aria-label="Select week"><button data-week="0" aria-pressed="true">Week 1</button><button data-week="1" aria-pressed="false">Week 2</button></div><div class="utility"><button id="today">↗ Today</button><button id="copyDay">⧉ Copy this day</button><button onclick="window.print()">⎙ Print</button></div></div><div class="days" id="dayTabs"></div><div class="dayHeading"><div><div class="kicker" id="dayKicker">WEEK 1 · MONDAY</div><h2 id="dayTitle">Spicy & savoury</h2><p id="dayDescription"></p></div><span id="dayBadge" class="pill">2 meals</span></div><div id="mealGrid" class="mealgrid"></div><div id="dailyNote" class="note"></div><p id="nutritionNotice">Nutrition estimates are per portion; brands and cooking methods vary. Snacks, desserts and supplements are not included.</p><div class="sectionhead"><h2>Keep it flexible</h2></div><div class="snackstrip"><div class="minicard"><strong>Protein-rich snack</strong><p>Whey with water, fruit and almonds; or eggs, edamame and fruit. Adjust the amount to help reach the day's protein/calorie targets.</p></div><div class="minicard"><strong>Dessert stays</strong><p>Budget 150–200 kcal when you want something sweet. No ban on chocolate or ice cream.</p></div><div class="minicard"><strong>Morning routine</strong><p>If you take supplements, account for any calories. They don't replace a balanced diet.</p></div></div></section>
 <section id="recipes" class="section hidden"><div class="sectionhead"><div><div class="kicker">Browse all recipes</div><h2>Recipe library</h2></div><span class="muted" id="recipeCount"></span></div><input id="recipeSearch" class="search" type="search" placeholder="Search chicken, curry, noodles, quick meals..." aria-label="Search recipes"><div class="recipeDirectory" id="recipeDirectory"></div><div id="selectedRecipe"></div></section>
-<section id="shopping" class="section hidden"><div class="sectionhead"><div><div class="kicker">Tap to check off</div><h2>Weekly groceries</h2></div><div class="seg"><button data-shopweek="0" aria-pressed="true">Week 1</button><button data-shopweek="1" aria-pressed="false">Week 2</button></div></div><p class="muted" style="margin-bottom:15px">Grouped for speed, rather than exact aggregated weights. Check individual recipes for amounts; buy fresh fish close to cooking day or use frozen.</p><div id="groceryGrid" class="groceries"></div><p id="igaDisclosure" class="muted" style="font-size:12px;margin-top:12px">IGA products are examples; availability varies by store. Category links offer alternatives. Check sizes and prices before adding to cart. No verified IGA listing was found for whey powder.</p><div class="utility" style="margin-top:18px"><button id="copyGroceries">⧉ Copy list</button><button id="clearGroceries">↺ Reset checks</button></div></section>
-<section id="settings" class="section hidden"><div class="sectionhead"><div><div class="kicker">Your plan, your adjustments</div><h2>Notes & sharing</h2></div></div><div class="settings"><div class="panel"><h3 style="margin-top:0">Recipe notes</h3><p class="muted" style="margin-bottom:12px;font-size:13px">Record swaps or meals you disliked. These notes stay in this browser, not automatically in ChatGPT.</p><textarea id="notes" placeholder="e.g. Loved the ginger beef, use extra lime in the shrimp curry..." aria-label="Personal meal notes"></textarea><p class="muted" style="font-size:12px;margin-top:8px">Automatically saved locally.</p></div><div class="panel"><h3 style="margin-top:0">Work with ChatGPT</h3><p class="muted" style="font-size:14px;margin-bottom:15px">For me to read the latest plan in another conversation, host <strong>index.html</strong> and <strong>plan.json</strong> at a URL and share the link. I can read the public JSON when asked, but I can't see private browser checkmarks and notes.</p><div class="utility"><button id="export">↓ Download plan.json</button><button id="copyForChat">⧉ Copy notes for ChatGPT</button></div></div></div><div class="panel" style="margin-top:15px"><h3 style="margin-top:0">Guidelines & assumptions</h3><div id="guidelines"></div></div></section></main><footer class="footer"><div class="wrap"><p>Version 1.2 · Personal planning tool · Nutrition values are estimates, not a medical prescription. Recipes are one serving unless marked otherwise.</p></div></footer><div id="toast" class="toast" aria-live="polite"></div>
+<section id="shopping" class="section hidden"><div class="sectionhead"><div><div class="kicker">Tap to check off</div><h2>Weekly groceries</h2></div><div class="seg"><button data-shopweek="0" aria-pressed="true">Week 1</button><button data-shopweek="1" aria-pressed="false">Week 2</button></div></div><p class="muted" style="margin-bottom:15px">One product per checkbox, with its own IGA link. Quantities are approximate; check recipes for details. Rice and quinoa are already in your pantry.</p><div id="pantryNote" class="note"></div><div id="groceryGrid" class="groceries"></div><p id="igaDisclosure" class="muted" style="font-size:12px;margin-top:12px">IGA products are examples; availability varies by store. Category links offer alternatives. Check sizes and prices before adding to cart. No verified IGA listing was found for whey powder.</p><div class="utility" style="margin-top:18px"><button id="copyGroceries">⧉ Copy list</button><button id="clearGroceries">↺ Reset checks</button></div></section>
+<section id="settings" class="section hidden"><div class="sectionhead"><div><div class="kicker">Your plan, your adjustments</div><h2>Notes & sharing</h2></div></div><div class="settings"><div class="panel"><h3 style="margin-top:0">Recipe notes</h3><p class="muted" style="margin-bottom:12px;font-size:13px">Record swaps or meals you disliked. These notes stay in this browser, not automatically in ChatGPT.</p><textarea id="notes" placeholder="e.g. Loved the ginger beef, use extra lime in the shrimp curry..." aria-label="Personal meal notes"></textarea><p class="muted" style="font-size:12px;margin-top:8px">Automatically saved locally.</p></div><div class="panel"><h3 style="margin-top:0">Work with ChatGPT</h3><p class="muted" style="font-size:14px;margin-bottom:15px">For me to read the latest plan in another conversation, host <strong>index.html</strong> and <strong>plan.json</strong> at a URL and share the link. I can read the public JSON when asked, but I can't see private browser checkmarks and notes.</p><div class="utility"><button id="export">↓ Download plan.json</button><button id="copyForChat">⧉ Copy notes for ChatGPT</button></div></div></div><div class="panel" style="margin-top:15px"><h3 style="margin-top:0">Guidelines & assumptions</h3><div id="guidelines"></div></div></section></main><footer class="footer"><div class="wrap"><p>Version 1.3 · Personal planning tool · Nutrition values are estimates, not a medical prescription. Recipes are one serving unless marked otherwise.</p></div></footer><div id="toast" class="toast" aria-live="polite"></div>
 <script id="plan-data" type="application/json">{
   "title": "The 14-Day Rotation",
-  "version": "1.2 · November 2026",
+  "version": "1.3 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -35,14 +35,14 @@
       "servings": 1,
       "ingredients": [
         "2 cans light tuna, drained (about 220–240 g)",
-        "1½ cups cooked microwave rice",
+        "1½ cups cooked rice (rice cooker)",
         "½ avocado, diced",
         "½ cucumber, diced",
         "1 tsp soy sauce + lime juice",
         "Sriracha to taste"
       ],
       "steps": [
-        "Microwave rice and drain tuna.",
+        "Use previously cooked rice (warm it if preferred), and drain tuna.",
         "Mix soy, lime and sriracha; toss with tuna.",
         "Add avocado and cucumber over rice; drizzle sauce."
       ],
@@ -151,7 +151,7 @@
         "Salsa and fresh lime"
       ],
       "steps": [
-        "Microwave rice, leftover chicken and beans until piping hot.",
+        "Reheat cooked rice, leftover chicken and beans until piping hot.",
         "Add corn, salsa and lime."
       ],
       "tip": "Leftover cooked chicken should be refrigerated promptly and used within 3–4 days.",
@@ -761,8 +761,537 @@
     "Wednesday shakes are not nutritionally complete. Supplements do not make a low-variety liquid diet equivalent to balanced meals.",
     "Cook chicken to 74°C/165°F; refrigerate leftovers promptly.",
     "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels.",
-    "Per-meal calories and protein, carbohydrate, and fat are rough estimates from common food composition values and typical package labels; brand, raw/cooked weight, sauce and oil can change the result substantially."
-  ]
+    "Per-meal calories and protein, carbohydrate, and fat are rough estimates from common food composition values and typical package labels; brand, raw/cooked weight, sauce and oil can change the result substantially.",
+    "Rice and quinoa are stocked pantry items; rice portions in recipes refer to the cooked weight/volume, not dry rice or microwave pouches."
+  ],
+  "shopping": [
+    {
+      "Protein & refrigerated": [
+        {
+          "id": "chicken",
+          "name": "Chicken breasts or thighs (~1.1 kg)",
+          "iga": "p:chicken"
+        },
+        {
+          "id": "groundbeef",
+          "name": "Lean ground beef (~225 g)",
+          "iga": "p:groundbeef"
+        },
+        {
+          "id": "groundturkey",
+          "name": "Lean ground turkey (~600 g)",
+          "iga": "p:turkey"
+        },
+        {
+          "id": "salmon",
+          "name": "Salmon fillet (~225 g)",
+          "iga": "p:salmon"
+        },
+        {
+          "id": "porkchop",
+          "name": "Lean pork chop (~250 g)",
+          "iga": "c:pork"
+        },
+        {
+          "id": "shrimp",
+          "name": "Frozen peeled shrimp (~250 g)",
+          "iga": "c:shrimp"
+        },
+        {
+          "id": "tuna",
+          "name": "Light canned tuna (2 cans)",
+          "iga": "p:tuna"
+        },
+        {
+          "id": "meatballs",
+          "name": "Lean meatballs (~220 g)",
+          "iga": "c:meatballs"
+        },
+        {
+          "id": "whey",
+          "name": "Whey protein powder (3 Wednesday shakes)",
+          "iga": null
+        }
+      ],
+      "Produce & frozen": [
+        {
+          "id": "pepper",
+          "name": "Bell peppers (3–4)",
+          "iga": "p:pepper"
+        },
+        {
+          "id": "onion",
+          "name": "Onions (2–3)",
+          "iga": "p:onion"
+        },
+        {
+          "id": "cucumber",
+          "name": "Cucumbers (2)",
+          "iga": "c:cucumber"
+        },
+        {
+          "id": "tomatoes",
+          "name": "Tomatoes or cherry tomatoes",
+          "iga": "p:tomato"
+        },
+        {
+          "id": "broccoli",
+          "name": "Broccoli (fresh or frozen)",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "greenbeans",
+          "name": "Green beans (fresh or frozen)",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "cabbage",
+          "name": "Bagged cabbage slaw",
+          "iga": "c:produce"
+        },
+        {
+          "id": "spinach",
+          "name": "Spinach",
+          "iga": "c:produce"
+        },
+        {
+          "id": "potatoes",
+          "name": "Potatoes (~1 kg)",
+          "iga": "p:potato"
+        },
+        {
+          "id": "sweetpotato",
+          "name": "Sweet potatoes (~350 g)",
+          "iga": "c:potatoes"
+        },
+        {
+          "id": "lemons",
+          "name": "Lemons",
+          "iga": "c:citrus"
+        },
+        {
+          "id": "limes",
+          "name": "Limes",
+          "iga": "c:citrus"
+        },
+        {
+          "id": "avocado",
+          "name": "Avocado (1)",
+          "iga": "p:avocado"
+        },
+        {
+          "id": "bananas",
+          "name": "Bananas (2)",
+          "iga": "c:fruit"
+        },
+        {
+          "id": "stirfryveg",
+          "name": "Frozen stir-fry vegetables",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "garlic",
+          "name": "Garlic",
+          "iga": "c:produce"
+        },
+        {
+          "id": "ginger",
+          "name": "Fresh ginger",
+          "iga": "c:produce"
+        }
+      ],
+      "Beans & staples": [
+        {
+          "id": "pasta",
+          "name": "Dry pasta",
+          "iga": "c:pasta"
+        },
+        {
+          "id": "noodles",
+          "name": "Dry noodles",
+          "iga": "c:pasta"
+        },
+        {
+          "id": "oats",
+          "name": "Rolled oats",
+          "iga": "p:oats"
+        },
+        {
+          "id": "blackbeans",
+          "name": "Black beans (2 cans)",
+          "iga": "p:beans"
+        },
+        {
+          "id": "crushedtomatoes",
+          "name": "Crushed tomatoes (796 mL can)",
+          "iga": "c:canned"
+        },
+        {
+          "id": "corn",
+          "name": "Corn (frozen or canned)",
+          "iga": "c:canned"
+        },
+        {
+          "id": "coconutmilk",
+          "name": "Light coconut milk",
+          "iga": "p:coconut"
+        },
+        {
+          "id": "peanutbutter",
+          "name": "Peanut butter",
+          "iga": "p:peanut"
+        },
+        {
+          "id": "oliveoil",
+          "name": "Olive oil",
+          "iga": "p:olive"
+        }
+      ],
+      "Seasonings & extras": [
+        {
+          "id": "soysauce",
+          "name": "Soy sauce",
+          "iga": "p:soy"
+        },
+        {
+          "id": "sriracha",
+          "name": "Sriracha",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "dijon",
+          "name": "Dijon mustard",
+          "iga": "p:mustard"
+        },
+        {
+          "id": "maple",
+          "name": "Maple syrup",
+          "iga": "p:maple"
+        },
+        {
+          "id": "paprika",
+          "name": "Smoked paprika",
+          "iga": "c:spices"
+        },
+        {
+          "id": "cumin",
+          "name": "Cumin",
+          "iga": "c:spices"
+        },
+        {
+          "id": "chilipowder",
+          "name": "Chili powder",
+          "iga": "c:spices"
+        },
+        {
+          "id": "currypaste",
+          "name": "Thai red curry paste",
+          "iga": "p:curry"
+        },
+        {
+          "id": "marinara",
+          "name": "Marinara sauce",
+          "iga": "p:marinara"
+        },
+        {
+          "id": "salsa",
+          "name": "Salsa",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "honey",
+          "name": "Honey",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "sesameoil",
+          "name": "Sesame oil",
+          "iga": "p:sesameOil"
+        },
+        {
+          "id": "vinegar",
+          "name": "Apple cider vinegar",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "snacks",
+          "name": "Protein-rich snacks",
+          "iga": "c:grocery"
+        },
+        {
+          "id": "desserts",
+          "name": "Desserts of your choice",
+          "iga": "c:grocery"
+        }
+      ]
+    },
+    {
+      "Protein & refrigerated": [
+        {
+          "id": "chicken",
+          "name": "Chicken breasts or thighs (~1 kg)",
+          "iga": "p:chicken"
+        },
+        {
+          "id": "groundbeef",
+          "name": "Lean ground beef (~225 g)",
+          "iga": "p:groundbeef"
+        },
+        {
+          "id": "beefstrips",
+          "name": "Lean beef strips (~225 g)",
+          "iga": "c:beef"
+        },
+        {
+          "id": "porkstrips",
+          "name": "Lean pork strips (~225 g)",
+          "iga": "c:pork"
+        },
+        {
+          "id": "shrimp",
+          "name": "Frozen peeled shrimp (~250 g)",
+          "iga": "c:shrimp"
+        },
+        {
+          "id": "tuna",
+          "name": "Light canned tuna (2 cans)",
+          "iga": "p:tuna"
+        },
+        {
+          "id": "whey",
+          "name": "Whey protein powder (3 Wednesday shakes)",
+          "iga": null
+        }
+      ],
+      "Produce & frozen": [
+        {
+          "id": "cucumber",
+          "name": "Cucumbers (2)",
+          "iga": "c:cucumber"
+        },
+        {
+          "id": "tomatoes",
+          "name": "Tomatoes and cherry tomatoes",
+          "iga": "p:tomato"
+        },
+        {
+          "id": "pepper",
+          "name": "Bell peppers (2–3)",
+          "iga": "p:pepper"
+        },
+        {
+          "id": "onion",
+          "name": "Onions (2)",
+          "iga": "p:onion"
+        },
+        {
+          "id": "broccoli",
+          "name": "Broccoli",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "mushroom",
+          "name": "Mushrooms",
+          "iga": "c:produce"
+        },
+        {
+          "id": "cabbage",
+          "name": "Shredded cabbage",
+          "iga": "c:produce"
+        },
+        {
+          "id": "carrots",
+          "name": "Shredded carrots",
+          "iga": "c:produce"
+        },
+        {
+          "id": "stirfryveg",
+          "name": "Frozen stir-fry vegetables",
+          "iga": "c:frozen"
+        },
+        {
+          "id": "spinach",
+          "name": "Spinach",
+          "iga": "c:produce"
+        },
+        {
+          "id": "potatoes",
+          "name": "Potatoes (~600 g)",
+          "iga": "p:potato"
+        },
+        {
+          "id": "mango",
+          "name": "Mango",
+          "iga": "c:tropical"
+        },
+        {
+          "id": "lemons",
+          "name": "Lemons",
+          "iga": "c:citrus"
+        },
+        {
+          "id": "limes",
+          "name": "Limes",
+          "iga": "c:citrus"
+        },
+        {
+          "id": "berries",
+          "name": "Frozen berries",
+          "iga": "c:frozenFruit"
+        },
+        {
+          "id": "avocado",
+          "name": "Avocado",
+          "iga": "p:avocado"
+        },
+        {
+          "id": "garlic",
+          "name": "Garlic",
+          "iga": "c:produce"
+        },
+        {
+          "id": "ginger",
+          "name": "Fresh ginger",
+          "iga": "c:produce"
+        },
+        {
+          "id": "parsley",
+          "name": "Parsley",
+          "iga": "c:herbs"
+        }
+      ],
+      "Beans & staples": [
+        {
+          "id": "ricenoodles",
+          "name": "Dry rice noodles",
+          "iga": "c:pasta"
+        },
+        {
+          "id": "udon",
+          "name": "Ready-to-use udon noodles",
+          "iga": "c:pasta"
+        },
+        {
+          "id": "oats",
+          "name": "Rolled oats",
+          "iga": "p:oats"
+        },
+        {
+          "id": "blackbeans",
+          "name": "Black beans",
+          "iga": "p:beans"
+        },
+        {
+          "id": "whitebeans",
+          "name": "White beans",
+          "iga": "p:whitebeans"
+        },
+        {
+          "id": "chickpeas",
+          "name": "Chickpeas",
+          "iga": "p:chickpeas"
+        },
+        {
+          "id": "crushedtomatoes",
+          "name": "Canned crushed tomatoes",
+          "iga": "c:canned"
+        },
+        {
+          "id": "coconutmilk",
+          "name": "Light coconut milk",
+          "iga": "p:coconut"
+        },
+        {
+          "id": "peanutbutter",
+          "name": "Peanut butter",
+          "iga": "p:peanut"
+        },
+        {
+          "id": "almondbutter",
+          "name": "Almond butter (optional instead of peanut butter)",
+          "iga": "c:grocery"
+        },
+        {
+          "id": "oliveoil",
+          "name": "Olive oil",
+          "iga": "p:olive"
+        }
+      ],
+      "Seasonings & extras": [
+        {
+          "id": "harissa",
+          "name": "Harissa paste",
+          "iga": "c:spices"
+        },
+        {
+          "id": "soysauce",
+          "name": "Soy sauce",
+          "iga": "p:soy"
+        },
+        {
+          "id": "sweetchili",
+          "name": "Sweet chili sauce",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "currypowder",
+          "name": "Curry powder",
+          "iga": "c:spices"
+        },
+        {
+          "id": "garammasala",
+          "name": "Garam masala",
+          "iga": "c:spices"
+        },
+        {
+          "id": "chilipowder",
+          "name": "Chili powder",
+          "iga": "c:spices"
+        },
+        {
+          "id": "cumin",
+          "name": "Cumin",
+          "iga": "c:spices"
+        },
+        {
+          "id": "paprika",
+          "name": "Smoked paprika",
+          "iga": "c:spices"
+        },
+        {
+          "id": "sesameoil",
+          "name": "Sesame oil",
+          "iga": "p:sesameOil"
+        },
+        {
+          "id": "sesameseeds",
+          "name": "Sesame seeds",
+          "iga": "p:sesameSeeds"
+        },
+        {
+          "id": "hotsauce",
+          "name": "Hot sauce",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "salsa",
+          "name": "Salsa",
+          "iga": "c:condiments"
+        },
+        {
+          "id": "snacks",
+          "name": "Protein-rich snacks",
+          "iga": "c:grocery"
+        },
+        {
+          "id": "desserts",
+          "name": "Desserts of your choice",
+          "iga": "c:grocery"
+        }
+      ]
+    }
+  ],
+  "shopping_note": "Rice and quinoa are already in your pantry. Use your rice cooker for any recipe calling for cooked rice. Reheat refrigerated rice thoroughly; refrigerate promptly after cooking."
 }</script><script>
 (()=>{'use strict';let P=JSON.parse(document.getElementById('plan-data').textContent);const P_EN=P;const $=id=>document.getElementById(id);const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));let week=0,day=0,shopWeek=0,section='plan';const dayNames=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];const getDay=()=>P.weeks[week][day];const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};const load=(k,d)=>{try{let v=localStorage.getItem(k);return v?JSON.parse(v):d}catch{return d}};let lang='en',FR=null;const tr=(en,fr)=>lang==='fr'?fr:en;const toast=msg=>{const el=$('toast');el.textContent=msg;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2100)};
 function showSection(name){section=name;document.querySelectorAll('.section').forEach(x=>x.classList.toggle('hidden',x.id!==name));document.querySelectorAll('[data-nav]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.nav===name)));if(location.hash.indexOf('w')<0)history.replaceState(null,'','#'+name)}
@@ -788,72 +1317,34 @@ function nutritionPreview(r){
 function recipeCard(id,label){const r=P.recipes[id];return `<article class="mealcard"><header><div class="eyebrow">${label}</div><h3>${escapeHtml(r.title)}</h3><div class="details">⏱ ${r.minutes?`${r.minutes} min`:tr('Restaurant','Restaurant')} · ${r.servings} ${r.servings===1?tr('serving','portion'):tr('servings','portions')}</div>${nutritionMarkup(r)}</header><div class="content"><h4>${tr('What you need','Ingrédients')}</h4><ul class="ingredients">${r.ingredients.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h4>${tr('Make it','Préparation')}</h4><ol class="steps">${r.steps.map(s=>`<li>${escapeHtml(s)}</li>`).join('')}</ol>${r.tip?`<div class="tip">✦ ${escapeHtml(r.tip)}</div>`:''}</div></article>`}
 function renderPlan(){document.querySelectorAll('[data-week]').forEach(x=>x.setAttribute('aria-pressed',String(+x.dataset.week===week)));$('dayTabs').innerHTML=P.weeks[week].map((d,i)=>`<button class="day" data-day="${i}" aria-pressed="${i===day}" aria-label="${d.day}"><small>${d.day.slice(0,3)}</small><strong>${d.day}</strong><em>${i===2?tr('Shake day','Journée shakes'):i>4?tr('Restaurant AM','Déjeuner au resto'):tr('2 meals','2 repas')}</em></button>`).join('');document.querySelectorAll('[data-day]').forEach(x=>x.onclick=()=>{day=+x.dataset.day;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});const d=getDay();$('dayKicker').textContent=`${tr('WEEK','SEMAINE')} ${week+1} · ${d.day.toUpperCase()}`;$('dayTitle').textContent=d.subtitle;$('dayDescription').textContent=day===2?tr('A semi-fast day with three filling, water-based protein shakes.','Une journée de semi-jeûne avec trois shakes protéinés rassasiants à base d’eau.'):day>4?tr('Your usual restaurant breakfast stays in the plan.','Ton déjeuner habituel au restaurant est conservé.'):tr('Two distinct, flavour-forward meals with simple preparation.','Deux repas différents, savoureux et faciles à préparer.');$('dayBadge').textContent=day===2?tr('3 shakes','3 shakes'):day>4?tr('Restaurant AM','Déjeuner au resto'):tr('2 meals','2 repas');$('mealGrid').style.gridTemplateColumns=day===2?'1fr':'';$('mealGrid').innerHTML=day===2?recipeCard(d.dinner,tr('ALL DAY · THREE SHAKES','TOUTE LA JOURNÉE · TROIS SHAKES')):recipeCard(d.lunch,day>4?tr('FIRST MEAL · RESTAURANT','PREMIER REPAS · RESTAURANT'):tr('LUNCH','DÎNER'))+recipeCard(d.dinner,tr('DINNER','SOUPER'));$('dailyNote').innerHTML=day===2?tr('<strong>Wednesday:</strong> Three shakes are roughly 1,250–1,450 kcal depending on your whey. This is not nutritionally complete; it is optional if hunger or training suffers.','<strong>Mercredi :</strong> Les trois shakes fournissent environ 1 250 à 1 450 kcal selon la whey. Ce menu liquide n’est pas complet sur le plan nutritionnel; il est facultatif si la faim ou l’entraînement en souffrent.'):day>4?tr('<strong>Weekend:</strong> Your restaurant breakfast could be 850–1,100+ kcal depending on preparation. Balance the rest of the day with your dinner and, if needed, a protein-rich snack.','<strong>Week-end :</strong> Le déjeuner au restaurant peut représenter de 850 à plus de 1 100 kcal selon la préparation. Ajuster le souper et ajouter une collation protéinée au besoin.'):tr('<strong>Daily target:</strong> These are meal recipes, not guaranteed daily totals. Add a protein-rich snack and optionally 150–200 kcal dessert; adjust rice, oil and protein portions using package labels.','<strong>Objectif du jour :</strong> Ces recettes ne garantissent pas le total calorique de la journée. Ajouter une collation protéinée et, au choix, un dessert de 150 à 200 kcal; ajuster les portions de riz, d’huile et de protéines selon les étiquettes.')}
 function jumpToday(){const local=new Date(),anchor=new Date('2026-11-16T12:00:00'),now=new Date(local.getFullYear(),local.getMonth(),local.getDate(),12);const diff=Math.floor((now-anchor)/86400000),dayIndex=((diff%7)+7)%7,weekIndex=((Math.floor(diff/7)%2)+2)%2;week=weekIndex;day=dayIndex;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`);showSection('plan')}
-let shopping=[
-{'Protein & refrigerated':['Chicken breast or thighs (~900 g–1.1 kg)','Lean ground beef (~225 g)','Lean ground turkey (~600 g)','Salmon fillet (~225 g)','Lean pork chop (~250 g)','Frozen peeled shrimp (~250 g)','Canned light tuna (2 cans)','Lean prepared meatballs (~220 g)','Whey powder (for 3 Wednesday shakes)'],'Produce & frozen':['Bell peppers (3–4)','Onions (2–3)','Cucumber (2)','Tomatoes or cherry tomatoes','Broccoli and green beans (fresh or frozen)','Bagged cabbage slaw','Spinach','Potatoes and sweet potatoes (~1.2 kg)','Lemons and limes','Avocado, bananas','Frozen stir-fry vegetables','Garlic and ginger'],'Rice, beans & staples':['Microwave rice (or dry rice)','Pasta and noodles','Rolled oats','Black beans (2 cans)','Crushed tomatoes (1 large can)','Corn (frozen or canned)','Light coconut milk','Peanut butter','Olive oil'],'Flavour & extras':['Soy sauce, sriracha','Dijon mustard, maple syrup','Smoked paprika, cumin, chili powder','Thai red curry paste','Marinara, salsa','Honey, sesame oil','Apple cider vinegar','Your chosen snacks and desserts']},
-{'Protein & refrigerated':['Chicken breast or thighs (~900 g–1.1 kg)','Lean ground beef (~450 g)','Lean beef strips (~225 g)','Lean pork strips (~225 g)','Frozen peeled shrimp (~250 g)','Canned light tuna (2 cans)','Whey powder (for 3 Wednesday shakes)','Frozen leftover turkey chili from Week 1'],'Produce & frozen':['Cucumber (2)','Tomatoes and cherry tomatoes','Bell peppers (2–3), onions (2)','Broccoli and mushrooms','Shredded cabbage and carrots','Frozen stir-fry vegetables','Spinach','Potatoes (~600 g)','Mango, lemons and limes','Frozen berries','Avocado','Garlic and ginger'],'Rice, beans & staples':['Microwave basmati/jasmine rice (or dry rice)','Rice noodles and ready-to-use udon','Rolled oats','Black beans, white beans, chickpeas','Canned crushed tomatoes','Light coconut milk','Peanut or almond butter','Olive oil'],'Flavour & extras':['Harissa paste','Soy sauce and sweet chili sauce','Curry powder and garam masala','Chili powder, cumin, smoked paprika','Sesame oil, sesame seeds','Hot sauce, salsa','Lemon, lime and parsley','Your chosen snacks and desserts']}
-];
-const shoppingEN=shopping;
-
+let shopping=P.shopping;const shoppingEN=P_EN.shopping;
+const LEGACY_GROCERY_KEYS=[{"chicken":"cat0item0","groundbeef":"cat0item1","groundturkey":"cat0item2","salmon":"cat0item3","porkchop":"cat0item4","shrimp":"cat0item5","tuna":"cat0item6","meatballs":"cat0item7","whey":"cat0item8","pepper":"cat1item0","onion":"cat1item1","cucumber":"cat1item2","tomatoes":"cat1item3","broccoli":"cat1item4","greenbeans":"cat1item4","cabbage":"cat1item5","spinach":"cat1item6","potatoes":"cat1item7","sweetpotato":"cat1item7","lemons":"cat1item8","limes":"cat1item8","avocado":"cat1item9","bananas":"cat1item9","stirfryveg":"cat1item10","garlic":"cat1item11","ginger":"cat1item11","pasta":"cat2item1","noodles":"cat2item1","oats":"cat2item2","blackbeans":"cat2item3","crushedtomatoes":"cat2item4","corn":"cat2item5","coconutmilk":"cat2item6","peanutbutter":"cat2item7","oliveoil":"cat2item8","soysauce":"cat3item0","sriracha":"cat3item0","dijon":"cat3item1","maple":"cat3item1","paprika":"cat3item2","cumin":"cat3item2","chilipowder":"cat3item2","currypaste":"cat3item3","marinara":"cat3item4","salsa":"cat3item4","honey":"cat3item5","sesameoil":"cat3item5","vinegar":"cat3item6","snacks":"cat3item7","desserts":"cat3item7"},{"chicken":"cat0item0","groundbeef":"cat0item1","beefstrips":"cat0item2","porkstrips":"cat0item3","shrimp":"cat0item4","tuna":"cat0item5","whey":"cat0item6","cucumber":"cat1item0","tomatoes":"cat1item1","pepper":"cat1item2","onion":"cat1item2","broccoli":"cat1item3","mushroom":"cat1item3","cabbage":"cat1item4","carrots":"cat1item4","stirfryveg":"cat1item5","spinach":"cat1item6","potatoes":"cat1item7","mango":"cat1item8","lemons":"cat3item6","limes":"cat3item6","berries":"cat1item9","avocado":"cat1item10","garlic":"cat1item11","ginger":"cat1item11","ricenoodles":"cat2item1","udon":"cat2item1","oats":"cat2item2","blackbeans":"cat2item3","whitebeans":"cat2item3","chickpeas":"cat2item3","crushedtomatoes":"cat2item4","coconutmilk":"cat2item5","peanutbutter":"cat2item6","almondbutter":"cat2item6","oliveoil":"cat2item7","harissa":"cat3item0","soysauce":"cat3item1","sweetchili":"cat3item1","currypowder":"cat3item2","garammasala":"cat3item2","chilipowder":"cat3item3","cumin":"cat3item3","paprika":"cat3item3","sesameoil":"cat3item4","sesameseeds":"cat3item4","hotsauce":"cat3item5","salsa":"cat3item5","parsley":"cat3item6","snacks":"cat3item7","desserts":"cat3item7"}];
 const IGA_PRODUCTS={"chicken":"https://commerce.iga.net/fr/produit/poitrine-de-pouletdesossee/00000_000000028016400000","groundbeef":"https://commerce.iga.net/fr/produit/boeufhache-maigre/00000_000000021166500000","turkey":"https://commerce.iga.net/fr/produit/dinde-hacheeextra-maigre/00000_000000005745996545","salmon":"https://commerce.iga.net/fr/produit/filet-de-saumoncanadien-2-5/00000_000000021809000000","tuna":"https://commerce.iga.net/fr/produit/thonpale-en-morceaux-dans-l-eau/00000_000000005574255858","pepper":"https://commerce.iga.net/fr/produit/poivrons-rougesde-serre/00000_000000000000004688","onion":"https://commerce.iga.net/fr/produit/oignonsjaunes/00000_000000005574256382","tomato":"https://commerce.iga.net/fr/produit/tomatescerises/00000_000000085469300044","avocado":"https://commerce.iga.net/fr/produit/avocatshass/00000_000000002774360022","sesameOil":"https://commerce.iga.net/fr/produit/huile-de-sesame/00000_000000001282202201","sesameSeeds":"https://commerce.iga.net/fr/produit/graines-de-sesame/00000_000000085699000028","potato":"https://commerce.iga.net/fr/produit/pommes-de-terreblanches-sac-de-5lb-du-canada/00000_000000003338345631","rice":"https://commerce.iga.net/fr/produit/rizjasmin/00000_000000005672525010","beans":"https://commerce.iga.net/fr/produit/haricotsnoirs-sans-sel/00000_000000005574252191","whitebeans":"https://commerce.iga.net/fr/produit/haricotsblancs/00000_000000005574250276","chickpeas":"https://commerce.iga.net/fr/produit/pois-chiches/00000_000000005574252487","coconut":"https://commerce.iga.net/fr/produit/lait-de-cocoleger/00000_000000082780900246","peanut":"https://commerce.iga.net/fr/produit/beurre-d-arachidecremeux/00000_000000005150075005","olive":"https://commerce.iga.net/fr/produit/huiled-olive-extra-vierge/00000_000000062798716534","soy":"https://commerce.iga.net/fr/produit/sauce-soya30--moins-de-sel/00000_000000005574235682","curry":"https://commerce.iga.net/fr/produit/pate-de-carirouge/00000_000000073762800300","mustard":"https://commerce.iga.net/fr/produit/moutardede-dijon/00000_000000004364620128","maple":"https://commerce.iga.net/fr/produit/sirop-d-erable-pure-100-/00000_000000062368212403","oats":"https://commerce.iga.net/fr/produit/gruaucuisson-rapide/00000_000000005574236728","marinara":"https://commerce.iga.net/fr/produit/saucemarinara/00000_000000062811014611"};
 const IGA_CATEGORIES={"produce":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Fruits%20et%20l%C3%A9gumes/L%C3%A9gumes%20frais","fruit":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Fruits%20et%20l%C3%A9gumes/Fruits%20frais/Bananes","cucumber":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Fruits%20et%20l%C3%A9gumes/L%C3%A9gumes%20frais/Concombres","potatoes":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Fruits%20et%20l%C3%A9gumes/L%C3%A9gumes%20frais/Pommes%20de%20terre","frozen":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Produits%20surgel%C3%A9s/Produits%20surgel%C3%A9s%20pour%20la%20pr%C3%A9paration%20de%20repas/L%C3%A9gumes%20surgel%C3%A9s","shrimp":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Poissons%20et%20fruits%20de%20mer/Fruits%20de%20mer%20surgel%C3%A9s/Crevettes%20surgel%C3%A9s","pork":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Viande/Porc%20frais/Longe%20de%20porc","beef":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Viande/B%C5%93uf%20frais","chicken":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Viande/Poulet%20et%20volaille%20frais/Poitrines%20de%20poulet%20et%20de%20volaille","meatballs":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Viande/Viandes%20surgel%C3%A9es/Boulettes%20de%20viande%20surgel%C3%A9es","legumes":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/%C3%89picerie/Produits%20pour%20la%20pr%C3%A9paration%20de%20repas/L%C3%A9gumineuses","grain":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/%C3%89picerie/Produits%20pour%20la%20pr%C3%A9paration%20de%20repas/Riz%2C%20couscous%20et%20autres%20grains","pasta":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/%C3%89picerie/Produits%20pour%20la%20pr%C3%A9paration%20de%20repas/P%C3%A2tes%20alimentaires","pastaSauce":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/%C3%89picerie/Produits%20pour%20la%20pr%C3%A9paration%20de%20repas/Sauces%20et%20garnitures%20pour%20p%C3%A2tes","canned":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/%C3%89picerie/Conserves%20et%20pr%C3%AAt-%C3%A0-manger/L%C3%A9gumes%20en%20conserve","spices":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/%C3%89picerie/Ingr%C3%A9dients%20pour%20la%20cuisson/%C3%89pices%20et%20assaisonnements","condiments":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/%C3%89picerie/Ingr%C3%A9dients%20pour%20la%20cuisson/Sauces%20%C3%A0%20cuisson%20et%20rehausseurs%20de%20saveurs","syrup":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/%C3%89picerie/D%C3%A9jeuners%20non-r%C3%A9frig%C3%A9r%C3%A9s/Sirops","citrus":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Fruits%20et%20l%C3%A9gumes/Fruits%20frais/Agrumes","tropical":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Fruits%20et%20l%C3%A9gumes/Fruits%20frais/Fruits%20tropicaux","frozenFruit":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Produits%20surgel%C3%A9s/Cr%C3%A8mes%20glac%C3%A9es%20et%20desserts/Fruits%20surgel%C3%A9s","herbs":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/Fruits%20et%20l%C3%A9gumes/L%C3%A9gumes%20frais/Fines%20herbes","grocery":"https://commerce.iga.net/fr/epicerie_en_ligne/parcourir/%C3%89picerie"};
-function igaForShoppingItem(w,catIndex,itemIndex){
- const originalCategory=Object.keys(shoppingEN[w])[catIndex];
- const raw=shoppingEN[w][originalCategory][itemIndex];
- const t=raw.toLowerCase();
- const item=(code,label)=>({url:IGA_PRODUCTS[code],name:label,type:'product'});
- const browse=(code,label)=>({url:IGA_CATEGORIES[code],name:label,type:'category'});
- // Homemade leftovers are not a product, and whey powder has no verified IGA match.
- if(t.includes('leftover turkey chili')||t.includes('whey powder'))return [];
- if(t.includes('chicken breast')||t.includes('chicken breast or'))return [item('chicken','Chicken / Poulet')];
- if(t.includes('ground beef'))return [item('groundbeef','Beef / Bœuf')];
- if(t.includes('ground turkey'))return [item('turkey','Turkey / Dinde')];
- if(t.includes('salmon fillet'))return [item('salmon','Salmon / Saumon')];
- if(t.includes('pork chop'))return [browse('pork','Pork / Porc')];
- if(t.includes('pork strips'))return [browse('pork','Pork / Porc')];
- if(t.includes('beef strips'))return [browse('beef','Beef / Bœuf')];
- if(t.includes('shrimp'))return [browse('shrimp','Shrimp / Crevettes')];
- if(t.includes('canned light tuna'))return [item('tuna','Tuna / Thon')];
- if(t.includes('meatballs'))return [browse('meatballs','Meatballs / Boulettes')];
- if(t.includes('bell peppers')||t.includes('peppers ('))return t.includes('onions')?[item('pepper','Peppers / Poivrons'),item('onion','Onions / Oignons')]:[item('pepper','Peppers / Poivrons')];
- if(t.includes('onions ('))return [item('onion','Onions / Oignons')];
- if(t.includes('cucumber'))return [browse('cucumber','Cucumber / Concombre')];
- if(t.includes('crushed tomatoes'))return [browse('canned','Crushed tomatoes / Tomates broyées')];
- if(t.includes('tomatoes')||t.includes('cherry tomatoes'))return [item('tomato','Tomatoes / Tomates')];
- if(t.includes('broccoli')||t.includes('green beans')||t.includes('stir-fry vegetables'))return [browse('frozen','Vegetables / Légumes')];
- if(t.includes('cabbage')||t.includes('spinach')||t.includes('garlic and ginger')||t.includes('carrots'))return [browse('produce','Produce / Légumes')];
- if(t.includes('potatoes')||t.includes('sweet potatoes'))return [item('potato','Potatoes / Pommes de terre')];
- if(t.includes('mango'))return [browse('tropical','Mango / Mangue'),browse('citrus','Lemons & limes / Citrons et limes')];
- if(t.includes('lemons')||t.includes('limes'))return [browse('citrus','Lemons & limes / Citrons et limes')];
- if(t.includes('avocado, bananas'))return [browse('fruit','Bananas / Bananes'),item('avocado','Avocado / Avocat')];
- if(t.includes('avocado'))return [item('avocado','Avocado / Avocat')];
- if(t.includes('frozen berries'))return [browse('frozenFruit','Frozen berries / Petits fruits surgelés')];
- if(t.includes('rice')||t.includes('basmati'))return [item('rice','Rice / Riz')];
- if(t.includes('pasta')||t.includes('noodles')||t.includes('udon'))return [browse('pasta','Pasta / Pâtes')];
- if(t.includes('oats'))return [item('oats','Oats / Avoine')];
- if(t.includes('black beans')&&t.includes('white beans'))return [item('beans','Black beans / Haricots noirs'),item('whitebeans','White beans / Haricots blancs'),item('chickpeas','Chickpeas / Pois chiches')];
- if(t.includes('black beans'))return [item('beans','Black beans / Haricots noirs')];
- if(t.includes('chickpeas')||t.includes('white beans'))return [item('chickpeas','Chickpeas / Pois chiches'),item('whitebeans','White beans / Haricots blancs')];
- if(t.includes('crushed tomatoes')||t.includes('corn ('))return [browse('canned','Canned / Conserves')];
- if(t.includes('coconut milk'))return [item('coconut','Coconut milk / Lait de coco')];
- if(t.includes('peanut butter')||t.includes('almond butter'))return [item('peanut','Peanut butter / Beurre d’arachides')];
- if(t.includes('olive oil'))return [item('olive','Olive oil / Huile d’olive')];
- if(t.includes('soy sauce'))return [item('soy','Soy sauce / Sauce soya')];
- if(t.includes('sesame oil'))return [item('sesameOil','Sesame oil / Huile de sésame'),item('sesameSeeds','Sesame seeds / Graines de sésame')];
- if(t.includes('lemon, lime and parsley'))return [browse('citrus','Lemons & limes / Citrons et limes'),browse('herbs','Parsley / Persil')];
- if(t.includes('dijon mustard'))return [item('mustard','Dijon / Moutarde'),item('maple','Maple / Érable')];
- if(t.includes('thai red curry paste'))return [item('curry','Curry paste / Pâte de cari')];
- if(t.includes('marinara'))return [item('marinara','Marinara / Sauce marinara')];
- if(t.includes('maple'))return [item('maple','Maple / Érable')];
- if(t.includes('harissa')||t.includes('paprika')||t.includes('cumin')||t.includes('curry powder')||t.includes('chili powder'))return [browse('spices','Spices / Épices')];
- if(t.includes('salsa')||t.includes('hot sauce')||t.includes('honey')||t.includes('vinegar'))return [browse('condiments','Sauces / Condiments')];
- if(t.includes('snacks and desserts'))return [browse('grocery','Groceries / Épicerie')];
- return [browse('grocery','Groceries / Épicerie')];
+
+function igaForItem(entry){
+ if(!entry.iga)return null;
+ const bits=entry.iga.split(':');
+ const url=bits[0]==='p'?IGA_PRODUCTS[bits[1]]:IGA_CATEGORIES[bits[1]];
+ return url?{url,type:bits[0]==='p'?'product':'category'}:null;
 }
-function igaShopLinks(w,categoryIndex,itemIndex){
- const links=igaForShoppingItem(w,categoryIndex,itemIndex);
- return links.map(link=>'<a class="iga-link" href="'+escapeHtml(link.url)+'" target="_blank" rel="noopener noreferrer" title="'+escapeHtml(link.name)+'">'+escapeHtml(links.length>1?link.name.split(' / ')[lang==='fr'?1:0]:(link.type==='product'?tr('IGA product','Produit IGA'):tr('Browse IGA','Voir chez IGA')))+' ↗</a>').join('');
+function igaShopLink(entry){
+ const link=igaForItem(entry);if(!link)return '';
+ return '<a class="iga-link" href="'+escapeHtml(link.url)+'" target="_blank" rel="noopener noreferrer" title="'+escapeHtml(entry.name)+'">'+(link.type==='product'?tr('IGA product','Produit IGA'):tr('Browse IGA','Voir chez IGA'))+' ↗</a>';
 }
-function renderShopping(){document.querySelectorAll('[data-shopweek]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.shopweek===shopWeek)));let done=load('groceries'+shopWeek,{});$('groceryGrid').innerHTML=Object.entries(shopping[shopWeek]).map(([cat,its],categoryIndex)=>`<div class="panel"><h3>${escapeHtml(cat)}</h3>${its.map((t,i)=>{const key='cat'+categoryIndex+'item'+i,legacyKey=Object.keys(shoppingEN[shopWeek])[categoryIndex]+i;return `<div class="listitem"><label class="grocery-check"><input type="checkbox" data-check="${escapeHtml(key)}" ${(done[key]??done[legacyKey])?'checked':''}><span>${escapeHtml(t)}</span></label><div class="iga-links">${igaShopLinks(shopWeek,categoryIndex,i)}</div></div>`}).join('')}</div>`).join('');document.querySelectorAll('[data-check]').forEach(el=>el.onchange=()=>{done[el.dataset.check]=el.checked;save('groceries'+shopWeek,done)})}
+function renderShopping(){
+ document.querySelectorAll('[data-shopweek]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.shopweek===shopWeek)));
+ const done=load('groceries'+shopWeek,{});
+ $('pantryNote').innerHTML='<strong>'+tr('Already in your pantry:','Déjà dans ton garde-manger :')+'</strong> '+escapeHtml(P.shopping_note||'');
+ $('groceryGrid').innerHTML=Object.entries(shopping[shopWeek]).map(([cat,entries])=>
+ '<div class="panel"><h3>'+escapeHtml(cat)+'</h3>'+entries.map(entry=>{
+  const key='item:'+entry.id,oldKey=LEGACY_GROCERY_KEYS[shopWeek][entry.id];
+  const checked=done[key]??(oldKey?done[oldKey]:false);
+  return '<div class="listitem"><label class="grocery-check"><input type="checkbox" data-check="'+escapeHtml(key)+'" '+(checked?'checked':'')+'><span>'+escapeHtml(entry.name)+'</span></label><div class="iga-links">'+igaShopLink(entry)+'</div></div>';
+ }).join('')+'</div>').join('');
+ document.querySelectorAll('[data-check]').forEach(el=>el.onchange=()=>{done[el.dataset.check]=el.checked;save('groceries'+shopWeek,done)});
+}
+
 function renderDirectory(){const q=$('recipeSearch').value.trim().toLowerCase();const items=Object.values(P.recipes).filter(x=>(x.title+' '+x.ingredients.join(' ')).toLowerCase().includes(q));$('recipeCount').textContent=items.length+tr(' recipes',' recettes');$('recipeDirectory').innerHTML=items.map(r=>`<button class="recipeButton" data-recipe="${r.id}" aria-expanded="false"><strong>${escapeHtml(r.title)}</strong><small>${r.minutes?r.minutes+' min':tr('Restaurant','Restaurant')} · ${r.servings} ${r.servings===1?tr('serving','portion'):tr('servings','portions')}</small>${nutritionPreview(r)}</button>`).join('');document.querySelectorAll('[data-recipe]').forEach(el=>el.onclick=()=>{document.querySelectorAll('[data-recipe]').forEach(x=>x.setAttribute('aria-expanded','false'));el.setAttribute('aria-expanded','true');$('selectedRecipe').innerHTML=`<div class="fullRecipe">${recipeCard(el.dataset.recipe,tr('RECIPE','RECETTE'))}</div>`;$('selectedRecipe').scrollIntoView({behavior:'smooth',block:'nearest'})})}
 
 const staticOriginals={},placeholderOriginals={};
@@ -891,6 +1382,6 @@ async function setLanguage(next){
  renderPlan();renderShopping();renderDirectory();
 }
 
-function init(){document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>setLanguage(b.dataset.lang));document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>{showSection(b.dataset.nav)});document.querySelectorAll('[data-week]').forEach(b=>b.onclick=()=>{week=+b.dataset.week;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});document.querySelectorAll('[data-shopweek]').forEach(b=>b.onclick=()=>{shopWeek=+b.dataset.shopweek;renderShopping()});$('today').onclick=jumpToday;$('recipeSearch').oninput=renderDirectory;$('copyDay').onclick=async()=>{const d=getDay();const ids=day===2?[d.dinner]:[d.lunch,d.dinner];const txt=`${tr('Week','Semaine')} ${week+1} ${d.day}: ${d.subtitle}\n\n`+ids.map(id=>{const r=P.recipes[id];return `${r.title}\n${tr('Ingredients','Ingrédients')}: ${r.ingredients.join('; ')}\n${tr('Method','Préparation')}: ${r.steps.join(' ')}`}).join('\n\n');await copy(txt);toast(tr('Day copied','Journée copiée'))};$('copyGroceries').onclick=async()=>{let s=`${tr('Week','Semaine')} ${shopWeek+1} ${tr('shopping list','liste d’épicerie')}\n\n`+Object.entries(shopping[shopWeek]).map(([k,v])=>`${k}\n${v.map(x=>'- '+x).join('\n')}`).join('\n\n');await copy(s);toast(tr('Shopping list copied','Liste d’épicerie copiée'))};$('clearGroceries').onclick=()=>{save('groceries'+shopWeek,{});renderShopping();toast(tr('Checks cleared','Coches effacées'))};$('notes').value=load('notes','');$('notes').oninput=()=>save('notes',$('notes').value);$('copyForChat').onclick=async()=>{await copy(`${tr('My meal plan is the 14-day rotation version','Mon menu est la rotation de 14 jours, version')} ${P.version}. ${tr('Please update these personal notes and preferences:','Veuillez mettre à jour ces notes et préférences :')} \n${$('notes').value||tr('(none)','(aucune)')}\n${tr('Avoid','Éviter')}: ${P.background.avoid.join(', ')}. ${tr('Wednesday: protein shakes. Weekend: usual restaurant breakfast.','Mercredi : shakes protéinés. Week-end : déjeuner habituel au restaurant.')}`);toast(tr('Notes copied for ChatGPT','Notes copiées pour ChatGPT'))};$('export').onclick=()=>{const blob=new Blob([JSON.stringify({...P,personal_notes:$('notes').value},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-14-day-plan.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};$('guidelines').innerHTML=P.notes.map(s=>`<p class="noteItem">• ${escapeHtml(s)}</p>`).join('');const hash=location.hash.match(/^#w([12])d([1-7])$/);if(hash){week=+hash[1]-1;day=+hash[2]-1}else{let saved=load('selection',null);if(saved&&[0,1].includes(saved.week)&&saved.day>=0&&saved.day<=6){week=saved.week;day=saved.day}else{let start=new Date('2026-11-16T12:00:00'),now=new Date();let diff=Math.floor((new Date(now.getFullYear(),now.getMonth(),now.getDate(),12)-start)/86400000);week=((Math.floor(diff/7)%2)+2)%2;day=((diff%7)+7)%7}}renderPlan();renderShopping();renderDirectory();if(['shopping','recipes','settings'].includes(location.hash.slice(1)))showSection(location.hash.slice(1));setLanguage(load('meal-lang','en'))}
+function init(){document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>setLanguage(b.dataset.lang));document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>{showSection(b.dataset.nav)});document.querySelectorAll('[data-week]').forEach(b=>b.onclick=()=>{week=+b.dataset.week;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});document.querySelectorAll('[data-shopweek]').forEach(b=>b.onclick=()=>{shopWeek=+b.dataset.shopweek;renderShopping()});$('today').onclick=jumpToday;$('recipeSearch').oninput=renderDirectory;$('copyDay').onclick=async()=>{const d=getDay();const ids=day===2?[d.dinner]:[d.lunch,d.dinner];const txt=`${tr('Week','Semaine')} ${week+1} ${d.day}: ${d.subtitle}\n\n`+ids.map(id=>{const r=P.recipes[id];return `${r.title}\n${tr('Ingredients','Ingrédients')}: ${r.ingredients.join('; ')}\n${tr('Method','Préparation')}: ${r.steps.join(' ')}`}).join('\n\n');await copy(txt);toast(tr('Day copied','Journée copiée'))};$('copyGroceries').onclick=async()=>{let s=`${tr('Week','Semaine')} ${shopWeek+1} ${tr('shopping list','liste d’épicerie')}\n\n`+Object.entries(shopping[shopWeek]).map(([k,v])=>`${k}\n${v.map(x=>'- '+x.name).join('\n')}`).join('\n\n');await copy(s);toast(tr('Shopping list copied','Liste d’épicerie copiée'))};$('clearGroceries').onclick=()=>{save('groceries'+shopWeek,{});renderShopping();toast(tr('Checks cleared','Coches effacées'))};$('notes').value=load('notes','');$('notes').oninput=()=>save('notes',$('notes').value);$('copyForChat').onclick=async()=>{await copy(`${tr('My meal plan is the 14-day rotation version','Mon menu est la rotation de 14 jours, version')} ${P.version}. ${tr('Please update these personal notes and preferences:','Veuillez mettre à jour ces notes et préférences :')} \n${$('notes').value||tr('(none)','(aucune)')}\n${tr('Avoid','Éviter')}: ${P.background.avoid.join(', ')}. ${tr('Wednesday: protein shakes. Weekend: usual restaurant breakfast.','Mercredi : shakes protéinés. Week-end : déjeuner habituel au restaurant.')}`);toast(tr('Notes copied for ChatGPT','Notes copiées pour ChatGPT'))};$('export').onclick=()=>{const blob=new Blob([JSON.stringify({...P,personal_notes:$('notes').value},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-14-day-plan.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};$('guidelines').innerHTML=P.notes.map(s=>`<p class="noteItem">• ${escapeHtml(s)}</p>`).join('');const hash=location.hash.match(/^#w([12])d([1-7])$/);if(hash){week=+hash[1]-1;day=+hash[2]-1}else{let saved=load('selection',null);if(saved&&[0,1].includes(saved.week)&&saved.day>=0&&saved.day<=6){week=saved.week;day=saved.day}else{let start=new Date('2026-11-16T12:00:00'),now=new Date();let diff=Math.floor((new Date(now.getFullYear(),now.getMonth(),now.getDate(),12)-start)/86400000);week=((Math.floor(diff/7)%2)+2)%2;day=((diff%7)+7)%7}}renderPlan();renderShopping();renderDirectory();if(['shopping','recipes','settings'].includes(location.hash.slice(1)))showSection(location.hash.slice(1));setLanguage(load('meal-lang','en'))}
 async function copy(str){try{await navigator.clipboard.writeText(str)}catch{let t=document.createElement('textarea');t.value=str;document.body.append(t);t.select();document.execCommand('copy');t.remove()}}init();})();
 </script></body></html>
