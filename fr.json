@@ -894,7 +894,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 1.1 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
+      ".footer p": "Version 1.2 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
     },
     "placeholders": {
       "#recipeSearch": "Chercher poulet, cari, nouilles, recettes rapides…",
