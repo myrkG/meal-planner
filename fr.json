@@ -137,12 +137,12 @@
         "1 portion de poulet et de poivrons façon fajitas de mardi",
         "1 tasse de riz cuit",
         "¾ tasse de haricots noirs en conserve, égouttés",
-        "½ tasse de maïs",
+        "½ tasse de maïs sucré en grains entiers surgelé",
         "Salsa et lime fraîche"
       ],
       "steps": [
-        "Réchauffer le riz déjà cuit, le poulet restant et les haricots jusqu’à ce que le tout soit bien chaud.",
-        "Ajouter le maïs, la salsa et le jus de lime."
+        "Réchauffer le riz déjà cuit, le poulet restant, les haricots et le maïs surgelé jusqu’à ce que le tout soit bien chaud.",
+        "Ajouter la salsa et le jus de lime."
       ],
       "tip": "Réfrigérer rapidement le poulet cuit et l’utiliser dans les 3 à 4 jours.",
       "nutrition": {
@@ -378,7 +378,7 @@
         "225 g de bœuf haché maigre",
         "¾ tasse de haricots noirs égouttés",
         "½ poivron en dés",
-        "½ tasse de maïs",
+        "½ tasse de maïs sucré en grains entiers surgelé",
         "1 tasse de riz cuit",
         "⅓ avocat",
         "Salsa, poudre de chili, cumin et paprika fumé"
@@ -918,8 +918,8 @@
         },
         {
           "id": "corn",
-          "name": "Maïs (surgelé ou en conserve)",
-          "iga": "c:canned"
+          "name": "Maïs sucré en grains entiers surgelés (sac de 750 g)",
+          "iga": "p:corn"
         },
         {
           "id": "coconutmilk",
@@ -1180,6 +1180,11 @@
           "id": "chickpeas",
           "name": "Pois chiches",
           "iga": "p:chickpeas"
+        },
+        {
+          "id": "corn",
+          "name": "Maïs sucré en grains entiers surgelés (sac de 750 g)",
+          "iga": "p:corn"
         },
         {
           "id": "crushedtomatoes",
