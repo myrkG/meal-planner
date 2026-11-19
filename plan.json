@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "1.4 · November 2026",
+  "version": "1.5 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -52,8 +52,8 @@
       "servings": 1,
       "ingredients": [
         "225 g lean ground beef",
-        "90 g dry noodles",
-        "2 cups broccoli (frozen is fine)",
+        "90 g dry soba noodles (wheat and buckwheat)",
+        "2 cups frozen broccoli florets",
         "2 tbsp reduced-sodium soy sauce",
         "1 tsp honey",
         "1 tsp sesame oil",
@@ -161,7 +161,7 @@
       "ingredients": [
         "225 g salmon fillet",
         "300 g baby potatoes, halved",
-        "2 cups green beans",
+        "2 cups frozen cut green beans",
         "2 tsp olive oil",
         "1 tbsp Dijon mustard",
         "2 tsp maple syrup",
@@ -188,7 +188,7 @@
       "servings": 1,
       "ingredients": [
         "220 g cooked lean turkey or beef meatballs",
-        "90 g dry pasta",
+        "90 g dry penne rigate pasta",
         "¾ cup marinara sauce",
         "2 cups baby spinach",
         "1 tsp olive oil",
@@ -271,7 +271,7 @@
       "ingredients": [
         "250 g thawed shrimp",
         "1 cup light coconut milk",
-        "2 cups frozen stir-fry vegetables",
+        "2 cups frozen Asian-style stir-fry vegetable mix",
         "1–2 tbsp Thai red curry paste",
         "1½ cups cooked jasmine rice",
         "Lime juice and fresh cilantro (optional)"
@@ -349,7 +349,7 @@
       "servings": 1,
       "ingredients": [
         "225 g chicken strips",
-        "90 g dry rice noodles",
+        "90 g dry flat Pad Thai rice noodles",
         "2 cups shredded cabbage and carrot",
         "1½ tbsp peanut butter",
         "1 tbsp soy sauce",
@@ -486,7 +486,7 @@
       "ingredients": [
         "225 g lean beef strips",
         "1½ cups cooked rice",
-        "2 cups broccoli and mushrooms",
+        "2 cups frozen broccoli florets and fresh mushrooms",
         "1 tbsp soy sauce",
         "1 tsp brown sugar",
         "1 tsp sesame oil",
@@ -540,8 +540,8 @@
       "servings": 1,
       "ingredients": [
         "225 g lean pork strips",
-        "200 g ready-to-use udon noodles",
-        "2 cups frozen stir-fry vegetables",
+        "200 g plain ready-to-use udon noodles",
+        "2 cups frozen Asian-style stir-fry vegetable mix",
         "1 tbsp soy sauce",
         "1 tbsp sweet chili sauce",
         "1 tsp sesame oil",
@@ -866,7 +866,7 @@
         },
         {
           "id": "broccoli",
-          "name": "Broccoli (fresh or frozen)",
+          "name": "Frozen broccoli florets (500 g)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
             "type": "product"
@@ -874,7 +874,7 @@
         },
         {
           "id": "greenbeans",
-          "name": "Green beans (fresh or frozen)",
+          "name": "Frozen cut green beans (750 g)",
           "voila": {
             "url": "https://voila.ca/products/best-buy-frozen-green-beans-cut-750-g/408990EA",
             "type": "product"
@@ -946,7 +946,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Frozen stir-fry vegetables",
+          "name": "Frozen Asian-style stir-fry vegetable mix (500 g)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -972,7 +972,7 @@
       "Beans & staples": [
         {
           "id": "pasta",
-          "name": "Dry pasta",
+          "name": "Dry penne rigate pasta (450 g)",
           "voila": {
             "url": "https://voila.ca/products/longo-s-dry-pasta-penne-rigate-450-g/32770EA",
             "type": "product"
@@ -980,10 +980,10 @@
         },
         {
           "id": "noodles",
-          "name": "Dry noodles",
+          "name": "Dry soba noodles, wheat and buckwheat (250 g)",
           "voila": {
-            "url": "https://voila.ca/categories/pantry/pasta-noodles-sauce/dry-pasta-noodles/WEB3101008",
-            "type": "category"
+            "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
+            "type": "product"
           }
         },
         {
@@ -1260,7 +1260,7 @@
         },
         {
           "id": "broccoli",
-          "name": "Broccoli",
+          "name": "Frozen broccoli florets (500 g)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
             "type": "product"
@@ -1292,7 +1292,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Frozen stir-fry vegetables",
+          "name": "Frozen Asian-style stir-fry vegetable mix (500 g)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -1382,15 +1382,15 @@
       "Beans & staples": [
         {
           "id": "ricenoodles",
-          "name": "Dry rice noodles",
+          "name": "Flat Pad Thai rice noodles, dry (300 g)",
           "voila": {
-            "url": "https://voila.ca/products/fat-choy-gluten-free-kongmoon-rice-noodles-400-g/394998EA",
+            "url": "https://voila.ca/products/blue-dragon-rice-noodles-pad-thai-300-g/887520EA",
             "type": "product"
           }
         },
         {
           "id": "udon",
-          "name": "Ready-to-use udon noodles",
+          "name": "Plain ready-to-use udon noodles (200 g)",
           "voila": {
             "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
             "type": "product"
