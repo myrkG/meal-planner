@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "1.4 · novembre 2026",
+  "version": "1.5 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -52,8 +52,8 @@
       "servings": 1,
       "ingredients": [
         "225 g de bœuf haché maigre",
-        "90 g de nouilles sèches",
-        "2 tasses de brocoli (surgelé, c’est parfait)",
+        "90 g de nouilles soba sèches (blé et sarrasin)",
+        "2 tasses de brocoli en fleurons surgelé",
         "2 c. à soupe de sauce soya réduite en sodium",
         "1 c. à thé de miel",
         "1 c. à thé d’huile de sésame",
@@ -161,7 +161,7 @@
       "ingredients": [
         "225 g de filet de saumon",
         "300 g de petites pommes de terre, coupées en deux",
-        "2 tasses de haricots verts",
+        "2 tasses de haricots verts coupés surgelés",
         "2 c. à thé d’huile d’olive",
         "1 c. à soupe de moutarde de Dijon",
         "2 c. à thé de sirop d’érable",
@@ -188,7 +188,7 @@
       "servings": 1,
       "ingredients": [
         "220 g de boulettes maigres cuites de dinde ou de bœuf",
-        "90 g de pâtes sèches",
+        "90 g de penne rigate sèches",
         "¾ tasse de sauce marinara",
         "2 tasses de jeunes épinards",
         "1 c. à thé d’huile d’olive",
@@ -271,7 +271,7 @@
       "ingredients": [
         "250 g de crevettes décongelées",
         "1 tasse de lait de coco léger",
-        "2 tasses de légumes surgelés pour sautés",
+        "2 tasses de mélange de légumes asiatiques surgelés",
         "1 à 2 c. à soupe de pâte de cari rouge thaï",
         "1½ tasse de riz jasmin cuit",
         "Jus de lime et coriandre fraîche (facultatif)"
@@ -349,7 +349,7 @@
       "servings": 1,
       "ingredients": [
         "225 g de lanières de poulet",
-        "90 g de nouilles de riz sèches",
+        "90 g de nouilles de riz plates sèches (type Pad Thaï)",
         "2 tasses de chou et de carottes râpés",
         "1½ c. à soupe de beurre d’arachides",
         "1 c. à soupe de sauce soya",
@@ -486,7 +486,7 @@
       "ingredients": [
         "225 g de lanières de bœuf maigre",
         "1½ tasse de riz cuit",
-        "2 tasses de brocoli et de champignons",
+        "2 tasses de brocoli en fleurons surgelé et de champignons frais",
         "1 c. à soupe de sauce soya",
         "1 c. à thé de cassonade",
         "1 c. à thé d’huile de sésame",
@@ -540,8 +540,8 @@
       "servings": 1,
       "ingredients": [
         "225 g de lanières de porc maigre",
-        "200 g de nouilles udon prêtes à utiliser",
-        "2 tasses de légumes surgelés pour sautés",
+        "200 g de nouilles udon nature prêtes à utiliser",
+        "2 tasses de mélange de légumes asiatiques surgelés",
         "1 c. à soupe de sauce soya",
         "1 c. à soupe de sauce chili douce",
         "1 c. à thé d’huile de sésame",
@@ -866,7 +866,7 @@
         },
         {
           "id": "broccoli",
-          "name": "Brocoli (frais ou surgelé)",
+          "name": "Brocoli en fleurons surgelé (500 g)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
             "type": "product"
@@ -874,7 +874,7 @@
         },
         {
           "id": "greenbeans",
-          "name": "Haricots verts (frais ou surgelés)",
+          "name": "Haricots verts coupés surgelés (750 g)",
           "voila": {
             "url": "https://voila.ca/products/best-buy-frozen-green-beans-cut-750-g/408990EA",
             "type": "product"
@@ -946,7 +946,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Légumes surgelés pour sautés",
+          "name": "Mélange de légumes asiatiques surgelés (500 g)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -972,7 +972,7 @@
       "Haricots et produits de base": [
         {
           "id": "pasta",
-          "name": "Pâtes sèches",
+          "name": "Pâtes penne rigate sèches (450 g)",
           "voila": {
             "url": "https://voila.ca/products/longo-s-dry-pasta-penne-rigate-450-g/32770EA",
             "type": "product"
@@ -980,10 +980,10 @@
         },
         {
           "id": "noodles",
-          "name": "Nouilles sèches",
+          "name": "Nouilles soba sèches, blé et sarrasin (250 g)",
           "voila": {
-            "url": "https://voila.ca/categories/pantry/pasta-noodles-sauce/dry-pasta-noodles/WEB3101008",
-            "type": "category"
+            "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
+            "type": "product"
           }
         },
         {
@@ -1260,7 +1260,7 @@
         },
         {
           "id": "broccoli",
-          "name": "Brocoli",
+          "name": "Brocoli en fleurons surgelé (500 g)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
             "type": "product"
@@ -1292,7 +1292,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Légumes surgelés pour sautés",
+          "name": "Mélange de légumes asiatiques surgelés (500 g)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -1382,15 +1382,15 @@
       "Haricots et produits de base": [
         {
           "id": "ricenoodles",
-          "name": "Nouilles de riz sèches",
+          "name": "Nouilles de riz plates, type Pad Thaï, sèches (300 g)",
           "voila": {
-            "url": "https://voila.ca/products/fat-choy-gluten-free-kongmoon-rice-noodles-400-g/394998EA",
+            "url": "https://voila.ca/products/blue-dragon-rice-noodles-pad-thai-300-g/887520EA",
             "type": "product"
           }
         },
         {
           "id": "udon",
-          "name": "Nouilles udon prêtes à utiliser",
+          "name": "Nouilles udon nature prêtes à utiliser (200 g)",
           "voila": {
             "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
             "type": "product"
@@ -1638,7 +1638,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 1.4 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
+      ".footer p": "Version 1.5 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
     },
     "placeholders": {
       "#recipeSearch": "Chercher poulet, cari, nouilles, recettes rapides…",
