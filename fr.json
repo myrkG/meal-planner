@@ -1625,7 +1625,7 @@
       "#shopping .sectionhead h2": "Épicerie de la semaine",
       "button[data-shopweek=\"0\"]": "Semaine 1",
       "button[data-shopweek=\"1\"]": "Semaine 2",
-      "#shopping > p.muted": "Un article par case à cocher, avec son propre lien IGA. Les quantités sont approximatives; vérifie les recettes. Le riz et le quinoa sont déjà dans ton garde-manger.",
+      "#shopping > p.muted": "Un article par case à cocher, avec son propre lien Voilà quand un produit précis est disponible. Vérifie les formats et les quantités avant de commander. Le riz et le quinoa sont déjà dans ton garde-manger.",
       "#copyGroceries": "⧉ Copier la liste",
       "#clearGroceries": "↺ Effacer les coches",
       "#settings .sectionhead .kicker": "Ton menu, tes ajustements",
@@ -1638,7 +1638,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 1.3 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
+      ".footer p": "Version 1.4 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
     },
     "placeholders": {
       "#recipeSearch": "Chercher poulet, cari, nouilles, recettes rapides…",
