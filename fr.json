@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "1.3 · novembre 2026",
+  "version": "1.4 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -752,7 +752,8 @@
     "Cuire le poulet à 74 °C (165 °F) à cœur; réfrigérer rapidement les restes.",
     "Les suppléments du matin peuvent apporter des calories, notamment le collagène et les fibres en poudre; vérifier les étiquettes.",
     "Les calories, protéines, glucides et lipides indiqués par repas sont des estimations fondées sur des aliments génériques et des étiquettes typiques. Les marques, le poids cru ou cuit, les sauces et l’huile peuvent changer sensiblement les résultats.",
-    "Le riz et le quinoa sont déjà en réserve; les quantités de riz indiquées dans les recettes correspondent au volume cuit, pas au riz sec ni aux sachets pour micro-ondes."
+    "Le riz et le quinoa sont déjà en réserve; les quantités de riz indiquées dans les recettes correspondent au volume cuit, pas au riz sec ni aux sachets pour micro-ondes.",
+    "Les liens Voilà renvoient à un exemple de marque et de format; vérifie la quantité et la disponibilité dans ta zone de livraison avant de commander."
   ],
   "shopping": [
     {
@@ -760,258 +761,408 @@
         {
           "id": "chicken",
           "name": "Poitrines ou hauts de cuisse de poulet (~1,1 kg)",
-          "iga": "p:chicken"
+          "voila": {
+            "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
+            "type": "product"
+          }
         },
         {
           "id": "groundbeef",
           "name": "Bœuf haché maigre (~225 g)",
-          "iga": "p:groundbeef"
+          "voila": {
+            "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA",
+            "type": "product"
+          }
         },
         {
           "id": "groundturkey",
           "name": "Dinde hachée maigre (~600 g)",
-          "iga": "p:turkey"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
+            "type": "product"
+          }
         },
         {
           "id": "salmon",
           "name": "Filet de saumon (~225 g)",
-          "iga": "p:salmon"
+          "voila": {
+            "url": "https://voila.ca/products/atlantic-salmon-fillet/1439110KG",
+            "type": "product"
+          }
         },
         {
           "id": "porkchop",
           "name": "Côtelette de porc maigre (~250 g)",
-          "iga": "c:pork"
+          "voila": {
+            "url": "https://voila.ca/categories/meat-seafood/pork/pork-ribs-chops-tenderloin/WEB3100883",
+            "type": "category"
+          }
         },
         {
           "id": "shrimp",
           "name": "Crevettes décortiquées surgelées (~250 g)",
-          "iga": "c:shrimp"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
+            "type": "product"
+          }
         },
         {
           "id": "tuna",
           "name": "Thon pâle en conserve (2 boîtes)",
-          "iga": "p:tuna"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
+            "type": "product"
+          }
         },
         {
           "id": "meatballs",
           "name": "Boulettes de viande maigres (~220 g)",
-          "iga": "c:meatballs"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-balance-frozen-meatballs-lean-angus-680-g/432405EA",
+            "type": "product"
+          }
         },
         {
           "id": "whey",
           "name": "Poudre de protéines whey (3 shakes du mercredi)",
-          "iga": null
+          "voila": {
+            "url": "https://voila.ca/categories/health-beauty/diet-fitness/protein-powders-shakes/WEB31035247",
+            "type": "category"
+          }
         }
       ],
       "Fruits, légumes et surgelés": [
         {
           "id": "pepper",
           "name": "Poivrons (3 à 4)",
-          "iga": "p:pepper"
+          "voila": {
+            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-vegetables/bell-peppers/WEB3100792",
+            "type": "category"
+          }
         },
         {
           "id": "onion",
           "name": "Oignons (2 à 3)",
-          "iga": "p:onion"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-onions-yellow-1-36-kg/615526EA",
+            "type": "product"
+          }
         },
         {
           "id": "cucumber",
           "name": "Concombres (2)",
-          "iga": "c:cucumber"
+          "voila": {
+            "url": "https://voila.ca/products/organic-english-cucumber-1-count/129818EA",
+            "type": "product"
+          }
         },
         {
           "id": "tomatoes",
           "name": "Tomates ou tomates cerises",
-          "iga": "p:tomato"
+          "voila": {
+            "url": "https://voila.ca/products/cherry-tomatoes-cameo-elite-1-pint/628257EA",
+            "type": "product"
+          }
         },
         {
           "id": "broccoli",
           "name": "Brocoli (frais ou surgelé)",
-          "iga": "c:frozen"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
+            "type": "product"
+          }
         },
         {
           "id": "greenbeans",
           "name": "Haricots verts (frais ou surgelés)",
-          "iga": "c:frozen"
+          "voila": {
+            "url": "https://voila.ca/products/best-buy-frozen-green-beans-cut-750-g/408990EA",
+            "type": "product"
+          }
         },
         {
           "id": "cabbage",
           "name": "Mélange de chou râpé en sac",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-salad-mix-coleslaw-397-g/655261EA",
+            "type": "product"
+          }
         },
         {
           "id": "spinach",
           "name": "Épinards",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-baby-spinach-312-g/370340EA",
+            "type": "product"
+          }
         },
         {
           "id": "potatoes",
           "name": "Pommes de terre (~1 kg)",
-          "iga": "p:potato"
+          "voila": {
+            "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
+            "type": "product"
+          }
         },
         {
           "id": "sweetpotato",
           "name": "Patates douces (~350 g)",
-          "iga": "c:potatoes"
+          "voila": {
+            "url": "https://voila.ca/products/orange-flesh-yams-sweet-potato/130444KG",
+            "type": "product"
+          }
         },
         {
           "id": "lemons",
           "name": "Citrons",
-          "iga": "c:citrus"
+          "voila": {
+            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/lemons/WEB3100780",
+            "type": "category"
+          }
         },
         {
           "id": "limes",
           "name": "Limes",
-          "iga": "c:citrus"
+          "voila": {
+            "url": "https://voila.ca/products/lime-1-count/7687EA",
+            "type": "product"
+          }
         },
         {
           "id": "avocado",
           "name": "Avocat (1)",
-          "iga": "p:avocado"
+          "voila": {
+            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/avocados/WEB3100786",
+            "type": "category"
+          }
         },
         {
           "id": "bananas",
           "name": "Bananes (2)",
-          "iga": "c:fruit"
+          "voila": {
+            "url": "https://voila.ca/products/banana-1-count-ripe-in-3-4-days/958902EA",
+            "type": "product"
+          }
         },
         {
           "id": "stirfryveg",
           "name": "Légumes surgelés pour sautés",
-          "iga": "c:frozen"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
+            "type": "product"
+          }
         },
         {
           "id": "garlic",
           "name": "Ail",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/products/fresh-garlic-3-count/204613EA",
+            "type": "product"
+          }
         },
         {
           "id": "ginger",
           "name": "Gingembre frais",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/products/ginger-root/8440KG",
+            "type": "product"
+          }
         }
       ],
       "Haricots et produits de base": [
         {
           "id": "pasta",
           "name": "Pâtes sèches",
-          "iga": "c:pasta"
+          "voila": {
+            "url": "https://voila.ca/products/longo-s-dry-pasta-penne-rigate-450-g/32770EA",
+            "type": "product"
+          }
         },
         {
           "id": "noodles",
           "name": "Nouilles sèches",
-          "iga": "c:pasta"
+          "voila": {
+            "url": "https://voila.ca/categories/pantry/pasta-noodles-sauce/dry-pasta-noodles/WEB3101008",
+            "type": "category"
+          }
         },
         {
           "id": "oats",
           "name": "Flocons d’avoine",
-          "iga": "p:oats"
+          "voila": {
+            "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
+            "type": "product"
+          }
         },
         {
           "id": "blackbeans",
           "name": "Haricots noirs (2 boîtes)",
-          "iga": "p:beans"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA",
+            "type": "product"
+          }
         },
         {
           "id": "crushedtomatoes",
           "name": "Tomates broyées (boîte de 796 ml)",
-          "iga": "c:canned"
+          "voila": {
+            "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA",
+            "type": "product"
+          }
         },
         {
           "id": "corn",
           "name": "Maïs sucré en grains entiers surgelés (sac de 750 g)",
-          "iga": "p:corn"
+          "voila": {
+            "url": "https://voila.ca/products/best-buy-frozen-whole-kernel-corn-750-g/408982EA",
+            "type": "product"
+          }
         },
         {
           "id": "coconutmilk",
           "name": "Lait de coco léger",
-          "iga": "p:coconut"
+          "voila": {
+            "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA",
+            "type": "product"
+          }
         },
         {
           "id": "peanutbutter",
           "name": "Beurre d’arachides",
-          "iga": "p:peanut"
+          "voila": {
+            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
+            "type": "product"
+          }
         },
         {
           "id": "oliveoil",
           "name": "Huile d’olive",
-          "iga": "p:olive"
+          "voila": {
+            "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA",
+            "type": "product"
+          }
         }
       ],
       "Assaisonnements et extras": [
         {
           "id": "soysauce",
           "name": "Sauce soya",
-          "iga": "p:soy"
+          "voila": {
+            "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA",
+            "type": "product"
+          }
         },
         {
           "id": "sriracha",
           "name": "Sriracha",
-          "iga": "c:condiments"
+          "voila": {
+            "url": "https://voila.ca/products/frank-s-red-hot-sauce-sriracha-354-ml/362310EA",
+            "type": "product"
+          }
         },
         {
           "id": "dijon",
           "name": "Moutarde de Dijon",
-          "iga": "p:mustard"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-prepared-dijon-mustard-original-325-ml/409731EA",
+            "type": "product"
+          }
         },
         {
           "id": "maple",
           "name": "Sirop d’érable",
-          "iga": "p:maple"
+          "voila": {
+            "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA",
+            "type": "product"
+          }
         },
         {
           "id": "paprika",
           "name": "Paprika fumé",
-          "iga": "c:spices"
+          "voila": {
+            "url": "https://voila.ca/products/mccormick-smoked-paprika-46-g/164655EA",
+            "type": "product"
+          }
         },
         {
           "id": "cumin",
           "name": "Cumin",
-          "iga": "c:spices"
+          "voila": {
+            "url": "https://voila.ca/products/club-house-ground-cumin-90-g/503752EA",
+            "type": "product"
+          }
         },
         {
           "id": "chilipowder",
           "name": "Poudre de chili",
-          "iga": "c:spices"
+          "voila": {
+            "url": "https://voila.ca/products/mccormick-gourmet-chili-powder-40-g/681670EA",
+            "type": "product"
+          }
         },
         {
           "id": "currypaste",
           "name": "Pâte de cari rouge thaï",
-          "iga": "p:curry"
+          "voila": {
+            "url": "https://voila.ca/products/thai-kitchen-curry-paste-red-112-g/519593EA",
+            "type": "product"
+          }
         },
         {
           "id": "marinara",
           "name": "Sauce marinara",
-          "iga": "p:marinara"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-marinara-sauce-sweet-basil-650-ml/404824EA",
+            "type": "product"
+          }
         },
         {
           "id": "salsa",
           "name": "Salsa",
-          "iga": "c:condiments"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA",
+            "type": "product"
+          }
         },
         {
           "id": "honey",
           "name": "Miel",
-          "iga": "c:condiments"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-pure-natural-liquid-honey-500-g/289980EA",
+            "type": "product"
+          }
         },
         {
           "id": "sesameoil",
           "name": "Huile de sésame",
-          "iga": "p:sesameOil"
+          "voila": {
+            "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA",
+            "type": "product"
+          }
         },
         {
           "id": "vinegar",
           "name": "Vinaigre de cidre",
-          "iga": "c:condiments"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-vinegar-apple-cider-1-l/444863EA",
+            "type": "product"
+          }
         },
         {
           "id": "snacks",
           "name": "Collations riches en protéines",
-          "iga": "c:grocery"
+          "voila": {
+            "url": "https://voila.ca/categories/snacks-candy/WEB1100614",
+            "type": "category"
+          }
         },
         {
           "id": "desserts",
           "name": "Desserts au choix",
-          "iga": "c:grocery"
+          "voila": {
+            "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
+            "type": "category"
+          }
         }
       ]
     },
@@ -1020,268 +1171,424 @@
         {
           "id": "chicken",
           "name": "Poitrines ou hauts de cuisse de poulet (~1 kg)",
-          "iga": "p:chicken"
+          "voila": {
+            "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
+            "type": "product"
+          }
         },
         {
           "id": "groundbeef",
           "name": "Bœuf haché maigre (~225 g)",
-          "iga": "p:groundbeef"
+          "voila": {
+            "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA",
+            "type": "product"
+          }
         },
         {
           "id": "beefstrips",
           "name": "Lanières de bœuf maigre (~225 g)",
-          "iga": "c:beef"
+          "voila": {
+            "url": "https://voila.ca/categories/meat-seafood/beef-veal/stew-cubes-and-strips/WEB3100863",
+            "type": "category"
+          }
         },
         {
           "id": "porkstrips",
           "name": "Lanières de porc maigre (~225 g)",
-          "iga": "c:pork"
+          "voila": {
+            "url": "https://voila.ca/products/stir-fry-pork-strips/453351KG",
+            "type": "product"
+          }
         },
         {
           "id": "shrimp",
           "name": "Crevettes décortiquées surgelées (~250 g)",
-          "iga": "c:shrimp"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
+            "type": "product"
+          }
         },
         {
           "id": "tuna",
           "name": "Thon pâle en conserve (2 boîtes)",
-          "iga": "p:tuna"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
+            "type": "product"
+          }
         },
         {
           "id": "whey",
           "name": "Poudre de protéines whey (3 shakes du mercredi)",
-          "iga": null
+          "voila": {
+            "url": "https://voila.ca/categories/health-beauty/diet-fitness/protein-powders-shakes/WEB31035247",
+            "type": "category"
+          }
         }
       ],
       "Fruits, légumes et surgelés": [
         {
           "id": "cucumber",
           "name": "Concombres (2)",
-          "iga": "c:cucumber"
+          "voila": {
+            "url": "https://voila.ca/products/organic-english-cucumber-1-count/129818EA",
+            "type": "product"
+          }
         },
         {
           "id": "tomatoes",
           "name": "Tomates et tomates cerises",
-          "iga": "p:tomato"
+          "voila": {
+            "url": "https://voila.ca/products/cherry-tomatoes-cameo-elite-1-pint/628257EA",
+            "type": "product"
+          }
         },
         {
           "id": "pepper",
           "name": "Poivrons (2 à 3)",
-          "iga": "p:pepper"
+          "voila": {
+            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-vegetables/bell-peppers/WEB3100792",
+            "type": "category"
+          }
         },
         {
           "id": "onion",
           "name": "Oignons (2)",
-          "iga": "p:onion"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-onions-yellow-1-36-kg/615526EA",
+            "type": "product"
+          }
         },
         {
           "id": "broccoli",
           "name": "Brocoli",
-          "iga": "c:frozen"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
+            "type": "product"
+          }
         },
         {
           "id": "mushroom",
           "name": "Champignons",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-mushroom-white-sliced-washed-227-g/452211EA",
+            "type": "product"
+          }
         },
         {
           "id": "cabbage",
           "name": "Chou râpé",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-salad-mix-coleslaw-397-g/655261EA",
+            "type": "product"
+          }
         },
         {
           "id": "carrots",
           "name": "Carottes râpées",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-cut-fruits-vegetables/fresh-cut-vegetables/WEB39229849",
+            "type": "category"
+          }
         },
         {
           "id": "stirfryveg",
           "name": "Légumes surgelés pour sautés",
-          "iga": "c:frozen"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
+            "type": "product"
+          }
         },
         {
           "id": "spinach",
           "name": "Épinards",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-baby-spinach-312-g/370340EA",
+            "type": "product"
+          }
         },
         {
           "id": "potatoes",
           "name": "Pommes de terre (~600 g)",
-          "iga": "p:potato"
+          "voila": {
+            "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
+            "type": "product"
+          }
         },
         {
           "id": "mango",
           "name": "Mangue",
-          "iga": "c:tropical"
+          "voila": {
+            "url": "https://voila.ca/products/ataulfo-mango-1-count/243393EA",
+            "type": "product"
+          }
         },
         {
           "id": "lemons",
           "name": "Citrons",
-          "iga": "c:citrus"
+          "voila": {
+            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/lemons/WEB3100780",
+            "type": "category"
+          }
         },
         {
           "id": "limes",
           "name": "Limes",
-          "iga": "c:citrus"
+          "voila": {
+            "url": "https://voila.ca/products/lime-1-count/7687EA",
+            "type": "product"
+          }
         },
         {
           "id": "berries",
           "name": "Petits fruits surgelés",
-          "iga": "c:frozenFruit"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-frozen-jumbleberry-fruit-blend-600-g/43805EA",
+            "type": "product"
+          }
         },
         {
           "id": "avocado",
           "name": "Avocat",
-          "iga": "p:avocado"
+          "voila": {
+            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/avocados/WEB3100786",
+            "type": "category"
+          }
         },
         {
           "id": "garlic",
           "name": "Ail",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/products/fresh-garlic-3-count/204613EA",
+            "type": "product"
+          }
         },
         {
           "id": "ginger",
           "name": "Gingembre frais",
-          "iga": "c:produce"
+          "voila": {
+            "url": "https://voila.ca/products/ginger-root/8440KG",
+            "type": "product"
+          }
         },
         {
           "id": "parsley",
           "name": "Persil",
-          "iga": "c:herbs"
+          "voila": {
+            "url": "https://voila.ca/products/parsley-italian-1-bunch/868246EA",
+            "type": "product"
+          }
         }
       ],
       "Haricots et produits de base": [
         {
           "id": "ricenoodles",
           "name": "Nouilles de riz sèches",
-          "iga": "c:pasta"
+          "voila": {
+            "url": "https://voila.ca/products/fat-choy-gluten-free-kongmoon-rice-noodles-400-g/394998EA",
+            "type": "product"
+          }
         },
         {
           "id": "udon",
           "name": "Nouilles udon prêtes à utiliser",
-          "iga": "c:pasta"
+          "voila": {
+            "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
+            "type": "product"
+          }
         },
         {
           "id": "oats",
           "name": "Flocons d’avoine",
-          "iga": "p:oats"
+          "voila": {
+            "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
+            "type": "product"
+          }
         },
         {
           "id": "blackbeans",
           "name": "Haricots noirs",
-          "iga": "p:beans"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA",
+            "type": "product"
+          }
         },
         {
           "id": "whitebeans",
           "name": "Haricots blancs",
-          "iga": "p:whitebeans"
+          "voila": {
+            "url": "https://voila.ca/products/unico-white-kidney-beans-540-ml/328658EA",
+            "type": "product"
+          }
         },
         {
           "id": "chickpeas",
           "name": "Pois chiches",
-          "iga": "p:chickpeas"
+          "voila": {
+            "url": "https://voila.ca/products/unico-chickpeas-no-salt-added-540-ml/352549EA",
+            "type": "product"
+          }
         },
         {
           "id": "corn",
           "name": "Maïs sucré en grains entiers surgelés (sac de 750 g)",
-          "iga": "p:corn"
+          "voila": {
+            "url": "https://voila.ca/products/best-buy-frozen-whole-kernel-corn-750-g/408982EA",
+            "type": "product"
+          }
         },
         {
           "id": "crushedtomatoes",
           "name": "Tomates broyées en conserve",
-          "iga": "c:canned"
+          "voila": {
+            "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA",
+            "type": "product"
+          }
         },
         {
           "id": "coconutmilk",
           "name": "Lait de coco léger",
-          "iga": "p:coconut"
+          "voila": {
+            "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA",
+            "type": "product"
+          }
         },
         {
           "id": "peanutbutter",
           "name": "Beurre d’arachides",
-          "iga": "p:peanut"
+          "voila": {
+            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
+            "type": "product"
+          }
         },
         {
           "id": "almondbutter",
           "name": "Beurre d’amandes (facultatif, au lieu du beurre d’arachides)",
-          "iga": "c:grocery"
+          "voila": {
+            "url": "https://voila.ca/products/farm-boy-almond-butter-365-g/887627EA",
+            "type": "product"
+          }
         },
         {
           "id": "oliveoil",
           "name": "Huile d’olive",
-          "iga": "p:olive"
+          "voila": {
+            "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA",
+            "type": "product"
+          }
         }
       ],
       "Assaisonnements et extras": [
         {
           "id": "harissa",
           "name": "Pâte de harissa",
-          "iga": "c:spices"
+          "voila": {
+            "url": "https://voila.ca/products/al-fez-paste-harissa-162-ml/33737EA",
+            "type": "product"
+          }
         },
         {
           "id": "soysauce",
           "name": "Sauce soya",
-          "iga": "p:soy"
+          "voila": {
+            "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA",
+            "type": "product"
+          }
         },
         {
           "id": "sweetchili",
           "name": "Sauce chili douce",
-          "iga": "c:condiments"
+          "voila": {
+            "url": "https://voila.ca/products/kim-phat-chili-sauce-sweet-298-ml/336218EA",
+            "type": "product"
+          }
         },
         {
           "id": "currypowder",
           "name": "Poudre de cari",
-          "iga": "c:spices"
+          "voila": {
+            "url": "https://voila.ca/products/club-house-curry-powder-110-g/503753EA",
+            "type": "product"
+          }
         },
         {
           "id": "garammasala",
           "name": "Garam masala",
-          "iga": "c:spices"
+          "voila": {
+            "url": "https://voila.ca/products/national-garam-masala-powder-50-g/423888EA",
+            "type": "product"
+          }
         },
         {
           "id": "chilipowder",
           "name": "Poudre de chili",
-          "iga": "c:spices"
+          "voila": {
+            "url": "https://voila.ca/products/mccormick-gourmet-chili-powder-40-g/681670EA",
+            "type": "product"
+          }
         },
         {
           "id": "cumin",
           "name": "Cumin",
-          "iga": "c:spices"
+          "voila": {
+            "url": "https://voila.ca/products/club-house-ground-cumin-90-g/503752EA",
+            "type": "product"
+          }
         },
         {
           "id": "paprika",
           "name": "Paprika fumé",
-          "iga": "c:spices"
+          "voila": {
+            "url": "https://voila.ca/products/mccormick-smoked-paprika-46-g/164655EA",
+            "type": "product"
+          }
         },
         {
           "id": "sesameoil",
           "name": "Huile de sésame",
-          "iga": "p:sesameOil"
+          "voila": {
+            "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA",
+            "type": "product"
+          }
         },
         {
           "id": "sesameseeds",
           "name": "Graines de sésame",
-          "iga": "p:sesameSeeds"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-sesame-seeds-145-g/446178EA",
+            "type": "product"
+          }
         },
         {
           "id": "hotsauce",
           "name": "Sauce piquante",
-          "iga": "c:condiments"
+          "voila": {
+            "url": "https://voila.ca/products/frank-s-red-hot-sauce-original-354-ml/915035EA",
+            "type": "product"
+          }
         },
         {
           "id": "salsa",
           "name": "Salsa",
-          "iga": "c:condiments"
+          "voila": {
+            "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA",
+            "type": "product"
+          }
         },
         {
           "id": "snacks",
           "name": "Collations riches en protéines",
-          "iga": "c:grocery"
+          "voila": {
+            "url": "https://voila.ca/categories/snacks-candy/WEB1100614",
+            "type": "category"
+          }
         },
         {
           "id": "desserts",
           "name": "Desserts au choix",
-          "iga": "c:grocery"
+          "voila": {
+            "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
+            "type": "category"
+          }
         }
       ]
     }
