@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "1.9 · November 2026",
+  "version": "2.0 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -672,16 +672,17 @@
       "minutes": 0,
       "servings": 1,
       "ingredients": [
-        "2 eggs",
-        "2 sausages",
-        "2 slices rye bread",
-        "A generous serving of breakfast potatoes"
+        "2 eggs (ordered at restaurant)",
+        "2 sausages (ordered at restaurant)",
+        "2 slices rye bread (at restaurant)",
+        "1 serving breakfast potatoes (at restaurant)"
       ],
       "steps": [
-        "Enjoy your usual Saturday and Sunday breakfast.",
-        "For planning, estimate approximately 850–1,100 kcal; restaurant recipes and portion sizes vary."
+        "This is your regular Saturday/Sunday breakfast AT A RESTAURANT. No home cooking or grocery shopping is required for this meal.",
+        "Order 2 eggs, 2 sausages, 2 slices rye bread and your usual portion of breakfast potatoes.",
+        "For planning only, the 850–1,100 kcal estimate is approximate; serving sizes and cooking methods vary by restaurant."
       ],
-      "tip": "This is intentionally unchanged. No need to remove the rye bread from this meal.",
+      "tip": "Restaurant meal: do not add any of these ingredients to the home grocery order.",
       "nutrition": {
         "calories": 1000,
         "protein_g": 40,
@@ -712,18 +713,22 @@
       "minutes": 5,
       "servings": 3,
       "ingredients": [
-        "PER SHAKE: 1½ scoops whey (chocolate preferred, other flavors work)",
-        "30 g rolled oats",
-        "1 tbsp peanut butter",
-        "½ banana",
-        "Unsweetened cocoa (optional if using whey (chocolate preferred, other flavors work)), water and ice"
+        "PER SHAKE (make three separately during the day): 1½ scoops whey, preferably chocolate",
+        "30 g dry rolled oats (weigh dry)",
+        "1 tbsp (15 mL) peanut butter",
+        "½ peeled banana",
+        "1 tsp (5 mL) unsweetened cocoa (optional with chocolate whey)",
+        "300 mL cold water",
+        "4–6 ice cubes (optional)"
       ],
       "steps": [
-        "Blend oats with water first for a smoother drink.",
-        "Add the remaining ingredients and blend thoroughly.",
-        "Repeat for three shakes spread throughout Wednesday."
+        "These quantities make ONE shake. Repeat three times on Wednesday; full-day amount is 4½ scoops whey, 90 g oats, 3 tbsp peanut butter and 1½ bananas.",
+        "Blend 300 mL cold water and 30 g dry rolled oats for 15–20 seconds to break up the oats.",
+        "Add 1½ scoops whey, 1 tbsp peanut butter, ½ banana, optional 1 tsp cocoa and optional ice.",
+        "Blend with lid closed 30–45 seconds until smooth. If too thick, add 50 mL water and blend 10 seconds more.",
+        "Drink now, then prepare the other shakes separately later, to reach three total. Don't leave a mixed shake at room temperature for hours."
       ],
-      "tip": "Three shakes provide roughly 1,250–1,450 kcal and 125–150 g protein in total, depending on the whey. Use the label for precision.",
+      "tip": "Vanilla whey works too: use 1 tsp cocoa for a chocolate taste. Actual macros depend on scoop weight and whey brand.",
       "nutrition": {
         "calories": 455,
         "protein_g": 44,
@@ -738,18 +743,22 @@
       "minutes": 5,
       "servings": 3,
       "ingredients": [
-        "PER SHAKE: 1½ scoops whey (vanilla preferred, other flavors work)",
-        "30 g rolled oats",
-        "1 tbsp peanut butter",
-        "100 g frozen berries",
-        "Cinnamon (optional), water and ice"
+        "PER SHAKE (make three separately): 1½ scoops whey, preferably vanilla",
+        "30 g dry rolled oats",
+        "1 tbsp (15 mL) peanut butter",
+        "100 g frozen mixed berries (straight from freezer)",
+        "¼ tsp ground cinnamon (optional)",
+        "300 mL cold water",
+        "4 ice cubes (optional)"
       ],
       "steps": [
-        "Blend oats with water first.",
-        "Add whey, nut butter, berries and ice; blend until creamy.",
-        "Repeat for three shakes spread throughout Wednesday."
+        "These quantities make ONE shake. Repeat three times on Wednesday; full-day amount is 4½ scoops whey, 90 g oats, 3 tbsp peanut butter and 300 g frozen berries.",
+        "Blend 300 mL cold water and 30 g dry oats for 15–20 seconds.",
+        "Add 1½ scoops whey, 1 tbsp peanut butter, 100 g still-frozen berries and optional ¼ tsp cinnamon. Add ice if desired.",
+        "Blend with lid closed for 45–60 seconds. If large fruit pieces remain, stop the blender, stir with a spoon, then blend another 15 seconds.",
+        "If too thick, add 50 mL water and blend 10 more seconds. Drink promptly; make the remaining shakes as needed."
       ],
-      "tip": "Whey smoothies alone are not a nutritionally complete long-term meal-replacement regimen.",
+      "tip": "Use peanut butter, not almond butter; no extra purchase is needed. Berries go in frozen; cinnamon is optional.",
       "nutrition": {
         "calories": 450,
         "protein_g": 44,
