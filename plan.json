@@ -918,7 +918,8 @@
           "voila": {
             "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
             "type": "product"
-          }
+          },
+          "searchName": "Compliments Ground Turkey Extra Lean 450 g"
         },
         {
           "id": "salmon",
@@ -942,7 +943,8 @@
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
-          }
+          },
+          "searchName": "Compliments Frozen Shrimp Pacific White Raw Peeled Deveined 340 g"
         },
         {
           "id": "tuna",
@@ -950,7 +952,8 @@
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
-          }
+          },
+          "searchName": "Compliments Chunked Light Tuna in Water 170 g"
         },
         {
           "id": "meatballsangus",
@@ -958,7 +961,8 @@
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-meatballs-angus-beef-680-g/432394EA",
             "type": "product"
-          }
+          },
+          "searchName": "Compliments Frozen Meatballs Angus Beef 680 g"
         },
         {
           "id": "whey",
@@ -1088,7 +1092,8 @@
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
-          }
+          },
+          "searchName": "Compliments Frozen Stir Fry Asian Style Blend 500 g"
         },
         {
           "id": "garlic",
@@ -1114,7 +1119,8 @@
           "voila": {
             "url": "https://voila.ca/products/barilla-pasta-penne-rigate-410-g/785494EA",
             "type": "product"
-          }
+          },
+          "searchName": "Barilla Pasta Penne Rigate 410 g"
         },
         {
           "id": "noodles",
@@ -1122,7 +1128,8 @@
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
             "type": "product"
-          }
+          },
+          "searchName": "Blue Dragon Noodles Soba 250 g"
         },
         {
           "id": "oats",
@@ -1376,7 +1383,8 @@
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
-          }
+          },
+          "searchName": "Compliments Frozen Shrimp Pacific White Raw Peeled Deveined 340 g"
         },
         {
           "id": "tuna",
@@ -1384,7 +1392,8 @@
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
-          }
+          },
+          "searchName": "Compliments Chunked Light Tuna in Water 170 g"
         },
         {
           "id": "whey",
@@ -1466,7 +1475,8 @@
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
-          }
+          },
+          "searchName": "Compliments Frozen Stir Fry Asian Style Blend 500 g"
         },
         {
           "id": "spinach",
@@ -1564,7 +1574,8 @@
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-rice-noodles-pad-thai-300-g/887520EA",
             "type": "product"
-          }
+          },
+          "searchName": "Blue Dragon Rice Noodles Pad Thai 300 g"
         },
         {
           "id": "udon",
@@ -1572,7 +1583,8 @@
           "voila": {
             "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
             "type": "product"
-          }
+          },
+          "searchName": "Six Fortune Udon Noodles Plain 200 g"
         },
         {
           "id": "oats",
