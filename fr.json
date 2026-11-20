@@ -1769,10 +1769,6 @@
           "name": "Cannelle moulue (facultative)"
         },
         {
-          "id": "brownsugar",
-          "name": "Cassonade (ou utiliser du sirop d'érable / miel)"
-        },
-        {
           "id": "salt",
           "name": "Sel (vérifier en réserve)"
         },
@@ -1888,7 +1884,6 @@
       "oregano",
       "cocoa",
       "cinnamon",
-      "brownsugar",
       "salt",
       "blackpepper"
     ],
@@ -1920,7 +1915,6 @@
       "oregano": "Pour les recettes au poulet citronné. À défaut, le basilic séché ou un mélange d'herbes italiennes convient.",
       "cocoa": "Pour les shakes chocolat-banane; facultatif si ta whey est déjà au chocolat.",
       "cinnamon": "Uniquement pour les shakes aux petits fruits; on peut l'omettre.",
-      "brownsugar": "Pour le bœuf coréen : 1 c. à thé. Le sirop d'érable ou le miel convient.",
       "salt": "Pour assaisonner au goût; à acheter seulement si tu n'en as plus.",
       "blackpepper": "Pour assaisonner au goût; à acheter seulement si tu n'en as plus."
     }
