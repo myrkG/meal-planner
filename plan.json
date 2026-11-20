@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "1.8 · November 2026",
+  "version": "1.9 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -184,22 +184,29 @@
     "meatballs": {
       "id": "meatballs",
       "title": "Garlicky meatball marinara pasta",
-      "minutes": 20,
+      "minutes": 30,
       "servings": 1,
       "ingredients": [
-        "220 g cooked lean turkey or beef meatballs",
+        "220 g frozen PRECOOKED lean beef or turkey meatballs (check the bag)",
         "90 g dry penne rigate pasta",
-        "¾ cup marinara sauce",
+        "¾ cup (180 mL) marinara sauce",
         "2 cups baby spinach",
-        "1 tsp olive oil",
-        "Garlic, ¼ tsp crushed red pepper flakes (or to taste), and 1 tsp dried basil"
+        "1 tsp (5 mL) olive oil",
+        "1 medium garlic clove, finely minced (about 1 tsp minced garlic)",
+        "1 tsp dried basil",
+        "¼ tsp crushed red pepper flakes (optional, to taste)",
+        "2 tbsp (30 mL) water, only if the sauce is thick"
       ],
       "steps": [
-        "Cook pasta and heat meatballs to package directions.",
-        "Warm oil and garlic; stir in marinara and spinach until wilted.",
-        "Toss with pasta and meatballs; finish with chili flakes and basil."
+        "Check the meatball bag: these instructions are for FROZEN, FULLY COOKED meatballs. You do not need to thaw them. If yours are raw, cook them fully according to the package before adding to the sauce.",
+        "Finely mince 1 garlic clove. Place a large skillet over medium heat. Add 1 tsp olive oil and the garlic; stir for about 30 seconds without browning it.",
+        "Pour ¾ cup (180 mL) marinara into the skillet. Add 2 tbsp water if it looks too thick. Add the 220 g frozen cooked meatballs directly to the sauce.",
+        "Cover and lower to medium-low heat. Gently simmer for about 15–20 minutes, stirring every 5 minutes. The meatballs must be hot all the way through (aim for 74°C / 165°F); continue heating if needed.",
+        "While the meatballs simmer, bring a pot of water to a boil. Add 90 g dry penne and cook for the time on the package (usually 9–12 minutes). Drain in a colander.",
+        "Once the meatballs are hot, stir in 2 cups spinach, 1 tsp dried basil, and, if wanted, ¼ tsp red pepper flakes. Cook another 1–2 minutes until the spinach wilts.",
+        "Add the drained pasta to the skillet. Toss together for about 30 seconds to coat everything, then serve."
       ],
-      "tip": "Look for meatballs without cheese if you dislike that flavour.",
+      "tip": "Garlic quantity: 1 medium clove (about 1 tsp minced). If you have no fresh garlic, substitute ¼ tsp garlic powder. Compliments Balance frozen cooked meatballs can be heated without thawing; follow your own package if its directions differ.",
       "nutrition": {
         "calories": 875,
         "protein_g": 58,
