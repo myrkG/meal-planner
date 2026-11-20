@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "1.6 · novembre 2026",
+  "version": "1.7 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -192,7 +192,7 @@
         "¾ tasse de sauce marinara",
         "2 tasses de jeunes épinards",
         "1 c. à thé d’huile d’olive",
-        "Ail, flocons de piment et basilic"
+        "Ail, ¼ c. à thé de flocons de piment (ou au goût) et 1 c. à thé de basilic séché"
       ],
       "steps": [
         "Cuire les pâtes et réchauffer les boulettes selon l’emballage.",
@@ -1118,6 +1118,22 @@
           }
         },
         {
+          "id": "driedbasil",
+          "name": "Basilic séché (10 g)",
+          "voila": {
+            "url": "https://voila.ca/products/club-house-organic-basil-leaves-bag-10-g/666824EA",
+            "type": "product"
+          }
+        },
+        {
+          "id": "redpepperflakes",
+          "name": "Flocons de piment rouge (28 g)",
+          "voila": {
+            "url": "https://voila.ca/products/les-aliments-g-dion-foods-gluten-free-chili-crushed-red-pepper-28-g/189810EA",
+            "type": "product"
+          }
+        },
+        {
           "id": "salsa",
           "name": "Salsa",
           "voila": {
@@ -1631,7 +1647,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 1.6 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      ".footer p": "Version 1.7 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
       "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
@@ -1685,7 +1701,9 @@
       "garammasala",
       "sesameseeds",
       "hotsauce",
-      "berries"
+      "berries",
+      "redpepperflakes",
+      "driedbasil"
     ],
     "hints": {
       "groundbeef": "Un paquet de 454 g couvre les repas de 225 g des semaines 1 et 2. Congeler la moitié pour la semaine 2.",
@@ -1709,7 +1727,9 @@
       "pasta": "Un paquet de penne de 410 g; la recette demande 90 g.",
       "noodles": "Un paquet de soba de 250 g; la recette demande 90 g.",
       "ricenoodles": "Un paquet de nouilles de riz de 300 g; la recette demande 90 g.",
-      "udon": "Un paquet de 200 g pour le porc de la semaine 2."
+      "udon": "Un paquet de 200 g pour le porc de la semaine 2.",
+      "redpepperflakes": "Environ ¼ c. à thé pour les pâtes aux boulettes. Un petit sachet dure plusieurs rotations.",
+      "driedbasil": "Environ 1 c. à thé pour les pâtes aux boulettes. Un petit sachet dure plusieurs rotations."
     }
   }
 }
