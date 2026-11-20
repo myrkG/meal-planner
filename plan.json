@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "1.6 · November 2026",
+  "version": "1.7 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -192,7 +192,7 @@
         "¾ cup marinara sauce",
         "2 cups baby spinach",
         "1 tsp olive oil",
-        "Garlic, chili flakes and basil"
+        "Garlic, ¼ tsp crushed red pepper flakes (or to taste), and 1 tsp dried basil"
       ],
       "steps": [
         "Cook pasta and heat meatballs to package directions.",
@@ -1118,6 +1118,22 @@
           }
         },
         {
+          "id": "driedbasil",
+          "name": "Dried basil leaves (10 g)",
+          "voila": {
+            "url": "https://voila.ca/products/club-house-organic-basil-leaves-bag-10-g/666824EA",
+            "type": "product"
+          }
+        },
+        {
+          "id": "redpepperflakes",
+          "name": "Crushed red pepper flakes (28 g)",
+          "voila": {
+            "url": "https://voila.ca/products/les-aliments-g-dion-foods-gluten-free-chili-crushed-red-pepper-28-g/189810EA",
+            "type": "product"
+          }
+        },
+        {
           "id": "salsa",
           "name": "Salsa",
           "voila": {
@@ -1632,7 +1648,9 @@
       "garammasala",
       "sesameseeds",
       "hotsauce",
-      "berries"
+      "berries",
+      "redpepperflakes",
+      "driedbasil"
     ],
     "hints": {
       "groundbeef": "1 × 454 g package covers the 225 g meals in Weeks 1 and 2. Freeze half for Week 2.",
@@ -1656,7 +1674,9 @@
       "pasta": "One 410 g penne package; the recipe needs 90 g.",
       "noodles": "One 250 g soba package; the recipe needs 90 g.",
       "ricenoodles": "One 300 g rice-noodle package; the recipe needs 90 g.",
-      "udon": "One 200 g package for the Week 2 pork dish."
+      "udon": "One 200 g package for the Week 2 pork dish.",
+      "redpepperflakes": "About ¼ tsp for meatball pasta; a small bag lasts several rotations.",
+      "driedbasil": "About 1 tsp for meatball pasta; a small bag lasts several rotations."
     }
   }
 }
