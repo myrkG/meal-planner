@@ -635,7 +635,7 @@
       "ingredients": [
         "PAR SHAKE : 1½ mesure de whey à la vanille",
         "30 g de flocons d’avoine",
-        "1 c. à soupe de beurre d’amandes ou d’arachides",
+        "1 c. à soupe de beurre d’arachides",
         "100 g de petits fruits surgelés",
         "Cannelle, eau et glaçons"
       ],
@@ -753,7 +753,8 @@
     "Les suppléments du matin peuvent apporter des calories, notamment le collagène et les fibres en poudre; vérifier les étiquettes.",
     "Les calories, protéines, glucides et lipides indiqués par repas sont des estimations fondées sur des aliments génériques et des étiquettes typiques. Les marques, le poids cru ou cuit, les sauces et l’huile peuvent changer sensiblement les résultats.",
     "Le riz et le quinoa sont déjà en réserve; les quantités de riz indiquées dans les recettes correspondent au volume cuit, pas au riz sec ni aux sachets pour micro-ondes.",
-    "Les liens Voilà renvoient à un exemple de marque et de format; vérifie la quantité et la disponibilité dans ta zone de livraison avant de commander."
+    "Les liens Voilà renvoient à un exemple de marque et de format; vérifie la quantité et la disponibilité dans ta zone de livraison avant de commander.",
+    "La liste optimisée sur 14 jours regroupe les produits secs et surgelés à acheter une seule fois. Acheter les produits frais selon la semaine et congeler rapidement les portions inutilisées. Les quantités sont approximatives."
   ],
   "shopping": [
     {
@@ -1630,7 +1631,8 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 1.6 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
+      ".footer p": "Version 1.6 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
       "#recipeSearch": "Chercher poulet, cari, nouilles, recettes rapides…",
