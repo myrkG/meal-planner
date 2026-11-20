@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "1.8 · novembre 2026",
+  "version": "1.9 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -184,22 +184,29 @@
     "meatballs": {
       "id": "meatballs",
       "title": "Pâtes aux boulettes, marinara et ail",
-      "minutes": 20,
+      "minutes": 30,
       "servings": 1,
       "ingredients": [
-        "220 g de boulettes maigres cuites de dinde ou de bœuf",
+        "220 g de boulettes de bœuf ou de dinde surgelées, déjà cuites (vérifier sur le sac)",
         "90 g de penne rigate sèches",
-        "¾ tasse de sauce marinara",
+        "¾ tasse (180 ml) de sauce marinara",
         "2 tasses de jeunes épinards",
-        "1 c. à thé d’huile d’olive",
-        "Ail, ¼ c. à thé de flocons de piment (ou au goût) et 1 c. à thé de basilic séché"
+        "1 c. à thé (5 ml) d’huile d’olive",
+        "1 gousse d’ail moyenne, hachée finement (environ 1 c. à thé d’ail haché)",
+        "1 c. à thé de basilic séché",
+        "¼ c. à thé de flocons de piment (facultatif, au goût)",
+        "2 c. à soupe (30 ml) d’eau, au besoin si la sauce est épaisse"
       ],
       "steps": [
-        "Cuire les pâtes et réchauffer les boulettes selon l’emballage.",
-        "Chauffer l’huile et l’ail; ajouter la marinara et les épinards jusqu’à ce qu’ils tombent.",
-        "Mélanger avec les pâtes et les boulettes; ajouter flocons de piment et basilic."
+        "Regarder le sac de boulettes : cette méthode convient aux boulettes SURGELÉES ET DÉJÀ CUITES. Pas besoin de les décongeler. Si elles sont crues, les cuire complètement selon les instructions de l’emballage avant de les ajouter à la sauce.",
+        "Hacher finement 1 gousse d’ail. Mettre une poêle assez grande sur feu moyen. Ajouter 1 c. à thé d’huile d’olive, puis l’ail. Remuer environ 30 secondes sans laisser brunir.",
+        "Verser ¾ tasse (180 ml) de sauce marinara dans la poêle. Ajouter 2 c. à soupe d’eau si la sauce semble trop épaisse. Déposer les 220 g de boulettes encore congelées dans la sauce.",
+        "Couvrir avec un couvercle et baisser à feu moyen-doux. Laisser mijoter doucement environ 15 à 20 minutes, en remuant toutes les 5 minutes. Les boulettes doivent être très chaudes jusqu’au centre (viser 74 °C); prolonger au besoin.",
+        "Pendant que les boulettes mijotent, porter une casserole d’eau à ébullition. Ajouter les 90 g de penne et cuire pendant le temps écrit sur le paquet (habituellement 9 à 12 minutes). Égoutter dans une passoire.",
+        "Quand les boulettes sont bien chaudes, ajouter 2 tasses d’épinards, 1 c. à thé de basilic séché et, si désiré, ¼ c. à thé de flocons de piment. Mélanger et cuire encore 1 à 2 minutes, jusqu’à ce que les épinards ramollissent.",
+        "Ajouter les penne égouttées dans la poêle. Bien mélanger pendant 30 secondes pour les enrober de sauce, puis servir."
       ],
-      "tip": "Choisir des boulettes sans fromage si vous n’aimez pas son goût.",
+      "tip": "Quantité d’ail : 1 gousse moyenne, soit environ 1 c. à thé une fois hachée. Si tu n’as pas d’ail frais, utilise plutôt ¼ c. à thé d’ail en poudre. Les boulettes Compliments Équilibre peuvent être réchauffées directement congelées; si le sac indique des instructions différentes, suis celles du fabricant.",
       "nutrition": {
         "calories": 875,
         "protein_g": 58,
@@ -1691,7 +1698,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 1.8 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      ".footer p": "Version 1.9 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
       "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
