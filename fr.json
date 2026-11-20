@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "1.7 · novembre 2026",
+  "version": "1.8 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -299,7 +299,7 @@
         "1 portion congelée de chili de dinde maison",
         "350 g de pomme de terre Russet",
         "2 c. à soupe d’oignon haché",
-        "Sauce piquante et oignon vert"
+        "Sauce piquante et oignon vert (facultatif)"
       ],
       "steps": [
         "Piquer la pomme de terre et la cuire au micro-ondes jusqu’à tendreté en la retournant une fois.",
@@ -408,7 +408,7 @@
         "½ mangue en dés",
         "½ concombre en dés",
         "2 c. à thé d’huile d’olive",
-        "Lime, flocons de piment et coriandre"
+        "Lime, flocons de piment et coriandre fraîche (facultative)"
       ],
       "steps": [
         "Saisir les crevettes décongelées dans l’huile jusqu’à ce qu’elles soient opaques et bien cuites.",
@@ -488,7 +488,7 @@
         "1½ tasse de riz cuit",
         "2 tasses de brocoli en fleurons surgelé et de champignons frais",
         "1 c. à soupe de sauce soya",
-        "1 c. à thé de cassonade",
+        "1 c. à thé de cassonade (ou miel / sirop d’érable)",
         "1 c. à thé d’huile de sésame",
         "Ail, gingembre et flocons de piment"
       ],
@@ -607,11 +607,11 @@
       "minutes": 5,
       "servings": 3,
       "ingredients": [
-        "PAR SHAKE : 1½ mesure de whey au chocolat",
+        "PAR SHAKE : 1½ mesure de whey (chocolat recommandé, autre saveur possible)",
         "30 g de flocons d’avoine",
         "1 c. à soupe de beurre d’arachides",
         "½ banane",
-        "Cacao non sucré, eau et glaçons"
+        "Cacao non sucré (facultatif si la whey est au chocolat), eau et glaçons"
       ],
       "steps": [
         "Mixer d’abord l’avoine avec l’eau pour un breuvage plus lisse.",
@@ -633,11 +633,11 @@
       "minutes": 5,
       "servings": 3,
       "ingredients": [
-        "PAR SHAKE : 1½ mesure de whey à la vanille",
+        "PAR SHAKE : 1½ mesure de whey (vanille recommandée, autre saveur possible)",
         "30 g de flocons d’avoine",
         "1 c. à soupe de beurre d’arachides",
         "100 g de petits fruits surgelés",
-        "Cannelle, eau et glaçons"
+        "Cannelle (facultative), eau et glaçons"
       ],
       "steps": [
         "Mixer d’abord l’avoine avec l’eau.",
@@ -777,7 +777,7 @@
         },
         {
           "id": "groundturkey",
-          "name": "Dinde hachée maigre (~600 g)",
+          "name": "Dinde hachée maigre (600 g requis; 2 × 450 g au besoin)",
           "voila": {
             "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
             "type": "product"
@@ -1180,6 +1180,22 @@
             "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
             "type": "category"
           }
+        },
+        {
+          "id": "oregano",
+          "name": "Origan séché (ou utiliser le basilic séché)"
+        },
+        {
+          "id": "cocoa",
+          "name": "Cacao en poudre non sucré (facultatif avec whey chocolat)"
+        },
+        {
+          "id": "salt",
+          "name": "Sel (vérifier en réserve)"
+        },
+        {
+          "id": "blackpepper",
+          "name": "Poivre noir moulu (vérifier en réserve)"
         }
       ]
     },
@@ -1394,6 +1410,14 @@
             "url": "https://voila.ca/products/parsley-italian-1-bunch/868246EA",
             "type": "product"
           }
+        },
+        {
+          "id": "greenonion",
+          "name": "Oignons verts (facultatifs pour la pomme de terre au chili)"
+        },
+        {
+          "id": "cilantro",
+          "name": "Coriandre fraîche (garniture facultative)"
         }
       ],
       "Haricots et produits de base": [
@@ -1598,6 +1622,26 @@
             "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
             "type": "category"
           }
+        },
+        {
+          "id": "oregano",
+          "name": "Origan séché (ou utiliser le basilic séché)"
+        },
+        {
+          "id": "cinnamon",
+          "name": "Cannelle moulue (facultative)"
+        },
+        {
+          "id": "brownsugar",
+          "name": "Cassonade (ou utiliser du sirop d'érable / miel)"
+        },
+        {
+          "id": "salt",
+          "name": "Sel (vérifier en réserve)"
+        },
+        {
+          "id": "blackpepper",
+          "name": "Poivre noir moulu (vérifier en réserve)"
         }
       ]
     }
@@ -1647,7 +1691,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 1.7 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      ".footer p": "Version 1.8 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
       "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
@@ -1703,7 +1747,13 @@
       "hotsauce",
       "berries",
       "redpepperflakes",
-      "driedbasil"
+      "driedbasil",
+      "oregano",
+      "cocoa",
+      "cinnamon",
+      "brownsugar",
+      "salt",
+      "blackpepper"
     ],
     "hints": {
       "groundbeef": "Un paquet de 454 g couvre les repas de 225 g des semaines 1 et 2. Congeler la moitié pour la semaine 2.",
@@ -1729,7 +1779,13 @@
       "ricenoodles": "Un paquet de nouilles de riz de 300 g; la recette demande 90 g.",
       "udon": "Un paquet de 200 g pour le porc de la semaine 2.",
       "redpepperflakes": "Environ ¼ c. à thé pour les pâtes aux boulettes. Un petit sachet dure plusieurs rotations.",
-      "driedbasil": "Environ 1 c. à thé pour les pâtes aux boulettes. Un petit sachet dure plusieurs rotations."
+      "driedbasil": "Environ 1 c. à thé pour les pâtes aux boulettes. Un petit sachet dure plusieurs rotations.",
+      "oregano": "Pour les recettes au poulet citronné. À défaut, le basilic séché ou un mélange d'herbes italiennes convient.",
+      "cocoa": "Pour les shakes chocolat-banane; facultatif si ta whey est déjà au chocolat.",
+      "cinnamon": "Uniquement pour les shakes aux petits fruits; on peut l'omettre.",
+      "brownsugar": "Pour le bœuf coréen : 1 c. à thé. Le sirop d'érable ou le miel convient.",
+      "salt": "Pour assaisonner au goût; à acheter seulement si tu n'en as plus.",
+      "blackpepper": "Pour assaisonner au goût; à acheter seulement si tu n'en as plus."
     }
   }
 }
