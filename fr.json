@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "2.2 · novembre 2026",
+  "version": "2.3 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -56,7 +56,7 @@
       "servings": 1,
       "ingredients": [
         "225 g de bœuf haché maigre cru",
-        "90 g de nouilles soba sèches Blue Dragon (et NON des penne)",
+        "45 g de nouilles soba sèches Blue Dragon (et NON des penne)",
         "2 tasses (500 ml) de brocoli en fleurons surgelé",
         "2 c. à soupe (30 ml) de sauce soya réduite en sodium",
         "1 c. à thé (5 ml) de miel",
@@ -70,18 +70,18 @@
         "Dans un petit bol, mélanger 2 c. à soupe de sauce soya, 1 c. à thé de miel, 1 c. à thé d’huile de sésame, l’ail, le gingembre et 2 c. à soupe d’eau. Réserver.",
         "Chauffer une grande poêle à feu moyen-vif. Ajouter les 225 g de bœuf haché. Le défaire à la spatule pendant 5 à 7 minutes, jusqu’à cuisson complète (71 °C au centre). Égoutter l’excès de gras au besoin.",
         "Ajouter 2 tasses de brocoli congelé et 2 c. à soupe d’eau dans la poêle. Couvrir 4 à 6 minutes à feu moyen, en remuant à mi-cuisson, jusqu’à ce que le brocoli soit bien chaud.",
-        "Pendant ce temps, faire bouillir de l’eau dans une casserole. Ajouter 90 g de nouilles SOBA et cuire 3 minutes selon l’emballage Blue Dragon (ou suivre ton paquet s’il diffère). Égoutter aussitôt. Ne pas appliquer le temps de cuisson des penne.",
+        "Pendant ce temps, faire bouillir de l’eau dans une casserole. Ajouter 45 g de nouilles SOBA et cuire 3 minutes selon l’emballage Blue Dragon (ou suivre ton paquet s’il diffère). Égoutter aussitôt. Ne pas appliquer le temps de cuisson des penne.",
         "Verser la sauce préparée dans la poêle avec le bœuf et le brocoli. Remuer 1 minute à feu moyen, puis ajouter les soba égouttées. Mélanger 30 secondes et servir."
       ],
-      "tip": "Ce sont les soba pour cette recette, pas les penne de la recette des boulettes. Si ton sachet indique 3 minutes, c’est bien 3 minutes.",
+      "tip": "Une portion de 90 g de soba SÈCHES devient très volumineuse après cuisson. Pour ce repas, la portion est maintenant de 45 g secs (environ la moitié de l’ancienne recette). Les penne, les nouilles de riz et les udon sont pour d’autres recettes.",
       "nutrition": {
-        "calories": 880,
-        "protein_g": 65,
-        "carbs_g": 88,
+        "calories": 720,
+        "protein_g": 60,
+        "carbs_g": 55,
         "fat_g": 30,
         "basis": "per_portion"
       },
-      "before": "Utiliser les SOBA (3 min pour Blue Dragon); brocoli surgelé sans décongélation."
+      "before": "Portion adaptée après essai : mesurer 45 g de nouilles SOBA SÈCHES AVANT de les cuire. Cela donne approximativement 100 à 130 g cuites, selon l’eau absorbée. Cuire 3 min pour Blue Dragon. Le brocoli s’ajoute congelé."
     },
     "lemonpotato": {
       "id": "lemonpotato",
@@ -1124,7 +1124,7 @@
         },
         {
           "id": "noodles",
-          "name": "Nouilles SOBA Blue Dragon 250 g (90 g pour le bœuf gingembre; cuisson 3 min)",
+          "name": "Nouilles SOBA Blue Dragon 250 g (45 g SÈCHES par repas de bœuf gingembre; cuisson 3 min)",
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
             "type": "product"
@@ -1836,7 +1836,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 2.2 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      ".footer p": "Version 2.3 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
       "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
@@ -1918,7 +1918,7 @@
       "peanutbutter": "Convient aussi aux shakes de la semaine 2; inutile d'acheter du beurre d'amandes.",
       "berries": "Environ 300 g pour les trois shakes aux fruits de la semaine 2; un sac de 600 g suffit amplement.",
       "pasta": "Un paquet de penne de 410 g; la recette demande 90 g.",
-      "noodles": "Un paquet de soba de 250 g; la recette demande 90 g.",
+      "noodles": "Pour le bœuf au gingembre : peser 45 g SÈCHES. Après cuisson, environ 100–130 g de soba; le paquet de 250 g dure plusieurs recettes.",
       "ricenoodles": "Un paquet de nouilles de riz de 300 g; la recette demande 90 g.",
       "udon": "Un paquet de 200 g pour le porc de la semaine 2.",
       "redpepperflakes": "Environ ¼ c. à thé pour les pâtes aux boulettes. Un petit sachet dure plusieurs rotations.",
