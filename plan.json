@@ -344,20 +344,23 @@
     "chilipotato": {
       "id": "chilipotato",
       "title": "Chili-loaded baked potato",
-      "minutes": 10,
+      "minutes": 15,
       "servings": 1,
       "ingredients": [
-        "1 frozen portion of homemade turkey chili",
-        "350 g russet potato",
-        "2 tbsp chopped onion",
-        "Hot sauce and green onion (optional)"
+        "1 portion (about ⅓ of the batch) of COOKED Friday turkey chili, frozen for this meal",
+        "1 washed 350 g russet potato",
+        "2 tbsp (30 mL) chopped regular onion",
+        "1 tsp (5 mL) hot sauce (optional)",
+        "1 tbsp (15 mL) chopped green onion (optional)"
       ],
       "steps": [
-        "Pierce potato and microwave until tender, turning once.",
-        "Reheat thawed chili until piping hot.",
-        "Split potato, spoon chili over it and add onion and hot sauce."
+        "Move a frozen portion of Friday's chili to the fridge the night before to thaw. If still frozen, microwave on defrost and reheat immediately.",
+        "Wash the 350 g russet potato and pierce 5–6 times with a fork. Put it on a microwave-safe plate.",
+        "Microwave on high approximately 7–10 minutes, turning halfway, until a fork slides through its centre. Rest 1 minute.",
+        "Microwave thawed chili in a covered microwave-safe bowl for 2–4 minutes, stirring halfway, until uniformly hot to 74°C / 165°F.",
+        "Dice 2 tbsp onion. Split potato lengthwise, spoon chili over it, top with onion and optional hot sauce and green onion."
       ],
-      "tip": "If the portion is small, add a handful of extra beans.",
+      "tip": "Uses a portion of cooked chili saved from Week 1. Do NOT start a new batch of chili.",
       "nutrition": {
         "calories": 845,
         "protein_g": 54,
@@ -369,22 +372,28 @@
     "oregano": {
       "id": "oregano",
       "title": "Lemon–oregano chicken rice bowl",
-      "minutes": 20,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "225 g raw chicken breast or thigh",
-        "1½ cups cooked rice",
-        "1½ cups chopped cucumber and tomato",
-        "2 tsp olive oil",
-        "1 lemon",
-        "Garlic, dried oregano, salt and pepper"
+        "225 g RAW boneless chicken breast or thigh",
+        "1½ cups (375 mL) ALREADY COOKED rice",
+        "¾ cup (180 mL) diced tomatoes",
+        "¾ cup (180 mL) diced cucumber",
+        "2 tsp (10 mL) olive oil",
+        "1 lemon for 1 tbsp juice and a little zest",
+        "1 garlic clove, minced (about 1 tsp)",
+        "½ tsp dried oregano",
+        "Pinch of salt and pepper"
       ],
       "steps": [
-        "Season chicken with garlic, oregano, lemon zest, salt and pepper.",
-        "Pan-sear in olive oil until chicken reaches 74°C/165°F.",
-        "Serve with warm rice and tomato-cucumber salad dressed with lemon."
+        "Cook rice in the rice cooker first if needed, following its manual. Measure 1½ cups AFTER cooking.",
+        "Wash lemon, grate about ¼ tsp zest, then squeeze 1 tbsp juice. Mince one garlic clove. Cut 225 g raw chicken into even ~2 cm pieces.",
+        "Coat chicken in garlic, lemon zest, ½ tsp oregano, salt and pepper.",
+        "Heat 2 tsp olive oil in a skillet over medium-high. Cook chicken 6–10 minutes, turning regularly, until every piece reaches 74°C / 165°F.",
+        "Dice ¾ cup tomatoes and ¾ cup cucumber; toss with 1 tbsp lemon juice.",
+        "Put hot cooked rice in a bowl; add cooked chicken and tomato-cucumber salad."
       ],
-      "tip": "A generous amount of lemon keeps this tasting fresh without a cream sauce.",
+      "tip": "Substitute ½ tsp dried basil if you have no dried oregano.",
       "nutrition": {
         "calories": 700,
         "protein_g": 59,
@@ -396,22 +405,28 @@
     "peanutnoodle": {
       "id": "peanutnoodle",
       "title": "Thai peanut chicken noodles",
-      "minutes": 15,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "225 g chicken strips",
-        "90 g dry flat Pad Thai rice noodles",
-        "2 cups shredded cabbage and carrot",
-        "1½ tbsp peanut butter",
-        "1 tbsp soy sauce",
-        "Lime juice, chili sauce and warm water"
+        "225 g RAW chicken strips",
+        "90 g dry FLAT RICE noodles for Pad Thai (not soba or penne)",
+        "1 cup (250 mL) shredded cabbage",
+        "1 cup (250 mL) shredded carrots",
+        "1½ tbsp (22 mL) peanut butter",
+        "1 tbsp (15 mL) soy sauce",
+        "1 tbsp (15 mL) lime juice",
+        "1 tsp (5 mL) sweet chili sauce or hot sauce, to taste",
+        "2–3 tbsp (30–45 mL) hot water"
       ],
       "steps": [
-        "Cook noodles and chicken; chicken should reach 74°C/165°F.",
-        "Whisk peanut butter, soy, lime, chili and enough warm water for a pourable sauce.",
-        "Toss noodles with chicken, crunchy vegetables and sauce."
+        "Identify the right noodles: use FLAT RICE NOODLES for Pad Thai. Read THEIR package for soaking or boiling directions; do not use soba or penne timing.",
+        "Cut raw chicken into 1–2 cm strips; measure 1 cup shredded cabbage and 1 cup shredded carrots. Leave vegetables raw for crunch.",
+        "Whisk peanut butter, soy sauce, lime juice, 1 tsp chili sauce and 2 tbsp hot water in a bowl. Add another tbsp water if too thick.",
+        "Heat a non-stick skillet over medium-high. Add chicken and 2 tbsp water to prevent sticking; cook 6–10 minutes, stirring, until chicken reaches 74°C / 165°F.",
+        "While chicken cooks, prepare 90 g flat rice noodles according to their own package; drain as soon as tender.",
+        "Turn skillet to low. Toss chicken, cooked noodles, peanut sauce, cabbage and carrots for 1–2 minutes until hot; serve."
       ],
-      "tip": "Add extra lime and chili instead of extra peanut butter for a stronger flavour.",
+      "tip": "SOBA = ginger beef; PENNE = meatballs; FLAT RICE NOODLES = peanut chicken. Each has separate cooking directions.",
       "nutrition": {
         "calories": 820,
         "protein_g": 65,
@@ -423,23 +438,30 @@
     "tacoskillet": {
       "id": "tacoskillet",
       "title": "Smoky taco beef skillet",
-      "minutes": 15,
+      "minutes": 20,
       "servings": 1,
       "ingredients": [
-        "225 g lean ground beef",
-        "¾ cup drained black beans",
+        "225 g RAW lean ground beef",
+        "¾ cup (180 mL) canned black beans, rinsed and drained",
         "½ bell pepper, diced",
-        "½ cup frozen whole-kernel sweet corn",
-        "1 cup cooked rice",
-        "⅓ avocado",
-        "Salsa, chili powder, cumin and smoked paprika"
+        "½ cup (125 mL) frozen corn kernels",
+        "1 cup (250 mL) ALREADY COOKED rice",
+        "⅓ avocado, diced",
+        "2 tbsp (30 mL) salsa",
+        "½ tsp chili powder",
+        "¼ tsp ground cumin",
+        "¼ tsp smoked paprika",
+        "2 tbsp (30 mL) water"
       ],
       "steps": [
-        "Brown beef in a large skillet; add pepper and taco spices.",
-        "Add beans and corn; cook until heated through.",
-        "Serve over warm rice with diced avocado and salsa."
+        "If rice isn't ready, cook it in your rice cooker per its manual; measure 1 cup AFTER cooking.",
+        "Dice half a bell pepper. Rinse and drain ¾ cup black beans and measure ½ cup still-frozen corn.",
+        "Heat a skillet over medium-high and brown 225 g raw beef, breaking it up for 5–7 minutes until fully cooked to 71°C / 160°F. Drain excess fat.",
+        "Add diced pepper and spices (½ tsp chili powder, ¼ tsp each cumin and smoked paprika); stir over medium heat for 2 minutes.",
+        "Add beans, frozen corn and 2 tbsp water. Cover over medium heat for 3–5 minutes until corn is hot, stirring once.",
+        "Add the hot mixture to 1 cup cooked rice in a bowl; top with 2 tbsp salsa and diced ⅓ avocado."
       ],
-      "tip": "For a little heat, add chipotle in adobo or pickled jalapeños.",
+      "tip": "Keep corn frozen until adding directly to the pan. Canned beans are pre-cooked.",
       "nutrition": {
         "calories": 940,
         "protein_g": 60,
@@ -451,22 +473,26 @@
     "shrimpmango": {
       "id": "shrimpmango",
       "title": "Chili–lime shrimp mango bowl",
-      "minutes": 12,
+      "minutes": 20,
       "servings": 1,
       "ingredients": [
-        "250 g peeled shrimp",
-        "1½ cups cooked rice",
-        "½ mango, diced",
+        "250 g RAW peeled, deveined, THAWED shrimp",
+        "1½ cups (375 mL) ALREADY COOKED rice",
+        "½ peeled mango, diced",
         "½ cucumber, diced",
-        "2 tsp olive oil",
-        "Lime, chili flakes and fresh cilantro (optional)"
+        "2 tsp (10 mL) olive oil",
+        "1 tbsp (15 mL) lime juice",
+        "¼ tsp crushed red pepper flakes (optional)",
+        "1 tbsp chopped fresh cilantro (optional)"
       ],
       "steps": [
-        "Sear thawed shrimp in oil until opaque and cooked through.",
-        "Mix diced mango and cucumber with lime and chili flakes.",
-        "Serve over rice and finish with cilantro."
+        "Thaw raw frozen shrimp overnight in the fridge or in a closed bag in cold water (change water every 30 minutes). Drain and pat dry.",
+        "Cook rice in the rice cooker if necessary following its manual. Measure 1½ cups AFTER cooking.",
+        "Peel and dice half the mango; dice half the cucumber. Toss together with 1 tbsp lime juice and optional pepper flakes.",
+        "Heat 2 tsp olive oil over medium-high in a skillet. Add 250 g thawed raw shrimp in one layer. Cook about 2–3 minutes per side until opaque and firm, checking 74°C / 165°F in the centre.",
+        "Serve shrimp and mango-cucumber mix over hot rice. Add optional chopped cilantro."
       ],
-      "tip": "Frozen mango chunks can work too—thaw before serving.",
+      "tip": "If using PRECOOKED shrimp, heat them only 1–2 minutes instead of cooking again.",
       "nutrition": {
         "calories": 700,
         "protein_g": 64,
@@ -478,22 +504,26 @@
     "harissa": {
       "id": "harissa",
       "title": "Harissa chicken and chickpea tray bake",
-      "minutes": 25,
+      "minutes": 30,
       "servings": 1,
       "ingredients": [
-        "225 g chicken breast or thigh, diced",
-        "¾ cup drained chickpeas",
-        "2 cups sliced peppers and onion",
-        "1 tbsp harissa paste",
-        "2 tsp olive oil",
-        "½ lemon"
+        "225 g RAW chicken, cut into 2 cm cubes",
+        "¾ cup (180 mL) canned chickpeas, drained and rinsed",
+        "1 bell pepper, seeded and sliced",
+        "½ medium onion, sliced",
+        "1 tbsp (15 mL) harissa paste",
+        "2 tsp (10 mL) olive oil",
+        "½ lemon (about 1 tbsp juice)"
       ],
       "steps": [
-        "Heat oven or air fryer to 205°C/400°F.",
-        "Toss chicken, chickpeas and vegetables with harissa and oil. Roast, turning once, until chicken is cooked to 74°C/165°F.",
-        "Squeeze lemon over everything."
+        "Preheat oven to 205°C / 400°F. Optionally line a baking sheet with parchment.",
+        "Drain and rinse ¾ cup chickpeas. Slice one pepper and half an onion; use a separate cutting surface to cube raw chicken into 2 cm pieces.",
+        "Mix 1 tbsp harissa paste and 2 tsp olive oil in a bowl. Add chicken, chickpeas and vegetables; toss to coat.",
+        "Spread out on the tray without crowding. Roast at 205°C for 15 minutes, then turn pieces with a spatula.",
+        "Roast another 5–10 minutes until chicken is cooked through to 74°C / 165°F and vegetables are tender.",
+        "Squeeze half a lemon over the tray and serve. If harissa is very hot, use only ½ tbsp."
       ],
-      "tip": "Harissa is spicy and aromatic; start with less if unfamiliar.",
+      "tip": "Canned chickpeas are already cooked; roasting crisps them. Check the chicken's internal temperature.",
       "nutrition": {
         "calories": 645,
         "protein_g": 63,
@@ -505,22 +535,27 @@
     "tunabeans": {
       "id": "tunabeans",
       "title": "Tuna, white bean and potato salad",
-      "minutes": 12,
+      "minutes": 15,
       "servings": 1,
       "ingredients": [
-        "2 cans light tuna, drained",
-        "¾ cup white beans, drained",
-        "250 g baby potatoes",
-        "1 cup cherry tomatoes, halved",
-        "2 tsp olive oil",
-        "Lemon juice, parsley, garlic and pepper"
+        "2 cans light tuna (170 g each before draining), drained",
+        "¾ cup (180 mL) canned white beans, rinsed and drained",
+        "250 g baby potatoes, washed and halved",
+        "1 cup (250 mL) cherry tomatoes, halved",
+        "2 tsp (10 mL) olive oil",
+        "1 tbsp (15 mL) lemon juice",
+        "1 tbsp (15 mL) chopped fresh parsley",
+        "½ finely minced garlic clove (about ½ tsp)",
+        "Pinch of black pepper"
       ],
       "steps": [
-        "Microwave potatoes until tender; cool slightly.",
-        "Whisk oil, lemon and garlic.",
-        "Toss with tuna, beans, tomatoes and parsley."
+        "Wash and halve potatoes; put in a loosely covered microwave-safe dish with 2 tbsp water. Microwave on high 6–9 minutes, stirring halfway, until tender; cool 2 minutes.",
+        "Meanwhile drain both cans of tuna. Rinse and drain ¾ cup canned white beans.",
+        "Halve cherry tomatoes to make 1 cup. Finely mince ½ garlic clove and chop 1 tbsp fresh parsley.",
+        "Whisk 2 tsp olive oil, 1 tbsp lemon juice, minced garlic and black pepper in a small bowl.",
+        "Toss warm potatoes, beans, tomatoes, tuna and parsley with the dressing and serve."
       ],
-      "tip": "Capers or a teaspoon of Dijon make the dressing sharper.",
+      "tip": "Tuna and canned white beans are already cooked. Fresh parsley can be omitted.",
       "nutrition": {
         "calories": 740,
         "protein_g": 75,
@@ -532,23 +567,30 @@
     "koreanbeef": {
       "id": "koreanbeef",
       "title": "Korean-style sticky beef bowl",
-      "minutes": 15,
+      "minutes": 20,
       "servings": 1,
       "ingredients": [
-        "225 g lean beef strips",
-        "1½ cups cooked rice",
-        "2 cups frozen broccoli florets and fresh mushrooms",
-        "1 tbsp soy sauce",
-        "1 tsp brown sugar (or honey / maple syrup)",
-        "1 tsp sesame oil",
-        "Garlic, ginger and chili flakes"
+        "225 g RAW lean beef strips",
+        "1½ cups (375 mL) ALREADY COOKED rice",
+        "1 cup (250 mL) frozen broccoli florets",
+        "1 cup (250 mL) sliced fresh mushrooms",
+        "1 tbsp (15 mL) soy sauce",
+        "1 tsp (5 mL) honey or maple syrup instead of brown sugar",
+        "1 tsp (5 mL) sesame oil",
+        "1 minced garlic clove (about 1 tsp)",
+        "1 tsp grated fresh ginger",
+        "¼ tsp red pepper flakes (optional)",
+        "2 tbsp (30 mL) water"
       ],
       "steps": [
-        "Sear beef strips over high heat and remove when cooked.",
-        "Cook broccoli and mushrooms until tender-crisp.",
-        "Return beef; toss with soy, sugar, sesame oil, garlic and ginger. Serve over rice."
+        "Cook rice with your rice cooker if necessary; measure 1½ cups AFTER cooking.",
+        "Cut beef into thin strips if needed. Slice mushrooms, mince garlic and grate 1 tsp ginger.",
+        "Mix soy sauce, 1 tsp honey or maple syrup, sesame oil, garlic, ginger and optional pepper flakes in a bowl.",
+        "Heat a large non-stick skillet over medium-high. Sear beef strips, stirring 3–5 minutes until fully cooked (71°C / 160°F). Move beef onto a clean plate.",
+        "Add frozen broccoli, fresh mushrooms and 2 tbsp water to skillet. Cover over medium heat 4–6 minutes, stirring, until vegetables are hot and tender.",
+        "Return beef, pour in sauce and toss for 1–2 minutes over medium heat. Serve on hot rice."
       ],
-      "tip": "Optional sesame seeds and scallions add texture.",
+      "tip": "Use honey or maple syrup rather than buying brown sugar just for this dish.",
       "nutrition": {
         "calories": 840,
         "protein_g": 62,
@@ -560,22 +602,29 @@
     "tomatocurry": {
       "id": "tomatocurry",
       "title": "Tomato–coconut chicken curry",
-      "minutes": 20,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "250 g chicken breast or thigh, cubed",
-        "¾ cup canned crushed tomatoes",
-        "½ cup light coconut milk",
-        "2 cups baby spinach",
-        "1½ cups cooked basmati rice",
-        "Curry powder, garam masala, garlic and ginger"
+        "250 g RAW chicken, cut into 2 cm cubes",
+        "¾ cup (180 mL) canned crushed tomatoes",
+        "½ cup (125 mL) light coconut milk",
+        "2 cups (500 mL) baby spinach",
+        "1½ cups (375 mL) ALREADY COOKED basmati rice",
+        "1 tsp (5 mL) curry powder",
+        "½ tsp garam masala",
+        "1 minced garlic clove (about 1 tsp)",
+        "1 tsp grated fresh ginger",
+        "2 tbsp (30 mL) water if needed"
       ],
       "steps": [
-        "Sear seasoned chicken until browned.",
-        "Add tomato, coconut milk, garlic, ginger and spices; simmer until chicken reaches 74°C/165°F.",
-        "Stir in spinach and serve over rice."
+        "If necessary, cook basmati rice in your rice cooker per its manual; measure 1½ cups AFTER cooking.",
+        "Dice 250 g raw chicken into ~2 cm cubes on a poultry cutting board; mince garlic and grate 1 tsp ginger.",
+        "Heat a non-stick skillet over medium-high; stir-cook chicken for 3–4 minutes until lightly browned outside (it is not yet fully cooked).",
+        "Reduce heat to medium. Add 1 tsp curry powder, ½ tsp garam masala, minced garlic and ginger; stir 30 seconds.",
+        "Add ¾ cup crushed tomatoes and ½ cup light coconut milk. Add 2 tbsp water if too thick. Cover and simmer over medium-low 8–12 minutes, stirring, until chicken reaches 74°C / 165°F in the centre.",
+        "Stir in 2 cups spinach for 1–2 minutes until wilted; serve over hot rice."
       ],
-      "tip": "Toast the dry spices in the pan for 20 seconds before adding liquids.",
+      "tip": "Rice quantities are AFTER cooking. Previously opened coconut milk and tomatoes must have been safely refrigerated or frozen.",
       "nutrition": {
         "calories": 780,
         "protein_g": 64,
@@ -587,23 +636,28 @@
     "stickypork": {
       "id": "stickypork",
       "title": "Sticky sesame pork udon",
-      "minutes": 15,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "225 g lean pork strips",
-        "200 g plain ready-to-use udon noodles",
-        "2 cups frozen Asian-style stir-fry vegetable mix",
-        "1 tbsp soy sauce",
-        "1 tbsp sweet chili sauce",
-        "1 tsp sesame oil",
-        "Garlic and sesame seeds"
+        "225 g RAW lean pork strips",
+        "200 g plain READY-TO-USE UDON noodles (not soba or penne)",
+        "2 cups (500 mL) frozen Asian-style stir-fry vegetables",
+        "1 tbsp (15 mL) soy sauce",
+        "1 tbsp (15 mL) sweet chili sauce",
+        "1 tsp (5 mL) sesame oil",
+        "1 minced garlic clove (about 1 tsp)",
+        "1 tsp (5 mL) sesame seeds",
+        "2 tbsp (30 mL) water"
       ],
       "steps": [
-        "Sear pork in a hot skillet until cooked.",
-        "Add vegetables and cook until heated through.",
-        "Stir in noodles and sauces; toss until glossy, finish with sesame seeds."
+        "Use the correct 200 g READY-TO-USE UDON pack, NOT 3-minute soba. Check whether the specific udon package says to rinse, warm, or briefly boil.",
+        "Mince a garlic clove. Mix soy sauce, sweet chili sauce, sesame oil and 2 tbsp water in a small bowl.",
+        "Heat a large non-stick skillet over medium-high. Add 225 g raw pork strips; stir-cook 5–8 minutes until pork reaches 71°C / 160°F in the centre.",
+        "Add frozen Asian vegetables directly from freezer and minced garlic; cover and cook over medium heat 5–7 minutes, stirring halfway, until hot.",
+        "Add the 200 g prepared udon and sauce. Toss over medium heat 1–2 minutes until noodles and pork are uniformly hot.",
+        "Serve with 1 tsp sesame seeds sprinkled on top."
       ],
-      "tip": "Keep the pan hot so the vegetables don’t go soggy.",
+      "tip": "Soba = ginger beef; flat rice noodles = peanut chicken; udon = pork. Penne = meatball marinara.",
       "nutrition": {
         "calories": 750,
         "protein_g": 56,
