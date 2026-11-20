@@ -2,15 +2,15 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101923"><meta name="description" content="A simple, flavour-first, 14-day meal rotation with recipes, shopping lists and Wednesdays for protein shakes."><title>My 14-Day Meal Plan</title>
 <style>
 :root{color-scheme:dark;--bg:#101923;--panel:#192530;--panel2:#22313c;--line:#35454e;--text:#f6f4ec;--muted:#afbcc2;--mint:#a6dbb0;--gold:#f2c780;--red:#f39b8c;--radius:18px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0;line-height:1.5}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:2px}a{color:var(--mint)}.wrap{max-width:1080px;margin:auto;padding:0 20px}.top{position:sticky;top:0;z-index:10;background:rgba(16,25,35,.96);backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}.topin{display:flex;align-items:center;gap:16px;justify-content:space-between;min-height:72px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:800;letter-spacing:-.03em;font-size:19px}.brandmark{width:34px;height:34px;border-radius:11px;background:var(--mint);color:#13261e;display:grid;place-items:center;font-size:20px}.nav{display:flex;gap:5px;overflow:auto}.nav button,.utility button,.smallbtn{border:1px solid transparent;background:none;color:var(--muted);border-radius:11px;padding:9px 12px;font-weight:650}.nav button:hover,.nav button[aria-selected=true]{background:var(--panel2);color:var(--text)}.hero{padding:47px 0 28px;display:grid;grid-template-columns:1.25fr .75fr;gap:22px;align-items:end}.kicker{text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:800;color:var(--mint)}h1{font-size:clamp(35px,5.2vw,62px);line-height:1.07;letter-spacing:-.055em;margin:8px 0 14px}h2{letter-spacing:-.035em;font-size:28px;margin:0}h3{letter-spacing:-.025em}p{margin:0}.lead{color:var(--muted);max-width:580px;font-size:16px}.heroStat{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(120deg,#23372e,var(--panel));padding:22px;display:grid;gap:13px}.statRow{display:grid;grid-template-columns:1fr 1fr;gap:10px}.statRow span{display:block;color:var(--muted);font-size:12px}.statRow strong{display:block;font-size:19px;letter-spacing:-.025em}.statRow .full{grid-column:span 2}.controlbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:22px 0 17px}.seg{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px}.seg button{border:0;background:none;color:var(--muted);font-weight:750;padding:9px 18px;border-radius:10px}.seg button[aria-pressed=true]{background:var(--mint);color:#18261c}.utility{display:flex;gap:6px;flex-wrap:wrap}.utility button{border-color:var(--line);background:var(--panel);color:var(--text)}.days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}.day{border:1px solid var(--line);border-radius:14px;background:var(--panel);min-height:85px;color:var(--text);text-align:left;padding:12px 8px;transition:border-color .15s,background .15s}.day:hover{border-color:var(--mint)}.day[aria-pressed=true]{background:#274334;border-color:var(--mint)}.day small{display:block;color:var(--muted);font-size:12px}.day strong{display:block;font-size:15px;margin:2px 0}.day em{font-size:11px;font-style:normal;color:var(--mint)}.panel{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);padding:23px}.dayHeading{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin:27px 0 17px}.dayHeading p{color:var(--muted);font-size:14px;margin-top:5px}.pill{display:inline-flex;align-items:center;gap:5px;border:1px solid #597363;color:var(--mint);background:#21392b;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700;white-space:nowrap}.mealgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.mealcard{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);overflow:hidden}.mealcard header{padding:17px 20px 14px;background:#21313b}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.mealcard h3{font-size:23px;letter-spacing:-.035em;margin:4px 0 6px}.mealcard .details{font-size:13px;color:var(--muted)}.mealcard .content{padding:16px 20px 20px}.mealcard h4{margin:0 0 8px;font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--mint)}ul.ingredients{list-style:none;margin:0 0 19px;padding:0;display:grid;gap:8px}.ingredients li{position:relative;padding-left:18px;font-size:14px;color:#dfe7e7}.ingredients li::before{content:'•';position:absolute;left:2px;color:var(--gold)}.steps{margin:0;padding-left:23px;display:grid;gap:9px}.steps li{font-size:14px;padding-left:3px}.tip{border-left:3px solid var(--gold);padding:8px 12px;margin-top:15px;background:#2b3236;font-size:13px;color:#e1e6e0}.note{border:1px solid var(--line);border-radius:14px;background:#202c33;padding:16px;margin:16px 0;font-size:14px;color:#d2ddde}.note strong{color:var(--text)}.snackstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 38px}.minicard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}.minicard strong{font-size:14px}.minicard p{font-size:13px;color:var(--muted);margin-top:5px}.sectionhead{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;margin:25px 0 17px}.muted{color:var(--muted)}.listitem{display:flex;align-items:flex-start;gap:10px;cursor:pointer;padding:10px 9px;border-bottom:1px solid var(--line);font-size:14px}.listitem:last-child{border:0}.listitem input{accent-color:#8bc99a;width:17px;height:17px;margin-top:2px;flex-shrink:0}.listitem:has(input:checked) span{text-decoration:line-through;color:var(--muted)}.groceries{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.groceries h3{margin:0 0 12px}.grow{width:100%}.search{width:100%;padding:13px 15px;border:1px solid var(--line);border-radius:12px;background:#101b23;color:var(--text);margin:8px 0 14px}.recipeDirectory{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.recipeButton{border:1px solid var(--line);border-radius:12px;padding:15px;background:var(--panel);text-align:left;color:var(--text)}.recipeButton strong{display:block;font-size:15px}.recipeButton small{color:var(--muted)}.recipeButton:hover{border-color:var(--mint)}.recipeButton[aria-expanded=true]{border-color:var(--mint);background:#213a2e}.fullRecipe{margin-top:12px}.settings{display:grid;grid-template-columns:1fr 1fr;gap:14px}.settings textarea{width:100%;min-height:135px;background:var(--bg);color:var(--text);padding:12px;border:1px solid var(--line);border-radius:12px;resize:vertical}.footer{border-top:1px solid var(--line);margin-top:38px;padding:23px 0 45px;font-size:12px;color:var(--muted)}.hidden{display:none!important}.section{min-height:430px}.table{display:grid;grid-template-columns:1fr 1fr;gap:15px}.noteItem{font-size:13px;color:var(--muted);margin:7px 0}.accent{color:var(--mint)}.toast{position:fixed;bottom:22px;right:22px;background:var(--mint);padding:10px 16px;border-radius:12px;color:#13261e;font-weight:750;box-shadow:0 9px 32px #0007;z-index:20;opacity:0;pointer-events:none;transition:.2s}.toast.show{opacity:1}@media(max-width:760px){.topin{flex-wrap:wrap;padding:10px 0;gap:6px}.nav{width:100%;justify-content:space-between}.nav button{font-size:13px;padding:8px}.hero{grid-template-columns:1fr;padding-top:30px}.heroStat{padding:17px}.days{display:flex;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory}.day{min-width:95px;scroll-snap-align:start}.mealgrid,.snackstrip,.settings,.table,.groceries,.recipeDirectory{grid-template-columns:1fr}.dayHeading{align-items:start}.dayHeading h2{font-size:24px}.panel{padding:17px}}@media print{body{background:white;color:black}.top,.controlbar,.days,.utility,.footer,#shopping,#recipes,#settings,.snackstrip,.toast{display:none!important}.wrap{max-width:none}.hero{padding:0;display:block}.heroStat{display:none}.mealgrid{grid-template-columns:1fr 1fr}.mealcard,.panel{color:black;background:white;border-color:#bbb}.mealcard header{background:#f4f4f4;color:black}.mealcard h4,.eyebrow{color:#333}.mealcard .details,.ingredients li,.steps li,.tip,.lead,.dayHeading p{color:#333}.mealcard{break-inside:avoid}}
- .langseg{flex-shrink:0}.langseg button{padding:7px 11px;font-size:12px}.langseg button[aria-pressed=true]{background:var(--mint);color:#152219}@media(max-width:720px){.topin{gap:8px;flex-wrap:wrap;padding:10px 0}.nav{order:3;width:100%;justify-content:space-around}.nav button{padding:8px;font-size:12px}.langseg{margin-left:auto}} .nutrition{margin-top:13px;padding:10px 12px;border-radius:11px;background:#15252a;border:1px solid #40585c;display:flex;flex-wrap:wrap;align-items:center;gap:6px 15px}.nutrition-cal{display:flex;gap:8px;align-items:baseline}.nutrition-cal strong{font-size:18px;color:var(--mint);white-space:nowrap}.nutrition-cal small{font-size:11px;color:var(--muted)}.nutrition-macros{display:flex;flex-wrap:wrap;gap:7px 12px;font-size:12px;color:#e0e8e3}.nutrition-summary{flex:1 0 100%;padding-top:5px;border-top:1px solid #40585c;font-size:12px;color:var(--gold)}.recipeButton .macroPreview{display:block;font-size:12px;color:var(--mint);font-weight:600;margin-top:3px}#nutritionNotice{margin-top:-6px;margin-bottom:26px;font-size:12px;line-height:1.5;color:var(--muted)}.grocery-check{display:flex;align-items:flex-start;gap:10px;flex:1;min-width:0;cursor:pointer}.shop-links{display:flex;flex-wrap:wrap;align-items:center;gap:5px;justify-content:flex-end;max-width:45%}.shop-link{font-size:11px;color:var(--mint);text-decoration:none;border:1px solid #4b675a;border-radius:8px;padding:4px 7px;white-space:nowrap}.shop-link:hover{background:var(--panel2);text-decoration:underline}.listitem{align-items:center;justify-content:space-between}.grocery-check input{flex-shrink:0}@media(max-width:520px){.listitem{align-items:flex-start}.shop-links{max-width:42%}.shop-link{font-size:10px;padding:3px 5px}}.pantry-btn,.restore-btn{border:1px solid #597363;background:#203429;color:var(--mint);border-radius:8px;font-size:11px;font-weight:650;padding:5px 8px;white-space:nowrap;cursor:pointer}.pantry-btn:hover,.restore-btn:hover{background:#31533d}.pantry-inventory{margin:14px 0;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 16px}.pantry-inventory summary{cursor:pointer;font-weight:700;color:var(--mint)}.pantry-inventory p{font-size:12px;color:var(--muted);margin-top:6px}.pantry-entry{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:13px}.pantry-entry:last-child{border-bottom:0}.shop-links{max-width:52%}@media(max-width:520px){.shop-links{max-width:48%}.pantry-btn,.restore-btn{font-size:10px;padding:4px 6px}}</style></head><body><header class="top"><div class="wrap topin"><a href="#plan" class="brand"><span class="brandmark">✳</span> The 14-Day Rotation</a><nav class="nav" aria-label="Sections"><button data-nav="plan" aria-selected="true">📅 Plan</button><button data-nav="recipes">🍳 Recipes</button><button data-nav="shopping">🛒 Groceries</button><button data-nav="settings">⚙️ Notes</button></nav><div class="seg langseg" role="group" aria-label="Language / Langue"><button type="button" data-lang="en" aria-pressed="true" title="English">EN</button><button type="button" data-lang="fr" aria-pressed="false" title="Français">FR</button></div></div></header>
+ .langseg{flex-shrink:0}.langseg button{padding:7px 11px;font-size:12px}.langseg button[aria-pressed=true]{background:var(--mint);color:#152219}@media(max-width:720px){.topin{gap:8px;flex-wrap:wrap;padding:10px 0}.nav{order:3;width:100%;justify-content:space-around}.nav button{padding:8px;font-size:12px}.langseg{margin-left:auto}} .nutrition{margin-top:13px;padding:10px 12px;border-radius:11px;background:#15252a;border:1px solid #40585c;display:flex;flex-wrap:wrap;align-items:center;gap:6px 15px}.nutrition-cal{display:flex;gap:8px;align-items:baseline}.nutrition-cal strong{font-size:18px;color:var(--mint);white-space:nowrap}.nutrition-cal small{font-size:11px;color:var(--muted)}.nutrition-macros{display:flex;flex-wrap:wrap;gap:7px 12px;font-size:12px;color:#e0e8e3}.nutrition-summary{flex:1 0 100%;padding-top:5px;border-top:1px solid #40585c;font-size:12px;color:var(--gold)}.recipeButton .macroPreview{display:block;font-size:12px;color:var(--mint);font-weight:600;margin-top:3px}#nutritionNotice{margin-top:-6px;margin-bottom:26px;font-size:12px;line-height:1.5;color:var(--muted)}.grocery-check{display:flex;align-items:flex-start;gap:10px;flex:1;min-width:0;cursor:pointer}.shop-links{display:flex;flex-wrap:wrap;align-items:center;gap:5px;justify-content:flex-end;max-width:45%}.shop-link{font-size:11px;color:var(--mint);text-decoration:none;border:1px solid #4b675a;border-radius:8px;padding:4px 7px;white-space:nowrap}.shop-link:hover{background:var(--panel2);text-decoration:underline}.listitem{align-items:center;justify-content:space-between}.grocery-check input{flex-shrink:0}@media(max-width:520px){.listitem{align-items:flex-start}.shop-links{max-width:42%}.shop-link{font-size:10px;padding:3px 5px}}.pantry-btn,.restore-btn{border:1px solid #597363;background:#203429;color:var(--mint);border-radius:8px;font-size:11px;font-weight:650;padding:5px 8px;white-space:nowrap;cursor:pointer}.pantry-btn:hover,.restore-btn:hover{background:#31533d}.pantry-inventory{margin:14px 0;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 16px}.pantry-inventory summary{cursor:pointer;font-weight:700;color:var(--mint)}.pantry-inventory p{font-size:12px;color:var(--muted);margin-top:6px}.pantry-entry{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:13px}.pantry-entry:last-child{border-bottom:0}.shop-links{max-width:52%}@media(max-width:520px){.shop-links{max-width:48%}.pantry-btn,.restore-btn{font-size:10px;padding:4px 6px}}.smart-hint{display:block;font-size:11px;line-height:1.45;color:var(--muted);margin-top:5px;font-weight:400;text-decoration:none!important}.smart-title{margin:0 0 5px}.shopping-kicker{font-size:12px;color:var(--muted);margin:3px 0 13px}.grocery-summary{margin:12px 0 16px;font-size:13px;color:var(--mint);font-weight:650}</style></head><body><header class="top"><div class="wrap topin"><a href="#plan" class="brand"><span class="brandmark">✳</span> The 14-Day Rotation</a><nav class="nav" aria-label="Sections"><button data-nav="plan" aria-selected="true">📅 Plan</button><button data-nav="recipes">🍳 Recipes</button><button data-nav="shopping">🛒 Groceries</button><button data-nav="settings">⚙️ Notes</button></nav><div class="seg langseg" role="group" aria-label="Language / Langue"><button type="button" data-lang="en" aria-pressed="true" title="English">EN</button><button type="button" data-lang="fr" aria-pressed="false" title="Français">FR</button></div></div></header>
 <main class="wrap"><section class="hero"><div><div class="kicker">Simple to cook • Good to eat • Repeatable</div><h1>Food you'll actually<br><span class="accent">look forward to.</span></h1><p class="lead">A two-week meal rotation with real recipes, zero cheese, little bread or milk, your favourite weekend breakfasts, and a dedicated shake day every Wednesday.</p></div><aside class="heroStat" aria-label="Plan targets"><div class="statRow"><div><span>Regular-day target</span><strong>2,350–2,500</strong><span>kcal</span></div><div><span>Protein goal</span><strong>150–180 g</strong><span>on regular days</span></div><div class="full"><span>Wednesday</span><strong>~1,350 kcal · 3 shakes</strong></div></div></aside></section>
 <section id="plan" class="section"><div class="controlbar"><div class="seg" role="group" aria-label="Select week"><button data-week="0" aria-pressed="true">Week 1</button><button data-week="1" aria-pressed="false">Week 2</button></div><div class="utility"><button id="today">↗ Today</button><button id="copyDay">⧉ Copy this day</button><button onclick="window.print()">⎙ Print</button></div></div><div class="days" id="dayTabs"></div><div class="dayHeading"><div><div class="kicker" id="dayKicker">WEEK 1 · MONDAY</div><h2 id="dayTitle">Spicy & savoury</h2><p id="dayDescription"></p></div><span id="dayBadge" class="pill">2 meals</span></div><div id="mealGrid" class="mealgrid"></div><div id="dailyNote" class="note"></div><p id="nutritionNotice">Nutrition estimates are per portion; brands and cooking methods vary. Snacks, desserts and supplements are not included.</p><div class="sectionhead"><h2>Keep it flexible</h2></div><div class="snackstrip"><div class="minicard"><strong>Protein-rich snack</strong><p>Whey with water, fruit and almonds; or eggs, edamame and fruit. Adjust the amount to help reach the day's protein/calorie targets.</p></div><div class="minicard"><strong>Dessert stays</strong><p>Budget 150–200 kcal when you want something sweet. No ban on chocolate or ice cream.</p></div><div class="minicard"><strong>Morning routine</strong><p>If you take supplements, account for any calories. They don't replace a balanced diet.</p></div></div></section>
 <section id="recipes" class="section hidden"><div class="sectionhead"><div><div class="kicker">Browse all recipes</div><h2>Recipe library</h2></div><span class="muted" id="recipeCount"></span></div><input id="recipeSearch" class="search" type="search" placeholder="Search chicken, curry, noodles, quick meals..." aria-label="Search recipes"><div class="recipeDirectory" id="recipeDirectory"></div><div id="selectedRecipe"></div></section>
-<section id="shopping" class="section hidden"><div class="sectionhead"><div><div class="kicker">Tap to check off</div><h2>Weekly groceries</h2></div><div class="seg"><button data-shopweek="0" aria-pressed="true">Week 1</button><button data-shopweek="1" aria-pressed="false">Week 2</button></div></div><p class="muted" style="margin-bottom:15px">One product per checkbox, linked directly to Voilà when possible. Check package sizes and quantities before ordering. Rice and quinoa are already in your pantry.</p><div id="pantryNote" class="note"></div><p id="groceryCycleInfo" class="muted" style="font-size:12px;margin:-6px 0 14px"></p><div id="groceryGrid" class="groceries"></div><div id="stockedInventory"></div><p id="voilaDisclosure" class="muted" style="font-size:12px;margin-top:12px">Voilà links use example products without brand preference. If a product page fails, use “Copy name” and paste it into the search at <a href="https://voila.ca/" target="_blank" rel="noopener noreferrer">voila.ca</a>. Availability depends on your delivery area.</p><div class="utility" style="margin-top:18px"><button id="copyGroceries">⧉ Copy list</button><button id="clearGroceries">↺ Reset checks</button></div></section>
-<section id="settings" class="section hidden"><div class="sectionhead"><div><div class="kicker">Your plan, your adjustments</div><h2>Notes & sharing</h2></div></div><div class="settings"><div class="panel"><h3 style="margin-top:0">Recipe notes</h3><p class="muted" style="margin-bottom:12px;font-size:13px">Record swaps or meals you disliked. These notes stay in this browser, not automatically in ChatGPT.</p><textarea id="notes" placeholder="e.g. Loved the ginger beef, use extra lime in the shrimp curry..." aria-label="Personal meal notes"></textarea><p class="muted" style="font-size:12px;margin-top:8px">Automatically saved locally.</p></div><div class="panel"><h3 style="margin-top:0">Work with ChatGPT</h3><p class="muted" style="font-size:14px;margin-bottom:15px">For me to read the latest plan in another conversation, host <strong>index.html</strong> and <strong>plan.json</strong> at a URL and share the link. I can read the public JSON when asked, but I can't see private browser checkmarks and notes.</p><div class="utility"><button id="export">↓ Download plan.json</button><button id="copyForChat">⧉ Copy notes for ChatGPT</button></div></div></div><div class="panel" style="margin-top:15px"><h3 style="margin-top:0">Guidelines & assumptions</h3><div id="guidelines"></div></div></section></main><footer class="footer"><div class="wrap"><p>Version 1.5 · Personal planning tool · Nutrition values are estimates, not a medical prescription. Recipes are one serving unless marked otherwise.</p></div></footer><div id="toast" class="toast" aria-live="polite"></div>
+<section id="shopping" class="section hidden"><div class="sectionhead"><div><div class="kicker">Tap to check off</div><h2>Weekly groceries</h2></div><div class="seg"><button data-shopweek="0" aria-pressed="true">Week 1</button><button data-shopweek="1" aria-pressed="false">Week 2</button><button data-shopweek="2" aria-pressed="false">14 Days</button></div></div><p class="muted" style="margin-bottom:15px">Buy shelf-stable and frozen items once for 14 days, then pick up fresh items each week. Each product keeps its own checkbox and Voilà link. Rice and quinoa are already in your pantry.</p><div id="pantryNote" class="note"></div><div id="grocerySummary" class="grocery-summary"></div><p id="groceryCycleInfo" class="muted" style="font-size:12px;margin:-6px 0 14px"></p><div id="groceryGrid" class="groceries"></div><div id="stockedInventory"></div><p id="voilaDisclosure" class="muted" style="font-size:12px;margin-top:12px">Voilà links use example products without brand preference. If a product page fails, use “Copy name” and paste it into the search at <a href="https://voila.ca/" target="_blank" rel="noopener noreferrer">voila.ca</a>. Availability depends on your delivery area.</p><div class="utility" style="margin-top:18px"><button id="copyGroceries">⧉ Copy list</button><button id="clearGroceries">↺ Reset checks</button></div></section>
+<section id="settings" class="section hidden"><div class="sectionhead"><div><div class="kicker">Your plan, your adjustments</div><h2>Notes & sharing</h2></div></div><div class="settings"><div class="panel"><h3 style="margin-top:0">Recipe notes</h3><p class="muted" style="margin-bottom:12px;font-size:13px">Record swaps or meals you disliked. These notes stay in this browser, not automatically in ChatGPT.</p><textarea id="notes" placeholder="e.g. Loved the ginger beef, use extra lime in the shrimp curry..." aria-label="Personal meal notes"></textarea><p class="muted" style="font-size:12px;margin-top:8px">Automatically saved locally.</p></div><div class="panel"><h3 style="margin-top:0">Work with ChatGPT</h3><p class="muted" style="font-size:14px;margin-bottom:15px">For me to read the latest plan in another conversation, host <strong>index.html</strong> and <strong>plan.json</strong> at a URL and share the link. I can read the public JSON when asked, but I can't see private browser checkmarks and notes.</p><div class="utility"><button id="export">↓ Download plan.json</button><button id="copyForChat">⧉ Copy notes for ChatGPT</button></div></div></div><div class="panel" style="margin-top:15px"><h3 style="margin-top:0">Guidelines & assumptions</h3><div id="guidelines"></div></div></section></main><footer class="footer"><div class="wrap"><p>Version 1.6 · Personal planning tool · Nutrition values are estimates, not a medical prescription. Recipes are one serving unless marked otherwise.</p></div></footer><div id="toast" class="toast" aria-live="polite"></div>
 <script id="plan-data" type="application/json">{
   "title": "The 14-Day Rotation",
-  "version": "1.5 · November 2026",
+  "version": "1.6 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -763,7 +763,8 @@
     "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels.",
     "Per-meal calories and protein, carbohydrate, and fat are rough estimates from common food composition values and typical package labels; brand, raw/cooked weight, sauce and oil can change the result substantially.",
     "Rice and quinoa are stocked pantry items; rice portions in recipes refer to the cooked weight/volume, not dry rice or microwave pouches.",
-    "Voilà product links point to an example brand and size; check quantities and availability in your delivery area before ordering."
+    "Voilà product links point to an example brand and size; check quantities and availability in your delivery area before ordering.",
+    "The optimized 14-day shopping view lists shelf-stable and frozen items only once. Buy fresh produce and fresh meat by week, and freeze unused portions promptly. Quantities are estimates."
   ],
   "shopping": [
     {
@@ -1471,14 +1472,6 @@
           }
         },
         {
-          "id": "almondbutter",
-          "name": "Almond butter (365 g, optional instead of peanut butter)",
-          "voila": {
-            "url": "https://voila.ca/products/nuts-to-you-nut-butter-gluten-free-almond-butter-smooth-365-g/609375EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "oliveoil",
           "name": "Olive oil",
           "voila": {
@@ -1603,7 +1596,79 @@
       ]
     }
   ],
-  "shopping_note": "Rice and quinoa are already in your pantry. Use your rice cooker for any recipe calling for cooked rice. Reheat refrigerated rice thoroughly; refrigerate promptly after cooking."
+  "shopping_note": "Rice and quinoa are already in your pantry. Use your rice cooker for any recipe calling for cooked rice. Reheat refrigerated rice thoroughly; refrigerate promptly after cooking.",
+  "shopping_optimization": {
+    "buy_once_ids": [
+      "groundbeef",
+      "groundturkey",
+      "shrimp",
+      "tuna",
+      "meatballs",
+      "whey",
+      "onion",
+      "broccoli",
+      "greenbeans",
+      "potatoes",
+      "stirfryveg",
+      "pasta",
+      "noodles",
+      "oats",
+      "blackbeans",
+      "crushedtomatoes",
+      "corn",
+      "coconutmilk",
+      "peanutbutter",
+      "oliveoil",
+      "soysauce",
+      "sriracha",
+      "dijon",
+      "maple",
+      "paprika",
+      "cumin",
+      "chilipowder",
+      "currypaste",
+      "marinara",
+      "salsa",
+      "honey",
+      "sesameoil",
+      "vinegar",
+      "ricenoodles",
+      "udon",
+      "whitebeans",
+      "chickpeas",
+      "harissa",
+      "sweetchili",
+      "currypowder",
+      "garammasala",
+      "sesameseeds",
+      "hotsauce",
+      "berries"
+    ],
+    "hints": {
+      "groundbeef": "1 × 454 g package covers the 225 g meals in Weeks 1 and 2. Freeze half for Week 2.",
+      "groundturkey": "Recipe uses 600 g. If buying 450 g packs, get 2 and freeze any excess.",
+      "shrimp": "Two 340 g bags for the two 250 g shrimp meals. Keep the second bag frozen.",
+      "tuna": "4 cans total: 2 for each tuna meal.",
+      "meatballs": "One 680 g frozen bag; use about 220 g and keep the rest frozen.",
+      "whey": "9 scoops in total for six shakes across both Wednesdays; check how much you already have.",
+      "onion": "One 1.36 kg bag should cover both weeks; store cool and dry.",
+      "broccoli": "One 500 g bag should cover the two broccoli meals; check actual bag weight versus cup portions.",
+      "greenbeans": "One 750 g bag for the salmon meal; keep leftovers frozen.",
+      "potatoes": "One 2.27 kg bag covers about 1.2 kg across both weeks; store cool, dry and dark.",
+      "stirfryveg": "Allow approximately 4 cups total; 2 × 500 g bags is a convenient allowance.",
+      "oats": "180 g total for six shakes. One 1 kg bag lasts several rotations.",
+      "blackbeans": "About 2 × 540 mL cans across chili and the two bean bowls. Freeze the Week 2 portion after opening.",
+      "crushedtomatoes": "Week 1 needs 796 mL; Week 2 needs about ¾ cup. Buy a smaller second can if available, or freeze the extra from a second large can.",
+      "corn": "Only 1 cup total across both weeks; one 750 g bag lasts multiple rotations.",
+      "coconutmilk": "One 400 mL can is roughly enough for both curries (1½ cups total); freeze the Week 2 portion promptly.",
+      "peanutbutter": "Also works for Week 2's shakes; no need to buy almond butter.",
+      "berries": "Week 2 needs about 300 g for three berry shakes; one 600 g bag is more than enough.",
+      "pasta": "One 410 g penne package; the recipe needs 90 g.",
+      "noodles": "One 250 g soba package; the recipe needs 90 g.",
+      "ricenoodles": "One 300 g rice-noodle package; the recipe needs 90 g.",
+      "udon": "One 200 g package for the Week 2 pork dish."
+    }
+  }
 }</script><script>
 (()=>{'use strict';let P=JSON.parse(document.getElementById('plan-data').textContent);const P_EN=P;const $=id=>document.getElementById(id);const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));let week=0,day=0,shopWeek=0,section='plan';const dayNames=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];const getDay=()=>P.weeks[week][day];const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};const load=(k,d)=>{try{let v=localStorage.getItem(k);return v?JSON.parse(v):d}catch{return d}};let lang='en',FR=null;const tr=(en,fr)=>lang==='fr'?fr:en;const toast=msg=>{const el=$('toast');el.textContent=msg;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2100)};
 function showSection(name){section=name;document.querySelectorAll('.section').forEach(x=>x.classList.toggle('hidden',x.id!==name));document.querySelectorAll('[data-nav]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.nav===name)));if(location.hash.indexOf('w')<0)history.replaceState(null,'','#'+name)}
@@ -1645,14 +1710,14 @@ function currentShoppingWeek(){
  return ((Math.floor(dayIndexNow()/7)%2)+2)%2;
 }
 function weekCycle(w){
- return Math.max(0,Math.floor((dayIndexNow()-w*7)/14));
+ return Math.max(0,Math.floor(dayIndexNow()/14));
 }
 function groceryKey(w){
  return 'grocery-bought-v2-w'+w+'-cycle'+weekCycle(w);
 }
 function groceryResetLabel(w){
  const [year,month,date]=P_EN.anchor_monday.split('-').map(Number);
- const resetDate=new Date(Date.UTC(year,month-1,date+(weekCycle(w)+1)*14+w*7));
+ const resetDate=new Date(Date.UTC(year,month-1,date+(weekCycle(w)+1)*14));
  const formatted=new Intl.DateTimeFormat(lang==='fr'?'fr-CA':'en-CA',{weekday:'short',month:'short',day:'numeric',year:'numeric',timeZone:'UTC'}).format(resetDate);
  return tr('Purchased checkmarks reset on ','Les achats cochés seront réinitialisés le ')+formatted+'.';
 }
@@ -1678,31 +1743,97 @@ function loadGroceryChecks(w){
  save(key,result);
  return result;
 }
+
+const buyOnceIds=new Set(P_EN.shopping_optimization.buy_once_ids);
+function sharedGroceryKey(){return 'grocery-bought-once-v1-rotation'+weekCycle(0)}
+function loadSharedChecks(){
+ const key=sharedGroceryKey();
+ const existing=load(key,null);
+ if(existing&&typeof existing==='object')return existing;
+ const done={};
+ if(!load('grocery-bought-once-v1-migrated',false)){
+  for(let w=0;w<2;w++){
+   const old=loadGroceryChecks(w);
+   for(const id of buyOnceIds)if(old['item:'+id])done['item:'+id]=true;
+  }
+  save('grocery-bought-once-v1-migrated',true);
+ }
+ save(key,done);
+ return done;
+}
+function optimizedShoppingGroups(){
+ const shared=new Map(),fresh=[[],[]];
+ for(let w=0;w<2;w++){
+  for(const [catIndex,items] of Object.values(shopping[w]).entries()){
+   for(const entry of items){
+    if(buyOnceIds.has(entry.id)){
+     if(!shared.has(entry.id))shared.set(entry.id,{entry,week:w,shared:true,catIndex});
+    }else fresh[w].push({entry,week:w,shared:false,catIndex});
+   }
+  }
+ }
+ const all=[...shared.values()];
+ const bulkIds=new Set(['groundbeef','groundturkey','shrimp','meatballs','whey','onion','broccoli','greenbeans','potatoes','stirfryveg','corn','berries']);
+ return [
+ {title:tr('Buy once · Frozen & bulk','À acheter une fois · Surgelés et gros formats'),rows:all.filter(x=>bulkIds.has(x.entry.id))},
+ {title:tr('Buy once · Cans & pantry','À acheter une fois · Conserves et garde-manger'),rows:all.filter(x=>!bulkIds.has(x.entry.id)&&x.catIndex!==3)},
+ {title:tr('Buy once · Sauces & spices','À acheter une fois · Sauces et épices'),rows:all.filter(x=>!bulkIds.has(x.entry.id)&&x.catIndex===3)},
+ {title:tr('Week 1 · Fresh & weekly','Semaine 1 · Frais et achats hebdomadaires'),rows:fresh[0]},
+ {title:tr('Week 2 · Fresh & weekly','Semaine 2 · Frais et achats hebdomadaires'),rows:fresh[1]}
+ ];
+}
+function visibleShoppingGroups(){
+ if(shopWeek===2)return optimizedShoppingGroups();
+ return Object.entries(shopping[shopWeek]).map(([title,entries])=>({
+  title,rows:entries.map(entry=>({entry,week:shopWeek,shared:buyOnceIds.has(entry.id)}))
+ }));
+}
+function isShoppingChecked(row,sharedDone,weeklyDone){
+ const key='item:'+row.entry.id;
+ return row.shared?!!sharedDone[key]:!!weeklyDone[row.week][key];
+}
 function renderShopping(){
  document.querySelectorAll('[data-shopweek]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.shopweek===shopWeek)));
- const done=loadGroceryChecks(shopWeek);
+ const sharedDone=loadSharedChecks(),weeklyDone=[loadGroceryChecks(0),loadGroceryChecks(1)];
  $('pantryNote').innerHTML='<strong>'+tr('Already in your pantry:','Déjà dans ton garde-manger :')+'</strong> '+escapeHtml(P.shopping_note||'');
- $('groceryCycleInfo').textContent=groceryResetLabel(shopWeek)+' '+tr('“Have it” items remain saved until you restore them.','Les produits marqués « Déjà en stock » restent exclus jusqu’à ce que tu les réactives.');
- const categories=Object.entries(shopping[shopWeek]);
- const panels=categories.map(([cat,entries])=>{
-  const needed=entries.filter(entry=>!stocked[entry.id]);
-  if(!needed.length)return '';
-  return '<div class="panel"><h3>'+escapeHtml(cat)+'</h3>'+needed.map(entry=>{
-   const key='item:'+entry.id;
-   return '<div class="listitem"><label class="grocery-check"><input type="checkbox" data-check="'+escapeHtml(key)+'" '+(done[key]?'checked':'')+'><span>'+escapeHtml(entry.name)+'</span></label><div class="shop-links">'+voilaShopLink(entry)+'<button type="button" class="shop-link" data-copy-product="'+escapeHtml(entry.id)+'" title="'+tr('Copy product name for Voilà search','Copier le nom pour rechercher sur Voilà')+'">'+tr('Copy name','Copier')+'</button><button type="button" class="pantry-btn" data-stock="'+escapeHtml(entry.id)+'" title="'+tr('Keep this item off future grocery lists','Garder cet article hors des prochaines listes')+'">'+tr('Have it','Déjà en stock')+'</button></div></div>';
-  }).join('')+'</div>';
- }).filter(Boolean).join('');
- $('groceryGrid').innerHTML=panels||'<div class="note">'+tr('Everything on this week’s list is already in your pantry.','Tout ce qui figure sur cette semaine est déjà dans ton garde-manger.')+'</div>';
- const unique={};
+ const groups=visibleShoppingGroups();
+ const active=groups.map(group=>({...group,rows:group.rows.filter(row=>!stocked[row.entry.id])})).filter(group=>group.rows.length);
+ const unique=shopWeek===2?new Set(active.flatMap(g=>g.rows.map(r=>r.entry.id))).size:active.reduce((n,g)=>n+g.rows.length,0);
+ $('grocerySummary').textContent=shopWeek===2?
+  tr('14-day order: ','Commande de 14 jours : ')+unique+tr(' distinct products, separated by storage and freshness.',' produits distincts, classés selon leur conservation.'):'';
+ $('groceryCycleInfo').textContent=(shopWeek===2?
+  tr('The “buy once” items are shared across both weeks. ','Les achats « une seule fois » sont communs aux deux semaines. '):'')
+  +groceryResetLabel(shopWeek)+' '+tr('Use “Have it” for products that will last into future rotations.','Utilise « Déjà en stock » pour les produits qui dureront au-delà de cette rotation.');
+ $('groceryGrid').innerHTML=active.map(group=>
+  '<div class="panel"><h3 class="smart-title">'+escapeHtml(group.title)+'</h3><p class="shopping-kicker">'+group.rows.length+' '+tr('products','produits')+'</p>'+
+  group.rows.map(row=>{
+   const entry=row.entry,key='item:'+entry.id;
+   const hint=shopWeek===2?(P.shopping_optimization.hints[entry.id]||''):'';
+   return '<div class="listitem"><label class="grocery-check"><input type="checkbox" data-check="'+escapeHtml(key)+'" data-check-week="'+row.week+'" data-check-shared="'+(row.shared?'1':'0')+'" '+(isShoppingChecked(row,sharedDone,weeklyDone)?'checked':'')+'><span>'+escapeHtml(entry.name)+(hint?'<small class="smart-hint">'+escapeHtml(hint)+'</small>':'')+'</span></label><div class="shop-links">'+voilaShopLink(entry)+'<button type="button" class="shop-link" data-copy-product="'+escapeHtml(entry.id)+'" title="'+tr('Copy product name for Voilà search','Copier le nom pour rechercher sur Voilà')+'">'+tr('Copy name','Copier')+'</button><button type="button" class="pantry-btn" data-stock="'+escapeHtml(entry.id)+'" title="'+tr('Keep this item off future grocery lists','Garder cet article hors des prochaines listes')+'">'+tr('Have it','Déjà en stock')+'</button></div></div>';
+  }).join('')+'</div>').join('')||'<div class="note">'+tr('Everything here is already in your pantry.','Tous les articles sont déjà dans ton garde-manger.')+'</div>';
+ const pantry={};
  for(const weeks of shopping)for(const entries of Object.values(weeks))for(const entry of entries){
-  if(stocked[entry.id]&&!unique[entry.id])unique[entry.id]=entry;
+  if(stocked[entry.id]&&!pantry[entry.id])pantry[entry.id]=entry;
  }
- const saved=Object.values(unique);
+ const saved=Object.values(pantry);
  $('stockedInventory').innerHTML=saved.length?'<details class="pantry-inventory" id="pantryInventory" '+(pantryOpen?'open':'')+'><summary>'+tr('Already have / Pantry','Déjà en stock / Garde-manger')+' ('+saved.length+')</summary><p>'+tr('These items are hidden from both shopping weeks. Use “Need again” when you run out.','Ces produits sont masqués des deux semaines. Choisis « À racheter » quand tu n’en as plus.')+'</p>'+saved.map(entry=>'<div class="pantry-entry"><span>'+escapeHtml(entry.name)+'</span><button type="button" class="restore-btn" data-restore="'+escapeHtml(entry.id)+'">'+tr('Need again','À racheter')+'</button></div>').join('')+'</details>':'';
- document.querySelectorAll('[data-check]').forEach(el=>el.onchange=()=>{done[el.dataset.check]=el.checked;save(groceryKey(shopWeek),done)});
- document.querySelectorAll('[data-copy-product]').forEach(el=>el.onclick=async()=>{const entry=Object.values(shopping[shopWeek]).flat().find(x=>x.id===el.dataset.copyProduct);if(entry){await copy(entry.name);toast(tr('Copied: paste into Voilà search','Copié : colle le nom dans la recherche Voilà'))}});
+ document.querySelectorAll('[data-check]').forEach(el=>el.onchange=()=>{
+  const key=el.dataset.check,w=+el.dataset.checkWeek;
+  if(el.dataset.checkShared==='1'){sharedDone[key]=el.checked;save(sharedGroceryKey(),sharedDone)}
+  else{weeklyDone[w][key]=el.checked;save(groceryKey(w),weeklyDone[w])}
+ });
+ document.querySelectorAll('[data-copy-product]').forEach(el=>el.onclick=async()=>{
+  const entry=shopping.flatMap(w=>Object.values(w).flat()).find(x=>x.id===el.dataset.copyProduct);
+  if(entry){await copy(entry.name);toast(tr('Copied: paste into Voilà search','Copié : colle le nom dans la recherche Voilà'))}
+ });
  document.querySelectorAll('[data-stock]').forEach(el=>el.onclick=()=>{stocked[el.dataset.stock]=true;save('grocery-stocked-v1',stocked);renderShopping();toast(tr('Saved to pantry','Ajouté aux articles en stock'))});
- document.querySelectorAll('[data-restore]').forEach(el=>el.onclick=()=>{delete stocked[el.dataset.restore];save('grocery-stocked-v1',stocked);const done=loadGroceryChecks(shopWeek);delete done['item:'+el.dataset.restore];save(groceryKey(shopWeek),done);renderShopping();toast(tr('Returned to grocery list','Remis dans la liste d’épicerie'))});
+ document.querySelectorAll('[data-restore]').forEach(el=>el.onclick=()=>{
+  const id=el.dataset.restore;
+  delete stocked[id];save('grocery-stocked-v1',stocked);
+  delete sharedDone['item:'+id];save(sharedGroceryKey(),sharedDone);
+  for(let w=0;w<2;w++){delete weeklyDone[w]['item:'+id];save(groceryKey(w),weeklyDone[w])}
+  renderShopping();toast(tr('Returned to grocery list','Remis dans la liste d’épicerie'));
+ });
  const details=$('pantryInventory');if(details)details.ontoggle=()=>{pantryOpen=details.open};
 }
 
@@ -1743,6 +1874,16 @@ async function setLanguage(next){
  renderPlan();renderShopping();renderDirectory();
 }
 
-function init(){document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>setLanguage(b.dataset.lang));document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>{showSection(b.dataset.nav)});document.querySelectorAll('[data-week]').forEach(b=>b.onclick=()=>{week=+b.dataset.week;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});document.querySelectorAll('[data-shopweek]').forEach(b=>b.onclick=()=>{shopWeek=+b.dataset.shopweek;renderShopping()});$('today').onclick=jumpToday;$('recipeSearch').oninput=renderDirectory;$('copyDay').onclick=async()=>{const d=getDay();const ids=day===2?[d.dinner]:[d.lunch,d.dinner];const txt=`${tr('Week','Semaine')} ${week+1} ${d.day}: ${d.subtitle}\n\n`+ids.map(id=>{const r=P.recipes[id];return `${r.title}\n${tr('Ingredients','Ingrédients')}: ${r.ingredients.join('; ')}\n${tr('Method','Préparation')}: ${r.steps.join(' ')}`}).join('\n\n');await copy(txt);toast(tr('Day copied','Journée copiée'))};$('copyGroceries').onclick=async()=>{let s=`${tr('Week','Semaine')} ${shopWeek+1} ${tr('shopping list','liste d’épicerie')}\n\n`+Object.entries(shopping[shopWeek]).map(([k,v])=>`${k}\n${v.filter(x=>!stocked[x.id]).map(x=>'- '+x.name).join('\n')}`).join('\n\n');await copy(s);toast(tr('Shopping list copied','Liste d’épicerie copiée'))};$('clearGroceries').onclick=()=>{save(groceryKey(shopWeek),{});renderShopping();toast(tr('Checks cleared','Coches effacées'))};$('notes').value=load('notes','');$('notes').oninput=()=>save('notes',$('notes').value);$('copyForChat').onclick=async()=>{await copy(`${tr('My meal plan is the 14-day rotation version','Mon menu est la rotation de 14 jours, version')} ${P.version}. ${tr('Please update these personal notes and preferences:','Veuillez mettre à jour ces notes et préférences :')} \n${$('notes').value||tr('(none)','(aucune)')}\n${tr('Avoid','Éviter')}: ${P.background.avoid.join(', ')}. ${tr('Wednesday: protein shakes. Weekend: usual restaurant breakfast.','Mercredi : shakes protéinés. Week-end : déjeuner habituel au restaurant.')}`);toast(tr('Notes copied for ChatGPT','Notes copiées pour ChatGPT'))};$('export').onclick=()=>{const blob=new Blob([JSON.stringify({...P,personal_notes:$('notes').value},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-14-day-plan.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};$('guidelines').innerHTML=P.notes.map(s=>`<p class="noteItem">• ${escapeHtml(s)}</p>`).join('');shopWeek=currentShoppingWeek();const hash=location.hash.match(/^#w([12])d([1-7])$/);if(hash){week=+hash[1]-1;day=+hash[2]-1}else{let saved=load('selection',null);if(saved&&[0,1].includes(saved.week)&&saved.day>=0&&saved.day<=6){week=saved.week;day=saved.day}else{let start=new Date('2026-11-16T12:00:00'),now=new Date();let diff=Math.floor((new Date(now.getFullYear(),now.getMonth(),now.getDate(),12)-start)/86400000);week=((Math.floor(diff/7)%2)+2)%2;day=((diff%7)+7)%7}}renderPlan();renderShopping();renderDirectory();if(['shopping','recipes','settings'].includes(location.hash.slice(1)))showSection(location.hash.slice(1));setLanguage(load('meal-lang','en'));document.addEventListener('visibilitychange',()=>{if(!document.hidden&&section==='shopping')renderShopping()});window.addEventListener('focus',()=>{if(section==='shopping')renderShopping()})}
+function init(){document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>setLanguage(b.dataset.lang));document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>{showSection(b.dataset.nav)});document.querySelectorAll('[data-week]').forEach(b=>b.onclick=()=>{week=+b.dataset.week;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});document.querySelectorAll('[data-shopweek]').forEach(b=>b.onclick=()=>{shopWeek=+b.dataset.shopweek;save('shopping-view-v1',shopWeek);renderShopping()});$('today').onclick=jumpToday;$('recipeSearch').oninput=renderDirectory;$('copyDay').onclick=async()=>{const d=getDay();const ids=day===2?[d.dinner]:[d.lunch,d.dinner];const txt=`${tr('Week','Semaine')} ${week+1} ${d.day}: ${d.subtitle}\n\n`+ids.map(id=>{const r=P.recipes[id];return `${r.title}\n${tr('Ingredients','Ingrédients')}: ${r.ingredients.join('; ')}\n${tr('Method','Préparation')}: ${r.steps.join(' ')}`}).join('\n\n');await copy(txt);toast(tr('Day copied','Journée copiée'))};$('copyGroceries').onclick=async()=>{
+ const sharedDone=loadSharedChecks(),weeklyDone=[loadGroceryChecks(0),loadGroceryChecks(1)];
+ const groups=visibleShoppingGroups();
+ const label=shopWeek===2?tr('Optimized 14-day order','Commande optimisée de 14 jours'):tr('Week','Semaine')+' '+(shopWeek+1);
+ const content=groups.map(g=>{
+  const items=g.rows.filter(row=>!stocked[row.entry.id]&&!isShoppingChecked(row,sharedDone,weeklyDone));
+  return items.length?g.title+'\n'+items.map(row=>'- '+row.entry.name+(shopWeek===2&&P.shopping_optimization.hints[row.entry.id]?' — '+P.shopping_optimization.hints[row.entry.id]:'')).join('\n'):'';
+ }).filter(Boolean).join('\n\n');
+ await copy(label+'\n\n'+(content||tr('Nothing left to buy','Aucun achat restant')));
+ toast(tr('Shopping list copied','Liste d’épicerie copiée'))
+};$('clearGroceries').onclick=()=>{if(shopWeek===2){save(sharedGroceryKey(),{});save(groceryKey(0),{});save(groceryKey(1),{})}else{save(groceryKey(shopWeek),{});if(shopWeek<2){const shared=loadSharedChecks();const entries=Object.values(shopping[shopWeek]).flat();for(const entry of entries)if(buyOnceIds.has(entry.id))delete shared['item:'+entry.id];save(sharedGroceryKey(),shared)}}renderShopping();toast(tr('Checks cleared','Coches effacées'))};$('notes').value=load('notes','');$('notes').oninput=()=>save('notes',$('notes').value);$('copyForChat').onclick=async()=>{await copy(`${tr('My meal plan is the 14-day rotation version','Mon menu est la rotation de 14 jours, version')} ${P.version}. ${tr('Please update these personal notes and preferences:','Veuillez mettre à jour ces notes et préférences :')} \n${$('notes').value||tr('(none)','(aucune)')}\n${tr('Avoid','Éviter')}: ${P.background.avoid.join(', ')}. ${tr('Wednesday: protein shakes. Weekend: usual restaurant breakfast.','Mercredi : shakes protéinés. Week-end : déjeuner habituel au restaurant.')}`);toast(tr('Notes copied for ChatGPT','Notes copiées pour ChatGPT'))};$('export').onclick=()=>{const blob=new Blob([JSON.stringify({...P,personal_notes:$('notes').value},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-14-day-plan.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};$('guidelines').innerHTML=P.notes.map(s=>`<p class="noteItem">• ${escapeHtml(s)}</p>`).join('');shopWeek=load('shopping-view-v1',2);if(![0,1,2].includes(shopWeek))shopWeek=2;const hash=location.hash.match(/^#w([12])d([1-7])$/);if(hash){week=+hash[1]-1;day=+hash[2]-1}else{let saved=load('selection',null);if(saved&&[0,1].includes(saved.week)&&saved.day>=0&&saved.day<=6){week=saved.week;day=saved.day}else{let start=new Date('2026-11-16T12:00:00'),now=new Date();let diff=Math.floor((new Date(now.getFullYear(),now.getMonth(),now.getDate(),12)-start)/86400000);week=((Math.floor(diff/7)%2)+2)%2;day=((diff%7)+7)%7}}renderPlan();renderShopping();renderDirectory();if(['shopping','recipes','settings'].includes(location.hash.slice(1)))showSection(location.hash.slice(1));setLanguage(load('meal-lang','en'));document.addEventListener('visibilitychange',()=>{if(!document.hidden&&section==='shopping')renderShopping()});window.addEventListener('focus',()=>{if(section==='shopping')renderShopping()})}
 async function copy(str){try{await navigator.clipboard.writeText(str)}catch{let t=document.createElement('textarea');t.value=str;document.body.append(t);t.select();document.execCommand('copy');t.remove()}}init();})();
 </script></body></html>
