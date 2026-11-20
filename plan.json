@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "2.0 · November 2026",
+  "version": "2.1 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -46,7 +46,8 @@
         "carbs_g": 80,
         "fat_g": 18,
         "basis": "per_portion"
-      }
+      },
+      "before": "Rice must be cooked first (use rice cooker if needed). Tuna is canned and ready to eat."
     },
     "gingerbeef": {
       "id": "gingerbeef",
@@ -79,7 +80,8 @@
         "carbs_g": 88,
         "fat_g": 30,
         "basis": "per_portion"
-      }
+      },
+      "before": "Use SOBA noodles. Blue Dragon soba cook in 3 minutes; frozen broccoli needs no thawing."
     },
     "lemonpotato": {
       "id": "lemonpotato",
@@ -111,7 +113,8 @@
         "carbs_g": 65,
         "fat_g": 17,
         "basis": "per_portion"
-      }
+      },
+      "before": "Chicken must ALREADY BE COOKED; cooking raw chicken adds 6–10 minutes."
     },
     "fajitas": {
       "id": "fajitas",
@@ -146,7 +149,8 @@
         "carbs_g": 64,
         "fat_g": 15,
         "basis": "per_portion"
-      }
+      },
+      "before": "Cook rice first; make TWO chicken/pepper servings and refrigerate one for Thursday."
     },
     "fajitaleft": {
       "id": "fajitaleft",
@@ -174,7 +178,8 @@
         "carbs_g": 109,
         "fat_g": 15,
         "basis": "per_portion"
-      }
+      },
+      "before": "Uses already-cooked Tuesday fajita chicken plus cooked rice."
     },
     "salmon": {
       "id": "salmon",
@@ -206,7 +211,8 @@
         "carbs_g": 81,
         "fat_g": 38,
         "basis": "per_portion"
-      }
+      },
+      "before": "Use raw salmon; potatoes go in the oven BEFORE the fish."
     },
     "meatballs": {
       "id": "meatballs",
@@ -240,7 +246,8 @@
         "carbs_g": 88,
         "fat_g": 32,
         "basis": "per_portion"
-      }
+      },
+      "before": "Use FROZEN PRECOOKED meatballs and PENNE (not soba). Check meatball package."
     },
     "chili": {
       "id": "chili",
@@ -275,7 +282,8 @@
         "carbs_g": 45,
         "fat_g": 21,
         "basis": "per_portion"
-      }
+      },
+      "before": "600 g RAW ground turkey (two 450 g packs if needed); save one portion for Week 2."
     },
     "porkchop": {
       "id": "porkchop",
@@ -308,7 +316,8 @@
         "carbs_g": 80,
         "fat_g": 20,
         "basis": "per_portion"
-      }
+      },
+      "before": "Raw boneless pork chop and raw sweet potato. Oven and skillet are used separately."
     },
     "thaicurry": {
       "id": "thaicurry",
@@ -339,7 +348,8 @@
         "carbs_g": 100,
         "fat_g": 21,
         "basis": "per_portion"
-      }
+      },
+      "before": "Thaw RAW shrimp ahead of time; use already-cooked rice and frozen vegetables."
     },
     "chilipotato": {
       "id": "chilipotato",
@@ -367,7 +377,8 @@
         "carbs_g": 108,
         "fat_g": 22,
         "basis": "per_portion"
-      }
+      },
+      "before": "Thaw a cooked portion of chili from Week 1 in the refrigerator the night before."
     },
     "oregano": {
       "id": "oregano",
@@ -400,7 +411,8 @@
         "carbs_g": 82,
         "fat_g": 15,
         "basis": "per_portion"
-      }
+      },
+      "before": "Use RAW chicken and rice measured AFTER cooking."
     },
     "peanutnoodle": {
       "id": "peanutnoodle",
@@ -433,7 +445,8 @@
         "carbs_g": 95,
         "fat_g": 20,
         "basis": "per_portion"
-      }
+      },
+      "before": "Use FLAT RICE NOODLES, not soba or penne; follow their package."
     },
     "tacoskillet": {
       "id": "tacoskillet",
@@ -468,7 +481,8 @@
         "carbs_g": 108,
         "fat_g": 30,
         "basis": "per_portion"
-      }
+      },
+      "before": "Use RAW ground beef and already-cooked rice; corn goes in frozen."
     },
     "shrimpmango": {
       "id": "shrimpmango",
@@ -499,7 +513,8 @@
         "carbs_g": 86,
         "fat_g": 11,
         "basis": "per_portion"
-      }
+      },
+      "before": "Thaw RAW shrimp in the refrigerator ahead of time; use already-cooked rice."
     },
     "harissa": {
       "id": "harissa",
@@ -530,7 +545,8 @@
         "carbs_g": 55,
         "fat_g": 19,
         "basis": "per_portion"
-      }
+      },
+      "before": "Uses RAW chicken and canned, already-cooked chickpeas."
     },
     "tunabeans": {
       "id": "tunabeans",
@@ -562,7 +578,8 @@
         "carbs_g": 83,
         "fat_g": 12,
         "basis": "per_portion"
-      }
+      },
+      "before": "Tuna and white beans are ready to eat from cans; potatoes must be cooked."
     },
     "koreanbeef": {
       "id": "koreanbeef",
@@ -597,7 +614,8 @@
         "carbs_g": 85,
         "fat_g": 28,
         "basis": "per_portion"
-      }
+      },
+      "before": "RAW beef strips and already-cooked rice; broccoli goes in frozen."
     },
     "tomatocurry": {
       "id": "tomatocurry",
@@ -631,7 +649,8 @@
         "carbs_g": 86,
         "fat_g": 20,
         "basis": "per_portion"
-      }
+      },
+      "before": "RAW chicken and already-cooked basmati rice; cook rice beforehand if necessary."
     },
     "stickypork": {
       "id": "stickypork",
@@ -664,7 +683,8 @@
         "carbs_g": 86,
         "fat_g": 20,
         "basis": "per_portion"
-      }
+      },
+      "before": "Use READY-TO-USE UDON (200 g), not soba, penne or flat rice noodles."
     },
     "restaurant": {
       "id": "restaurant",
@@ -705,7 +725,8 @@
           65
         ],
         "basis": "per_portion"
-      }
+      },
+      "before": "Restaurant meal. No home cooking or grocery purchase required."
     },
     "shakechoc": {
       "id": "shakechoc",
@@ -735,7 +756,8 @@
         "carbs_g": 43,
         "fat_g": 12,
         "basis": "per_shake"
-      }
+      },
+      "before": "Each ingredient amount is for ONE shake. Repeat THREE times on Wednesday."
     },
     "shakeberry": {
       "id": "shakeberry",
@@ -765,7 +787,8 @@
         "carbs_g": 40,
         "fat_g": 13,
         "basis": "per_shake"
-      }
+      },
+      "before": "Each ingredient amount is for ONE shake. Repeat THREE times on Wednesday."
     }
   },
   "weeks": [
