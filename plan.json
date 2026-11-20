@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "1.7 · November 2026",
+  "version": "1.8 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -299,7 +299,7 @@
         "1 frozen portion of homemade turkey chili",
         "350 g russet potato",
         "2 tbsp chopped onion",
-        "Hot sauce and green onion"
+        "Hot sauce and green onion (optional)"
       ],
       "steps": [
         "Pierce potato and microwave until tender, turning once.",
@@ -408,7 +408,7 @@
         "½ mango, diced",
         "½ cucumber, diced",
         "2 tsp olive oil",
-        "Lime, chili flakes and cilantro"
+        "Lime, chili flakes and fresh cilantro (optional)"
       ],
       "steps": [
         "Sear thawed shrimp in oil until opaque and cooked through.",
@@ -488,7 +488,7 @@
         "1½ cups cooked rice",
         "2 cups frozen broccoli florets and fresh mushrooms",
         "1 tbsp soy sauce",
-        "1 tsp brown sugar",
+        "1 tsp brown sugar (or honey / maple syrup)",
         "1 tsp sesame oil",
         "Garlic, ginger and chili flakes"
       ],
@@ -607,11 +607,11 @@
       "minutes": 5,
       "servings": 3,
       "ingredients": [
-        "PER SHAKE: 1½ scoops chocolate whey",
+        "PER SHAKE: 1½ scoops whey (chocolate preferred, other flavors work)",
         "30 g rolled oats",
         "1 tbsp peanut butter",
         "½ banana",
-        "Unsweetened cocoa, water and ice"
+        "Unsweetened cocoa (optional if using whey (chocolate preferred, other flavors work)), water and ice"
       ],
       "steps": [
         "Blend oats with water first for a smoother drink.",
@@ -633,11 +633,11 @@
       "minutes": 5,
       "servings": 3,
       "ingredients": [
-        "PER SHAKE: 1½ scoops vanilla whey",
+        "PER SHAKE: 1½ scoops whey (vanilla preferred, other flavors work)",
         "30 g rolled oats",
         "1 tbsp peanut butter",
         "100 g frozen berries",
-        "Cinnamon, water and ice"
+        "Cinnamon (optional), water and ice"
       ],
       "steps": [
         "Blend oats with water first.",
@@ -777,7 +777,7 @@
         },
         {
           "id": "groundturkey",
-          "name": "Lean ground turkey (~600 g)",
+          "name": "Lean ground turkey (600 g needed; 2 × 450 g packs if necessary)",
           "voila": {
             "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
             "type": "product"
@@ -1180,6 +1180,22 @@
             "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
             "type": "category"
           }
+        },
+        {
+          "id": "oregano",
+          "name": "Dried oregano (or use dried basil)"
+        },
+        {
+          "id": "cocoa",
+          "name": "Unsweetened cocoa powder (optional with chocolate whey)"
+        },
+        {
+          "id": "salt",
+          "name": "Salt (check pantry)"
+        },
+        {
+          "id": "blackpepper",
+          "name": "Ground black pepper (check pantry)"
         }
       ]
     },
@@ -1394,6 +1410,14 @@
             "url": "https://voila.ca/products/parsley-italian-1-bunch/868246EA",
             "type": "product"
           }
+        },
+        {
+          "id": "greenonion",
+          "name": "Green onions (optional for chili potato)"
+        },
+        {
+          "id": "cilantro",
+          "name": "Fresh cilantro (optional garnish)"
         }
       ],
       "Beans & staples": [
@@ -1598,6 +1622,26 @@
             "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
             "type": "category"
           }
+        },
+        {
+          "id": "oregano",
+          "name": "Dried oregano (or use dried basil)"
+        },
+        {
+          "id": "cinnamon",
+          "name": "Ground cinnamon (optional)"
+        },
+        {
+          "id": "brownsugar",
+          "name": "Brown sugar (or use maple syrup / honey)"
+        },
+        {
+          "id": "salt",
+          "name": "Salt (check pantry)"
+        },
+        {
+          "id": "blackpepper",
+          "name": "Ground black pepper (check pantry)"
         }
       ]
     }
@@ -1650,7 +1694,13 @@
       "hotsauce",
       "berries",
       "redpepperflakes",
-      "driedbasil"
+      "driedbasil",
+      "oregano",
+      "cocoa",
+      "cinnamon",
+      "brownsugar",
+      "salt",
+      "blackpepper"
     ],
     "hints": {
       "groundbeef": "1 × 454 g package covers the 225 g meals in Weeks 1 and 2. Freeze half for Week 2.",
@@ -1676,7 +1726,13 @@
       "ricenoodles": "One 300 g rice-noodle package; the recipe needs 90 g.",
       "udon": "One 200 g package for the Week 2 pork dish.",
       "redpepperflakes": "About ¼ tsp for meatball pasta; a small bag lasts several rotations.",
-      "driedbasil": "About 1 tsp for meatball pasta; a small bag lasts several rotations."
+      "driedbasil": "About 1 tsp for meatball pasta; a small bag lasts several rotations.",
+      "oregano": "For lemon chicken and chicken-potato bowl. If absent, dried basil or an Italian herb blend works.",
+      "cocoa": "For Week 1 chocolate-banana shakes; optional if your whey is already chocolate-flavored.",
+      "cinnamon": "Only for Week 2 berry shakes; omit if you don't have any.",
+      "brownsugar": "Week 2 Korean beef needs 1 tsp; maple syrup or honey works instead.",
+      "salt": "For seasoning to taste; only buy if you're out.",
+      "blackpepper": "For seasoning to taste; only buy if you're out."
     }
   }
 }
