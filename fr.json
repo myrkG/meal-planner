@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "1.9 · novembre 2026",
+  "version": "2.0 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -672,16 +672,17 @@
       "minutes": 0,
       "servings": 1,
       "ingredients": [
-        "2 œufs",
-        "2 saucisses",
-        "2 tranches de pain de seigle",
-        "Une généreuse portion de pommes de terre déjeuner"
+        "2 œufs (commandés au restaurant)",
+        "2 saucisses (commandées au restaurant)",
+        "2 tranches de pain de seigle (au restaurant)",
+        "1 portion de pommes de terre déjeuner (au restaurant)"
       ],
       "steps": [
-        "Profiter du déjeuner habituel du samedi et du dimanche.",
-        "Pour planifier, compter environ 850 à 1 100 kcal; les recettes et portions varient selon le restaurant."
+        "Cette entrée correspond à ton déjeuner habituel du samedi et du dimanche AU RESTAURANT. Tu n’as rien à acheter ni à cuisiner à la maison pour ce repas.",
+        "Commander 2 œufs, 2 saucisses, 2 tranches de pain de seigle et une portion de pommes de terre déjeuner.",
+        "Pour la planification seulement, l’estimation de 850 à 1 100 kcal est approximative; les portions et le mode de cuisson varient selon le restaurant."
       ],
-      "tip": "Ce repas reste volontairement inchangé. Pas besoin de retirer le pain de seigle.",
+      "tip": "Repas pris au restaurant : aucun ingrédient de cette fiche ne doit être ajouté à l’épicerie pour la maison.",
       "nutrition": {
         "calories": 1000,
         "protein_g": 40,
@@ -712,18 +713,22 @@
       "minutes": 5,
       "servings": 3,
       "ingredients": [
-        "PAR SHAKE : 1½ mesure de whey (chocolat recommandé, autre saveur possible)",
-        "30 g de flocons d’avoine",
-        "1 c. à soupe de beurre d’arachides",
-        "½ banane",
-        "Cacao non sucré (facultatif si la whey est au chocolat), eau et glaçons"
+        "PAR SHAKE (à préparer 3 fois dans la journée) : 1½ mesure de whey, idéalement au chocolat",
+        "30 g de flocons d’avoine (peser secs)",
+        "1 c. à soupe (15 ml) de beurre d’arachides",
+        "½ banane, pelée",
+        "1 c. à thé (5 ml) de cacao non sucré (facultatif si la whey est chocolat)",
+        "300 ml d’eau froide",
+        "4 à 6 glaçons, facultatifs"
       ],
       "steps": [
-        "Mixer d’abord l’avoine avec l’eau pour un breuvage plus lisse.",
-        "Ajouter le reste des ingrédients et bien mixer.",
-        "Préparer trois shakes répartis au cours de la journée de mercredi."
+        "Cette recette donne UN shake. Le mercredi, répéter exactement la recette 3 fois pour faire 3 shakes au total. Pour la journée complète, prévoir 4½ mesures de whey, 90 g d’avoine, 3 c. à soupe de beurre d’arachides et 1½ banane.",
+        "Mettre dans le mélangeur 300 ml d’eau froide et 30 g de flocons d’avoine secs. Mixer 15 à 20 secondes pour briser l’avoine.",
+        "Ajouter 1½ mesure de whey, 1 c. à soupe de beurre d’arachides, ½ banane et, si désiré, 1 c. à thé de cacao. Ajouter 4 à 6 glaçons si tu veux un shake plus froid.",
+        "Fermer le couvercle. Mixer environ 30 à 45 secondes, jusqu’à ce que la préparation soit homogène. Si c’est trop épais, ajouter 50 ml d’eau et mixer encore 10 secondes.",
+        "Boire le shake, puis en préparer un autre plus tard dans la journée avec les mêmes quantités, jusqu’à un total de trois. Ne pas laisser un shake contenant des ingrédients périssables à température ambiante pendant des heures."
       ],
-      "tip": "Au total, trois shakes fournissent environ 1 250 à 1 450 kcal et 125 à 150 g de protéines, selon la whey. Vérifier l’étiquette.",
+      "tip": "Si ta whey est à la vanille plutôt qu’au chocolat, le shake fonctionne : ajoute alors 1 c. à thé de cacao pour la saveur chocolat. Les calories/protéines réelles dépendent de la marque et de la masse d’une mesure.",
       "nutrition": {
         "calories": 455,
         "protein_g": 44,
@@ -738,18 +743,22 @@
       "minutes": 5,
       "servings": 3,
       "ingredients": [
-        "PAR SHAKE : 1½ mesure de whey (vanille recommandée, autre saveur possible)",
-        "30 g de flocons d’avoine",
-        "1 c. à soupe de beurre d’arachides",
-        "100 g de petits fruits surgelés",
-        "Cannelle (facultative), eau et glaçons"
+        "PAR SHAKE (à préparer 3 fois dans la journée) : 1½ mesure de whey, idéalement à la vanille",
+        "30 g de flocons d’avoine secs",
+        "1 c. à soupe (15 ml) de beurre d’arachides",
+        "100 g de petits fruits surgelés (directement du congélateur)",
+        "¼ c. à thé de cannelle moulue (facultatif)",
+        "300 ml d’eau froide",
+        "4 glaçons, facultatifs"
       ],
       "steps": [
-        "Mixer d’abord l’avoine avec l’eau.",
-        "Ajouter whey, beurre de noix, petits fruits et glaçons; mixer jusqu’à consistance crémeuse.",
-        "Préparer trois shakes répartis au cours de la journée de mercredi."
+        "Cette recette donne UN shake. Répéter trois fois le mercredi. Pour la journée complète, prévoir 4½ mesures de whey, 90 g d’avoine, 3 c. à soupe de beurre d’arachides et 300 g de petits fruits surgelés.",
+        "Mettre 300 ml d’eau froide et 30 g de flocons d’avoine secs dans le mélangeur. Mixer 15 à 20 secondes.",
+        "Ajouter 1½ mesure de whey, 1 c. à soupe de beurre d’arachides, 100 g de petits fruits encore congelés et, si désiré, ¼ c. à thé de cannelle. Ajouter des glaçons seulement si tu le souhaites.",
+        "Fermer le couvercle. Mixer environ 45 à 60 secondes. Si les fruits sont encore en gros morceaux, arrêter, mélanger avec une cuillère (mélangeur éteint), puis mixer à nouveau 15 secondes.",
+        "Si le shake est trop épais, ajouter 50 ml d’eau et mixer 10 secondes. Boire immédiatement; préparer les autres shakes au moment voulu plutôt que les laisser au chaud."
       ],
-      "tip": "Les shakes de whey seuls ne constituent pas un substitut de repas complet sur le plan nutritionnel à long terme.",
+      "tip": "Le beurre d’arachides remplace le beurre d’amandes : rien d’autre à acheter. Les fruits restent congelés jusqu’au moment de mixer; la cannelle est facultative.",
       "nutrition": {
         "calories": 450,
         "protein_g": 44,
@@ -1796,7 +1805,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 1.9 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      ".footer p": "Version 2.0 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
       "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
