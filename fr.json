@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "1.5 · novembre 2026",
+  "version": "1.6 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -1461,14 +1461,6 @@
           }
         },
         {
-          "id": "almondbutter",
-          "name": "Beurre d’amandes (365 g, facultatif, au lieu du beurre d’arachides)",
-          "voila": {
-            "url": "https://voila.ca/products/nuts-to-you-nut-butter-gluten-free-almond-butter-smooth-365-g/609375EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "oliveoil",
           "name": "Huile d’olive",
           "voila": {
@@ -1622,10 +1614,10 @@
       "#recipes .sectionhead .kicker": "Toutes les recettes",
       "#recipes .sectionhead h2": "Bibliothèque de recettes",
       "#shopping .sectionhead .kicker": "Cocher au fur et à mesure",
-      "#shopping .sectionhead h2": "Épicerie de la semaine",
+      "#shopping .sectionhead h2": "Épicerie optimisée",
       "button[data-shopweek=\"0\"]": "Semaine 1",
       "button[data-shopweek=\"1\"]": "Semaine 2",
-      "#shopping > p.muted": "Un article par case à cocher, avec son propre lien Voilà quand un produit précis est disponible. Vérifie les formats et les quantités avant de commander. Le riz et le quinoa sont déjà dans ton garde-manger.",
+      "#shopping > p.muted": "Une liste pour 14 jours qui regroupe les achats durables et surgelés, puis les produits frais de chaque semaine. Chaque produit conserve sa propre case et son lien Voilà. Le riz et le quinoa sont déjà en réserve.",
       "#copyGroceries": "⧉ Copier la liste",
       "#clearGroceries": "↺ Effacer les coches",
       "#settings .sectionhead .kicker": "Ton menu, tes ajustements",
@@ -1638,12 +1630,84 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 1.5 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
+      ".footer p": "Version 1.6 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire."
     },
     "placeholders": {
       "#recipeSearch": "Chercher poulet, cari, nouilles, recettes rapides…",
       "#notes": "Ex. : J’ai aimé le bœuf au gingembre; ajouter plus de lime au cari de crevettes…"
     }
   },
-  "shopping_note": "Tu as déjà du riz et du quinoa. Utilise ton cuiseur à riz pour les recettes qui demandent du riz cuit. Réchauffe bien le riz réfrigéré et mets les restes au frigo rapidement."
+  "shopping_note": "Tu as déjà du riz et du quinoa. Utilise ton cuiseur à riz pour les recettes qui demandent du riz cuit. Réchauffe bien le riz réfrigéré et mets les restes au frigo rapidement.",
+  "shopping_optimization": {
+    "buy_once_ids": [
+      "groundbeef",
+      "groundturkey",
+      "shrimp",
+      "tuna",
+      "meatballs",
+      "whey",
+      "onion",
+      "broccoli",
+      "greenbeans",
+      "potatoes",
+      "stirfryveg",
+      "pasta",
+      "noodles",
+      "oats",
+      "blackbeans",
+      "crushedtomatoes",
+      "corn",
+      "coconutmilk",
+      "peanutbutter",
+      "oliveoil",
+      "soysauce",
+      "sriracha",
+      "dijon",
+      "maple",
+      "paprika",
+      "cumin",
+      "chilipowder",
+      "currypaste",
+      "marinara",
+      "salsa",
+      "honey",
+      "sesameoil",
+      "vinegar",
+      "ricenoodles",
+      "udon",
+      "whitebeans",
+      "chickpeas",
+      "harissa",
+      "sweetchili",
+      "currypowder",
+      "garammasala",
+      "sesameseeds",
+      "hotsauce",
+      "berries"
+    ],
+    "hints": {
+      "groundbeef": "Un paquet de 454 g couvre les repas de 225 g des semaines 1 et 2. Congeler la moitié pour la semaine 2.",
+      "groundturkey": "La recette demande 600 g. Avec les paquets de 450 g, en acheter 2 et congeler le surplus.",
+      "shrimp": "Deux sacs de 340 g pour les deux recettes de 250 g. Garder le second sac congelé.",
+      "tuna": "4 boîtes au total : 2 pour chaque recette au thon.",
+      "meatballs": "Un sac de 680 g; utiliser environ 220 g et conserver le reste au congélateur.",
+      "whey": "9 mesures pour les six shakes des deux mercredis; vérifier la quantité déjà en stock.",
+      "onion": "Un sac de 1,36 kg devrait suffire pour les deux semaines. Conserver au frais et au sec.",
+      "broccoli": "Un sac de 500 g devrait couvrir les deux repas; vérifier le poids réel selon les portions en tasses.",
+      "greenbeans": "Un sac de 750 g pour le saumon; garder le reste au congélateur.",
+      "potatoes": "Un sac de 2,27 kg couvre environ 1,2 kg pour les deux semaines. Garder au frais, au sec et à l'obscurité.",
+      "stirfryveg": "Prévoir environ 4 tasses au total; 2 sacs de 500 g constituent une quantité pratique.",
+      "oats": "180 g au total pour six shakes. Un sac de 1 kg durera plusieurs rotations.",
+      "blackbeans": "Environ 2 boîtes de 540 ml pour le chili et les deux bols. Congeler la portion de la semaine 2 après ouverture.",
+      "crushedtomatoes": "796 ml pour la semaine 1 et environ ¾ tasse pour la semaine 2. Choisir une petite deuxième boîte, ou congeler le surplus d'une grosse boîte.",
+      "corn": "Une tasse au total sur deux semaines. Un sac de 750 g durera plusieurs rotations.",
+      "coconutmilk": "Une boîte de 400 ml suffit approximativement aux deux caris (1½ tasse au total); congeler rapidement la portion de la semaine 2.",
+      "peanutbutter": "Convient aussi aux shakes de la semaine 2; inutile d'acheter du beurre d'amandes.",
+      "berries": "Environ 300 g pour les trois shakes aux fruits de la semaine 2; un sac de 600 g suffit amplement.",
+      "pasta": "Un paquet de penne de 410 g; la recette demande 90 g.",
+      "noodles": "Un paquet de soba de 250 g; la recette demande 90 g.",
+      "ricenoodles": "Un paquet de nouilles de riz de 300 g; la recette demande 90 g.",
+      "udon": "Un paquet de 200 g pour le porc de la semaine 2."
+    }
+  }
 }
