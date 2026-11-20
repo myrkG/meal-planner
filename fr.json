@@ -21,22 +21,25 @@
     "tuna": {
       "id": "tuna",
       "title": "Bol de riz au thon épicé et à l’avocat",
-      "minutes": 5,
+      "minutes": 10,
       "servings": 1,
       "ingredients": [
-        "2 boîtes de thon pâle, égoutté (environ 220 à 240 g)",
-        "1½ tasse de riz cuit (cuiseur à riz)",
-        "½ avocat, en dés",
-        "½ concombre, en dés",
-        "1 c. à thé de sauce soya + jus de lime",
-        "Sriracha, au goût"
+        "2 boîtes de thon pâle (170 g chacune avant égouttage; égoutter les 2 boîtes)",
+        "1½ tasse (375 ml) de riz déjà cuit",
+        "½ avocat, coupé en dés",
+        "½ concombre, coupé en dés",
+        "1 c. à thé (5 ml) de sauce soya",
+        "1 c. à soupe (15 ml) de jus de lime",
+        "½ c. à thé de sriracha (facultatif)"
       ],
       "steps": [
-        "Utiliser du riz déjà cuit (le réchauffer au besoin) et égoutter le thon.",
-        "Mélanger la sauce soya, la lime et la sriracha, puis enrober le thon.",
-        "Déposer le thon, l’avocat et le concombre sur le riz; arroser de sauce."
+        "Si le riz n’est pas déjà cuit, le préparer dans le cuiseur à riz selon son manuel; prévoir plus de temps. Mesurer 1½ tasse une fois cuit. Si le riz vient du réfrigérateur, le réchauffer jusqu’à ce qu’il soit bien chaud.",
+        "Ouvrir les 2 boîtes de thon et les égoutter dans une passoire. Couper ½ concombre en petits dés; couper ½ avocat en dés juste avant de servir.",
+        "Dans un bol, mélanger 1 c. à thé de sauce soya, 1 c. à soupe de jus de lime et, si désiré, ½ c. à thé de sriracha.",
+        "Ajouter le thon à cette sauce et mélanger avec une fourchette pendant 20 secondes.",
+        "Verser le riz chaud dans une assiette creuse, puis ajouter le thon, l’avocat et le concombre. Servir immédiatement."
       ],
-      "tip": "Pour du croquant, ajouter un peu d’huile de chili croustillante; mesurer la quantité au-delà d’une cuillère à thé.",
+      "tip": "Si tu n’as pas de sriracha, omets-la. Aucun poisson cru à cuire : le thon en conserve est déjà cuit.",
       "nutrition": {
         "calories": 760,
         "protein_g": 70,
@@ -48,23 +51,28 @@
     "gingerbeef": {
       "id": "gingerbeef",
       "title": "Nouilles au bœuf collant, gingembre et ail",
-      "minutes": 15,
+      "minutes": 20,
       "servings": 1,
       "ingredients": [
-        "225 g de bœuf haché maigre",
-        "90 g de nouilles soba sèches (blé et sarrasin)",
-        "2 tasses de brocoli en fleurons surgelé",
-        "2 c. à soupe de sauce soya réduite en sodium",
-        "1 c. à thé de miel",
-        "1 c. à thé d’huile de sésame",
-        "Ail et gingembre râpé"
+        "225 g de bœuf haché maigre cru",
+        "90 g de nouilles soba sèches Blue Dragon (et NON des penne)",
+        "2 tasses (500 ml) de brocoli en fleurons surgelé",
+        "2 c. à soupe (30 ml) de sauce soya réduite en sodium",
+        "1 c. à thé (5 ml) de miel",
+        "1 c. à thé (5 ml) d’huile de sésame",
+        "1 gousse d’ail, hachée (environ 1 c. à thé)",
+        "1 c. à thé de gingembre frais râpé",
+        "2 c. à soupe (30 ml) d’eau"
       ],
       "steps": [
-        "Cuire les nouilles selon l’emballage.",
-        "Faire dorer le bœuf dans une poêle; ajouter le brocoli et cuire jusqu’à ce qu’il soit chaud.",
-        "Mélanger sauce soya, miel, huile de sésame, ail et gingembre; verser dans la poêle et mélanger avec les nouilles."
+        "Sortir le bœuf et le brocoli. Hacher 1 gousse d’ail et râper assez de gingembre pour obtenir 1 c. à thé. Le brocoli surgelé va directement dans la poêle : ne pas le décongeler.",
+        "Dans un petit bol, mélanger 2 c. à soupe de sauce soya, 1 c. à thé de miel, 1 c. à thé d’huile de sésame, l’ail, le gingembre et 2 c. à soupe d’eau. Réserver.",
+        "Chauffer une grande poêle à feu moyen-vif. Ajouter les 225 g de bœuf haché. Le défaire à la spatule pendant 5 à 7 minutes, jusqu’à cuisson complète (71 °C au centre). Égoutter l’excès de gras au besoin.",
+        "Ajouter 2 tasses de brocoli congelé et 2 c. à soupe d’eau dans la poêle. Couvrir 4 à 6 minutes à feu moyen, en remuant à mi-cuisson, jusqu’à ce que le brocoli soit bien chaud.",
+        "Pendant ce temps, faire bouillir de l’eau dans une casserole. Ajouter 90 g de nouilles SOBA et cuire 3 minutes selon l’emballage Blue Dragon (ou suivre ton paquet s’il diffère). Égoutter aussitôt. Ne pas appliquer le temps de cuisson des penne.",
+        "Verser la sauce préparée dans la poêle avec le bœuf et le brocoli. Remuer 1 minute à feu moyen, puis ajouter les soba égouttées. Mélanger 30 secondes et servir."
       ],
-      "tip": "Un trait de vinaigre de riz ou de lime rehausse la sauce.",
+      "tip": "Ce sont les soba pour cette recette, pas les penne de la recette des boulettes. Si ton sachet indique 3 minutes, c’est bien 3 minutes.",
       "nutrition": {
         "calories": 880,
         "protein_g": 65,
@@ -76,22 +84,27 @@
     "lemonpotato": {
       "id": "lemonpotato",
       "title": "Bol de poulet et pommes de terre au citron",
-      "minutes": 12,
+      "minutes": 15,
       "servings": 1,
       "ingredients": [
-        "225 g de poitrine ou de haut de cuisse de poulet cuit",
-        "300 g de petites pommes de terre",
-        "1 tasse de tomates et de concombre hachés",
-        "2 c. à thé d’huile d’olive",
-        "1 c. à thé de moutarde de Dijon",
-        "Jus de citron, origan, sel et poivre"
+        "225 g de poulet DÉJÀ CUIT (poitrine ou haut de cuisse)",
+        "300 g de petites pommes de terre, lavées et coupées en deux",
+        "½ tasse (125 ml) de tomates en dés",
+        "½ tasse (125 ml) de concombre en dés",
+        "2 c. à thé (10 ml) d’huile d’olive",
+        "1 c. à thé (5 ml) de moutarde de Dijon",
+        "1 c. à soupe (15 ml) de jus de citron",
+        "¼ c. à thé d’origan séché",
+        "1 pincée de sel et 1 pincée de poivre"
       ],
       "steps": [
-        "Cuire les pommes de terre coupées en deux au micro-ondes jusqu’à tendreté, environ 7 à 9 min.",
-        "Réchauffer le poulet cuit, si désiré.",
-        "Fouetter l’huile d’olive, la moutarde, le citron et l’origan; mélanger le tout."
+        "Vérifier que les 225 g de poulet sont DÉJÀ CUITS. Si tu as seulement du poulet cru, le couper en lanières et le cuire à feu moyen-vif dans une poêle environ 6 à 10 minutes, jusqu’à 74 °C au centre; cette cuisson s’ajoute au temps indiqué.",
+        "Laver les pommes de terre, les couper en deux et les placer dans un plat allant au micro-ondes avec 2 c. à soupe d’eau. Couvrir sans fermer hermétiquement; cuire 7 à 9 minutes à puissance élevée. Remuer à mi-cuisson; une fourchette doit y entrer facilement.",
+        "Couper la tomate et le concombre pour obtenir ½ tasse de chacun. Couper le poulet déjà cuit en morceaux d’environ 2 cm.",
+        "Dans un petit bol, mélanger 2 c. à thé d’huile d’olive, 1 c. à thé de Dijon, 1 c. à soupe de citron, ¼ c. à thé d’origan, une pincée de sel et une pincée de poivre.",
+        "Réchauffer le poulet cuit 1 à 2 minutes à la poêle à feu moyen ou au micro-ondes jusqu’à ce qu’il soit bien chaud. Mélanger pommes de terre, poulet et légumes avec la vinaigrette, puis servir."
       ],
-      "tip": "Utiliser des lanières de poulet déjà cuites ou du poulet rôti pour réduire la préparation au minimum.",
+      "tip": "Le temps de 15 minutes suppose du poulet déjà cuit. Une poitrine crue doit d’abord être cuite complètement (74 °C).",
       "nutrition": {
         "calories": 725,
         "protein_g": 77,
@@ -103,23 +116,30 @@
     "fajitas": {
       "id": "fajitas",
       "title": "Bols de riz au poulet façon fajitas fumées",
-      "minutes": 20,
+      "minutes": 30,
       "servings": 2,
       "ingredients": [
-        "450 g de lanières de poulet crues (pour 2 portions)",
-        "2 poivrons, en lanières",
-        "1 oignon, émincé",
-        "2 tasses de riz cuit (pour 2 portions)",
-        "1 c. à soupe d’huile d’olive",
-        "2 c. à thé de paprika fumé + 1 c. à thé de cumin",
-        "Jus de lime et salsa"
+        "450 g de poulet CRU, coupé en lanières (2 portions)",
+        "2 poivrons, épépinés et coupés en lanières",
+        "1 oignon moyen, pelé et coupé en lanières",
+        "2 tasses (500 ml) de riz DÉJÀ CUIT, pour les 2 portions",
+        "1 c. à soupe (15 ml) d’huile d’olive",
+        "2 c. à thé de paprika fumé",
+        "1 c. à thé de cumin moulu",
+        "1 pincée de sel et de poivre",
+        "2 c. à soupe (30 ml) de salsa",
+        "1 c. à soupe (15 ml) de jus de lime"
       ],
       "steps": [
-        "Assaisonner le poulet de paprika fumé, de cumin, de sel et de poivre.",
-        "Saisir le poulet dans l’huile jusqu’à 74 °C (165 °F) à cœur. Ajouter poivrons et oignon; cuire en gardant un peu de croquant.",
-        "Servir la moitié sur du riz avec salsa et lime. Réfrigérer rapidement le reste pour le dîner de jeudi."
+        "Si le riz n’est pas prêt, commencer par le cuiseur à riz et suivre ses instructions. Il faut 2 tasses de riz APRÈS cuisson pour les deux portions.",
+        "Couper 450 g de poulet cru en lanières d’environ 1 à 2 cm; laver et couper 2 poivrons et 1 oignon en lanières. Séparer la planche du poulet cru de celle des légumes.",
+        "Dans un bol, enrober le poulet avec 2 c. à thé de paprika fumé, 1 c. à thé de cumin, sel et poivre.",
+        "Chauffer une grande poêle à feu moyen-vif 1 minute. Ajouter 1 c. à soupe d’huile, puis le poulet. Cuire environ 5 à 8 minutes en retournant, jusqu’à ce que les morceaux atteignent 74 °C au centre.",
+        "Ajouter les poivrons et l’oignon à la même poêle. Cuire 5 à 7 minutes en remuant, jusqu’à ce que les légumes soient tendres mais encore un peu croquants.",
+        "Répartir le poulet et les légumes en 2 portions égales. Servir 1 portion sur 1 tasse de riz cuit, avec environ 1 c. à soupe de salsa et un peu de lime.",
+        "Mettre RAPIDEMENT la deuxième portion de poulet et légumes au réfrigérateur dans un contenant fermé : c’est le dîner de jeudi. Prévoir 1 tasse de riz cuit frais ou conservé correctement pour jeudi."
       ],
-      "tip": "Augmenter les légumes si la faim persiste; la deuxième portion simplifie le repas de jeudi.",
+      "tip": "Préparer deux portions de poulet et poivrons, mais une seule est mangée mardi. Conserver rapidement la seconde au frigo pour jeudi (environ 48 h).",
       "nutrition": {
         "calories": 610,
         "protein_g": 54,
@@ -131,20 +151,23 @@
     "fajitaleft": {
       "id": "fajitaleft",
       "title": "Bol de fajitas aux haricots noirs",
-      "minutes": 5,
+      "minutes": 12,
       "servings": 1,
       "ingredients": [
-        "1 portion de poulet et de poivrons façon fajitas de mardi",
-        "1 tasse de riz cuit",
-        "¾ tasse de haricots noirs en conserve, égouttés",
-        "½ tasse de maïs sucré en grains entiers surgelé",
-        "Salsa et lime fraîche"
+        "1 portion de poulet et poivrons DÉJÀ CUITS, conservée depuis mardi",
+        "1 tasse (250 ml) de riz cuit",
+        "¾ tasse (180 ml) de haricots noirs en conserve, rincés et égouttés",
+        "½ tasse (125 ml) de maïs en grains surgelé",
+        "1 c. à soupe (15 ml) de salsa",
+        "1 c. à thé (5 ml) de jus de lime"
       ],
       "steps": [
-        "Réchauffer le riz déjà cuit, le poulet restant, les haricots et le maïs surgelé jusqu’à ce que le tout soit bien chaud.",
-        "Ajouter la salsa et le jus de lime."
+        "Sortir du réfrigérateur la portion de poulet et poivrons cuits mardi. Elle doit avoir été réfrigérée rapidement et conservée au froid depuis. Si elle a été laissée à température ambiante longtemps, ne pas l’utiliser.",
+        "Ouvrir la boîte de haricots noirs, rincer sous l’eau et mesurer ¾ tasse. Mesurer ½ tasse de maïs surgelé, sans le décongeler.",
+        "Mettre dans une poêle à feu moyen : le poulet et poivrons, 1 tasse de riz cuit, les haricots, le maïs et 2 c. à soupe (30 ml) d’eau. Couvrir 5 à 7 minutes en remuant deux fois, jusqu’à ce que tout soit très chaud (74 °C pour les restes).",
+        "Verser dans un bol, ajouter 1 c. à soupe de salsa et 1 c. à thé de jus de lime. Manger immédiatement."
       ],
-      "tip": "Réfrigérer rapidement le poulet cuit et l’utiliser dans les 3 à 4 jours.",
+      "tip": "Ne jamais laisser du riz cuit hors du réfrigérateur longtemps. Cette recette utilise les RESTES de fajitas du mardi, pas du poulet cru.",
       "nutrition": {
         "calories": 830,
         "protein_g": 65,
@@ -156,23 +179,27 @@
     "salmon": {
       "id": "salmon",
       "title": "Saumon érable-Dijon et pommes de terre",
-      "minutes": 25,
+      "minutes": 35,
       "servings": 1,
       "ingredients": [
-        "225 g de filet de saumon",
-        "300 g de petites pommes de terre, coupées en deux",
-        "2 tasses de haricots verts coupés surgelés",
-        "2 c. à thé d’huile d’olive",
-        "1 c. à soupe de moutarde de Dijon",
-        "2 c. à thé de sirop d’érable",
-        "Citron et poivre noir"
+        "225 g de filet de saumon cru",
+        "300 g de petites pommes de terre, lavées et coupées en deux",
+        "2 tasses (500 ml) de haricots verts coupés surgelés",
+        "2 c. à thé (10 ml) d’huile d’olive",
+        "1 c. à soupe (15 ml) de moutarde de Dijon",
+        "2 c. à thé (10 ml) de sirop d’érable",
+        "1 c. à soupe (15 ml) de jus de citron",
+        "¼ c. à thé de poivre noir"
       ],
       "steps": [
-        "Préchauffer le four ou la friteuse à air à 200 °C (400 °F). Mélanger les pommes de terre avec l’huile et les épices; commencer leur cuisson.",
-        "Mélanger la moutarde et le sirop d’érable, badigeonner le saumon et cuire jusqu’à cuisson complète (environ 10 à 14 min selon l’épaisseur).",
-        "Cuire les haricots verts à la vapeur et terminer avec du citron."
+        "Préchauffer le four à 200 °C (400 °F). Laver et couper 300 g de petites pommes de terre en deux. Les déposer sur une plaque avec 2 c. à thé d’huile et le poivre; mélanger.",
+        "Enfourner les pommes de terre 15 minutes. Remuer avec une spatule. Elles auront besoin d’environ 25 à 35 minutes au total selon leur grosseur; elles sont prêtes quand une fourchette entre facilement.",
+        "Pendant ce temps, mélanger dans un petit bol 1 c. à soupe de Dijon et 2 c. à thé de sirop d’érable. Éponger le filet de saumon et badigeonner le dessus avec ce mélange.",
+        "Après les 15 premières minutes des pommes de terre, mettre le saumon sur une autre petite plaque, au four à 200 °C, environ 10 à 15 minutes selon l’épaisseur. Vérifier le centre avec un thermomètre : viser 70 °C pour le poisson.",
+        "Vers la fin, verser 2 tasses de haricots verts encore surgelés dans une casserole avec un fond d’eau. Couvrir et chauffer à feu moyen environ 5 à 8 minutes, en remuant, jusqu’à ce qu’ils soient bien chauds. Égoutter.",
+        "Servir saumon, pommes de terre et haricots; répartir 1 c. à soupe de jus de citron sur le tout."
       ],
-      "tip": "Pour moins de vaisselle, utiliser une plaque tapissée de papier parchemin ou d’aluminium.",
+      "tip": "Four : les pommes de terre commencent avant le saumon. Si tu cuisines à la friteuse à air, utiliser son mode d’emploi et vérifier la cuisson séparément.",
       "nutrition": {
         "calories": 880,
         "protein_g": 54,
@@ -187,26 +214,26 @@
       "minutes": 30,
       "servings": 1,
       "ingredients": [
-        "220 g de boulettes de bœuf ou de dinde surgelées, déjà cuites (vérifier sur le sac)",
-        "90 g de penne rigate sèches",
+        "220 g de boulettes de bœuf ou de dinde SURGELÉES ET DÉJÀ CUITES (vérifier sur le sac)",
+        "90 g de pâtes PENNE RIGATE sèches (pas les soba)",
         "¾ tasse (180 ml) de sauce marinara",
-        "2 tasses de jeunes épinards",
+        "2 tasses (500 ml) de jeunes épinards",
         "1 c. à thé (5 ml) d’huile d’olive",
-        "1 gousse d’ail moyenne, hachée finement (environ 1 c. à thé d’ail haché)",
+        "1 gousse moyenne d’ail, hachée (environ 1 c. à thé)",
         "1 c. à thé de basilic séché",
-        "¼ c. à thé de flocons de piment (facultatif, au goût)",
-        "2 c. à soupe (30 ml) d’eau, au besoin si la sauce est épaisse"
+        "¼ c. à thé de flocons de piment (facultatif)",
+        "2 c. à soupe (30 ml) d’eau, si la sauce est trop épaisse"
       ],
       "steps": [
-        "Regarder le sac de boulettes : cette méthode convient aux boulettes SURGELÉES ET DÉJÀ CUITES. Pas besoin de les décongeler. Si elles sont crues, les cuire complètement selon les instructions de l’emballage avant de les ajouter à la sauce.",
-        "Hacher finement 1 gousse d’ail. Mettre une poêle assez grande sur feu moyen. Ajouter 1 c. à thé d’huile d’olive, puis l’ail. Remuer environ 30 secondes sans laisser brunir.",
-        "Verser ¾ tasse (180 ml) de sauce marinara dans la poêle. Ajouter 2 c. à soupe d’eau si la sauce semble trop épaisse. Déposer les 220 g de boulettes encore congelées dans la sauce.",
-        "Couvrir avec un couvercle et baisser à feu moyen-doux. Laisser mijoter doucement environ 15 à 20 minutes, en remuant toutes les 5 minutes. Les boulettes doivent être très chaudes jusqu’au centre (viser 74 °C); prolonger au besoin.",
-        "Pendant que les boulettes mijotent, porter une casserole d’eau à ébullition. Ajouter les 90 g de penne et cuire pendant le temps écrit sur le paquet (habituellement 9 à 12 minutes). Égoutter dans une passoire.",
-        "Quand les boulettes sont bien chaudes, ajouter 2 tasses d’épinards, 1 c. à thé de basilic séché et, si désiré, ¼ c. à thé de flocons de piment. Mélanger et cuire encore 1 à 2 minutes, jusqu’à ce que les épinards ramollissent.",
-        "Ajouter les penne égouttées dans la poêle. Bien mélanger pendant 30 secondes pour les enrober de sauce, puis servir."
+        "Vérifier sur le sac que les boulettes sont DÉJÀ CUITES. Si oui, les utiliser encore congelées sans les décongeler; si elles sont CRUES, les cuire complètement selon le sac avant de poursuivre.",
+        "Hacher finement 1 gousse moyenne d’ail. Chauffer une grande poêle à feu moyen, ajouter 1 c. à thé d’huile d’olive et l’ail. Remuer 30 secondes sans brunir.",
+        "Ajouter ¾ tasse de sauce marinara et, si elle est très épaisse, 2 c. à soupe d’eau. Ajouter les 220 g de boulettes déjà cuites, encore congelées. Couvrir.",
+        "Baisser à feu moyen-doux et laisser mijoter 15 à 20 minutes, en remuant environ toutes les 5 minutes, jusqu’à ce que le centre des boulettes soit bien chaud (74 °C pour réchauffer). Suivre le sac si ses instructions diffèrent.",
+        "Pendant ce temps, faire bouillir une casserole d’eau. Y verser 90 g de PENNE, pas de soba. Cuire selon le temps écrit sur le paquet de PENNE, puis égoutter.",
+        "Ajouter aux boulettes chaudes 2 tasses d’épinards, 1 c. à thé de basilic et, si désiré, ¼ c. à thé de flocons de piment. Remuer 1 à 2 minutes à feu moyen-doux pour ramollir les épinards.",
+        "Ajouter les penne égouttées dans la poêle, mélanger 30 secondes pour les enrober de sauce et servir."
       ],
-      "tip": "Quantité d’ail : 1 gousse moyenne, soit environ 1 c. à thé une fois hachée. Si tu n’as pas d’ail frais, utilise plutôt ¼ c. à thé d’ail en poudre. Les boulettes Compliments Équilibre peuvent être réchauffées directement congelées; si le sac indique des instructions différentes, suis celles du fabricant.",
+      "tip": "PENNE pour la marinara; SOBA pour le bœuf au gingembre. Les temps de cuisson diffèrent : toujours lire le BON emballage.",
       "nutrition": {
         "calories": 875,
         "protein_g": 58,
@@ -218,23 +245,30 @@
     "chili": {
       "id": "chili",
       "title": "Chili fumé de dinde et haricots noirs",
-      "minutes": 25,
+      "minutes": 35,
       "servings": 3,
       "ingredients": [
-        "600 g de dinde hachée maigre",
-        "1 grosse boîte de tomates broyées (796 ml)",
-        "1 boîte de haricots noirs, égouttés",
-        "1 oignon, haché",
-        "1 poivron, haché",
-        "1 c. à soupe d’huile",
-        "Poudre de chili, cumin, paprika fumé et sel"
+        "600 g de dinde hachée maigre CRUE (si le paquet fait 450 g, il en faut 2)",
+        "1 boîte (796 ml) de tomates broyées",
+        "1 boîte (540 ml) de haricots noirs, rincés et égouttés",
+        "1 oignon moyen, pelé et haché (environ 1 tasse)",
+        "1 poivron, épépiné et coupé en dés",
+        "1 c. à soupe (15 ml) d’huile d’olive",
+        "2 c. à thé de poudre de chili",
+        "1 c. à thé de cumin moulu",
+        "1 c. à thé de paprika fumé",
+        "¼ c. à thé de sel (ou au goût)"
       ],
       "steps": [
-        "Dans une casserole, attendrir l’oignon et le poivron dans l’huile; bien faire dorer la dinde.",
-        "Ajouter tomates, haricots et épices. Laisser mijoter 15 min en remuant de temps en temps.",
-        "Manger une portion; refroidir et congeler au moins une portion supplémentaire pour lundi prochain."
+        "Vérifier le poids de la dinde : la recette demande 600 g CRUS. Si tu n’as qu’un paquet de 450 g, la recette fonctionne aussi, mais les portions contiendront moins de viande et de protéines.",
+        "Éplucher et couper l’oignon en dés; épépiner et couper le poivron en dés. Ouvrir la boîte de haricots noirs, égoutter et rincer.",
+        "Mettre une grande casserole sur feu moyen-vif. Ajouter 1 c. à soupe d’huile, l’oignon et le poivron. Remuer 4 à 5 minutes, jusqu’à ce que l’oignon commence à ramollir.",
+        "Ajouter 600 g de dinde hachée. La défaire avec une cuillère pendant 6 à 8 minutes, jusqu’à ce qu’elle soit entièrement cuite (74 °C au centre).",
+        "Ajouter la boîte entière de tomates broyées, les haricots, 2 c. à thé de poudre de chili, 1 c. à thé de cumin, 1 c. à thé de paprika et ¼ c. à thé de sel. Mélanger.",
+        "Réduire à feu moyen-doux. Laisser mijoter à découvert 15 minutes, en remuant aux 4 à 5 minutes. Si le mélange épaissit trop, ajouter 2 à 4 c. à soupe d’eau.",
+        "Répartir en 3 portions à peu près égales. Manger une portion vendredi; refroidir rapidement les autres dans des contenants peu profonds. Congeler au moins 1 portion pour la pomme de terre au chili du lundi de la semaine 2."
       ],
-      "tip": "Donne environ 3 portions; garnir d’oignon haché, de coriandre et de sauce piquante.",
+      "tip": "3 portions au total, dont au moins 1 à congeler immédiatement pour la semaine 2. Ce repas réutilise ton chili; il n’en faut pas recuisiner.",
       "nutrition": {
         "calories": 560,
         "protein_g": 47,
@@ -246,22 +280,28 @@
     "porkchop": {
       "id": "porkchop",
       "title": "Côtelettes de porc ail-lime et patate douce",
-      "minutes": 25,
+      "minutes": 35,
       "servings": 1,
       "ingredients": [
-        "225 à 250 g de côtelette de porc désossée maigre",
-        "350 g de patate douce, en quartiers",
-        "2 tasses de mélange de chou râpé en sac",
-        "2 c. à thé d’huile d’olive",
-        "Ail, lime et paprika fumé",
-        "1 c. à soupe de vinaigre de cidre"
+        "225 à 250 g de côtelette de porc désossée CRUE",
+        "350 g de patate douce, lavée et coupée en quartiers de 1 à 2 cm d’épaisseur",
+        "2 tasses (500 ml) de mélange de chou râpé (en sac)",
+        "2 c. à thé (10 ml) d’huile d’olive",
+        "1 gousse d’ail moyenne, hachée (environ 1 c. à thé)",
+        "½ c. à thé de paprika fumé",
+        "1 c. à soupe (15 ml) de jus de lime",
+        "1 c. à soupe (15 ml) de vinaigre de cidre",
+        "1 pincée de sel et de poivre"
       ],
       "steps": [
-        "Cuire les quartiers de patate douce assaisonnés au four ou à la friteuse à air à 200 °C (400 °F) jusqu’à ce qu’ils soient croustillants, environ 18 à 25 min.",
-        "Assaisonner le porc de paprika et d’ail; le saisir à la poêle jusqu’à cuisson sécuritaire et laisser reposer.",
-        "Mélanger le chou avec le vinaigre et la lime; servir le tout."
+        "Préchauffer le four à 200 °C (400 °F). Laver la patate douce, couper en quartiers de 1 à 2 cm d’épaisseur et étaler sur une plaque. Mélanger avec 1 c. à thé d’huile et un peu de sel.",
+        "Cuire la patate douce au four environ 20 à 30 minutes; la retourner à mi-cuisson, après 12 à 15 minutes. Elle est prête quand elle se perce facilement à la fourchette.",
+        "Pendant la cuisson, hacher 1 gousse d’ail. Assaisonner les deux faces de la côtelette avec l’ail, ½ c. à thé de paprika, une pincée de sel et de poivre.",
+        "Chauffer une poêle à feu moyen-vif avec la c. à thé d’huile restante. Saisir la côtelette environ 4 à 6 minutes de chaque côté selon son épaisseur; vérifier au thermomètre qu’elle atteint 71 °C au centre. Retirer et laisser reposer 3 minutes.",
+        "Dans un bol, mélanger 2 tasses de chou râpé avec 1 c. à soupe de vinaigre et 1 c. à soupe de jus de lime. Mélanger 20 secondes.",
+        "Servir la côtelette chaude, la patate douce et la salade de chou. Aucun autre ingrédient n’est nécessaire."
       ],
-      "tip": "Un peu de sauce piquante dans la salade de chou donne plus de pep.",
+      "tip": "Le temps de cuisson du porc dépend de son épaisseur : le thermomètre est plus fiable que la minuterie.",
       "nutrition": {
         "calories": 730,
         "protein_g": 57,
@@ -273,22 +313,26 @@
     "thaicurry": {
       "id": "thaicurry",
       "title": "Cari rouge thaï aux crevettes",
-      "minutes": 15,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "250 g de crevettes décongelées",
-        "1 tasse de lait de coco léger",
-        "2 tasses de mélange de légumes asiatiques surgelés",
-        "1 à 2 c. à soupe de pâte de cari rouge thaï",
-        "1½ tasse de riz jasmin cuit",
-        "Jus de lime et coriandre fraîche (facultatif)"
+        "250 g de crevettes CRUES, décortiquées, déveinées et décongelées",
+        "1 tasse (250 ml) de lait de coco léger",
+        "2 tasses (500 ml) de mélange asiatique de légumes surgelés",
+        "1 c. à soupe (15 ml) de pâte de cari rouge thaï (ajouter plus seulement après avoir goûté)",
+        "1½ tasse (375 ml) de riz jasmin DÉJÀ CUIT",
+        "1 c. à soupe (15 ml) de jus de lime",
+        "1 c. à soupe de coriandre fraîche hachée (facultatif)"
       ],
       "steps": [
-        "Faire chauffer la pâte de cari dans une poêle pendant 30 secondes.",
-        "Ajouter le lait de coco et les légumes; laisser mijoter jusqu’à ce qu’ils soient chauds.",
-        "Ajouter les crevettes et cuire jusqu’à ce qu’elles soient opaques; servir sur le riz avec de la lime."
+        "Si les crevettes sont surgelées, les décongeler au réfrigérateur, idéalement pendant la nuit; pour aller plus vite, placer le sac fermé dans de l’eau froide et changer l’eau toutes les 30 minutes. Égoutter. Ne jamais laisser décongeler sur le comptoir.",
+        "Préparer le riz au cuiseur à riz si nécessaire, selon les instructions du riz et de l’appareil. Mesurer 1½ tasse APRÈS cuisson. Garder au chaud.",
+        "Chauffer une grande poêle ou casserole à feu moyen. Ajouter 1 c. à soupe de pâte de cari rouge; remuer 30 secondes (sans la brûler).",
+        "Ajouter 1 tasse de lait de coco et 2 tasses de mélange asiatique encore surgelé. Remuer, couvrir et laisser mijoter à feu moyen-doux environ 6 à 8 minutes, jusqu’à ce que les légumes soient bien chauds.",
+        "Ajouter les 250 g de crevettes crues décongelées. Cuire dans le liquide frémissant environ 3 à 5 minutes selon leur taille, en remuant, jusqu’à ce qu’elles soient opaques et fermes; viser 74 °C à cœur. Si tu utilises des crevettes DÉJÀ CUITES, les mettre seulement à la fin 1 à 2 minutes pour réchauffer.",
+        "Goûter la sauce. Ajouter 1 c. à soupe de jus de lime et, si tu aimes plus épicé, un peu de pâte de cari supplémentaire. Verser sur 1½ tasse de riz cuit. Garnir de coriandre seulement si tu en as."
       ],
-      "tip": "Le piquant varie beaucoup selon la pâte de cari : commencer avec 1 c. à soupe.",
+      "tip": "Le sac de légumes va directement dans la sauce; les crevettes doivent être décongelées avant la cuisson. Les crevettes déjà cuites s’ajoutent seulement à la fin.",
       "nutrition": {
         "calories": 855,
         "protein_g": 67,
