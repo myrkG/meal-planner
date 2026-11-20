@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "2.1 · novembre 2026",
+  "version": "2.2 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -220,7 +220,7 @@
       "minutes": 30,
       "servings": 1,
       "ingredients": [
-        "220 g de boulettes de bœuf ou de dinde SURGELÉES ET DÉJÀ CUITES (vérifier sur le sac)",
+        "150 g de boulettes Compliments bœuf Angus SURGELÉES, déjà cuites (sac de 680 g; garder 530 g congelés)",
         "90 g de pâtes PENNE RIGATE sèches (pas les soba)",
         "¾ tasse (180 ml) de sauce marinara",
         "2 tasses (500 ml) de jeunes épinards",
@@ -233,21 +233,21 @@
       "steps": [
         "Vérifier sur le sac que les boulettes sont DÉJÀ CUITES. Si oui, les utiliser encore congelées sans les décongeler; si elles sont CRUES, les cuire complètement selon le sac avant de poursuivre.",
         "Hacher finement 1 gousse moyenne d’ail. Chauffer une grande poêle à feu moyen, ajouter 1 c. à thé d’huile d’olive et l’ail. Remuer 30 secondes sans brunir.",
-        "Ajouter ¾ tasse de sauce marinara et, si elle est très épaisse, 2 c. à soupe d’eau. Ajouter les 220 g de boulettes déjà cuites, encore congelées. Couvrir.",
+        "Ajouter ¾ tasse de sauce marinara et, si elle est très épaisse, 2 c. à soupe d’eau. Ajouter les 150 g de boulettes déjà cuites, encore congelées. Couvrir.",
         "Baisser à feu moyen-doux et laisser mijoter 15 à 20 minutes, en remuant environ toutes les 5 minutes, jusqu’à ce que le centre des boulettes soit bien chaud (74 °C pour réchauffer). Suivre le sac si ses instructions diffèrent.",
         "Pendant ce temps, faire bouillir une casserole d’eau. Y verser 90 g de PENNE, pas de soba. Cuire selon le temps écrit sur le paquet de PENNE, puis égoutter.",
         "Ajouter aux boulettes chaudes 2 tasses d’épinards, 1 c. à thé de basilic et, si désiré, ¼ c. à thé de flocons de piment. Remuer 1 à 2 minutes à feu moyen-doux pour ramollir les épinards.",
         "Ajouter les penne égouttées dans la poêle, mélanger 30 secondes pour les enrober de sauce et servir."
       ],
-      "tip": "PENNE pour la marinara; SOBA pour le bœuf au gingembre. Les temps de cuisson diffèrent : toujours lire le BON emballage.",
+      "tip": "IMPORTANT ÉPICERIE : 1 sac précis de « Compliments boulettes de bœuf Angus 680 g », pas Long Phung, ni Compliments Équilibre, ni les versions italiennes au parmesan. La version Angus ordinaire n’a pas de fromage dans ses ingrédients publiés. Pour cuire, suivre le sac et vérifier que les boulettes sont bien réchauffées. Les valeurs nutritives sont des estimations révisées pour 150 g de boulettes.",
       "nutrition": {
-        "calories": 875,
-        "protein_g": 58,
-        "carbs_g": 88,
-        "fat_g": 32,
+        "calories": 925,
+        "protein_g": 40,
+        "carbs_g": 89,
+        "fat_g": 42,
         "basis": "per_portion"
       },
-      "before": "Boulettes SURGELÉES DÉJÀ CUITES et PENNE (pas les soba). Vérifier le sac."
+      "before": "Produit recommandé pour la PROCHAINE commande : boulettes Compliments bœuf Angus classiques surgelées, 680 g (utiliser 150 g), sans fromage indiqué dans la liste d’ingrédients. NE PAS acheter les boulettes vietnamiennes Long Phung de 216 g pour cette recette : elles sont élastiques. Si tu les as déjà reçues, elles sont utilisables, mais leur texture restera ferme."
     },
     "chili": {
       "id": "chili",
@@ -914,7 +914,7 @@
         },
         {
           "id": "groundturkey",
-          "name": "Dinde hachée maigre (600 g requis; 2 × 450 g au besoin)",
+          "name": "Dinde hachée Compliments extra-maigre 450 g (ACHETER 2 paquets pour 600 g de chili)",
           "voila": {
             "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
             "type": "product"
@@ -938,7 +938,7 @@
         },
         {
           "id": "shrimp",
-          "name": "Crevettes décortiquées surgelées (~250 g)",
+          "name": "Crevettes Compliments crues, décortiquées et déveinées 340 g (1 sac/semaine; 2 sacs/14 jours)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
@@ -946,17 +946,17 @@
         },
         {
           "id": "tuna",
-          "name": "Thon pâle en conserve (2 boîtes)",
+          "name": "Thon pâle Compliments en conserve 170 g (2 boîtes/semaine; 4 boîtes/14 jours)",
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
           }
         },
         {
-          "id": "meatballs",
-          "name": "Boulettes de viande maigres (~220 g)",
+          "id": "meatballsangus",
+          "name": "Compliments boulettes de bœuf Angus surgelées 680 g (1 sac; 150 g pour les penne — PAS Long Phung)",
           "voila": {
-            "url": "https://voila.ca/products/compliments-balance-frozen-meatballs-lean-angus-680-g/432405EA",
+            "url": "https://voila.ca/products/compliments-frozen-meatballs-angus-beef-680-g/432394EA",
             "type": "product"
           }
         },
@@ -1084,7 +1084,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Mélange de légumes asiatiques surgelés (500 g)",
+          "name": "Mélange asiatique de légumes surgelés Compliments 500 g (1 sac/semaine; 2 sacs/14 jours)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -1110,7 +1110,7 @@
       "Haricots et produits de base": [
         {
           "id": "pasta",
-          "name": "Pâtes penne rigate sèches (410 g)",
+          "name": "PENNE RIGATE Barilla sèches 410 g (90 g pour les boulettes; PAS soba)",
           "voila": {
             "url": "https://voila.ca/products/barilla-pasta-penne-rigate-410-g/785494EA",
             "type": "product"
@@ -1118,7 +1118,7 @@
         },
         {
           "id": "noodles",
-          "name": "Nouilles soba sèches, blé et sarrasin (250 g)",
+          "name": "Nouilles SOBA Blue Dragon 250 g (90 g pour le bœuf gingembre; cuisson 3 min)",
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
             "type": "product"
@@ -1372,7 +1372,7 @@
         },
         {
           "id": "shrimp",
-          "name": "Crevettes décortiquées surgelées (~250 g)",
+          "name": "Crevettes Compliments crues, décortiquées et déveinées 340 g (1 sac/semaine; 2 sacs/14 jours)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
@@ -1380,7 +1380,7 @@
         },
         {
           "id": "tuna",
-          "name": "Thon pâle en conserve (2 boîtes)",
+          "name": "Thon pâle Compliments en conserve 170 g (2 boîtes/semaine; 4 boîtes/14 jours)",
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
@@ -1462,7 +1462,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Mélange de légumes asiatiques surgelés (500 g)",
+          "name": "Mélange asiatique de légumes surgelés Compliments 500 g (1 sac/semaine; 2 sacs/14 jours)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -1560,7 +1560,7 @@
       "Haricots et produits de base": [
         {
           "id": "ricenoodles",
-          "name": "Nouilles de riz plates, type Pad Thaï, sèches (300 g)",
+          "name": "Nouilles de RIZ PLATES Pad Thaï Blue Dragon 300 g (90 g pour le poulet arachides)",
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-rice-noodles-pad-thai-300-g/887520EA",
             "type": "product"
@@ -1568,7 +1568,7 @@
         },
         {
           "id": "udon",
-          "name": "Nouilles udon nature prêtes à utiliser (200 g)",
+          "name": "Nouilles UDON nature prêtes à utiliser Six Fortune 200 g (pour le porc)",
           "voila": {
             "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
             "type": "product"
@@ -1824,7 +1824,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 2.1 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      ".footer p": "Version 2.2 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
       "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
@@ -1839,7 +1839,7 @@
       "groundturkey",
       "shrimp",
       "tuna",
-      "meatballs",
+      "meatballsangus",
       "whey",
       "onion",
       "broccoli",
@@ -1889,16 +1889,15 @@
     ],
     "hints": {
       "groundbeef": "Un paquet de 454 g couvre les repas de 225 g des semaines 1 et 2. Congeler la moitié pour la semaine 2.",
-      "groundturkey": "La recette demande 600 g. Avec les paquets de 450 g, en acheter 2 et congeler le surplus.",
-      "shrimp": "Deux sacs de 340 g pour les deux recettes de 250 g. Garder le second sac congelé.",
-      "tuna": "4 boîtes au total : 2 pour chaque recette au thon.",
-      "meatballs": "Un sac de 680 g; utiliser environ 220 g et conserver le reste au congélateur.",
+      "groundturkey": "Il faut 600 g CRUS pour le chili. Le lien Voilà donne des paquets de 450 g : ACHETER 2 paquets, utiliser 600 g et congeler 300 g.",
+      "shrimp": "Deux recettes de 250 g = 500 g de crevettes CRUES au total. Le produit Voilà est un sac de 340 g : ACHETER 2 sacs, décongeler seulement les portions nécessaires.",
+      "tuna": "Il faut 2 boîtes de 170 g pour chaque recette au thon : ACHETER 4 boîtes pour les deux semaines.",
       "whey": "9 mesures pour les six shakes des deux mercredis; vérifier la quantité déjà en stock.",
       "onion": "Un sac de 1,36 kg devrait suffire pour les deux semaines. Conserver au frais et au sec.",
       "broccoli": "Un sac de 500 g devrait couvrir les deux repas; vérifier le poids réel selon les portions en tasses.",
       "greenbeans": "Un sac de 750 g pour le saumon; garder le reste au congélateur.",
       "potatoes": "Un sac de 2,27 kg couvre environ 1,2 kg pour les deux semaines. Garder au frais, au sec et à l'obscurité.",
-      "stirfryveg": "Prévoir environ 4 tasses au total; 2 sacs de 500 g constituent une quantité pratique.",
+      "stirfryveg": "Le produit Voilà est un sac de 500 g. Prévoir 2 sacs pour les deux recettes (une par semaine).",
       "oats": "180 g au total pour six shakes. Un sac de 1 kg durera plusieurs rotations.",
       "blackbeans": "Environ 2 boîtes de 540 ml pour le chili et les deux bols. Congeler la portion de la semaine 2 après ouverture.",
       "crushedtomatoes": "796 ml pour la semaine 1 et environ ¾ tasse pour la semaine 2. Choisir une petite deuxième boîte, ou congeler le surplus d'une grosse boîte.",
@@ -1916,7 +1915,8 @@
       "cocoa": "Pour les shakes chocolat-banane; facultatif si ta whey est déjà au chocolat.",
       "cinnamon": "Uniquement pour les shakes aux petits fruits; on peut l'omettre.",
       "salt": "Pour assaisonner au goût; à acheter seulement si tu n'en as plus.",
-      "blackpepper": "Pour assaisonner au goût; à acheter seulement si tu n'en as plus."
+      "blackpepper": "Pour assaisonner au goût; à acheter seulement si tu n'en as plus.",
+      "meatballsangus": "Produit exact : 1 sac de 680 g; utiliser 150 g pour les penne, garder le reste congelé. PAS les Long Phung (216 g, texture volontairement élastique). Cette version contient 14 g de gras par 60 g et aucun fromage dans sa liste publiée; la tendreté demeure subjective."
     }
   }
 }
