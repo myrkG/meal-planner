@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "1.5 · November 2026",
+  "version": "1.6 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -753,7 +753,8 @@
     "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels.",
     "Per-meal calories and protein, carbohydrate, and fat are rough estimates from common food composition values and typical package labels; brand, raw/cooked weight, sauce and oil can change the result substantially.",
     "Rice and quinoa are stocked pantry items; rice portions in recipes refer to the cooked weight/volume, not dry rice or microwave pouches.",
-    "Voilà product links point to an example brand and size; check quantities and availability in your delivery area before ordering."
+    "Voilà product links point to an example brand and size; check quantities and availability in your delivery area before ordering.",
+    "The optimized 14-day shopping view lists shelf-stable and frozen items only once. Buy fresh produce and fresh meat by week, and freeze unused portions promptly. Quantities are estimates."
   ],
   "shopping": [
     {
@@ -1461,14 +1462,6 @@
           }
         },
         {
-          "id": "almondbutter",
-          "name": "Almond butter (365 g, optional instead of peanut butter)",
-          "voila": {
-            "url": "https://voila.ca/products/nuts-to-you-nut-butter-gluten-free-almond-butter-smooth-365-g/609375EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "oliveoil",
           "name": "Olive oil",
           "voila": {
@@ -1593,5 +1586,77 @@
       ]
     }
   ],
-  "shopping_note": "Rice and quinoa are already in your pantry. Use your rice cooker for any recipe calling for cooked rice. Reheat refrigerated rice thoroughly; refrigerate promptly after cooking."
+  "shopping_note": "Rice and quinoa are already in your pantry. Use your rice cooker for any recipe calling for cooked rice. Reheat refrigerated rice thoroughly; refrigerate promptly after cooking.",
+  "shopping_optimization": {
+    "buy_once_ids": [
+      "groundbeef",
+      "groundturkey",
+      "shrimp",
+      "tuna",
+      "meatballs",
+      "whey",
+      "onion",
+      "broccoli",
+      "greenbeans",
+      "potatoes",
+      "stirfryveg",
+      "pasta",
+      "noodles",
+      "oats",
+      "blackbeans",
+      "crushedtomatoes",
+      "corn",
+      "coconutmilk",
+      "peanutbutter",
+      "oliveoil",
+      "soysauce",
+      "sriracha",
+      "dijon",
+      "maple",
+      "paprika",
+      "cumin",
+      "chilipowder",
+      "currypaste",
+      "marinara",
+      "salsa",
+      "honey",
+      "sesameoil",
+      "vinegar",
+      "ricenoodles",
+      "udon",
+      "whitebeans",
+      "chickpeas",
+      "harissa",
+      "sweetchili",
+      "currypowder",
+      "garammasala",
+      "sesameseeds",
+      "hotsauce",
+      "berries"
+    ],
+    "hints": {
+      "groundbeef": "1 × 454 g package covers the 225 g meals in Weeks 1 and 2. Freeze half for Week 2.",
+      "groundturkey": "Recipe uses 600 g. If buying 450 g packs, get 2 and freeze any excess.",
+      "shrimp": "Two 340 g bags for the two 250 g shrimp meals. Keep the second bag frozen.",
+      "tuna": "4 cans total: 2 for each tuna meal.",
+      "meatballs": "One 680 g frozen bag; use about 220 g and keep the rest frozen.",
+      "whey": "9 scoops in total for six shakes across both Wednesdays; check how much you already have.",
+      "onion": "One 1.36 kg bag should cover both weeks; store cool and dry.",
+      "broccoli": "One 500 g bag should cover the two broccoli meals; check actual bag weight versus cup portions.",
+      "greenbeans": "One 750 g bag for the salmon meal; keep leftovers frozen.",
+      "potatoes": "One 2.27 kg bag covers about 1.2 kg across both weeks; store cool, dry and dark.",
+      "stirfryveg": "Allow approximately 4 cups total; 2 × 500 g bags is a convenient allowance.",
+      "oats": "180 g total for six shakes. One 1 kg bag lasts several rotations.",
+      "blackbeans": "About 2 × 540 mL cans across chili and the two bean bowls. Freeze the Week 2 portion after opening.",
+      "crushedtomatoes": "Week 1 needs 796 mL; Week 2 needs about ¾ cup. Buy a smaller second can if available, or freeze the extra from a second large can.",
+      "corn": "Only 1 cup total across both weeks; one 750 g bag lasts multiple rotations.",
+      "coconutmilk": "One 400 mL can is roughly enough for both curries (1½ cups total); freeze the Week 2 portion promptly.",
+      "peanutbutter": "Also works for Week 2's shakes; no need to buy almond butter.",
+      "berries": "Week 2 needs about 300 g for three berry shakes; one 600 g bag is more than enough.",
+      "pasta": "One 410 g penne package; the recipe needs 90 g.",
+      "noodles": "One 250 g soba package; the recipe needs 90 g.",
+      "ricenoodles": "One 300 g rice-noodle package; the recipe needs 90 g.",
+      "udon": "One 200 g package for the Week 2 pork dish."
+    }
+  }
 }
