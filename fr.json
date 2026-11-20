@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "2.4 · novembre 2026",
+  "version": "2.5 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -56,7 +56,7 @@
       "servings": 1,
       "ingredients": [
         "225 g de bœuf haché maigre cru",
-        "90 g de nouilles soba sèches Blue Dragon (et NON des penne)",
+        "90 g de nouilles SOBA Blue Dragon SÈCHES (environ 1 botte sur les 3 du paquet de 250 g; PAS le paquet entier)",
         "2 tasses (500 ml) de brocoli en fleurons surgelé",
         "2 c. à soupe (30 ml) de sauce soya réduite en sodium",
         "1 c. à thé (5 ml) de miel",
@@ -70,10 +70,10 @@
         "Dans un petit bol, mélanger 2 c. à soupe de sauce soya, 1 c. à thé de miel, 1 c. à thé d’huile de sésame, l’ail, le gingembre et 2 c. à soupe d’eau. Réserver.",
         "Chauffer une grande poêle à feu moyen-vif. Ajouter les 225 g de bœuf haché. Le défaire à la spatule pendant 5 à 7 minutes, jusqu’à cuisson complète (71 °C au centre). Égoutter l’excès de gras au besoin.",
         "Ajouter 2 tasses de brocoli congelé et 2 c. à soupe d’eau dans la poêle. Couvrir 4 à 6 minutes à feu moyen, en remuant à mi-cuisson, jusqu’à ce que le brocoli soit bien chaud.",
-        "Pendant ce temps, faire bouillir de l’eau dans une casserole. Ajouter 90 g de nouilles SOBA et cuire 3 minutes selon l’emballage Blue Dragon (ou suivre ton paquet s’il diffère). Égoutter aussitôt. Ne pas appliquer le temps de cuisson des penne.",
+        "Pendant ce temps, faire bouillir de l’eau dans une casserole. Détacher UNE seule botte (~83 g) sur les TROIS du paquet de 250 g, ou peser 90 g secs avec une balance. Garder les autres bottes au sec. Ajouter cette portion de SOBA et cuire 3 minutes selon l’emballage Blue Dragon (ou suivre ton paquet s’il diffère). Égoutter aussitôt. Ne pas appliquer le temps de cuisson des penne.",
         "Verser la sauce préparée dans la poêle avec le bœuf et le brocoli. Remuer 1 minute à feu moyen, puis ajouter les soba égouttées. Mélanger 30 secondes et servir."
       ],
-      "tip": "Ce sont les soba pour cette recette, pas les penne de la recette des boulettes. Si ton sachet indique 3 minutes, c’est bien 3 minutes.",
+      "tip": "Soba pour le bœuf au gingembre; penne pour les boulettes marinara. Le paquet complet de soba fait 250 g, soit environ trois portions liées. Une seule botte (~83 g) suffit pour une portion. Cuisson : 3 minutes selon ton paquet.",
       "nutrition": {
         "calories": 880,
         "protein_g": 65,
@@ -81,7 +81,7 @@
         "fat_g": 30,
         "basis": "per_portion"
       },
-      "before": "Utiliser les SOBA (3 min pour Blue Dragon); brocoli surgelé sans décongélation."
+      "before": "ATTENTION : le paquet Blue Dragon de 250 g contient TROIS bottes de soba liées. Pour une portion, utiliser UNE seule botte (environ 83 g secs), proche des 90 g indiqués, ou peser exactement 90 g secs. NE PAS verser les 250 g du paquet dans l’eau. Brocoli surgelé : pas besoin de décongeler."
     },
     "lemonpotato": {
       "id": "lemonpotato",
@@ -239,7 +239,7 @@
         "Ajouter aux boulettes chaudes 2 tasses d’épinards, 1 c. à thé de basilic et, si désiré, ¼ c. à thé de flocons de piment. Remuer 1 à 2 minutes à feu moyen-doux pour ramollir les épinards.",
         "Ajouter les penne égouttées dans la poêle, mélanger 30 secondes pour les enrober de sauce et servir."
       ],
-      "tip": "Cette recette demande des PENNE RIGATE, pas des soba. Si tu as utilisé par erreur 90 g de soba sèches avec les boulettes, le volume une fois cuit peut être important; en manger la moitié équivaut à environ 45 g secs. Ne change pas la recette du bœuf au gingembre à cause de cette substitution. Les boulettes Long Phung déjà achetées sont de type vietnamien et ont une texture plus élastique.",
+      "tip": "Cette recette demande des PENNE RIGATE, PAS des soba. Correction de la première préparation : si tu as cuit le paquet ENTIER de soba (250 g secs) et mangé la moitié des nouilles, tu as mangé l’équivalent d’environ 125 g secs. Ce n’était PAS 90 g au total. Les boulettes Long Phung de 216 g ont une texture vietnamienne élastique, différente des boulettes italiennes.",
       "nutrition": {
         "calories": 925,
         "protein_g": 40,
@@ -1124,7 +1124,7 @@
         },
         {
           "id": "noodles",
-          "name": "Nouilles SOBA Blue Dragon 250 g (90 g pour le bœuf gingembre; cuisson 3 min)",
+          "name": "Nouilles SOBA Blue Dragon 250 g — 3 bottes : utiliser 1 seule botte (~83 g) pour le bœuf gingembre",
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
             "type": "product"
@@ -1836,7 +1836,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 2.4 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      ".footer p": "Version 2.5 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
       "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
@@ -1918,7 +1918,7 @@
       "peanutbutter": "Convient aussi aux shakes de la semaine 2; inutile d'acheter du beurre d'amandes.",
       "berries": "Environ 300 g pour les trois shakes aux fruits de la semaine 2; un sac de 600 g suffit amplement.",
       "pasta": "Un paquet de penne de 410 g; la recette demande 90 g.",
-      "noodles": "Un paquet de soba de 250 g; la recette demande 90 g.",
+      "noodles": "Paquet de 250 g DIVISÉ EN TROIS bottes liées (~83 g chacune). Pour 1 repas de bœuf gingembre : prendre UNE botte, garder les deux autres sèches. NE PAS cuire tout le paquet. Les penne sont pour les boulettes.",
       "ricenoodles": "Un paquet de nouilles de riz de 300 g; la recette demande 90 g.",
       "udon": "Un paquet de 200 g pour le porc de la semaine 2.",
       "redpepperflakes": "Environ ¼ c. à thé pour les pâtes aux boulettes. Un petit sachet dure plusieurs rotations.",
