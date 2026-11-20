@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "2.1 · November 2026",
+  "version": "2.2 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -220,7 +220,7 @@
       "minutes": 30,
       "servings": 1,
       "ingredients": [
-        "220 g FROZEN FULLY COOKED beef or turkey meatballs (check bag)",
+        "150 g Compliments Angus beef FROZEN FULLY COOKED meatballs (680 g bag; keep remaining 530 g frozen)",
         "90 g dry PENNE RIGATE pasta (not soba)",
         "¾ cup (180 mL) marinara sauce",
         "2 cups (500 mL) baby spinach",
@@ -233,21 +233,21 @@
       "steps": [
         "Confirm the frozen meatballs are FULLY COOKED. If so, no thawing is required; if RAW, cook fully according to package before continuing.",
         "Mince one garlic clove. Heat 1 tsp olive oil in a large skillet over medium heat; stir garlic for 30 seconds without browning.",
-        "Add ¾ cup marinara and 2 tbsp water if thick. Add 220 g frozen fully cooked meatballs; cover.",
+        "Add ¾ cup marinara and 2 tbsp water if thick. Add 150 g frozen fully cooked meatballs; cover.",
         "Simmer over medium-low 15–20 minutes, stirring every 5 minutes, until meatballs are hot in the centre (74°C / 165°F for reheating). Follow package directions if different.",
         "Meanwhile boil a pot of water. Add 90 g dry PENNE (not soba); cook for the time listed on your PENNE package and drain.",
         "Add 2 cups spinach, 1 tsp dried basil and optional ¼ tsp pepper flakes to hot meatballs. Stir-cook 1–2 minutes until wilted.",
         "Toss drained penne into sauce for 30 seconds and serve."
       ],
-      "tip": "PENNE for marinara; SOBA for ginger beef. Always use cooking directions from the correct package.",
+      "tip": "GROCERY: one exact bag of Compliments Angus Beef Meatballs 680 g, NOT Long Phung, not Compliments Balance, and not Italian-style with Parmesan. Regular Angus has no cheese in published ingredients. Follow package heating directions; nutrition is a revised estimate for 150 g.",
       "nutrition": {
-        "calories": 875,
-        "protein_g": 58,
-        "carbs_g": 88,
-        "fat_g": 32,
+        "calories": 925,
+        "protein_g": 40,
+        "carbs_g": 89,
+        "fat_g": 42,
         "basis": "per_portion"
       },
-      "before": "Use FROZEN PRECOOKED meatballs and PENNE (not soba). Check meatball package."
+      "before": "For the NEXT order use Compliments regular Angus beef meatballs, 680 g bag (use 150 g), with no cheese listed in the published ingredients. Do NOT buy Long Phung 216 g Vietnamese meatballs for marinara; they are springy. Already-bought Long Phung can be eaten but will remain firm."
     },
     "chili": {
       "id": "chili",
@@ -914,7 +914,7 @@
         },
         {
           "id": "groundturkey",
-          "name": "Lean ground turkey (600 g needed; 2 × 450 g packs if necessary)",
+          "name": "Compliments extra-lean ground turkey 450 g (BUY 2 packs for 600 g of chili)",
           "voila": {
             "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
             "type": "product"
@@ -938,7 +938,7 @@
         },
         {
           "id": "shrimp",
-          "name": "Frozen peeled shrimp (~250 g)",
+          "name": "Compliments raw peeled deveined shrimp 340 g (1 bag/week; 2 bags/14 days)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
@@ -946,17 +946,17 @@
         },
         {
           "id": "tuna",
-          "name": "Light canned tuna (2 cans)",
+          "name": "Compliments canned light tuna 170 g (2 cans/week; 4 cans/14 days)",
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
           }
         },
         {
-          "id": "meatballs",
-          "name": "Lean meatballs (~220 g)",
+          "id": "meatballsangus",
+          "name": "Compliments frozen Angus beef meatballs 680 g (1 bag; use 150 g with penne — NOT Long Phung)",
           "voila": {
-            "url": "https://voila.ca/products/compliments-balance-frozen-meatballs-lean-angus-680-g/432405EA",
+            "url": "https://voila.ca/products/compliments-frozen-meatballs-angus-beef-680-g/432394EA",
             "type": "product"
           }
         },
@@ -1084,7 +1084,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Frozen Asian-style stir-fry vegetable mix (500 g)",
+          "name": "Compliments frozen Asian stir-fry vegetables 500 g (1 bag/week; 2 bags/14 days)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -1110,7 +1110,7 @@
       "Beans & staples": [
         {
           "id": "pasta",
-          "name": "Dry penne rigate pasta (410 g)",
+          "name": "Barilla dry PENNE RIGATE 410 g (90 g for meatballs; NOT soba)",
           "voila": {
             "url": "https://voila.ca/products/barilla-pasta-penne-rigate-410-g/785494EA",
             "type": "product"
@@ -1118,7 +1118,7 @@
         },
         {
           "id": "noodles",
-          "name": "Dry soba noodles, wheat and buckwheat (250 g)",
+          "name": "Blue Dragon SOBA noodles 250 g (90 g for ginger beef; 3-minute cooking)",
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
             "type": "product"
@@ -1372,7 +1372,7 @@
         },
         {
           "id": "shrimp",
-          "name": "Frozen peeled shrimp (~250 g)",
+          "name": "Compliments raw peeled deveined shrimp 340 g (1 bag/week; 2 bags/14 days)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
@@ -1380,7 +1380,7 @@
         },
         {
           "id": "tuna",
-          "name": "Light canned tuna (2 cans)",
+          "name": "Compliments canned light tuna 170 g (2 cans/week; 4 cans/14 days)",
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
@@ -1462,7 +1462,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Frozen Asian-style stir-fry vegetable mix (500 g)",
+          "name": "Compliments frozen Asian stir-fry vegetables 500 g (1 bag/week; 2 bags/14 days)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -1560,7 +1560,7 @@
       "Beans & staples": [
         {
           "id": "ricenoodles",
-          "name": "Flat Pad Thai rice noodles, dry (300 g)",
+          "name": "Blue Dragon FLAT PAD THAI RICE NOODLES 300 g (90 g for peanut chicken)",
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-rice-noodles-pad-thai-300-g/887520EA",
             "type": "product"
@@ -1568,7 +1568,7 @@
         },
         {
           "id": "udon",
-          "name": "Plain ready-to-use udon noodles (200 g)",
+          "name": "Six Fortune READY-TO-USE PLAIN UDON 200 g (for pork)",
           "voila": {
             "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
             "type": "product"
@@ -1786,7 +1786,7 @@
       "groundturkey",
       "shrimp",
       "tuna",
-      "meatballs",
+      "meatballsangus",
       "whey",
       "onion",
       "broccoli",
@@ -1836,16 +1836,15 @@
     ],
     "hints": {
       "groundbeef": "1 × 454 g package covers the 225 g meals in Weeks 1 and 2. Freeze half for Week 2.",
-      "groundturkey": "Recipe uses 600 g. If buying 450 g packs, get 2 and freeze any excess.",
-      "shrimp": "Two 340 g bags for the two 250 g shrimp meals. Keep the second bag frozen.",
-      "tuna": "4 cans total: 2 for each tuna meal.",
-      "meatballs": "One 680 g frozen bag; use about 220 g and keep the rest frozen.",
+      "groundturkey": "Chili needs 600 g RAW turkey. Voilà product comes in 450 g packs: BUY TWO, use 600 g and freeze 300 g.",
+      "shrimp": "Two 250 g RAW shrimp recipes = 500 g total. The Voilà product is a 340 g bag: BUY TWO, thaw only the portions you need.",
+      "tuna": "Each tuna recipe uses two 170 g cans: BUY FOUR cans over 14 days.",
       "whey": "9 scoops in total for six shakes across both Wednesdays; check how much you already have.",
       "onion": "One 1.36 kg bag should cover both weeks; store cool and dry.",
       "broccoli": "One 500 g bag should cover the two broccoli meals; check actual bag weight versus cup portions.",
       "greenbeans": "One 750 g bag for the salmon meal; keep leftovers frozen.",
       "potatoes": "One 2.27 kg bag covers about 1.2 kg across both weeks; store cool, dry and dark.",
-      "stirfryveg": "Allow approximately 4 cups total; 2 × 500 g bags is a convenient allowance.",
+      "stirfryveg": "Voilà product is a 500 g bag. Plan on two bags for the two recipes (one each week).",
       "oats": "180 g total for six shakes. One 1 kg bag lasts several rotations.",
       "blackbeans": "About 2 × 540 mL cans across chili and the two bean bowls. Freeze the Week 2 portion after opening.",
       "crushedtomatoes": "Week 1 needs 796 mL; Week 2 needs about ¾ cup. Buy a smaller second can if available, or freeze the extra from a second large can.",
@@ -1863,7 +1862,8 @@
       "cocoa": "For Week 1 chocolate-banana shakes; optional if your whey is already chocolate-flavored.",
       "cinnamon": "Only for Week 2 berry shakes; omit if you don't have any.",
       "salt": "For seasoning to taste; only buy if you're out.",
-      "blackpepper": "For seasoning to taste; only buy if you're out."
+      "blackpepper": "For seasoning to taste; only buy if you're out.",
+      "meatballsangus": "Exact product: one 680 g bag; use 150 g for penne and keep the rest frozen. NOT Long Phung (216 g, deliberately springy texture). Regular version has 14 g fat per 60 g and no listed cheese; tenderness is subjective."
     }
   }
 }
