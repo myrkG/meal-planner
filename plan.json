@@ -1769,10 +1769,6 @@
           "name": "Ground cinnamon (optional)"
         },
         {
-          "id": "brownsugar",
-          "name": "Brown sugar (or use maple syrup / honey)"
-        },
-        {
           "id": "salt",
           "name": "Salt (check pantry)"
         },
@@ -1835,7 +1831,6 @@
       "oregano",
       "cocoa",
       "cinnamon",
-      "brownsugar",
       "salt",
       "blackpepper"
     ],
@@ -1867,7 +1862,6 @@
       "oregano": "For lemon chicken and chicken-potato bowl. If absent, dried basil or an Italian herb blend works.",
       "cocoa": "For Week 1 chocolate-banana shakes; optional if your whey is already chocolate-flavored.",
       "cinnamon": "Only for Week 2 berry shakes; omit if you don't have any.",
-      "brownsugar": "Week 2 Korean beef needs 1 tsp; maple syrup or honey works instead.",
       "salt": "For seasoning to taste; only buy if you're out.",
       "blackpepper": "For seasoning to taste; only buy if you're out."
     }
