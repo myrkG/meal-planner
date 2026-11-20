@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "2.0 · novembre 2026",
+  "version": "2.1 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -46,7 +46,8 @@
         "carbs_g": 80,
         "fat_g": 18,
         "basis": "per_portion"
-      }
+      },
+      "before": "Riz à cuire d'avance au besoin. Thon en conserve : déjà cuit."
     },
     "gingerbeef": {
       "id": "gingerbeef",
@@ -79,7 +80,8 @@
         "carbs_g": 88,
         "fat_g": 30,
         "basis": "per_portion"
-      }
+      },
+      "before": "Utiliser les SOBA (3 min pour Blue Dragon); brocoli surgelé sans décongélation."
     },
     "lemonpotato": {
       "id": "lemonpotato",
@@ -111,7 +113,8 @@
         "carbs_g": 65,
         "fat_g": 17,
         "basis": "per_portion"
-      }
+      },
+      "before": "Poulet DÉJÀ CUIT requis; sinon prévoir 6 à 10 min de cuisson supplémentaire."
     },
     "fajitas": {
       "id": "fajitas",
@@ -146,7 +149,8 @@
         "carbs_g": 64,
         "fat_g": 15,
         "basis": "per_portion"
-      }
+      },
+      "before": "Cuire le riz à l'avance; préparer DEUX portions de poulet/poivrons et en réfrigérer une pour jeudi."
     },
     "fajitaleft": {
       "id": "fajitaleft",
@@ -174,7 +178,8 @@
         "carbs_g": 109,
         "fat_g": 15,
         "basis": "per_portion"
-      }
+      },
+      "before": "Utiliser le poulet fajitas DÉJÀ CUIT de mardi et du riz cuit."
     },
     "salmon": {
       "id": "salmon",
@@ -206,7 +211,8 @@
         "carbs_g": 81,
         "fat_g": 38,
         "basis": "per_portion"
-      }
+      },
+      "before": "Saumon cru; commencer les pommes de terre au four AVANT le poisson."
     },
     "meatballs": {
       "id": "meatballs",
@@ -240,7 +246,8 @@
         "carbs_g": 88,
         "fat_g": 32,
         "basis": "per_portion"
-      }
+      },
+      "before": "Boulettes SURGELÉES DÉJÀ CUITES et PENNE (pas les soba). Vérifier le sac."
     },
     "chili": {
       "id": "chili",
@@ -275,7 +282,8 @@
         "carbs_g": 45,
         "fat_g": 21,
         "basis": "per_portion"
-      }
+      },
+      "before": "600 g de dinde hachée CRUE (2 paquets de 450 g si nécessaire); garder une portion pour la semaine 2."
     },
     "porkchop": {
       "id": "porkchop",
@@ -308,7 +316,8 @@
         "carbs_g": 80,
         "fat_g": 20,
         "basis": "per_portion"
-      }
+      },
+      "before": "Côtelette de porc crue et patate douce crue; four et poêle utilisés séparément."
     },
     "thaicurry": {
       "id": "thaicurry",
@@ -339,7 +348,8 @@
         "carbs_g": 100,
         "fat_g": 21,
         "basis": "per_portion"
-      }
+      },
+      "before": "Décongeler les crevettes CRUES d'avance; utiliser du riz déjà cuit et des légumes encore surgelés."
     },
     "chilipotato": {
       "id": "chilipotato",
@@ -367,7 +377,8 @@
         "carbs_g": 108,
         "fat_g": 22,
         "basis": "per_portion"
-      }
+      },
+      "before": "Décongeler au frigo la veille une portion de chili DÉJÀ CUIT de la semaine 1."
     },
     "oregano": {
       "id": "oregano",
@@ -400,7 +411,8 @@
         "carbs_g": 82,
         "fat_g": 15,
         "basis": "per_portion"
-      }
+      },
+      "before": "Poulet CRU et riz mesuré APRÈS cuisson."
     },
     "peanutnoodle": {
       "id": "peanutnoodle",
@@ -433,7 +445,8 @@
         "carbs_g": 95,
         "fat_g": 20,
         "basis": "per_portion"
-      }
+      },
+      "before": "Utiliser les nouilles de RIZ PLATES, pas les soba ni les penne; suivre leur emballage."
     },
     "tacoskillet": {
       "id": "tacoskillet",
@@ -468,7 +481,8 @@
         "carbs_g": 108,
         "fat_g": 30,
         "basis": "per_portion"
-      }
+      },
+      "before": "Bœuf haché CRU et riz déjà cuit; le maïs va directement dans la poêle, encore surgelé."
     },
     "shrimpmango": {
       "id": "shrimpmango",
@@ -499,7 +513,8 @@
         "carbs_g": 86,
         "fat_g": 11,
         "basis": "per_portion"
-      }
+      },
+      "before": "Décongeler les crevettes CRUES au frigo d'avance; utiliser du riz déjà cuit."
     },
     "harissa": {
       "id": "harissa",
@@ -530,7 +545,8 @@
         "carbs_g": 55,
         "fat_g": 19,
         "basis": "per_portion"
-      }
+      },
+      "before": "Poulet CRU et pois chiches en conserve DÉJÀ CUITS."
     },
     "tunabeans": {
       "id": "tunabeans",
@@ -562,7 +578,8 @@
         "carbs_g": 83,
         "fat_g": 12,
         "basis": "per_portion"
-      }
+      },
+      "before": "Thon et haricots blancs en conserve déjà cuits; seules les pommes de terre sont à cuire."
     },
     "koreanbeef": {
       "id": "koreanbeef",
@@ -597,7 +614,8 @@
         "carbs_g": 85,
         "fat_g": 28,
         "basis": "per_portion"
-      }
+      },
+      "before": "Lanières de bœuf CRUES et riz déjà cuit; brocoli encore surgelé."
     },
     "tomatocurry": {
       "id": "tomatocurry",
@@ -631,7 +649,8 @@
         "carbs_g": 86,
         "fat_g": 20,
         "basis": "per_portion"
-      }
+      },
+      "before": "Poulet CRU et riz basmati déjà cuit; préparer le riz d'avance si nécessaire."
     },
     "stickypork": {
       "id": "stickypork",
@@ -664,7 +683,8 @@
         "carbs_g": 86,
         "fat_g": 20,
         "basis": "per_portion"
-      }
+      },
+      "before": "Utiliser les UDON PRÊTES À UTILISER de 200 g, pas les soba, penne ou nouilles de riz."
     },
     "restaurant": {
       "id": "restaurant",
@@ -705,7 +725,8 @@
           65
         ],
         "basis": "per_portion"
-      }
+      },
+      "before": "Repas au restaurant. Rien à cuisiner ni à acheter pour ce repas."
     },
     "shakechoc": {
       "id": "shakechoc",
@@ -735,7 +756,8 @@
         "carbs_g": 43,
         "fat_g": 12,
         "basis": "per_shake"
-      }
+      },
+      "before": "Les quantités sont pour UN shake. Répéter TROIS fois le mercredi."
     },
     "shakeberry": {
       "id": "shakeberry",
@@ -765,7 +787,8 @@
         "carbs_g": 40,
         "fat_g": 13,
         "basis": "per_shake"
-      }
+      },
+      "before": "Les quantités sont pour UN shake. Répéter TROIS fois le mercredi."
     }
   },
   "weeks": [
@@ -1805,7 +1828,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 2.0 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      ".footer p": "Version 2.1 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
       "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
