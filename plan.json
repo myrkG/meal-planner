@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "2.3 · November 2026",
+  "version": "2.4 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -56,7 +56,7 @@
       "servings": 1,
       "ingredients": [
         "225 g raw lean ground beef",
-        "45 g dry Blue Dragon soba noodles (NOT penne)",
+        "90 g dry Blue Dragon soba noodles (NOT penne)",
         "2 cups (500 mL) frozen broccoli florets",
         "2 tbsp (30 mL) reduced-sodium soy sauce",
         "1 tsp (5 mL) honey",
@@ -70,18 +70,18 @@
         "Mix soy sauce, honey, sesame oil, garlic, ginger and 2 tbsp water in a small bowl.",
         "Heat a large skillet over medium-high heat. Add 225 g ground beef and break it apart for 5–7 minutes, until fully cooked to 71°C / 160°F. Drain excess fat if needed.",
         "Add 2 cups frozen broccoli and 2 tbsp water to the beef. Cover over medium heat for 4–6 minutes, stirring halfway, until thoroughly hot.",
-        "Meanwhile boil a pot of water. Add 45 g SOBA noodles; Blue Dragon's package says 3 minutes (follow your own package if different). Drain immediately. Do not use penne cooking times.",
+        "Meanwhile boil a pot of water. Add 90 g SOBA noodles; Blue Dragon's package says 3 minutes (follow your own package if different). Drain immediately. Do not use penne cooking times.",
         "Pour the sauce over beef and broccoli. Stir 1 minute over medium heat; add drained soba, toss for 30 seconds and serve."
       ],
-      "tip": "90 g DRY soba made too large a cooked portion. This meal now uses 45 g dry (half the old amount). Penne, flat rice noodles and udon belong to other recipes.",
+      "tip": "Soba are for ginger beef; penne are for meatball marinara. Your Blue Dragon soba pack specifies 3 minutes.",
       "nutrition": {
-        "calories": 720,
-        "protein_g": 60,
-        "carbs_g": 55,
+        "calories": 880,
+        "protein_g": 65,
+        "carbs_g": 88,
         "fat_g": 30,
         "basis": "per_portion"
       },
-      "before": "Portion adjusted after trying the meal: weigh 45 g of DRY SOBA before cooking. This makes roughly 100–130 g cooked, depending on water absorption. Cook Blue Dragon soba for 3 minutes; add broccoli frozen."
+      "before": "Use SOBA noodles. Blue Dragon soba cook in 3 minutes; frozen broccoli needs no thawing."
     },
     "lemonpotato": {
       "id": "lemonpotato",
@@ -239,7 +239,7 @@
         "Add 2 cups spinach, 1 tsp dried basil and optional ¼ tsp pepper flakes to hot meatballs. Stir-cook 1–2 minutes until wilted.",
         "Toss drained penne into sauce for 30 seconds and serve."
       ],
-      "tip": "GROCERY: one exact bag of Compliments Angus Beef Meatballs 680 g, NOT Long Phung, not Compliments Balance, and not Italian-style with Parmesan. Regular Angus has no cheese in published ingredients. Follow package heating directions; nutrition is a revised estimate for 150 g.",
+      "tip": "This recipe calls for PENNE RIGATE, not soba. If you accidentally cooked 90 g dry soba with the meatballs, the cooked volume can be substantial; eating half is equivalent to about 45 g dry. This mix-up should not change the separate ginger-beef recipe. The already-bought Long Phung meatballs are Vietnamese-style with a springier texture.",
       "nutrition": {
         "calories": 925,
         "protein_g": 40,
@@ -1124,7 +1124,7 @@
         },
         {
           "id": "noodles",
-          "name": "Blue Dragon SOBA noodles 250 g (45 g DRY per ginger-beef meal; 3-minute cooking)",
+          "name": "Blue Dragon SOBA noodles 250 g (90 g for ginger beef; 3-minute cooking)",
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
             "type": "product"
@@ -1865,7 +1865,7 @@
       "peanutbutter": "Also works for Week 2's shakes; no need to buy almond butter.",
       "berries": "Week 2 needs about 300 g for three berry shakes; one 600 g bag is more than enough.",
       "pasta": "One 410 g penne package; the recipe needs 90 g.",
-      "noodles": "For ginger beef: weigh 45 g DRY. Expect about 100–130 g cooked; the 250 g packet lasts several recipes.",
+      "noodles": "One 250 g soba package; the recipe needs 90 g.",
       "ricenoodles": "One 300 g rice-noodle package; the recipe needs 90 g.",
       "udon": "One 200 g package for the Week 2 pork dish.",
       "redpepperflakes": "About ¼ tsp for meatball pasta; a small bag lasts several rotations.",
