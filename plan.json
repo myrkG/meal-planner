@@ -21,22 +21,25 @@
     "tuna": {
       "id": "tuna",
       "title": "Spicy tuna–avocado rice bowl",
-      "minutes": 5,
+      "minutes": 10,
       "servings": 1,
       "ingredients": [
-        "2 cans light tuna, drained (about 220–240 g)",
-        "1½ cups cooked rice (rice cooker)",
+        "2 cans light tuna (170 g each before draining); drain both",
+        "1½ cups (375 mL) previously cooked rice",
         "½ avocado, diced",
         "½ cucumber, diced",
-        "1 tsp soy sauce + lime juice",
-        "Sriracha to taste"
+        "1 tsp (5 mL) soy sauce",
+        "1 tbsp (15 mL) lime juice",
+        "½ tsp sriracha (optional)"
       ],
       "steps": [
-        "Use previously cooked rice (warm it if preferred), and drain tuna.",
-        "Mix soy, lime and sriracha; toss with tuna.",
-        "Add avocado and cucumber over rice; drizzle sauce."
+        "If rice is not already cooked, cook it in your rice cooker following its manual; allow additional time. Measure 1½ cups after cooking. Reheat refrigerated rice until thoroughly hot.",
+        "Drain both tuna cans. Dice half a cucumber and half an avocado.",
+        "Mix 1 tsp soy sauce, 1 tbsp lime juice and optional ½ tsp sriracha in a bowl.",
+        "Flake the drained tuna into the sauce with a fork and mix for 20 seconds.",
+        "Put the hot rice in a bowl and top with tuna, avocado and cucumber. Serve."
       ],
-      "tip": "Toss in chili crisp for crunch; measure it if using more than a teaspoon.",
+      "tip": "Canned tuna is already cooked. Sriracha is optional.",
       "nutrition": {
         "calories": 760,
         "protein_g": 70,
@@ -48,23 +51,28 @@
     "gingerbeef": {
       "id": "gingerbeef",
       "title": "Sticky ginger beef noodles",
-      "minutes": 15,
+      "minutes": 20,
       "servings": 1,
       "ingredients": [
-        "225 g lean ground beef",
-        "90 g dry soba noodles (wheat and buckwheat)",
-        "2 cups frozen broccoli florets",
-        "2 tbsp reduced-sodium soy sauce",
-        "1 tsp honey",
-        "1 tsp sesame oil",
-        "Garlic and grated ginger"
+        "225 g raw lean ground beef",
+        "90 g dry Blue Dragon soba noodles (NOT penne)",
+        "2 cups (500 mL) frozen broccoli florets",
+        "2 tbsp (30 mL) reduced-sodium soy sauce",
+        "1 tsp (5 mL) honey",
+        "1 tsp (5 mL) sesame oil",
+        "1 minced garlic clove (about 1 tsp)",
+        "1 tsp grated fresh ginger",
+        "2 tbsp (30 mL) water"
       ],
       "steps": [
-        "Cook noodles according to package.",
-        "Brown beef in a skillet; add broccoli and cook until hot.",
-        "Stir together soy, honey, sesame oil, garlic and ginger; add to pan, toss with noodles."
+        "Mince one garlic clove and grate 1 tsp fresh ginger. Keep the broccoli frozen; it goes straight into the skillet.",
+        "Mix soy sauce, honey, sesame oil, garlic, ginger and 2 tbsp water in a small bowl.",
+        "Heat a large skillet over medium-high heat. Add 225 g ground beef and break it apart for 5–7 minutes, until fully cooked to 71°C / 160°F. Drain excess fat if needed.",
+        "Add 2 cups frozen broccoli and 2 tbsp water to the beef. Cover over medium heat for 4–6 minutes, stirring halfway, until thoroughly hot.",
+        "Meanwhile boil a pot of water. Add 90 g SOBA noodles; Blue Dragon's package says 3 minutes (follow your own package if different). Drain immediately. Do not use penne cooking times.",
+        "Pour the sauce over beef and broccoli. Stir 1 minute over medium heat; add drained soba, toss for 30 seconds and serve."
       ],
-      "tip": "A splash of rice vinegar or lime gives the sauce more bite.",
+      "tip": "Soba are for ginger beef; penne are for meatball marinara. Your Blue Dragon soba pack specifies 3 minutes.",
       "nutrition": {
         "calories": 880,
         "protein_g": 65,
@@ -76,22 +84,27 @@
     "lemonpotato": {
       "id": "lemonpotato",
       "title": "Lemony chicken and potato bowl",
-      "minutes": 12,
+      "minutes": 15,
       "servings": 1,
       "ingredients": [
-        "225 g cooked chicken breast or thigh",
-        "300 g baby potatoes",
-        "1 cup chopped tomato and cucumber",
-        "2 tsp olive oil",
-        "1 tsp Dijon mustard",
-        "Lemon juice, oregano, salt and pepper"
+        "225 g ALREADY COOKED chicken breast or thigh",
+        "300 g baby potatoes, washed and halved",
+        "½ cup (125 mL) diced tomatoes",
+        "½ cup (125 mL) diced cucumber",
+        "2 tsp (10 mL) olive oil",
+        "1 tsp (5 mL) Dijon mustard",
+        "1 tbsp (15 mL) lemon juice",
+        "¼ tsp dried oregano",
+        "Pinch of salt and black pepper"
       ],
       "steps": [
-        "Microwave halved potatoes until tender, about 7–9 minutes.",
-        "Warm cooked chicken if preferred.",
-        "Whisk olive oil, Dijon, lemon and oregano; toss everything together."
+        "Confirm the 225 g chicken is ALREADY COOKED. If raw, cut it into strips and pan-cook over medium-high heat for about 6–10 minutes, checking for 74°C / 165°F; allow extra time.",
+        "Wash and halve potatoes. Place in a microwave-safe dish with 2 tbsp water, cover loosely, microwave on high 7–9 minutes, stirring halfway, until fork tender.",
+        "Dice enough tomato and cucumber for ½ cup each. Cut the cooked chicken into roughly 2 cm pieces.",
+        "Mix olive oil, Dijon, lemon juice, oregano, salt and pepper in a small bowl.",
+        "Reheat cooked chicken in a medium-hot skillet for 1–2 minutes or microwave until hot. Toss with potatoes, vegetables and dressing; serve."
       ],
-      "tip": "Use cooked chicken strips or rotisserie chicken to keep this nearly no-prep.",
+      "tip": "The 15-minute total assumes pre-cooked chicken. Raw chicken must be cooked separately to 74°C / 165°F.",
       "nutrition": {
         "calories": 725,
         "protein_g": 77,
@@ -103,23 +116,30 @@
     "fajitas": {
       "id": "fajitas",
       "title": "Smoky chicken fajita rice bowls",
-      "minutes": 20,
+      "minutes": 30,
       "servings": 2,
       "ingredients": [
-        "450 g raw chicken strips (makes 2 portions)",
-        "2 bell peppers, sliced",
-        "1 onion, sliced",
-        "2 cups cooked rice (for 2 portions)",
-        "1 tbsp olive oil",
-        "2 tsp smoked paprika + 1 tsp cumin",
-        "Lime juice and salsa"
+        "450 g RAW chicken strips (makes 2 portions)",
+        "2 bell peppers, seeded and cut into strips",
+        "1 medium onion, peeled and sliced",
+        "2 cups (500 mL) ALREADY COOKED rice, for both portions",
+        "1 tbsp (15 mL) olive oil",
+        "2 tsp smoked paprika",
+        "1 tsp ground cumin",
+        "Pinch of salt and pepper",
+        "2 tbsp (30 mL) salsa",
+        "1 tbsp (15 mL) lime juice"
       ],
       "steps": [
-        "Season chicken with paprika, cumin, salt and pepper.",
-        "Sear chicken in oil until cooked to 74°C/165°F. Add peppers and onions; cook until tender-crisp.",
-        "Serve half over rice with salsa and lime. Refrigerate the other half promptly for Thursday lunch."
+        "Cook rice in your rice cooker first if necessary, following its manual. You need 2 cups AFTER cooking for the two servings.",
+        "Cut 450 g raw chicken into 1–2 cm strips; slice peppers and onion. Use a separate cutting surface for raw poultry.",
+        "Season chicken with 2 tsp smoked paprika, 1 tsp cumin, salt and pepper.",
+        "Heat a large skillet over medium-high for 1 minute; add 1 tbsp olive oil and chicken. Stir-cook 5–8 minutes until the thickest strip reaches 74°C / 165°F.",
+        "Add peppers and onion; stir-cook another 5–7 minutes until tender-crisp.",
+        "Divide the chicken-vegetable mixture equally. Eat one half with 1 cup cooked rice, 1 tbsp salsa and lime.",
+        "Promptly refrigerate the other half of the chicken-vegetable mixture in a covered container for Thursday lunch. Have another cup of cooked rice ready for Thursday."
       ],
-      "tip": "Double the vegetables if hungry; the second portion makes Thursday lunch easy.",
+      "tip": "Makes two chicken-and-vegetable servings: one Tuesday, one Thursday. Chill leftovers promptly.",
       "nutrition": {
         "calories": 610,
         "protein_g": 54,
@@ -131,20 +151,23 @@
     "fajitaleft": {
       "id": "fajitaleft",
       "title": "Fajita black-bean bowl",
-      "minutes": 5,
+      "minutes": 12,
       "servings": 1,
       "ingredients": [
-        "1 portion cooked fajita chicken and peppers from Tuesday",
-        "1 cup cooked rice",
-        "¾ cup drained canned black beans",
-        "½ cup frozen whole-kernel sweet corn",
-        "Salsa and fresh lime"
+        "1 refrigerated serving of ALREADY COOKED chicken and peppers from Tuesday",
+        "1 cup (250 mL) cooked rice",
+        "¾ cup (180 mL) canned black beans, rinsed and drained",
+        "½ cup (125 mL) frozen corn kernels",
+        "1 tbsp (15 mL) salsa",
+        "1 tsp (5 mL) lime juice"
       ],
       "steps": [
-        "Reheat cooked rice, leftover chicken, beans and frozen corn until piping hot.",
-        "Add salsa and lime."
+        "Take Tuesday's cooked chicken and peppers from the refrigerator. Only use it if it was chilled promptly and kept refrigerated.",
+        "Drain and rinse black beans; measure ¾ cup. Measure ½ cup corn straight from the freezer.",
+        "Put chicken, peppers, 1 cup cooked rice, beans, corn and 2 tbsp water into a skillet over medium heat. Cover 5–7 minutes, stirring twice, until leftovers are piping hot (74°C / 165°F).",
+        "Transfer to a bowl. Top with 1 tbsp salsa and 1 tsp lime juice, then serve."
       ],
-      "tip": "Leftover cooked chicken should be refrigerated promptly and used within 3–4 days.",
+      "tip": "This is a LEFTOVER chicken recipe; do not use raw chicken. Refrigerate cooked rice promptly.",
       "nutrition": {
         "calories": 830,
         "protein_g": 65,
@@ -156,23 +179,27 @@
     "salmon": {
       "id": "salmon",
       "title": "Maple–Dijon salmon with potatoes",
-      "minutes": 25,
+      "minutes": 35,
       "servings": 1,
       "ingredients": [
-        "225 g salmon fillet",
-        "300 g baby potatoes, halved",
-        "2 cups frozen cut green beans",
-        "2 tsp olive oil",
-        "1 tbsp Dijon mustard",
-        "2 tsp maple syrup",
-        "Lemon, black pepper"
+        "225 g raw salmon fillet",
+        "300 g baby potatoes, washed and halved",
+        "2 cups (500 mL) frozen cut green beans",
+        "2 tsp (10 mL) olive oil",
+        "1 tbsp (15 mL) Dijon mustard",
+        "2 tsp (10 mL) maple syrup",
+        "1 tbsp (15 mL) lemon juice",
+        "¼ tsp black pepper"
       ],
       "steps": [
-        "Heat oven or air fryer to 200°C/400°F. Toss potatoes with oil and seasoning; start cooking them first.",
-        "Combine Dijon and maple syrup; brush salmon and cook until done (about 10–14 minutes depending on thickness).",
-        "Steam beans; finish with lemon."
+        "Preheat oven to 200°C / 400°F. Wash and halve 300 g potatoes, place on a baking tray, toss with 2 tsp olive oil and black pepper.",
+        "Roast potatoes 15 minutes, then turn them. They need about 25–35 minutes total, depending on size, until easily pierced with a fork.",
+        "Meanwhile mix Dijon and maple syrup. Pat salmon dry and brush the top with the mixture.",
+        "After the potatoes have had 15 minutes, bake salmon on a separate small tray at 200°C / 400°F for about 10–15 minutes depending on thickness. Check the centre with a thermometer: aim for 70°C / 158°F.",
+        "Heat frozen green beans in a covered saucepan with a splash of water over medium heat for about 5–8 minutes, stirring until hot; drain.",
+        "Plate salmon, potatoes and beans; finish with 1 tbsp lemon juice."
       ],
-      "tip": "For less cleanup, use foil or a parchment-lined tray.",
+      "tip": "Start the potatoes before the salmon. If using an air fryer instead, follow its specific instructions and check doneness.",
       "nutrition": {
         "calories": 880,
         "protein_g": 54,
@@ -187,26 +214,26 @@
       "minutes": 30,
       "servings": 1,
       "ingredients": [
-        "220 g frozen PRECOOKED lean beef or turkey meatballs (check the bag)",
-        "90 g dry penne rigate pasta",
+        "220 g FROZEN FULLY COOKED beef or turkey meatballs (check bag)",
+        "90 g dry PENNE RIGATE pasta (not soba)",
         "¾ cup (180 mL) marinara sauce",
-        "2 cups baby spinach",
+        "2 cups (500 mL) baby spinach",
         "1 tsp (5 mL) olive oil",
-        "1 medium garlic clove, finely minced (about 1 tsp minced garlic)",
+        "1 medium garlic clove, minced (about 1 tsp)",
         "1 tsp dried basil",
-        "¼ tsp crushed red pepper flakes (optional, to taste)",
-        "2 tbsp (30 mL) water, only if the sauce is thick"
+        "¼ tsp red pepper flakes (optional)",
+        "2 tbsp (30 mL) water if sauce is too thick"
       ],
       "steps": [
-        "Check the meatball bag: these instructions are for FROZEN, FULLY COOKED meatballs. You do not need to thaw them. If yours are raw, cook them fully according to the package before adding to the sauce.",
-        "Finely mince 1 garlic clove. Place a large skillet over medium heat. Add 1 tsp olive oil and the garlic; stir for about 30 seconds without browning it.",
-        "Pour ¾ cup (180 mL) marinara into the skillet. Add 2 tbsp water if it looks too thick. Add the 220 g frozen cooked meatballs directly to the sauce.",
-        "Cover and lower to medium-low heat. Gently simmer for about 15–20 minutes, stirring every 5 minutes. The meatballs must be hot all the way through (aim for 74°C / 165°F); continue heating if needed.",
-        "While the meatballs simmer, bring a pot of water to a boil. Add 90 g dry penne and cook for the time on the package (usually 9–12 minutes). Drain in a colander.",
-        "Once the meatballs are hot, stir in 2 cups spinach, 1 tsp dried basil, and, if wanted, ¼ tsp red pepper flakes. Cook another 1–2 minutes until the spinach wilts.",
-        "Add the drained pasta to the skillet. Toss together for about 30 seconds to coat everything, then serve."
+        "Confirm the frozen meatballs are FULLY COOKED. If so, no thawing is required; if RAW, cook fully according to package before continuing.",
+        "Mince one garlic clove. Heat 1 tsp olive oil in a large skillet over medium heat; stir garlic for 30 seconds without browning.",
+        "Add ¾ cup marinara and 2 tbsp water if thick. Add 220 g frozen fully cooked meatballs; cover.",
+        "Simmer over medium-low 15–20 minutes, stirring every 5 minutes, until meatballs are hot in the centre (74°C / 165°F for reheating). Follow package directions if different.",
+        "Meanwhile boil a pot of water. Add 90 g dry PENNE (not soba); cook for the time listed on your PENNE package and drain.",
+        "Add 2 cups spinach, 1 tsp dried basil and optional ¼ tsp pepper flakes to hot meatballs. Stir-cook 1–2 minutes until wilted.",
+        "Toss drained penne into sauce for 30 seconds and serve."
       ],
-      "tip": "Garlic quantity: 1 medium clove (about 1 tsp minced). If you have no fresh garlic, substitute ¼ tsp garlic powder. Compliments Balance frozen cooked meatballs can be heated without thawing; follow your own package if its directions differ.",
+      "tip": "PENNE for marinara; SOBA for ginger beef. Always use cooking directions from the correct package.",
       "nutrition": {
         "calories": 875,
         "protein_g": 58,
@@ -218,23 +245,30 @@
     "chili": {
       "id": "chili",
       "title": "Smoky turkey and black-bean chili",
-      "minutes": 25,
+      "minutes": 35,
       "servings": 3,
       "ingredients": [
-        "600 g lean ground turkey",
-        "1 large can crushed tomatoes (796 mL)",
-        "1 can black beans, drained",
-        "1 onion, chopped",
-        "1 bell pepper, chopped",
-        "1 tbsp oil",
-        "Chili powder, cumin, smoked paprika and salt"
+        "600 g RAW lean ground turkey (two packs if each is 450 g)",
+        "1 can (796 mL) crushed tomatoes",
+        "1 can (540 mL) black beans, rinsed and drained",
+        "1 medium onion, peeled and diced (about 1 cup)",
+        "1 bell pepper, seeded and diced",
+        "1 tbsp (15 mL) olive oil",
+        "2 tsp chili powder",
+        "1 tsp ground cumin",
+        "1 tsp smoked paprika",
+        "¼ tsp salt (or to taste)"
       ],
       "steps": [
-        "In a pot, sauté onion and pepper in oil; brown the turkey thoroughly.",
-        "Add tomatoes, beans and spices. Simmer 15 minutes, stirring occasionally.",
-        "Eat one portion; cool and freeze at least one additional portion for next Monday."
+        "Check turkey pack weight: recipe uses 600 g RAW. A single 450 g pack also works but yields less meat/protein in each portion.",
+        "Dice onion and bell pepper. Drain and rinse the black beans.",
+        "Heat a large pot over medium-high. Add 1 tbsp oil, onion and pepper; stir 4–5 minutes until softening.",
+        "Add raw turkey; break up and stir for 6–8 minutes until fully cooked to 74°C / 165°F.",
+        "Stir in the entire can of crushed tomatoes, drained beans, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika and ¼ tsp salt.",
+        "Reduce to medium-low; simmer uncovered 15 minutes, stirring every 4–5 minutes. If too thick, add 2–4 tbsp water.",
+        "Divide into roughly 3 portions. Eat one on Friday, chill the others promptly in shallow containers and FREEZE at least one for Week 2 Monday's chili potato."
       ],
-      "tip": "Makes about 3 portions; top with chopped onion, cilantro and hot sauce.",
+      "tip": "Three portions total; save and freeze at least one for next week's loaded potato.",
       "nutrition": {
         "calories": 560,
         "protein_g": 47,
@@ -246,22 +280,28 @@
     "porkchop": {
       "id": "porkchop",
       "title": "Garlic–lime pork chops and sweet potato",
-      "minutes": 25,
+      "minutes": 35,
       "servings": 1,
       "ingredients": [
-        "225–250 g lean boneless pork chop",
-        "350 g sweet potato, cut in wedges",
-        "2 cups bagged cabbage slaw",
-        "2 tsp olive oil",
-        "Garlic, lime, smoked paprika",
-        "1 tbsp apple cider vinegar"
+        "225–250 g RAW boneless lean pork chop",
+        "350 g sweet potato, washed and cut into 1–2 cm thick wedges",
+        "2 cups (500 mL) bagged shredded cabbage slaw",
+        "2 tsp (10 mL) olive oil",
+        "1 medium garlic clove, minced (about 1 tsp)",
+        "½ tsp smoked paprika",
+        "1 tbsp (15 mL) lime juice",
+        "1 tbsp (15 mL) apple cider vinegar",
+        "Pinch of salt and pepper"
       ],
       "steps": [
-        "Air-fry or roast seasoned sweet potato wedges at 200°C/400°F until crisp, about 18–25 minutes.",
-        "Season pork with paprika and garlic; pan-sear to safe doneness and rest.",
-        "Toss cabbage with vinegar and lime; plate together."
+        "Preheat oven to 200°C / 400°F. Cut sweet potato into 1–2 cm thick wedges, spread on a tray and toss with 1 tsp oil and a pinch of salt.",
+        "Roast 20–30 minutes, turning after 12–15 minutes, until fork-tender.",
+        "Mince 1 garlic clove; season both sides of the pork chop with garlic, ½ tsp paprika, salt and pepper.",
+        "Heat a skillet over medium-high with remaining 1 tsp oil. Cook chop about 4–6 minutes per side depending on thickness; check 71°C / 160°F in the centre. Rest 3 minutes.",
+        "Mix 2 cups shredded cabbage with 1 tbsp vinegar and 1 tbsp lime juice for about 20 seconds.",
+        "Serve pork, sweet potato and slaw together."
       ],
-      "tip": "A little hot sauce in the slaw makes it brighter.",
+      "tip": "Use a thermometer for the pork; the time depends on chop thickness.",
       "nutrition": {
         "calories": 730,
         "protein_g": 57,
@@ -273,22 +313,26 @@
     "thaicurry": {
       "id": "thaicurry",
       "title": "Thai red shrimp curry",
-      "minutes": 15,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "250 g thawed shrimp",
-        "1 cup light coconut milk",
-        "2 cups frozen Asian-style stir-fry vegetable mix",
-        "1–2 tbsp Thai red curry paste",
-        "1½ cups cooked jasmine rice",
-        "Lime juice and fresh cilantro (optional)"
+        "250 g RAW peeled, deveined, THAWED shrimp",
+        "1 cup (250 mL) light coconut milk",
+        "2 cups (500 mL) frozen Asian-style stir-fry vegetable blend",
+        "1 tbsp (15 mL) Thai red curry paste; add more only after tasting",
+        "1½ cups (375 mL) ALREADY COOKED jasmine rice",
+        "1 tbsp (15 mL) lime juice",
+        "1 tbsp chopped fresh cilantro (optional)"
       ],
       "steps": [
-        "Heat curry paste in a skillet for 30 seconds.",
-        "Add coconut milk and vegetables; simmer until vegetables are hot.",
-        "Add shrimp and cook until opaque; serve over rice with lime."
+        "If shrimp are frozen, thaw overnight in the refrigerator or in a sealed bag in cold water, changing the water every 30 minutes. Drain; never thaw on the counter.",
+        "Cook jasmine rice in your rice cooker if needed, following its instructions. Measure 1½ cups AFTER cooking.",
+        "Heat a skillet or saucepan over medium. Stir in 1 tbsp red curry paste for 30 seconds without burning.",
+        "Pour in 1 cup coconut milk and add 2 cups frozen Asian vegetables directly from the freezer. Cover and simmer over medium-low for 6–8 minutes until hot.",
+        "Add 250 g raw thawed shrimp; simmer for about 3–5 minutes depending on size, stirring until opaque, firm and 74°C / 165°F in the centre. If shrimp are PRECOOKED, add only at the end for 1–2 minutes to reheat.",
+        "Stir in 1 tbsp lime juice, taste, and add extra curry paste only if desired. Spoon over 1½ cups cooked rice; optional cilantro on top."
       ],
-      "tip": "Curry pastes vary dramatically in heat—start with 1 tbsp.",
+      "tip": "Add frozen vegetables straight to the sauce. Thaw raw shrimp first. If using pre-cooked shrimp, only reheat at the end.",
       "nutrition": {
         "calories": 855,
         "protein_g": 67,
