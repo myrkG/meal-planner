@@ -344,20 +344,23 @@
     "chilipotato": {
       "id": "chilipotato",
       "title": "Pomme de terre garnie au chili",
-      "minutes": 10,
+      "minutes": 15,
       "servings": 1,
       "ingredients": [
-        "1 portion congelée de chili de dinde maison",
-        "350 g de pomme de terre Russet",
-        "2 c. à soupe d’oignon haché",
-        "Sauce piquante et oignon vert (facultatif)"
+        "1 portion (environ ⅓ de la recette) de chili de dinde CUIT vendredi, congelé pour ce repas",
+        "1 pomme de terre Russet de 350 g, lavée",
+        "2 c. à soupe (30 ml) d’oignon ordinaire haché",
+        "1 c. à thé (5 ml) de sauce piquante (facultatif)",
+        "1 c. à soupe (15 ml) d’oignon vert haché (facultatif)"
       ],
       "steps": [
-        "Piquer la pomme de terre et la cuire au micro-ondes jusqu’à tendreté en la retournant une fois.",
-        "Réchauffer le chili décongelé jusqu’à ce qu’il soit très chaud.",
-        "Ouvrir la pomme de terre, la garnir de chili, d’oignon et de sauce piquante."
+        "La veille, mettre au réfrigérateur la portion de chili de vendredi pour la décongeler. Si elle est encore gelée, utiliser le mode décongélation du micro-ondes, puis la réchauffer aussitôt.",
+        "Laver la pomme de terre Russet de 350 g, la piquer 5 ou 6 fois avec une fourchette et la placer sur une assiette allant au micro-ondes.",
+        "Cuire au micro-ondes à puissance élevée environ 7 à 10 minutes selon l’appareil. La retourner à mi-cuisson; elle est prête quand une fourchette traverse facilement jusqu’au centre. Laisser reposer 1 minute.",
+        "Mettre la portion de chili décongelée dans un bol couvert, allant au micro-ondes. Réchauffer 2 à 4 minutes, en remuant à mi-cuisson, jusqu’à ce qu’elle soit uniformément très chaude (74 °C).",
+        "Hacher 2 c. à soupe d’oignon. Ouvrir la pomme de terre dans le sens de la longueur, la garnir de tout le chili et de l’oignon. Ajouter, si désiré, 1 c. à thé de sauce piquante et un peu d’oignon vert."
       ],
-      "tip": "Si la portion est petite, ajouter une poignée de haricots.",
+      "tip": "Il faut une portion de chili déjà cuite de la semaine 1. Ce n’est PAS une recette qui demande de préparer un nouveau chili.",
       "nutrition": {
         "calories": 845,
         "protein_g": 54,
@@ -369,22 +372,28 @@
     "oregano": {
       "id": "oregano",
       "title": "Bol de riz au poulet citron-origan",
-      "minutes": 20,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "225 g de poitrine ou de haut de cuisse de poulet cru",
-        "1½ tasse de riz cuit",
-        "1½ tasse de tomates et de concombre hachés",
-        "2 c. à thé d’huile d’olive",
-        "1 citron",
-        "Ail, origan séché, sel et poivre"
+        "225 g de poulet CRU, poitrine ou haut de cuisse désossé",
+        "1½ tasse (375 ml) de riz DÉJÀ CUIT",
+        "¾ tasse (180 ml) de tomates en dés",
+        "¾ tasse (180 ml) de concombre en dés",
+        "2 c. à thé (10 ml) d’huile d’olive",
+        "1 citron (pour 1 c. à soupe de jus et un peu de zeste)",
+        "1 gousse d’ail, hachée (environ 1 c. à thé)",
+        "½ c. à thé d’origan séché",
+        "1 pincée de sel et de poivre"
       ],
       "steps": [
-        "Assaisonner le poulet d’ail, d’origan, de zeste de citron, de sel et de poivre.",
-        "Saisir dans l’huile d’olive jusqu’à ce que le poulet atteigne 74 °C (165 °F) à cœur.",
-        "Servir avec le riz chaud et une salade tomate-concombre citronnée."
+        "Si le riz n’est pas cuit, le préparer dans le cuiseur à riz selon son mode d’emploi; prévoir ce temps en plus. Il faut 1½ tasse APRÈS cuisson.",
+        "Laver le citron. Prélever environ ¼ c. à thé de zeste avec une râpe, puis presser 1 c. à soupe de jus. Hacher 1 gousse d’ail. Couper 225 g de poulet en morceaux réguliers d’environ 2 cm.",
+        "Dans un bol, mélanger le poulet avec l’ail, le zeste, ½ c. à thé d’origan, sel et poivre.",
+        "Faire chauffer une poêle avec 2 c. à thé d’huile d’olive à feu moyen-vif. Ajouter le poulet en une couche; cuire environ 6 à 10 minutes, en retournant, jusqu’à ce que tous les morceaux atteignent 74 °C au centre.",
+        "Pendant la cuisson, couper tomates et concombre pour obtenir ¾ tasse de chacun; les mélanger avec 1 c. à soupe de jus de citron.",
+        "Mettre 1½ tasse de riz chaud dans un bol, ajouter le poulet bien cuit et la salade tomate-concombre. Servir aussitôt."
       ],
-      "tip": "Bien citronner pour garder un goût frais, sans sauce crémeuse.",
+      "tip": "L’origan séché est préférable; si tu n’en as pas, mets ½ c. à thé de basilic séché à la place.",
       "nutrition": {
         "calories": 700,
         "protein_g": 59,
@@ -396,22 +405,28 @@
     "peanutnoodle": {
       "id": "peanutnoodle",
       "title": "Nouilles thaïes au poulet et aux arachides",
-      "minutes": 15,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "225 g de lanières de poulet",
-        "90 g de nouilles de riz plates sèches (type Pad Thaï)",
-        "2 tasses de chou et de carottes râpés",
-        "1½ c. à soupe de beurre d’arachides",
-        "1 c. à soupe de sauce soya",
-        "Jus de lime, sauce chili et eau tiède"
+        "225 g de poulet CRU, coupé en lanières",
+        "90 g de nouilles de RIZ PLATES sèches (type Pad Thaï; pas les soba, pas les penne)",
+        "1 tasse (250 ml) de chou râpé",
+        "1 tasse (250 ml) de carottes râpées",
+        "1½ c. à soupe (22 ml) de beurre d’arachides",
+        "1 c. à soupe (15 ml) de sauce soya",
+        "1 c. à soupe (15 ml) de jus de lime",
+        "1 c. à thé (5 ml) de sauce chili douce ou sauce piquante (au goût)",
+        "2 à 3 c. à soupe (30 à 45 ml) d’eau chaude"
       ],
       "steps": [
-        "Cuire les nouilles et le poulet; celui-ci doit atteindre 74 °C (165 °F) à cœur.",
-        "Fouetter le beurre d’arachides, la sauce soya, la lime, la sauce chili et assez d’eau tiède pour une sauce fluide.",
-        "Mélanger les nouilles avec le poulet, les légumes croquants et la sauce."
+        "Identifier les bonnes nouilles : ici, ce sont les nouilles de RIZ PLATES pour Pad Thaï. Lire la méthode sur LEUR paquet (trempage ou cuisson, selon la marque); ne pas utiliser le temps des soba ou des penne.",
+        "Couper le poulet cru en lanières de 1 à 2 cm. Mesurer 1 tasse de chou râpé et 1 tasse de carottes râpées. Garder les légumes crus pour le croquant.",
+        "Dans un bol, mélanger 1½ c. à soupe de beurre d’arachides, 1 c. à soupe de sauce soya, 1 c. à soupe de jus de lime, 1 c. à thé de sauce chili et 2 c. à soupe d’eau chaude. Fouetter avec une fourchette; ajouter une c. à soupe d’eau si trop épais.",
+        "Chauffer une poêle antiadhésive à feu moyen-vif. Ajouter les 225 g de poulet en lanières avec 2 c. à soupe d’eau pour éviter de coller; remuer pendant 6 à 10 minutes, jusqu’à ce qu’il soit cuit à 74 °C à cœur.",
+        "Pendant que le poulet cuit, préparer 90 g de nouilles de riz exactement selon le paquet. Les égoutter dès qu’elles sont tendres; un rinçage rapide peut éviter qu’elles collent.",
+        "Baisser la poêle à feu doux. Ajouter au poulet les nouilles, la sauce aux arachides, le chou et les carottes. Mélanger environ 1 à 2 minutes jusqu’à ce que le tout soit chaud, sans ramollir complètement les crudités. Servir."
       ],
-      "tip": "Ajouter plus de lime et de piment plutôt que plus de beurre d’arachides pour intensifier le goût.",
+      "tip": "Trois sortes différentes dans le menu : SOBA = bœuf gingembre; PENNE = boulettes; nouilles de RIZ PLATES = poulet aux arachides. Ne pas échanger les temps de cuisson.",
       "nutrition": {
         "calories": 820,
         "protein_g": 65,
@@ -423,23 +438,30 @@
     "tacoskillet": {
       "id": "tacoskillet",
       "title": "Poêlée de bœuf façon tacos fumés",
-      "minutes": 15,
+      "minutes": 20,
       "servings": 1,
       "ingredients": [
-        "225 g de bœuf haché maigre",
-        "¾ tasse de haricots noirs égouttés",
-        "½ poivron en dés",
-        "½ tasse de maïs sucré en grains entiers surgelé",
-        "1 tasse de riz cuit",
-        "⅓ avocat",
-        "Salsa, poudre de chili, cumin et paprika fumé"
+        "225 g de bœuf haché maigre CRU",
+        "¾ tasse (180 ml) de haricots noirs en conserve, rincés et égouttés",
+        "½ poivron, épépiné et coupé en dés",
+        "½ tasse (125 ml) de maïs en grains surgelé",
+        "1 tasse (250 ml) de riz DÉJÀ CUIT",
+        "⅓ d’avocat, coupé en dés",
+        "2 c. à soupe (30 ml) de salsa",
+        "½ c. à thé de poudre de chili",
+        "¼ c. à thé de cumin moulu",
+        "¼ c. à thé de paprika fumé",
+        "2 c. à soupe (30 ml) d’eau"
       ],
       "steps": [
-        "Faire dorer le bœuf dans une grande poêle; ajouter poivron et épices à tacos.",
-        "Ajouter les haricots et le maïs; réchauffer.",
-        "Servir sur du riz chaud avec l’avocat en dés et la salsa."
+        "Si le riz n’est pas déjà cuit, le faire au cuiseur à riz selon son manuel; prévoir le temps additionnel. Mesurer 1 tasse de riz APRÈS cuisson.",
+        "Couper ½ poivron en petits dés. Ouvrir les haricots noirs, les rincer et mesurer ¾ tasse. Mesurer ½ tasse de maïs directement congelé.",
+        "Chauffer une poêle à feu moyen-vif et ajouter 225 g de bœuf haché cru. Le défaire avec une spatule pendant 5 à 7 minutes, jusqu’à cuisson complète à 71 °C. Égoutter le gras au besoin.",
+        "Ajouter poivron, ½ c. à thé de poudre de chili, ¼ c. à thé de cumin et ¼ c. à thé de paprika; remuer 2 minutes à feu moyen.",
+        "Ajouter les haricots, le maïs congelé et 2 c. à soupe d’eau. Couvrir à feu moyen 3 à 5 minutes en remuant une fois, jusqu’à ce que le maïs soit bien chaud.",
+        "Mettre le riz chaud dans un bol, ajouter le mélange de bœuf, 2 c. à soupe de salsa et ⅓ d’avocat coupé en dés. Servir."
       ],
-      "tip": "Pour relever, ajouter un peu de chipotle en sauce adobo ou des jalapeños marinés.",
+      "tip": "Nul besoin de décongeler le maïs. Les haricots sont déjà cuits en conserve : il suffit de les réchauffer.",
       "nutrition": {
         "calories": 940,
         "protein_g": 60,
@@ -451,22 +473,26 @@
     "shrimpmango": {
       "id": "shrimpmango",
       "title": "Bol de crevettes lime-chili et mangue",
-      "minutes": 12,
+      "minutes": 20,
       "servings": 1,
       "ingredients": [
-        "250 g de crevettes décortiquées",
-        "1½ tasse de riz cuit",
-        "½ mangue en dés",
-        "½ concombre en dés",
-        "2 c. à thé d’huile d’olive",
-        "Lime, flocons de piment et coriandre fraîche (facultative)"
+        "250 g de crevettes CRUES, décortiquées, déveinées et décongelées",
+        "1½ tasse (375 ml) de riz DÉJÀ CUIT",
+        "½ mangue, pelée et coupée en dés",
+        "½ concombre, coupé en dés",
+        "2 c. à thé (10 ml) d’huile d’olive",
+        "1 c. à soupe (15 ml) de jus de lime",
+        "¼ c. à thé de flocons de piment rouge (facultatif)",
+        "1 c. à soupe de coriandre fraîche hachée (facultatif)"
       ],
       "steps": [
-        "Saisir les crevettes décongelées dans l’huile jusqu’à ce qu’elles soient opaques et bien cuites.",
-        "Mélanger mangue et concombre en dés avec lime et flocons de piment.",
-        "Servir sur du riz et terminer avec la coriandre."
+        "Décongeler les crevettes crues au réfrigérateur pendant la nuit ou dans un sac fermé plongé dans de l’eau froide (changer l’eau toutes les 30 minutes). Égoutter et éponger avec du papier absorbant.",
+        "Si nécessaire, faire cuire du riz au cuiseur à riz selon son manuel; mesurer 1½ tasse de riz déjà cuit. Garder au chaud.",
+        "Peler la mangue et couper la moitié en petits dés. Couper ½ concombre en dés. Mélanger dans un bol avec 1 c. à soupe de jus de lime et, si désiré, ¼ c. à thé de flocons de piment.",
+        "Chauffer une poêle avec 2 c. à thé d’huile à feu moyen-vif. Ajouter les 250 g de crevettes crues décongelées en une couche. Cuire environ 2 à 3 minutes de chaque côté, jusqu’à ce qu’elles soient opaques, fermes et cuites à 74 °C au centre.",
+        "Mettre 1½ tasse de riz chaud dans un bol; ajouter crevettes, mangue et concombre. Parsemer de coriandre si tu en as et servir."
       ],
-      "tip": "La mangue surgelée fonctionne aussi : la décongeler avant de servir.",
+      "tip": "Si tes crevettes sont DÉJÀ CUITES, les réchauffer seulement 1 à 2 minutes à feu moyen plutôt que les cuire à nouveau.",
       "nutrition": {
         "calories": 700,
         "protein_g": 64,
@@ -478,22 +504,26 @@
     "harissa": {
       "id": "harissa",
       "title": "Poulet harissa, pois chiches et légumes sur plaque",
-      "minutes": 25,
+      "minutes": 30,
       "servings": 1,
       "ingredients": [
-        "225 g de poitrine ou de haut de cuisse de poulet, en dés",
-        "¾ tasse de pois chiches égouttés",
-        "2 tasses de poivrons et d’oignon en lanières",
-        "1 c. à soupe de pâte de harissa",
-        "2 c. à thé d’huile d’olive",
-        "½ citron"
+        "225 g de poulet CRU, coupé en cubes de 2 cm",
+        "¾ tasse (180 ml) de pois chiches en conserve, rincés et égouttés",
+        "1 poivron, épépiné et coupé en lanières",
+        "½ oignon moyen, coupé en lanières",
+        "1 c. à soupe (15 ml) de pâte de harissa",
+        "2 c. à thé (10 ml) d’huile d’olive",
+        "½ citron (environ 1 c. à soupe de jus)"
       ],
       "steps": [
-        "Préchauffer le four ou la friteuse à air à 205 °C (400 °F).",
-        "Mélanger poulet, pois chiches et légumes avec harissa et huile. Rôtir en retournant une fois jusqu’à 74 °C (165 °F) à cœur pour le poulet.",
-        "Presser le citron sur le tout."
+        "Préchauffer le four à 205 °C (400 °F). Recouvrir une plaque de papier parchemin si désiré.",
+        "Égoutter et rincer les pois chiches; mesurer ¾ tasse. Couper 1 poivron et ½ oignon en lanières; couper le poulet cru en cubes d’environ 2 cm avec une planche réservée à la volaille.",
+        "Dans un bol, mélanger 1 c. à soupe de harissa et 2 c. à thé d’huile d’olive. Ajouter poulet, pois chiches et légumes; remuer pour tout enrober.",
+        "Répartir sur la plaque sans trop empiler. Enfourner 15 minutes à 205 °C; sortir et retourner les morceaux à la spatule.",
+        "Remettre au four 5 à 10 minutes jusqu’à ce que le poulet soit complètement cuit à 74 °C au centre et que les légumes soient tendres.",
+        "Presser ½ citron sur le tout, mélanger et servir. Si la harissa est très forte, commencer plutôt par ½ c. à soupe."
       ],
-      "tip": "L’harissa est relevée et parfumée; commencer avec moins si vous ne la connaissez pas.",
+      "tip": "Les pois chiches sont déjà cuits; ils rôtissent avec le poulet. Toujours vérifier que le poulet atteint 74 °C.",
       "nutrition": {
         "calories": 645,
         "protein_g": 63,
@@ -505,22 +535,27 @@
     "tunabeans": {
       "id": "tunabeans",
       "title": "Salade de thon, haricots blancs et pommes de terre",
-      "minutes": 12,
+      "minutes": 15,
       "servings": 1,
       "ingredients": [
-        "2 boîtes de thon pâle, égoutté",
-        "¾ tasse de haricots blancs égouttés",
-        "250 g de petites pommes de terre",
-        "1 tasse de tomates cerises coupées en deux",
-        "2 c. à thé d’huile d’olive",
-        "Jus de citron, persil, ail et poivre"
+        "2 boîtes de thon pâle (170 g chacune avant égouttage), égouttées",
+        "¾ tasse (180 ml) de haricots blancs en conserve, rincés et égouttés",
+        "250 g de petites pommes de terre, lavées et coupées en deux",
+        "1 tasse (250 ml) de tomates cerises, coupées en deux",
+        "2 c. à thé (10 ml) d’huile d’olive",
+        "1 c. à soupe (15 ml) de jus de citron",
+        "1 c. à soupe (15 ml) de persil frais haché",
+        "½ gousse d’ail, hachée très finement (environ ½ c. à thé)",
+        "1 pincée de poivre noir"
       ],
       "steps": [
-        "Cuire les pommes de terre au micro-ondes jusqu’à tendreté; laisser tiédir.",
-        "Fouetter l’huile, le citron et l’ail.",
-        "Mélanger avec le thon, les haricots, les tomates et le persil."
+        "Laver les petites pommes de terre et les couper en deux. Mettre dans un plat pour micro-ondes avec 2 c. à soupe d’eau; couvrir sans fermer hermétiquement. Cuire à puissance élevée 6 à 9 minutes, en remuant à mi-cuisson, jusqu’à tendreté; laisser tiédir 2 minutes.",
+        "Pendant ce temps, ouvrir et égoutter les 2 boîtes de thon. Rincer et égoutter ¾ tasse de haricots blancs en conserve.",
+        "Laver les tomates cerises; en couper assez en deux pour obtenir 1 tasse. Hacher 1 c. à soupe de persil et ½ gousse d’ail.",
+        "Dans un petit bol, fouetter 2 c. à thé d’huile d’olive, 1 c. à soupe de jus de citron, l’ail et une pincée de poivre.",
+        "Mettre pommes de terre tièdes, haricots, tomates, thon et persil dans un grand bol. Ajouter la vinaigrette, mélanger délicatement avec une cuillère et servir."
       ],
-      "tip": "Des câpres ou une cuillère à thé de Dijon donnent plus de mordant à la vinaigrette.",
+      "tip": "Le thon et les haricots en conserve sont déjà cuits. Si tu n’as pas de persil frais, l’omettre.",
       "nutrition": {
         "calories": 740,
         "protein_g": 75,
@@ -532,23 +567,30 @@
     "koreanbeef": {
       "id": "koreanbeef",
       "title": "Bol de bœuf collant à la coréenne",
-      "minutes": 15,
+      "minutes": 20,
       "servings": 1,
       "ingredients": [
-        "225 g de lanières de bœuf maigre",
-        "1½ tasse de riz cuit",
-        "2 tasses de brocoli en fleurons surgelé et de champignons frais",
-        "1 c. à soupe de sauce soya",
-        "1 c. à thé de cassonade (ou miel / sirop d’érable)",
-        "1 c. à thé d’huile de sésame",
-        "Ail, gingembre et flocons de piment"
+        "225 g de lanières de bœuf maigre CRUES",
+        "1½ tasse (375 ml) de riz DÉJÀ CUIT",
+        "1 tasse (250 ml) de brocoli en fleurons surgelé",
+        "1 tasse (250 ml) de champignons frais, tranchés",
+        "1 c. à soupe (15 ml) de sauce soya",
+        "1 c. à thé (5 ml) de miel ou de sirop d’érable (à la place de la cassonade)",
+        "1 c. à thé (5 ml) d’huile de sésame",
+        "1 gousse d’ail moyenne, hachée (environ 1 c. à thé)",
+        "1 c. à thé de gingembre frais râpé",
+        "¼ c. à thé de flocons de piment (facultatif)",
+        "2 c. à soupe (30 ml) d’eau"
       ],
       "steps": [
-        "Saisir les lanières de bœuf à feu vif, puis retirer une fois cuites.",
-        "Cuire le brocoli et les champignons jusqu’à ce qu’ils soient tendres mais croquants.",
-        "Remettre le bœuf et mélanger avec la sauce soya, la cassonade, l’huile de sésame, l’ail et le gingembre. Servir sur le riz."
+        "Si le riz n’est pas prêt, cuire au cuiseur à riz selon son manuel et mesurer 1½ tasse APRÈS cuisson.",
+        "Couper les 225 g de bœuf en fines lanières si nécessaire. Trancher les champignons; hacher 1 gousse d’ail et râper 1 c. à thé de gingembre.",
+        "Dans un petit bol, mélanger 1 c. à soupe de sauce soya, 1 c. à thé de miel ou de sirop d’érable, 1 c. à thé d’huile de sésame, l’ail, le gingembre et éventuellement les flocons de piment.",
+        "Chauffer une grande poêle antiadhésive à feu moyen-vif. Saisir le bœuf 3 à 5 minutes en remuant, jusqu’à cuisson complète (71 °C au centre). Transférer le bœuf dans une assiette propre.",
+        "Mettre le brocoli encore congelé, les champignons et 2 c. à soupe d’eau dans la même poêle. Couvrir et cuire 4 à 6 minutes à feu moyen en remuant, jusqu’à ce que les légumes soient chauds et tendres.",
+        "Remettre le bœuf dans la poêle, verser la sauce préparée et mélanger 1 à 2 minutes à feu moyen. Servir immédiatement sur 1½ tasse de riz chaud."
       ],
-      "tip": "Ajouter au choix graines de sésame et oignons verts pour la texture.",
+      "tip": "Le miel ou le sirop d’érable remplace la cassonade; inutile d’en acheter juste pour cette recette.",
       "nutrition": {
         "calories": 840,
         "protein_g": 62,
@@ -560,22 +602,29 @@
     "tomatocurry": {
       "id": "tomatocurry",
       "title": "Cari de poulet tomates et lait de coco",
-      "minutes": 20,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "250 g de poitrine ou de haut de cuisse de poulet en cubes",
-        "¾ tasse de tomates broyées en conserve",
-        "½ tasse de lait de coco léger",
-        "2 tasses de jeunes épinards",
-        "1½ tasse de riz basmati cuit",
-        "Poudre de cari, garam masala, ail et gingembre"
+        "250 g de poulet CRU, coupé en cubes de 2 cm",
+        "¾ tasse (180 ml) de tomates broyées en conserve",
+        "½ tasse (125 ml) de lait de coco léger",
+        "2 tasses (500 ml) de jeunes épinards",
+        "1½ tasse (375 ml) de riz basmati DÉJÀ CUIT",
+        "1 c. à thé (5 ml) de poudre de cari",
+        "½ c. à thé de garam masala",
+        "1 gousse d’ail moyenne, hachée (environ 1 c. à thé)",
+        "1 c. à thé de gingembre frais râpé",
+        "2 c. à soupe (30 ml) d’eau au besoin"
       ],
       "steps": [
-        "Saisir le poulet assaisonné jusqu’à coloration.",
-        "Ajouter tomates, lait de coco, ail, gingembre et épices; laisser mijoter jusqu’à ce que le poulet atteigne 74 °C (165 °F) à cœur.",
-        "Incorporer les épinards et servir sur le riz."
+        "Préparer le riz basmati au cuiseur à riz si nécessaire, selon les instructions du riz et de ton appareil. Il faut 1½ tasse une fois cuit.",
+        "Couper 250 g de poulet cru en cubes de 2 cm sur une planche pour la volaille. Hacher 1 gousse d’ail et râper 1 c. à thé de gingembre.",
+        "Chauffer une poêle antiadhésive à feu moyen-vif. Ajouter les cubes de poulet et remuer 3 à 4 minutes pour faire colorer la surface; ils ne seront pas encore complètement cuits.",
+        "Réduire à feu moyen. Ajouter 1 c. à thé de poudre de cari, ½ c. à thé de garam masala, l’ail et le gingembre. Remuer 30 secondes.",
+        "Verser ¾ tasse de tomates broyées et ½ tasse de lait de coco; ajouter 2 c. à soupe d’eau si la sauce est trop épaisse. Couvrir et laisser mijoter doucement 8 à 12 minutes à feu moyen-doux en remuant, jusqu’à ce que le poulet atteigne 74 °C au centre.",
+        "Ajouter 2 tasses de jeunes épinards et remuer 1 à 2 minutes jusqu’à ce qu’ils ramollissent. Servir sur 1½ tasse de riz basmati cuit."
       ],
-      "tip": "Griller les épices sèches 20 secondes dans la poêle avant d’ajouter les liquides.",
+      "tip": "Le riz mesuré est déjà cuit. Si tu utilises des tomates ou du lait de coco ouverts plus tôt, ils doivent avoir été correctement réfrigérés ou congelés.",
       "nutrition": {
         "calories": 780,
         "protein_g": 64,
@@ -587,23 +636,28 @@
     "stickypork": {
       "id": "stickypork",
       "title": "Udon au porc collant et au sésame",
-      "minutes": 15,
+      "minutes": 25,
       "servings": 1,
       "ingredients": [
-        "225 g de lanières de porc maigre",
-        "200 g de nouilles udon nature prêtes à utiliser",
-        "2 tasses de mélange de légumes asiatiques surgelés",
-        "1 c. à soupe de sauce soya",
-        "1 c. à soupe de sauce chili douce",
-        "1 c. à thé d’huile de sésame",
-        "Ail et graines de sésame"
+        "225 g de lanières de porc maigre CRUES",
+        "200 g de nouilles UDON NATURE PRÊTES À UTILISER (pas les soba ou penne)",
+        "2 tasses (500 ml) de mélange asiatique de légumes surgelés",
+        "1 c. à soupe (15 ml) de sauce soya",
+        "1 c. à soupe (15 ml) de sauce chili douce",
+        "1 c. à thé (5 ml) d’huile de sésame",
+        "1 gousse d’ail moyenne, hachée (environ 1 c. à thé)",
+        "1 c. à thé (5 ml) de graines de sésame",
+        "2 c. à soupe (30 ml) d’eau"
       ],
       "steps": [
-        "Saisir le porc dans une poêle chaude jusqu’à cuisson complète.",
-        "Ajouter les légumes et cuire jusqu’à ce qu’ils soient chauds.",
-        "Ajouter nouilles et sauces; mélanger jusqu’à ce que le tout soit bien enrobé, puis terminer avec les graines de sésame."
+        "Identifier le bon paquet : ici, utiliser les UDON nature de 200 g déjà prêtes à utiliser, et NON les soba de 3 minutes. Lire le paquet pour savoir s’il faut les rincer, les réchauffer ou les cuire brièvement.",
+        "Hacher 1 gousse d’ail. Mélanger dans un bol la sauce soya, la sauce chili douce, l’huile de sésame et 2 c. à soupe d’eau.",
+        "Chauffer une grande poêle antiadhésive à feu moyen-vif. Ajouter 225 g de lanières de porc crues; cuire 5 à 8 minutes en remuant, jusqu’à cuisson complète (71 °C au centre).",
+        "Ajouter les 2 tasses de légumes asiatiques encore congelés et l’ail haché. Couvrir à feu moyen 5 à 7 minutes en remuant à mi-cuisson, jusqu’à ce que les légumes soient complètement chauds.",
+        "Ajouter les 200 g d’udon préparées comme indiqué sur LEUR paquet, ainsi que la sauce. Mélanger 1 à 2 minutes sur feu moyen jusqu’à ce que les nouilles et le porc soient bien chauds.",
+        "Verser dans un bol, parsemer 1 c. à thé de graines de sésame et servir."
       ],
-      "tip": "Garder la poêle bien chaude pour éviter que les légumes deviennent mous.",
+      "tip": "Trois recettes, trois types de nouilles : soba (bœuf gingembre), nouilles de riz plates (poulet arachides), udon (porc). Les penne servent aux boulettes.",
       "nutrition": {
         "calories": 750,
         "protein_g": 56,
