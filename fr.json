@@ -1,6 +1,6 @@
 {
   "title": "La rotation de 14 jours",
-  "version": "2.5 · novembre 2026",
+  "version": "2.6 · novembre 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -86,11 +86,11 @@
     "lemonpotato": {
       "id": "lemonpotato",
       "title": "Bol de poulet et pommes de terre au citron",
-      "minutes": 15,
+      "minutes": 18,
       "servings": 1,
       "ingredients": [
         "225 g de poulet DÉJÀ CUIT (poitrine ou haut de cuisse)",
-        "300 g de petites pommes de terre, lavées et coupées en deux",
+        "300 g de pommes de terre ORDINAIRES du sac de 2,27 kg, coupées en cubes de 2 cm",
         "½ tasse (125 ml) de tomates en dés",
         "½ tasse (125 ml) de concombre en dés",
         "2 c. à thé (10 ml) d’huile d’olive",
@@ -100,13 +100,14 @@
         "1 pincée de sel et 1 pincée de poivre"
       ],
       "steps": [
-        "Vérifier que les 225 g de poulet sont DÉJÀ CUITS. Si tu as seulement du poulet cru, le couper en lanières et le cuire à feu moyen-vif dans une poêle environ 6 à 10 minutes, jusqu’à 74 °C au centre; cette cuisson s’ajoute au temps indiqué.",
-        "Laver les pommes de terre, les couper en deux et les placer dans un plat allant au micro-ondes avec 2 c. à soupe d’eau. Couvrir sans fermer hermétiquement; cuire 7 à 9 minutes à puissance élevée. Remuer à mi-cuisson; une fourchette doit y entrer facilement.",
-        "Couper la tomate et le concombre pour obtenir ½ tasse de chacun. Couper le poulet déjà cuit en morceaux d’environ 2 cm.",
-        "Dans un petit bol, mélanger 2 c. à thé d’huile d’olive, 1 c. à thé de Dijon, 1 c. à soupe de citron, ¼ c. à thé d’origan, une pincée de sel et une pincée de poivre.",
-        "Réchauffer le poulet cuit 1 à 2 minutes à la poêle à feu moyen ou au micro-ondes jusqu’à ce qu’il soit bien chaud. Mélanger pommes de terre, poulet et légumes avec la vinaigrette, puis servir."
+        "Vérifier que les 225 g de poulet sont DÉJÀ CUITS. Si tu as seulement du poulet cru, le couper en lanières et le cuire dans une poêle à feu moyen-vif environ 6 à 10 minutes, jusqu’à 74 °C au centre. Cette cuisson s’ajoute au temps prévu.",
+        "Peser 300 g de pommes de terre ordinaires du sac d’épicerie. Les laver; ne pas les éplucher sauf si tu préfères. Les couper en petits cubes d’environ 2 cm (ne pas seulement les couper en deux).",
+        "Placer les cubes dans un plat allant au micro-ondes avec 2 c. à soupe d’eau. Couvrir d’un couvercle adapté en laissant sortir la vapeur. Cuire 7 à 10 minutes à puissance élevée en remuant à mi-cuisson. Vérifier à la fourchette : si le centre résiste, cuire encore par périodes d’1 minute.",
+        "Couper tomates et concombre pour obtenir ½ tasse de chacun. Couper le poulet déjà cuit en bouchées de 2 cm.",
+        "Dans un petit bol, mélanger 2 c. à thé d’huile d’olive, 1 c. à thé de Dijon, 1 c. à soupe de citron, ¼ c. à thé d’origan et une pincée de sel et de poivre.",
+        "Réchauffer le poulet cuit jusqu’à ce qu’il soit très chaud; mélanger avec les pommes de terre et les légumes, puis verser la vinaigrette et servir."
       ],
-      "tip": "Le temps de 15 minutes suppose du poulet déjà cuit. Une poitrine crue doit d’abord être cuite complètement (74 °C).",
+      "tip": "Le même sac de pommes de terre ORDINAIRES sert au poulet citronné, au saumon, au chili sur pomme de terre et à la salade de thon. Le temps au micro-ondes dépend de la taille des cubes et de l’appareil.",
       "nutrition": {
         "calories": 725,
         "protein_g": 77,
@@ -114,7 +115,7 @@
         "fat_g": 17,
         "basis": "per_portion"
       },
-      "before": "Poulet DÉJÀ CUIT requis; sinon prévoir 6 à 10 min de cuisson supplémentaire."
+      "before": "Utiliser les pommes de terre ORDINAIRES du sac de 2,27 kg, pas des pommes de terre grelots. Peser 300 g et les couper en cubes de 2 cm pour les cuire uniformément au micro-ondes. Le poulet doit être DÉJÀ CUIT; sinon le cuire séparément."
     },
     "fajitas": {
       "id": "fajitas",
@@ -184,27 +185,31 @@
     "salmon": {
       "id": "salmon",
       "title": "Saumon érable-Dijon et pommes de terre",
-      "minutes": 35,
+      "minutes": 40,
       "servings": 1,
       "ingredients": [
-        "225 g de filet de saumon cru",
-        "300 g de petites pommes de terre, lavées et coupées en deux",
-        "2 tasses (500 ml) de haricots verts coupés surgelés",
-        "2 c. à thé (10 ml) d’huile d’olive",
+        "225 g de filet de saumon CRU, décongelé si nécessaire",
+        "300 g de pommes de terre ORDINAIRES du sac de 2,27 kg (poids cru; ne pas acheter de « petites » pommes de terre)",
+        "2 tasses (500 ml) de haricots verts COUPÉS et SURGELÉS",
+        "2 c. à thé (10 ml) d’huile d’olive (pour les pommes de terre)",
         "1 c. à soupe (15 ml) de moutarde de Dijon",
         "2 c. à thé (10 ml) de sirop d’érable",
         "1 c. à soupe (15 ml) de jus de citron",
-        "¼ c. à thé de poivre noir"
+        "¼ c. à thé de poivre noir",
+        "1 pincée de sel (facultatif)",
+        "2 c. à soupe (30 ml) d’eau pour les haricots verts"
       ],
       "steps": [
-        "Préchauffer le four à 200 °C (400 °F). Laver et couper 300 g de petites pommes de terre en deux. Les déposer sur une plaque avec 2 c. à thé d’huile et le poivre; mélanger.",
-        "Enfourner les pommes de terre 15 minutes. Remuer avec une spatule. Elles auront besoin d’environ 25 à 35 minutes au total selon leur grosseur; elles sont prêtes quand une fourchette entre facilement.",
-        "Pendant ce temps, mélanger dans un petit bol 1 c. à soupe de Dijon et 2 c. à thé de sirop d’érable. Éponger le filet de saumon et badigeonner le dessus avec ce mélange.",
-        "Après les 15 premières minutes des pommes de terre, mettre le saumon sur une autre petite plaque, au four à 200 °C, environ 10 à 15 minutes selon l’épaisseur. Vérifier le centre avec un thermomètre : viser 70 °C pour le poisson.",
-        "Vers la fin, verser 2 tasses de haricots verts encore surgelés dans une casserole avec un fond d’eau. Couvrir et chauffer à feu moyen environ 5 à 8 minutes, en remuant, jusqu’à ce qu’ils soient bien chauds. Égoutter.",
-        "Servir saumon, pommes de terre et haricots; répartir 1 c. à soupe de jus de citron sur le tout."
+        "Si le saumon est congelé, le faire décongeler au réfrigérateur, idéalement la veille. Chauffer le four à 200 °C (400 °F) et attendre qu’il ait atteint cette température avant d’y mettre les pommes de terre. Sortir une grande plaque et du papier parchemin, si tu en as.",
+        "Peser 300 g de pommes de terre ORDINAIRES CRUES prises dans le sac de 2,27 kg. Les rincer sous l’eau, frotter au besoin et retirer les parties abîmées; la pelure peut rester. Les couper en cubes de 2 cm environ : d’abord en tranches de 2 cm, ensuite en bâtonnets, puis en dés. Ne pas seulement les couper en deux, car elles ne sont pas des petites pommes de terre.",
+        "Étaler les cubes sur la plaque en UNE seule couche, sans les empiler. Verser 2 c. à thé d’huile d’olive; saupoudrer de ¼ c. à thé de poivre et d’une pincée de sel si désiré. Mélanger avec les mains propres ou une spatule pour enrober tous les morceaux.",
+        "Mettre la plaque dans le four CHAUD et régler une minuterie de 15 minutes. À 15 minutes, sortir la plaque et retourner les cubes à la spatule. Remettre au four pour 10 à 20 minutes supplémentaires (25 à 35 minutes au total). Les morceaux sont prêts lorsque l’extérieur est légèrement doré et qu’une fourchette traverse facilement le milieu d’un cube.",
+        "Pendant les 15 premières minutes des pommes de terre, préparer le saumon : mélanger 1 c. à soupe de Dijon et 2 c. à thé de sirop d’érable dans un petit bol. Éponger le saumon avec du papier absorbant (ne pas le rincer), le déposer sur une petite plaque et étendre le mélange sur le dessus.",
+        "QUAND les pommes de terre ont déjà cuit 15 minutes et ont été retournées, enfourner la plaque de saumon, à côté ou sur une autre grille. Cuire environ 10 à 15 minutes selon l’épaisseur. Vérifier au thermomètre le centre le plus épais : viser 70 °C. Si le saumon est prêt avant les pommes de terre, le sortir et le couvrir lâchement; laisser finir les pommes de terre.",
+        "Quand il reste environ 8 minutes de cuisson, placer les 2 tasses de haricots verts encore SURGELÉS dans une petite casserole avec 2 c. à soupe d’eau. Couvrir et chauffer à feu moyen environ 6 à 8 minutes, en remuant à mi-cuisson. Les haricots doivent être bien chauds et tendres; égoutter l’eau restante. Pas besoin de les décongeler.",
+        "Mettre dans l’assiette les 300 g de pommes de terre rôties, le filet de saumon et les haricots. Verser 1 c. à soupe de jus de citron sur le saumon et les légumes. Servir immédiatement."
       ],
-      "tip": "Four : les pommes de terre commencent avant le saumon. Si tu cuisines à la friteuse à air, utiliser son mode d’emploi et vérifier la cuisson séparément.",
+      "tip": "IMPORTANT : ce sont les pommes de terre ORDINAIRES du sac de 2,27 kg déjà commandé. Aucun achat supplémentaire. Si les cubes font plus de 2 cm, ils peuvent prendre davantage de temps; la fourchette confirme la cuisson. Les pommes de terre prennent 25 à 35 min; le saumon commence après leurs 15 premières minutes. Pour une assiette plus petite, réduire les pommes de terre à 200 g sans modifier le reste, mais les valeurs nutritives changeront.",
       "nutrition": {
         "calories": 880,
         "protein_g": 54,
@@ -212,7 +217,7 @@
         "fat_g": 38,
         "basis": "per_portion"
       },
-      "before": "Saumon cru; commencer les pommes de terre au four AVANT le poisson."
+      "before": "UTILISER LES POMMES DE TERRE ORDINAIRES du sac de 2,27 kg de la liste d’épicerie, PAS des petites pommes de terre. Peser 300 g CRUS et couper en cubes réguliers de 2 cm; ne pas les couper seulement en deux. Il n’est pas nécessaire de les peler ni de les faire bouillir. Le saumon est cru; le décongeler au réfrigérateur avant cuisson s’il est congelé."
     },
     "meatballs": {
       "id": "meatballs",
@@ -551,12 +556,12 @@
     "tunabeans": {
       "id": "tunabeans",
       "title": "Salade de thon, haricots blancs et pommes de terre",
-      "minutes": 15,
+      "minutes": 18,
       "servings": 1,
       "ingredients": [
         "2 boîtes de thon pâle (170 g chacune avant égouttage), égouttées",
         "¾ tasse (180 ml) de haricots blancs en conserve, rincés et égouttés",
-        "250 g de petites pommes de terre, lavées et coupées en deux",
+        "250 g de pommes de terre ORDINAIRES du sac de 2,27 kg, coupées en cubes de 2 cm",
         "1 tasse (250 ml) de tomates cerises, coupées en deux",
         "2 c. à thé (10 ml) d’huile d’olive",
         "1 c. à soupe (15 ml) de jus de citron",
@@ -565,13 +570,14 @@
         "1 pincée de poivre noir"
       ],
       "steps": [
-        "Laver les petites pommes de terre et les couper en deux. Mettre dans un plat pour micro-ondes avec 2 c. à soupe d’eau; couvrir sans fermer hermétiquement. Cuire à puissance élevée 6 à 9 minutes, en remuant à mi-cuisson, jusqu’à tendreté; laisser tiédir 2 minutes.",
-        "Pendant ce temps, ouvrir et égoutter les 2 boîtes de thon. Rincer et égoutter ¾ tasse de haricots blancs en conserve.",
-        "Laver les tomates cerises; en couper assez en deux pour obtenir 1 tasse. Hacher 1 c. à soupe de persil et ½ gousse d’ail.",
-        "Dans un petit bol, fouetter 2 c. à thé d’huile d’olive, 1 c. à soupe de jus de citron, l’ail et une pincée de poivre.",
-        "Mettre pommes de terre tièdes, haricots, tomates, thon et persil dans un grand bol. Ajouter la vinaigrette, mélanger délicatement avec une cuillère et servir."
+        "Peser 250 g de pommes de terre ordinaires; les laver et les couper en cubes réguliers d’environ 2 cm sans nécessité de les éplucher. Déposer les cubes dans un plat pour micro-ondes avec 2 c. à soupe d’eau; couvrir en laissant sortir la vapeur.",
+        "Cuire au micro-ondes à puissance élevée 6 à 9 minutes, en remuant à mi-cuisson, jusqu’à ce qu’une fourchette traverse facilement un cube. Ajouter des périodes d’1 minute au besoin; laisser tiédir 2 minutes.",
+        "Pendant ce temps, ouvrir et égoutter les 2 boîtes de thon. Ouvrir les haricots blancs, les rincer sous l’eau et mesurer ¾ tasse.",
+        "Laver et couper les tomates cerises pour obtenir 1 tasse. Hacher 1 c. à soupe de persil frais et ½ gousse d’ail.",
+        "Dans un petit bol, fouetter 2 c. à thé d’huile d’olive, 1 c. à soupe de jus de citron, l’ail haché et une pincée de poivre.",
+        "Déposer les pommes de terre tièdes, les haricots, les tomates, le thon et le persil dans un grand bol. Ajouter la vinaigrette, mélanger délicatement et servir."
       ],
-      "tip": "Le thon et les haricots en conserve sont déjà cuits. Si tu n’as pas de persil frais, l’omettre.",
+      "tip": "Cette recette utilise les pommes de terre ordinaires déjà présentes sur la liste, pas des grelots. Aucune autre sorte de pomme de terre à acheter.",
       "nutrition": {
         "calories": 740,
         "protein_g": 75,
@@ -579,7 +585,7 @@
         "fat_g": 12,
         "basis": "per_portion"
       },
-      "before": "Thon et haricots blancs en conserve déjà cuits; seules les pommes de terre sont à cuire."
+      "before": "Prendre 250 g de pommes de terre ORDINAIRES du même sac de 2,27 kg, les laver et les couper en cubes de 2 cm. PAS besoin de petites pommes de terre. Le thon et les haricots blancs en conserve sont déjà cuits."
     },
     "koreanbeef": {
       "id": "koreanbeef",
@@ -1040,7 +1046,7 @@
         },
         {
           "id": "potatoes",
-          "name": "Pommes de terre (~1 kg)",
+          "name": "Pommes de terre ORDINAIRES, sac de 2,27 kg (pas des grelots; 300 g pour poulet + 300 g pour saumon)",
           "voila": {
             "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
             "type": "product"
@@ -1488,7 +1494,7 @@
         },
         {
           "id": "potatoes",
-          "name": "Pommes de terre (~600 g)",
+          "name": "Même sac de pommes de terre ORDINAIRES, 2,27 kg (350 g pour chili + 250 g pour salade de thon)",
           "voila": {
             "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
             "type": "product"
@@ -1836,7 +1842,7 @@
       "#export": "↓ Télécharger le plan JSON",
       "#copyForChat": "⧉ Copier les notes pour ChatGPT",
       "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 2.5 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
+      ".footer p": "Version 2.6 · Outil de planification personnel · Les valeurs nutritionnelles sont estimées et ne constituent pas une prescription médicale. Les recettes donnent une portion, sauf indication contraire.",
       "#shopping .seg button[data-shopweek=\"2\"]": "14 jours"
     },
     "placeholders": {
@@ -1908,7 +1914,7 @@
       "onion": "Un sac de 1,36 kg devrait suffire pour les deux semaines. Conserver au frais et au sec.",
       "broccoli": "Un sac de 500 g devrait couvrir les deux repas; vérifier le poids réel selon les portions en tasses.",
       "greenbeans": "Un sac de 750 g pour le saumon; garder le reste au congélateur.",
-      "potatoes": "Un sac de 2,27 kg couvre environ 1,2 kg pour les deux semaines. Garder au frais, au sec et à l'obscurité.",
+      "potatoes": "UN seul sac de pommes de terre ORDINAIRES de 2,27 kg suffit pour les 14 jours. S1 : 300 g au poulet citronné + 300 g au saumon (cubes de 2 cm). S2 : 350 g pour la pomme de terre au chili + 250 g pour la salade de thon. Total = 1,2 kg. PAS BESOIN de grelots.",
       "stirfryveg": "Le produit Voilà est un sac de 500 g. Prévoir 2 sacs pour les deux recettes (une par semaine).",
       "oats": "180 g au total pour six shakes. Un sac de 1 kg durera plusieurs rotations.",
       "blackbeans": "Environ 2 boîtes de 540 ml pour le chili et les deux bols. Congeler la portion de la semaine 2 après ouverture.",
