@@ -1,6 +1,6 @@
 {
   "title": "The 14-Day Rotation",
-  "version": "2.5 · November 2026",
+  "version": "2.6 · November 2026",
   "anchor_monday": "2026-11-16",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
@@ -86,11 +86,11 @@
     "lemonpotato": {
       "id": "lemonpotato",
       "title": "Lemony chicken and potato bowl",
-      "minutes": 15,
+      "minutes": 18,
       "servings": 1,
       "ingredients": [
         "225 g ALREADY COOKED chicken breast or thigh",
-        "300 g baby potatoes, washed and halved",
+        "300 g REGULAR potatoes from the 2.27 kg bag, cut into 2 cm cubes",
         "½ cup (125 mL) diced tomatoes",
         "½ cup (125 mL) diced cucumber",
         "2 tsp (10 mL) olive oil",
@@ -100,13 +100,14 @@
         "Pinch of salt and black pepper"
       ],
       "steps": [
-        "Confirm the 225 g chicken is ALREADY COOKED. If raw, cut it into strips and pan-cook over medium-high heat for about 6–10 minutes, checking for 74°C / 165°F; allow extra time.",
-        "Wash and halve potatoes. Place in a microwave-safe dish with 2 tbsp water, cover loosely, microwave on high 7–9 minutes, stirring halfway, until fork tender.",
-        "Dice enough tomato and cucumber for ½ cup each. Cut the cooked chicken into roughly 2 cm pieces.",
-        "Mix olive oil, Dijon, lemon juice, oregano, salt and pepper in a small bowl.",
-        "Reheat cooked chicken in a medium-hot skillet for 1–2 minutes or microwave until hot. Toss with potatoes, vegetables and dressing; serve."
+        "Confirm chicken is ALREADY COOKED. If raw, cut into strips and pan-cook on medium-high for 6–10 minutes, until 74°C / 165°F; allow extra time.",
+        "Weigh 300 g regular potatoes from the grocery bag. Wash; peeling is optional. Cut into approximately 2 cm cubes (do not simply halve).",
+        "Put cubes in a microwave-safe dish with 2 tbsp water. Cover loosely to vent steam. Microwave on high for 7–10 minutes, stirring halfway. Test with a fork; if still firm, continue in 1-minute intervals.",
+        "Dice ½ cup tomatoes and ½ cup cucumber. Cut cooked chicken into 2 cm bites.",
+        "Whisk together 2 tsp olive oil, 1 tsp Dijon, 1 tbsp lemon juice, ¼ tsp oregano and a pinch of salt and pepper.",
+        "Reheat pre-cooked chicken until hot, then mix with potatoes and vegetables. Toss in dressing and serve."
       ],
-      "tip": "The 15-minute total assumes pre-cooked chicken. Raw chicken must be cooked separately to 74°C / 165°F.",
+      "tip": "The same REGULAR-potato bag covers lemon chicken, salmon, chili potato and tuna-potato salad. Microwave time depends on cube size and appliance.",
       "nutrition": {
         "calories": 725,
         "protein_g": 77,
@@ -114,7 +115,7 @@
         "fat_g": 17,
         "basis": "per_portion"
       },
-      "before": "Chicken must ALREADY BE COOKED; cooking raw chicken adds 6–10 minutes."
+      "before": "Use REGULAR potatoes from the 2.27 kg bag, not baby potatoes. Weigh 300 g and dice into 2 cm cubes for even microwave cooking. Chicken must ALREADY BE COOKED, otherwise cook it separately."
     },
     "fajitas": {
       "id": "fajitas",
@@ -184,27 +185,31 @@
     "salmon": {
       "id": "salmon",
       "title": "Maple–Dijon salmon with potatoes",
-      "minutes": 35,
+      "minutes": 40,
       "servings": 1,
       "ingredients": [
-        "225 g raw salmon fillet",
-        "300 g baby potatoes, washed and halved",
-        "2 cups (500 mL) frozen cut green beans",
-        "2 tsp (10 mL) olive oil",
+        "225 g RAW salmon fillet, thawed if previously frozen",
+        "300 g REGULAR potatoes from the 2.27 kg bag (raw weight; do not buy baby potatoes)",
+        "2 cups (500 mL) FROZEN cut green beans",
+        "2 tsp (10 mL) olive oil (for potatoes)",
         "1 tbsp (15 mL) Dijon mustard",
         "2 tsp (10 mL) maple syrup",
         "1 tbsp (15 mL) lemon juice",
-        "¼ tsp black pepper"
+        "¼ tsp black pepper",
+        "Pinch of salt (optional)",
+        "2 tbsp (30 mL) water for the green beans"
       ],
       "steps": [
-        "Preheat oven to 200°C / 400°F. Wash and halve 300 g potatoes, place on a baking tray, toss with 2 tsp olive oil and black pepper.",
-        "Roast potatoes 15 minutes, then turn them. They need about 25–35 minutes total, depending on size, until easily pierced with a fork.",
-        "Meanwhile mix Dijon and maple syrup. Pat salmon dry and brush the top with the mixture.",
-        "After the potatoes have had 15 minutes, bake salmon on a separate small tray at 200°C / 400°F for about 10–15 minutes depending on thickness. Check the centre with a thermometer: aim for 70°C / 158°F.",
-        "Heat frozen green beans in a covered saucepan with a splash of water over medium heat for about 5–8 minutes, stirring until hot; drain.",
-        "Plate salmon, potatoes and beans; finish with 1 tbsp lemon juice."
+        "If salmon is frozen, thaw in the refrigerator, preferably overnight. Preheat the oven to 200°C / 400°F and wait until it is fully heated. Prepare a large baking sheet; line with parchment if available.",
+        "Weigh 300 g REGULAR RAW potatoes from the 2.27 kg grocery bag. Rinse and scrub; trim any bad spots. Leave the skins on if you like. Cut into evenly sized 2 cm cubes: first 2 cm slices, then sticks, then cubes. Do not simply halve them—these are not baby potatoes.",
+        "Spread the cubes in ONE even layer on the tray, without piling up. Add 2 tsp olive oil, ¼ tsp black pepper and optional pinch of salt; toss with clean hands or a spatula to coat all sides.",
+        "Place the tray in the HOT oven and set a timer for 15 minutes. At 15 minutes, remove the tray and turn the cubes with a spatula. Return to the oven for another 10–20 minutes (25–35 minutes total). They are ready when lightly golden outside and a fork easily passes through the centre of a cube.",
+        "While the potatoes roast, stir together 1 tbsp Dijon and 2 tsp maple syrup. Pat the salmon dry with paper towel (do not rinse), put on a separate small tray and spread the glaze evenly on top.",
+        "AFTER the potatoes have roasted for 15 minutes and have been turned, put the salmon tray on another rack or alongside. Bake about 10–15 minutes according to thickness. Check the thickest part with a thermometer: aim for 70°C / 158°F. If salmon is ready before the potatoes, remove it, tent loosely and finish roasting potatoes.",
+        "With about 8 minutes remaining, put 2 cups still-FROZEN green beans in a small saucepan with 2 tbsp water. Cover and heat on medium for about 6–8 minutes, stirring halfway, until hot and tender. Drain leftover water; do not thaw first.",
+        "Plate the 300 g roast potatoes, salmon and green beans; drizzle 1 tbsp lemon juice over fish and vegetables. Serve immediately."
       ],
-      "tip": "Start the potatoes before the salmon. If using an air fryer instead, follow its specific instructions and check doneness.",
+      "tip": "Use the REGULAR potatoes already purchased in the 2.27 kg bag; no extra grocery purchase. Larger-than-2-cm cubes will take longer, so use the fork test. Potatoes roast 25–35 minutes total; salmon goes in after the first 15 minutes. For a smaller plate, use 200 g potatoes; nutrition estimates will change.",
       "nutrition": {
         "calories": 880,
         "protein_g": 54,
@@ -212,7 +217,7 @@
         "fat_g": 38,
         "basis": "per_portion"
       },
-      "before": "Use raw salmon; potatoes go in the oven BEFORE the fish."
+      "before": "Use REGULAR potatoes from the 2.27 kg grocery bag, NOT baby potatoes. Weigh 300 g RAW and cut into evenly sized 2 cm cubes; do not just halve them. No peeling or pre-boiling required. If salmon is frozen, thaw safely in the refrigerator before cooking."
     },
     "meatballs": {
       "id": "meatballs",
@@ -551,12 +556,12 @@
     "tunabeans": {
       "id": "tunabeans",
       "title": "Tuna, white bean and potato salad",
-      "minutes": 15,
+      "minutes": 18,
       "servings": 1,
       "ingredients": [
         "2 cans light tuna (170 g each before draining), drained",
         "¾ cup (180 mL) canned white beans, rinsed and drained",
-        "250 g baby potatoes, washed and halved",
+        "250 g REGULAR potatoes from the 2.27 kg bag, diced into 2 cm cubes",
         "1 cup (250 mL) cherry tomatoes, halved",
         "2 tsp (10 mL) olive oil",
         "1 tbsp (15 mL) lemon juice",
@@ -565,13 +570,14 @@
         "Pinch of black pepper"
       ],
       "steps": [
-        "Wash and halve potatoes; put in a loosely covered microwave-safe dish with 2 tbsp water. Microwave on high 6–9 minutes, stirring halfway, until tender; cool 2 minutes.",
-        "Meanwhile drain both cans of tuna. Rinse and drain ¾ cup canned white beans.",
-        "Halve cherry tomatoes to make 1 cup. Finely mince ½ garlic clove and chop 1 tbsp fresh parsley.",
-        "Whisk 2 tsp olive oil, 1 tbsp lemon juice, minced garlic and black pepper in a small bowl.",
-        "Toss warm potatoes, beans, tomatoes, tuna and parsley with the dressing and serve."
+        "Weigh 250 g regular potatoes, wash and dice into even 2 cm cubes without needing to peel. Put cubes in a microwave-safe bowl with 2 tbsp water; cover loosely to vent steam.",
+        "Microwave on high for 6–9 minutes, stirring halfway, until easily pierced with a fork. Add 1-minute increments if needed; cool 2 minutes.",
+        "Meanwhile drain both tuna cans. Rinse and drain white beans; measure ¾ cup.",
+        "Wash and halve enough cherry tomatoes for 1 cup. Mince ½ garlic clove and chop 1 tbsp fresh parsley.",
+        "Whisk olive oil, lemon juice, minced garlic and black pepper in a small bowl.",
+        "Mix warm potatoes, white beans, tomatoes, tuna and parsley; toss gently with dressing and serve."
       ],
-      "tip": "Tuna and canned white beans are already cooked. Fresh parsley can be omitted.",
+      "tip": "Uses regular potatoes already on the grocery list, not baby potatoes. No other kind needs buying.",
       "nutrition": {
         "calories": 740,
         "protein_g": 75,
@@ -579,7 +585,7 @@
         "fat_g": 12,
         "basis": "per_portion"
       },
-      "before": "Tuna and white beans are ready to eat from cans; potatoes must be cooked."
+      "before": "Use 250 g REGULAR potatoes from the same 2.27 kg bag; wash and dice into 2 cm cubes. No need for baby potatoes. Canned tuna and white beans are already cooked."
     },
     "koreanbeef": {
       "id": "koreanbeef",
@@ -1040,7 +1046,7 @@
         },
         {
           "id": "potatoes",
-          "name": "Potatoes (~1 kg)",
+          "name": "REGULAR potatoes, 2.27 kg bag (not baby potatoes; 300 g chicken + 300 g salmon)",
           "voila": {
             "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
             "type": "product"
@@ -1488,7 +1494,7 @@
         },
         {
           "id": "potatoes",
-          "name": "Potatoes (~600 g)",
+          "name": "Same 2.27 kg bag REGULAR potatoes (350 g for chili + 250 g tuna salad)",
           "voila": {
             "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
             "type": "product"
@@ -1855,7 +1861,7 @@
       "onion": "One 1.36 kg bag should cover both weeks; store cool and dry.",
       "broccoli": "One 500 g bag should cover the two broccoli meals; check actual bag weight versus cup portions.",
       "greenbeans": "One 750 g bag for the salmon meal; keep leftovers frozen.",
-      "potatoes": "One 2.27 kg bag covers about 1.2 kg across both weeks; store cool, dry and dark.",
+      "potatoes": "ONE 2.27 kg bag of REGULAR potatoes covers 14 days. W1: 300 g lemon chicken + 300 g salmon (cut 2 cm cubes). W2: 350 g chili potato + 250 g tuna salad. Total 1.2 kg. NO baby potatoes needed.",
       "stirfryveg": "Voilà product is a 500 g bag. Plan on two bags for the two recipes (one each week).",
       "oats": "180 g total for six shakes. One 1 kg bag lasts several rotations.",
       "blackbeans": "About 2 × 540 mL cans across chili and the two bean bowls. Freeze the Week 2 portion after opening.",
