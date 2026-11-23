@@ -53,17 +53,21 @@
       "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de bœuf haché maigre CRU, CUIT dimanche",
-        "UNE botte liée (~83 g SECS) de soba Blue Dragon, CUITE dimanche",
-        "1½ tasse de brocoli surgelé, chauffé dimanche",
-        "1 c. à soupe de soya; 1 c. à thé de miel; 1 c. à thé d’huile de sésame; ½ c. à thé de gingembre, mélangés dimanche"
+        "225 g de bœuf haché maigre, poids CRU avant la cuisson du dimanche",
+        "UNE botte liée de soba Blue Dragon (~83 g SECS; ne pas cuire le paquet de 250 g)",
+        "1½ tasse (375 ml) de brocoli en fleurons SURGELÉ",
+        "1 c. à soupe (15 ml) de sauce soya réduite en sodium",
+        "1 c. à thé (5 ml) de miel",
+        "1 c. à thé (5 ml) d’huile de sésame",
+        "½ c. à thé de gingembre râpé",
+        "2 c. à soupe (30 ml) d’eau pour la sauce"
       ],
       "steps": [
-        "Sortir le contenant LUN souper (bœuf, soba et brocoli) du frigo.",
-        "Réchauffer couvert 3 à 5 min; remuer à mi-cuisson et atteindre 74 °C."
+        "LUNDI — sortir du frigo le contenant de bœuf, soba et brocoli déjà cuits. Ne rien ajouter : la sauce et les assaisonnements ont été incorporés dimanche.",
+        "Réchauffer couvert au micro-ondes environ 3 à 5 min, en remuant à mi-cuisson, jusqu’à 74 °C au centre. Manger immédiatement."
       ],
-      "before": "Repas entièrement cuit et assemblé dimanche.",
-      "tip": "UNE botte de soba seulement; JAMAIS le paquet de 250 g.",
+      "before": "Dimanche : cuire séparément bœuf, soba et brocoli; préparer la sauce soya–miel–sésame–gingembre, l’ajouter au bœuf dans la poêle, puis mélanger avec les nouilles et le brocoli AVANT de ranger. Lundi : réchauffer seulement.",
+      "tip": "UNE SEULE des trois bottes liées de soba Blue Dragon (~83 g secs), jamais le paquet entier de 250 g. Le soya, le miel, l’huile de sésame et le gingembre se mélangent dans un petit bol et se versent sur le bœuf cuit avant d’ajouter les soba et le brocoli.",
       "batch_ready": true,
       "nutrition": {
         "calories": 850,
@@ -71,7 +75,16 @@
         "carbs_g": 82,
         "fat_g": 31,
         "basis": "per_portion"
-      }
+      },
+      "batch_steps": [
+        "DIMANCHE — PRÉPARER LA SAUCE D’ABORD : dans un petit bol, mélanger 1 c. à soupe de soya, 1 c. à thé de miel, 1 c. à thé d’huile de sésame, ½ c. à thé de gingembre et 2 c. à soupe d’eau. Réserver. Ne PAS mettre la sauce dans l’eau de cuisson des nouilles.",
+        "SOBA : porter une casserole d’eau à ébullition. Ajouter UNE SEULE botte liée de soba Blue Dragon (~83 g SECS), cuire selon l’emballage, puis égoutter.",
+        "BROCOLI : mettre 1½ tasse de brocoli encore SURGELÉ dans un plat couvert allant au micro-ondes avec un peu d’eau. Chauffer environ 4 à 6 min jusqu’à ce qu’il soit chaud et tendre; égoutter.",
+        "BŒUF : chauffer une poêle antiadhésive à feu moyen-vif. Ajouter 225 g de bœuf haché CRU; défaire les morceaux à la spatule et faire brunir environ 6 à 8 min, jusqu’à cuisson complète (71 °C au centre).",
+        "AJOUTER LA SAUCE AU BŒUF : réduire à feu moyen; verser tout le mélange soya–miel–sésame–gingembre sur le bœuf CUIT dans la poêle. Remuer et laisser frémir 1 à 2 min pour enrober la viande, sans laisser la sauce sécher.",
+        "MÉLANGER : ajouter les soba cuites et égouttées ainsi que le brocoli cuit et égoutté dans la poêle contenant le bœuf et sa sauce. Mélanger doucement environ 1 min pour tout enrober.",
+        "PORTIONNER : transférer le repas complet dans le contenant peu profond « LUN souper ». Refroidir rapidement et mettre au réfrigérateur dans les 2 heures."
+      ]
     },
     "lemonpotato": {
       "id": "lemonpotato",
@@ -1680,7 +1693,7 @@
         "FOUR à 200 °C : cuire 450 g de poulet CRU jusqu’à 74 °C à cœur (~20–25 min), diviser en DEUX portions cuites correspondant à 225 g CRUS chacune. Sur plaques séparées : 225 g de saumon avec 1 c. à soupe de Dijon + 2 c. à thé d’érable (environ 12–18 min, jusqu’à 70 °C); 225 g de porc désossé jusqu’à 71 °C. Sortir chaque plaque dès que sa température est atteinte.",
         "LÉGUMES FAJITAS : cuire 1 poivron en lanières + ½ oignon avec paprika fumé et cumin au four ou dans la poêle. Emballer avec le poulet de JEU. Garder le poulet de MAR nature; vinaigrette citron-Dijon à ajouter le jour du repas.",
         "CHILI : brunir 600 g de dinde hachée CRUE dans la casserole jusqu’à 74 °C; ajouter 1 boîte de tomates broyées 796 ml, 1 boîte de haricots noirs 540 ml rincés, 1 poivron en dés, ½ oignon en dés, 2 c. à thé de poudre chili, 1 c. à thé de cumin, 1 c. à thé de paprika fumé. Mijoter ~20 min. Diviser le CHILI CUIT en 3 portions égales : MAR, VEN, réserve à congeler. Option mijoteuse après brunissage : HIGH ~3–4 h (durée totale beaucoup plus longue).",
-        "BŒUF/SOBA : cuire 225 g de bœuf haché CRU jusqu’à 71 °C. Cuire UNE SEULE botte liée de soba Blue Dragon (~83 g SECS), PAS le paquet de 250 g. Chauffer 1½ tasse de brocoli surgelé; mélanger avec bœuf/soba, 1 c. à soupe de soya, 1 c. à thé de miel, 1 c. à thé d’huile de sésame et ½ c. à thé de gingembre. Emballer LUN souper.",
+        "BŒUF/SOBA : dans un bol, mélanger la SAUCE = 1 c. à soupe soya + 1 c. à thé miel + 1 c. à thé huile de sésame + ½ c. à thé gingembre + 2 c. à soupe eau. Cuire UNE SEULE botte liée de soba Blue Dragon (~83 g SECS) selon l’emballage (PAS les 250 g); égoutter. Réchauffer 1½ tasse de brocoli surgelé au micro-ondes couvert avec un peu d’eau, environ 4–6 min; égoutter. Faire brunir 225 g de bœuf haché CRU à la poêle 6–8 min, jusqu’à 71 °C. BAISSER à feu moyen et VERSER LA SAUCE SUR LE BŒUF CUIT; remuer 1–2 min. Ajouter soba et brocoli égouttés; mélanger 1 min. Emballer LUN souper et réfrigérer rapidement.",
         "PENNE/BOULETTES : cuire 90 g de penne SÈCHES. Chauffer 150 g de boulettes Angus surgelées DÉJÀ CUITES avec ¾ tasse de marinara, 2 tasses d’épinards et 1 c. à thé de basilic; mélanger aux penne. Emballer VEN dîner.",
         "CARI CREVETTES : mijoter 1 tasse de lait de coco léger + 1 c. à soupe de pâte de cari rouge + 2 tasses de légumes asiatiques SURGELÉS; ajouter 250 g de crevettes CRUES décortiquées décongelées et cuire jusqu’à 74 °C. Emballer pour DIM souper avec 1½ tasse de riz cuit préparé.",
         "REFROIDIR / RANGER : les repas LUN/MAR au FRIGO; les plats cuits de JEU–DIM et le chili de réserve au CONGÉLATEUR dès dimanche. Garder les légumes frais et conserves non ouvertes jusqu’au service. Déplacer les portions congelées au FRIGO le SOIR PRÉCÉDANT leur journée."
