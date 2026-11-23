@@ -1,7 +1,7 @@
 {
-  "title": "La rotation de 14 jours",
-  "version": "2.6 · novembre 2026",
-  "anchor_monday": "2026-11-16",
+  "title": "Rotation 14 jours — batch du dimanche",
+  "version": "3.0 · novembre 2026",
+  "anchor_monday": "2026-11-23",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
     "wednesday_calories": "~1,350 kcal",
@@ -9,7 +9,7 @@
     "dessert": "150–200 kcal"
   },
   "background": {
-    "schedule": "Deux repas la plupart des jours; déjeuner au restaurant le week-end; shakes protéinés chaque mercredi",
+    "schedule": "Batch le dimanche; 5 à 10 minutes pour les repas les autres jours; mercredi shakes; déjeuners du week-end au restaurant",
     "avoid": [
       "fromage",
       "crème sure",
@@ -20,677 +20,549 @@
   "recipes": {
     "tuna": {
       "id": "tuna",
-      "title": "Bol de riz au thon épicé et à l’avocat",
-      "minutes": 10,
+      "title": "Bol thon-avocat et riz",
+      "minutes": 5,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "2 boîtes de thon pâle (170 g chacune avant égouttage; égoutter les 2 boîtes)",
-        "1½ tasse (375 ml) de riz déjà cuit (pour le cuiseur : environ ½ tasse (125 ml) de riz SEC, soit 90 g, donne cette quantité cuite)",
-        "½ avocat, coupé en dés",
-        "½ concombre, coupé en dés",
-        "1 c. à thé (5 ml) de sauce soya",
-        "1 c. à soupe (15 ml) de jus de lime",
-        "½ c. à thé de sriracha (facultatif)"
+        "2 boîtes de thon pâle, 170 g chacune avant égouttage",
+        "1½ tasse (375 ml) de riz CUIT dimanche",
+        "½ avocat; ½ concombre",
+        "1 c. à thé de soya; 1 c. à soupe de lime; sriracha facultative"
       ],
       "steps": [
-        "Si le riz est cru, mettre ½ tasse (125 ml) (environ 90 g) de riz SEC dans le cuiseur à riz. Ajouter l’eau selon l’emballage et cuire. Tu obtiendras environ 1½ tasse (375 ml) de riz cuit; mesurer après cuisson. Prévoir le temps de cuisson du riz en plus. Si le riz vient du réfrigérateur, le réchauffer jusqu’à ce qu’il soit bien chaud.",
-        "Ouvrir les 2 boîtes de thon et les égoutter dans une passoire. Couper ½ concombre en petits dés; couper ½ avocat en dés juste avant de servir.",
-        "Dans un bol, mélanger 1 c. à thé de sauce soya, 1 c. à soupe de jus de lime et, si désiré, ½ c. à thé de sriracha.",
-        "Ajouter le thon à cette sauce et mélanger avec une fourchette pendant 20 secondes.",
-        "Verser le riz chaud dans une assiette creuse, puis ajouter le thon, l’avocat et le concombre. Servir immédiatement."
+        "Réchauffer le riz étiqueté LUN dîner environ 2 à 3 min.",
+        "Égoutter les 2 boîtes de thon; couper ½ avocat et ½ concombre.",
+        "Mélanger thon, soya et lime; servir sur le riz avec les légumes."
       ],
-      "tip": "Si tu n’as pas de sriracha, omets-la. Aucun poisson cru à cuire : le thon en conserve est déjà cuit.",
+      "before": "Riz préparé dimanche. Ouvrir les conserves et couper les légumes seulement au moment de manger.",
+      "tip": "Aucune viande à cuire.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 760,
         "protein_g": 70,
         "carbs_g": 80,
         "fat_g": 18,
         "basis": "per_portion"
-      },
-      "before": "Riz à cuire d'avance au besoin. Thon en conserve : déjà cuit."
+      }
     },
     "gingerbeef": {
       "id": "gingerbeef",
-      "title": "Nouilles au bœuf collant, gingembre et ail",
-      "minutes": 20,
+      "title": "Bœuf gingembre-soya, soba et brocoli",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de bœuf haché maigre cru",
-        "90 g de nouilles SOBA Blue Dragon SÈCHES (environ 1 botte sur les 3 du paquet de 250 g; PAS le paquet entier)",
-        "2 tasses (500 ml) de brocoli en fleurons surgelé",
-        "2 c. à soupe (30 ml) de sauce soya réduite en sodium",
-        "1 c. à thé (5 ml) de miel",
-        "1 c. à thé (5 ml) d’huile de sésame",
-        "1 gousse d’ail, hachée (environ 1 c. à thé)",
-        "1 c. à thé de gingembre frais râpé",
-        "2 c. à soupe (30 ml) d’eau"
+        "225 g de bœuf haché maigre CRU, CUIT dimanche",
+        "UNE botte liée (~83 g SECS) de soba Blue Dragon, CUITE dimanche",
+        "1½ tasse de brocoli surgelé, chauffé dimanche",
+        "1 c. à soupe de soya; 1 c. à thé de miel; 1 c. à thé d’huile de sésame; ½ c. à thé de gingembre, mélangés dimanche"
       ],
       "steps": [
-        "Sortir le bœuf et le brocoli. Hacher 1 gousse d’ail et râper assez de gingembre pour obtenir 1 c. à thé. Le brocoli surgelé va directement dans la poêle : ne pas le décongeler.",
-        "Dans un petit bol, mélanger 2 c. à soupe de sauce soya, 1 c. à thé de miel, 1 c. à thé d’huile de sésame, l’ail, le gingembre et 2 c. à soupe d’eau. Réserver.",
-        "Chauffer une grande poêle à feu moyen-vif. Ajouter les 225 g de bœuf haché. Le défaire à la spatule pendant 5 à 7 minutes, jusqu’à cuisson complète (71 °C au centre). Égoutter l’excès de gras au besoin.",
-        "Ajouter 2 tasses de brocoli congelé et 2 c. à soupe d’eau dans la poêle. Couvrir 4 à 6 minutes à feu moyen, en remuant à mi-cuisson, jusqu’à ce que le brocoli soit bien chaud.",
-        "Pendant ce temps, faire bouillir de l’eau dans une casserole. Détacher UNE seule botte (~83 g) sur les TROIS du paquet de 250 g, ou peser 90 g secs avec une balance. Garder les autres bottes au sec. Ajouter cette portion de SOBA et cuire 3 minutes selon l’emballage Blue Dragon (ou suivre ton paquet s’il diffère). Égoutter aussitôt. Ne pas appliquer le temps de cuisson des penne.",
-        "Verser la sauce préparée dans la poêle avec le bœuf et le brocoli. Remuer 1 minute à feu moyen, puis ajouter les soba égouttées. Mélanger 30 secondes et servir."
+        "Sortir le contenant LUN souper (bœuf, soba et brocoli) du frigo.",
+        "Réchauffer couvert 3 à 5 min; remuer à mi-cuisson et atteindre 74 °C."
       ],
-      "tip": "Soba pour le bœuf au gingembre; penne pour les boulettes marinara. Le paquet complet de soba fait 250 g, soit environ trois portions liées. Une seule botte (~83 g) suffit pour une portion. Cuisson : 3 minutes selon ton paquet.",
+      "before": "Repas entièrement cuit et assemblé dimanche.",
+      "tip": "UNE botte de soba seulement; JAMAIS le paquet de 250 g.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 880,
-        "protein_g": 65,
-        "carbs_g": 88,
-        "fat_g": 30,
+        "calories": 850,
+        "protein_g": 58,
+        "carbs_g": 82,
+        "fat_g": 31,
         "basis": "per_portion"
-      },
-      "before": "ATTENTION : le paquet Blue Dragon de 250 g contient TROIS bottes de soba liées. Pour une portion, utiliser UNE seule botte (environ 83 g secs), proche des 90 g indiqués, ou peser exactement 90 g secs. NE PAS verser les 250 g du paquet dans l’eau. Brocoli surgelé : pas besoin de décongeler."
+      }
     },
     "lemonpotato": {
       "id": "lemonpotato",
-      "title": "Bol de poulet et pommes de terre au citron",
-      "minutes": 18,
+      "title": "Bol poulet-patates citron",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de poulet DÉJÀ CUIT (poitrine ou haut de cuisse)",
-        "300 g de pommes de terre ORDINAIRES du sac de 2,27 kg, coupées en cubes de 2 cm",
-        "½ tasse (125 ml) de tomates en dés",
-        "½ tasse (125 ml) de concombre en dés",
-        "2 c. à thé (10 ml) d’huile d’olive",
-        "1 c. à thé (5 ml) de moutarde de Dijon",
-        "1 c. à soupe (15 ml) de jus de citron",
-        "¼ c. à thé d’origan séché",
-        "1 pincée de sel et 1 pincée de poivre"
+        "225 g de poulet (équivalent CRU), CUIT dimanche",
+        "200 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche",
+        "½ tasse de tomates; ½ tasse de concombre",
+        "1 c. à thé d’huile; 1 c. à thé de Dijon; 1 c. à soupe de citron; ¼ c. à thé d’origan"
       ],
       "steps": [
-        "Vérifier que les 225 g de poulet sont DÉJÀ CUITS. Si tu as seulement du poulet cru, le couper en lanières et le cuire dans une poêle à feu moyen-vif environ 6 à 10 minutes, jusqu’à 74 °C au centre. Cette cuisson s’ajoute au temps prévu.",
-        "Peser 300 g de pommes de terre ordinaires du sac d’épicerie. Les laver; ne pas les éplucher sauf si tu préfères. Les couper en petits cubes d’environ 2 cm (ne pas seulement les couper en deux).",
-        "Placer les cubes dans un plat allant au micro-ondes avec 2 c. à soupe d’eau. Couvrir d’un couvercle adapté en laissant sortir la vapeur. Cuire 7 à 10 minutes à puissance élevée en remuant à mi-cuisson. Vérifier à la fourchette : si le centre résiste, cuire encore par périodes d’1 minute.",
-        "Couper tomates et concombre pour obtenir ½ tasse de chacun. Couper le poulet déjà cuit en bouchées de 2 cm.",
-        "Dans un petit bol, mélanger 2 c. à thé d’huile d’olive, 1 c. à thé de Dijon, 1 c. à soupe de citron, ¼ c. à thé d’origan et une pincée de sel et de poivre.",
-        "Réchauffer le poulet cuit jusqu’à ce qu’il soit très chaud; mélanger avec les pommes de terre et les légumes, puis verser la vinaigrette et servir."
+        "Réchauffer le poulet et les patates de MAR dîner 3 à 5 min jusqu’à 74 °C.",
+        "Couper tomates et concombre.",
+        "Mélanger huile, Dijon, citron et origan; ajouter au bol."
       ],
-      "tip": "Le même sac de pommes de terre ORDINAIRES sert au poulet citronné, au saumon, au chili sur pomme de terre et à la salade de thon. Le temps au micro-ondes dépend de la taille des cubes et de l’appareil.",
+      "before": "Poulet et patates entièrement cuits dimanche.",
+      "tip": "200 g de patates AVANT cuisson.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 725,
-        "protein_g": 77,
-        "carbs_g": 65,
+        "calories": 570,
+        "protein_g": 57,
+        "carbs_g": 46,
         "fat_g": 17,
         "basis": "per_portion"
-      },
-      "before": "Utiliser les pommes de terre ORDINAIRES du sac de 2,27 kg, pas des pommes de terre grelots. Peser 300 g et les couper en cubes de 2 cm pour les cuire uniformément au micro-ondes. Le poulet doit être DÉJÀ CUIT; sinon le cuire séparément."
+      }
+    },
+    "chili": {
+      "id": "chili",
+      "title": "Chili fumé de dinde sur riz",
+      "minutes": 7,
+      "active_minutes": 5,
+      "servings": 1,
+      "ingredients": [
+        "1 des 3 portions de chili fait dimanche avec 600 g de dinde hachée CRUE au total",
+        "1 tasse de riz CUIT dimanche",
+        "Le chili du batch contient tomates broyées 796 ml, haricots noirs 540 ml, poivron, oignon et épices chili"
+      ],
+      "steps": [
+        "Réchauffer chili et riz de MAR souper couverts 4 à 6 min, en remuant à mi-cuisson, jusqu’à 74 °C.",
+        "Servir le chili sur le riz."
+      ],
+      "before": "Le batch dimanche donne TROIS portions égales : mardi, vendredi et une réserve congelée.",
+      "tip": "Aucune casserole ni découpe aujourd’hui.",
+      "batch_ready": true,
+      "nutrition": {
+        "calories": 765,
+        "protein_g": 52,
+        "carbs_g": 89,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "fajitas": {
       "id": "fajitas",
-      "title": "Bols de riz au poulet façon fajitas fumées",
-      "minutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "450 g de poulet CRU, coupé en lanières (2 portions)",
-        "2 poivrons, épépinés et coupés en lanières",
-        "1 oignon moyen, pelé et coupé en lanières",
-        "2 tasses (500 ml) de riz DÉJÀ CUIT, pour les 2 portions (pour le cuiseur : environ ⅔ tasse (165 ml) de riz SEC, soit 120 g, donne cette quantité cuite)",
-        "1 c. à soupe (15 ml) d’huile d’olive",
-        "2 c. à thé de paprika fumé",
-        "1 c. à thé de cumin moulu",
-        "1 pincée de sel et de poivre",
-        "2 c. à soupe (30 ml) de salsa",
-        "1 c. à soupe (15 ml) de jus de lime"
-      ],
-      "steps": [
-        "Si le riz est cru, mettre ⅔ tasse (165 ml) (environ 120 g) de riz SEC dans le cuiseur à riz. Ajouter l’eau selon l’emballage et cuire. Tu obtiendras environ 2 tasses (500 ml) de riz cuit; mesurer après cuisson. Prévoir le temps de cuisson du riz en plus.",
-        "Couper 450 g de poulet cru en lanières d’environ 1 à 2 cm; laver et couper 2 poivrons et 1 oignon en lanières. Séparer la planche du poulet cru de celle des légumes.",
-        "Dans un bol, enrober le poulet avec 2 c. à thé de paprika fumé, 1 c. à thé de cumin, sel et poivre.",
-        "Chauffer une grande poêle à feu moyen-vif 1 minute. Ajouter 1 c. à soupe d’huile, puis le poulet. Cuire environ 5 à 8 minutes en retournant, jusqu’à ce que les morceaux atteignent 74 °C au centre.",
-        "Ajouter les poivrons et l’oignon à la même poêle. Cuire 5 à 7 minutes en remuant, jusqu’à ce que les légumes soient tendres mais encore un peu croquants.",
-        "Répartir le poulet et les légumes en 2 portions égales. Servir 1 portion sur 1 tasse de riz cuit, avec environ 1 c. à soupe de salsa et un peu de lime.",
-        "Mettre RAPIDEMENT la deuxième portion de poulet et légumes au réfrigérateur dans un contenant fermé : c’est le dîner de jeudi. Prévoir 1 tasse de riz cuit frais ou conservé correctement pour jeudi."
-      ],
-      "tip": "Préparer deux portions de poulet et poivrons, mais une seule est mangée mardi. Conserver rapidement la seconde au frigo pour jeudi (environ 48 h).",
-      "nutrition": {
-        "calories": 610,
-        "protein_g": 54,
-        "carbs_g": 64,
-        "fat_g": 15,
-        "basis": "per_portion"
-      },
-      "before": "Cuire le riz à l'avance; préparer DEUX portions de poulet/poivrons et en réfrigérer une pour jeudi."
-    },
-    "fajitaleft": {
-      "id": "fajitaleft",
-      "title": "Bol de fajitas aux haricots noirs",
-      "minutes": 12,
+      "title": "Bol de fajitas poulet-riz",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "1 portion de poulet et poivrons DÉJÀ CUITS, conservée depuis mardi",
-        "1 tasse (250 ml) de riz cuit (pour le cuiseur : environ ⅓ tasse (85 ml) de riz SEC, soit 60 g, donne cette quantité cuite)",
-        "¾ tasse (180 ml) de haricots noirs en conserve, rincés et égouttés",
-        "½ tasse (125 ml) de maïs en grains surgelé",
-        "1 c. à soupe (15 ml) de salsa",
-        "1 c. à thé (5 ml) de jus de lime"
+        "225 g de poulet (équivalent CRU), CUIT dimanche",
+        "1 tasse de riz CUIT dimanche",
+        "1 poivron + ½ oignon en lanières CUITS dimanche avec épices fajitas",
+        "¾ tasse de haricots noirs en conserve; 1 c. à soupe de salsa; 1 c. à thé de lime"
       ],
       "steps": [
-        "Sortir du réfrigérateur la portion de poulet et poivrons cuits mardi. Elle doit avoir été réfrigérée rapidement et conservée au froid depuis. Si elle a été laissée à température ambiante longtemps, ne pas l’utiliser.",
-        "Ouvrir la boîte de haricots noirs, rincer sous l’eau et mesurer ¾ tasse. Mesurer ½ tasse de maïs surgelé, sans le décongeler.",
-        "Mettre dans une poêle à feu moyen : le poulet et poivrons, 1 tasse de riz cuit, les haricots, le maïs et 2 c. à soupe (30 ml) d’eau. Couvrir 5 à 7 minutes en remuant deux fois, jusqu’à ce que tout soit très chaud (74 °C pour les restes).",
-        "Verser dans un bol, ajouter 1 c. à soupe de salsa et 1 c. à thé de jus de lime. Manger immédiatement."
+        "Décongeler au frigo mercredi soir le poulet, poivron et riz de JEU.",
+        "Ajouter les haricots égouttés; réchauffer couvert 4 à 6 min jusqu’à 74 °C.",
+        "Ajouter salsa et lime."
       ],
-      "tip": "Ne jamais laisser du riz cuit hors du réfrigérateur longtemps. Cette recette utilise les RESTES de fajitas du mardi, pas du poulet cru.",
+      "before": "UNE portion et non deux. Cuisson et congélation dimanche.",
+      "tip": "Ne pas conserver la portion de jeudi au frigo depuis dimanche.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 830,
-        "protein_g": 65,
-        "carbs_g": 109,
+        "calories": 715,
+        "protein_g": 59,
+        "carbs_g": 86,
         "fat_g": 15,
         "basis": "per_portion"
-      },
-      "before": "Utiliser le poulet fajitas DÉJÀ CUIT de mardi et du riz cuit."
+      }
     },
     "salmon": {
       "id": "salmon",
-      "title": "Saumon érable-Dijon et pommes de terre",
-      "minutes": 40,
+      "title": "Saumon érable-Dijon, patates et haricots",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de filet de saumon CRU, décongelé si nécessaire",
-        "200 g de pommes de terre ORDINAIRES du sac de 2,27 kg (poids cru; ne pas acheter de « petites » pommes de terre)",
-        "2 tasses (500 ml) de haricots verts COUPÉS et SURGELÉS",
-        "2 c. à thé (10 ml) d’huile d’olive (pour les pommes de terre)",
-        "1 c. à soupe (15 ml) de moutarde de Dijon",
-        "2 c. à thé (10 ml) de sirop d’érable",
-        "1 c. à soupe (15 ml) de jus de citron",
-        "¼ c. à thé de poivre noir",
-        "1 pincée de sel (facultatif)",
-        "2 c. à soupe (30 ml) d’eau pour les haricots verts"
+        "225 g de saumon CRU CUIT AU FOUR dimanche avec 1 c. à soupe de Dijon + 2 c. à thé de sirop d’érable",
+        "200 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche avec 2 c. à thé d’huile",
+        "2 tasses de haricots verts coupés SURGELÉS",
+        "1 c. à soupe de citron"
       ],
       "steps": [
-        "Si le saumon est congelé, le décongeler au réfrigérateur, idéalement la veille. Préchauffer le FOUR à 200 °C (400 °F) pour le saumon. Préparer une petite plaque allant au four, avec du papier parchemin si disponible. Les POMMES DE TERRE cuiront séparément dans le Ninja à deux bacs, et non au four.",
-        "Peser 200 g de pommes de terre ORDINAIRES CRUES du sac de 2,27 kg (PAS des petites pommes de terre). Les laver, retirer les parties abîmées et garder la pelure si désiré. Les couper en cubes réguliers de 2 à 2,5 cm : tranches, bâtonnets, puis cubes. Ne pas seulement les couper en deux. Pour des patates plus croustillantes (FACULTATIF), faire tremper les cubes 20 minutes dans un bol d’eau froide, puis les égoutter et les sécher TRÈS soigneusement avant d’ajouter l’huile.",
-        "Mettre les cubes en UNE seule couche dans l’un des bacs du Ninja, sans les empiler. Ajouter 2 c. à thé d’huile d’olive, ¼ c. à thé de poivre noir et une pincée de sel (facultatif). Bien mélanger pour enrober les cubes.",
-        "Régler ce bac du Ninja au mode AIR FRY, à 200 °C (environ 390 °F), pendant 22 minutes. Démarrer la cuisson. Secouer le panier après 11 minutes. À 22 minutes, piquer un cube avec une fourchette : il doit être tendre à l’intérieur et doré à l’extérieur. S’il est encore ferme, ajouter 3 minutes (25 minutes au total).",
-        "Pendant la cuisson des patates, mélanger 1 c. à soupe de moutarde de Dijon et 2 c. à thé de sirop d’érable dans un petit bol. Éponger le saumon avec du papier absorbant (ne pas le rincer), le déposer sur sa plaque et étendre le mélange sur le dessus.",
-        "Après 8 minutes de cuisson des patates (quand il reste environ 14 minutes à la minuterie du Ninja), enfourner le saumon dans le FOUR PRÉCHAUFFÉ à 200 °C (400 °F). Cuire environ 12 à 15 minutes selon l’épaisseur. Vérifier dès 12 minutes : pour une cuisson complète, le centre de la partie la plus épaisse doit atteindre 63 °C (145 °F). Le sortir du four s’il est prêt avant les patates.",
-        "Quand il reste environ 8 minutes à la minuterie du Ninja, mettre les 2 tasses de haricots verts ENCORE SURGELÉS dans une petite casserole avec 2 c. à soupe (30 ml) d’eau. Couvrir et chauffer à FEU MOYEN pendant 6 à 8 minutes, en remuant à mi-cuisson. Quand ils sont chauds et tendres, égoutter l’eau restante. Ne pas les décongeler avant.",
-        "Servir les pommes de terre cuites (200 g pesés crus), le saumon et les haricots égouttés. Verser la quantité prévue de 1 c. à soupe (15 ml) de jus de citron sur le saumon et les légumes. Si les patates ont besoin de 3 minutes de plus, les laisser dans le Ninja pendant qu’on retire le saumon du four."
+        "Décongeler au frigo mercredi soir saumon et patates de JEU.",
+        "Réchauffer les haricots surgelés avec 2 c. à soupe d’eau, couverts, 4 à 6 min.",
+        "Réchauffer doucement saumon et patates cuits jusqu’à 74 °C; ajouter le citron."
       ],
-      "tip": "Répartition des cuissons : bac 1 du Ninja = pommes de terre ordinaires en cubes, AIR FRY à 200 °C (390 °F) pendant 22 à 25 min (secouer à mi-cuisson); four = saumon à 200 °C (400 °F) pendant 12 à 15 min, à commencer 8 min après les patates; casserole = haricots verts surgelés, couverts à feu moyen pendant 6 à 8 min, à commencer quand il reste 8 min. Utiliser les patates ordinaires du sac de 2,27 kg déjà acheté, pas des petites patates. Vérifier les patates avec une fourchette et le saumon au thermomètre (63 °C pour une cuisson complète). Le trempage de 20 minutes est facultatif et s’ajoute au temps de préparation annoncé.",
+      "before": "Saumon CUIT AU FOUR dimanche, patates AU NINJA dimanche.",
+      "tip": "La texture du saumon réchauffé est plus tendre qu’au four le jour même.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 800,
-        "protein_g": 52,
-        "carbs_g": 64,
-        "fat_g": 38,
+        "calories": 790,
+        "protein_g": 53,
+        "carbs_g": 55,
+        "fat_g": 39,
         "basis": "per_portion"
-      },
-      "before": "Appareils : NINJA À DEUX BACS pour les patates, FOUR pour le saumon et PETITE CASSEROLE COUVERTE pour les haricots verts surgelés. Utiliser les pommes de terre ORDINAIRES du sac de 2,27 kg (200 g CRUS), PAS des petites patates; couper en cubes de 2 à 2,5 cm. Pas besoin de les peler ni de les précuire, ni de décongeler les haricots. Décongeler le saumon au réfrigérateur s’il est congelé."
+      }
     },
     "meatballs": {
       "id": "meatballs",
-      "title": "Pâtes aux boulettes, marinara et ail",
-      "minutes": 30,
+      "title": "Penne marinara et boulettes Angus préparés dimanche",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "150 g de boulettes Compliments bœuf Angus SURGELÉES, déjà cuites (sac de 680 g; garder 530 g congelés)",
-        "90 g de pâtes PENNE RIGATE sèches (pas les soba)",
-        "¾ tasse (180 ml) de sauce marinara",
-        "2 tasses (500 ml) de jeunes épinards",
-        "1 c. à thé (5 ml) d’huile d’olive",
-        "1 gousse moyenne d’ail, hachée (environ 1 c. à thé)",
-        "1 c. à thé de basilic séché",
-        "¼ c. à thé de flocons de piment (facultatif)",
-        "2 c. à soupe (30 ml) d’eau, si la sauce est trop épaisse"
+        "150 g de boulettes Compliments Angus SURGELÉES déjà cuites (PAS Long Phung)",
+        "90 g de penne SÈCHES, CUITES dimanche",
+        "¾ tasse de marinara + 2 tasses d’épinards + 1 c. à thé de basilic, assemblés dimanche"
       ],
       "steps": [
-        "Vérifier sur le sac que les boulettes sont DÉJÀ CUITES. Si oui, les utiliser encore congelées sans les décongeler; si elles sont CRUES, les cuire complètement selon le sac avant de poursuivre.",
-        "Hacher finement 1 gousse moyenne d’ail. Chauffer une grande poêle à feu moyen, ajouter 1 c. à thé d’huile d’olive et l’ail. Remuer 30 secondes sans brunir.",
-        "Ajouter ¾ tasse de sauce marinara et, si elle est très épaisse, 2 c. à soupe d’eau. Ajouter les 150 g de boulettes déjà cuites, encore congelées. Couvrir.",
-        "Baisser à feu moyen-doux et laisser mijoter 15 à 20 minutes, en remuant environ toutes les 5 minutes, jusqu’à ce que le centre des boulettes soit bien chaud (74 °C pour réchauffer). Suivre le sac si ses instructions diffèrent.",
-        "Pendant ce temps, faire bouillir une casserole d’eau. Y verser 90 g de PENNE, pas de soba. Cuire selon le temps écrit sur le paquet de PENNE, puis égoutter.",
-        "Ajouter aux boulettes chaudes 2 tasses d’épinards, 1 c. à thé de basilic et, si désiré, ¼ c. à thé de flocons de piment. Remuer 1 à 2 minutes à feu moyen-doux pour ramollir les épinards.",
-        "Ajouter les penne égouttées dans la poêle, mélanger 30 secondes pour les enrober de sauce et servir."
+        "Décongeler le contenant VEN dîner au frigo jeudi soir.",
+        "Réchauffer couvert 4 à 6 min, en remuant à mi-cuisson, jusqu’à 74 °C."
       ],
-      "tip": "Cette recette demande des PENNE RIGATE, PAS des soba. Correction de la première préparation : si tu as cuit le paquet ENTIER de soba (250 g secs) et mangé la moitié des nouilles, tu as mangé l’équivalent d’environ 125 g secs. Ce n’était PAS 90 g au total. Les boulettes Long Phung de 216 g ont une texture vietnamienne élastique, différente des boulettes italiennes.",
+      "before": "Pâtes et boulettes cuites et assemblées dimanche.",
+      "tip": "Prendre les PENNE, pas les soba.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 925,
         "protein_g": 40,
         "carbs_g": 89,
         "fat_g": 42,
         "basis": "per_portion"
-      },
-      "before": "Produit recommandé pour la PROCHAINE commande : boulettes Compliments bœuf Angus classiques surgelées, 680 g (utiliser 150 g), sans fromage indiqué dans la liste d’ingrédients. NE PAS acheter les boulettes vietnamiennes Long Phung de 216 g pour cette recette : elles sont élastiques. Si tu les as déjà reçues, elles sont utilisables, mais leur texture restera ferme."
+      }
     },
-    "chili": {
-      "id": "chili",
-      "title": "Chili fumé de dinde et haricots noirs",
-      "minutes": 35,
-      "servings": 3,
+    "chilipotato": {
+      "id": "chilipotato",
+      "title": "Patates garnies au chili de dinde",
+      "minutes": 7,
+      "active_minutes": 5,
+      "servings": 1,
       "ingredients": [
-        "600 g de dinde hachée maigre CRUE (si le paquet fait 450 g, il en faut 2)",
-        "1 boîte (796 ml) de tomates broyées",
-        "1 boîte (540 ml) de haricots noirs, rincés et égouttés",
-        "1 oignon moyen, pelé et haché (environ 1 tasse)",
-        "1 poivron, épépiné et coupé en dés",
-        "1 c. à soupe (15 ml) d’huile d’olive",
-        "2 c. à thé de poudre de chili",
-        "1 c. à thé de cumin moulu",
-        "1 c. à thé de paprika fumé",
-        "¼ c. à thé de sel (ou au goût)"
+        "1 des 3 portions égales de chili de dinde CUITES dimanche",
+        "250 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche",
+        "Salsa ou sauce piquante facultative"
       ],
       "steps": [
-        "Vérifier le poids de la dinde : la recette demande 600 g CRUS. Si tu n’as qu’un paquet de 450 g, la recette fonctionne aussi, mais les portions contiendront moins de viande et de protéines.",
-        "Éplucher et couper l’oignon en dés; épépiner et couper le poivron en dés. Ouvrir la boîte de haricots noirs, égoutter et rincer.",
-        "Mettre une grande casserole sur feu moyen-vif. Ajouter 1 c. à soupe d’huile, l’oignon et le poivron. Remuer 4 à 5 minutes, jusqu’à ce que l’oignon commence à ramollir.",
-        "Ajouter 600 g de dinde hachée. La défaire avec une cuillère pendant 6 à 8 minutes, jusqu’à ce qu’elle soit entièrement cuite (74 °C au centre).",
-        "Ajouter la boîte entière de tomates broyées, les haricots, 2 c. à thé de poudre de chili, 1 c. à thé de cumin, 1 c. à thé de paprika et ¼ c. à thé de sel. Mélanger.",
-        "Réduire à feu moyen-doux. Laisser mijoter à découvert 15 minutes, en remuant aux 4 à 5 minutes. Si le mélange épaissit trop, ajouter 2 à 4 c. à soupe d’eau.",
-        "Répartir en 3 portions à peu près égales. Manger une portion vendredi; refroidir rapidement les autres dans des contenants peu profonds. Congeler au moins 1 portion pour la pomme de terre au chili du lundi de la semaine 2."
+        "Décongeler au frigo jeudi soir le chili et les patates de VEN souper.",
+        "Réchauffer couvert 4 à 6 min jusqu’à 74 °C, en remuant le chili à mi-cuisson.",
+        "Verser le chili sur les patates."
       ],
-      "tip": "3 portions au total, dont au moins 1 à congeler immédiatement pour la semaine 2. Ce repas réutilise ton chili; il n’en faut pas recuisiner.",
+      "before": "Chili et patates CUITS dimanche; aucune patate à cuire vendredi.",
+      "tip": "Troisième portion de chili = réserve, NON requise pour semaine 2.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 560,
-        "protein_g": 47,
-        "carbs_g": 45,
-        "fat_g": 21,
+        "calories": 790,
+        "protein_g": 52,
+        "carbs_g": 89,
+        "fat_g": 23,
         "basis": "per_portion"
-      },
-      "before": "600 g de dinde hachée CRUE (2 paquets de 450 g si nécessaire); garder une portion pour la semaine 2."
+      }
     },
     "porkchop": {
       "id": "porkchop",
-      "title": "Côtelettes de porc ail-lime et patate douce",
-      "minutes": 35,
+      "title": "Porc ail-lime et patate douce",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 à 250 g de côtelette de porc désossée CRUE",
-        "350 g de patate douce, lavée et coupée en quartiers de 1 à 2 cm d’épaisseur",
-        "2 tasses (500 ml) de mélange de chou râpé (en sac)",
-        "2 c. à thé (10 ml) d’huile d’olive",
-        "1 gousse d’ail moyenne, hachée (environ 1 c. à thé)",
-        "½ c. à thé de paprika fumé",
-        "1 c. à soupe (15 ml) de jus de lime",
-        "1 c. à soupe (15 ml) de vinaigre de cidre",
-        "1 pincée de sel et de poivre"
+        "225 g de porc désossé CRU CUIT AU FOUR dimanche",
+        "250 g de patate douce pesée CRUE, CUITE au Ninja dimanche",
+        "1½ tasse de haricots verts SURGELÉS",
+        "1 c. à thé d’huile + 1 c. à soupe de lime; ail et paprika ajoutés dimanche"
       ],
       "steps": [
-        "Préchauffer le four à 200 °C (400 °F). Laver la patate douce, couper en quartiers de 1 à 2 cm d’épaisseur et étaler sur une plaque. Mélanger avec 1 c. à thé d’huile et un peu de sel.",
-        "Cuire la patate douce au four environ 20 à 30 minutes; la retourner à mi-cuisson, après 12 à 15 minutes. Elle est prête quand elle se perce facilement à la fourchette.",
-        "Pendant la cuisson, hacher 1 gousse d’ail. Assaisonner les deux faces de la côtelette avec l’ail, ½ c. à thé de paprika, une pincée de sel et de poivre.",
-        "Chauffer une poêle à feu moyen-vif avec la c. à thé d’huile restante. Saisir la côtelette environ 4 à 6 minutes de chaque côté selon son épaisseur; vérifier au thermomètre qu’elle atteint 71 °C au centre. Retirer et laisser reposer 3 minutes.",
-        "Dans un bol, mélanger 2 tasses de chou râpé avec 1 c. à soupe de vinaigre et 1 c. à soupe de jus de lime. Mélanger 20 secondes.",
-        "Servir la côtelette chaude, la patate douce et la salade de chou. Aucun autre ingrédient n’est nécessaire."
+        "Décongeler porc et patate douce de SAM au frigo vendredi soir.",
+        "Réchauffer les haricots surgelés avec 2 c. à soupe d’eau, couverts, 4 à 5 min.",
+        "Réchauffer porc et patate douce cuits jusqu’à 74 °C; ajouter lime."
       ],
-      "tip": "Le temps de cuisson du porc dépend de son épaisseur : le thermomètre est plus fiable que la minuterie.",
+      "before": "Porc et patate douce entièrement cuits dimanche, puis CONGELÉS.",
+      "tip": "Cuisson initiale du porc à 63 °C avec repos 3 min; restes à 74 °C.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 730,
-        "protein_g": 57,
-        "carbs_g": 80,
-        "fat_g": 20,
+        "protein_g": 58,
+        "carbs_g": 72,
+        "fat_g": 22,
         "basis": "per_portion"
-      },
-      "before": "Côtelette de porc crue et patate douce crue; four et poêle utilisés séparément."
+      }
     },
     "thaicurry": {
       "id": "thaicurry",
-      "title": "Cari rouge thaï aux crevettes",
-      "minutes": 25,
+      "title": "Cari rouge de crevettes coco et riz",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "250 g de crevettes CRUES, décortiquées, déveinées et décongelées",
-        "1 tasse (250 ml) de lait de coco léger",
-        "2 tasses (500 ml) de mélange asiatique de légumes surgelés",
-        "1 c. à soupe (15 ml) de pâte de cari rouge thaï (ajouter plus seulement après avoir goûté)",
-        "1½ tasse (375 ml) de riz jasmin DÉJÀ CUIT (pour le cuiseur : environ ½ tasse (125 ml) de riz SEC, soit 90 g, donne cette quantité cuite)",
-        "1 c. à soupe (15 ml) de jus de lime",
-        "1 c. à soupe de coriandre fraîche hachée (facultatif)"
+        "250 g de crevettes CRUES décortiquées CUITES dimanche",
+        "1 tasse de lait de coco léger + 2 tasses de légumes asiatiques surgelés + 1 c. à soupe de pâte de cari rouge, CUITS dimanche",
+        "1½ tasse de riz CUIT dimanche",
+        "1 c. à soupe de lime"
       ],
       "steps": [
-        "Si les crevettes sont surgelées, les décongeler au réfrigérateur, idéalement pendant la nuit; pour aller plus vite, placer le sac fermé dans de l’eau froide et changer l’eau toutes les 30 minutes. Égoutter. Ne jamais laisser décongeler sur le comptoir.",
-        "Si le riz est cru, mettre ½ tasse (125 ml) (environ 90 g) de riz SEC dans le cuiseur à riz. Ajouter l’eau selon l’emballage et cuire. Tu obtiendras environ 1½ tasse (375 ml) de riz cuit; mesurer après cuisson. Prévoir le temps de cuisson du riz en plus. Garder le riz chaud.",
-        "Chauffer une grande poêle ou casserole à feu moyen. Ajouter 1 c. à soupe de pâte de cari rouge; remuer 30 secondes (sans la brûler).",
-        "Ajouter 1 tasse de lait de coco et 2 tasses de mélange asiatique encore surgelé. Remuer, couvrir et laisser mijoter à feu moyen-doux environ 6 à 8 minutes, jusqu’à ce que les légumes soient bien chauds.",
-        "Ajouter les 250 g de crevettes crues décongelées. Cuire dans le liquide frémissant environ 3 à 5 minutes selon leur taille, en remuant, jusqu’à ce qu’elles soient opaques et fermes; viser 74 °C à cœur. Si tu utilises des crevettes DÉJÀ CUITES, les mettre seulement à la fin 1 à 2 minutes pour réchauffer.",
-        "Goûter la sauce. Ajouter 1 c. à soupe de jus de lime et, si tu aimes plus épicé, un peu de pâte de cari supplémentaire. Verser sur 1½ tasse de riz cuit. Garnir de coriandre seulement si tu en as."
+        "Décongeler cari et riz de DIM au frigo samedi soir.",
+        "Réchauffer couvert 4 à 6 min, en remuant à mi-cuisson, jusqu’à 74 °C; ajouter lime."
       ],
-      "tip": "Le sac de légumes va directement dans la sauce; les crevettes doivent être décongelées avant la cuisson. Les crevettes déjà cuites s’ajoutent seulement à la fin.",
+      "before": "Cuit puis congelé le DIMANCHE PRÉCÉDENT.",
+      "tip": "250 g de crevettes, PAS tout le sac de 340 g.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 855,
         "protein_g": 67,
         "carbs_g": 100,
         "fat_g": 21,
         "basis": "per_portion"
-      },
-      "before": "Décongeler les crevettes CRUES d'avance; utiliser du riz déjà cuit et des légumes encore surgelés."
+      }
     },
-    "chilipotato": {
-      "id": "chilipotato",
-      "title": "Pomme de terre garnie au chili",
-      "minutes": 15,
+    "tunabeans": {
+      "id": "tunabeans",
+      "title": "Bol thon, haricots blancs et patates",
+      "minutes": 6,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "1 portion (environ ⅓ de la recette) de chili de dinde CUIT vendredi, congelé pour ce repas",
-        "1 pomme de terre Russet de 350 g, lavée",
-        "2 c. à soupe (30 ml) d’oignon ordinaire haché",
-        "1 c. à thé (5 ml) de sauce piquante (facultatif)",
-        "1 c. à soupe (15 ml) d’oignon vert haché (facultatif)"
+        "2 boîtes de thon pâle (170 g chacune)",
+        "¾ tasse de haricots blancs en conserve",
+        "200 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche",
+        "1 tasse de tomates cerises; 2 c. à thé d’huile; 1 c. à soupe de citron"
       ],
       "steps": [
-        "La veille, mettre au réfrigérateur la portion de chili de vendredi pour la décongeler. Si elle est encore gelée, utiliser le mode décongélation du micro-ondes, puis la réchauffer aussitôt.",
-        "Laver la pomme de terre Russet de 350 g, la piquer 5 ou 6 fois avec une fourchette et la placer sur une assiette allant au micro-ondes.",
-        "Cuire au micro-ondes à puissance élevée environ 7 à 10 minutes selon l’appareil. La retourner à mi-cuisson; elle est prête quand une fourchette traverse facilement jusqu’au centre. Laisser reposer 1 minute.",
-        "Mettre la portion de chili décongelée dans un bol couvert, allant au micro-ondes. Réchauffer 2 à 4 minutes, en remuant à mi-cuisson, jusqu’à ce qu’elle soit uniformément très chaude (74 °C).",
-        "Hacher 2 c. à soupe d’oignon. Ouvrir la pomme de terre dans le sens de la longueur, la garnir de tout le chili et de l’oignon. Ajouter, si désiré, 1 c. à thé de sauce piquante et un peu d’oignon vert."
+        "Réchauffer les patates déjà cuites de LUN 2 à 3 min.",
+        "Égoutter thon et haricots; couper les tomates cerises.",
+        "Mélanger avec huile et citron."
       ],
-      "tip": "Il faut une portion de chili déjà cuite de la semaine 1. Ce n’est PAS une recette qui demande de préparer un nouveau chili.",
+      "before": "Patates CUITES dimanche. Conserves ouvertes lundi seulement.",
+      "tip": "200 g = poids CRU des patates.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 845,
-        "protein_g": 54,
-        "carbs_g": 108,
-        "fat_g": 22,
+        "calories": 735,
+        "protein_g": 72,
+        "carbs_g": 72,
+        "fat_g": 16,
         "basis": "per_portion"
-      },
-      "before": "Décongeler au frigo la veille une portion de chili DÉJÀ CUIT de la semaine 1."
+      }
     },
     "oregano": {
       "id": "oregano",
-      "title": "Bol de riz au poulet citron-origan",
-      "minutes": 25,
+      "title": "Bol riz-poulet citron-origan",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de poulet CRU, poitrine ou haut de cuisse désossé",
-        "1½ tasse (375 ml) de riz DÉJÀ CUIT (pour le cuiseur : environ ½ tasse (125 ml) de riz SEC, soit 90 g, donne cette quantité cuite)",
-        "¾ tasse (180 ml) de tomates en dés",
-        "¾ tasse (180 ml) de concombre en dés",
-        "2 c. à thé (10 ml) d’huile d’olive",
-        "1 citron (pour 1 c. à soupe de jus et un peu de zeste)",
-        "1 gousse d’ail, hachée (environ 1 c. à thé)",
-        "½ c. à thé d’origan séché",
-        "1 pincée de sel et de poivre"
+        "225 g de poulet (équivalent CRU) CUIT dimanche",
+        "1½ tasse de riz CUIT dimanche",
+        "¾ tasse de tomates; ¾ tasse de concombre",
+        "2 c. à thé d’huile; 1 c. à soupe de citron; ½ c. à thé d’origan; ail mis dimanche"
       ],
       "steps": [
-        "Si le riz est cru, mettre ½ tasse (125 ml) (environ 90 g) de riz SEC dans le cuiseur à riz. Ajouter l’eau selon l’emballage et cuire. Tu obtiendras environ 1½ tasse (375 ml) de riz cuit; mesurer après cuisson. Prévoir le temps de cuisson du riz en plus.",
-        "Laver le citron. Prélever environ ¼ c. à thé de zeste avec une râpe, puis presser 1 c. à soupe de jus. Hacher 1 gousse d’ail. Couper 225 g de poulet en morceaux réguliers d’environ 2 cm.",
-        "Dans un bol, mélanger le poulet avec l’ail, le zeste, ½ c. à thé d’origan, sel et poivre.",
-        "Faire chauffer une poêle avec 2 c. à thé d’huile d’olive à feu moyen-vif. Ajouter le poulet en une couche; cuire environ 6 à 10 minutes, en retournant, jusqu’à ce que tous les morceaux atteignent 74 °C au centre.",
-        "Pendant la cuisson, couper tomates et concombre pour obtenir ¾ tasse de chacun; les mélanger avec 1 c. à soupe de jus de citron.",
-        "Mettre 1½ tasse de riz chaud dans un bol, ajouter le poulet bien cuit et la salade tomate-concombre. Servir aussitôt."
+        "Réchauffer le poulet et le riz LUN souper couverts 3 à 5 min jusqu’à 74 °C.",
+        "Couper tomates et concombre; ajouter citron et huile.",
+        "Servir avec poulet et riz."
       ],
-      "tip": "L’origan séché est préférable; si tu n’en as pas, mets ½ c. à thé de basilic séché à la place.",
+      "before": "Poulet et riz cuits dimanche. Semaine 2 : total 2⅔ tasses standard (~480 g) de riz SEC au cuiseur.",
+      "tip": "225 g de poulet = poids CRU avant cuisson.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 700,
         "protein_g": 59,
         "carbs_g": 82,
         "fat_g": 15,
         "basis": "per_portion"
-      },
-      "before": "Pour le riz : ½ tasse (125 ml / environ 90 g) de riz SEC donne environ 1½ tasse de riz cuit. Utiliser une tasse de cuisine standard, PAS une tasse complète du gobelet du cuiseur (habituellement 180 ml). Poulet CRU et riz mesuré APRÈS cuisson."
+      }
     },
     "peanutnoodle": {
       "id": "peanutnoodle",
-      "title": "Nouilles thaïes au poulet et aux arachides",
-      "minutes": 25,
+      "title": "Bol de poulet-riz sauce arachides",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de poulet CRU, coupé en lanières",
-        "90 g de nouilles de RIZ PLATES sèches (type Pad Thaï; pas les soba, pas les penne)",
-        "1 tasse (250 ml) de chou râpé",
-        "1 tasse (250 ml) de carottes râpées",
-        "1½ c. à soupe (22 ml) de beurre d’arachides",
-        "1 c. à soupe (15 ml) de sauce soya",
-        "1 c. à soupe (15 ml) de jus de lime",
-        "1 c. à thé (5 ml) de sauce chili douce ou sauce piquante (au goût)",
-        "2 à 3 c. à soupe (30 à 45 ml) d’eau chaude"
+        "225 g de poulet (équivalent CRU) CUIT dimanche",
+        "1 tasse de riz CUIT dimanche",
+        "1 tasse de légumes asiatiques SURGELÉS",
+        "1½ c. à soupe de beurre d’arachides; 1 c. à soupe de soya; 1 c. à soupe de lime; 2 c. à soupe d’eau chaude"
       ],
       "steps": [
-        "Identifier les bonnes nouilles : ici, ce sont les nouilles de RIZ PLATES pour Pad Thaï. Lire la méthode sur LEUR paquet (trempage ou cuisson, selon la marque); ne pas utiliser le temps des soba ou des penne.",
-        "Couper le poulet cru en lanières de 1 à 2 cm. Mesurer 1 tasse de chou râpé et 1 tasse de carottes râpées. Garder les légumes crus pour le croquant.",
-        "Dans un bol, mélanger 1½ c. à soupe de beurre d’arachides, 1 c. à soupe de sauce soya, 1 c. à soupe de jus de lime, 1 c. à thé de sauce chili et 2 c. à soupe d’eau chaude. Fouetter avec une fourchette; ajouter une c. à soupe d’eau si trop épais.",
-        "Chauffer une poêle antiadhésive à feu moyen-vif. Ajouter les 225 g de poulet en lanières avec 2 c. à soupe d’eau pour éviter de coller; remuer pendant 6 à 10 minutes, jusqu’à ce qu’il soit cuit à 74 °C à cœur.",
-        "Pendant que le poulet cuit, préparer 90 g de nouilles de riz exactement selon le paquet. Les égoutter dès qu’elles sont tendres; un rinçage rapide peut éviter qu’elles collent.",
-        "Baisser la poêle à feu doux. Ajouter au poulet les nouilles, la sauce aux arachides, le chou et les carottes. Mélanger environ 1 à 2 minutes jusqu’à ce que le tout soit chaud, sans ramollir complètement les crudités. Servir."
+        "Réchauffer le poulet et le riz MAR dîner avec légumes surgelés, couverts, 4 à 6 min jusqu’à 74 °C.",
+        "Mélanger beurre d’arachides, soya, lime et eau chaude; verser sur le bol."
       ],
-      "tip": "Trois sortes différentes dans le menu : SOBA = bœuf gingembre; PENNE = boulettes; nouilles de RIZ PLATES = poulet aux arachides. Ne pas échanger les temps de cuisson.",
+      "before": "Riz à la place des nouilles de riz sèches : pas de cuisson de nouilles la semaine.",
+      "tip": "Poulet et riz cuits dimanche.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 820,
-        "protein_g": 65,
-        "carbs_g": 95,
+        "calories": 725,
+        "protein_g": 60,
+        "carbs_g": 67,
         "fat_g": 20,
         "basis": "per_portion"
-      },
-      "before": "Utiliser les nouilles de RIZ PLATES, pas les soba ni les penne; suivre leur emballage."
+      }
     },
     "tacoskillet": {
       "id": "tacoskillet",
-      "title": "Poêlée de bœuf façon tacos fumés",
-      "minutes": 20,
+      "title": "Bol bœuf tacos-riz",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de bœuf haché maigre CRU",
-        "¾ tasse (180 ml) de haricots noirs en conserve, rincés et égouttés",
-        "½ poivron, épépiné et coupé en dés",
-        "½ tasse (125 ml) de maïs en grains surgelé",
-        "1 tasse (250 ml) de riz DÉJÀ CUIT (pour le cuiseur : environ ⅓ tasse (85 ml) de riz SEC, soit 60 g, donne cette quantité cuite)",
-        "⅓ d’avocat, coupé en dés",
-        "2 c. à soupe (30 ml) de salsa",
-        "½ c. à thé de poudre de chili",
-        "¼ c. à thé de cumin moulu",
-        "¼ c. à thé de paprika fumé",
-        "2 c. à soupe (30 ml) d’eau"
+        "225 g de bœuf haché (équivalent CRU) CUIT dimanche avec épices tacos",
+        "1 tasse de riz CUIT dimanche",
+        "¾ tasse de haricots noirs en conserve; ½ tasse de maïs SURGELÉ",
+        "2 c. à soupe de salsa; ⅓ avocat facultatif"
       ],
       "steps": [
-        "Si le riz est cru, mettre ⅓ tasse (85 ml) (environ 60 g) de riz SEC dans le cuiseur à riz. Ajouter l’eau selon l’emballage et cuire. Tu obtiendras environ 1 tasse (250 ml) de riz cuit; mesurer après cuisson. Prévoir le temps de cuisson du riz en plus.",
-        "Couper ½ poivron en petits dés. Ouvrir les haricots noirs, les rincer et mesurer ¾ tasse. Mesurer ½ tasse de maïs directement congelé.",
-        "Chauffer une poêle à feu moyen-vif et ajouter 225 g de bœuf haché cru. Le défaire avec une spatule pendant 5 à 7 minutes, jusqu’à cuisson complète à 71 °C. Égoutter le gras au besoin.",
-        "Ajouter poivron, ½ c. à thé de poudre de chili, ¼ c. à thé de cumin et ¼ c. à thé de paprika; remuer 2 minutes à feu moyen.",
-        "Ajouter les haricots, le maïs congelé et 2 c. à soupe d’eau. Couvrir à feu moyen 3 à 5 minutes en remuant une fois, jusqu’à ce que le maïs soit bien chaud.",
-        "Mettre le riz chaud dans un bol, ajouter le mélange de bœuf, 2 c. à soupe de salsa et ⅓ d’avocat coupé en dés. Servir."
+        "Réchauffer bœuf et riz MAR souper avec haricots égouttés et maïs surgelé, couverts, 4 à 6 min jusqu’à 74 °C.",
+        "Ajouter salsa et avocat facultatif."
       ],
-      "tip": "Nul besoin de décongeler le maïs. Les haricots sont déjà cuits en conserve : il suffit de les réchauffer.",
+      "before": "Bœuf et riz CUITS dimanche.",
+      "tip": "Aucun bœuf cru ni poivron à couper mardi.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 940,
+        "calories": 920,
         "protein_g": 60,
-        "carbs_g": 108,
+        "carbs_g": 102,
         "fat_g": 30,
         "basis": "per_portion"
-      },
-      "before": "Bœuf haché CRU et riz déjà cuit; le maïs va directement dans la poêle, encore surgelé."
+      }
     },
     "shrimpmango": {
       "id": "shrimpmango",
-      "title": "Bol de crevettes lime-chili et mangue",
-      "minutes": 20,
+      "title": "Bol crevettes lime-chili, mangue-riz",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "250 g de crevettes CRUES, décortiquées, déveinées et décongelées",
-        "1½ tasse (375 ml) de riz DÉJÀ CUIT (pour le cuiseur : environ ½ tasse (125 ml) de riz SEC, soit 90 g, donne cette quantité cuite)",
-        "½ mangue, pelée et coupée en dés",
-        "½ concombre, coupé en dés",
-        "2 c. à thé (10 ml) d’huile d’olive",
-        "1 c. à soupe (15 ml) de jus de lime",
-        "¼ c. à thé de flocons de piment rouge (facultatif)",
-        "1 c. à soupe de coriandre fraîche hachée (facultatif)"
+        "250 g de crevettes CRUES décortiquées CUITES dimanche",
+        "1½ tasse de riz CUIT dimanche",
+        "½ tasse de mangue en morceaux SURGELÉE, décongelée; ½ concombre",
+        "1 c. à soupe de lime; 1 c. à thé d’huile; piment facultatif"
       ],
       "steps": [
-        "Décongeler les crevettes crues au réfrigérateur pendant la nuit ou dans un sac fermé plongé dans de l’eau froide (changer l’eau toutes les 30 minutes). Égoutter et éponger avec du papier absorbant.",
-        "Si le riz est cru, mettre ½ tasse (125 ml) (environ 90 g) de riz SEC dans le cuiseur à riz. Ajouter l’eau selon l’emballage et cuire. Tu obtiendras environ 1½ tasse (375 ml) de riz cuit; mesurer après cuisson. Prévoir le temps de cuisson du riz en plus. Garder le riz chaud.",
-        "Peler la mangue et couper la moitié en petits dés. Couper ½ concombre en dés. Mélanger dans un bol avec 1 c. à soupe de jus de lime et, si désiré, ¼ c. à thé de flocons de piment.",
-        "Chauffer une poêle avec 2 c. à thé d’huile à feu moyen-vif. Ajouter les 250 g de crevettes crues décongelées en une couche. Cuire environ 2 à 3 minutes de chaque côté, jusqu’à ce qu’elles soient opaques, fermes et cuites à 74 °C au centre.",
-        "Mettre 1½ tasse de riz chaud dans un bol; ajouter crevettes, mangue et concombre. Parsemer de coriandre si tu en as et servir."
+        "Décongeler crevettes/riz JEU et mangue au frigo mercredi soir.",
+        "Réchauffer crevettes/riz couverts 3 à 5 min jusqu’à 74 °C.",
+        "Couper concombre; ajouter mangue et lime sur le bol."
       ],
-      "tip": "Si tes crevettes sont DÉJÀ CUITES, les réchauffer seulement 1 à 2 minutes à feu moyen plutôt que les cuire à nouveau.",
+      "before": "Crevettes cuites puis CONGELÉES dimanche; mangue servie froide.",
+      "tip": "Ne pas réchauffer concombre/mangue.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 700,
         "protein_g": 64,
         "carbs_g": 86,
         "fat_g": 11,
         "basis": "per_portion"
-      },
-      "before": "Décongeler les crevettes CRUES au frigo d'avance; utiliser du riz déjà cuit."
+      }
     },
     "harissa": {
       "id": "harissa",
-      "title": "Poulet harissa, pois chiches et légumes sur plaque",
-      "minutes": 30,
+      "title": "Bol poulet harissa, pois chiches et légumes",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de poulet CRU, coupé en cubes de 2 cm",
-        "¾ tasse (180 ml) de pois chiches en conserve, rincés et égouttés",
-        "1 poivron, épépiné et coupé en lanières",
-        "½ oignon moyen, coupé en lanières",
-        "1 c. à soupe (15 ml) de pâte de harissa",
-        "2 c. à thé (10 ml) d’huile d’olive",
-        "½ citron (environ 1 c. à soupe de jus)"
+        "225 g de poulet (équivalent CRU) CUIT dimanche avec 1 c. à soupe de harissa + 2 c. à thé d’huile",
+        "¾ tasse de pois chiches en conserve",
+        "1½ tasse de légumes asiatiques SURGELÉS",
+        "Citron facultatif"
       ],
       "steps": [
-        "Préchauffer le four à 205 °C (400 °F). Recouvrir une plaque de papier parchemin si désiré.",
-        "Égoutter et rincer les pois chiches; mesurer ¾ tasse. Couper 1 poivron et ½ oignon en lanières; couper le poulet cru en cubes d’environ 2 cm avec une planche réservée à la volaille.",
-        "Dans un bol, mélanger 1 c. à soupe de harissa et 2 c. à thé d’huile d’olive. Ajouter poulet, pois chiches et légumes; remuer pour tout enrober.",
-        "Répartir sur la plaque sans trop empiler. Enfourner 15 minutes à 205 °C; sortir et retourner les morceaux à la spatule.",
-        "Remettre au four 5 à 10 minutes jusqu’à ce que le poulet soit complètement cuit à 74 °C au centre et que les légumes soient tendres.",
-        "Presser ½ citron sur le tout, mélanger et servir. Si la harissa est très forte, commencer plutôt par ½ c. à soupe."
+        "Décongeler le poulet harissa JEU au frigo mercredi soir.",
+        "Ajouter pois chiches égouttés et légumes surgelés; réchauffer couvert 4 à 6 min jusqu’à 74 °C.",
+        "Ajouter citron si désiré."
       ],
-      "tip": "Les pois chiches sont déjà cuits; ils rôtissent avec le poulet. Toujours vérifier que le poulet atteint 74 °C.",
+      "before": "Poulet assaisonné et cuit dimanche.",
+      "tip": "Pois chiches déjà cuits en conserve.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 645,
-        "protein_g": 63,
-        "carbs_g": 55,
-        "fat_g": 19,
+        "calories": 655,
+        "protein_g": 62,
+        "carbs_g": 57,
+        "fat_g": 18,
         "basis": "per_portion"
-      },
-      "before": "Poulet CRU et pois chiches en conserve DÉJÀ CUITS."
+      }
     },
-    "tunabeans": {
-      "id": "tunabeans",
-      "title": "Salade de thon, haricots blancs et pommes de terre",
-      "minutes": 18,
+    "chickenpotato": {
+      "id": "chickenpotato",
+      "title": "Patates garnies au poulet chili doux",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "2 boîtes de thon pâle (170 g chacune avant égouttage), égouttées",
-        "¾ tasse (180 ml) de haricots blancs en conserve, rincés et égouttés",
-        "250 g de pommes de terre ORDINAIRES du sac de 2,27 kg, coupées en cubes de 2 cm",
-        "1 tasse (250 ml) de tomates cerises, coupées en deux",
-        "2 c. à thé (10 ml) d’huile d’olive",
-        "1 c. à soupe (15 ml) de jus de citron",
-        "1 c. à soupe (15 ml) de persil frais haché",
-        "½ gousse d’ail, hachée très finement (environ ½ c. à thé)",
-        "1 pincée de poivre noir"
+        "225 g de poulet (équivalent CRU) CUIT dimanche",
+        "250 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche",
+        "½ tasse de maïs SURGELÉ; 1 tasse de chou râpé EN SAC",
+        "1 c. à soupe de sauce chili douce ou salsa"
       ],
       "steps": [
-        "Peser 250 g de pommes de terre ordinaires; les laver et les couper en cubes réguliers d’environ 2 cm sans nécessité de les éplucher. Déposer les cubes dans un plat pour micro-ondes avec 2 c. à soupe d’eau; couvrir en laissant sortir la vapeur.",
-        "Cuire au micro-ondes à puissance élevée 6 à 9 minutes, en remuant à mi-cuisson, jusqu’à ce qu’une fourchette traverse facilement un cube. Ajouter des périodes d’1 minute au besoin; laisser tiédir 2 minutes.",
-        "Pendant ce temps, ouvrir et égoutter les 2 boîtes de thon. Ouvrir les haricots blancs, les rincer sous l’eau et mesurer ¾ tasse.",
-        "Laver et couper les tomates cerises pour obtenir 1 tasse. Hacher 1 c. à soupe de persil frais et ½ gousse d’ail.",
-        "Dans un petit bol, fouetter 2 c. à thé d’huile d’olive, 1 c. à soupe de jus de citron, l’ail haché et une pincée de poivre.",
-        "Déposer les pommes de terre tièdes, les haricots, les tomates, le thon et le persil dans un grand bol. Ajouter la vinaigrette, mélanger délicatement et servir."
+        "Décongeler le poulet et les patates de VEN dîner au frigo jeudi soir.",
+        "Ajouter le maïs surgelé, réchauffer couvert 4 à 6 min jusqu’à 74 °C.",
+        "Ajouter chou déjà râpé et sauce chili douce."
       ],
-      "tip": "Cette recette utilise les pommes de terre ordinaires déjà présentes sur la liste, pas des grelots. Aucune autre sorte de pomme de terre à acheter.",
+      "before": "Tous les aliments chauds cuits dimanche.",
+      "tip": "250 g de patates = poids CRU avant cuisson.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 740,
-        "protein_g": 75,
-        "carbs_g": 83,
-        "fat_g": 12,
+        "calories": 670,
+        "protein_g": 58,
+        "carbs_g": 70,
+        "fat_g": 16,
         "basis": "per_portion"
-      },
-      "before": "Prendre 250 g de pommes de terre ORDINAIRES du même sac de 2,27 kg, les laver et les couper en cubes de 2 cm. PAS besoin de petites pommes de terre. Le thon et les haricots blancs en conserve sont déjà cuits."
+      }
     },
     "koreanbeef": {
       "id": "koreanbeef",
-      "title": "Bol de bœuf collant à la coréenne",
-      "minutes": 20,
+      "title": "Bol de bœuf haché collant à la coréenne",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de lanières de bœuf maigre CRUES",
-        "1½ tasse (375 ml) de riz DÉJÀ CUIT (pour le cuiseur : environ ½ tasse (125 ml) de riz SEC, soit 90 g, donne cette quantité cuite)",
-        "1 tasse (250 ml) de brocoli en fleurons surgelé",
-        "1 tasse (250 ml) de champignons frais, tranchés",
-        "1 c. à soupe (15 ml) de sauce soya",
-        "1 c. à thé (5 ml) de miel ou de sirop d’érable (à la place de la cassonade)",
-        "1 c. à thé (5 ml) d’huile de sésame",
-        "1 gousse d’ail moyenne, hachée (environ 1 c. à thé)",
-        "1 c. à thé de gingembre frais râpé",
-        "¼ c. à thé de flocons de piment (facultatif)",
-        "2 c. à soupe (30 ml) d’eau"
+        "225 g de bœuf haché (équivalent CRU) CUIT dimanche avec 1 c. à soupe de soya, 1 c. à thé de sirop d’érable, 1 c. à thé d’huile de sésame",
+        "1½ tasse de riz CUIT dimanche",
+        "1½ tasse de brocoli SURGELÉ"
       ],
       "steps": [
-        "Si le riz est cru, mettre ½ tasse (125 ml) (environ 90 g) de riz SEC dans le cuiseur à riz. Ajouter l’eau selon l’emballage et cuire. Tu obtiendras environ 1½ tasse (375 ml) de riz cuit; mesurer après cuisson. Prévoir le temps de cuisson du riz en plus.",
-        "Couper les 225 g de bœuf en fines lanières si nécessaire. Trancher les champignons; hacher 1 gousse d’ail et râper 1 c. à thé de gingembre.",
-        "Dans un petit bol, mélanger 1 c. à soupe de sauce soya, 1 c. à thé de miel ou de sirop d’érable, 1 c. à thé d’huile de sésame, l’ail, le gingembre et éventuellement les flocons de piment.",
-        "Chauffer une grande poêle antiadhésive à feu moyen-vif. Saisir le bœuf 3 à 5 minutes en remuant, jusqu’à cuisson complète (71 °C au centre). Transférer le bœuf dans une assiette propre.",
-        "Mettre le brocoli encore congelé, les champignons et 2 c. à soupe d’eau dans la même poêle. Couvrir et cuire 4 à 6 minutes à feu moyen en remuant, jusqu’à ce que les légumes soient chauds et tendres.",
-        "Remettre le bœuf dans la poêle, verser la sauce préparée et mélanger 1 à 2 minutes à feu moyen. Servir immédiatement sur 1½ tasse de riz chaud."
+        "Décongeler bœuf/riz VEN au frigo jeudi soir.",
+        "Ajouter brocoli surgelé; réchauffer couvert 4 à 6 min, remuer à mi-cuisson, jusqu’à 74 °C."
       ],
-      "tip": "Le miel ou le sirop d’érable remplace la cassonade; inutile d’en acheter juste pour cette recette.",
+      "before": "Bœuf haché remplace les lanières pour un batch plus rapide.",
+      "tip": "Sauce déjà dans le bœuf cuit.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 840,
+        "calories": 835,
         "protein_g": 62,
-        "carbs_g": 85,
+        "carbs_g": 84,
         "fat_g": 28,
         "basis": "per_portion"
-      },
-      "before": "Lanières de bœuf CRUES et riz déjà cuit; brocoli encore surgelé."
+      }
     },
     "tomatocurry": {
       "id": "tomatocurry",
-      "title": "Cari de poulet tomates et lait de coco",
-      "minutes": 25,
+      "title": "Cari de poulet tomates-coco avec riz",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "250 g de poulet CRU, coupé en cubes de 2 cm",
-        "¾ tasse (180 ml) de tomates broyées en conserve",
-        "½ tasse (125 ml) de lait de coco léger",
-        "2 tasses (500 ml) de jeunes épinards",
-        "1½ tasse (375 ml) de riz basmati DÉJÀ CUIT (pour le cuiseur : environ ½ tasse (125 ml) de riz SEC, soit 90 g, donne cette quantité cuite)",
-        "1 c. à thé (5 ml) de poudre de cari",
-        "½ c. à thé de garam masala",
-        "1 gousse d’ail moyenne, hachée (environ 1 c. à thé)",
-        "1 c. à thé de gingembre frais râpé",
-        "2 c. à soupe (30 ml) d’eau au besoin"
+        "250 g de poulet (équivalent CRU) CUIT dimanche",
+        "¾ tasse de tomates broyées + ½ tasse de lait de coco léger + 2 tasses d’épinards",
+        "1½ tasse de riz CUIT dimanche",
+        "1 c. à thé de cari + ½ c. à thé de garam masala, cari CUIT dimanche"
       ],
       "steps": [
-        "Si le riz est cru, mettre ½ tasse (125 ml) (environ 90 g) de riz SEC dans le cuiseur à riz. Ajouter l’eau selon l’emballage et cuire. Tu obtiendras environ 1½ tasse (375 ml) de riz cuit; mesurer après cuisson. Prévoir le temps de cuisson du riz en plus.",
-        "Couper 250 g de poulet cru en cubes de 2 cm sur une planche pour la volaille. Hacher 1 gousse d’ail et râper 1 c. à thé de gingembre.",
-        "Chauffer une poêle antiadhésive à feu moyen-vif. Ajouter les cubes de poulet et remuer 3 à 4 minutes pour faire colorer la surface; ils ne seront pas encore complètement cuits.",
-        "Réduire à feu moyen. Ajouter 1 c. à thé de poudre de cari, ½ c. à thé de garam masala, l’ail et le gingembre. Remuer 30 secondes.",
-        "Verser ¾ tasse de tomates broyées et ½ tasse de lait de coco; ajouter 2 c. à soupe d’eau si la sauce est trop épaisse. Couvrir et laisser mijoter doucement 8 à 12 minutes à feu moyen-doux en remuant, jusqu’à ce que le poulet atteigne 74 °C au centre.",
-        "Ajouter 2 tasses de jeunes épinards et remuer 1 à 2 minutes jusqu’à ce qu’ils ramollissent. Servir sur 1½ tasse de riz basmati cuit."
+        "Décongeler cari/riz SAM au frigo vendredi soir.",
+        "Réchauffer couvert 4 à 6 min, en remuant à mi-cuisson, jusqu’à 74 °C."
       ],
-      "tip": "Le riz mesuré est déjà cuit. Si tu utilises des tomates ou du lait de coco ouverts plus tôt, ils doivent avoir été correctement réfrigérés ou congelés.",
+      "before": "Cari entièrement cuit et congelé dimanche.",
+      "tip": "Aucun cuiseur à riz samedi.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 780,
         "protein_g": 64,
         "carbs_g": 86,
         "fat_g": 20,
         "basis": "per_portion"
-      },
-      "before": "Poulet CRU et riz basmati déjà cuit; préparer le riz d'avance si nécessaire."
+      }
     },
     "stickypork": {
       "id": "stickypork",
-      "title": "Udon au porc collant et au sésame",
-      "minutes": 25,
+      "title": "Udon au porc collant et sésame",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de lanières de porc maigre CRUES",
-        "200 g de nouilles UDON NATURE PRÊTES À UTILISER (pas les soba ou penne)",
-        "2 tasses (500 ml) de mélange asiatique de légumes surgelés",
-        "1 c. à soupe (15 ml) de sauce soya",
-        "1 c. à soupe (15 ml) de sauce chili douce",
-        "1 c. à thé (5 ml) d’huile de sésame",
-        "1 gousse d’ail moyenne, hachée (environ 1 c. à thé)",
-        "1 c. à thé (5 ml) de graines de sésame",
-        "2 c. à soupe (30 ml) d’eau"
+        "225 g de lanières de porc CRUES CUITES dimanche avec 1 c. à soupe de soya + 1 c. à soupe de chili doux + 1 c. à thé d’huile de sésame",
+        "UN sachet de 200 g de UDON NATURE PRÊTES À UTILISER (PAS soba sèches)",
+        "2 tasses de légumes asiatiques SURGELÉS"
       ],
       "steps": [
-        "Identifier le bon paquet : ici, utiliser les UDON nature de 200 g déjà prêtes à utiliser, et NON les soba de 3 minutes. Lire le paquet pour savoir s’il faut les rincer, les réchauffer ou les cuire brièvement.",
-        "Hacher 1 gousse d’ail. Mélanger dans un bol la sauce soya, la sauce chili douce, l’huile de sésame et 2 c. à soupe d’eau.",
-        "Chauffer une grande poêle antiadhésive à feu moyen-vif. Ajouter 225 g de lanières de porc crues; cuire 5 à 8 minutes en remuant, jusqu’à cuisson complète (71 °C au centre).",
-        "Ajouter les 2 tasses de légumes asiatiques encore congelés et l’ail haché. Couvrir à feu moyen 5 à 7 minutes en remuant à mi-cuisson, jusqu’à ce que les légumes soient complètement chauds.",
-        "Ajouter les 200 g d’udon préparées comme indiqué sur LEUR paquet, ainsi que la sauce. Mélanger 1 à 2 minutes sur feu moyen jusqu’à ce que les nouilles et le porc soient bien chauds.",
-        "Verser dans un bol, parsemer 1 c. à thé de graines de sésame et servir."
+        "Décongeler le porc cuit DIM au frigo samedi soir.",
+        "Mélanger porc, 200 g de udon prêtes, légumes surgelés et 2 c. à soupe d’eau; réchauffer couvert 5 à 7 min, en remuant à mi-cuisson, jusqu’à 74 °C."
       ],
-      "tip": "Trois recettes, trois types de nouilles : soba (bœuf gingembre), nouilles de riz plates (poulet arachides), udon (porc). Les penne servent aux boulettes.",
+      "before": "Porc CUIT le DIMANCHE PRÉCÉDENT; sachet udon marqué PRÊTES À UTILISER.",
+      "tip": "Si le produit demande une cuisson à l’eau, suivre l’emballage; durée totale potentiellement >10 min.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 750,
+        "calories": 745,
         "protein_g": 56,
-        "carbs_g": 86,
-        "fat_g": 20,
+        "carbs_g": 85,
+        "fat_g": 21,
         "basis": "per_portion"
-      },
-      "before": "Utiliser les UDON PRÊTES À UTILISER de 200 g, pas les soba, penne ou nouilles de riz."
+      }
     },
     "restaurant": {
       "id": "restaurant",
@@ -809,7 +681,7 @@
         "day": "Mardi",
         "subtitle": "Citron et fumé",
         "lunch": "lemonpotato",
-        "dinner": "fajitas"
+        "dinner": "chili"
       },
       {
         "day": "Mercredi",
@@ -820,14 +692,14 @@
       {
         "day": "Jeudi",
         "subtitle": "Fraîcheur et érable",
-        "lunch": "fajitaleft",
+        "lunch": "fajitas",
         "dinner": "salmon"
       },
       {
         "day": "Vendredi",
         "subtitle": "Italie et chili",
         "lunch": "meatballs",
-        "dinner": "chili"
+        "dinner": "chilipotato"
       },
       {
         "day": "Samedi",
@@ -846,7 +718,7 @@
       {
         "day": "Lundi",
         "subtitle": "Réconfort et Méditerranée",
-        "lunch": "chilipotato",
+        "lunch": "tunabeans",
         "dinner": "oregano"
       },
       {
@@ -870,7 +742,7 @@
       {
         "day": "Vendredi",
         "subtitle": "Frais et caramélisé",
-        "lunch": "tunabeans",
+        "lunch": "chickenpotato",
         "dinner": "koreanbeef"
       },
       {
@@ -888,16 +760,13 @@
     ]
   ],
   "notes": [
-    "Les valeurs nutritionnelles sont des estimations de planification, pas des mesures précises. Vérifier les étiquettes et ajuster les portions selon les objectifs.",
-    "Les jours habituels, ajouter une collation riche en protéines et, au choix, un dessert de 150 à 200 kcal. Ajouter un deuxième shake ou une portion plus généreuse de protéines au besoin.",
-    "Les calories du déjeuner au restaurant sont incertaines; aucun total précis n’est garanti.",
-    "Les shakes du mercredi ne couvrent pas tous les besoins nutritionnels. Les suppléments ne transforment pas une alimentation liquide peu variée en repas équilibrés.",
-    "Cuire le poulet à 74 °C (165 °F) à cœur; réfrigérer rapidement les restes.",
-    "Les suppléments du matin peuvent apporter des calories, notamment le collagène et les fibres en poudre; vérifier les étiquettes.",
-    "Les calories, protéines, glucides et lipides indiqués par repas sont des estimations fondées sur des aliments génériques et des étiquettes typiques. Les marques, le poids cru ou cuit, les sauces et l’huile peuvent changer sensiblement les résultats.",
-    "Le riz et le quinoa sont déjà en réserve; les quantités de riz indiquées dans les recettes correspondent au volume cuit, pas au riz sec ni aux sachets pour micro-ondes.",
-    "Les liens Voilà renvoient à un exemple de marque et de format; vérifie la quantité et la disponibilité dans ta zone de livraison avant de commander.",
-    "La liste optimisée sur 14 jours regroupe les produits secs et surgelés à acheter une seule fois. Acheter les produits frais selon la semaine et congeler rapidement les portions inutilisées. Les quantités sont approximatives."
+    "V3 : toutes les protéines chaudes et le riz sont cuits dimanche; en semaine, réchauffer/assembler en 5 à 10 minutes, avec des portions décongelées au frigo la veille.",
+    "Le dimanche nécessite environ 40 à 60 min de travail actif, mais 75 à 120 min en incluant les cuissons et le rangement.",
+    "Les poids des viandes et patates sont CRUS, mesurés avant la cuisson du dimanche. Le riz SEC est mesuré dans le guide batch.",
+    "Ne pas laisser les repas de jeudi-dimanche au frigo depuis dimanche : congeler dimanche et déplacer au frigo la veille.",
+    "Refroidir rapidement dans des contenants peu profonds et réfrigérer/congeler en 2 heures. Réchauffer une seule fois les restes à 74 °C.",
+    "Calories et macros : estimations approximatives à ajuster selon marques, poids et quantités réellement consommées.",
+    "Sans fromage ni crème sure; shakes mercredi et déjeuner au restaurant samedi/dimanche conservés."
   ],
   "shopping": [
     {
