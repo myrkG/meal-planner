@@ -103,7 +103,7 @@
         "Couper tomates et concombre.",
         "Mélanger huile, Dijon, citron et origan; ajouter au bol."
       ],
-      "before": "MARDI : le poulet a été pesé en portion de 225 g CRUS puis cuit entier dimanche à 200 °C et 74 °C à cœur. Après cuisson, le couper en bouchées; il a été réfrigéré pour mardi. Les 200 g de patates sont le poids CRU avant cuisson.",
+      "before": "MARDI : utiliser 225 g CRUS de hauts de cuisse de poulet désossés et sans peau, cuits ENTIERS dimanche au four à 200 °C pendant environ 20 à 30 min, jusqu’à 74 °C à cœur, puis coupés en bouchées. Les 200 g de patates sont le poids CRU avant cuisson.",
       "tip": "200 g de patates AVANT cuisson.",
       "batch_ready": true,
       "nutrition": {
@@ -147,7 +147,7 @@
       "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de poulet désossé (équivalent poids CRU), cuit nature au four dimanche (la moitié du batch de 450 g CRUS)",
+        "225 g de hauts de cuisse de poulet DÉSOSSÉS, SANS PEAU (poids CRU), cuits entiers dimanche puis coupés en lanières",
         "1 poivron entier, en lanières, et ½ oignon moyen, en lanières",
         "1 c. à thé (5 ml) de PAPRIKA FUMÉ",
         "½ c. à thé (2,5 ml) de CUMIN MOULU",
@@ -163,7 +163,7 @@
         "Réchauffer au micro-ondes, couvert, environ 4 à 6 minutes en remuant à mi-cuisson, jusqu’à atteindre 74 °C partout.",
         "Ajouter 1 c. à soupe de salsa et 1 c. à thé de jus de lime juste avant de manger. Toutes les épices ont déjà été ajoutées dimanche."
       ],
-      "before": "Les 225 g de poulet correspondent au poids CRU avant le batch du dimanche. Mesurer les épices (paprika, cumin, sel, poivre) et les ajouter dimanche aux poivrons/oignons dans la poêle, puis incorporer le poulet déjà cuit. Aucun poulet cru à cuire jeudi.",
+      "before": "Les 225 g de poulet correspondent à des hauts de cuisse DÉSOSSÉS et SANS PEAU pesés CRUS avant le batch. Cuire entiers au four le dimanche, puis couper en lanières après cuisson. Mesurer les épices et les ajouter dimanche aux poivrons/oignons dans la poêle, puis incorporer le poulet déjà cuit. Jeudi : seulement réchauffer et ajouter haricots/salsa/lime.",
       "tip": "Pour UNE portion : 1 c. à thé de paprika fumé + ½ c. à thé de cumin + ¼ c. à thé de sel + une pincée de poivre, avec 1 c. à thé d’huile. Ajouter le poulet déjà cuit aux légumes épicés pendant 1 à 2 minutes. Jeudi : réchauffer puis ajouter haricots noirs/salsa/lime.",
       "batch_ready": true,
       "nutrition": {
@@ -174,7 +174,7 @@
         "basis": "per_portion"
       },
       "batch_steps": [
-        "DIMANCHE — COUPER ET CUIRE LE POULET : AVANT cuisson, peser DEUX groupes distincts de 225 g de poulet désossé CRU (450 g au total). Garder les morceaux ENTIERS pour le four; aplatir seulement une partie trop épaisse si nécessaire. Mettre les deux groupes côte à côte, sans les superposer, sur une plaque avec papier parchemin; pouvoir distinguer les deux portions. Cuire à 200 °C pendant environ 20 à 25 min (parfois jusqu’à ~30 min si épais) jusqu’à 74 °C dans la partie la plus épaisse. Laisser reposer 3 à 5 min. Garder le premier groupe nature pour mardi citron-patates; couper le deuxième groupe, DÉJÀ CUIT, en lanières d’environ 1 cm de largeur pour les fajitas de jeudi. Ne PAS peser le poulet CUIT en pensant qu’il doit encore peser 225 g.",
+        "DIMANCHE — HAUTS DE CUISSE : peser DEUX groupes de 225 g CRUS de hauts de cuisse de poulet DÉSOSSÉS et SANS PEAU (450 g total). Conserver chaque morceau ENTIER pour le four : ne pas l’aplatir et ne pas le couper en lanières avant cuisson. Déposer côte à côte sur une plaque avec papier parchemin, sans superposer. Cuire à 200 °C environ 20 à 30 min, jusqu’à 74 °C au centre du morceau le plus épais. Laisser reposer 3 min. Garder le premier groupe de hauts de cuisse nature pour mardi citron-patates; couper les morceaux du deuxième groupe DÉJÀ CUITS en lanières d’environ 1 cm pour jeudi fajitas. Les 225 g sont le poids AVANT cuisson, sans os.",
         "ÉPICES FAJITAS : dans un petit bol, mélanger EXACTEMENT 1 c. à thé de paprika fumé + ½ c. à thé de cumin moulu + ¼ c. à thé de sel + 1 pincée de poivre noir. Tout ce mélange sert à l’UNIQUE portion de fajitas du jeudi.",
         "LÉGUMES : couper 1 poivron entier et ½ oignon moyen en fines lanières. Chauffer 1 c. à thé d’huile d’olive dans une poêle à feu moyen-vif.",
         "CUIRE LES LÉGUMES : ajouter poivron et oignon; cuire environ 5 à 7 minutes en remuant, jusqu’à ce qu’ils soient tendres et légèrement dorés. Verser TOUTES les épices mesurées; mélanger pendant 30 secondes.",
@@ -801,11 +801,7 @@
       "Protéines et produits réfrigérés": [
         {
           "id": "chicken",
-          "name": "Poulet désossé : S1 450 g CRUS (2 × 225 g) / S2 1 150 g CRUS (4 × 225 g + 250 g)",
-          "voila": {
-            "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
-            "type": "product"
-          }
+          "name": "Hauts de cuisse de poulet DÉSOSSÉS SANS PEAU : S1 450 g CRUS (2 × 225 g) / S2 1 150 g CRUS (4 × 225 g + 250 g). PAS des poitrines."
         },
         {
           "id": "groundbeef",
@@ -1206,11 +1202,7 @@
       "Protéines et produits réfrigérés": [
         {
           "id": "chicken",
-          "name": "Poulet désossé : S1 450 g CRUS (2 × 225 g) / S2 1 150 g CRUS (4 × 225 g + 250 g)",
-          "voila": {
-            "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
-            "type": "product"
-          }
+          "name": "Hauts de cuisse de poulet DÉSOSSÉS SANS PEAU : S1 450 g CRUS (2 × 225 g) / S2 1 150 g CRUS (4 × 225 g + 250 g). PAS des poitrines."
         },
         {
           "id": "groundbeef",
@@ -1705,7 +1697,7 @@
         "ÉTIQUETER d’abord : LUN dîner thon/riz; LUN souper bœuf/soba; MAR dîner poulet/patates; MAR souper chili/riz; JEU dîner fajitas/riz; JEU souper saumon/patates; VEN dîner penne/boulettes; VEN souper chili/patates; SAM souper porc/patate douce; DIM souper cari crevettes/riz. Prévoir 1 contenant chili « RÉSERVE ».",
         "CUISEUR À RIZ : mesurer exactement 1⅔ tasse STANDARD (environ 300 g) de riz SEC. Ajouter l’eau selon l’emballage (PAS 1⅔ petits gobelets du cuiseur). Après cuisson, répartir ~5 tasses de riz CUIT : LUN thon 1½; MAR chili 1; JEU fajitas 1; DIM cari crevettes 1½.",
         "NINJA : couper 650 g de patates ORDINAIRES CRUES en cubes 2–2,5 cm. AIR FRY à 200 °C pendant 22–25 min avec ~5 c. à thé d’huile au total; secouer à mi-cuisson. Répartir selon le poids CRU initial : MAR 200 g, JEU 200 g, VEN 250 g. Autre bac : 250 g de patate douce CRUE en cubes + 1 c. à thé d’huile, AIR FRY à 200 °C ~18–23 min. Trempage facultatif +20 min; sécher soigneusement.",
-        "FOUR — POULET POUR MAR + JEU : préchauffer le four à 200 °C. Peser exactement DEUX groupes distincts de 225 g de poulet désossé CRU AVANT cuisson; réserver le groupe A pour MAR citron et le groupe B pour JEU fajitas. Garder les poitrines entières, mais aplatir légèrement les parties très épaisses; déposer sur plaque avec papier parchemin, sans superposer. Cuire 20 à 25 min, parfois environ 30 min selon l’épaisseur, jusqu’à 74 °C au cœur de la partie la plus épaisse. Laisser reposer 3 à 5 min. Garder le poulet de MAR nature (couper en bouchées après cuisson); couper le poulet de JEU en lanières d’environ 1 cm de largeur APRÈS cuisson. Cuire poivron/oignon fajitas séparément avec les épices mesurées, puis mélanger 1 à 2 min avec les lanières de poulet déjà cuites. Ne PAS essayer de reconstituer les poids CRUS en pesant le poulet CUIT. AUTRES PLAQUES : cuire séparément 225 g de saumon avec 1 c. à soupe de Dijon + 2 c. à thé d’érable (~12–18 min jusqu’à 70 °C) et 225 g de porc désossé jusqu’à 71 °C; retirer chaque plaque dès que prête.",
+        "FOUR — HAUTS DE CUISSE POUR MAR + JEU : préchauffer le four à 200 °C. Utiliser 450 g de hauts de cuisse de poulet DÉSOSSÉS et SANS PEAU, pesés CRUS avant cuisson. Former DEUX groupes de 225 g crus, l’un pour mardi citron et l’autre pour jeudi fajitas. Ne pas aplatir ni couper les hauts de cuisse avant cuisson : les déposer entiers, sans les superposer, sur une plaque avec papier parchemin. Cuire environ 20 à 30 min selon l’épaisseur, jusqu’à 74 °C au centre du morceau le plus épais. Laisser reposer 3 min. Après cuisson : couper le groupe MAR en bouchées; couper le groupe JEU en lanières d’environ 1 cm, puis les mélanger 1–2 min avec les poivrons/oignons et épices fajitas déjà cuits. Ne PAS mesurer 225 g sur le poulet cuit : c’est le poids CRU. Si les hauts de cuisse ont un OS, il faut les désosser avant la pesée pour obtenir 225 g de viande crue par portion; le temps au four sera différent. AUTRES PLAQUES : cuire séparément 225 g de saumon avec 1 c. à soupe de Dijon + 2 c. à thé d’érable (jusqu’à 70 °C) et 225 g de porc désossé jusqu’à 71 °C.",
         "FAJITAS POULET / LÉGUMES (UNE portion de jeudi) : prendre la MOITIÉ du batch de 450 g de poulet CRU déjà cuit au four à 74 °C (équivalant à 225 g CRUS); garder l’autre moitié nature pour mardi. Mélanger exactement 1 c. à thé de PAPRIKA FUMÉ + ½ c. à thé de CUMIN MOULU + ¼ c. à thé de SEL + 1 pincée de POIVRE NOIR dans un petit bol. Couper 1 poivron entier et ½ oignon en lanières. Chauffer 1 c. à thé d’huile d’olive dans une poêle à feu moyen-vif; cuire poivron/oignon 5–7 min, ajouter toutes les épices et remuer 30 sec. Ajouter la portion de poulet de jeudi DÉJÀ CUITE et coupée en lanières, plus 1–2 c. à soupe d’eau si trop sec; mélanger 1–2 min. Emballer avec exactement 1 tasse de riz CUIT dimanche, refroidir rapidement et CONGELER dès dimanche pour jeudi. Jeudi, ajouter ¾ tasse de haricots noirs, 1 c. à soupe de salsa et 1 c. à thé de lime. Ne pas assaisonner le poulet de mardi avec les épices fajitas.",
         "CHILI : brunir 600 g de dinde hachée CRUE dans la casserole jusqu’à 74 °C; ajouter 1 boîte de tomates broyées 796 ml, 1 boîte de haricots noirs 540 ml rincés, 1 poivron en dés, ½ oignon en dés, 2 c. à thé de poudre chili, 1 c. à thé de cumin, 1 c. à thé de paprika fumé. Mijoter ~20 min. Diviser le CHILI CUIT en 3 portions égales : MAR, VEN, réserve à congeler. Option mijoteuse après brunissage : HIGH ~3–4 h (durée totale beaucoup plus longue).",
         "BŒUF/SOBA : dans un bol, mélanger la SAUCE = 1 c. à soupe soya + 1 c. à thé miel + 1 c. à thé huile de sésame + ½ c. à thé gingembre + 2 c. à soupe eau. Cuire UNE SEULE botte liée de soba Blue Dragon (~83 g SECS) selon l’emballage (PAS les 250 g); égoutter. Réchauffer 1½ tasse de brocoli surgelé au micro-ondes couvert avec un peu d’eau, environ 4–6 min; égoutter. Faire brunir 225 g de bœuf haché CRU à la poêle 6–8 min, jusqu’à 71 °C. BAISSER à feu moyen et VERSER LA SAUCE SUR LE BŒUF CUIT; remuer 1–2 min. Ajouter soba et brocoli égouttés; mélanger 1 min. Emballer LUN souper et réfrigérer rapidement.",
@@ -1737,7 +1729,7 @@
         "ÉTIQUETER : LUN thon/patates, LUN poulet citron/riz, MAR poulet arachides/riz, MAR bœuf tacos/riz, JEU crevettes/riz, JEU poulet harissa, VEN poulet chili/patates, VEN bœuf coréen/riz, SAM cari de poulet/riz, DIM porc sésame. Marquer JEU–DIM « CONGELER ».",
         "CUISEUR À RIZ : mesurer exactement 2⅔ tasses STANDARD (environ 480 g) de riz SEC; ajouter l’eau selon l’emballage et cuire. Donne ~8 tasses CUITES. Répartir : LUN poulet 1½; MAR poulet arachides 1; MAR tacos 1; JEU crevettes 1½; VEN bœuf coréen 1½; SAM cari 1½.",
         "NINJA : couper en dés 450 g de patates ORDINAIRES CRUES. Mélanger avec ~3 c. à thé d’huile d’olive. AIR FRY à 200 °C pendant 22–25 min, secouer à mi-cuisson. Répartir selon poids CRU : LUN 200 g et VEN 250 g.",
-        "FOUR à 200 °C : rôtir 1 150 g de poulet CRU jusqu’à 74 °C (~20–30 min selon l’épaisseur), puis diviser en 5 portions cuites correspondant aux poids CRUS : LUN 225 g origan; MAR 225 g arachides; JEU 225 g harissa; VEN 225 g patates chili doux; SAM 250 g cari. Cuire séparément 225 g de lanières de porc jusqu’à 71 °C.",
+        "FOUR — HAUTS DE CUISSE : peser 1 150 g de hauts de cuisse de poulet DÉSOSSÉS et SANS PEAU, poids CRU sans os, pour cinq portions : 225 g lun citron-origan + 225 g mar arachides + 225 g jeu harissa + 225 g ven patates chili doux + 250 g sam cari. Cuire les hauts de cuisse ENTIERS sur une ou plusieurs plaques, sans les superposer, au four à 200 °C pendant environ 20 à 30 min, jusqu’à 74 °C au centre de la partie la plus épaisse. Après cuisson, couper en bouchées au besoin; garder les cinq groupes bien distincts selon leur poids CRU, et assaisonner selon les étapes suivantes. Cuire séparément 225 g de lanières de porc jusqu’à 71 °C. Si les hauts de cuisse ont un os, les désosser AVANT de peser les portions, sinon les quantités de viande seront inexactes.",
         "BŒUF : brunir 450 g de bœuf haché maigre CRU jusqu’à 71 °C. Diviser en DEUX portions égales : MAR tacos (½ c. à thé de poudre chili, ¼ c. à thé cumin, ¼ c. à thé paprika fumé), VEN coréen (1 c. à soupe soya, 1 c. à thé érable, 1 c. à thé huile de sésame).",
         "CREVETTES : cuire 250 g de crevettes CRUES décortiquées, décongelées, jusqu’à 74 °C; emballer pour JEU et congeler. La mangue surgelée sera décongelée la veille du repas, PAS cuite avec les crevettes.",
         "POULET / SAVEURS : ajouter origan et ail au poulet de LUN; garder le poulet de MAR nature (sauce arachides en 1 min mardi); enrober JEU avec 1 c. à soupe de harissa et 2 c. à thé d’huile; garder VEN nature (sauce chili douce au service).",
