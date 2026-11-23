@@ -147,18 +147,24 @@
       "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g de poulet (équivalent CRU), CUIT dimanche",
-        "1 tasse de riz CUIT dimanche",
-        "1 poivron + ½ oignon en lanières CUITS dimanche avec épices fajitas",
-        "¾ tasse de haricots noirs en conserve; 1 c. à soupe de salsa; 1 c. à thé de lime"
+        "225 g de poulet désossé (équivalent poids CRU), cuit nature au four dimanche (la moitié du batch de 450 g CRUS)",
+        "1 poivron entier, en lanières, et ½ oignon moyen, en lanières",
+        "1 c. à thé (5 ml) de PAPRIKA FUMÉ",
+        "½ c. à thé (2,5 ml) de CUMIN MOULU",
+        "¼ c. à thé (1,25 ml) de sel et 1 pincée de poivre noir",
+        "1 c. à thé (5 ml) d’huile d’olive pour les légumes fajitas",
+        "1 tasse (250 ml) de riz CUIT dimanche",
+        "¾ tasse (180 ml) de haricots noirs en conserve, rincés et égouttés jeudi",
+        "1 c. à soupe (15 ml) de salsa et 1 c. à thé (5 ml) de jus de lime, ajoutés jeudi"
       ],
       "steps": [
-        "Décongeler au frigo mercredi soir le poulet, poivron et riz de JEU.",
-        "Ajouter les haricots égouttés; réchauffer couvert 4 à 6 min jusqu’à 74 °C.",
-        "Ajouter salsa et lime."
+        "MERCREDI SOIR : transférer du congélateur au réfrigérateur la portion « JEU dîner » de poulet fajitas, poivron et riz cuit.",
+        "JEUDI : ouvrir la conserve de haricots noirs; en rincer et égoutter exactement ¾ tasse (180 ml). Les ajouter au bol de poulet, légumes et riz déjà cuits.",
+        "Réchauffer au micro-ondes, couvert, environ 4 à 6 minutes en remuant à mi-cuisson, jusqu’à atteindre 74 °C partout.",
+        "Ajouter 1 c. à soupe de salsa et 1 c. à thé de jus de lime juste avant de manger. Toutes les épices ont déjà été ajoutées dimanche."
       ],
-      "before": "UNE portion et non deux. Cuisson et congélation dimanche.",
-      "tip": "Ne pas conserver la portion de jeudi au frigo depuis dimanche.",
+      "before": "Les 225 g de poulet correspondent au poids CRU avant le batch du dimanche. Mesurer les épices (paprika, cumin, sel, poivre) et les ajouter dimanche aux poivrons/oignons dans la poêle, puis incorporer le poulet déjà cuit. Aucun poulet cru à cuire jeudi.",
+      "tip": "Pour UNE portion : 1 c. à thé de paprika fumé + ½ c. à thé de cumin + ¼ c. à thé de sel + une pincée de poivre, avec 1 c. à thé d’huile. Ajouter le poulet déjà cuit aux légumes épicés pendant 1 à 2 minutes. Jeudi : réchauffer puis ajouter haricots noirs/salsa/lime.",
       "batch_ready": true,
       "nutrition": {
         "calories": 715,
@@ -166,7 +172,16 @@
         "carbs_g": 86,
         "fat_g": 15,
         "basis": "per_portion"
-      }
+      },
+      "batch_steps": [
+        "DIMANCHE — POULET : cuire au four 450 g de poulet désossé CRU, sans épices fajitas, jusqu’à 74 °C au cœur de la partie la plus épaisse. Diviser le poulet CUIT en DEUX portions égales équivalant chacune à 225 g CRUS. Réserver une portion pour le poulet citron-patates de mardi; utiliser l’autre pour les fajitas de jeudi.",
+        "ÉPICES FAJITAS : dans un petit bol, mélanger EXACTEMENT 1 c. à thé de paprika fumé + ½ c. à thé de cumin moulu + ¼ c. à thé de sel + 1 pincée de poivre noir. Tout ce mélange sert à l’UNIQUE portion de fajitas du jeudi.",
+        "LÉGUMES : couper 1 poivron entier et ½ oignon moyen en fines lanières. Chauffer 1 c. à thé d’huile d’olive dans une poêle à feu moyen-vif.",
+        "CUIRE LES LÉGUMES : ajouter poivron et oignon; cuire environ 5 à 7 minutes en remuant, jusqu’à ce qu’ils soient tendres et légèrement dorés. Verser TOUTES les épices mesurées; mélanger pendant 30 secondes.",
+        "AJOUTER LE POULET : couper en lanières la portion de poulet de jeudi, DÉJÀ CUITE AU FOUR, et l’ajouter aux légumes assaisonnés. Ajouter 1 à 2 c. à soupe d’eau si la poêle est trop sèche. Mélanger 1 à 2 minutes pour bien enrober. Ne PAS assaisonner le poulet réservé pour mardi avec les épices fajitas.",
+        "PORTIONNER : mettre le poulet fajitas et les légumes cuits dans un petit contenant étiqueté « JEU dîner ». Mesurer exactement 1 tasse (250 ml) de riz DÉJÀ CUIT dans le batch de riz de dimanche, puis l’emballer avec le repas ou séparément. Refroidir rapidement et CONGELER dimanche, puisque jeudi est à plus de 2–3 jours.",
+        "JEUDI : ne PAS ajouter dimanche les haricots noirs, la salsa ou la lime. Garder les haricots dans leur conserve fermée et les ajouter seulement jeudi au moment de réchauffer."
+      ]
     },
     "salmon": {
       "id": "salmon",
@@ -1691,7 +1706,7 @@
         "CUISEUR À RIZ : mesurer exactement 1⅔ tasse STANDARD (environ 300 g) de riz SEC. Ajouter l’eau selon l’emballage (PAS 1⅔ petits gobelets du cuiseur). Après cuisson, répartir ~5 tasses de riz CUIT : LUN thon 1½; MAR chili 1; JEU fajitas 1; DIM cari crevettes 1½.",
         "NINJA : couper 650 g de patates ORDINAIRES CRUES en cubes 2–2,5 cm. AIR FRY à 200 °C pendant 22–25 min avec ~5 c. à thé d’huile au total; secouer à mi-cuisson. Répartir selon le poids CRU initial : MAR 200 g, JEU 200 g, VEN 250 g. Autre bac : 250 g de patate douce CRUE en cubes + 1 c. à thé d’huile, AIR FRY à 200 °C ~18–23 min. Trempage facultatif +20 min; sécher soigneusement.",
         "FOUR à 200 °C : cuire 450 g de poulet CRU jusqu’à 74 °C à cœur (~20–25 min), diviser en DEUX portions cuites correspondant à 225 g CRUS chacune. Sur plaques séparées : 225 g de saumon avec 1 c. à soupe de Dijon + 2 c. à thé d’érable (environ 12–18 min, jusqu’à 70 °C); 225 g de porc désossé jusqu’à 71 °C. Sortir chaque plaque dès que sa température est atteinte.",
-        "LÉGUMES FAJITAS : cuire 1 poivron en lanières + ½ oignon avec paprika fumé et cumin au four ou dans la poêle. Emballer avec le poulet de JEU. Garder le poulet de MAR nature; vinaigrette citron-Dijon à ajouter le jour du repas.",
+        "FAJITAS POULET / LÉGUMES (UNE portion de jeudi) : prendre la MOITIÉ du batch de 450 g de poulet CRU déjà cuit au four à 74 °C (équivalant à 225 g CRUS); garder l’autre moitié nature pour mardi. Mélanger exactement 1 c. à thé de PAPRIKA FUMÉ + ½ c. à thé de CUMIN MOULU + ¼ c. à thé de SEL + 1 pincée de POIVRE NOIR dans un petit bol. Couper 1 poivron entier et ½ oignon en lanières. Chauffer 1 c. à thé d’huile d’olive dans une poêle à feu moyen-vif; cuire poivron/oignon 5–7 min, ajouter toutes les épices et remuer 30 sec. Ajouter la portion de poulet de jeudi DÉJÀ CUITE et coupée en lanières, plus 1–2 c. à soupe d’eau si trop sec; mélanger 1–2 min. Emballer avec exactement 1 tasse de riz CUIT dimanche, refroidir rapidement et CONGELER dès dimanche pour jeudi. Jeudi, ajouter ¾ tasse de haricots noirs, 1 c. à soupe de salsa et 1 c. à thé de lime. Ne pas assaisonner le poulet de mardi avec les épices fajitas.",
         "CHILI : brunir 600 g de dinde hachée CRUE dans la casserole jusqu’à 74 °C; ajouter 1 boîte de tomates broyées 796 ml, 1 boîte de haricots noirs 540 ml rincés, 1 poivron en dés, ½ oignon en dés, 2 c. à thé de poudre chili, 1 c. à thé de cumin, 1 c. à thé de paprika fumé. Mijoter ~20 min. Diviser le CHILI CUIT en 3 portions égales : MAR, VEN, réserve à congeler. Option mijoteuse après brunissage : HIGH ~3–4 h (durée totale beaucoup plus longue).",
         "BŒUF/SOBA : dans un bol, mélanger la SAUCE = 1 c. à soupe soya + 1 c. à thé miel + 1 c. à thé huile de sésame + ½ c. à thé gingembre + 2 c. à soupe eau. Cuire UNE SEULE botte liée de soba Blue Dragon (~83 g SECS) selon l’emballage (PAS les 250 g); égoutter. Réchauffer 1½ tasse de brocoli surgelé au micro-ondes couvert avec un peu d’eau, environ 4–6 min; égoutter. Faire brunir 225 g de bœuf haché CRU à la poêle 6–8 min, jusqu’à 71 °C. BAISSER à feu moyen et VERSER LA SAUCE SUR LE BŒUF CUIT; remuer 1–2 min. Ajouter soba et brocoli égouttés; mélanger 1 min. Emballer LUN souper et réfrigérer rapidement.",
         "PENNE/BOULETTES : cuire 90 g de penne SÈCHES. Chauffer 150 g de boulettes Angus surgelées DÉJÀ CUITES avec ¾ tasse de marinara, 2 tasses d’épinards et 1 c. à thé de basilic; mélanger aux penne. Emballer VEN dîner.",
