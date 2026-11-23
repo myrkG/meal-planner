@@ -1,7 +1,7 @@
 {
-  "title": "The 14-Day Rotation",
-  "version": "2.6 · November 2026",
-  "anchor_monday": "2026-11-16",
+  "title": "14-day rotation — Sunday batch",
+  "version": "3.0 · November 2026",
+  "anchor_monday": "2026-11-23",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
     "wednesday_calories": "~1,350 kcal",
@@ -9,7 +9,7 @@
     "dessert": "150–200 kcal"
   },
   "background": {
-    "schedule": "2 meals on most days; restaurant breakfast on weekends; Wednesdays are protein-shake days",
+    "schedule": "Sunday batch prep; 5–10-minute meals on other days; Wednesday shakes; weekend restaurant breakfasts",
     "avoid": [
       "cheese",
       "sour cream",
@@ -20,677 +20,549 @@
   "recipes": {
     "tuna": {
       "id": "tuna",
-      "title": "Spicy tuna–avocado rice bowl",
-      "minutes": 10,
+      "title": "Spicy tuna–avocado rice",
+      "minutes": 5,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "2 cans light tuna (170 g each before draining); drain both",
-        "1½ cups (375 mL) previously cooked rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "½ avocado, diced",
-        "½ cucumber, diced",
-        "1 tsp (5 mL) soy sauce",
-        "1 tbsp (15 mL) lime juice",
-        "½ tsp sriracha (optional)"
+        "2 cans light tuna, 170 g each before draining",
+        "1½ cups (375 mL) rice COOKED Sunday",
+        "½ avocado; ½ cucumber",
+        "1 tsp soy sauce; 1 tbsp lime; optional sriracha"
       ],
       "steps": [
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking. Reheat refrigerated rice until hot.",
-        "Drain both tuna cans. Dice half a cucumber and half an avocado.",
-        "Mix 1 tsp soy sauce, 1 tbsp lime juice and optional ½ tsp sriracha in a bowl.",
-        "Flake the drained tuna into the sauce with a fork and mix for 20 seconds.",
-        "Put the hot rice in a bowl and top with tuna, avocado and cucumber. Serve."
+        "Reheat the MON lunch rice for 2–3 min until hot.",
+        "Drain both tuna cans; dice ½ avocado and ½ cucumber.",
+        "Mix tuna, soy and lime; serve on rice with fresh vegetables."
       ],
-      "tip": "Canned tuna is already cooked. Sriracha is optional.",
+      "before": "Rice was batch-cooked Sunday. Canned tuna and fresh ingredients are opened only now.",
+      "tip": "No raw-meat cooking.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 760,
         "protein_g": 70,
         "carbs_g": 80,
         "fat_g": 18,
         "basis": "per_portion"
-      },
-      "before": "Rice must be cooked first (use rice cooker if needed). Tuna is canned and ready to eat."
+      }
     },
     "gingerbeef": {
       "id": "gingerbeef",
-      "title": "Sticky ginger beef noodles",
-      "minutes": 20,
+      "title": "Ginger–soy beef, soba and broccoli",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g raw lean ground beef",
-        "90 g DRY Blue Dragon SOBA (about 1 of the 3 tied bundles in the 250 g pack; NOT the whole package)",
-        "2 cups (500 mL) frozen broccoli florets",
-        "2 tbsp (30 mL) reduced-sodium soy sauce",
-        "1 tsp (5 mL) honey",
-        "1 tsp (5 mL) sesame oil",
-        "1 minced garlic clove (about 1 tsp)",
-        "1 tsp grated fresh ginger",
-        "2 tbsp (30 mL) water"
+        "225 g RAW lean ground beef, COOKED Sunday",
+        "ONE tied bundle (~83 g DRY) Blue Dragon soba, COOKED Sunday",
+        "1½ cups frozen broccoli, heated Sunday",
+        "1 tbsp soy; 1 tsp honey; 1 tsp sesame oil; ½ tsp ginger, mixed Sunday"
       ],
       "steps": [
-        "Mince one garlic clove and grate 1 tsp fresh ginger. Keep the broccoli frozen; it goes straight into the skillet.",
-        "Mix soy sauce, honey, sesame oil, garlic, ginger and 2 tbsp water in a small bowl.",
-        "Heat a large skillet over medium-high heat. Add 225 g ground beef and break it apart for 5–7 minutes, until fully cooked to 71°C / 160°F. Drain excess fat if needed.",
-        "Add 2 cups frozen broccoli and 2 tbsp water to the beef. Cover over medium heat for 4–6 minutes, stirring halfway, until thoroughly hot.",
-        "Meanwhile boil a pot of water. Remove just ONE bundle (~83 g) of the THREE tied bundles from the 250 g pack, or use a scale to weigh exactly 90 g dry. Keep remaining bundles dry. Add this SOBA portion; Blue Dragon's package says 3 minutes (follow your own package if different). Drain immediately. Do not use penne cooking times.",
-        "Pour the sauce over beef and broccoli. Stir 1 minute over medium heat; add drained soba, toss for 30 seconds and serve."
+        "Take the MON dinner beef–soba container from the fridge.",
+        "Microwave covered 3–5 min; stir halfway and reach 74°C / 165°F."
       ],
-      "tip": "Soba for ginger beef; penne for meatball marinara. The complete 250 g soba package has three tied bundles, about 83 g each. Use only one bundle for one serving. Your soba package indicates 3 minutes.",
+      "before": "Entire dish cooked and assembled in Sunday's batch.",
+      "tip": "ONE soba bundle only; NEVER cook the whole 250 g bag.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 880,
-        "protein_g": 65,
-        "carbs_g": 88,
-        "fat_g": 30,
+        "calories": 850,
+        "protein_g": 58,
+        "carbs_g": 82,
+        "fat_g": 31,
         "basis": "per_portion"
-      },
-      "before": "WARNING: the 250 g Blue Dragon soba pack contains THREE tied bundles. For one serving, use just ONE bundle (about 83 g dry), close to the listed 90 g, or weigh precisely 90 g dry. Do NOT cook the whole 250 g package. Frozen broccoli does not need thawing."
+      }
     },
     "lemonpotato": {
       "id": "lemonpotato",
-      "title": "Lemony chicken and potato bowl",
-      "minutes": 18,
+      "title": "Lemon chicken and potatoes",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g ALREADY COOKED chicken breast or thigh",
-        "300 g REGULAR potatoes from the 2.27 kg bag, cut into 2 cm cubes",
-        "½ cup (125 mL) diced tomatoes",
-        "½ cup (125 mL) diced cucumber",
-        "2 tsp (10 mL) olive oil",
-        "1 tsp (5 mL) Dijon mustard",
-        "1 tbsp (15 mL) lemon juice",
-        "¼ tsp dried oregano",
-        "Pinch of salt and black pepper"
+        "225 g RAW-equivalent chicken, COOKED Sunday",
+        "200 g REGULAR potatoes weighed RAW, AIR-FRIED Sunday",
+        "½ cup tomatoes; ½ cup cucumber",
+        "1 tsp olive oil; 1 tsp Dijon; 1 tbsp lemon; ¼ tsp oregano"
       ],
       "steps": [
-        "Confirm chicken is ALREADY COOKED. If raw, cut into strips and pan-cook on medium-high for 6–10 minutes, until 74°C / 165°F; allow extra time.",
-        "Weigh 300 g regular potatoes from the grocery bag. Wash; peeling is optional. Cut into approximately 2 cm cubes (do not simply halve).",
-        "Put cubes in a microwave-safe dish with 2 tbsp water. Cover loosely to vent steam. Microwave on high for 7–10 minutes, stirring halfway. Test with a fork; if still firm, continue in 1-minute intervals.",
-        "Dice ½ cup tomatoes and ½ cup cucumber. Cut cooked chicken into 2 cm bites.",
-        "Whisk together 2 tsp olive oil, 1 tsp Dijon, 1 tbsp lemon juice, ¼ tsp oregano and a pinch of salt and pepper.",
-        "Reheat pre-cooked chicken until hot, then mix with potatoes and vegetables. Toss in dressing and serve."
+        "Reheat the TUE lunch chicken and potatoes 3–5 min to 74°C / 165°F.",
+        "Dice tomatoes and cucumber.",
+        "Mix oil, Dijon, lemon and oregano; pour over hot chicken and fresh vegetables."
       ],
-      "tip": "The same REGULAR-potato bag covers lemon chicken, salmon, chili potato and tuna-potato salad. Microwave time depends on cube size and appliance.",
+      "before": "Both chicken and potatoes were completely cooked Sunday.",
+      "tip": "Potato weight 200 g BEFORE cooking.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 725,
-        "protein_g": 77,
-        "carbs_g": 65,
+        "calories": 570,
+        "protein_g": 57,
+        "carbs_g": 46,
         "fat_g": 17,
         "basis": "per_portion"
-      },
-      "before": "Use REGULAR potatoes from the 2.27 kg bag, not baby potatoes. Weigh 300 g and dice into 2 cm cubes for even microwave cooking. Chicken must ALREADY BE COOKED, otherwise cook it separately."
+      }
+    },
+    "chili": {
+      "id": "chili",
+      "title": "Turkey chili over rice",
+      "minutes": 7,
+      "active_minutes": 5,
+      "servings": 1,
+      "ingredients": [
+        "1 of 3 cooked chili portions made Sunday using 600 g RAW ground turkey total",
+        "1 cup rice COOKED Sunday",
+        "Batch chili includes 796 mL crushed tomatoes, one 540 mL can black beans, bell pepper, onion, chili spices"
+      ],
+      "steps": [
+        "Reheat labelled TUE dinner chili and rice covered 4–6 min, stirring halfway, to 74°C / 165°F.",
+        "Serve chili over rice."
+      ],
+      "before": "Sunday batch makes THREE equal chili portions: Tue, Fri and one frozen spare.",
+      "tip": "No stove or fresh cutting today.",
+      "batch_ready": true,
+      "nutrition": {
+        "calories": 765,
+        "protein_g": 52,
+        "carbs_g": 89,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "fajitas": {
       "id": "fajitas",
-      "title": "Smoky chicken fajita rice bowls",
-      "minutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "450 g RAW chicken strips (makes 2 portions)",
-        "2 bell peppers, seeded and cut into strips",
-        "1 medium onion, peeled and sliced",
-        "2 cups (500 mL) ALREADY COOKED rice, for both portions (for the rice cooker: about ⅔ cup (165 mL) DRY rice, 120 g, yields this cooked amount)",
-        "1 tbsp (15 mL) olive oil",
-        "2 tsp smoked paprika",
-        "1 tsp ground cumin",
-        "Pinch of salt and pepper",
-        "2 tbsp (30 mL) salsa",
-        "1 tbsp (15 mL) lime juice"
-      ],
-      "steps": [
-        "If the rice is uncooked, put ⅔ cup (165 mL) (about 120 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 2 cups (500 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Cut 450 g raw chicken into 1–2 cm strips; slice peppers and onion. Use a separate cutting surface for raw poultry.",
-        "Season chicken with 2 tsp smoked paprika, 1 tsp cumin, salt and pepper.",
-        "Heat a large skillet over medium-high for 1 minute; add 1 tbsp olive oil and chicken. Stir-cook 5–8 minutes until the thickest strip reaches 74°C / 165°F.",
-        "Add peppers and onion; stir-cook another 5–7 minutes until tender-crisp.",
-        "Divide the chicken-vegetable mixture equally. Eat one half with 1 cup cooked rice, 1 tbsp salsa and lime.",
-        "Promptly refrigerate the other half of the chicken-vegetable mixture in a covered container for Thursday lunch. Have another cup of cooked rice ready for Thursday."
-      ],
-      "tip": "Makes two chicken-and-vegetable servings: one Tuesday, one Thursday. Chill leftovers promptly.",
-      "nutrition": {
-        "calories": 610,
-        "protein_g": 54,
-        "carbs_g": 64,
-        "fat_g": 15,
-        "basis": "per_portion"
-      },
-      "before": "Cook rice first; make TWO chicken/pepper servings and refrigerate one for Thursday."
-    },
-    "fajitaleft": {
-      "id": "fajitaleft",
-      "title": "Fajita black-bean bowl",
-      "minutes": 12,
+      "title": "Chicken fajita rice bowl",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "1 refrigerated serving of ALREADY COOKED chicken and peppers from Tuesday",
-        "1 cup (250 mL) cooked rice (for the rice cooker: about ⅓ cup (85 mL) DRY rice, 60 g, yields this cooked amount)",
-        "¾ cup (180 mL) canned black beans, rinsed and drained",
-        "½ cup (125 mL) frozen corn kernels",
-        "1 tbsp (15 mL) salsa",
-        "1 tsp (5 mL) lime juice"
+        "225 g RAW-equivalent chicken, COOKED Sunday",
+        "1 cup rice COOKED Sunday",
+        "1 sliced bell pepper + ½ onion COOKED Sunday with fajita spices",
+        "¾ cup canned black beans; 1 tbsp salsa; 1 tsp lime"
       ],
       "steps": [
-        "Take Tuesday's cooked chicken and peppers from the refrigerator. Only use it if it was chilled promptly and kept refrigerated.",
-        "Drain and rinse black beans; measure ¾ cup. Measure ½ cup corn straight from the freezer.",
-        "Put chicken, peppers, 1 cup cooked rice, beans, corn and 2 tbsp water into a skillet over medium heat. Cover 5–7 minutes, stirring twice, until leftovers are piping hot (74°C / 165°F).",
-        "Transfer to a bowl. Top with 1 tbsp salsa and 1 tsp lime juice, then serve."
+        "Thaw THU chicken/pepper/rice in fridge WED night.",
+        "Add drained beans; microwave covered 4–6 min until 74°C / 165°F.",
+        "Top with salsa and lime."
       ],
-      "tip": "This is a LEFTOVER chicken recipe; do not use raw chicken. Refrigerate cooked rice promptly.",
+      "before": "ONE portion, not the old two-serving recipe. Cooked and FROZEN Sunday.",
+      "tip": "Thu food must not stay refrigerated from Sunday.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 830,
-        "protein_g": 65,
-        "carbs_g": 109,
+        "calories": 715,
+        "protein_g": 59,
+        "carbs_g": 86,
         "fat_g": 15,
         "basis": "per_portion"
-      },
-      "before": "Uses already-cooked Tuesday fajita chicken plus cooked rice."
+      }
     },
     "salmon": {
       "id": "salmon",
-      "title": "Maple–Dijon salmon with potatoes",
-      "minutes": 40,
+      "title": "Maple–Dijon salmon, potatoes and green beans",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW salmon fillet, thawed if previously frozen",
-        "200 g REGULAR potatoes from the 2.27 kg bag (raw weight; do not buy baby potatoes)",
-        "2 cups (500 mL) FROZEN cut green beans",
-        "2 tsp (10 mL) olive oil (for potatoes)",
-        "1 tbsp (15 mL) Dijon mustard",
-        "2 tsp (10 mL) maple syrup",
-        "1 tbsp (15 mL) lemon juice",
-        "¼ tsp black pepper",
-        "Pinch of salt (optional)",
-        "2 tbsp (30 mL) water for the green beans"
+        "225 g RAW salmon BAKED in oven Sunday with 1 tbsp Dijon + 2 tsp maple syrup",
+        "200 g REGULAR potatoes weighed RAW, AIR-FRIED in Ninja Sunday with 2 tsp olive oil",
+        "2 cups FROZEN cut green beans",
+        "1 tbsp lemon juice"
       ],
       "steps": [
-        "If salmon is frozen, thaw it in the refrigerator (ideally overnight). Preheat the OVEN to 200°C / 400°F for the salmon. Get a small oven-safe baking sheet and line it with parchment if available. The POTATOES will cook separately in the Ninja dual-basket air fryer, not in the oven.",
-        "Weigh 200 g of REGULAR RAW potatoes from the 2.27 kg grocery bag (NOT baby potatoes). Wash and scrub, remove damaged spots and leave the skin on if desired. Cut into even 2–2.5 cm cubes (slice, then cut into sticks, then cube). Do not simply halve the potatoes. For crispier potatoes (OPTIONAL), soak the cubes in cold water for 20 minutes, then drain and dry VERY thoroughly before adding the oil.",
-        "Place the potatoes in ONE layer in one Ninja basket, without piling them up. Add 2 tsp olive oil, ¼ tsp black pepper and an optional pinch of salt. Toss to coat all the cubes.",
-        "Set that Ninja basket to AIR FRY at 200°C (about 390°F) for 22 minutes. Start cooking the potatoes. Shake the basket after 11 minutes. At 22 minutes, test a cube with a fork: it must be tender inside and golden outside. If still firm, add 3 minutes (25 minutes total).",
-        "While the potatoes are cooking, mix 1 tbsp Dijon mustard with 2 tsp maple syrup in a small bowl. Pat the salmon dry with paper towel (do not rinse), place it on the separate oven baking sheet and coat the top evenly with the Dijon-maple mixture.",
-        "After the potatoes have been cooking for 8 minutes (about 14 minutes left on the Ninja timer), put the salmon into the PREHEATED 200°C / 400°F OVEN. Bake for about 12–15 minutes depending on thickness. Start checking at 12 minutes; for fully cooked fish, the centre of the thickest part should reach 63°C / 145°F. If it finishes before the potatoes, remove it from the oven.",
-        "When about 8 minutes remain on the Ninja timer, put 2 cups of green beans DIRECTLY FROM FROZEN into a small saucepan with 2 tbsp (30 mL) of water. Cover and cook over MEDIUM heat for 6–8 minutes, stirring halfway through. When hot and tender, drain any remaining water. Do not thaw beforehand.",
-        "Serve the cooked potatoes (200 g weighed raw), salmon and drained green beans together. Drizzle the measured 1 tbsp (15 mL) lemon juice over the salmon and vegetables. If the potatoes need an extra 3 minutes, leave them in the Ninja while you take the salmon out of the oven."
+        "Thaw the THU salmon and potatoes in fridge WED night.",
+        "Microwave frozen green beans with 2 tbsp water covered 4–6 min.",
+        "Gently heat cooked salmon and potatoes covered to 74°C / 165°F; add lemon."
       ],
-      "tip": "Cooking setup: Ninja basket 1 = regular potato cubes, AIR FRY 200°C / 390°F for 22–25 min (shake halfway); oven = salmon at 200°C / 400°F for 12–15 min, started 8 min after the potatoes; saucepan = frozen green beans over medium heat for 6–8 min, started when 8 min remain. Keep using the REGULAR potatoes already in the 2.27 kg grocery bag; no baby-potato purchase. Fork-test the potatoes and check salmon with a thermometer (63°C / 145°F for fully cooked fish). The optional 20-minute soak adds to the listed preparation time.",
+      "before": "Salmon baked IN OVEN Sunday; potatoes cooked IN NINJA Sunday.",
+      "tip": "Texture of reheated salmon is softer than fresh baked.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 800,
-        "protein_g": 52,
-        "carbs_g": 64,
-        "fat_g": 38,
+        "calories": 790,
+        "protein_g": 53,
+        "carbs_g": 55,
+        "fat_g": 39,
         "basis": "per_portion"
-      },
-      "before": "Appliances: NINJA DUAL-BASKET AIR FRYER for the potatoes; OVEN for the salmon; COVERED SAUCEPAN for the frozen green beans. Use REGULAR potatoes from the existing 2.27 kg bag (200 g RAW), NOT baby potatoes; cut into 2–2.5 cm cubes. No peeling, pre-boiling or thawing of the green beans needed. Thaw salmon safely in the refrigerator if frozen."
+      }
     },
     "meatballs": {
       "id": "meatballs",
-      "title": "Garlicky meatball marinara pasta",
-      "minutes": 30,
+      "title": "Batch-cooked marinara penne and Angus meatballs",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "150 g Compliments Angus beef FROZEN FULLY COOKED meatballs (680 g bag; keep remaining 530 g frozen)",
-        "90 g dry PENNE RIGATE pasta (not soba)",
-        "¾ cup (180 mL) marinara sauce",
-        "2 cups (500 mL) baby spinach",
-        "1 tsp (5 mL) olive oil",
-        "1 medium garlic clove, minced (about 1 tsp)",
-        "1 tsp dried basil",
-        "¼ tsp red pepper flakes (optional)",
-        "2 tbsp (30 mL) water if sauce is too thick"
+        "150 g fully cooked frozen Compliments Angus meatballs (NOT Long Phung)",
+        "90 g DRY penne, COOKED Sunday",
+        "¾ cup marinara + 2 cups baby spinach + 1 tsp dried basil, combined Sunday"
       ],
       "steps": [
-        "Confirm the frozen meatballs are FULLY COOKED. If so, no thawing is required; if RAW, cook fully according to package before continuing.",
-        "Mince one garlic clove. Heat 1 tsp olive oil in a large skillet over medium heat; stir garlic for 30 seconds without browning.",
-        "Add ¾ cup marinara and 2 tbsp water if thick. Add 150 g frozen fully cooked meatballs; cover.",
-        "Simmer over medium-low 15–20 minutes, stirring every 5 minutes, until meatballs are hot in the centre (74°C / 165°F for reheating). Follow package directions if different.",
-        "Meanwhile boil a pot of water. Add 90 g dry PENNE (not soba); cook for the time listed on your PENNE package and drain.",
-        "Add 2 cups spinach, 1 tsp dried basil and optional ¼ tsp pepper flakes to hot meatballs. Stir-cook 1–2 minutes until wilted.",
-        "Toss drained penne into sauce for 30 seconds and serve."
+        "Thaw FRI lunch penne–meatball container in fridge THU night.",
+        "Microwave covered 4–6 min, stir halfway, until 74°C / 165°F."
       ],
-      "tip": "This recipe uses PENNE RIGATE, NOT soba. Correction to the earlier meal: if you cooked the ENTIRE 250 g dry soba pack with meatballs and ate half of the cooked noodles, that equals about 125 g dry noodles eaten, NOT 45 g. Long Phung 216 g beef balls are springy Vietnamese-style, unlike Italian meatballs.",
+      "before": "Pasta and meatballs both preheated and fully assembled Sunday.",
+      "tip": "Use PENNE, not soba.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 925,
         "protein_g": 40,
         "carbs_g": 89,
         "fat_g": 42,
         "basis": "per_portion"
-      },
-      "before": "For the NEXT order use Compliments regular Angus beef meatballs, 680 g bag (use 150 g), with no cheese listed in the published ingredients. Do NOT buy Long Phung 216 g Vietnamese meatballs for marinara; they are springy. Already-bought Long Phung can be eaten but will remain firm."
+      }
     },
-    "chili": {
-      "id": "chili",
-      "title": "Smoky turkey and black-bean chili",
-      "minutes": 35,
-      "servings": 3,
+    "chilipotato": {
+      "id": "chilipotato",
+      "title": "Loaded turkey chili potatoes",
+      "minutes": 7,
+      "active_minutes": 5,
+      "servings": 1,
       "ingredients": [
-        "600 g RAW lean ground turkey (two packs if each is 450 g)",
-        "1 can (796 mL) crushed tomatoes",
-        "1 can (540 mL) black beans, rinsed and drained",
-        "1 medium onion, peeled and diced (about 1 cup)",
-        "1 bell pepper, seeded and diced",
-        "1 tbsp (15 mL) olive oil",
-        "2 tsp chili powder",
-        "1 tsp ground cumin",
-        "1 tsp smoked paprika",
-        "¼ tsp salt (or to taste)"
+        "1 of 3 equal turkey chili portions COOKED Sunday",
+        "250 g REGULAR potatoes weighed RAW, AIR-FRIED Sunday",
+        "Optional hot sauce or salsa"
       ],
       "steps": [
-        "Check turkey pack weight: recipe uses 600 g RAW. A single 450 g pack also works but yields less meat/protein in each portion.",
-        "Dice onion and bell pepper. Drain and rinse the black beans.",
-        "Heat a large pot over medium-high. Add 1 tbsp oil, onion and pepper; stir 4–5 minutes until softening.",
-        "Add raw turkey; break up and stir for 6–8 minutes until fully cooked to 74°C / 165°F.",
-        "Stir in the entire can of crushed tomatoes, drained beans, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika and ¼ tsp salt.",
-        "Reduce to medium-low; simmer uncovered 15 minutes, stirring every 4–5 minutes. If too thick, add 2–4 tbsp water.",
-        "Divide into roughly 3 portions. Eat one on Friday, chill the others promptly in shallow containers and FREEZE at least one for Week 2 Monday's chili potato."
+        "Thaw FRI dinner chili/potatoes in fridge THU night.",
+        "Microwave covered 4–6 min until 74°C / 165°F, stirring chili halfway.",
+        "Serve chili over potatoes."
       ],
-      "tip": "Three portions total; save and freeze at least one for next week's loaded potato.",
+      "before": "Chili and potatoes COOKED Sunday; no baking Friday.",
+      "tip": "Third chili portion is a freezer spare, NOT a Week 2 dependency.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 560,
-        "protein_g": 47,
-        "carbs_g": 45,
-        "fat_g": 21,
+        "calories": 790,
+        "protein_g": 52,
+        "carbs_g": 89,
+        "fat_g": 23,
         "basis": "per_portion"
-      },
-      "before": "600 g RAW ground turkey (two 450 g packs if needed); save one portion for Week 2."
+      }
     },
     "porkchop": {
       "id": "porkchop",
-      "title": "Garlic–lime pork chops and sweet potato",
-      "minutes": 35,
+      "title": "Garlic–lime pork and sweet potato",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225–250 g RAW boneless lean pork chop",
-        "350 g sweet potato, washed and cut into 1–2 cm thick wedges",
-        "2 cups (500 mL) bagged shredded cabbage slaw",
-        "2 tsp (10 mL) olive oil",
-        "1 medium garlic clove, minced (about 1 tsp)",
-        "½ tsp smoked paprika",
-        "1 tbsp (15 mL) lime juice",
-        "1 tbsp (15 mL) apple cider vinegar",
-        "Pinch of salt and pepper"
+        "225 g RAW boneless pork BAKED Sunday",
+        "250 g sweet potato weighed RAW, AIR-FRIED Sunday",
+        "1½ cups FROZEN green beans",
+        "1 tsp olive oil + 1 tbsp lime juice; garlic and paprika used Sunday"
       ],
       "steps": [
-        "Preheat oven to 200°C / 400°F. Cut sweet potato into 1–2 cm thick wedges, spread on a tray and toss with 1 tsp oil and a pinch of salt.",
-        "Roast 20–30 minutes, turning after 12–15 minutes, until fork-tender.",
-        "Mince 1 garlic clove; season both sides of the pork chop with garlic, ½ tsp paprika, salt and pepper.",
-        "Heat a skillet over medium-high with remaining 1 tsp oil. Cook chop about 4–6 minutes per side depending on thickness; check 71°C / 160°F in the centre. Rest 3 minutes.",
-        "Mix 2 cups shredded cabbage with 1 tbsp vinegar and 1 tbsp lime juice for about 20 seconds.",
-        "Serve pork, sweet potato and slaw together."
+        "Thaw SAT pork/sweet potato in fridge FRI night.",
+        "Microwave frozen green beans with 2 tbsp water covered 4–5 min.",
+        "Heat cooked pork and sweet potato to 74°C / 165°F and add lime."
       ],
-      "tip": "Use a thermometer for the pork; the time depends on chop thickness.",
+      "before": "Pork and sweet potato fully cooked Sunday, then FROZEN.",
+      "tip": "Initial pork cook 63°C / 145°F plus 3-min rest; leftovers reheat to 74°C.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 730,
-        "protein_g": 57,
-        "carbs_g": 80,
-        "fat_g": 20,
+        "protein_g": 58,
+        "carbs_g": 72,
+        "fat_g": 22,
         "basis": "per_portion"
-      },
-      "before": "Raw boneless pork chop and raw sweet potato. Oven and skillet are used separately."
+      }
     },
     "thaicurry": {
       "id": "thaicurry",
-      "title": "Thai red shrimp curry",
-      "minutes": 25,
+      "title": "Thai coconut shrimp curry and rice",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "250 g RAW peeled, deveined, THAWED shrimp",
-        "1 cup (250 mL) light coconut milk",
-        "2 cups (500 mL) frozen Asian-style stir-fry vegetable blend",
-        "1 tbsp (15 mL) Thai red curry paste; add more only after tasting",
-        "1½ cups (375 mL) ALREADY COOKED jasmine rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "1 tbsp (15 mL) lime juice",
-        "1 tbsp chopped fresh cilantro (optional)"
+        "250 g RAW peeled shrimp COOKED Sunday",
+        "1 cup light coconut milk + 2 cups frozen Asian vegetables + 1 tbsp red curry paste, COOKED Sunday",
+        "1½ cups rice COOKED Sunday",
+        "1 tbsp lime juice"
       ],
       "steps": [
-        "If shrimp are frozen, thaw overnight in the refrigerator or in a sealed bag in cold water, changing the water every 30 minutes. Drain; never thaw on the counter.",
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking. Keep the rice warm.",
-        "Heat a skillet or saucepan over medium. Stir in 1 tbsp red curry paste for 30 seconds without burning.",
-        "Pour in 1 cup coconut milk and add 2 cups frozen Asian vegetables directly from the freezer. Cover and simmer over medium-low for 6–8 minutes until hot.",
-        "Add 250 g raw thawed shrimp; simmer for about 3–5 minutes depending on size, stirring until opaque, firm and 74°C / 165°F in the centre. If shrimp are PRECOOKED, add only at the end for 1–2 minutes to reheat.",
-        "Stir in 1 tbsp lime juice, taste, and add extra curry paste only if desired. Spoon over 1½ cups cooked rice; optional cilantro on top."
+        "Thaw SUN curry/rice in fridge SAT night.",
+        "Microwave covered 4–6 min, stir halfway, until 74°C / 165°F; add lime."
       ],
-      "tip": "Add frozen vegetables straight to the sauce. Thaw raw shrimp first. If using pre-cooked shrimp, only reheat at the end.",
+      "before": "Cooked during the PREVIOUS Sunday's batch and frozen.",
+      "tip": "250 g shrimp, not the entire 340 g bag.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 855,
         "protein_g": 67,
         "carbs_g": 100,
         "fat_g": 21,
         "basis": "per_portion"
-      },
-      "before": "Thaw RAW shrimp ahead of time; use already-cooked rice and frozen vegetables."
+      }
     },
-    "chilipotato": {
-      "id": "chilipotato",
-      "title": "Chili-loaded baked potato",
-      "minutes": 15,
+    "tunabeans": {
+      "id": "tunabeans",
+      "title": "Tuna, white bean and potato bowl",
+      "minutes": 6,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "1 portion (about ⅓ of the batch) of COOKED Friday turkey chili, frozen for this meal",
-        "1 washed 350 g russet potato",
-        "2 tbsp (30 mL) chopped regular onion",
-        "1 tsp (5 mL) hot sauce (optional)",
-        "1 tbsp (15 mL) chopped green onion (optional)"
+        "2 cans light tuna (170 g each)",
+        "¾ cup canned white beans",
+        "200 g REGULAR potatoes weighed RAW, AIR-FRIED Sunday",
+        "1 cup cherry tomatoes; 2 tsp olive oil; 1 tbsp lemon"
       ],
       "steps": [
-        "Move a frozen portion of Friday's chili to the fridge the night before to thaw. If still frozen, microwave on defrost and reheat immediately.",
-        "Wash the 350 g russet potato and pierce 5–6 times with a fork. Put it on a microwave-safe plate.",
-        "Microwave on high approximately 7–10 minutes, turning halfway, until a fork slides through its centre. Rest 1 minute.",
-        "Microwave thawed chili in a covered microwave-safe bowl for 2–4 minutes, stirring halfway, until uniformly hot to 74°C / 165°F.",
-        "Dice 2 tbsp onion. Split potato lengthwise, spoon chili over it, top with onion and optional hot sauce and green onion."
+        "Reheat the cooked MON potatoes for 2–3 min.",
+        "Drain tuna and beans; halve cherry tomatoes.",
+        "Mix all with olive oil and lemon."
       ],
-      "tip": "Uses a portion of cooked chili saved from Week 1. Do NOT start a new batch of chili.",
+      "before": "Potatoes COOKED Sunday. Tuna and beans canned until Monday.",
+      "tip": "200 g refers to RAW potato weight.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 845,
-        "protein_g": 54,
-        "carbs_g": 108,
-        "fat_g": 22,
+        "calories": 735,
+        "protein_g": 72,
+        "carbs_g": 72,
+        "fat_g": 16,
         "basis": "per_portion"
-      },
-      "before": "Thaw a cooked portion of chili from Week 1 in the refrigerator the night before."
+      }
     },
     "oregano": {
       "id": "oregano",
       "title": "Lemon–oregano chicken rice bowl",
-      "minutes": 25,
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW boneless chicken breast or thigh",
-        "1½ cups (375 mL) ALREADY COOKED rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "¾ cup (180 mL) diced tomatoes",
-        "¾ cup (180 mL) diced cucumber",
-        "2 tsp (10 mL) olive oil",
-        "1 lemon for 1 tbsp juice and a little zest",
-        "1 garlic clove, minced (about 1 tsp)",
-        "½ tsp dried oregano",
-        "Pinch of salt and pepper"
+        "225 g RAW-equivalent chicken COOKED Sunday",
+        "1½ cups rice COOKED Sunday",
+        "¾ cup tomatoes; ¾ cup cucumber",
+        "2 tsp olive oil; 1 tbsp lemon; ½ tsp oregano; garlic used Sunday"
       ],
       "steps": [
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Wash lemon, grate about ¼ tsp zest, then squeeze 1 tbsp juice. Mince one garlic clove. Cut 225 g raw chicken into even ~2 cm pieces.",
-        "Coat chicken in garlic, lemon zest, ½ tsp oregano, salt and pepper.",
-        "Heat 2 tsp olive oil in a skillet over medium-high. Cook chicken 6–10 minutes, turning regularly, until every piece reaches 74°C / 165°F.",
-        "Dice ¾ cup tomatoes and ¾ cup cucumber; toss with 1 tbsp lemon juice.",
-        "Put hot cooked rice in a bowl; add cooked chicken and tomato-cucumber salad."
+        "Reheat MON chicken and rice covered 3–5 min to 74°C / 165°F.",
+        "Dice tomatoes and cucumber; add lemon and olive oil.",
+        "Serve with hot chicken/rice."
       ],
-      "tip": "Substitute ½ tsp dried basil if you have no dried oregano.",
+      "before": "All chicken and rice cooked Sunday. Rice from total 2⅔ standard cups (~480 g) DRY for Week 2.",
+      "tip": "225 g chicken means RAW weight before cooking.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 700,
         "protein_g": 59,
         "carbs_g": 82,
         "fat_g": 15,
         "basis": "per_portion"
-      },
-      "before": "For the rice: ½ standard measuring cup (125 mL / about 90 g) of DRY rice gives approximately 1½ cups cooked. Do NOT use a full rice-cooker cup (usually 180 mL). Use RAW chicken and rice measured AFTER cooking."
+      }
     },
     "peanutnoodle": {
       "id": "peanutnoodle",
-      "title": "Thai peanut chicken noodles",
-      "minutes": 25,
+      "title": "Peanut chicken rice bowl",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW chicken strips",
-        "90 g dry FLAT RICE noodles for Pad Thai (not soba or penne)",
-        "1 cup (250 mL) shredded cabbage",
-        "1 cup (250 mL) shredded carrots",
-        "1½ tbsp (22 mL) peanut butter",
-        "1 tbsp (15 mL) soy sauce",
-        "1 tbsp (15 mL) lime juice",
-        "1 tsp (5 mL) sweet chili sauce or hot sauce, to taste",
-        "2–3 tbsp (30–45 mL) hot water"
+        "225 g RAW-equivalent chicken COOKED Sunday",
+        "1 cup rice COOKED Sunday",
+        "1 cup FROZEN Asian vegetables",
+        "1½ tbsp peanut butter; 1 tbsp soy; 1 tbsp lime; 2 tbsp hot water"
       ],
       "steps": [
-        "Identify the right noodles: use FLAT RICE NOODLES for Pad Thai. Read THEIR package for soaking or boiling directions; do not use soba or penne timing.",
-        "Cut raw chicken into 1–2 cm strips; measure 1 cup shredded cabbage and 1 cup shredded carrots. Leave vegetables raw for crunch.",
-        "Whisk peanut butter, soy sauce, lime juice, 1 tsp chili sauce and 2 tbsp hot water in a bowl. Add another tbsp water if too thick.",
-        "Heat a non-stick skillet over medium-high. Add chicken and 2 tbsp water to prevent sticking; cook 6–10 minutes, stirring, until chicken reaches 74°C / 165°F.",
-        "While chicken cooks, prepare 90 g flat rice noodles according to their own package; drain as soon as tender.",
-        "Turn skillet to low. Toss chicken, cooked noodles, peanut sauce, cabbage and carrots for 1–2 minutes until hot; serve."
+        "Reheat TUE chicken, rice and frozen vegetables covered 4–6 min to 74°C / 165°F.",
+        "Mix peanut butter, soy, lime and hot water; stir into hot bowl."
       ],
-      "tip": "SOBA = ginger beef; PENNE = meatballs; FLAT RICE NOODLES = peanut chicken. Each has separate cooking directions.",
+      "before": "Uses rice instead of dry rice noodles: no weekday noodle boiling.",
+      "tip": "Chicken and rice cooked Sunday.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 820,
-        "protein_g": 65,
-        "carbs_g": 95,
+        "calories": 725,
+        "protein_g": 60,
+        "carbs_g": 67,
         "fat_g": 20,
         "basis": "per_portion"
-      },
-      "before": "Use FLAT RICE NOODLES, not soba or penne; follow their package."
+      }
     },
     "tacoskillet": {
       "id": "tacoskillet",
-      "title": "Smoky taco beef skillet",
-      "minutes": 20,
+      "title": "Smoky taco beef rice bowl",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW lean ground beef",
-        "¾ cup (180 mL) canned black beans, rinsed and drained",
-        "½ bell pepper, diced",
-        "½ cup (125 mL) frozen corn kernels",
-        "1 cup (250 mL) ALREADY COOKED rice (for the rice cooker: about ⅓ cup (85 mL) DRY rice, 60 g, yields this cooked amount)",
-        "⅓ avocado, diced",
-        "2 tbsp (30 mL) salsa",
-        "½ tsp chili powder",
-        "¼ tsp ground cumin",
-        "¼ tsp smoked paprika",
-        "2 tbsp (30 mL) water"
+        "225 g RAW-equivalent ground beef COOKED with taco spices Sunday",
+        "1 cup rice COOKED Sunday",
+        "¾ cup canned black beans; ½ cup FROZEN corn",
+        "2 tbsp salsa; optional ⅓ avocado"
       ],
       "steps": [
-        "If the rice is uncooked, put ⅓ cup (85 mL) (about 60 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1 cup (250 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Dice half a bell pepper. Rinse and drain ¾ cup black beans and measure ½ cup still-frozen corn.",
-        "Heat a skillet over medium-high and brown 225 g raw beef, breaking it up for 5–7 minutes until fully cooked to 71°C / 160°F. Drain excess fat.",
-        "Add diced pepper and spices (½ tsp chili powder, ¼ tsp each cumin and smoked paprika); stir over medium heat for 2 minutes.",
-        "Add beans, frozen corn and 2 tbsp water. Cover over medium heat for 3–5 minutes until corn is hot, stirring once.",
-        "Add the hot mixture to 1 cup cooked rice in a bowl; top with 2 tbsp salsa and diced ⅓ avocado."
+        "Reheat TUE taco beef/rice with drained beans and frozen corn, covered 4–6 min to 74°C / 165°F.",
+        "Add salsa and optional avocado."
       ],
-      "tip": "Keep corn frozen until adding directly to the pan. Canned beans are pre-cooked.",
+      "before": "Sunday cooks both beef and rice.",
+      "tip": "No raw beef or pepper cutting Tuesday.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 940,
+        "calories": 920,
         "protein_g": 60,
-        "carbs_g": 108,
+        "carbs_g": 102,
         "fat_g": 30,
         "basis": "per_portion"
-      },
-      "before": "Use RAW ground beef and already-cooked rice; corn goes in frozen."
+      }
     },
     "shrimpmango": {
       "id": "shrimpmango",
-      "title": "Chili–lime shrimp mango bowl",
-      "minutes": 20,
+      "title": "Lime–chili shrimp, mango and rice",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "250 g RAW peeled, deveined, THAWED shrimp",
-        "1½ cups (375 mL) ALREADY COOKED rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "½ peeled mango, diced",
-        "½ cucumber, diced",
-        "2 tsp (10 mL) olive oil",
-        "1 tbsp (15 mL) lime juice",
-        "¼ tsp crushed red pepper flakes (optional)",
-        "1 tbsp chopped fresh cilantro (optional)"
+        "250 g RAW peeled shrimp COOKED Sunday",
+        "1½ cups rice COOKED Sunday",
+        "½ cup FROZEN mango chunks thawed; ½ cucumber",
+        "1 tbsp lime; 1 tsp olive oil; optional chili flakes"
       ],
       "steps": [
-        "Thaw raw frozen shrimp overnight in the fridge or in a closed bag in cold water (change water every 30 minutes). Drain and pat dry.",
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking. Keep the rice warm.",
-        "Peel and dice half the mango; dice half the cucumber. Toss together with 1 tbsp lime juice and optional pepper flakes.",
-        "Heat 2 tsp olive oil over medium-high in a skillet. Add 250 g thawed raw shrimp in one layer. Cook about 2–3 minutes per side until opaque and firm, checking 74°C / 165°F in the centre.",
-        "Serve shrimp and mango-cucumber mix over hot rice. Add optional chopped cilantro."
+        "Thaw THU shrimp/rice and frozen mango in fridge WED night.",
+        "Reheat shrimp/rice covered 3–5 min until 74°C / 165°F.",
+        "Dice cucumber and add mango and lime to the hot bowl."
       ],
-      "tip": "If using PRECOOKED shrimp, heat them only 1–2 minutes instead of cooking again.",
+      "before": "Cooked shrimp and rice FROZEN Sunday; mango used cold.",
+      "tip": "Do not reheat cucumber/mango.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 700,
         "protein_g": 64,
         "carbs_g": 86,
         "fat_g": 11,
         "basis": "per_portion"
-      },
-      "before": "Thaw RAW shrimp in the refrigerator ahead of time; use already-cooked rice."
+      }
     },
     "harissa": {
       "id": "harissa",
-      "title": "Harissa chicken and chickpea tray bake",
-      "minutes": 30,
+      "title": "Harissa chicken, chickpeas and vegetables",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW chicken, cut into 2 cm cubes",
-        "¾ cup (180 mL) canned chickpeas, drained and rinsed",
-        "1 bell pepper, seeded and sliced",
-        "½ medium onion, sliced",
-        "1 tbsp (15 mL) harissa paste",
-        "2 tsp (10 mL) olive oil",
-        "½ lemon (about 1 tbsp juice)"
+        "225 g RAW-equivalent chicken COOKED with 1 tbsp harissa + 2 tsp olive oil Sunday",
+        "¾ cup canned chickpeas",
+        "1½ cups FROZEN Asian vegetables",
+        "Optional lemon"
       ],
       "steps": [
-        "Preheat oven to 205°C / 400°F. Optionally line a baking sheet with parchment.",
-        "Drain and rinse ¾ cup chickpeas. Slice one pepper and half an onion; use a separate cutting surface to cube raw chicken into 2 cm pieces.",
-        "Mix 1 tbsp harissa paste and 2 tsp olive oil in a bowl. Add chicken, chickpeas and vegetables; toss to coat.",
-        "Spread out on the tray without crowding. Roast at 205°C for 15 minutes, then turn pieces with a spatula.",
-        "Roast another 5–10 minutes until chicken is cooked through to 74°C / 165°F and vegetables are tender.",
-        "Squeeze half a lemon over the tray and serve. If harissa is very hot, use only ½ tbsp."
+        "Thaw THU harissa chicken in fridge WED night.",
+        "Add drained chickpeas and frozen vegetables; microwave covered 4–6 min to 74°C / 165°F.",
+        "Add lemon if desired."
       ],
-      "tip": "Canned chickpeas are already cooked; roasting crisps them. Check the chicken's internal temperature.",
+      "before": "Chicken seasoned and cooked Sunday.",
+      "tip": "Chickpeas are already cooked in the can.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 645,
-        "protein_g": 63,
-        "carbs_g": 55,
-        "fat_g": 19,
+        "calories": 655,
+        "protein_g": 62,
+        "carbs_g": 57,
+        "fat_g": 18,
         "basis": "per_portion"
-      },
-      "before": "Uses RAW chicken and canned, already-cooked chickpeas."
+      }
     },
-    "tunabeans": {
-      "id": "tunabeans",
-      "title": "Tuna, white bean and potato salad",
-      "minutes": 18,
+    "chickenpotato": {
+      "id": "chickenpotato",
+      "title": "Sweet-chili chicken loaded potatoes",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "2 cans light tuna (170 g each before draining), drained",
-        "¾ cup (180 mL) canned white beans, rinsed and drained",
-        "250 g REGULAR potatoes from the 2.27 kg bag, diced into 2 cm cubes",
-        "1 cup (250 mL) cherry tomatoes, halved",
-        "2 tsp (10 mL) olive oil",
-        "1 tbsp (15 mL) lemon juice",
-        "1 tbsp (15 mL) chopped fresh parsley",
-        "½ finely minced garlic clove (about ½ tsp)",
-        "Pinch of black pepper"
+        "225 g RAW-equivalent chicken COOKED Sunday",
+        "250 g REGULAR potatoes weighed RAW, AIR-FRIED Sunday",
+        "½ cup FROZEN corn; 1 cup bagged shredded cabbage",
+        "1 tbsp sweet chili sauce or salsa"
       ],
       "steps": [
-        "Weigh 250 g regular potatoes, wash and dice into even 2 cm cubes without needing to peel. Put cubes in a microwave-safe bowl with 2 tbsp water; cover loosely to vent steam.",
-        "Microwave on high for 6–9 minutes, stirring halfway, until easily pierced with a fork. Add 1-minute increments if needed; cool 2 minutes.",
-        "Meanwhile drain both tuna cans. Rinse and drain white beans; measure ¾ cup.",
-        "Wash and halve enough cherry tomatoes for 1 cup. Mince ½ garlic clove and chop 1 tbsp fresh parsley.",
-        "Whisk olive oil, lemon juice, minced garlic and black pepper in a small bowl.",
-        "Mix warm potatoes, white beans, tomatoes, tuna and parsley; toss gently with dressing and serve."
+        "Thaw FRI chicken and potatoes in fridge THU night.",
+        "Add frozen corn and reheat covered 4–6 min to 74°C / 165°F.",
+        "Top with pre-shredded cabbage and sweet chili sauce."
       ],
-      "tip": "Uses regular potatoes already on the grocery list, not baby potatoes. No other kind needs buying.",
+      "before": "Everything hot was cooked Sunday.",
+      "tip": "250 g potatoes means RAW weight before cooking.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 740,
-        "protein_g": 75,
-        "carbs_g": 83,
-        "fat_g": 12,
+        "calories": 670,
+        "protein_g": 58,
+        "carbs_g": 70,
+        "fat_g": 16,
         "basis": "per_portion"
-      },
-      "before": "Use 250 g REGULAR potatoes from the same 2.27 kg bag; wash and dice into 2 cm cubes. No need for baby potatoes. Canned tuna and white beans are already cooked."
+      }
     },
     "koreanbeef": {
       "id": "koreanbeef",
-      "title": "Korean-style sticky beef bowl",
-      "minutes": 20,
+      "title": "Sticky Korean-style ground beef rice",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW lean beef strips",
-        "1½ cups (375 mL) ALREADY COOKED rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "1 cup (250 mL) frozen broccoli florets",
-        "1 cup (250 mL) sliced fresh mushrooms",
-        "1 tbsp (15 mL) soy sauce",
-        "1 tsp (5 mL) honey or maple syrup instead of brown sugar",
-        "1 tsp (5 mL) sesame oil",
-        "1 minced garlic clove (about 1 tsp)",
-        "1 tsp grated fresh ginger",
-        "¼ tsp red pepper flakes (optional)",
-        "2 tbsp (30 mL) water"
+        "225 g RAW-equivalent ground beef COOKED Sunday with 1 tbsp soy, 1 tsp maple, 1 tsp sesame oil",
+        "1½ cups rice COOKED Sunday",
+        "1½ cups FROZEN broccoli"
       ],
       "steps": [
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Cut beef into thin strips if needed. Slice mushrooms, mince garlic and grate 1 tsp ginger.",
-        "Mix soy sauce, 1 tsp honey or maple syrup, sesame oil, garlic, ginger and optional pepper flakes in a bowl.",
-        "Heat a large non-stick skillet over medium-high. Sear beef strips, stirring 3–5 minutes until fully cooked (71°C / 160°F). Move beef onto a clean plate.",
-        "Add frozen broccoli, fresh mushrooms and 2 tbsp water to skillet. Cover over medium heat 4–6 minutes, stirring, until vegetables are hot and tender.",
-        "Return beef, pour in sauce and toss for 1–2 minutes over medium heat. Serve on hot rice."
+        "Thaw FRI beef/rice in fridge THU night.",
+        "Add frozen broccoli; microwave covered 4–6 min, stir halfway, to 74°C / 165°F."
       ],
-      "tip": "Use honey or maple syrup rather than buying brown sugar just for this dish.",
+      "before": "Ground beef used instead of strips for easier Sunday batching.",
+      "tip": "Sauce is already on the precooked beef.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 840,
+        "calories": 835,
         "protein_g": 62,
-        "carbs_g": 85,
+        "carbs_g": 84,
         "fat_g": 28,
         "basis": "per_portion"
-      },
-      "before": "RAW beef strips and already-cooked rice; broccoli goes in frozen."
+      }
     },
     "tomatocurry": {
       "id": "tomatocurry",
-      "title": "Tomato–coconut chicken curry",
-      "minutes": 25,
+      "title": "Tomato–coconut chicken curry and rice",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "250 g RAW chicken, cut into 2 cm cubes",
-        "¾ cup (180 mL) canned crushed tomatoes",
-        "½ cup (125 mL) light coconut milk",
-        "2 cups (500 mL) baby spinach",
-        "1½ cups (375 mL) ALREADY COOKED basmati rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "1 tsp (5 mL) curry powder",
-        "½ tsp garam masala",
-        "1 minced garlic clove (about 1 tsp)",
-        "1 tsp grated fresh ginger",
-        "2 tbsp (30 mL) water if needed"
+        "250 g RAW-equivalent chicken COOKED Sunday",
+        "¾ cup crushed tomatoes + ½ cup light coconut milk + 2 cups baby spinach",
+        "1½ cups rice COOKED Sunday",
+        "1 tsp curry powder + ½ tsp garam masala, curry cooked Sunday"
       ],
       "steps": [
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Dice 250 g raw chicken into ~2 cm cubes on a poultry cutting board; mince garlic and grate 1 tsp ginger.",
-        "Heat a non-stick skillet over medium-high; stir-cook chicken for 3–4 minutes until lightly browned outside (it is not yet fully cooked).",
-        "Reduce heat to medium. Add 1 tsp curry powder, ½ tsp garam masala, minced garlic and ginger; stir 30 seconds.",
-        "Add ¾ cup crushed tomatoes and ½ cup light coconut milk. Add 2 tbsp water if too thick. Cover and simmer over medium-low 8–12 minutes, stirring, until chicken reaches 74°C / 165°F in the centre.",
-        "Stir in 2 cups spinach for 1–2 minutes until wilted; serve over hot rice."
+        "Thaw SAT chicken curry/rice in fridge FRI night.",
+        "Reheat covered 4–6 min, stirring halfway, until 74°C / 165°F."
       ],
-      "tip": "Rice quantities are AFTER cooking. Previously opened coconut milk and tomatoes must have been safely refrigerated or frozen.",
+      "before": "Entire curry cooked and frozen Sunday.",
+      "tip": "No rice cooker Saturday.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 780,
         "protein_g": 64,
         "carbs_g": 86,
         "fat_g": 20,
         "basis": "per_portion"
-      },
-      "before": "RAW chicken and already-cooked basmati rice; cook rice beforehand if necessary."
+      }
     },
     "stickypork": {
       "id": "stickypork",
-      "title": "Sticky sesame pork udon",
-      "minutes": 25,
+      "title": "Sticky sesame pork with ready-to-use udon",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW lean pork strips",
-        "200 g plain READY-TO-USE UDON noodles (not soba or penne)",
-        "2 cups (500 mL) frozen Asian-style stir-fry vegetables",
-        "1 tbsp (15 mL) soy sauce",
-        "1 tbsp (15 mL) sweet chili sauce",
-        "1 tsp (5 mL) sesame oil",
-        "1 minced garlic clove (about 1 tsp)",
-        "1 tsp (5 mL) sesame seeds",
-        "2 tbsp (30 mL) water"
+        "225 g RAW pork strips COOKED Sunday with 1 tbsp soy + 1 tbsp sweet chili + 1 tsp sesame oil",
+        "ONE 200 g pack READY-TO-USE plain udon (NOT dry soba)",
+        "2 cups FROZEN Asian vegetables"
       ],
       "steps": [
-        "Use the correct 200 g READY-TO-USE UDON pack, NOT 3-minute soba. Check whether the specific udon package says to rinse, warm, or briefly boil.",
-        "Mince a garlic clove. Mix soy sauce, sweet chili sauce, sesame oil and 2 tbsp water in a small bowl.",
-        "Heat a large non-stick skillet over medium-high. Add 225 g raw pork strips; stir-cook 5–8 minutes until pork reaches 71°C / 160°F in the centre.",
-        "Add frozen Asian vegetables directly from freezer and minced garlic; cover and cook over medium heat 5–7 minutes, stirring halfway, until hot.",
-        "Add the 200 g prepared udon and sauce. Toss over medium heat 1–2 minutes until noodles and pork are uniformly hot.",
-        "Serve with 1 tsp sesame seeds sprinkled on top."
+        "Thaw SUN cooked pork in fridge SAT night.",
+        "Combine pork, 200 g ready-to-use udon, frozen vegetables and 2 tbsp water; microwave covered 5–7 min, stirring halfway, to 74°C / 165°F."
       ],
-      "tip": "Soba = ginger beef; flat rice noodles = peanut chicken; udon = pork. Penne = meatball marinara.",
+      "before": "Pork COOKED the PREVIOUS Sunday; udon package must say READY-TO-USE.",
+      "tip": "If noodles require boiling, follow label instead; total time may exceed 10 min.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 750,
+        "calories": 745,
         "protein_g": 56,
-        "carbs_g": 86,
-        "fat_g": 20,
+        "carbs_g": 85,
+        "fat_g": 21,
         "basis": "per_portion"
-      },
-      "before": "Use READY-TO-USE UDON (200 g), not soba, penne or flat rice noodles."
+      }
     },
     "restaurant": {
       "id": "restaurant",
@@ -809,7 +681,7 @@
         "day": "Tuesday",
         "subtitle": "Lemon & smoky",
         "lunch": "lemonpotato",
-        "dinner": "fajitas"
+        "dinner": "chili"
       },
       {
         "day": "Wednesday",
@@ -820,14 +692,14 @@
       {
         "day": "Thursday",
         "subtitle": "Fresh & maple",
-        "lunch": "fajitaleft",
+        "lunch": "fajitas",
         "dinner": "salmon"
       },
       {
         "day": "Friday",
         "subtitle": "Italian & chili",
         "lunch": "meatballs",
-        "dinner": "chili"
+        "dinner": "chilipotato"
       },
       {
         "day": "Saturday",
@@ -846,7 +718,7 @@
       {
         "day": "Monday",
         "subtitle": "Comfort & Mediterranean",
-        "lunch": "chilipotato",
+        "lunch": "tunabeans",
         "dinner": "oregano"
       },
       {
@@ -870,7 +742,7 @@
       {
         "day": "Friday",
         "subtitle": "Fresh & sticky",
-        "lunch": "tunabeans",
+        "lunch": "chickenpotato",
         "dinner": "koreanbeef"
       },
       {
@@ -888,16 +760,13 @@
     ]
   ],
   "notes": [
-    "Nutrition figures are planning estimates, not measured values. Use ingredient labels and adjust portions to match targets.",
-    "On regular days add a protein-rich snack and optional 150–200 kcal dessert. Add a second shake or larger protein portion if needed.",
-    "Restaurant breakfast has substantial uncertainty; no fixed meal calories are promised.",
-    "Wednesday shakes are not nutritionally complete. Supplements do not make a low-variety liquid diet equivalent to balanced meals.",
-    "Cook chicken to 74°C/165°F; refrigerate leftovers promptly.",
-    "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels.",
-    "Per-meal calories and protein, carbohydrate, and fat are rough estimates from common food composition values and typical package labels; brand, raw/cooked weight, sauce and oil can change the result substantially.",
-    "Rice and quinoa are stocked pantry items; rice portions in recipes refer to the cooked weight/volume, not dry rice or microwave pouches.",
-    "Voilà product links point to an example brand and size; check quantities and availability in your delivery area before ordering.",
-    "The optimized 14-day shopping view lists shelf-stable and frozen items only once. Buy fresh produce and fresh meat by week, and freeze unused portions promptly. Quantities are estimates."
+    "V3: all hot proteins and rice are cooked Sunday; weekdays reheat/assemble in 5–10 min after overnight fridge thawing.",
+    "Sunday takes about 40–60 min hands-on and 75–120 min overall including cooking and packing.",
+    "Meat and potato weights are RAW, before Sunday cooking. DRY rice quantities are in the batch guide.",
+    "Do not keep Thu–Sun cooked meals refrigerated since Sunday: freeze them Sunday and thaw in fridge overnight.",
+    "Cool rapidly in shallow containers, refrigerate/freeze within two hours. Reheat leftovers once to 74°C / 165°F.",
+    "Calories/macros are estimates; adjust for labels and portions.",
+    "No cheese or sour cream; Wednesday shakes and weekend restaurant breakfast remain."
   ],
   "shopping": [
     {
