@@ -2,16 +2,19 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101923"><meta name="description" content="A simple, flavour-first, 14-day meal rotation with recipes, shopping lists and Wednesdays for protein shakes."><title>My 14-Day Meal Plan</title>
 <style>
 :root{color-scheme:dark;--bg:#101923;--panel:#192530;--panel2:#22313c;--line:#35454e;--text:#f6f4ec;--muted:#afbcc2;--mint:#a6dbb0;--gold:#f2c780;--red:#f39b8c;--radius:18px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0;line-height:1.5}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:2px}a{color:var(--mint)}.wrap{max-width:1080px;margin:auto;padding:0 20px}.top{position:sticky;top:0;z-index:10;background:rgba(16,25,35,.96);backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}.topin{display:flex;align-items:center;gap:16px;justify-content:space-between;min-height:72px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:800;letter-spacing:-.03em;font-size:19px}.brandmark{width:34px;height:34px;border-radius:11px;background:var(--mint);color:#13261e;display:grid;place-items:center;font-size:20px}.nav{display:flex;gap:5px;overflow:auto}.nav button,.utility button,.smallbtn{border:1px solid transparent;background:none;color:var(--muted);border-radius:11px;padding:9px 12px;font-weight:650}.nav button:hover,.nav button[aria-selected=true]{background:var(--panel2);color:var(--text)}.hero{padding:47px 0 28px;display:grid;grid-template-columns:1.25fr .75fr;gap:22px;align-items:end}.kicker{text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:800;color:var(--mint)}h1{font-size:clamp(35px,5.2vw,62px);line-height:1.07;letter-spacing:-.055em;margin:8px 0 14px}h2{letter-spacing:-.035em;font-size:28px;margin:0}h3{letter-spacing:-.025em}p{margin:0}.lead{color:var(--muted);max-width:580px;font-size:16px}.heroStat{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(120deg,#23372e,var(--panel));padding:22px;display:grid;gap:13px}.statRow{display:grid;grid-template-columns:1fr 1fr;gap:10px}.statRow span{display:block;color:var(--muted);font-size:12px}.statRow strong{display:block;font-size:19px;letter-spacing:-.025em}.statRow .full{grid-column:span 2}.controlbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:22px 0 17px}.seg{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px}.seg button{border:0;background:none;color:var(--muted);font-weight:750;padding:9px 18px;border-radius:10px}.seg button[aria-pressed=true]{background:var(--mint);color:#18261c}.utility{display:flex;gap:6px;flex-wrap:wrap}.utility button{border-color:var(--line);background:var(--panel);color:var(--text)}.days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}.day{border:1px solid var(--line);border-radius:14px;background:var(--panel);min-height:85px;color:var(--text);text-align:left;padding:12px 8px;transition:border-color .15s,background .15s}.day:hover{border-color:var(--mint)}.day[aria-pressed=true]{background:#274334;border-color:var(--mint)}.day small{display:block;color:var(--muted);font-size:12px}.day strong{display:block;font-size:15px;margin:2px 0}.day em{font-size:11px;font-style:normal;color:var(--mint)}.panel{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);padding:23px}.dayHeading{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin:27px 0 17px}.dayHeading p{color:var(--muted);font-size:14px;margin-top:5px}.pill{display:inline-flex;align-items:center;gap:5px;border:1px solid #597363;color:var(--mint);background:#21392b;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700;white-space:nowrap}.mealgrid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.mealcard{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);overflow:hidden}.mealcard header{padding:17px 20px 14px;background:#21313b}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.mealcard h3{font-size:23px;letter-spacing:-.035em;margin:4px 0 6px}.mealcard .details{font-size:13px;color:var(--muted)}.mealcard .content{padding:16px 20px 20px}.mealcard h4{margin:0 0 8px;font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--mint)}ul.ingredients{list-style:none;margin:0 0 19px;padding:0;display:grid;gap:8px}.ingredients li{position:relative;padding-left:18px;font-size:14px;color:#dfe7e7}.ingredients li::before{content:'•';position:absolute;left:2px;color:var(--gold)}.steps{margin:0;padding-left:23px;display:grid;gap:9px}.steps li{font-size:14px;padding-left:3px}.tip{border-left:3px solid var(--gold);padding:8px 12px;margin-top:15px;background:#2b3236;font-size:13px;color:#e1e6e0}.note{border:1px solid var(--line);border-radius:14px;background:#202c33;padding:16px;margin:16px 0;font-size:14px;color:#d2ddde}.note strong{color:var(--text)}.snackstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 38px}.minicard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}.minicard strong{font-size:14px}.minicard p{font-size:13px;color:var(--muted);margin-top:5px}.sectionhead{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;margin:25px 0 17px}.muted{color:var(--muted)}.listitem{display:flex;align-items:flex-start;gap:10px;cursor:pointer;padding:10px 9px;border-bottom:1px solid var(--line);font-size:14px}.listitem:last-child{border:0}.listitem input{accent-color:#8bc99a;width:17px;height:17px;margin-top:2px;flex-shrink:0}.listitem:has(input:checked) span{text-decoration:line-through;color:var(--muted)}.groceries{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.groceries h3{margin:0 0 12px}.grow{width:100%}.search{width:100%;padding:13px 15px;border:1px solid var(--line);border-radius:12px;background:#101b23;color:var(--text);margin:8px 0 14px}.recipeDirectory{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.recipeButton{border:1px solid var(--line);border-radius:12px;padding:15px;background:var(--panel);text-align:left;color:var(--text)}.recipeButton strong{display:block;font-size:15px}.recipeButton small{color:var(--muted)}.recipeButton:hover{border-color:var(--mint)}.recipeButton[aria-expanded=true]{border-color:var(--mint);background:#213a2e}.fullRecipe{margin-top:12px}.settings{display:grid;grid-template-columns:1fr 1fr;gap:14px}.settings textarea{width:100%;min-height:135px;background:var(--bg);color:var(--text);padding:12px;border:1px solid var(--line);border-radius:12px;resize:vertical}.footer{border-top:1px solid var(--line);margin-top:38px;padding:23px 0 45px;font-size:12px;color:var(--muted)}.hidden{display:none!important}.section{min-height:430px}.table{display:grid;grid-template-columns:1fr 1fr;gap:15px}.noteItem{font-size:13px;color:var(--muted);margin:7px 0}.accent{color:var(--mint)}.toast{position:fixed;bottom:22px;right:22px;background:var(--mint);padding:10px 16px;border-radius:12px;color:#13261e;font-weight:750;box-shadow:0 9px 32px #0007;z-index:20;opacity:0;pointer-events:none;transition:.2s}.toast.show{opacity:1}@media(max-width:760px){.topin{flex-wrap:wrap;padding:10px 0;gap:6px}.nav{width:100%;justify-content:space-between}.nav button{font-size:13px;padding:8px}.hero{grid-template-columns:1fr;padding-top:30px}.heroStat{padding:17px}.days{display:flex;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory}.day{min-width:95px;scroll-snap-align:start}.mealgrid,.snackstrip,.settings,.table,.groceries,.recipeDirectory{grid-template-columns:1fr}.dayHeading{align-items:start}.dayHeading h2{font-size:24px}.panel{padding:17px}}@media print{body{background:white;color:black}.top,.controlbar,.days,.utility,.footer,#shopping,#recipes,#settings,.snackstrip,.toast{display:none!important}.wrap{max-width:none}.hero{padding:0;display:block}.heroStat{display:none}.mealgrid{grid-template-columns:1fr 1fr}.mealcard,.panel{color:black;background:white;border-color:#bbb}.mealcard header{background:#f4f4f4;color:black}.mealcard h4,.eyebrow{color:#333}.mealcard .details,.ingredients li,.steps li,.tip,.lead,.dayHeading p{color:#333}.mealcard{break-inside:avoid}}
- .langseg{flex-shrink:0}.langseg button{padding:7px 11px;font-size:12px}.langseg button[aria-pressed=true]{background:var(--mint);color:#152219}@media(max-width:720px){.topin{gap:8px;flex-wrap:wrap;padding:10px 0}.nav{order:3;width:100%;justify-content:space-around}.nav button{padding:8px;font-size:12px}.langseg{margin-left:auto}} .nutrition{margin-top:13px;padding:10px 12px;border-radius:11px;background:#15252a;border:1px solid #40585c;display:flex;flex-wrap:wrap;align-items:center;gap:6px 15px}.nutrition-cal{display:flex;gap:8px;align-items:baseline}.nutrition-cal strong{font-size:18px;color:var(--mint);white-space:nowrap}.nutrition-cal small{font-size:11px;color:var(--muted)}.nutrition-macros{display:flex;flex-wrap:wrap;gap:7px 12px;font-size:12px;color:#e0e8e3}.nutrition-summary{flex:1 0 100%;padding-top:5px;border-top:1px solid #40585c;font-size:12px;color:var(--gold)}.recipeButton .macroPreview{display:block;font-size:12px;color:var(--mint);font-weight:600;margin-top:3px}#nutritionNotice{margin-top:-6px;margin-bottom:26px;font-size:12px;line-height:1.5;color:var(--muted)}.grocery-check{display:flex;align-items:flex-start;gap:10px;flex:1;min-width:0;cursor:pointer}.shop-links{display:flex;flex-wrap:wrap;align-items:center;gap:5px;justify-content:flex-end;max-width:45%}.shop-link{font-size:11px;color:var(--mint);text-decoration:none;border:1px solid #4b675a;border-radius:8px;padding:4px 7px;white-space:nowrap}.shop-link:hover{background:var(--panel2);text-decoration:underline}.listitem{align-items:center;justify-content:space-between}.grocery-check input{flex-shrink:0}@media(max-width:520px){.listitem{align-items:flex-start}.shop-links{max-width:42%}.shop-link{font-size:10px;padding:3px 5px}}.pantry-btn,.restore-btn{border:1px solid #597363;background:#203429;color:var(--mint);border-radius:8px;font-size:11px;font-weight:650;padding:5px 8px;white-space:nowrap;cursor:pointer}.pantry-btn:hover,.restore-btn:hover{background:#31533d}.pantry-inventory{margin:14px 0;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 16px}.pantry-inventory summary{cursor:pointer;font-weight:700;color:var(--mint)}.pantry-inventory p{font-size:12px;color:var(--muted);margin-top:6px}.pantry-entry{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:13px}.pantry-entry:last-child{border-bottom:0}.shop-links{max-width:52%}@media(max-width:520px){.shop-links{max-width:48%}.pantry-btn,.restore-btn{font-size:10px;padding:4px 6px}}.smart-hint{display:block;font-size:11px;line-height:1.45;color:var(--muted);margin-top:5px;font-weight:400;text-decoration:none!important}.smart-title{margin:0 0 5px}.shopping-kicker{font-size:12px;color:var(--muted);margin:3px 0 13px}.grocery-summary{margin:12px 0 16px;font-size:13px;color:var(--mint);font-weight:650}.recipe-before{margin:0 0 17px;border-left:3px solid var(--mint);padding:10px 12px;background:var(--panel2);border-radius:0 9px 9px 0;font-size:13px;line-height:1.6}.recipe-before strong{display:block;margin-bottom:3px;color:var(--mint)}.recipe-before p{margin:0}.steps li{line-height:1.62;margin-bottom:6px}.ingredients li{line-height:1.54}</style></head><body><header class="top"><div class="wrap topin"><a href="#plan" class="brand"><span class="brandmark">✳</span> The 14-Day Rotation</a><nav class="nav" aria-label="Sections"><button data-nav="plan" aria-selected="true">📅 Plan</button><button data-nav="recipes">🍳 Recipes</button><button data-nav="shopping">🛒 Groceries</button><button data-nav="settings">⚙️ Notes</button></nav><div class="seg langseg" role="group" aria-label="Language / Langue"><button type="button" data-lang="en" aria-pressed="true" title="English">EN</button><button type="button" data-lang="fr" aria-pressed="false" title="Français">FR</button></div></div></header>
-<main class="wrap"><section class="hero"><div><div class="kicker">Simple to cook • Good to eat • Repeatable</div><h1>Food you'll actually<br><span class="accent">look forward to.</span></h1><p class="lead">A two-week meal rotation with real recipes, zero cheese, little bread or milk, your favourite weekend breakfasts, and a dedicated shake day every Wednesday.</p></div><aside class="heroStat" aria-label="Plan targets"><div class="statRow"><div><span>Regular-day target</span><strong>2,350–2,500</strong><span>kcal</span></div><div><span>Protein goal</span><strong>150–180 g</strong><span>on regular days</span></div><div class="full"><span>Wednesday</span><strong>~1,350 kcal · 3 shakes</strong></div></div></aside></section>
-<section id="plan" class="section"><div class="controlbar"><div class="seg" role="group" aria-label="Select week"><button data-week="0" aria-pressed="true">Week 1</button><button data-week="1" aria-pressed="false">Week 2</button></div><div class="utility"><button id="today">↗ Today</button><button id="copyDay">⧉ Copy this day</button><button onclick="window.print()">⎙ Print</button></div></div><div class="days" id="dayTabs"></div><div class="dayHeading"><div><div class="kicker" id="dayKicker">WEEK 1 · MONDAY</div><h2 id="dayTitle">Spicy & savoury</h2><p id="dayDescription"></p></div><span id="dayBadge" class="pill">2 meals</span></div><div id="mealGrid" class="mealgrid"></div><div id="dailyNote" class="note"></div><p id="nutritionNotice">Nutrition estimates are per portion; brands and cooking methods vary. Snacks, desserts and supplements are not included.</p><div class="sectionhead"><h2>Keep it flexible</h2></div><div class="snackstrip"><div class="minicard"><strong>Protein-rich snack</strong><p>Whey with water, fruit and almonds; or eggs, edamame and fruit. Adjust the amount to help reach the day's protein/calorie targets.</p></div><div class="minicard"><strong>Dessert stays</strong><p>Budget 150–200 kcal when you want something sweet. No ban on chocolate or ice cream.</p></div><div class="minicard"><strong>Morning routine</strong><p>If you take supplements, account for any calories. They don't replace a balanced diet.</p></div></div></section>
+ .langseg{flex-shrink:0}.langseg button{padding:7px 11px;font-size:12px}.langseg button[aria-pressed=true]{background:var(--mint);color:#152219}@media(max-width:720px){.topin{gap:8px;flex-wrap:wrap;padding:10px 0}.nav{order:3;width:100%;justify-content:space-around}.nav button{padding:8px;font-size:12px}.langseg{margin-left:auto}} .nutrition{margin-top:13px;padding:10px 12px;border-radius:11px;background:#15252a;border:1px solid #40585c;display:flex;flex-wrap:wrap;align-items:center;gap:6px 15px}.nutrition-cal{display:flex;gap:8px;align-items:baseline}.nutrition-cal strong{font-size:18px;color:var(--mint);white-space:nowrap}.nutrition-cal small{font-size:11px;color:var(--muted)}.nutrition-macros{display:flex;flex-wrap:wrap;gap:7px 12px;font-size:12px;color:#e0e8e3}.nutrition-summary{flex:1 0 100%;padding-top:5px;border-top:1px solid #40585c;font-size:12px;color:var(--gold)}.recipeButton .macroPreview{display:block;font-size:12px;color:var(--mint);font-weight:600;margin-top:3px}#nutritionNotice{margin-top:-6px;margin-bottom:26px;font-size:12px;line-height:1.5;color:var(--muted)}.grocery-check{display:flex;align-items:flex-start;gap:10px;flex:1;min-width:0;cursor:pointer}.shop-links{display:flex;flex-wrap:wrap;align-items:center;gap:5px;justify-content:flex-end;max-width:45%}.shop-link{font-size:11px;color:var(--mint);text-decoration:none;border:1px solid #4b675a;border-radius:8px;padding:4px 7px;white-space:nowrap}.shop-link:hover{background:var(--panel2);text-decoration:underline}.listitem{align-items:center;justify-content:space-between}.grocery-check input{flex-shrink:0}@media(max-width:520px){.listitem{align-items:flex-start}.shop-links{max-width:42%}.shop-link{font-size:10px;padding:3px 5px}}.pantry-btn,.restore-btn{border:1px solid #597363;background:#203429;color:var(--mint);border-radius:8px;font-size:11px;font-weight:650;padding:5px 8px;white-space:nowrap;cursor:pointer}.pantry-btn:hover,.restore-btn:hover{background:#31533d}.pantry-inventory{margin:14px 0;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 16px}.pantry-inventory summary{cursor:pointer;font-weight:700;color:var(--mint)}.pantry-inventory p{font-size:12px;color:var(--muted);margin-top:6px}.pantry-entry{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:13px}.pantry-entry:last-child{border-bottom:0}.shop-links{max-width:52%}@media(max-width:520px){.shop-links{max-width:48%}.pantry-btn,.restore-btn{font-size:10px;padding:4px 6px}}.smart-hint{display:block;font-size:11px;line-height:1.45;color:var(--muted);margin-top:5px;font-weight:400;text-decoration:none!important}.smart-title{margin:0 0 5px}.shopping-kicker{font-size:12px;color:var(--muted);margin:3px 0 13px}.grocery-summary{margin:12px 0 16px;font-size:13px;color:var(--mint);font-weight:650}.recipe-before{margin:0 0 17px;border-left:3px solid var(--mint);padding:10px 12px;background:var(--panel2);border-radius:0 9px 9px 0;font-size:13px;line-height:1.6}.recipe-before strong{display:block;margin-bottom:3px;color:var(--mint)}.recipe-before p{margin:0}.steps li{line-height:1.62;margin-bottom:6px}.ingredients li{line-height:1.54}
+.batchsteps{display:grid;gap:10px}.batchstep{display:flex;gap:13px;align-items:flex-start;border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--panel);cursor:pointer}.batchstep input{width:21px;height:21px;accent-color:var(--mint);flex-shrink:0;margin-top:2px}.batchstep span{line-height:1.58;font-size:14px}.batchstep:has(input:checked){opacity:.68}.batchstep:has(input:checked) span{text-decoration:line-through;text-decoration-color:var(--muted)}.batchlower{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}.batchlist{padding-left:20px;line-height:1.65}.batchlist li{margin-bottom:9px}.batchstats{display:flex;gap:12px;flex-wrap:wrap;margin:13px 0}.batchstat{padding:10px 13px;background:var(--panel2);border-radius:9px}.batchsummarytitle{font-size:21px;font-weight:700;margin:0}.batchprogress{font-size:13px;color:var(--mint);margin-bottom:13px}.batchhint{line-height:1.6;font-size:14px;color:var(--muted)}@media(max-width:730px){.batchlower{grid-template-columns:1fr}.batchsteps{gap:8px}.batchstep{padding:11px}.nav{flex-wrap:wrap}}
+</style></head><body><header class="top"><div class="wrap topin"><a href="#plan" class="brand"><span class="brandmark">✳</span> The 14-Day Rotation</a><nav class="nav" aria-label="Sections"><button data-nav="plan" aria-selected="true">📅 Plan</button><button data-nav="prep">🥘 Sunday prep</button><button data-nav="recipes">🍳 Recipes</button><button data-nav="shopping">🛒 Groceries</button><button data-nav="settings">⚙️ Notes</button></nav><div class="seg langseg" role="group" aria-label="Language / Langue"><button type="button" data-lang="en" aria-pressed="true" title="English">EN</button><button type="button" data-lang="fr" aria-pressed="false" title="Français">FR</button></div></div></header>
+<main class="wrap"><section class="hero"><div><div class="kicker">Sunday batch • 5–10 minutes on other days</div><h1>Food you'll actually<br><span class="accent">look forward to.</span></h1><p class="lead">Two independent weeks of flavourful meals. Batch cook on Sunday; reheat or assemble each other day in 5–10 minutes. No cheese or sour cream; Wednesday shakes and weekend restaurant breakfasts.</p></div><aside class="heroStat" aria-label="Plan targets"><div class="statRow"><div><span>Regular-day target</span><strong>2,350–2,500</strong><span>kcal</span></div><div><span>Protein goal</span><strong>150–180 g</strong><span>on regular days</span></div><div class="full"><span>Wednesday</span><strong>~1,350 kcal · 3 shakes</strong></div></div></aside></section>
+<section id="plan" class="section"><div class="controlbar"><div class="seg" role="group" aria-label="Select week"><button data-week="0" aria-pressed="true">Week 1</button><button data-week="1" aria-pressed="false">Week 2</button></div><div class="utility"><button id="today">↗ Week start</button><button id="openPrep">🥘 Sunday prep</button><button id="copyDay">⧉ Copy this day</button><button onclick="window.print()">⎙ Print</button></div></div><div class="days" id="dayTabs"></div><div class="dayHeading"><div><div class="kicker" id="dayKicker">WEEK 1 · MONDAY</div><h2 id="dayTitle">Spicy & savoury</h2><p id="dayDescription"></p></div><span id="dayBadge" class="pill">2 meals</span></div><div id="mealGrid" class="mealgrid"></div><div id="dailyNote" class="note"></div><p id="nutritionNotice">Nutrition estimates are per portion; brands and cooking methods vary. Snacks, desserts and supplements are not included.</p><div class="sectionhead"><h2>Keep it flexible</h2></div><div class="snackstrip"><div class="minicard"><strong>Protein-rich snack</strong><p>Whey with water, fruit and almonds; or eggs, edamame and fruit. Adjust the amount to help reach the day's protein/calorie targets.</p></div><div class="minicard"><strong>Dessert stays</strong><p>Budget 150–200 kcal when you want something sweet. No ban on chocolate or ice cream.</p></div><div class="minicard"><strong>Morning routine</strong><p>If you take supplements, account for any calories. They don't replace a balanced diet.</p></div></div></section>
+<section id="prep" class="section hidden"><div class="sectionhead"><div><div class="kicker">One weekly prep session</div><h2>Sunday batch cooking</h2></div><div class="seg"><button type="button" data-prepweek="0" aria-pressed="true">Week 1</button><button type="button" data-prepweek="1" aria-pressed="false">Week 2</button></div></div><p class="muted" style="margin:0 0 16px">Start with either week. Complete this batch before Monday; tick off the steps as you go.</p><div id="prepSummary" class="panel"></div><div class="sectionhead"><h3 id="prepStepsHeading">Preparation checklist</h3><div class="utility"><button id="copyPrep" type="button">⧉ Copy batch</button><button id="resetPrep" type="button">↺ Reset checks</button></div></div><div id="prepSteps" class="batchsteps"></div><div class="batchlower"><div class="panel"><h3 id="prepPortionTitle">Exact portions</h3><ul id="prepPortions" class="batchlist"></ul></div><div class="panel"><h3 id="prepStorageTitle">Refrigeration and freezing</h3><ul id="prepStorage" class="batchlist"></ul></div></div></section>
 <section id="recipes" class="section hidden"><div class="sectionhead"><div><div class="kicker">Browse all recipes</div><h2>Recipe library</h2></div><span class="muted" id="recipeCount"></span></div><input id="recipeSearch" class="search" type="search" placeholder="Search chicken, curry, noodles, quick meals..." aria-label="Search recipes"><div class="recipeDirectory" id="recipeDirectory"></div><div id="selectedRecipe"></div></section>
-<section id="shopping" class="section hidden"><div class="sectionhead"><div><div class="kicker">Tap to check off</div><h2>Weekly groceries</h2></div><div class="seg"><button data-shopweek="0" aria-pressed="true">Week 1</button><button data-shopweek="1" aria-pressed="false">Week 2</button><button data-shopweek="2" aria-pressed="false">14 Days</button></div></div><p class="muted" style="margin-bottom:15px">Buy shelf-stable and frozen items once for 14 days, then pick up fresh items each week. Each product keeps its own checkbox and Voilà link. Rice and quinoa are already in your pantry.</p><div id="pantryNote" class="note"></div><div id="grocerySummary" class="grocery-summary"></div><p id="groceryCycleInfo" class="muted" style="font-size:12px;margin:-6px 0 14px"></p><div id="groceryGrid" class="groceries"></div><div id="stockedInventory"></div><p id="voilaDisclosure" class="muted" style="font-size:12px;margin-top:12px">Voilà links use example products without brand preference. If a product page fails, use “Copy name” and paste it into the search at <a href="https://voila.ca/" target="_blank" rel="noopener noreferrer">voila.ca</a>. Availability depends on your delivery area.</p><div class="utility" style="margin-top:18px"><button id="copyGroceries">⧉ Copy list</button><button id="clearGroceries">↺ Reset checks</button></div></section>
-<section id="settings" class="section hidden"><div class="sectionhead"><div><div class="kicker">Your plan, your adjustments</div><h2>Notes & sharing</h2></div></div><div class="settings"><div class="panel"><h3 style="margin-top:0">Recipe notes</h3><p class="muted" style="margin-bottom:12px;font-size:13px">Record swaps or meals you disliked. These notes stay in this browser, not automatically in ChatGPT.</p><textarea id="notes" placeholder="e.g. Loved the ginger beef, use extra lime in the shrimp curry..." aria-label="Personal meal notes"></textarea><p class="muted" style="font-size:12px;margin-top:8px">Automatically saved locally.</p></div><div class="panel"><h3 style="margin-top:0">Work with ChatGPT</h3><p class="muted" style="font-size:14px;margin-bottom:15px">For me to read the latest plan in another conversation, host <strong>index.html</strong> and <strong>plan.json</strong> at a URL and share the link. I can read the public JSON when asked, but I can't see private browser checkmarks and notes.</p><div class="utility"><button id="export">↓ Download plan.json</button><button id="copyForChat">⧉ Copy notes for ChatGPT</button></div></div></div><div class="panel" style="margin-top:15px"><h3 style="margin-top:0">Guidelines & assumptions</h3><div id="guidelines"></div></div></section></main><footer class="footer"><div class="wrap"><p>Version 2.6 · Personal planning tool · Nutrition values are estimates, not a medical prescription. Recipes are one serving unless marked otherwise.</p></div></footer><div id="toast" class="toast" aria-live="polite"></div>
+<section id="shopping" class="section hidden"><div class="sectionhead"><div><div class="kicker">Tap to check off</div><h2>Weekly groceries</h2></div><div class="seg"><button data-shopweek="0" aria-pressed="true">Week 1</button><button data-shopweek="1" aria-pressed="false">Week 2</button><button data-shopweek="2" aria-pressed="false">14 Days</button></div></div><p class="muted" style="margin-bottom:15px">Quantities now match the Sunday batches. Double-check any old grocery checkmarks against the changed quantities. Rice is already in your pantry.</p><div id="pantryNote" class="note"></div><div id="grocerySummary" class="grocery-summary"></div><p id="groceryCycleInfo" class="muted" style="font-size:12px;margin:-6px 0 14px"></p><div id="groceryGrid" class="groceries"></div><div id="stockedInventory"></div><p id="voilaDisclosure" class="muted" style="font-size:12px;margin-top:12px">Voilà links use example products without brand preference. If a product page fails, use “Copy name” and paste it into the search at <a href="https://voila.ca/" target="_blank" rel="noopener noreferrer">voila.ca</a>. Availability depends on your delivery area.</p><div class="utility" style="margin-top:18px"><button id="copyGroceries">⧉ Copy list</button><button id="clearGroceries">↺ Reset checks</button></div></section>
+<section id="settings" class="section hidden"><div class="sectionhead"><div><div class="kicker">Your plan, your adjustments</div><h2>Notes & sharing</h2></div></div><div class="settings"><div class="panel"><h3 style="margin-top:0">Recipe notes</h3><p class="muted" style="margin-bottom:12px;font-size:13px">Record swaps or meals you disliked. These notes stay in this browser, not automatically in ChatGPT.</p><textarea id="notes" placeholder="e.g. Loved the ginger beef, use extra lime in the shrimp curry..." aria-label="Personal meal notes"></textarea><p class="muted" style="font-size:12px;margin-top:8px">Automatically saved locally.</p></div><div class="panel"><h3 style="margin-top:0">Work with ChatGPT</h3><p class="muted" style="font-size:14px;margin-bottom:15px">For me to read the latest plan in another conversation, host <strong>index.html</strong> and <strong>plan.json</strong> at a URL and share the link. I can read the public JSON when asked, but I can't see private browser checkmarks and notes.</p><div class="utility"><button id="export">↓ Download plan.json</button><button id="copyForChat">⧉ Copy notes for ChatGPT</button></div></div></div><div class="panel" style="margin-top:15px"><h3 style="margin-top:0">Guidelines & assumptions</h3><div id="guidelines"></div></div></section></main><footer class="footer"><div class="wrap"><p>Version 3.0 · Sunday batch cooking · Nutrition estimates are approximate.</p></div></footer><div id="toast" class="toast" aria-live="polite"></div>
 <script id="plan-data" type="application/json">{
-  "title": "The 14-Day Rotation",
-  "version": "2.6 · November 2026",
-  "anchor_monday": "2026-11-16",
+  "title": "14-day rotation — Sunday batch",
+  "version": "3.0 · November 2026",
+  "anchor_monday": "2026-11-23",
   "targets": {
     "regular_calories": "2,350–2,500 kcal",
     "wednesday_calories": "~1,350 kcal",
@@ -19,7 +22,7 @@
     "dessert": "150–200 kcal"
   },
   "background": {
-    "schedule": "2 meals on most days; restaurant breakfast on weekends; Wednesdays are protein-shake days",
+    "schedule": "Sunday batch prep; 5–10-minute meals on other days; Wednesday shakes; weekend restaurant breakfasts",
     "avoid": [
       "cheese",
       "sour cream",
@@ -30,677 +33,549 @@
   "recipes": {
     "tuna": {
       "id": "tuna",
-      "title": "Spicy tuna–avocado rice bowl",
-      "minutes": 10,
+      "title": "Spicy tuna–avocado rice",
+      "minutes": 5,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "2 cans light tuna (170 g each before draining); drain both",
-        "1½ cups (375 mL) previously cooked rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "½ avocado, diced",
-        "½ cucumber, diced",
-        "1 tsp (5 mL) soy sauce",
-        "1 tbsp (15 mL) lime juice",
-        "½ tsp sriracha (optional)"
+        "2 cans light tuna, 170 g each before draining",
+        "1½ cups (375 mL) rice COOKED Sunday",
+        "½ avocado; ½ cucumber",
+        "1 tsp soy sauce; 1 tbsp lime; optional sriracha"
       ],
       "steps": [
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking. Reheat refrigerated rice until hot.",
-        "Drain both tuna cans. Dice half a cucumber and half an avocado.",
-        "Mix 1 tsp soy sauce, 1 tbsp lime juice and optional ½ tsp sriracha in a bowl.",
-        "Flake the drained tuna into the sauce with a fork and mix for 20 seconds.",
-        "Put the hot rice in a bowl and top with tuna, avocado and cucumber. Serve."
+        "Reheat the MON lunch rice for 2–3 min until hot.",
+        "Drain both tuna cans; dice ½ avocado and ½ cucumber.",
+        "Mix tuna, soy and lime; serve on rice with fresh vegetables."
       ],
-      "tip": "Canned tuna is already cooked. Sriracha is optional.",
+      "before": "Rice was batch-cooked Sunday. Canned tuna and fresh ingredients are opened only now.",
+      "tip": "No raw-meat cooking.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 760,
         "protein_g": 70,
         "carbs_g": 80,
         "fat_g": 18,
         "basis": "per_portion"
-      },
-      "before": "Rice must be cooked first (use rice cooker if needed). Tuna is canned and ready to eat."
+      }
     },
     "gingerbeef": {
       "id": "gingerbeef",
-      "title": "Sticky ginger beef noodles",
-      "minutes": 20,
+      "title": "Ginger–soy beef, soba and broccoli",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g raw lean ground beef",
-        "90 g DRY Blue Dragon SOBA (about 1 of the 3 tied bundles in the 250 g pack; NOT the whole package)",
-        "2 cups (500 mL) frozen broccoli florets",
-        "2 tbsp (30 mL) reduced-sodium soy sauce",
-        "1 tsp (5 mL) honey",
-        "1 tsp (5 mL) sesame oil",
-        "1 minced garlic clove (about 1 tsp)",
-        "1 tsp grated fresh ginger",
-        "2 tbsp (30 mL) water"
+        "225 g RAW lean ground beef, COOKED Sunday",
+        "ONE tied bundle (~83 g DRY) Blue Dragon soba, COOKED Sunday",
+        "1½ cups frozen broccoli, heated Sunday",
+        "1 tbsp soy; 1 tsp honey; 1 tsp sesame oil; ½ tsp ginger, mixed Sunday"
       ],
       "steps": [
-        "Mince one garlic clove and grate 1 tsp fresh ginger. Keep the broccoli frozen; it goes straight into the skillet.",
-        "Mix soy sauce, honey, sesame oil, garlic, ginger and 2 tbsp water in a small bowl.",
-        "Heat a large skillet over medium-high heat. Add 225 g ground beef and break it apart for 5–7 minutes, until fully cooked to 71°C / 160°F. Drain excess fat if needed.",
-        "Add 2 cups frozen broccoli and 2 tbsp water to the beef. Cover over medium heat for 4–6 minutes, stirring halfway, until thoroughly hot.",
-        "Meanwhile boil a pot of water. Remove just ONE bundle (~83 g) of the THREE tied bundles from the 250 g pack, or use a scale to weigh exactly 90 g dry. Keep remaining bundles dry. Add this SOBA portion; Blue Dragon's package says 3 minutes (follow your own package if different). Drain immediately. Do not use penne cooking times.",
-        "Pour the sauce over beef and broccoli. Stir 1 minute over medium heat; add drained soba, toss for 30 seconds and serve."
+        "Take the MON dinner beef–soba container from the fridge.",
+        "Microwave covered 3–5 min; stir halfway and reach 74°C / 165°F."
       ],
-      "tip": "Soba for ginger beef; penne for meatball marinara. The complete 250 g soba package has three tied bundles, about 83 g each. Use only one bundle for one serving. Your soba package indicates 3 minutes.",
+      "before": "Entire dish cooked and assembled in Sunday's batch.",
+      "tip": "ONE soba bundle only; NEVER cook the whole 250 g bag.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 880,
-        "protein_g": 65,
-        "carbs_g": 88,
-        "fat_g": 30,
+        "calories": 850,
+        "protein_g": 58,
+        "carbs_g": 82,
+        "fat_g": 31,
         "basis": "per_portion"
-      },
-      "before": "WARNING: the 250 g Blue Dragon soba pack contains THREE tied bundles. For one serving, use just ONE bundle (about 83 g dry), close to the listed 90 g, or weigh precisely 90 g dry. Do NOT cook the whole 250 g package. Frozen broccoli does not need thawing."
+      }
     },
     "lemonpotato": {
       "id": "lemonpotato",
-      "title": "Lemony chicken and potato bowl",
-      "minutes": 18,
+      "title": "Lemon chicken and potatoes",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g ALREADY COOKED chicken breast or thigh",
-        "300 g REGULAR potatoes from the 2.27 kg bag, cut into 2 cm cubes",
-        "½ cup (125 mL) diced tomatoes",
-        "½ cup (125 mL) diced cucumber",
-        "2 tsp (10 mL) olive oil",
-        "1 tsp (5 mL) Dijon mustard",
-        "1 tbsp (15 mL) lemon juice",
-        "¼ tsp dried oregano",
-        "Pinch of salt and black pepper"
+        "225 g RAW-equivalent chicken, COOKED Sunday",
+        "200 g REGULAR potatoes weighed RAW, AIR-FRIED Sunday",
+        "½ cup tomatoes; ½ cup cucumber",
+        "1 tsp olive oil; 1 tsp Dijon; 1 tbsp lemon; ¼ tsp oregano"
       ],
       "steps": [
-        "Confirm chicken is ALREADY COOKED. If raw, cut into strips and pan-cook on medium-high for 6–10 minutes, until 74°C / 165°F; allow extra time.",
-        "Weigh 300 g regular potatoes from the grocery bag. Wash; peeling is optional. Cut into approximately 2 cm cubes (do not simply halve).",
-        "Put cubes in a microwave-safe dish with 2 tbsp water. Cover loosely to vent steam. Microwave on high for 7–10 minutes, stirring halfway. Test with a fork; if still firm, continue in 1-minute intervals.",
-        "Dice ½ cup tomatoes and ½ cup cucumber. Cut cooked chicken into 2 cm bites.",
-        "Whisk together 2 tsp olive oil, 1 tsp Dijon, 1 tbsp lemon juice, ¼ tsp oregano and a pinch of salt and pepper.",
-        "Reheat pre-cooked chicken until hot, then mix with potatoes and vegetables. Toss in dressing and serve."
+        "Reheat the TUE lunch chicken and potatoes 3–5 min to 74°C / 165°F.",
+        "Dice tomatoes and cucumber.",
+        "Mix oil, Dijon, lemon and oregano; pour over hot chicken and fresh vegetables."
       ],
-      "tip": "The same REGULAR-potato bag covers lemon chicken, salmon, chili potato and tuna-potato salad. Microwave time depends on cube size and appliance.",
+      "before": "Both chicken and potatoes were completely cooked Sunday.",
+      "tip": "Potato weight 200 g BEFORE cooking.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 725,
-        "protein_g": 77,
-        "carbs_g": 65,
+        "calories": 570,
+        "protein_g": 57,
+        "carbs_g": 46,
         "fat_g": 17,
         "basis": "per_portion"
-      },
-      "before": "Use REGULAR potatoes from the 2.27 kg bag, not baby potatoes. Weigh 300 g and dice into 2 cm cubes for even microwave cooking. Chicken must ALREADY BE COOKED, otherwise cook it separately."
+      }
+    },
+    "chili": {
+      "id": "chili",
+      "title": "Turkey chili over rice",
+      "minutes": 7,
+      "active_minutes": 5,
+      "servings": 1,
+      "ingredients": [
+        "1 of 3 cooked chili portions made Sunday using 600 g RAW ground turkey total",
+        "1 cup rice COOKED Sunday",
+        "Batch chili includes 796 mL crushed tomatoes, one 540 mL can black beans, bell pepper, onion, chili spices"
+      ],
+      "steps": [
+        "Reheat labelled TUE dinner chili and rice covered 4–6 min, stirring halfway, to 74°C / 165°F.",
+        "Serve chili over rice."
+      ],
+      "before": "Sunday batch makes THREE equal chili portions: Tue, Fri and one frozen spare.",
+      "tip": "No stove or fresh cutting today.",
+      "batch_ready": true,
+      "nutrition": {
+        "calories": 765,
+        "protein_g": 52,
+        "carbs_g": 89,
+        "fat_g": 20,
+        "basis": "per_portion"
+      }
     },
     "fajitas": {
       "id": "fajitas",
-      "title": "Smoky chicken fajita rice bowls",
-      "minutes": 30,
-      "servings": 2,
-      "ingredients": [
-        "450 g RAW chicken strips (makes 2 portions)",
-        "2 bell peppers, seeded and cut into strips",
-        "1 medium onion, peeled and sliced",
-        "2 cups (500 mL) ALREADY COOKED rice, for both portions (for the rice cooker: about ⅔ cup (165 mL) DRY rice, 120 g, yields this cooked amount)",
-        "1 tbsp (15 mL) olive oil",
-        "2 tsp smoked paprika",
-        "1 tsp ground cumin",
-        "Pinch of salt and pepper",
-        "2 tbsp (30 mL) salsa",
-        "1 tbsp (15 mL) lime juice"
-      ],
-      "steps": [
-        "If the rice is uncooked, put ⅔ cup (165 mL) (about 120 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 2 cups (500 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Cut 450 g raw chicken into 1–2 cm strips; slice peppers and onion. Use a separate cutting surface for raw poultry.",
-        "Season chicken with 2 tsp smoked paprika, 1 tsp cumin, salt and pepper.",
-        "Heat a large skillet over medium-high for 1 minute; add 1 tbsp olive oil and chicken. Stir-cook 5–8 minutes until the thickest strip reaches 74°C / 165°F.",
-        "Add peppers and onion; stir-cook another 5–7 minutes until tender-crisp.",
-        "Divide the chicken-vegetable mixture equally. Eat one half with 1 cup cooked rice, 1 tbsp salsa and lime.",
-        "Promptly refrigerate the other half of the chicken-vegetable mixture in a covered container for Thursday lunch. Have another cup of cooked rice ready for Thursday."
-      ],
-      "tip": "Makes two chicken-and-vegetable servings: one Tuesday, one Thursday. Chill leftovers promptly.",
-      "nutrition": {
-        "calories": 610,
-        "protein_g": 54,
-        "carbs_g": 64,
-        "fat_g": 15,
-        "basis": "per_portion"
-      },
-      "before": "Cook rice first; make TWO chicken/pepper servings and refrigerate one for Thursday."
-    },
-    "fajitaleft": {
-      "id": "fajitaleft",
-      "title": "Fajita black-bean bowl",
-      "minutes": 12,
+      "title": "Chicken fajita rice bowl",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "1 refrigerated serving of ALREADY COOKED chicken and peppers from Tuesday",
-        "1 cup (250 mL) cooked rice (for the rice cooker: about ⅓ cup (85 mL) DRY rice, 60 g, yields this cooked amount)",
-        "¾ cup (180 mL) canned black beans, rinsed and drained",
-        "½ cup (125 mL) frozen corn kernels",
-        "1 tbsp (15 mL) salsa",
-        "1 tsp (5 mL) lime juice"
+        "225 g RAW-equivalent chicken, COOKED Sunday",
+        "1 cup rice COOKED Sunday",
+        "1 sliced bell pepper + ½ onion COOKED Sunday with fajita spices",
+        "¾ cup canned black beans; 1 tbsp salsa; 1 tsp lime"
       ],
       "steps": [
-        "Take Tuesday's cooked chicken and peppers from the refrigerator. Only use it if it was chilled promptly and kept refrigerated.",
-        "Drain and rinse black beans; measure ¾ cup. Measure ½ cup corn straight from the freezer.",
-        "Put chicken, peppers, 1 cup cooked rice, beans, corn and 2 tbsp water into a skillet over medium heat. Cover 5–7 minutes, stirring twice, until leftovers are piping hot (74°C / 165°F).",
-        "Transfer to a bowl. Top with 1 tbsp salsa and 1 tsp lime juice, then serve."
+        "Thaw THU chicken/pepper/rice in fridge WED night.",
+        "Add drained beans; microwave covered 4–6 min until 74°C / 165°F.",
+        "Top with salsa and lime."
       ],
-      "tip": "This is a LEFTOVER chicken recipe; do not use raw chicken. Refrigerate cooked rice promptly.",
+      "before": "ONE portion, not the old two-serving recipe. Cooked and FROZEN Sunday.",
+      "tip": "Thu food must not stay refrigerated from Sunday.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 830,
-        "protein_g": 65,
-        "carbs_g": 109,
+        "calories": 715,
+        "protein_g": 59,
+        "carbs_g": 86,
         "fat_g": 15,
         "basis": "per_portion"
-      },
-      "before": "Uses already-cooked Tuesday fajita chicken plus cooked rice."
+      }
     },
     "salmon": {
       "id": "salmon",
-      "title": "Maple–Dijon salmon with potatoes",
-      "minutes": 40,
+      "title": "Maple–Dijon salmon, potatoes and green beans",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW salmon fillet, thawed if previously frozen",
-        "200 g REGULAR potatoes from the 2.27 kg bag (raw weight; do not buy baby potatoes)",
-        "2 cups (500 mL) FROZEN cut green beans",
-        "2 tsp (10 mL) olive oil (for potatoes)",
-        "1 tbsp (15 mL) Dijon mustard",
-        "2 tsp (10 mL) maple syrup",
-        "1 tbsp (15 mL) lemon juice",
-        "¼ tsp black pepper",
-        "Pinch of salt (optional)",
-        "2 tbsp (30 mL) water for the green beans"
+        "225 g RAW salmon BAKED in oven Sunday with 1 tbsp Dijon + 2 tsp maple syrup",
+        "200 g REGULAR potatoes weighed RAW, AIR-FRIED in Ninja Sunday with 2 tsp olive oil",
+        "2 cups FROZEN cut green beans",
+        "1 tbsp lemon juice"
       ],
       "steps": [
-        "If salmon is frozen, thaw it in the refrigerator (ideally overnight). Preheat the OVEN to 200°C / 400°F for the salmon. Get a small oven-safe baking sheet and line it with parchment if available. The POTATOES will cook separately in the Ninja dual-basket air fryer, not in the oven.",
-        "Weigh 200 g of REGULAR RAW potatoes from the 2.27 kg grocery bag (NOT baby potatoes). Wash and scrub, remove damaged spots and leave the skin on if desired. Cut into even 2–2.5 cm cubes (slice, then cut into sticks, then cube). Do not simply halve the potatoes. For crispier potatoes (OPTIONAL), soak the cubes in cold water for 20 minutes, then drain and dry VERY thoroughly before adding the oil.",
-        "Place the potatoes in ONE layer in one Ninja basket, without piling them up. Add 2 tsp olive oil, ¼ tsp black pepper and an optional pinch of salt. Toss to coat all the cubes.",
-        "Set that Ninja basket to AIR FRY at 200°C (about 390°F) for 22 minutes. Start cooking the potatoes. Shake the basket after 11 minutes. At 22 minutes, test a cube with a fork: it must be tender inside and golden outside. If still firm, add 3 minutes (25 minutes total).",
-        "While the potatoes are cooking, mix 1 tbsp Dijon mustard with 2 tsp maple syrup in a small bowl. Pat the salmon dry with paper towel (do not rinse), place it on the separate oven baking sheet and coat the top evenly with the Dijon-maple mixture.",
-        "After the potatoes have been cooking for 8 minutes (about 14 minutes left on the Ninja timer), put the salmon into the PREHEATED 200°C / 400°F OVEN. Bake for about 12–15 minutes depending on thickness. Start checking at 12 minutes; for fully cooked fish, the centre of the thickest part should reach 63°C / 145°F. If it finishes before the potatoes, remove it from the oven.",
-        "When about 8 minutes remain on the Ninja timer, put 2 cups of green beans DIRECTLY FROM FROZEN into a small saucepan with 2 tbsp (30 mL) of water. Cover and cook over MEDIUM heat for 6–8 minutes, stirring halfway through. When hot and tender, drain any remaining water. Do not thaw beforehand.",
-        "Serve the cooked potatoes (200 g weighed raw), salmon and drained green beans together. Drizzle the measured 1 tbsp (15 mL) lemon juice over the salmon and vegetables. If the potatoes need an extra 3 minutes, leave them in the Ninja while you take the salmon out of the oven."
+        "Thaw the THU salmon and potatoes in fridge WED night.",
+        "Microwave frozen green beans with 2 tbsp water covered 4–6 min.",
+        "Gently heat cooked salmon and potatoes covered to 74°C / 165°F; add lemon."
       ],
-      "tip": "Cooking setup: Ninja basket 1 = regular potato cubes, AIR FRY 200°C / 390°F for 22–25 min (shake halfway); oven = salmon at 200°C / 400°F for 12–15 min, started 8 min after the potatoes; saucepan = frozen green beans over medium heat for 6–8 min, started when 8 min remain. Keep using the REGULAR potatoes already in the 2.27 kg grocery bag; no baby-potato purchase. Fork-test the potatoes and check salmon with a thermometer (63°C / 145°F for fully cooked fish). The optional 20-minute soak adds to the listed preparation time.",
+      "before": "Salmon baked IN OVEN Sunday; potatoes cooked IN NINJA Sunday.",
+      "tip": "Texture of reheated salmon is softer than fresh baked.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 800,
-        "protein_g": 52,
-        "carbs_g": 64,
-        "fat_g": 38,
+        "calories": 790,
+        "protein_g": 53,
+        "carbs_g": 55,
+        "fat_g": 39,
         "basis": "per_portion"
-      },
-      "before": "Appliances: NINJA DUAL-BASKET AIR FRYER for the potatoes; OVEN for the salmon; COVERED SAUCEPAN for the frozen green beans. Use REGULAR potatoes from the existing 2.27 kg bag (200 g RAW), NOT baby potatoes; cut into 2–2.5 cm cubes. No peeling, pre-boiling or thawing of the green beans needed. Thaw salmon safely in the refrigerator if frozen."
+      }
     },
     "meatballs": {
       "id": "meatballs",
-      "title": "Garlicky meatball marinara pasta",
-      "minutes": 30,
+      "title": "Batch-cooked marinara penne and Angus meatballs",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "150 g Compliments Angus beef FROZEN FULLY COOKED meatballs (680 g bag; keep remaining 530 g frozen)",
-        "90 g dry PENNE RIGATE pasta (not soba)",
-        "¾ cup (180 mL) marinara sauce",
-        "2 cups (500 mL) baby spinach",
-        "1 tsp (5 mL) olive oil",
-        "1 medium garlic clove, minced (about 1 tsp)",
-        "1 tsp dried basil",
-        "¼ tsp red pepper flakes (optional)",
-        "2 tbsp (30 mL) water if sauce is too thick"
+        "150 g fully cooked frozen Compliments Angus meatballs (NOT Long Phung)",
+        "90 g DRY penne, COOKED Sunday",
+        "¾ cup marinara + 2 cups baby spinach + 1 tsp dried basil, combined Sunday"
       ],
       "steps": [
-        "Confirm the frozen meatballs are FULLY COOKED. If so, no thawing is required; if RAW, cook fully according to package before continuing.",
-        "Mince one garlic clove. Heat 1 tsp olive oil in a large skillet over medium heat; stir garlic for 30 seconds without browning.",
-        "Add ¾ cup marinara and 2 tbsp water if thick. Add 150 g frozen fully cooked meatballs; cover.",
-        "Simmer over medium-low 15–20 minutes, stirring every 5 minutes, until meatballs are hot in the centre (74°C / 165°F for reheating). Follow package directions if different.",
-        "Meanwhile boil a pot of water. Add 90 g dry PENNE (not soba); cook for the time listed on your PENNE package and drain.",
-        "Add 2 cups spinach, 1 tsp dried basil and optional ¼ tsp pepper flakes to hot meatballs. Stir-cook 1–2 minutes until wilted.",
-        "Toss drained penne into sauce for 30 seconds and serve."
+        "Thaw FRI lunch penne–meatball container in fridge THU night.",
+        "Microwave covered 4–6 min, stir halfway, until 74°C / 165°F."
       ],
-      "tip": "This recipe uses PENNE RIGATE, NOT soba. Correction to the earlier meal: if you cooked the ENTIRE 250 g dry soba pack with meatballs and ate half of the cooked noodles, that equals about 125 g dry noodles eaten, NOT 45 g. Long Phung 216 g beef balls are springy Vietnamese-style, unlike Italian meatballs.",
+      "before": "Pasta and meatballs both preheated and fully assembled Sunday.",
+      "tip": "Use PENNE, not soba.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 925,
         "protein_g": 40,
         "carbs_g": 89,
         "fat_g": 42,
         "basis": "per_portion"
-      },
-      "before": "For the NEXT order use Compliments regular Angus beef meatballs, 680 g bag (use 150 g), with no cheese listed in the published ingredients. Do NOT buy Long Phung 216 g Vietnamese meatballs for marinara; they are springy. Already-bought Long Phung can be eaten but will remain firm."
+      }
     },
-    "chili": {
-      "id": "chili",
-      "title": "Smoky turkey and black-bean chili",
-      "minutes": 35,
-      "servings": 3,
+    "chilipotato": {
+      "id": "chilipotato",
+      "title": "Loaded turkey chili potatoes",
+      "minutes": 7,
+      "active_minutes": 5,
+      "servings": 1,
       "ingredients": [
-        "600 g RAW lean ground turkey (two packs if each is 450 g)",
-        "1 can (796 mL) crushed tomatoes",
-        "1 can (540 mL) black beans, rinsed and drained",
-        "1 medium onion, peeled and diced (about 1 cup)",
-        "1 bell pepper, seeded and diced",
-        "1 tbsp (15 mL) olive oil",
-        "2 tsp chili powder",
-        "1 tsp ground cumin",
-        "1 tsp smoked paprika",
-        "¼ tsp salt (or to taste)"
+        "1 of 3 equal turkey chili portions COOKED Sunday",
+        "250 g REGULAR potatoes weighed RAW, AIR-FRIED Sunday",
+        "Optional hot sauce or salsa"
       ],
       "steps": [
-        "Check turkey pack weight: recipe uses 600 g RAW. A single 450 g pack also works but yields less meat/protein in each portion.",
-        "Dice onion and bell pepper. Drain and rinse the black beans.",
-        "Heat a large pot over medium-high. Add 1 tbsp oil, onion and pepper; stir 4–5 minutes until softening.",
-        "Add raw turkey; break up and stir for 6–8 minutes until fully cooked to 74°C / 165°F.",
-        "Stir in the entire can of crushed tomatoes, drained beans, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika and ¼ tsp salt.",
-        "Reduce to medium-low; simmer uncovered 15 minutes, stirring every 4–5 minutes. If too thick, add 2–4 tbsp water.",
-        "Divide into roughly 3 portions. Eat one on Friday, chill the others promptly in shallow containers and FREEZE at least one for Week 2 Monday's chili potato."
+        "Thaw FRI dinner chili/potatoes in fridge THU night.",
+        "Microwave covered 4–6 min until 74°C / 165°F, stirring chili halfway.",
+        "Serve chili over potatoes."
       ],
-      "tip": "Three portions total; save and freeze at least one for next week's loaded potato.",
+      "before": "Chili and potatoes COOKED Sunday; no baking Friday.",
+      "tip": "Third chili portion is a freezer spare, NOT a Week 2 dependency.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 560,
-        "protein_g": 47,
-        "carbs_g": 45,
-        "fat_g": 21,
+        "calories": 790,
+        "protein_g": 52,
+        "carbs_g": 89,
+        "fat_g": 23,
         "basis": "per_portion"
-      },
-      "before": "600 g RAW ground turkey (two 450 g packs if needed); save one portion for Week 2."
+      }
     },
     "porkchop": {
       "id": "porkchop",
-      "title": "Garlic–lime pork chops and sweet potato",
-      "minutes": 35,
+      "title": "Garlic–lime pork and sweet potato",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225–250 g RAW boneless lean pork chop",
-        "350 g sweet potato, washed and cut into 1–2 cm thick wedges",
-        "2 cups (500 mL) bagged shredded cabbage slaw",
-        "2 tsp (10 mL) olive oil",
-        "1 medium garlic clove, minced (about 1 tsp)",
-        "½ tsp smoked paprika",
-        "1 tbsp (15 mL) lime juice",
-        "1 tbsp (15 mL) apple cider vinegar",
-        "Pinch of salt and pepper"
+        "225 g RAW boneless pork BAKED Sunday",
+        "250 g sweet potato weighed RAW, AIR-FRIED Sunday",
+        "1½ cups FROZEN green beans",
+        "1 tsp olive oil + 1 tbsp lime juice; garlic and paprika used Sunday"
       ],
       "steps": [
-        "Preheat oven to 200°C / 400°F. Cut sweet potato into 1–2 cm thick wedges, spread on a tray and toss with 1 tsp oil and a pinch of salt.",
-        "Roast 20–30 minutes, turning after 12–15 minutes, until fork-tender.",
-        "Mince 1 garlic clove; season both sides of the pork chop with garlic, ½ tsp paprika, salt and pepper.",
-        "Heat a skillet over medium-high with remaining 1 tsp oil. Cook chop about 4–6 minutes per side depending on thickness; check 71°C / 160°F in the centre. Rest 3 minutes.",
-        "Mix 2 cups shredded cabbage with 1 tbsp vinegar and 1 tbsp lime juice for about 20 seconds.",
-        "Serve pork, sweet potato and slaw together."
+        "Thaw SAT pork/sweet potato in fridge FRI night.",
+        "Microwave frozen green beans with 2 tbsp water covered 4–5 min.",
+        "Heat cooked pork and sweet potato to 74°C / 165°F and add lime."
       ],
-      "tip": "Use a thermometer for the pork; the time depends on chop thickness.",
+      "before": "Pork and sweet potato fully cooked Sunday, then FROZEN.",
+      "tip": "Initial pork cook 63°C / 145°F plus 3-min rest; leftovers reheat to 74°C.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 730,
-        "protein_g": 57,
-        "carbs_g": 80,
-        "fat_g": 20,
+        "protein_g": 58,
+        "carbs_g": 72,
+        "fat_g": 22,
         "basis": "per_portion"
-      },
-      "before": "Raw boneless pork chop and raw sweet potato. Oven and skillet are used separately."
+      }
     },
     "thaicurry": {
       "id": "thaicurry",
-      "title": "Thai red shrimp curry",
-      "minutes": 25,
+      "title": "Thai coconut shrimp curry and rice",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "250 g RAW peeled, deveined, THAWED shrimp",
-        "1 cup (250 mL) light coconut milk",
-        "2 cups (500 mL) frozen Asian-style stir-fry vegetable blend",
-        "1 tbsp (15 mL) Thai red curry paste; add more only after tasting",
-        "1½ cups (375 mL) ALREADY COOKED jasmine rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "1 tbsp (15 mL) lime juice",
-        "1 tbsp chopped fresh cilantro (optional)"
+        "250 g RAW peeled shrimp COOKED Sunday",
+        "1 cup light coconut milk + 2 cups frozen Asian vegetables + 1 tbsp red curry paste, COOKED Sunday",
+        "1½ cups rice COOKED Sunday",
+        "1 tbsp lime juice"
       ],
       "steps": [
-        "If shrimp are frozen, thaw overnight in the refrigerator or in a sealed bag in cold water, changing the water every 30 minutes. Drain; never thaw on the counter.",
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking. Keep the rice warm.",
-        "Heat a skillet or saucepan over medium. Stir in 1 tbsp red curry paste for 30 seconds without burning.",
-        "Pour in 1 cup coconut milk and add 2 cups frozen Asian vegetables directly from the freezer. Cover and simmer over medium-low for 6–8 minutes until hot.",
-        "Add 250 g raw thawed shrimp; simmer for about 3–5 minutes depending on size, stirring until opaque, firm and 74°C / 165°F in the centre. If shrimp are PRECOOKED, add only at the end for 1–2 minutes to reheat.",
-        "Stir in 1 tbsp lime juice, taste, and add extra curry paste only if desired. Spoon over 1½ cups cooked rice; optional cilantro on top."
+        "Thaw SUN curry/rice in fridge SAT night.",
+        "Microwave covered 4–6 min, stir halfway, until 74°C / 165°F; add lime."
       ],
-      "tip": "Add frozen vegetables straight to the sauce. Thaw raw shrimp first. If using pre-cooked shrimp, only reheat at the end.",
+      "before": "Cooked during the PREVIOUS Sunday's batch and frozen.",
+      "tip": "250 g shrimp, not the entire 340 g bag.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 855,
         "protein_g": 67,
         "carbs_g": 100,
         "fat_g": 21,
         "basis": "per_portion"
-      },
-      "before": "Thaw RAW shrimp ahead of time; use already-cooked rice and frozen vegetables."
+      }
     },
-    "chilipotato": {
-      "id": "chilipotato",
-      "title": "Chili-loaded baked potato",
-      "minutes": 15,
+    "tunabeans": {
+      "id": "tunabeans",
+      "title": "Tuna, white bean and potato bowl",
+      "minutes": 6,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "1 portion (about ⅓ of the batch) of COOKED Friday turkey chili, frozen for this meal",
-        "1 washed 350 g russet potato",
-        "2 tbsp (30 mL) chopped regular onion",
-        "1 tsp (5 mL) hot sauce (optional)",
-        "1 tbsp (15 mL) chopped green onion (optional)"
+        "2 cans light tuna (170 g each)",
+        "¾ cup canned white beans",
+        "200 g REGULAR potatoes weighed RAW, AIR-FRIED Sunday",
+        "1 cup cherry tomatoes; 2 tsp olive oil; 1 tbsp lemon"
       ],
       "steps": [
-        "Move a frozen portion of Friday's chili to the fridge the night before to thaw. If still frozen, microwave on defrost and reheat immediately.",
-        "Wash the 350 g russet potato and pierce 5–6 times with a fork. Put it on a microwave-safe plate.",
-        "Microwave on high approximately 7–10 minutes, turning halfway, until a fork slides through its centre. Rest 1 minute.",
-        "Microwave thawed chili in a covered microwave-safe bowl for 2–4 minutes, stirring halfway, until uniformly hot to 74°C / 165°F.",
-        "Dice 2 tbsp onion. Split potato lengthwise, spoon chili over it, top with onion and optional hot sauce and green onion."
+        "Reheat the cooked MON potatoes for 2–3 min.",
+        "Drain tuna and beans; halve cherry tomatoes.",
+        "Mix all with olive oil and lemon."
       ],
-      "tip": "Uses a portion of cooked chili saved from Week 1. Do NOT start a new batch of chili.",
+      "before": "Potatoes COOKED Sunday. Tuna and beans canned until Monday.",
+      "tip": "200 g refers to RAW potato weight.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 845,
-        "protein_g": 54,
-        "carbs_g": 108,
-        "fat_g": 22,
+        "calories": 735,
+        "protein_g": 72,
+        "carbs_g": 72,
+        "fat_g": 16,
         "basis": "per_portion"
-      },
-      "before": "Thaw a cooked portion of chili from Week 1 in the refrigerator the night before."
+      }
     },
     "oregano": {
       "id": "oregano",
       "title": "Lemon–oregano chicken rice bowl",
-      "minutes": 25,
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW boneless chicken breast or thigh",
-        "1½ cups (375 mL) ALREADY COOKED rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "¾ cup (180 mL) diced tomatoes",
-        "¾ cup (180 mL) diced cucumber",
-        "2 tsp (10 mL) olive oil",
-        "1 lemon for 1 tbsp juice and a little zest",
-        "1 garlic clove, minced (about 1 tsp)",
-        "½ tsp dried oregano",
-        "Pinch of salt and pepper"
+        "225 g RAW-equivalent chicken COOKED Sunday",
+        "1½ cups rice COOKED Sunday",
+        "¾ cup tomatoes; ¾ cup cucumber",
+        "2 tsp olive oil; 1 tbsp lemon; ½ tsp oregano; garlic used Sunday"
       ],
       "steps": [
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Wash lemon, grate about ¼ tsp zest, then squeeze 1 tbsp juice. Mince one garlic clove. Cut 225 g raw chicken into even ~2 cm pieces.",
-        "Coat chicken in garlic, lemon zest, ½ tsp oregano, salt and pepper.",
-        "Heat 2 tsp olive oil in a skillet over medium-high. Cook chicken 6–10 minutes, turning regularly, until every piece reaches 74°C / 165°F.",
-        "Dice ¾ cup tomatoes and ¾ cup cucumber; toss with 1 tbsp lemon juice.",
-        "Put hot cooked rice in a bowl; add cooked chicken and tomato-cucumber salad."
+        "Reheat MON chicken and rice covered 3–5 min to 74°C / 165°F.",
+        "Dice tomatoes and cucumber; add lemon and olive oil.",
+        "Serve with hot chicken/rice."
       ],
-      "tip": "Substitute ½ tsp dried basil if you have no dried oregano.",
+      "before": "All chicken and rice cooked Sunday. Rice from total 2⅔ standard cups (~480 g) DRY for Week 2.",
+      "tip": "225 g chicken means RAW weight before cooking.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 700,
         "protein_g": 59,
         "carbs_g": 82,
         "fat_g": 15,
         "basis": "per_portion"
-      },
-      "before": "For the rice: ½ standard measuring cup (125 mL / about 90 g) of DRY rice gives approximately 1½ cups cooked. Do NOT use a full rice-cooker cup (usually 180 mL). Use RAW chicken and rice measured AFTER cooking."
+      }
     },
     "peanutnoodle": {
       "id": "peanutnoodle",
-      "title": "Thai peanut chicken noodles",
-      "minutes": 25,
+      "title": "Peanut chicken rice bowl",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW chicken strips",
-        "90 g dry FLAT RICE noodles for Pad Thai (not soba or penne)",
-        "1 cup (250 mL) shredded cabbage",
-        "1 cup (250 mL) shredded carrots",
-        "1½ tbsp (22 mL) peanut butter",
-        "1 tbsp (15 mL) soy sauce",
-        "1 tbsp (15 mL) lime juice",
-        "1 tsp (5 mL) sweet chili sauce or hot sauce, to taste",
-        "2–3 tbsp (30–45 mL) hot water"
+        "225 g RAW-equivalent chicken COOKED Sunday",
+        "1 cup rice COOKED Sunday",
+        "1 cup FROZEN Asian vegetables",
+        "1½ tbsp peanut butter; 1 tbsp soy; 1 tbsp lime; 2 tbsp hot water"
       ],
       "steps": [
-        "Identify the right noodles: use FLAT RICE NOODLES for Pad Thai. Read THEIR package for soaking or boiling directions; do not use soba or penne timing.",
-        "Cut raw chicken into 1–2 cm strips; measure 1 cup shredded cabbage and 1 cup shredded carrots. Leave vegetables raw for crunch.",
-        "Whisk peanut butter, soy sauce, lime juice, 1 tsp chili sauce and 2 tbsp hot water in a bowl. Add another tbsp water if too thick.",
-        "Heat a non-stick skillet over medium-high. Add chicken and 2 tbsp water to prevent sticking; cook 6–10 minutes, stirring, until chicken reaches 74°C / 165°F.",
-        "While chicken cooks, prepare 90 g flat rice noodles according to their own package; drain as soon as tender.",
-        "Turn skillet to low. Toss chicken, cooked noodles, peanut sauce, cabbage and carrots for 1–2 minutes until hot; serve."
+        "Reheat TUE chicken, rice and frozen vegetables covered 4–6 min to 74°C / 165°F.",
+        "Mix peanut butter, soy, lime and hot water; stir into hot bowl."
       ],
-      "tip": "SOBA = ginger beef; PENNE = meatballs; FLAT RICE NOODLES = peanut chicken. Each has separate cooking directions.",
+      "before": "Uses rice instead of dry rice noodles: no weekday noodle boiling.",
+      "tip": "Chicken and rice cooked Sunday.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 820,
-        "protein_g": 65,
-        "carbs_g": 95,
+        "calories": 725,
+        "protein_g": 60,
+        "carbs_g": 67,
         "fat_g": 20,
         "basis": "per_portion"
-      },
-      "before": "Use FLAT RICE NOODLES, not soba or penne; follow their package."
+      }
     },
     "tacoskillet": {
       "id": "tacoskillet",
-      "title": "Smoky taco beef skillet",
-      "minutes": 20,
+      "title": "Smoky taco beef rice bowl",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW lean ground beef",
-        "¾ cup (180 mL) canned black beans, rinsed and drained",
-        "½ bell pepper, diced",
-        "½ cup (125 mL) frozen corn kernels",
-        "1 cup (250 mL) ALREADY COOKED rice (for the rice cooker: about ⅓ cup (85 mL) DRY rice, 60 g, yields this cooked amount)",
-        "⅓ avocado, diced",
-        "2 tbsp (30 mL) salsa",
-        "½ tsp chili powder",
-        "¼ tsp ground cumin",
-        "¼ tsp smoked paprika",
-        "2 tbsp (30 mL) water"
+        "225 g RAW-equivalent ground beef COOKED with taco spices Sunday",
+        "1 cup rice COOKED Sunday",
+        "¾ cup canned black beans; ½ cup FROZEN corn",
+        "2 tbsp salsa; optional ⅓ avocado"
       ],
       "steps": [
-        "If the rice is uncooked, put ⅓ cup (85 mL) (about 60 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1 cup (250 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Dice half a bell pepper. Rinse and drain ¾ cup black beans and measure ½ cup still-frozen corn.",
-        "Heat a skillet over medium-high and brown 225 g raw beef, breaking it up for 5–7 minutes until fully cooked to 71°C / 160°F. Drain excess fat.",
-        "Add diced pepper and spices (½ tsp chili powder, ¼ tsp each cumin and smoked paprika); stir over medium heat for 2 minutes.",
-        "Add beans, frozen corn and 2 tbsp water. Cover over medium heat for 3–5 minutes until corn is hot, stirring once.",
-        "Add the hot mixture to 1 cup cooked rice in a bowl; top with 2 tbsp salsa and diced ⅓ avocado."
+        "Reheat TUE taco beef/rice with drained beans and frozen corn, covered 4–6 min to 74°C / 165°F.",
+        "Add salsa and optional avocado."
       ],
-      "tip": "Keep corn frozen until adding directly to the pan. Canned beans are pre-cooked.",
+      "before": "Sunday cooks both beef and rice.",
+      "tip": "No raw beef or pepper cutting Tuesday.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 940,
+        "calories": 920,
         "protein_g": 60,
-        "carbs_g": 108,
+        "carbs_g": 102,
         "fat_g": 30,
         "basis": "per_portion"
-      },
-      "before": "Use RAW ground beef and already-cooked rice; corn goes in frozen."
+      }
     },
     "shrimpmango": {
       "id": "shrimpmango",
-      "title": "Chili–lime shrimp mango bowl",
-      "minutes": 20,
+      "title": "Lime–chili shrimp, mango and rice",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "250 g RAW peeled, deveined, THAWED shrimp",
-        "1½ cups (375 mL) ALREADY COOKED rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "½ peeled mango, diced",
-        "½ cucumber, diced",
-        "2 tsp (10 mL) olive oil",
-        "1 tbsp (15 mL) lime juice",
-        "¼ tsp crushed red pepper flakes (optional)",
-        "1 tbsp chopped fresh cilantro (optional)"
+        "250 g RAW peeled shrimp COOKED Sunday",
+        "1½ cups rice COOKED Sunday",
+        "½ cup FROZEN mango chunks thawed; ½ cucumber",
+        "1 tbsp lime; 1 tsp olive oil; optional chili flakes"
       ],
       "steps": [
-        "Thaw raw frozen shrimp overnight in the fridge or in a closed bag in cold water (change water every 30 minutes). Drain and pat dry.",
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking. Keep the rice warm.",
-        "Peel and dice half the mango; dice half the cucumber. Toss together with 1 tbsp lime juice and optional pepper flakes.",
-        "Heat 2 tsp olive oil over medium-high in a skillet. Add 250 g thawed raw shrimp in one layer. Cook about 2–3 minutes per side until opaque and firm, checking 74°C / 165°F in the centre.",
-        "Serve shrimp and mango-cucumber mix over hot rice. Add optional chopped cilantro."
+        "Thaw THU shrimp/rice and frozen mango in fridge WED night.",
+        "Reheat shrimp/rice covered 3–5 min until 74°C / 165°F.",
+        "Dice cucumber and add mango and lime to the hot bowl."
       ],
-      "tip": "If using PRECOOKED shrimp, heat them only 1–2 minutes instead of cooking again.",
+      "before": "Cooked shrimp and rice FROZEN Sunday; mango used cold.",
+      "tip": "Do not reheat cucumber/mango.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 700,
         "protein_g": 64,
         "carbs_g": 86,
         "fat_g": 11,
         "basis": "per_portion"
-      },
-      "before": "Thaw RAW shrimp in the refrigerator ahead of time; use already-cooked rice."
+      }
     },
     "harissa": {
       "id": "harissa",
-      "title": "Harissa chicken and chickpea tray bake",
-      "minutes": 30,
+      "title": "Harissa chicken, chickpeas and vegetables",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW chicken, cut into 2 cm cubes",
-        "¾ cup (180 mL) canned chickpeas, drained and rinsed",
-        "1 bell pepper, seeded and sliced",
-        "½ medium onion, sliced",
-        "1 tbsp (15 mL) harissa paste",
-        "2 tsp (10 mL) olive oil",
-        "½ lemon (about 1 tbsp juice)"
+        "225 g RAW-equivalent chicken COOKED with 1 tbsp harissa + 2 tsp olive oil Sunday",
+        "¾ cup canned chickpeas",
+        "1½ cups FROZEN Asian vegetables",
+        "Optional lemon"
       ],
       "steps": [
-        "Preheat oven to 205°C / 400°F. Optionally line a baking sheet with parchment.",
-        "Drain and rinse ¾ cup chickpeas. Slice one pepper and half an onion; use a separate cutting surface to cube raw chicken into 2 cm pieces.",
-        "Mix 1 tbsp harissa paste and 2 tsp olive oil in a bowl. Add chicken, chickpeas and vegetables; toss to coat.",
-        "Spread out on the tray without crowding. Roast at 205°C for 15 minutes, then turn pieces with a spatula.",
-        "Roast another 5–10 minutes until chicken is cooked through to 74°C / 165°F and vegetables are tender.",
-        "Squeeze half a lemon over the tray and serve. If harissa is very hot, use only ½ tbsp."
+        "Thaw THU harissa chicken in fridge WED night.",
+        "Add drained chickpeas and frozen vegetables; microwave covered 4–6 min to 74°C / 165°F.",
+        "Add lemon if desired."
       ],
-      "tip": "Canned chickpeas are already cooked; roasting crisps them. Check the chicken's internal temperature.",
+      "before": "Chicken seasoned and cooked Sunday.",
+      "tip": "Chickpeas are already cooked in the can.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 645,
-        "protein_g": 63,
-        "carbs_g": 55,
-        "fat_g": 19,
+        "calories": 655,
+        "protein_g": 62,
+        "carbs_g": 57,
+        "fat_g": 18,
         "basis": "per_portion"
-      },
-      "before": "Uses RAW chicken and canned, already-cooked chickpeas."
+      }
     },
-    "tunabeans": {
-      "id": "tunabeans",
-      "title": "Tuna, white bean and potato salad",
-      "minutes": 18,
+    "chickenpotato": {
+      "id": "chickenpotato",
+      "title": "Sweet-chili chicken loaded potatoes",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "2 cans light tuna (170 g each before draining), drained",
-        "¾ cup (180 mL) canned white beans, rinsed and drained",
-        "250 g REGULAR potatoes from the 2.27 kg bag, diced into 2 cm cubes",
-        "1 cup (250 mL) cherry tomatoes, halved",
-        "2 tsp (10 mL) olive oil",
-        "1 tbsp (15 mL) lemon juice",
-        "1 tbsp (15 mL) chopped fresh parsley",
-        "½ finely minced garlic clove (about ½ tsp)",
-        "Pinch of black pepper"
+        "225 g RAW-equivalent chicken COOKED Sunday",
+        "250 g REGULAR potatoes weighed RAW, AIR-FRIED Sunday",
+        "½ cup FROZEN corn; 1 cup bagged shredded cabbage",
+        "1 tbsp sweet chili sauce or salsa"
       ],
       "steps": [
-        "Weigh 250 g regular potatoes, wash and dice into even 2 cm cubes without needing to peel. Put cubes in a microwave-safe bowl with 2 tbsp water; cover loosely to vent steam.",
-        "Microwave on high for 6–9 minutes, stirring halfway, until easily pierced with a fork. Add 1-minute increments if needed; cool 2 minutes.",
-        "Meanwhile drain both tuna cans. Rinse and drain white beans; measure ¾ cup.",
-        "Wash and halve enough cherry tomatoes for 1 cup. Mince ½ garlic clove and chop 1 tbsp fresh parsley.",
-        "Whisk olive oil, lemon juice, minced garlic and black pepper in a small bowl.",
-        "Mix warm potatoes, white beans, tomatoes, tuna and parsley; toss gently with dressing and serve."
+        "Thaw FRI chicken and potatoes in fridge THU night.",
+        "Add frozen corn and reheat covered 4–6 min to 74°C / 165°F.",
+        "Top with pre-shredded cabbage and sweet chili sauce."
       ],
-      "tip": "Uses regular potatoes already on the grocery list, not baby potatoes. No other kind needs buying.",
+      "before": "Everything hot was cooked Sunday.",
+      "tip": "250 g potatoes means RAW weight before cooking.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 740,
-        "protein_g": 75,
-        "carbs_g": 83,
-        "fat_g": 12,
+        "calories": 670,
+        "protein_g": 58,
+        "carbs_g": 70,
+        "fat_g": 16,
         "basis": "per_portion"
-      },
-      "before": "Use 250 g REGULAR potatoes from the same 2.27 kg bag; wash and dice into 2 cm cubes. No need for baby potatoes. Canned tuna and white beans are already cooked."
+      }
     },
     "koreanbeef": {
       "id": "koreanbeef",
-      "title": "Korean-style sticky beef bowl",
-      "minutes": 20,
+      "title": "Sticky Korean-style ground beef rice",
+      "minutes": 7,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW lean beef strips",
-        "1½ cups (375 mL) ALREADY COOKED rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "1 cup (250 mL) frozen broccoli florets",
-        "1 cup (250 mL) sliced fresh mushrooms",
-        "1 tbsp (15 mL) soy sauce",
-        "1 tsp (5 mL) honey or maple syrup instead of brown sugar",
-        "1 tsp (5 mL) sesame oil",
-        "1 minced garlic clove (about 1 tsp)",
-        "1 tsp grated fresh ginger",
-        "¼ tsp red pepper flakes (optional)",
-        "2 tbsp (30 mL) water"
+        "225 g RAW-equivalent ground beef COOKED Sunday with 1 tbsp soy, 1 tsp maple, 1 tsp sesame oil",
+        "1½ cups rice COOKED Sunday",
+        "1½ cups FROZEN broccoli"
       ],
       "steps": [
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Cut beef into thin strips if needed. Slice mushrooms, mince garlic and grate 1 tsp ginger.",
-        "Mix soy sauce, 1 tsp honey or maple syrup, sesame oil, garlic, ginger and optional pepper flakes in a bowl.",
-        "Heat a large non-stick skillet over medium-high. Sear beef strips, stirring 3–5 minutes until fully cooked (71°C / 160°F). Move beef onto a clean plate.",
-        "Add frozen broccoli, fresh mushrooms and 2 tbsp water to skillet. Cover over medium heat 4–6 minutes, stirring, until vegetables are hot and tender.",
-        "Return beef, pour in sauce and toss for 1–2 minutes over medium heat. Serve on hot rice."
+        "Thaw FRI beef/rice in fridge THU night.",
+        "Add frozen broccoli; microwave covered 4–6 min, stir halfway, to 74°C / 165°F."
       ],
-      "tip": "Use honey or maple syrup rather than buying brown sugar just for this dish.",
+      "before": "Ground beef used instead of strips for easier Sunday batching.",
+      "tip": "Sauce is already on the precooked beef.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 840,
+        "calories": 835,
         "protein_g": 62,
-        "carbs_g": 85,
+        "carbs_g": 84,
         "fat_g": 28,
         "basis": "per_portion"
-      },
-      "before": "RAW beef strips and already-cooked rice; broccoli goes in frozen."
+      }
     },
     "tomatocurry": {
       "id": "tomatocurry",
-      "title": "Tomato–coconut chicken curry",
-      "minutes": 25,
+      "title": "Tomato–coconut chicken curry and rice",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "250 g RAW chicken, cut into 2 cm cubes",
-        "¾ cup (180 mL) canned crushed tomatoes",
-        "½ cup (125 mL) light coconut milk",
-        "2 cups (500 mL) baby spinach",
-        "1½ cups (375 mL) ALREADY COOKED basmati rice (for the rice cooker: about ½ cup (125 mL) DRY rice, 90 g, yields this cooked amount)",
-        "1 tsp (5 mL) curry powder",
-        "½ tsp garam masala",
-        "1 minced garlic clove (about 1 tsp)",
-        "1 tsp grated fresh ginger",
-        "2 tbsp (30 mL) water if needed"
+        "250 g RAW-equivalent chicken COOKED Sunday",
+        "¾ cup crushed tomatoes + ½ cup light coconut milk + 2 cups baby spinach",
+        "1½ cups rice COOKED Sunday",
+        "1 tsp curry powder + ½ tsp garam masala, curry cooked Sunday"
       ],
       "steps": [
-        "If the rice is uncooked, put ½ cup (125 mL) (about 90 g) of DRY rice into the rice cooker. Add water according to the package and cook. This yields about 1½ cups (375 mL) cooked; measure after cooking. Allow extra time for rice cooking.",
-        "Dice 250 g raw chicken into ~2 cm cubes on a poultry cutting board; mince garlic and grate 1 tsp ginger.",
-        "Heat a non-stick skillet over medium-high; stir-cook chicken for 3–4 minutes until lightly browned outside (it is not yet fully cooked).",
-        "Reduce heat to medium. Add 1 tsp curry powder, ½ tsp garam masala, minced garlic and ginger; stir 30 seconds.",
-        "Add ¾ cup crushed tomatoes and ½ cup light coconut milk. Add 2 tbsp water if too thick. Cover and simmer over medium-low 8–12 minutes, stirring, until chicken reaches 74°C / 165°F in the centre.",
-        "Stir in 2 cups spinach for 1–2 minutes until wilted; serve over hot rice."
+        "Thaw SAT chicken curry/rice in fridge FRI night.",
+        "Reheat covered 4–6 min, stirring halfway, until 74°C / 165°F."
       ],
-      "tip": "Rice quantities are AFTER cooking. Previously opened coconut milk and tomatoes must have been safely refrigerated or frozen.",
+      "before": "Entire curry cooked and frozen Sunday.",
+      "tip": "No rice cooker Saturday.",
+      "batch_ready": true,
       "nutrition": {
         "calories": 780,
         "protein_g": 64,
         "carbs_g": 86,
         "fat_g": 20,
         "basis": "per_portion"
-      },
-      "before": "RAW chicken and already-cooked basmati rice; cook rice beforehand if necessary."
+      }
     },
     "stickypork": {
       "id": "stickypork",
-      "title": "Sticky sesame pork udon",
-      "minutes": 25,
+      "title": "Sticky sesame pork with ready-to-use udon",
+      "minutes": 8,
+      "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW lean pork strips",
-        "200 g plain READY-TO-USE UDON noodles (not soba or penne)",
-        "2 cups (500 mL) frozen Asian-style stir-fry vegetables",
-        "1 tbsp (15 mL) soy sauce",
-        "1 tbsp (15 mL) sweet chili sauce",
-        "1 tsp (5 mL) sesame oil",
-        "1 minced garlic clove (about 1 tsp)",
-        "1 tsp (5 mL) sesame seeds",
-        "2 tbsp (30 mL) water"
+        "225 g RAW pork strips COOKED Sunday with 1 tbsp soy + 1 tbsp sweet chili + 1 tsp sesame oil",
+        "ONE 200 g pack READY-TO-USE plain udon (NOT dry soba)",
+        "2 cups FROZEN Asian vegetables"
       ],
       "steps": [
-        "Use the correct 200 g READY-TO-USE UDON pack, NOT 3-minute soba. Check whether the specific udon package says to rinse, warm, or briefly boil.",
-        "Mince a garlic clove. Mix soy sauce, sweet chili sauce, sesame oil and 2 tbsp water in a small bowl.",
-        "Heat a large non-stick skillet over medium-high. Add 225 g raw pork strips; stir-cook 5–8 minutes until pork reaches 71°C / 160°F in the centre.",
-        "Add frozen Asian vegetables directly from freezer and minced garlic; cover and cook over medium heat 5–7 minutes, stirring halfway, until hot.",
-        "Add the 200 g prepared udon and sauce. Toss over medium heat 1–2 minutes until noodles and pork are uniformly hot.",
-        "Serve with 1 tsp sesame seeds sprinkled on top."
+        "Thaw SUN cooked pork in fridge SAT night.",
+        "Combine pork, 200 g ready-to-use udon, frozen vegetables and 2 tbsp water; microwave covered 5–7 min, stirring halfway, to 74°C / 165°F."
       ],
-      "tip": "Soba = ginger beef; flat rice noodles = peanut chicken; udon = pork. Penne = meatball marinara.",
+      "before": "Pork COOKED the PREVIOUS Sunday; udon package must say READY-TO-USE.",
+      "tip": "If noodles require boiling, follow label instead; total time may exceed 10 min.",
+      "batch_ready": true,
       "nutrition": {
-        "calories": 750,
+        "calories": 745,
         "protein_g": 56,
-        "carbs_g": 86,
-        "fat_g": 20,
+        "carbs_g": 85,
+        "fat_g": 21,
         "basis": "per_portion"
-      },
-      "before": "Use READY-TO-USE UDON (200 g), not soba, penne or flat rice noodles."
+      }
     },
     "restaurant": {
       "id": "restaurant",
@@ -819,7 +694,7 @@
         "day": "Tuesday",
         "subtitle": "Lemon & smoky",
         "lunch": "lemonpotato",
-        "dinner": "fajitas"
+        "dinner": "chili"
       },
       {
         "day": "Wednesday",
@@ -830,14 +705,14 @@
       {
         "day": "Thursday",
         "subtitle": "Fresh & maple",
-        "lunch": "fajitaleft",
+        "lunch": "fajitas",
         "dinner": "salmon"
       },
       {
         "day": "Friday",
         "subtitle": "Italian & chili",
         "lunch": "meatballs",
-        "dinner": "chili"
+        "dinner": "chilipotato"
       },
       {
         "day": "Saturday",
@@ -856,7 +731,7 @@
       {
         "day": "Monday",
         "subtitle": "Comfort & Mediterranean",
-        "lunch": "chilipotato",
+        "lunch": "tunabeans",
         "dinner": "oregano"
       },
       {
@@ -880,7 +755,7 @@
       {
         "day": "Friday",
         "subtitle": "Fresh & sticky",
-        "lunch": "tunabeans",
+        "lunch": "chickenpotato",
         "dinner": "koreanbeef"
       },
       {
@@ -898,23 +773,20 @@
     ]
   ],
   "notes": [
-    "Nutrition figures are planning estimates, not measured values. Use ingredient labels and adjust portions to match targets.",
-    "On regular days add a protein-rich snack and optional 150–200 kcal dessert. Add a second shake or larger protein portion if needed.",
-    "Restaurant breakfast has substantial uncertainty; no fixed meal calories are promised.",
-    "Wednesday shakes are not nutritionally complete. Supplements do not make a low-variety liquid diet equivalent to balanced meals.",
-    "Cook chicken to 74°C/165°F; refrigerate leftovers promptly.",
-    "Morning supplements contribute some calories, especially collagen and fibre powder; check product labels.",
-    "Per-meal calories and protein, carbohydrate, and fat are rough estimates from common food composition values and typical package labels; brand, raw/cooked weight, sauce and oil can change the result substantially.",
-    "Rice and quinoa are stocked pantry items; rice portions in recipes refer to the cooked weight/volume, not dry rice or microwave pouches.",
-    "Voilà product links point to an example brand and size; check quantities and availability in your delivery area before ordering.",
-    "The optimized 14-day shopping view lists shelf-stable and frozen items only once. Buy fresh produce and fresh meat by week, and freeze unused portions promptly. Quantities are estimates."
+    "V3: all hot proteins and rice are cooked Sunday; weekdays reheat/assemble in 5–10 min after overnight fridge thawing.",
+    "Sunday takes about 40–60 min hands-on and 75–120 min overall including cooking and packing.",
+    "Meat and potato weights are RAW, before Sunday cooking. DRY rice quantities are in the batch guide.",
+    "Do not keep Thu–Sun cooked meals refrigerated since Sunday: freeze them Sunday and thaw in fridge overnight.",
+    "Cool rapidly in shallow containers, refrigerate/freeze within two hours. Reheat leftovers once to 74°C / 165°F.",
+    "Calories/macros are estimates; adjust for labels and portions.",
+    "No cheese or sour cream; Wednesday shakes and weekend restaurant breakfast remain."
   ],
   "shopping": [
     {
-      "Protein & refrigerated": [
+      "Protein and refrigerated": [
         {
           "id": "chicken",
-          "name": "Chicken breasts or thighs (~1.1 kg)",
+          "name": "Boneless chicken: W1 450 g RAW (2 × 225 g) / W2 1,150 g RAW (4 × 225 g + 250 g)",
           "voila": {
             "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
             "type": "product"
@@ -922,7 +794,7 @@
         },
         {
           "id": "groundbeef",
-          "name": "Lean ground beef (~225 g)",
+          "name": "Lean ground beef: W1 225 g RAW / W2 450 g RAW (2 × 225 g)",
           "voila": {
             "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA",
             "type": "product"
@@ -930,7 +802,7 @@
         },
         {
           "id": "groundturkey",
-          "name": "Compliments extra-lean ground turkey 450 g (BUY 2 packs for 600 g of chili)",
+          "name": "Lean ground turkey 600 g RAW for 3 chili portions (two 450 g packs if needed; freeze raw extra)",
           "voila": {
             "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
             "type": "product"
@@ -939,7 +811,7 @@
         },
         {
           "id": "salmon",
-          "name": "Salmon fillet (~225 g)",
+          "name": "225 g RAW salmon for Sunday OVEN baking",
           "voila": {
             "url": "https://voila.ca/products/atlantic-salmon-fillet/1439110KG",
             "type": "product"
@@ -947,7 +819,7 @@
         },
         {
           "id": "porkchop",
-          "name": "Lean pork chop (~250 g)",
+          "name": "225 g RAW boneless pork chop",
           "voila": {
             "url": "https://voila.ca/categories/meat-seafood/pork/pork-ribs-chops-tenderloin/WEB3100883",
             "type": "category"
@@ -955,7 +827,7 @@
         },
         {
           "id": "shrimp",
-          "name": "Compliments raw peeled deveined shrimp 340 g (1 bag/week; 2 bags/14 days)",
+          "name": "250 g RAW peeled shrimp per week (340 g bag per week is sufficient)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
@@ -964,7 +836,7 @@
         },
         {
           "id": "tuna",
-          "name": "Compliments canned light tuna 170 g (2 cans/week; 4 cans/14 days)",
+          "name": "Light canned tuna 170 g × 2 cans per week",
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
@@ -973,7 +845,7 @@
         },
         {
           "id": "meatballsangus",
-          "name": "Compliments frozen Angus beef meatballs 680 g (1 bag; use 150 g with penne — NOT Long Phung)",
+          "name": "150 g fully cooked Compliments Angus meatballs (680 g pack, NOT Long Phung)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-meatballs-angus-beef-680-g/432394EA",
             "type": "product"
@@ -982,17 +854,17 @@
         },
         {
           "id": "whey",
-          "name": "Whey protein powder (3 Wednesday shakes)",
+          "name": "Whey for three Wednesday shakes",
           "voila": {
             "url": "https://voila.ca/categories/health-beauty/diet-fitness/protein-powders-shakes/WEB31035247",
             "type": "category"
           }
         }
       ],
-      "Produce & frozen": [
+      "Fruit, vegetables and frozen": [
         {
           "id": "pepper",
-          "name": "Bell peppers (3–4)",
+          "name": "2 bell peppers: 1 for chili, 1 for fajitas",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-vegetables/bell-peppers/WEB3100792",
             "type": "category"
@@ -1000,7 +872,7 @@
         },
         {
           "id": "onion",
-          "name": "Onions (2–3)",
+          "name": "1 onion: ½ chili, ½ fajitas",
           "voila": {
             "url": "https://voila.ca/products/compliments-onions-yellow-1-36-kg/615526EA",
             "type": "product"
@@ -1008,7 +880,7 @@
         },
         {
           "id": "cucumber",
-          "name": "Cucumbers (2)",
+          "name": "Cucumber: W1 1 (½ tuna, ½ chicken) / W2 2 (Mon and Thu)",
           "voila": {
             "url": "https://voila.ca/products/organic-english-cucumber-1-count/129818EA",
             "type": "product"
@@ -1016,7 +888,7 @@
         },
         {
           "id": "tomatoes",
-          "name": "Tomatoes or cherry tomatoes",
+          "name": "Tomatoes: W1 ½ cup diced / W2 ~1¾ cups including cherry",
           "voila": {
             "url": "https://voila.ca/products/cherry-tomatoes-cameo-elite-1-pint/628257EA",
             "type": "product"
@@ -1024,7 +896,7 @@
         },
         {
           "id": "broccoli",
-          "name": "Frozen broccoli florets (500 g)",
+          "name": "FROZEN broccoli: 1½ cups per week (one 500 g bag suffices)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
             "type": "product"
@@ -1032,23 +904,15 @@
         },
         {
           "id": "greenbeans",
-          "name": "Frozen cut green beans (750 g)",
+          "name": "FROZEN green beans 3½ cups (salmon 2 + pork 1½)",
           "voila": {
             "url": "https://voila.ca/products/best-buy-frozen-green-beans-cut-750-g/408990EA",
             "type": "product"
           }
         },
         {
-          "id": "cabbage",
-          "name": "Bagged cabbage slaw",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-salad-mix-coleslaw-397-g/655261EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "spinach",
-          "name": "Spinach",
+          "name": "Baby spinach: 2 cups per week",
           "voila": {
             "url": "https://voila.ca/products/compliments-baby-spinach-312-g/370340EA",
             "type": "product"
@@ -1056,7 +920,7 @@
         },
         {
           "id": "potatoes",
-          "name": "REGULAR potatoes, 2.27 kg bag (not baby potatoes; 300 g chicken + 300 g salmon)",
+          "name": "REGULAR potatoes RAW: W1 650 g (200 + 200 + 250); W2 450 g (200 + 250). ONE 2.27 kg bag covers both weeks.",
           "voila": {
             "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
             "type": "product"
@@ -1064,7 +928,7 @@
         },
         {
           "id": "sweetpotato",
-          "name": "Sweet potatoes (~350 g)",
+          "name": "250 g RAW sweet potato for Sunday Ninja batch",
           "voila": {
             "url": "https://voila.ca/products/orange-flesh-yams-sweet-potato/130444KG",
             "type": "product"
@@ -1072,7 +936,7 @@
         },
         {
           "id": "lemons",
-          "name": "Lemons",
+          "name": "Lemon: about 1 per week",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/lemons/WEB3100780",
             "type": "category"
@@ -1080,7 +944,7 @@
         },
         {
           "id": "limes",
-          "name": "Limes",
+          "name": "Limes: about 2 per week",
           "voila": {
             "url": "https://voila.ca/products/lime-1-count/7687EA",
             "type": "product"
@@ -1088,7 +952,7 @@
         },
         {
           "id": "avocado",
-          "name": "Avocado (1)",
+          "name": "1 avocado: ½ for Week 1 tuna; optional Week 2",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/avocados/WEB3100786",
             "type": "category"
@@ -1096,7 +960,7 @@
         },
         {
           "id": "bananas",
-          "name": "Bananas (2)",
+          "name": "2 bananas for shakes",
           "voila": {
             "url": "https://voila.ca/products/banana-1-count-ripe-in-3-4-days/958902EA",
             "type": "product"
@@ -1104,7 +968,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Compliments frozen Asian stir-fry vegetables 500 g (1 bag/week; 2 bags/14 days)",
+          "name": "FROZEN Asian vegetables: W1 2 cups / W2 4½ cups (~two 500 g bags)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -1112,26 +976,18 @@
           "searchName": "Compliments Frozen Stir Fry Asian Style Blend 500 g"
         },
         {
-          "id": "garlic",
-          "name": "Garlic",
-          "voila": {
-            "url": "https://voila.ca/products/fresh-garlic-3-count/204613EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "ginger",
-          "name": "Fresh ginger",
+          "name": "Ginger ~½ tsp (fresh or powdered)",
           "voila": {
             "url": "https://voila.ca/products/ginger-root/8440KG",
             "type": "product"
           }
         }
       ],
-      "Beans & staples": [
+      "Beans and staples": [
         {
           "id": "pasta",
-          "name": "Barilla dry PENNE RIGATE 410 g (90 g for meatballs; NOT soba)",
+          "name": "90 g DRY PENNE RIGATE, not soba",
           "voila": {
             "url": "https://voila.ca/products/barilla-pasta-penne-rigate-410-g/785494EA",
             "type": "product"
@@ -1140,7 +996,7 @@
         },
         {
           "id": "noodles",
-          "name": "Blue Dragon SOBA 250 g — 3 bundles: use only 1 (~83 g) for ginger beef",
+          "name": "250 g Blue Dragon soba: ONE tied bundle (~83 g DRY) for Monday; NOT whole pack",
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
             "type": "product"
@@ -1149,7 +1005,7 @@
         },
         {
           "id": "oats",
-          "name": "Rolled oats",
+          "name": "90 g rolled oats for 3 shakes",
           "voila": {
             "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
             "type": "product"
@@ -1157,7 +1013,7 @@
         },
         {
           "id": "blackbeans",
-          "name": "Black beans (2 cans)",
+          "name": "Black beans: W1 one 540 mL can for chili + ¾ cup fajitas = 2 cans; W2 ¾ cup for tacos",
           "voila": {
             "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA",
             "type": "product"
@@ -1165,49 +1021,41 @@
         },
         {
           "id": "crushedtomatoes",
-          "name": "Crushed tomatoes (796 mL can)",
+          "name": "Crushed tomatoes: W1 796 mL chili; W2 ¾ cup curry",
           "voila": {
             "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA",
             "type": "product"
           }
         },
         {
-          "id": "corn",
-          "name": "Frozen whole-kernel sweet corn (750 g bag)",
-          "voila": {
-            "url": "https://voila.ca/products/best-buy-frozen-whole-kernel-corn-750-g/408982EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "coconutmilk",
-          "name": "Light coconut milk",
+          "name": "Light coconut milk: W1 1 cup curry; W2 ½ cup curry (~400 mL total for two weeks)",
           "voila": {
             "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA",
             "type": "product"
           }
         },
         {
-          "id": "peanutbutter",
-          "name": "Peanut butter",
-          "voila": {
-            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "oliveoil",
-          "name": "Olive oil",
+          "name": "Olive oil for batch cooking and dressings",
           "voila": {
             "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA",
             "type": "product"
           }
+        },
+        {
+          "id": "peanutbutter",
+          "name": "Peanut butter for shakes and peanut chicken",
+          "voila": {
+            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
+            "type": "product"
+          }
         }
       ],
-      "Seasonings & extras": [
+      "Seasonings and extras": [
         {
           "id": "soysauce",
-          "name": "Soy sauce",
+          "name": "Soy sauce for sauces and marinades",
           "voila": {
             "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA",
             "type": "product"
@@ -1215,7 +1063,7 @@
         },
         {
           "id": "sriracha",
-          "name": "Sriracha",
+          "name": "Sriracha (optional)",
           "voila": {
             "url": "https://voila.ca/products/frank-s-red-hot-sauce-sriracha-354-ml/362310EA",
             "type": "product"
@@ -1223,7 +1071,7 @@
         },
         {
           "id": "dijon",
-          "name": "Dijon mustard",
+          "name": "Dijon mustard: 1 tbsp salmon + 1 tsp chicken",
           "voila": {
             "url": "https://voila.ca/products/compliments-prepared-dijon-mustard-original-325-ml/409731EA",
             "type": "product"
@@ -1231,7 +1079,7 @@
         },
         {
           "id": "maple",
-          "name": "Maple syrup",
+          "name": "Maple syrup: W1 2 tsp salmon; W2 1 tsp beef",
           "voila": {
             "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA",
             "type": "product"
@@ -1239,7 +1087,7 @@
         },
         {
           "id": "paprika",
-          "name": "Smoked paprika",
+          "name": "Smoked paprika for chili/fajitas/tacos",
           "voila": {
             "url": "https://voila.ca/products/mccormick-smoked-paprika-46-g/164655EA",
             "type": "product"
@@ -1247,7 +1095,7 @@
         },
         {
           "id": "cumin",
-          "name": "Cumin",
+          "name": "Cumin for chili/fajitas/tacos",
           "voila": {
             "url": "https://voila.ca/products/club-house-ground-cumin-90-g/503752EA",
             "type": "product"
@@ -1255,7 +1103,7 @@
         },
         {
           "id": "chilipowder",
-          "name": "Chili powder",
+          "name": "Chili powder for chili or tacos",
           "voila": {
             "url": "https://voila.ca/products/mccormick-gourmet-chili-powder-40-g/681670EA",
             "type": "product"
@@ -1263,7 +1111,7 @@
         },
         {
           "id": "currypaste",
-          "name": "Thai red curry paste",
+          "name": "Red curry paste 1 tbsp for shrimp",
           "voila": {
             "url": "https://voila.ca/products/thai-kitchen-curry-paste-red-112-g/519593EA",
             "type": "product"
@@ -1271,31 +1119,15 @@
         },
         {
           "id": "marinara",
-          "name": "Marinara sauce",
+          "name": "¾ cup marinara for penne",
           "voila": {
             "url": "https://voila.ca/products/compliments-marinara-sauce-sweet-basil-650-ml/404824EA",
             "type": "product"
           }
         },
         {
-          "id": "driedbasil",
-          "name": "Dried basil leaves (10 g)",
-          "voila": {
-            "url": "https://voila.ca/products/club-house-organic-basil-leaves-bag-10-g/666824EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "redpepperflakes",
-          "name": "Crushed red pepper flakes (28 g)",
-          "voila": {
-            "url": "https://voila.ca/products/les-aliments-g-dion-foods-gluten-free-chili-crushed-red-pepper-28-g/189810EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "salsa",
-          "name": "Salsa",
+          "name": "Salsa for fajitas/tacos, optional on potatoes",
           "voila": {
             "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA",
             "type": "product"
@@ -1303,7 +1135,7 @@
         },
         {
           "id": "honey",
-          "name": "Honey",
+          "name": "Honey 1 tsp for soba",
           "voila": {
             "url": "https://voila.ca/products/compliments-pure-natural-liquid-honey-500-g/289980EA",
             "type": "product"
@@ -1311,23 +1143,35 @@
         },
         {
           "id": "sesameoil",
-          "name": "Sesame oil",
+          "name": "Sesame oil for soba, beef or pork",
           "voila": {
             "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA",
             "type": "product"
           }
         },
         {
-          "id": "vinegar",
-          "name": "Apple cider vinegar",
+          "id": "driedbasil",
+          "name": "1 tsp dried basil for penne",
           "voila": {
-            "url": "https://voila.ca/products/compliments-vinegar-apple-cider-1-l/444863EA",
+            "url": "https://voila.ca/products/club-house-organic-basil-leaves-bag-10-g/666824EA",
             "type": "product"
           }
         },
         {
+          "id": "oregano",
+          "name": "Dried oregano for chicken"
+        },
+        {
+          "id": "salt",
+          "name": "Salt to taste, buy only if needed"
+        },
+        {
+          "id": "blackpepper",
+          "name": "Pepper to taste, buy only if needed"
+        },
+        {
           "id": "snacks",
-          "name": "Protein-rich snacks",
+          "name": "Protein-rich snacks according to targets",
           "voila": {
             "url": "https://voila.ca/categories/snacks-candy/WEB1100614",
             "type": "category"
@@ -1335,35 +1179,19 @@
         },
         {
           "id": "desserts",
-          "name": "Desserts of your choice",
+          "name": "Optional desserts according to goals",
           "voila": {
             "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
             "type": "category"
           }
-        },
-        {
-          "id": "oregano",
-          "name": "Dried oregano (or use dried basil)"
-        },
-        {
-          "id": "cocoa",
-          "name": "Unsweetened cocoa powder (optional with chocolate whey)"
-        },
-        {
-          "id": "salt",
-          "name": "Salt (check pantry)"
-        },
-        {
-          "id": "blackpepper",
-          "name": "Ground black pepper (check pantry)"
         }
       ]
     },
     {
-      "Protein & refrigerated": [
+      "Protein and refrigerated": [
         {
           "id": "chicken",
-          "name": "Chicken breasts or thighs (~1 kg)",
+          "name": "Boneless chicken: W1 450 g RAW (2 × 225 g) / W2 1,150 g RAW (4 × 225 g + 250 g)",
           "voila": {
             "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
             "type": "product"
@@ -1371,23 +1199,15 @@
         },
         {
           "id": "groundbeef",
-          "name": "Lean ground beef (~225 g)",
+          "name": "Lean ground beef: W1 225 g RAW / W2 450 g RAW (2 × 225 g)",
           "voila": {
             "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA",
             "type": "product"
           }
         },
         {
-          "id": "beefstrips",
-          "name": "Lean beef strips (~225 g)",
-          "voila": {
-            "url": "https://voila.ca/categories/meat-seafood/beef-veal/stew-cubes-and-strips/WEB3100863",
-            "type": "category"
-          }
-        },
-        {
           "id": "porkstrips",
-          "name": "Lean pork strips (~225 g)",
+          "name": "225 g RAW lean pork strips for udon",
           "voila": {
             "url": "https://voila.ca/products/stir-fry-pork-strips/453351KG",
             "type": "product"
@@ -1395,7 +1215,7 @@
         },
         {
           "id": "shrimp",
-          "name": "Compliments raw peeled deveined shrimp 340 g (1 bag/week; 2 bags/14 days)",
+          "name": "250 g RAW peeled shrimp per week (340 g bag per week is sufficient)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
@@ -1404,7 +1224,7 @@
         },
         {
           "id": "tuna",
-          "name": "Compliments canned light tuna 170 g (2 cans/week; 4 cans/14 days)",
+          "name": "Light canned tuna 170 g × 2 cans per week",
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
@@ -1413,17 +1233,17 @@
         },
         {
           "id": "whey",
-          "name": "Whey protein powder (3 Wednesday shakes)",
+          "name": "Whey for three Wednesday shakes",
           "voila": {
             "url": "https://voila.ca/categories/health-beauty/diet-fitness/protein-powders-shakes/WEB31035247",
             "type": "category"
           }
         }
       ],
-      "Produce & frozen": [
+      "Fruit, vegetables and frozen": [
         {
           "id": "cucumber",
-          "name": "Cucumbers (2)",
+          "name": "Cucumber: W1 1 (½ tuna, ½ chicken) / W2 2 (Mon and Thu)",
           "voila": {
             "url": "https://voila.ca/products/organic-english-cucumber-1-count/129818EA",
             "type": "product"
@@ -1431,63 +1251,31 @@
         },
         {
           "id": "tomatoes",
-          "name": "Tomatoes and cherry tomatoes",
+          "name": "Tomatoes: W1 ½ cup diced / W2 ~1¾ cups including cherry",
           "voila": {
             "url": "https://voila.ca/products/cherry-tomatoes-cameo-elite-1-pint/628257EA",
             "type": "product"
           }
         },
         {
-          "id": "pepper",
-          "name": "Bell peppers (2–3)",
-          "voila": {
-            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-vegetables/bell-peppers/WEB3100792",
-            "type": "category"
-          }
-        },
-        {
-          "id": "onion",
-          "name": "Onions (2)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-onions-yellow-1-36-kg/615526EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "broccoli",
-          "name": "Frozen broccoli florets (500 g)",
+          "name": "FROZEN broccoli: 1½ cups per week (one 500 g bag suffices)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
             "type": "product"
           }
         },
         {
-          "id": "mushroom",
-          "name": "Mushrooms",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-mushroom-white-sliced-washed-227-g/452211EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "cabbage",
-          "name": "Shredded cabbage",
+          "name": "1 cup BAGGED shredded cabbage for Friday",
           "voila": {
             "url": "https://voila.ca/products/compliments-salad-mix-coleslaw-397-g/655261EA",
             "type": "product"
           }
         },
         {
-          "id": "carrots",
-          "name": "Shredded carrots",
-          "voila": {
-            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-cut-fruits-vegetables/fresh-cut-vegetables/WEB39229849",
-            "type": "category"
-          }
-        },
-        {
           "id": "stirfryveg",
-          "name": "Compliments frozen Asian stir-fry vegetables 500 g (1 bag/week; 2 bags/14 days)",
+          "name": "FROZEN Asian vegetables: W1 2 cups / W2 4½ cups (~two 500 g bags)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -1496,7 +1284,7 @@
         },
         {
           "id": "spinach",
-          "name": "Spinach",
+          "name": "Baby spinach: 2 cups per week",
           "voila": {
             "url": "https://voila.ca/products/compliments-baby-spinach-312-g/370340EA",
             "type": "product"
@@ -1504,23 +1292,15 @@
         },
         {
           "id": "potatoes",
-          "name": "Same 2.27 kg bag REGULAR potatoes (350 g for chili + 250 g tuna salad)",
+          "name": "REGULAR potatoes RAW: W1 650 g (200 + 200 + 250); W2 450 g (200 + 250). ONE 2.27 kg bag covers both weeks.",
           "voila": {
             "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
             "type": "product"
           }
         },
         {
-          "id": "mango",
-          "name": "Mango",
-          "voila": {
-            "url": "https://voila.ca/products/ataulfo-mango-1-count/243393EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "lemons",
-          "name": "Lemons",
+          "name": "Lemon: about 1 per week",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/lemons/WEB3100780",
             "type": "category"
@@ -1528,91 +1308,45 @@
         },
         {
           "id": "limes",
-          "name": "Limes",
+          "name": "Limes: about 2 per week",
           "voila": {
             "url": "https://voila.ca/products/lime-1-count/7687EA",
             "type": "product"
           }
         },
         {
-          "id": "berries",
-          "name": "Frozen berries",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-jumbleberry-fruit-blend-600-g/43805EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "avocado",
-          "name": "Avocado",
+          "name": "1 avocado: ½ for Week 1 tuna; optional Week 2",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/avocados/WEB3100786",
             "type": "category"
           }
         },
         {
+          "id": "berries",
+          "name": "300 g FROZEN mixed berries for 3 shakes",
+          "voila": {
+            "url": "https://voila.ca/products/compliments-frozen-jumbleberry-fruit-blend-600-g/43805EA",
+            "type": "product"
+          }
+        },
+        {
           "id": "garlic",
-          "name": "Garlic",
+          "name": "Garlic for oregano chicken (or powdered)",
           "voila": {
             "url": "https://voila.ca/products/fresh-garlic-3-count/204613EA",
             "type": "product"
           }
         },
         {
-          "id": "ginger",
-          "name": "Fresh ginger",
-          "voila": {
-            "url": "https://voila.ca/products/ginger-root/8440KG",
-            "type": "product"
-          }
-        },
-        {
-          "id": "parsley",
-          "name": "Parsley",
-          "voila": {
-            "url": "https://voila.ca/products/parsley-italian-1-bunch/868246EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "greenonion",
-          "name": "Green onions (optional for chili potato)"
-        },
-        {
-          "id": "cilantro",
-          "name": "Fresh cilantro (optional garnish)"
+          "id": "frozenmango",
+          "name": "½ cup FROZEN mango chunks for Thursday"
         }
       ],
-      "Beans & staples": [
-        {
-          "id": "ricenoodles",
-          "name": "Blue Dragon FLAT PAD THAI RICE NOODLES 300 g (90 g for peanut chicken)",
-          "voila": {
-            "url": "https://voila.ca/products/blue-dragon-rice-noodles-pad-thai-300-g/887520EA",
-            "type": "product"
-          },
-          "searchName": "Blue Dragon Rice Noodles Pad Thai 300 g"
-        },
-        {
-          "id": "udon",
-          "name": "Six Fortune READY-TO-USE PLAIN UDON 200 g (for pork)",
-          "voila": {
-            "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
-            "type": "product"
-          },
-          "searchName": "Six Fortune Udon Noodles Plain 200 g"
-        },
-        {
-          "id": "oats",
-          "name": "Rolled oats",
-          "voila": {
-            "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
-            "type": "product"
-          }
-        },
+      "Beans and staples": [
         {
           "id": "blackbeans",
-          "name": "Black beans",
+          "name": "Black beans: W1 one 540 mL can for chili + ¾ cup fajitas = 2 cans; W2 ¾ cup for tacos",
           "voila": {
             "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA",
             "type": "product"
@@ -1620,7 +1354,7 @@
         },
         {
           "id": "whitebeans",
-          "name": "White beans",
+          "name": "¾ cup canned white beans for Monday",
           "voila": {
             "url": "https://voila.ca/products/unico-white-kidney-beans-540-ml/328658EA",
             "type": "product"
@@ -1628,7 +1362,7 @@
         },
         {
           "id": "chickpeas",
-          "name": "Chickpeas",
+          "name": "¾ cup canned chickpeas for Thursday",
           "voila": {
             "url": "https://voila.ca/products/unico-chickpeas-no-salt-added-540-ml/352549EA",
             "type": "product"
@@ -1636,7 +1370,7 @@
         },
         {
           "id": "corn",
-          "name": "Frozen whole-kernel sweet corn (750 g bag)",
+          "name": "1 cup FROZEN corn (½ tacos + ½ chicken potatoes)",
           "voila": {
             "url": "https://voila.ca/products/best-buy-frozen-whole-kernel-corn-750-g/408982EA",
             "type": "product"
@@ -1644,7 +1378,7 @@
         },
         {
           "id": "crushedtomatoes",
-          "name": "Canned crushed tomatoes",
+          "name": "Crushed tomatoes: W1 796 mL chili; W2 ¾ cup curry",
           "voila": {
             "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA",
             "type": "product"
@@ -1652,33 +1386,50 @@
         },
         {
           "id": "coconutmilk",
-          "name": "Light coconut milk",
+          "name": "Light coconut milk: W1 1 cup curry; W2 ½ cup curry (~400 mL total for two weeks)",
           "voila": {
             "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA",
             "type": "product"
           }
         },
         {
-          "id": "peanutbutter",
-          "name": "Peanut butter",
+          "id": "udon",
+          "name": "200 g READY-TO-USE udon: ONE full packet Sunday",
           "voila": {
-            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
+            "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
             "type": "product"
-          }
+          },
+          "searchName": "Six Fortune Udon Noodles Plain 200 g"
         },
         {
           "id": "oliveoil",
-          "name": "Olive oil",
+          "name": "Olive oil for batch cooking and dressings",
           "voila": {
             "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA",
             "type": "product"
           }
+        },
+        {
+          "id": "oats",
+          "name": "90 g rolled oats for 3 shakes",
+          "voila": {
+            "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
+            "type": "product"
+          }
+        },
+        {
+          "id": "peanutbutter",
+          "name": "Peanut butter for shakes and peanut chicken",
+          "voila": {
+            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
+            "type": "product"
+          }
         }
       ],
-      "Seasonings & extras": [
+      "Seasonings and extras": [
         {
           "id": "harissa",
-          "name": "Harissa paste",
+          "name": "Harissa paste 1 tbsp for Thu",
           "voila": {
             "url": "https://voila.ca/products/al-fez-paste-harissa-162-ml/33737EA",
             "type": "product"
@@ -1686,7 +1437,7 @@
         },
         {
           "id": "soysauce",
-          "name": "Soy sauce",
+          "name": "Soy sauce for sauces and marinades",
           "voila": {
             "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA",
             "type": "product"
@@ -1694,7 +1445,7 @@
         },
         {
           "id": "sweetchili",
-          "name": "Sweet chili sauce",
+          "name": "Sweet chili sauce for chicken and pork",
           "voila": {
             "url": "https://voila.ca/products/kim-phat-chili-sauce-sweet-298-ml/336218EA",
             "type": "product"
@@ -1702,7 +1453,7 @@
         },
         {
           "id": "currypowder",
-          "name": "Curry powder",
+          "name": "Curry powder 1 tsp for Sat",
           "voila": {
             "url": "https://voila.ca/products/club-house-curry-powder-110-g/503753EA",
             "type": "product"
@@ -1710,7 +1461,7 @@
         },
         {
           "id": "garammasala",
-          "name": "Garam masala",
+          "name": "Garam masala ½ tsp for Sat",
           "voila": {
             "url": "https://voila.ca/products/national-garam-masala-powder-50-g/423888EA",
             "type": "product"
@@ -1718,7 +1469,7 @@
         },
         {
           "id": "chilipowder",
-          "name": "Chili powder",
+          "name": "Chili powder for chili or tacos",
           "voila": {
             "url": "https://voila.ca/products/mccormick-gourmet-chili-powder-40-g/681670EA",
             "type": "product"
@@ -1726,7 +1477,7 @@
         },
         {
           "id": "cumin",
-          "name": "Cumin",
+          "name": "Cumin for chili/fajitas/tacos",
           "voila": {
             "url": "https://voila.ca/products/club-house-ground-cumin-90-g/503752EA",
             "type": "product"
@@ -1734,7 +1485,7 @@
         },
         {
           "id": "paprika",
-          "name": "Smoked paprika",
+          "name": "Smoked paprika for chili/fajitas/tacos",
           "voila": {
             "url": "https://voila.ca/products/mccormick-smoked-paprika-46-g/164655EA",
             "type": "product"
@@ -1742,39 +1493,43 @@
         },
         {
           "id": "sesameoil",
-          "name": "Sesame oil",
+          "name": "Sesame oil for soba, beef or pork",
           "voila": {
             "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA",
             "type": "product"
           }
         },
         {
-          "id": "sesameseeds",
-          "name": "Sesame seeds",
+          "id": "maple",
+          "name": "Maple syrup: W1 2 tsp salmon; W2 1 tsp beef",
           "voila": {
-            "url": "https://voila.ca/products/compliments-sesame-seeds-145-g/446178EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "hotsauce",
-          "name": "Hot sauce",
-          "voila": {
-            "url": "https://voila.ca/products/frank-s-red-hot-sauce-original-354-ml/915035EA",
+            "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA",
             "type": "product"
           }
         },
         {
           "id": "salsa",
-          "name": "Salsa",
+          "name": "Salsa for fajitas/tacos, optional on potatoes",
           "voila": {
             "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA",
             "type": "product"
           }
         },
         {
+          "id": "oregano",
+          "name": "Dried oregano for chicken"
+        },
+        {
+          "id": "salt",
+          "name": "Salt to taste, buy only if needed"
+        },
+        {
+          "id": "blackpepper",
+          "name": "Pepper to taste, buy only if needed"
+        },
+        {
           "id": "snacks",
-          "name": "Protein-rich snacks",
+          "name": "Protein-rich snacks according to targets",
           "voila": {
             "url": "https://voila.ca/categories/snacks-candy/WEB1100614",
             "type": "category"
@@ -1782,120 +1537,154 @@
         },
         {
           "id": "desserts",
-          "name": "Desserts of your choice",
+          "name": "Optional desserts according to goals",
           "voila": {
             "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
             "type": "category"
           }
-        },
-        {
-          "id": "oregano",
-          "name": "Dried oregano (or use dried basil)"
-        },
-        {
-          "id": "cinnamon",
-          "name": "Ground cinnamon (optional)"
-        },
-        {
-          "id": "salt",
-          "name": "Salt (check pantry)"
-        },
-        {
-          "id": "blackpepper",
-          "name": "Ground black pepper (check pantry)"
         }
       ]
     }
   ],
-  "shopping_note": "Rice and quinoa are already in your pantry. Use your rice cooker for any recipe calling for cooked rice. Reheat refrigerated rice thoroughly; refrigerate promptly after cooking.",
+  "shopping_note": "Shopping rebuilt for Sunday batch v3: per-week amounts; rice already in pantry; check purchases on hand.",
   "shopping_optimization": {
     "buy_once_ids": [
+      "chicken",
       "groundbeef",
-      "groundturkey",
       "shrimp",
       "tuna",
-      "meatballsangus",
       "whey",
-      "onion",
+      "cucumber",
+      "tomatoes",
       "broccoli",
-      "greenbeans",
+      "spinach",
       "potatoes",
+      "lemons",
+      "limes",
+      "avocado",
       "stirfryveg",
-      "pasta",
-      "noodles",
       "oats",
       "blackbeans",
       "crushedtomatoes",
-      "corn",
       "coconutmilk",
-      "peanutbutter",
       "oliveoil",
+      "peanutbutter",
       "soysauce",
-      "sriracha",
-      "dijon",
       "maple",
       "paprika",
       "cumin",
       "chilipowder",
-      "currypaste",
-      "marinara",
       "salsa",
-      "honey",
       "sesameoil",
-      "vinegar",
-      "ricenoodles",
-      "udon",
-      "whitebeans",
-      "chickpeas",
-      "harissa",
-      "sweetchili",
-      "currypowder",
-      "garammasala",
-      "sesameseeds",
-      "hotsauce",
-      "berries",
-      "redpepperflakes",
-      "driedbasil",
       "oregano",
-      "cocoa",
-      "cinnamon",
       "salt",
-      "blackpepper"
+      "blackpepper",
+      "snacks",
+      "desserts"
     ],
     "hints": {
-      "groundbeef": "1 × 454 g package covers the 225 g meals in Weeks 1 and 2. Freeze half for Week 2.",
-      "groundturkey": "Chili needs 600 g RAW turkey. Voilà product comes in 450 g packs: BUY TWO, use 600 g and freeze 300 g.",
-      "shrimp": "Two 250 g RAW shrimp recipes = 500 g total. The Voilà product is a 340 g bag: BUY TWO, thaw only the portions you need.",
-      "tuna": "Each tuna recipe uses two 170 g cans: BUY FOUR cans over 14 days.",
-      "whey": "9 scoops in total for six shakes across both Wednesdays; check how much you already have.",
-      "onion": "One 1.36 kg bag should cover both weeks; store cool and dry.",
-      "broccoli": "One 500 g bag should cover the two broccoli meals; check actual bag weight versus cup portions.",
-      "greenbeans": "One 750 g bag for the salmon meal; keep leftovers frozen.",
-      "potatoes": "ONE 2.27 kg bag of REGULAR potatoes covers 14 days. W1: 300 g lemon chicken + 300 g salmon (cut 2 cm cubes). W2: 350 g chili potato + 250 g tuna salad. Total 1.2 kg. NO baby potatoes needed.",
-      "stirfryveg": "Voilà product is a 500 g bag. Plan on two bags for the two recipes (one each week).",
-      "oats": "180 g total for six shakes. One 1 kg bag lasts several rotations.",
-      "blackbeans": "About 2 × 540 mL cans across chili and the two bean bowls. Freeze the Week 2 portion after opening.",
-      "crushedtomatoes": "Week 1 needs 796 mL; Week 2 needs about ¾ cup. Buy a smaller second can if available, or freeze the extra from a second large can.",
-      "corn": "Only 1 cup total across both weeks; one 750 g bag lasts multiple rotations.",
-      "coconutmilk": "One 400 mL can is roughly enough for both curries (1½ cups total); freeze the Week 2 portion promptly.",
-      "peanutbutter": "Also works for Week 2's shakes; no need to buy almond butter.",
-      "berries": "Week 2 needs about 300 g for three berry shakes; one 600 g bag is more than enough.",
-      "pasta": "One 410 g penne package; the recipe needs 90 g.",
-      "noodles": "The 250 g pack has THREE tied bundles (~83 g each). For one ginger-beef meal, cook ONE bundle, keep the other two dry. Do NOT cook all 250 g. Penne are for meatballs.",
-      "ricenoodles": "One 300 g rice-noodle package; the recipe needs 90 g.",
-      "udon": "One 200 g package for the Week 2 pork dish.",
-      "redpepperflakes": "About ¼ tsp for meatball pasta; a small bag lasts several rotations.",
-      "driedbasil": "About 1 tsp for meatball pasta; a small bag lasts several rotations.",
-      "oregano": "For lemon chicken and chicken-potato bowl. If absent, dried basil or an Italian herb blend works.",
-      "cocoa": "For Week 1 chocolate-banana shakes; optional if your whey is already chocolate-flavored.",
-      "cinnamon": "Only for Week 2 berry shakes; omit if you don't have any.",
-      "salt": "For seasoning to taste; only buy if you're out.",
-      "blackpepper": "For seasoning to taste; only buy if you're out.",
-      "meatballsangus": "Exact product: one 680 g bag; use 150 g for penne and keep the rest frozen. NOT Long Phung (216 g, deliberately springy texture). Regular version has 14 g fat per 60 g and no listed cheese; tenderness is subjective."
+      "chicken": "Used in both weeks: consider both quantities and what you already own.",
+      "groundbeef": "Used in both weeks: consider both quantities and what you already own.",
+      "shrimp": "Used in both weeks: consider both quantities and what you already own.",
+      "tuna": "Used in both weeks: consider both quantities and what you already own.",
+      "whey": "Used in both weeks: consider both quantities and what you already own.",
+      "cucumber": "Used in both weeks: consider both quantities and what you already own.",
+      "tomatoes": "Used in both weeks: consider both quantities and what you already own.",
+      "broccoli": "Used in both weeks: consider both quantities and what you already own.",
+      "spinach": "Used in both weeks: consider both quantities and what you already own.",
+      "potatoes": "Used in both weeks: consider both quantities and what you already own.",
+      "lemons": "Used in both weeks: consider both quantities and what you already own.",
+      "limes": "Used in both weeks: consider both quantities and what you already own.",
+      "avocado": "Used in both weeks: consider both quantities and what you already own.",
+      "stirfryveg": "Used in both weeks: consider both quantities and what you already own.",
+      "oats": "Used in both weeks: consider both quantities and what you already own.",
+      "blackbeans": "Used in both weeks: consider both quantities and what you already own.",
+      "crushedtomatoes": "Used in both weeks: consider both quantities and what you already own.",
+      "coconutmilk": "Used in both weeks: consider both quantities and what you already own.",
+      "oliveoil": "Used in both weeks: consider both quantities and what you already own.",
+      "peanutbutter": "Used in both weeks: consider both quantities and what you already own.",
+      "soysauce": "Used in both weeks: consider both quantities and what you already own.",
+      "maple": "Used in both weeks: consider both quantities and what you already own.",
+      "paprika": "Used in both weeks: consider both quantities and what you already own.",
+      "cumin": "Used in both weeks: consider both quantities and what you already own.",
+      "chilipowder": "Used in both weeks: consider both quantities and what you already own.",
+      "salsa": "Used in both weeks: consider both quantities and what you already own.",
+      "sesameoil": "Used in both weeks: consider both quantities and what you already own.",
+      "oregano": "Used in both weeks: consider both quantities and what you already own.",
+      "salt": "Used in both weeks: consider both quantities and what you already own.",
+      "blackpepper": "Used in both weeks: consider both quantities and what you already own.",
+      "snacks": "Used in both weeks: consider both quantities and what you already own.",
+      "desserts": "Used in both weeks: consider both quantities and what you already own."
     }
-  }
+  },
+  "batch_prep": [
+    {
+      "title": "Sunday prep — Week 1",
+      "active": "45–60 min hands-on",
+      "elapsed": "90–120 min elapsed (including packing)",
+      "intro": "Batch once before Week 1. The two weeks can be started in either order. Freeze every Thu–Sun cooked portion on prep day.",
+      "equipment": "Oven, Ninja dual-basket air fryer, rice cooker, large pot, skillet, shallow labelled meal containers.",
+      "steps": [
+        "LABEL containers first: MON tuna/rice, MON beef/soba, TUE lemon chicken/potato, TUE chili/rice, THU fajita chicken/rice, THU salmon/potato, FRI penne/meatballs, FRI chili/potato, SAT pork/sweet potato, SUN shrimp curry/rice. Add one extra chili container marked SPARE.",
+        "RICE COOKER: measure exactly 1⅔ STANDARD measuring cups (~300 g) of DRY rice. Add water per rice package and cook (not 1⅔ rice-cooker scoops). After cooking, divide approximately 5 cups: MON tuna 1½; TUE chili 1; THU fajitas 1; SUN shrimp curry 1½.",
+        "NINJA: cut 650 g REGULAR raw potatoes into 2–2.5 cm cubes. AIR FRY at 200°C for 22–25 min with about 5 tsp olive oil total, shake halfway. Divide by INITIAL RAW weight: TUE 200 g, THU 200 g, FRI 250 g. Other basket: 250 g raw diced sweet potato + 1 tsp oil, AIR FRY 200°C for ~18–23 min. Optional soaking adds 20 min; dry very well.",
+        "OVEN 200°C / 400°F: cook 450 g RAW chicken until 74°C / 165°F, about 20–25 min; split evenly into TWO cooked portions equivalent to 225 g raw each. On separate trays cook 225 g salmon with 1 tbsp Dijon + 2 tsp maple (about 12–15 min, 63°C / 145°F) and 225 g boneless pork to 63°C / 145°F followed by 3-min rest. Timing depends on thickness; pull each tray when ready.",
+        "FAJITA VEGETABLES: cook 1 sliced pepper + ½ onion with smoked paprika and cumin on an oven tray or in skillet; pack with THU chicken. TUE chicken stays plain; add lemon-Dijon dressing when serving.",
+        "CHILI: brown 600 g RAW lean ground turkey in large pot to 74°C / 165°F; add 1 can 796 mL crushed tomatoes, 1 can 540 mL black beans (rinsed), 1 diced bell pepper, ½ diced onion, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika. Simmer about 20 min. Divide FINISHED chili evenly into 3 containers: TUE dinner, FRI dinner, spare freezer portion. Optional slow cooker after browning: HIGH ~3–4 h (longer elapsed time).",
+        "BEEF/SOBA: brown 225 g RAW lean ground beef to 71°C / 160°F. Boil ONE tied bundle (~83 g DRY) of Blue Dragon soba, NOT the 250 g packet. Cook 1½ cups frozen broccoli. Toss together with 1 tbsp soy, 1 tsp honey, 1 tsp sesame oil and ½ tsp ginger; pack MON dinner.",
+        "PENNE/MEATBALLS: boil 90 g DRY penne. Heat 150 g fully cooked frozen Angus meatballs in ¾ cup marinara with 2 cups baby spinach and 1 tsp basil. Combine, pack FRI lunch.",
+        "SHRIMP CURRY: simmer 1 cup light coconut milk + 1 tbsp red curry paste + 2 cups FROZEN Asian vegetables. Add 250 g thawed RAW peeled shrimp; cook to 74°C / 165°F. Pack SUN curry beside its measured 1½ cups cooked rice.",
+        "COOL / STORE: refrigerate MON and TUE meals promptly; freeze all THU–SUN labelled portions and chili spare on Sunday. Keep fresh vegetables/cans unopened until serving. Move a frozen portion into the refrigerator the EVENING BEFORE its day."
+      ],
+      "portions": [
+        "RICE: 5 cups cooked = 1½ MON tuna + 1 TUE chili + 1 THU fajitas + 1½ SUN curry.",
+        "CHICKEN: 450 g raw = 2 portions (TUE lemon, THU fajitas), each equivalent to 225 g raw.",
+        "TURKEY CHILI: 600 g raw turkey yields 3 equal cooked servings (TUE, FRI, spare).",
+        "POTATOES: 650 g raw = 200 TUE + 200 THU + 250 FRI; SWEET POTATO 250 g SAT.",
+        "OTHER: beef 225 g + ONE soba bundle MON; salmon 225 g THU; meatballs 150 g + penne 90 g FRI; pork 225 g SAT; shrimp 250 g SUN."
+      ],
+      "storage": [
+        "MON/TUE cooked meals at or below 4°C in fridge; later meals at -18°C in freezer until the day before.",
+        "Chill rice and cooked proteins rapidly in shallow containers and refrigerate/freeze within two hours.",
+        "Use refrigerated leftovers within 2–3 days; reheat leftovers only once to 74°C / 165°F throughout (stir halfway).",
+        "If thawing takes longer, use fridge earlier; do not leave food on the counter. Day-of fresh cucumber/avocado/tomatoes are not frozen."
+      ]
+    },
+    {
+      "title": "Sunday prep — Week 2",
+      "active": "40–55 min hands-on",
+      "elapsed": "75–105 min elapsed (including packing)",
+      "intro": "Week 2 is INDEPENDENT of Week 1: no chili leftovers are required. Everything hot is cooked here, not on weekday evenings.",
+      "equipment": "Oven, Ninja dual-basket air fryer, rice cooker, skillet, shallow labelled meal containers.",
+      "steps": [
+        "LABEL MON tuna/potato; MON lemon chicken/rice; TUE peanut chicken/rice; TUE taco beef/rice; THU shrimp/rice; THU harissa chicken; FRI sweet-chili chicken/potato; FRI Korean beef/rice; SAT tomato–coconut chicken/rice; SUN sesame pork. Mark THU–SUN FREEZE.",
+        "RICE COOKER: measure exactly 2⅔ STANDARD cups (~480 g) DRY rice, add package-recommended water, cook. Yield ~8 cups COOKED. Measure: MON chicken 1½; TUE peanut chicken 1; TUE taco beef 1; THU shrimp 1½; FRI Korean beef 1½; SAT curry 1½.",
+        "NINJA: dice 450 g REGULAR RAW potatoes. Toss with ~3 tsp olive oil. AIR FRY 200°C 22–25 min, shake halfway. Portion MON 200 g and FRI 250 g by initial RAW weight.",
+        "OVEN 200°C / 400°F: roast 1,150 g RAW chicken to 74°C / 165°F (~20–30 min depending on thickness), then split into 5 labelled cooked portions corresponding to RAW weights: MON 225 g oregano, TUE 225 g peanut, THU 225 g harissa, FRI 225 g sweet-chili potato, SAT 250 g curry. Roast 225 g pork strips separately to 63°C / 145°F and rest 3 min.",
+        "BEEF: brown 450 g RAW lean ground beef to 71°C / 160°F. Split into TWO equal cooked portions: TUE tacos (½ tsp chili powder, ¼ tsp cumin, ¼ tsp smoked paprika), FRI Korean (1 tbsp soy, 1 tsp maple, 1 tsp sesame oil).",
+        "SHRIMP: cook 250 g RAW peeled, thawed shrimp until 74°C / 165°F; pack and freeze for THU mango rice bowl. Frozen mango is thawed overnight before serving, NOT cooked with shrimp.",
+        "CHICKEN FLAVOURS: add oregano/garlic to MON chicken, leave TUE peanut chicken plain (1-minute sauce Tuesday), coat THU chicken with 1 tbsp harissa and 2 tsp olive oil, leave FRI potato chicken plain (sweet chili added at serving).",
+        "SAT CURRY: simmer ¾ cup crushed tomatoes + ½ cup light coconut milk + 2 cups baby spinach + 1 tsp curry powder + ½ tsp garam masala. Add the SAT cooked chicken portion (250 g RAW-equivalent); cool and freeze with its rice.",
+        "SUN PORK: add 1 tbsp soy, 1 tbsp sweet chili and 1 tsp sesame oil to the cooked pork. Keep ONE 200 g READY-TO-USE udon packet unopened and 2 cups frozen Asian vegetables frozen for Sunday.",
+        "COOL / STORE: refrigerate MON/TUE meals, freeze THU–SUN cooked portions on prep day. Move frozen food into fridge the night before. Cans of tuna/beans, fresh produce, bagged cabbage, and udon stay in their proper packaging until use."
+      ],
+      "portions": [
+        "RICE: 8 cups cooked = 1½ MON oregano + 1 TUE peanut + 1 TUE tacos + 1½ THU shrimp + 1½ FRI beef + 1½ SAT curry.",
+        "CHICKEN: 1,150 g raw = four 225 g portions (Mon, Tue, Thu, Fri) plus one 250 g portion (Sat).",
+        "BEEF: 450 g raw = two portions of 225 g (Tue taco, Fri Korean). PORK: 225 g raw for Sun. SHRIMP: 250 g raw for Thu.",
+        "POTATOES: 450 g raw = 200 MON tuna + 250 FRI chicken. UDON: ONE ready-to-use 200 g packet SUN.",
+        "FRESH/READY FOOD: tuna/white beans MON; mango + cucumber THU; shredded cabbage FRI."
+      ],
+      "storage": [
+        "MON/TUE refrigerated at 4°C or lower; THU–SUN frozen Sunday at -18°C.",
+        "Transfer frozen portions to fridge the evening before the day; never thaw cooked meals on counter.",
+        "Cool rice/proteins quickly in shallow containers; refrigerate or freeze within two hours. Reheat leftovers once to 74°C / 165°F.",
+        "Total time is 75–105 min Sunday, but serving-day microwave/assembly tasks are designed for 5–8 min."
+      ]
+    }
+  ]
 }</script><script>
-(()=>{'use strict';let P=JSON.parse(document.getElementById('plan-data').textContent);const P_EN=P;const $=id=>document.getElementById(id);const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));let week=0,day=0,shopWeek=0,section='plan';const dayNames=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];const getDay=()=>P.weeks[week][day];const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};const load=(k,d)=>{try{let v=localStorage.getItem(k);return v?JSON.parse(v):d}catch{return d}};let lang='en',FR=null;const tr=(en,fr)=>lang==='fr'?fr:en;const toast=msg=>{const el=$('toast');el.textContent=msg;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2100)};
+(()=>{'use strict';let P=JSON.parse(document.getElementById('plan-data').textContent);const P_EN=P;const $=id=>document.getElementById(id);const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));let week=0,day=0,shopWeek=0,prepWeek=0,section='plan';const dayNames=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];const getDay=()=>P.weeks[week][day];const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};const load=(k,d)=>{try{let v=localStorage.getItem(k);return v?JSON.parse(v):d}catch{return d}};let lang='en',FR=null;const tr=(en,fr)=>lang==='fr'?fr:en;const toast=msg=>{const el=$('toast');el.textContent=msg;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2100)};
 function showSection(name){section=name;document.querySelectorAll('.section').forEach(x=>x.classList.toggle('hidden',x.id!==name));document.querySelectorAll('[data-nav]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.nav===name)));if(location.hash.indexOf('w')<0)history.replaceState(null,'','#'+name)}
 const fmtNum=n=>Math.round(n).toLocaleString(lang==='fr'?'fr-CA':'en-CA');
 const fmtRange=r=>r.map(fmtNum).join('–');
@@ -1916,9 +1705,25 @@ function nutritionPreview(r){
  const f=n.fat_range_g?fmtRange(n.fat_range_g):n.fat_g;
  return '<span class="macroPreview">≈ '+(n.calories_range?fmtRange(n.calories_range):fmtNum(n.calories))+' kcal '+(n.basis==='per_shake'?tr('/ shake','/ shake'):tr('/ serving','/ portion'))+' · P '+p+'g · C '+c+'g · F '+f+'g</span>';
 }
-function recipeCard(id,label){const r=P.recipes[id];return `<article class="mealcard"><header><div class="eyebrow">${label}</div><h3>${escapeHtml(r.title)}</h3><div class="details">⏱ ${r.minutes?`${r.minutes} min`:tr('Restaurant','Restaurant')} · ${r.servings} ${r.servings===1?tr('serving','portion'):tr('servings','portions')}</div>${nutritionMarkup(r)}</header><div class="content">${r.before?`<div class="recipe-before"><strong>${tr('Before you start','Avant de commencer')}</strong><p>${escapeHtml(r.before)}</p></div>`:'' }<h4>${tr('What you need','Ingrédients')}</h4><ul class="ingredients">${r.ingredients.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h4>${tr('Make it','Préparation')}</h4><ol class="steps">${r.steps.map(s=>`<li>${escapeHtml(s)}</li>`).join('')}</ol>${r.tip?`<div class="tip">✦ ${escapeHtml(r.tip)}</div>`:''}</div></article>`}
-function renderPlan(){document.querySelectorAll('[data-week]').forEach(x=>x.setAttribute('aria-pressed',String(+x.dataset.week===week)));$('dayTabs').innerHTML=P.weeks[week].map((d,i)=>`<button class="day" data-day="${i}" aria-pressed="${i===day}" aria-label="${d.day}"><small>${d.day.slice(0,3)}</small><strong>${d.day}</strong><em>${i===2?tr('Shake day','Journée shakes'):i>4?tr('Restaurant AM','Déjeuner au resto'):tr('2 meals','2 repas')}</em></button>`).join('');document.querySelectorAll('[data-day]').forEach(x=>x.onclick=()=>{day=+x.dataset.day;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});const d=getDay();$('dayKicker').textContent=`${tr('WEEK','SEMAINE')} ${week+1} · ${d.day.toUpperCase()}`;$('dayTitle').textContent=d.subtitle;$('dayDescription').textContent=day===2?tr('A semi-fast day with three filling, water-based protein shakes.','Une journée de semi-jeûne avec trois shakes protéinés rassasiants à base d’eau.'):day>4?tr('Your usual restaurant breakfast stays in the plan.','Ton déjeuner habituel au restaurant est conservé.'):tr('Two distinct, flavour-forward meals with simple preparation.','Deux repas différents, savoureux et faciles à préparer.');$('dayBadge').textContent=day===2?tr('3 shakes','3 shakes'):day>4?tr('Restaurant AM','Déjeuner au resto'):tr('2 meals','2 repas');$('mealGrid').style.gridTemplateColumns=day===2?'1fr':'';$('mealGrid').innerHTML=day===2?recipeCard(d.dinner,tr('ALL DAY · THREE SHAKES','TOUTE LA JOURNÉE · TROIS SHAKES')):recipeCard(d.lunch,day>4?tr('FIRST MEAL · RESTAURANT','PREMIER REPAS · RESTAURANT'):tr('LUNCH','DÎNER'))+recipeCard(d.dinner,tr('DINNER','SOUPER'));$('dailyNote').innerHTML=day===2?tr('<strong>Wednesday:</strong> Three shakes are roughly 1,250–1,450 kcal depending on your whey. This is not nutritionally complete; it is optional if hunger or training suffers.','<strong>Mercredi :</strong> Les trois shakes fournissent environ 1 250 à 1 450 kcal selon la whey. Ce menu liquide n’est pas complet sur le plan nutritionnel; il est facultatif si la faim ou l’entraînement en souffrent.'):day>4?tr('<strong>Weekend:</strong> Your restaurant breakfast could be 850–1,100+ kcal depending on preparation. Balance the rest of the day with your dinner and, if needed, a protein-rich snack.','<strong>Week-end :</strong> Le déjeuner au restaurant peut représenter de 850 à plus de 1 100 kcal selon la préparation. Ajuster le souper et ajouter une collation protéinée au besoin.'):tr('<strong>Daily target:</strong> These are meal recipes, not guaranteed daily totals. Add a protein-rich snack and optionally 150–200 kcal dessert; adjust rice, oil and protein portions using package labels.','<strong>Objectif du jour :</strong> Ces recettes ne garantissent pas le total calorique de la journée. Ajouter une collation protéinée et, au choix, un dessert de 150 à 200 kcal; ajuster les portions de riz, d’huile et de protéines selon les étiquettes.')}
-function jumpToday(){const local=new Date(),anchor=new Date('2026-11-16T12:00:00'),now=new Date(local.getFullYear(),local.getMonth(),local.getDate(),12);const diff=Math.floor((now-anchor)/86400000),dayIndex=((diff%7)+7)%7,weekIndex=((Math.floor(diff/7)%2)+2)%2;week=weekIndex;day=dayIndex;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`);showSection('plan')}
+function recipeCard(id,label){const r=P.recipes[id];return `<article class="mealcard"><header><div class="eyebrow">${label}</div><h3>${escapeHtml(r.title)}</h3><div class="details">⏱ ${r.minutes?`${r.minutes} min${r.batch_ready?' '+tr('(after Sunday prep)','(après le batch)'):''}`:tr('Restaurant','Restaurant')} · ${r.servings} ${r.servings===1?tr('serving','portion'):tr('servings','portions')}</div>${nutritionMarkup(r)}</header><div class="content">${r.before?`<div class="recipe-before"><strong>${tr('Before you start','Avant de commencer')}</strong><p>${escapeHtml(r.before)}</p></div>`:'' }<h4>${tr('What you need','Ingrédients')}</h4><ul class="ingredients">${r.ingredients.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h4>${tr('Make it','Préparation')}</h4><ol class="steps">${r.steps.map(s=>`<li>${escapeHtml(s)}</li>`).join('')}</ol>${r.tip?`<div class="tip">✦ ${escapeHtml(r.tip)}</div>`:''}</div></article>`}
+
+function prepKey(w){return 'sunday-prep-checks-v3-week-'+w}
+function renderPrep(){
+ const p=P.batch_prep?.[prepWeek];if(!p)return;
+ document.querySelectorAll('[data-prepweek]').forEach(el=>el.setAttribute('aria-pressed',String(+el.dataset.prepweek===prepWeek)));
+ const done=load(prepKey(prepWeek),{}),count=p.steps.filter((_,i)=>!!done[i]).length;
+ $('prepSummary').innerHTML='<h3 class="batchsummarytitle">'+escapeHtml(p.title)+'</h3><div class="batchstats"><span class="batchstat">⏱ '+escapeHtml(p.active)+'</span><span class="batchstat">⌛ '+escapeHtml(p.elapsed)+'</span></div><p class="batchhint">'+escapeHtml(p.intro)+'</p><p class="batchhint">⚙ '+escapeHtml(p.equipment)+'</p>';
+ $('prepStepsHeading').textContent=tr('Preparation checklist','Liste de préparation');
+ $('prepPortionTitle').textContent=tr('Exact portion breakdown','Répartition précise des portions');
+ $('prepStorageTitle').textContent=tr('Food storage','Frigo et congélateur');
+ $('prepSteps').innerHTML='<p class="batchprogress">'+count+' / '+p.steps.length+' '+tr('steps complete','étapes terminées')+'</p>'+p.steps.map((s,i)=>'<label class="batchstep"><input type="checkbox" data-prepstep="'+i+'" '+(done[i]?'checked':'')+' aria-label="'+tr('Step ','Étape ')+(i+1)+'"><span><strong>'+(i+1)+'.</strong> '+escapeHtml(s)+'</span></label>').join('');
+ $('prepPortions').innerHTML=p.portions.map(s=>'<li>'+escapeHtml(s)+'</li>').join('');
+ $('prepStorage').innerHTML=p.storage.map(s=>'<li>'+escapeHtml(s)+'</li>').join('');
+ document.querySelectorAll('[data-prepstep]').forEach(el=>el.onchange=()=>{const state=load(prepKey(prepWeek),{});state[el.dataset.prepstep]=el.checked;save(prepKey(prepWeek),state);renderPrep()});
+}
+
+function renderPlan(){document.querySelectorAll('[data-week]').forEach(x=>x.setAttribute('aria-pressed',String(+x.dataset.week===week)));$('dayTabs').innerHTML=P.weeks[week].map((d,i)=>`<button class="day" data-day="${i}" aria-pressed="${i===day}" aria-label="${d.day}"><small>${d.day.slice(0,3)}</small><strong>${d.day}</strong><em>${i===2?tr('Shake day','Journée shakes'):i>4?tr('Restaurant AM','Déjeuner au resto'):tr('2 meals','2 repas')}</em></button>`).join('');document.querySelectorAll('[data-day]').forEach(x=>x.onclick=()=>{day=+x.dataset.day;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});const d=getDay();$('dayKicker').textContent=`${tr('WEEK','SEMAINE')} ${week+1} · ${d.day.toUpperCase()}`;$('dayTitle').textContent=d.subtitle;$('dayDescription').textContent=day===2?tr('A semi-fast day with three filling, water-based protein shakes.','Une journée de semi-jeûne avec trois shakes protéinés rassasiants à base d’eau.'):day>4?tr('Your usual restaurant breakfast stays in the plan.','Ton déjeuner habituel au restaurant est conservé.'):tr('Sunday batch done? Heat or assemble in 5–10 minutes.','Batch du dimanche terminé? Réchauffer ou assembler en 5 à 10 minutes.');$('dayBadge').textContent=day===2?tr('3 shakes','3 shakes'):day>4?tr('Restaurant AM','Déjeuner au resto'):tr('2 meals','2 repas');$('mealGrid').style.gridTemplateColumns=day===2?'1fr':'';$('mealGrid').innerHTML=day===2?recipeCard(d.dinner,tr('ALL DAY · THREE SHAKES','TOUTE LA JOURNÉE · TROIS SHAKES')):recipeCard(d.lunch,day>4?tr('FIRST MEAL · RESTAURANT','PREMIER REPAS · RESTAURANT'):tr('LUNCH','DÎNER'))+recipeCard(d.dinner,tr('DINNER','SOUPER'));$('dailyNote').innerHTML=day===2?tr('<strong>Wednesday:</strong> Three shakes are roughly 1,250–1,450 kcal depending on your whey. This is not nutritionally complete; it is optional if hunger or training suffers.','<strong>Mercredi :</strong> Les trois shakes fournissent environ 1 250 à 1 450 kcal selon la whey. Ce menu liquide n’est pas complet sur le plan nutritionnel; il est facultatif si la faim ou l’entraînement en souffrent.'):day>4?tr('<strong>Weekend:</strong> Your restaurant breakfast could be 850–1,100+ kcal depending on preparation. Balance the rest of the day with your dinner and, if needed, a protein-rich snack.','<strong>Week-end :</strong> Le déjeuner au restaurant peut représenter de 850 à plus de 1 100 kcal selon la préparation. Ajuster le souper et ajouter une collation protéinée au besoin.'):tr('<strong>Daily target:</strong> These are meal recipes, not guaranteed daily totals. Add a protein-rich snack and optionally 150–200 kcal dessert; adjust rice, oil and protein portions using package labels.','<strong>Objectif du jour :</strong> Ces recettes ne garantissent pas le total calorique de la journée. Ajouter une collation protéinée et, au choix, un dessert de 150 à 200 kcal; ajuster les portions de riz, d’huile et de protéines selon les étiquettes.')}
+function jumpToday(){day=0;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`);showSection('plan')}
 let shopping=P.shopping;const shoppingEN=P_EN.shopping;
 const LEGACY_GROCERY_KEYS=[{"chicken":"cat0item0","groundbeef":"cat0item1","groundturkey":"cat0item2","salmon":"cat0item3","porkchop":"cat0item4","shrimp":"cat0item5","tuna":"cat0item6","meatballs":"cat0item7","whey":"cat0item8","pepper":"cat1item0","onion":"cat1item1","cucumber":"cat1item2","tomatoes":"cat1item3","broccoli":"cat1item4","greenbeans":"cat1item4","cabbage":"cat1item5","spinach":"cat1item6","potatoes":"cat1item7","sweetpotato":"cat1item7","lemons":"cat1item8","limes":"cat1item8","avocado":"cat1item9","bananas":"cat1item9","stirfryveg":"cat1item10","garlic":"cat1item11","ginger":"cat1item11","pasta":"cat2item1","noodles":"cat2item1","oats":"cat2item2","blackbeans":"cat2item3","crushedtomatoes":"cat2item4","corn":"cat2item5","coconutmilk":"cat2item6","peanutbutter":"cat2item7","oliveoil":"cat2item8","soysauce":"cat3item0","sriracha":"cat3item0","dijon":"cat3item1","maple":"cat3item1","paprika":"cat3item2","cumin":"cat3item2","chilipowder":"cat3item2","currypaste":"cat3item3","marinara":"cat3item4","salsa":"cat3item4","honey":"cat3item5","sesameoil":"cat3item5","vinegar":"cat3item6","snacks":"cat3item7","desserts":"cat3item7"},{"chicken":"cat0item0","groundbeef":"cat0item1","beefstrips":"cat0item2","porkstrips":"cat0item3","shrimp":"cat0item4","tuna":"cat0item5","whey":"cat0item6","cucumber":"cat1item0","tomatoes":"cat1item1","pepper":"cat1item2","onion":"cat1item2","broccoli":"cat1item3","mushroom":"cat1item3","cabbage":"cat1item4","carrots":"cat1item4","stirfryveg":"cat1item5","spinach":"cat1item6","potatoes":"cat1item7","mango":"cat1item8","lemons":"cat3item6","limes":"cat3item6","berries":"cat1item9","avocado":"cat1item10","garlic":"cat1item11","ginger":"cat1item11","ricenoodles":"cat2item1","udon":"cat2item1","oats":"cat2item2","blackbeans":"cat2item3","whitebeans":"cat2item3","chickpeas":"cat2item3","crushedtomatoes":"cat2item4","coconutmilk":"cat2item5","peanutbutter":"cat2item6","almondbutter":"cat2item6","oliveoil":"cat2item7","harissa":"cat3item0","soysauce":"cat3item1","sweetchili":"cat3item1","currypowder":"cat3item2","garammasala":"cat3item2","chilipowder":"cat3item3","cumin":"cat3item3","paprika":"cat3item3","sesameoil":"cat3item4","sesameseeds":"cat3item4","hotsauce":"cat3item5","salsa":"cat3item5","parsley":"cat3item6","snacks":"cat3item7","desserts":"cat3item7"}];
 function voilaShopLink(entry){
@@ -2096,10 +1901,10 @@ async function setLanguage(next){
  save('meal-lang',lang);applyStaticLabels();$('voilaDisclosure').innerHTML=tr('Voilà links use example products without brand preference. If a product page fails, use “Copy name” and paste it into the search at <a href="https://voila.ca/" target="_blank" rel="noopener noreferrer">voila.ca</a>. Availability depends on your delivery area.','Les liens Voilà montrent des produits équivalents. Si une fiche ne fonctionne pas, utilise « Copier », puis colle le nom dans la recherche sur <a href="https://voila.ca/" target="_blank" rel="noopener noreferrer">voila.ca</a>. La disponibilité dépend de ta région.');$('nutritionNotice').textContent=tr('Nutrition estimates are per portion; brands and cooking methods vary. Snacks, desserts and supplements are not included.','Valeurs nutritives estimées par portion; elles varient selon les marques et la cuisson. Les collations, desserts et suppléments ne sont pas inclus.');
  $('recipeSearch').value='';$('selectedRecipe').innerHTML='';
  $('guidelines').innerHTML=P.notes.map(s=>'<p class="noteItem">• '+escapeHtml(s)+'</p>').join('');
- renderPlan();renderShopping();renderDirectory();
+ renderPlan();renderPrep();renderShopping();renderDirectory();
 }
 
-function init(){document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>setLanguage(b.dataset.lang));document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>{showSection(b.dataset.nav)});document.querySelectorAll('[data-week]').forEach(b=>b.onclick=()=>{week=+b.dataset.week;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});document.querySelectorAll('[data-shopweek]').forEach(b=>b.onclick=()=>{shopWeek=+b.dataset.shopweek;save('shopping-view-v1',shopWeek);renderShopping()});$('today').onclick=jumpToday;$('recipeSearch').oninput=renderDirectory;$('copyDay').onclick=async()=>{const d=getDay();const ids=day===2?[d.dinner]:[d.lunch,d.dinner];const txt=`${tr('Week','Semaine')} ${week+1} ${d.day}: ${d.subtitle}\n\n`+ids.map(id=>{const r=P.recipes[id];return `${r.title}\n${tr('Ingredients','Ingrédients')}: ${r.ingredients.join('; ')}\n${tr('Method','Préparation')}: ${r.steps.join(' ')}`}).join('\n\n');await copy(txt);toast(tr('Day copied','Journée copiée'))};$('copyGroceries').onclick=async()=>{
+function init(){document.querySelectorAll('[data-prepweek]').forEach(b=>b.onclick=()=>{prepWeek=+b.dataset.prepweek;renderPrep()});$('openPrep').onclick=()=>{prepWeek=week;renderPrep();showSection('prep')};$('copyPrep').onclick=async()=>{const p=P.batch_prep[prepWeek];await copy(p.title+'\n\n'+p.intro+'\n\n'+p.steps.map((x,i)=>(i+1)+'. '+x).join('\n')+'\n\n'+p.portions.join('\n')+'\n\n'+p.storage.join('\n'));toast(tr('Batch copied','Batch copié'))};$('resetPrep').onclick=()=>{save(prepKey(prepWeek),{});renderPrep();toast(tr('Prep checks reset','Cases de préparation réinitialisées'))};document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>setLanguage(b.dataset.lang));document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>{showSection(b.dataset.nav)});document.querySelectorAll('[data-week]').forEach(b=>b.onclick=()=>{week=+b.dataset.week;renderPlan();save('selection',{week,day});history.replaceState(null,'',`#w${week+1}d${day+1}`)});document.querySelectorAll('[data-shopweek]').forEach(b=>b.onclick=()=>{shopWeek=+b.dataset.shopweek;save('shopping-view-v1',shopWeek);renderShopping()});$('today').onclick=jumpToday;$('recipeSearch').oninput=renderDirectory;$('copyDay').onclick=async()=>{const d=getDay();const ids=day===2?[d.dinner]:[d.lunch,d.dinner];const txt=`${tr('Week','Semaine')} ${week+1} ${d.day}: ${d.subtitle}\n\n`+ids.map(id=>{const r=P.recipes[id];return `${r.title}\n${tr('Ingredients','Ingrédients')}: ${r.ingredients.join('; ')}\n${tr('Method','Préparation')}: ${r.steps.join(' ')}`}).join('\n\n');await copy(txt);toast(tr('Day copied','Journée copiée'))};$('copyGroceries').onclick=async()=>{
  const sharedDone=loadSharedChecks(),weeklyDone=[loadGroceryChecks(0),loadGroceryChecks(1)];
  const groups=visibleShoppingGroups();
  const label=shopWeek===2?tr('Optimized 14-day order','Commande optimisée de 14 jours'):tr('Week','Semaine')+' '+(shopWeek+1);
@@ -2109,6 +1914,6 @@ function init(){document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()
  }).filter(Boolean).join('\n\n');
  await copy(label+'\n\n'+(content||tr('Nothing left to buy','Aucun achat restant')));
  toast(tr('Shopping list copied','Liste d’épicerie copiée'))
-};$('clearGroceries').onclick=()=>{if(shopWeek===2){save(sharedGroceryKey(),{});save(groceryKey(0),{});save(groceryKey(1),{})}else{save(groceryKey(shopWeek),{});if(shopWeek<2){const shared=loadSharedChecks();const entries=Object.values(shopping[shopWeek]).flat();for(const entry of entries)if(buyOnceIds.has(entry.id))delete shared['item:'+entry.id];save(sharedGroceryKey(),shared)}}renderShopping();toast(tr('Checks cleared','Coches effacées'))};$('notes').value=load('notes','');$('notes').oninput=()=>save('notes',$('notes').value);$('copyForChat').onclick=async()=>{await copy(`${tr('My meal plan is the 14-day rotation version','Mon menu est la rotation de 14 jours, version')} ${P.version}. ${tr('Please update these personal notes and preferences:','Veuillez mettre à jour ces notes et préférences :')} \n${$('notes').value||tr('(none)','(aucune)')}\n${tr('Avoid','Éviter')}: ${P.background.avoid.join(', ')}. ${tr('Wednesday: protein shakes. Weekend: usual restaurant breakfast.','Mercredi : shakes protéinés. Week-end : déjeuner habituel au restaurant.')}`);toast(tr('Notes copied for ChatGPT','Notes copiées pour ChatGPT'))};$('export').onclick=()=>{const blob=new Blob([JSON.stringify({...P,personal_notes:$('notes').value},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-14-day-plan.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};$('guidelines').innerHTML=P.notes.map(s=>`<p class="noteItem">• ${escapeHtml(s)}</p>`).join('');shopWeek=load('shopping-view-v1',2);if(![0,1,2].includes(shopWeek))shopWeek=2;const hash=location.hash.match(/^#w([12])d([1-7])$/);if(hash){week=+hash[1]-1;day=+hash[2]-1}else{let saved=load('selection',null);if(saved&&[0,1].includes(saved.week)&&saved.day>=0&&saved.day<=6){week=saved.week;day=saved.day}else{let start=new Date('2026-11-16T12:00:00'),now=new Date();let diff=Math.floor((new Date(now.getFullYear(),now.getMonth(),now.getDate(),12)-start)/86400000);week=((Math.floor(diff/7)%2)+2)%2;day=((diff%7)+7)%7}}renderPlan();renderShopping();renderDirectory();if(['shopping','recipes','settings'].includes(location.hash.slice(1)))showSection(location.hash.slice(1));setLanguage(load('meal-lang','en'));document.addEventListener('visibilitychange',()=>{if(!document.hidden&&section==='shopping')renderShopping()});window.addEventListener('focus',()=>{if(section==='shopping')renderShopping()})}
+};$('clearGroceries').onclick=()=>{if(shopWeek===2){save(sharedGroceryKey(),{});save(groceryKey(0),{});save(groceryKey(1),{})}else{save(groceryKey(shopWeek),{});if(shopWeek<2){const shared=loadSharedChecks();const entries=Object.values(shopping[shopWeek]).flat();for(const entry of entries)if(buyOnceIds.has(entry.id))delete shared['item:'+entry.id];save(sharedGroceryKey(),shared)}}renderShopping();toast(tr('Checks cleared','Coches effacées'))};$('notes').value=load('notes','');$('notes').oninput=()=>save('notes',$('notes').value);$('copyForChat').onclick=async()=>{await copy(`${tr('My meal plan is the 14-day rotation version','Mon menu est la rotation de 14 jours, version')} ${P.version}. ${tr('Please update these personal notes and preferences:','Veuillez mettre à jour ces notes et préférences :')} \n${$('notes').value||tr('(none)','(aucune)')}\n${tr('Avoid','Éviter')}: ${P.background.avoid.join(', ')}. ${tr('Wednesday: protein shakes. Weekend: usual restaurant breakfast.','Mercredi : shakes protéinés. Week-end : déjeuner habituel au restaurant.')}`);toast(tr('Notes copied for ChatGPT','Notes copiées pour ChatGPT'))};$('export').onclick=()=>{const blob=new Blob([JSON.stringify({...P,personal_notes:$('notes').value},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-14-day-plan.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};$('guidelines').innerHTML=P.notes.map(s=>`<p class="noteItem">• ${escapeHtml(s)}</p>`).join('');shopWeek=load('shopping-view-v1',2);if(![0,1,2].includes(shopWeek))shopWeek=2;const hash=location.hash.match(/^#w([12])d([1-7])$/);if(hash){week=+hash[1]-1;day=+hash[2]-1}else{let saved=load('selection',null);if(saved&&[0,1].includes(saved.week)&&saved.day>=0&&saved.day<=6){week=saved.week;day=saved.day}else{week=0;day=0}}prepWeek=week;renderPlan();renderPrep();renderShopping();renderDirectory();if(['shopping','recipes','settings','prep'].includes(location.hash.slice(1)))showSection(location.hash.slice(1));setLanguage(load('meal-lang','en'));document.addEventListener('visibilitychange',()=>{if(!document.hidden&&section==='shopping')renderShopping()});window.addEventListener('focus',()=>{if(section==='shopping')renderShopping()})}
 async function copy(str){try{await navigator.clipboard.writeText(str)}catch{let t=document.createElement('textarea');t.value=str;document.body.append(t);t.select();document.execCommand('copy');t.remove()}}init();})();
 </script></body></html>
