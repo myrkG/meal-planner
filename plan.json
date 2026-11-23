@@ -147,18 +147,24 @@
       "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW-equivalent chicken, COOKED Sunday",
-        "1 cup rice COOKED Sunday",
-        "1 sliced bell pepper + ½ onion COOKED Sunday with fajita spices",
-        "¾ cup canned black beans; 1 tbsp salsa; 1 tsp lime"
+        "225 g RAW-equivalent boneless chicken, baked plain Sunday (one half of 450 g RAW chicken batch)",
+        "1 bell pepper, sliced, and ½ onion, sliced",
+        "1 tsp (5 mL) SMOKED PAPRIKA",
+        "½ tsp (2.5 mL) GROUND CUMIN",
+        "¼ tsp (1.25 mL) salt and 1 pinch black pepper",
+        "1 tsp (5 mL) olive oil for fajita vegetables",
+        "1 cup (250 mL) rice COOKED Sunday",
+        "¾ cup (180 mL) canned black beans, rinsed and drained on Thursday",
+        "1 tbsp (15 mL) salsa and 1 tsp (5 mL) lime juice, added Thursday"
       ],
       "steps": [
-        "Thaw THU chicken/pepper/rice in fridge WED night.",
-        "Add drained beans; microwave covered 4–6 min until 74°C / 165°F.",
-        "Top with salsa and lime."
+        "WEDNESDAY NIGHT: move the frozen THU lunch fajita chicken/pepper portion and 1 cup cooked rice from freezer to fridge to thaw.",
+        "THURSDAY: open canned black beans, rinse and drain ¾ cup (180 mL). Mix into the cooked chicken/pepper/rice bowl.",
+        "Reheat covered in the microwave for about 4–6 min, stirring halfway, until the food reaches 74°C / 165°F throughout.",
+        "Add 1 tbsp salsa and 1 tsp lime juice just before eating. All spices were already added Sunday."
       ],
-      "before": "ONE portion, not the old two-serving recipe. Cooked and FROZEN Sunday.",
-      "tip": "Thu food must not stay refrigerated from Sunday.",
+      "before": "All 225 g of chicken is its RAW weight before Sunday's batch. The smoked paprika, cumin, salt and pepper are measured and added Sunday to the pepper/onion skillet, then the already cooked chicken is tossed in. Nothing raw to cook Thursday.",
+      "tip": "ONE serving: 1 tsp smoked paprika + ½ tsp cumin + ¼ tsp salt + pinch black pepper, with 1 tsp olive oil. The baked chicken is added to seasoned peppers for 1–2 min. Thursday only reheat and add black beans/salsa/lime.",
       "batch_ready": true,
       "nutrition": {
         "calories": 715,
@@ -166,7 +172,16 @@
         "carbs_g": 86,
         "fat_g": 15,
         "basis": "per_portion"
-      }
+      },
+      "batch_steps": [
+        "SUNDAY — CHICKEN: oven-bake 450 g of RAW boneless chicken (plain, no fajita seasoning yet) until 74°C / 165°F in the thickest part. Divide the cooked chicken in TWO equal portions, each corresponding to 225 g RAW. Keep one for Tuesday's lemon-potato meal; use the other for these fajitas.",
+        "FAJITA SEASONING: mix in a small bowl EXACTLY 1 tsp smoked paprika + ½ tsp ground cumin + ¼ tsp salt + one pinch black pepper. This entire spice mixture is for the ONE Thursday fajita portion.",
+        "VEGETABLES: slice 1 whole bell pepper and ½ medium onion into thin strips. Heat 1 tsp olive oil in a skillet over medium-high heat.",
+        "COOK VEGETABLES: cook the pepper and onion for about 5–7 min, stirring, until tender with some colour. Sprinkle ALL the measured spices over the vegetables and stir for 30 seconds.",
+        "ADD CHICKEN: add the already-baked Thursday chicken portion, cut into strips, to the seasoned vegetables. Add 1–2 tbsp water if the skillet looks dry; toss for 1–2 minutes until evenly coated. Do NOT add spices to the Tuesday chicken portion.",
+        "PORTION: place the cooked fajita chicken and peppers into a shallow container labelled THU lunch. Measure 1 cup (250 mL) rice ALREADY COOKED in Sunday's rice batch into the same or a separate labelled container. Cool promptly, then FREEZE both on Sunday because Thursday is more than 2–3 days away.",
+        "THURSDAY: do not add the canned beans, salsa or lime on Sunday. Keep the beans canned until Thursday; add them when reheating and finish with salsa and lime."
+      ]
     },
     "salmon": {
       "id": "salmon",
@@ -1629,7 +1644,7 @@
         "RICE COOKER: measure exactly 1⅔ STANDARD measuring cups (~300 g) of DRY rice. Add water per rice package and cook (not 1⅔ rice-cooker scoops). After cooking, divide approximately 5 cups: MON tuna 1½; TUE chili 1; THU fajitas 1; SUN shrimp curry 1½.",
         "NINJA: cut 650 g REGULAR raw potatoes into 2–2.5 cm cubes. AIR FRY at 200°C for 22–25 min with about 5 tsp olive oil total, shake halfway. Divide by INITIAL RAW weight: TUE 200 g, THU 200 g, FRI 250 g. Other basket: 250 g raw diced sweet potato + 1 tsp oil, AIR FRY 200°C for ~18–23 min. Optional soaking adds 20 min; dry very well.",
         "OVEN 200°C / 400°F: cook 450 g RAW chicken until 74°C / 165°F, about 20–25 min; split evenly into TWO cooked portions equivalent to 225 g raw each. On separate trays cook 225 g salmon with 1 tbsp Dijon + 2 tsp maple (about 12–18 min, until 70°C / 158°F) and 225 g boneless pork to 71°C / 160°F. Timing depends on thickness; pull each tray when ready.",
-        "FAJITA VEGETABLES: cook 1 sliced pepper + ½ onion with smoked paprika and cumin on an oven tray or in skillet; pack with THU chicken. TUE chicken stays plain; add lemon-Dijon dressing when serving.",
+        "FAJITA CHICKEN / VEGETABLES (ONE THURSDAY PORTION): take HALF of the 450 g-RAW chicken batch already baked to 74°C / 165°F (225 g RAW equivalent); the other half stays plain for Tuesday. Mix exactly 1 tsp SMOKED PAPRIKA + ½ tsp GROUND CUMIN + ¼ tsp SALT + 1 pinch BLACK PEPPER in a small bowl. Slice 1 whole bell pepper and ½ onion. Heat 1 tsp olive oil in a skillet on medium-high; cook pepper/onion 5–7 min, add the spice mix and stir for 30 sec. Add the Thursday portion of ALREADY-COOKED chicken, cut in strips, plus 1–2 tbsp water if dry; toss 1–2 min. Pack with exactly 1 cup Sunday-COOKED rice, then cool promptly and FREEZE Sunday for Thursday. Thursday add ¾ cup black beans, 1 tbsp salsa and 1 tsp lime. Do not add fajita spices to Tuesday's chicken.",
         "CHILI: brown 600 g RAW lean ground turkey in large pot to 74°C / 165°F; add 1 can 796 mL crushed tomatoes, 1 can 540 mL black beans (rinsed), 1 diced bell pepper, ½ diced onion, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika. Simmer about 20 min. Divide FINISHED chili evenly into 3 containers: TUE dinner, FRI dinner, spare freezer portion. Optional slow cooker after browning: HIGH ~3–4 h (longer elapsed time).",
         "BEEF/SOBA: in a bowl mix SAUCE = 1 tbsp soy + 1 tsp honey + 1 tsp sesame oil + ½ tsp grated ginger + 2 tbsp water. Boil ONE tied Blue Dragon soba bundle (~83 g DRY) per package (NOT all 250 g); drain. Microwave 1½ cups frozen broccoli covered with a little water 4–6 min until hot; drain. Brown 225 g RAW lean ground beef in a skillet ~6–8 min to 71°C / 160°F. REDUCE to medium heat and POUR THE SAUCE INTO THE COOKED BEEF; stir 1–2 min. Add drained soba and cooked broccoli; toss 1 min. Pack MON dinner and refrigerate promptly.",
         "PENNE/MEATBALLS: boil 90 g DRY penne. Heat 150 g fully cooked frozen Angus meatballs in ¾ cup marinara with 2 cups baby spinach and 1 tsp basil. Combine, pack FRI lunch.",
