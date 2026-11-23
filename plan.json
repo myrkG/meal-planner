@@ -770,10 +770,10 @@
   ],
   "shopping": [
     {
-      "Protein & refrigerated": [
+      "Protein and refrigerated": [
         {
           "id": "chicken",
-          "name": "Chicken breasts or thighs (~1.1 kg)",
+          "name": "Boneless chicken: W1 450 g RAW (2 × 225 g) / W2 1,150 g RAW (4 × 225 g + 250 g)",
           "voila": {
             "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
             "type": "product"
@@ -781,7 +781,7 @@
         },
         {
           "id": "groundbeef",
-          "name": "Lean ground beef (~225 g)",
+          "name": "Lean ground beef: W1 225 g RAW / W2 450 g RAW (2 × 225 g)",
           "voila": {
             "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA",
             "type": "product"
@@ -789,7 +789,7 @@
         },
         {
           "id": "groundturkey",
-          "name": "Compliments extra-lean ground turkey 450 g (BUY 2 packs for 600 g of chili)",
+          "name": "Lean ground turkey 600 g RAW for 3 chili portions (two 450 g packs if needed; freeze raw extra)",
           "voila": {
             "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
             "type": "product"
@@ -798,7 +798,7 @@
         },
         {
           "id": "salmon",
-          "name": "Salmon fillet (~225 g)",
+          "name": "225 g RAW salmon for Sunday OVEN baking",
           "voila": {
             "url": "https://voila.ca/products/atlantic-salmon-fillet/1439110KG",
             "type": "product"
@@ -806,7 +806,7 @@
         },
         {
           "id": "porkchop",
-          "name": "Lean pork chop (~250 g)",
+          "name": "225 g RAW boneless pork chop",
           "voila": {
             "url": "https://voila.ca/categories/meat-seafood/pork/pork-ribs-chops-tenderloin/WEB3100883",
             "type": "category"
@@ -814,7 +814,7 @@
         },
         {
           "id": "shrimp",
-          "name": "Compliments raw peeled deveined shrimp 340 g (1 bag/week; 2 bags/14 days)",
+          "name": "250 g RAW peeled shrimp per week (340 g bag per week is sufficient)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
@@ -823,7 +823,7 @@
         },
         {
           "id": "tuna",
-          "name": "Compliments canned light tuna 170 g (2 cans/week; 4 cans/14 days)",
+          "name": "Light canned tuna 170 g × 2 cans per week",
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
@@ -832,7 +832,7 @@
         },
         {
           "id": "meatballsangus",
-          "name": "Compliments frozen Angus beef meatballs 680 g (1 bag; use 150 g with penne — NOT Long Phung)",
+          "name": "150 g fully cooked Compliments Angus meatballs (680 g pack, NOT Long Phung)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-meatballs-angus-beef-680-g/432394EA",
             "type": "product"
@@ -841,17 +841,17 @@
         },
         {
           "id": "whey",
-          "name": "Whey protein powder (3 Wednesday shakes)",
+          "name": "Whey for three Wednesday shakes",
           "voila": {
             "url": "https://voila.ca/categories/health-beauty/diet-fitness/protein-powders-shakes/WEB31035247",
             "type": "category"
           }
         }
       ],
-      "Produce & frozen": [
+      "Fruit, vegetables and frozen": [
         {
           "id": "pepper",
-          "name": "Bell peppers (3–4)",
+          "name": "2 bell peppers: 1 for chili, 1 for fajitas",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-vegetables/bell-peppers/WEB3100792",
             "type": "category"
@@ -859,7 +859,7 @@
         },
         {
           "id": "onion",
-          "name": "Onions (2–3)",
+          "name": "1 onion: ½ chili, ½ fajitas",
           "voila": {
             "url": "https://voila.ca/products/compliments-onions-yellow-1-36-kg/615526EA",
             "type": "product"
@@ -867,7 +867,7 @@
         },
         {
           "id": "cucumber",
-          "name": "Cucumbers (2)",
+          "name": "Cucumber: W1 1 (½ tuna, ½ chicken) / W2 2 (Mon and Thu)",
           "voila": {
             "url": "https://voila.ca/products/organic-english-cucumber-1-count/129818EA",
             "type": "product"
@@ -875,7 +875,7 @@
         },
         {
           "id": "tomatoes",
-          "name": "Tomatoes or cherry tomatoes",
+          "name": "Tomatoes: W1 ½ cup diced / W2 ~1¾ cups including cherry",
           "voila": {
             "url": "https://voila.ca/products/cherry-tomatoes-cameo-elite-1-pint/628257EA",
             "type": "product"
@@ -883,7 +883,7 @@
         },
         {
           "id": "broccoli",
-          "name": "Frozen broccoli florets (500 g)",
+          "name": "FROZEN broccoli: 1½ cups per week (one 500 g bag suffices)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
             "type": "product"
@@ -891,23 +891,15 @@
         },
         {
           "id": "greenbeans",
-          "name": "Frozen cut green beans (750 g)",
+          "name": "FROZEN green beans 3½ cups (salmon 2 + pork 1½)",
           "voila": {
             "url": "https://voila.ca/products/best-buy-frozen-green-beans-cut-750-g/408990EA",
             "type": "product"
           }
         },
         {
-          "id": "cabbage",
-          "name": "Bagged cabbage slaw",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-salad-mix-coleslaw-397-g/655261EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "spinach",
-          "name": "Spinach",
+          "name": "Baby spinach: 2 cups per week",
           "voila": {
             "url": "https://voila.ca/products/compliments-baby-spinach-312-g/370340EA",
             "type": "product"
@@ -915,7 +907,7 @@
         },
         {
           "id": "potatoes",
-          "name": "REGULAR potatoes, 2.27 kg bag (not baby potatoes; 300 g chicken + 300 g salmon)",
+          "name": "REGULAR potatoes RAW: W1 650 g (200 + 200 + 250); W2 450 g (200 + 250). ONE 2.27 kg bag covers both weeks.",
           "voila": {
             "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
             "type": "product"
@@ -923,7 +915,7 @@
         },
         {
           "id": "sweetpotato",
-          "name": "Sweet potatoes (~350 g)",
+          "name": "250 g RAW sweet potato for Sunday Ninja batch",
           "voila": {
             "url": "https://voila.ca/products/orange-flesh-yams-sweet-potato/130444KG",
             "type": "product"
@@ -931,7 +923,7 @@
         },
         {
           "id": "lemons",
-          "name": "Lemons",
+          "name": "Lemon: about 1 per week",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/lemons/WEB3100780",
             "type": "category"
@@ -939,7 +931,7 @@
         },
         {
           "id": "limes",
-          "name": "Limes",
+          "name": "Limes: about 2 per week",
           "voila": {
             "url": "https://voila.ca/products/lime-1-count/7687EA",
             "type": "product"
@@ -947,7 +939,7 @@
         },
         {
           "id": "avocado",
-          "name": "Avocado (1)",
+          "name": "1 avocado: ½ for Week 1 tuna; optional Week 2",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/avocados/WEB3100786",
             "type": "category"
@@ -955,7 +947,7 @@
         },
         {
           "id": "bananas",
-          "name": "Bananas (2)",
+          "name": "2 bananas for shakes",
           "voila": {
             "url": "https://voila.ca/products/banana-1-count-ripe-in-3-4-days/958902EA",
             "type": "product"
@@ -963,7 +955,7 @@
         },
         {
           "id": "stirfryveg",
-          "name": "Compliments frozen Asian stir-fry vegetables 500 g (1 bag/week; 2 bags/14 days)",
+          "name": "FROZEN Asian vegetables: W1 2 cups / W2 4½ cups (~two 500 g bags)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -971,26 +963,18 @@
           "searchName": "Compliments Frozen Stir Fry Asian Style Blend 500 g"
         },
         {
-          "id": "garlic",
-          "name": "Garlic",
-          "voila": {
-            "url": "https://voila.ca/products/fresh-garlic-3-count/204613EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "ginger",
-          "name": "Fresh ginger",
+          "name": "Ginger ~½ tsp (fresh or powdered)",
           "voila": {
             "url": "https://voila.ca/products/ginger-root/8440KG",
             "type": "product"
           }
         }
       ],
-      "Beans & staples": [
+      "Beans and staples": [
         {
           "id": "pasta",
-          "name": "Barilla dry PENNE RIGATE 410 g (90 g for meatballs; NOT soba)",
+          "name": "90 g DRY PENNE RIGATE, not soba",
           "voila": {
             "url": "https://voila.ca/products/barilla-pasta-penne-rigate-410-g/785494EA",
             "type": "product"
@@ -999,7 +983,7 @@
         },
         {
           "id": "noodles",
-          "name": "Blue Dragon SOBA 250 g — 3 bundles: use only 1 (~83 g) for ginger beef",
+          "name": "250 g Blue Dragon soba: ONE tied bundle (~83 g DRY) for Monday; NOT whole pack",
           "voila": {
             "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
             "type": "product"
@@ -1008,7 +992,7 @@
         },
         {
           "id": "oats",
-          "name": "Rolled oats",
+          "name": "90 g rolled oats for 3 shakes",
           "voila": {
             "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
             "type": "product"
@@ -1016,7 +1000,7 @@
         },
         {
           "id": "blackbeans",
-          "name": "Black beans (2 cans)",
+          "name": "Black beans: W1 one 540 mL can for chili + ¾ cup fajitas = 2 cans; W2 ¾ cup for tacos",
           "voila": {
             "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA",
             "type": "product"
@@ -1024,49 +1008,41 @@
         },
         {
           "id": "crushedtomatoes",
-          "name": "Crushed tomatoes (796 mL can)",
+          "name": "Crushed tomatoes: W1 796 mL chili; W2 ¾ cup curry",
           "voila": {
             "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA",
             "type": "product"
           }
         },
         {
-          "id": "corn",
-          "name": "Frozen whole-kernel sweet corn (750 g bag)",
-          "voila": {
-            "url": "https://voila.ca/products/best-buy-frozen-whole-kernel-corn-750-g/408982EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "coconutmilk",
-          "name": "Light coconut milk",
+          "name": "Light coconut milk: W1 1 cup curry; W2 ½ cup curry (~400 mL total for two weeks)",
           "voila": {
             "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA",
             "type": "product"
           }
         },
         {
-          "id": "peanutbutter",
-          "name": "Peanut butter",
-          "voila": {
-            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "oliveoil",
-          "name": "Olive oil",
+          "name": "Olive oil for batch cooking and dressings",
           "voila": {
             "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA",
             "type": "product"
           }
+        },
+        {
+          "id": "peanutbutter",
+          "name": "Peanut butter for shakes and peanut chicken",
+          "voila": {
+            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
+            "type": "product"
+          }
         }
       ],
-      "Seasonings & extras": [
+      "Seasonings and extras": [
         {
           "id": "soysauce",
-          "name": "Soy sauce",
+          "name": "Soy sauce for sauces and marinades",
           "voila": {
             "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA",
             "type": "product"
@@ -1074,7 +1050,7 @@
         },
         {
           "id": "sriracha",
-          "name": "Sriracha",
+          "name": "Sriracha (optional)",
           "voila": {
             "url": "https://voila.ca/products/frank-s-red-hot-sauce-sriracha-354-ml/362310EA",
             "type": "product"
@@ -1082,7 +1058,7 @@
         },
         {
           "id": "dijon",
-          "name": "Dijon mustard",
+          "name": "Dijon mustard: 1 tbsp salmon + 1 tsp chicken",
           "voila": {
             "url": "https://voila.ca/products/compliments-prepared-dijon-mustard-original-325-ml/409731EA",
             "type": "product"
@@ -1090,7 +1066,7 @@
         },
         {
           "id": "maple",
-          "name": "Maple syrup",
+          "name": "Maple syrup: W1 2 tsp salmon; W2 1 tsp beef",
           "voila": {
             "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA",
             "type": "product"
@@ -1098,7 +1074,7 @@
         },
         {
           "id": "paprika",
-          "name": "Smoked paprika",
+          "name": "Smoked paprika for chili/fajitas/tacos",
           "voila": {
             "url": "https://voila.ca/products/mccormick-smoked-paprika-46-g/164655EA",
             "type": "product"
@@ -1106,7 +1082,7 @@
         },
         {
           "id": "cumin",
-          "name": "Cumin",
+          "name": "Cumin for chili/fajitas/tacos",
           "voila": {
             "url": "https://voila.ca/products/club-house-ground-cumin-90-g/503752EA",
             "type": "product"
@@ -1114,7 +1090,7 @@
         },
         {
           "id": "chilipowder",
-          "name": "Chili powder",
+          "name": "Chili powder for chili or tacos",
           "voila": {
             "url": "https://voila.ca/products/mccormick-gourmet-chili-powder-40-g/681670EA",
             "type": "product"
@@ -1122,7 +1098,7 @@
         },
         {
           "id": "currypaste",
-          "name": "Thai red curry paste",
+          "name": "Red curry paste 1 tbsp for shrimp",
           "voila": {
             "url": "https://voila.ca/products/thai-kitchen-curry-paste-red-112-g/519593EA",
             "type": "product"
@@ -1130,31 +1106,15 @@
         },
         {
           "id": "marinara",
-          "name": "Marinara sauce",
+          "name": "¾ cup marinara for penne",
           "voila": {
             "url": "https://voila.ca/products/compliments-marinara-sauce-sweet-basil-650-ml/404824EA",
             "type": "product"
           }
         },
         {
-          "id": "driedbasil",
-          "name": "Dried basil leaves (10 g)",
-          "voila": {
-            "url": "https://voila.ca/products/club-house-organic-basil-leaves-bag-10-g/666824EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "redpepperflakes",
-          "name": "Crushed red pepper flakes (28 g)",
-          "voila": {
-            "url": "https://voila.ca/products/les-aliments-g-dion-foods-gluten-free-chili-crushed-red-pepper-28-g/189810EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "salsa",
-          "name": "Salsa",
+          "name": "Salsa for fajitas/tacos, optional on potatoes",
           "voila": {
             "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA",
             "type": "product"
@@ -1162,7 +1122,7 @@
         },
         {
           "id": "honey",
-          "name": "Honey",
+          "name": "Honey 1 tsp for soba",
           "voila": {
             "url": "https://voila.ca/products/compliments-pure-natural-liquid-honey-500-g/289980EA",
             "type": "product"
@@ -1170,23 +1130,35 @@
         },
         {
           "id": "sesameoil",
-          "name": "Sesame oil",
+          "name": "Sesame oil for soba, beef or pork",
           "voila": {
             "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA",
             "type": "product"
           }
         },
         {
-          "id": "vinegar",
-          "name": "Apple cider vinegar",
+          "id": "driedbasil",
+          "name": "1 tsp dried basil for penne",
           "voila": {
-            "url": "https://voila.ca/products/compliments-vinegar-apple-cider-1-l/444863EA",
+            "url": "https://voila.ca/products/club-house-organic-basil-leaves-bag-10-g/666824EA",
             "type": "product"
           }
         },
         {
+          "id": "oregano",
+          "name": "Dried oregano for chicken"
+        },
+        {
+          "id": "salt",
+          "name": "Salt to taste, buy only if needed"
+        },
+        {
+          "id": "blackpepper",
+          "name": "Pepper to taste, buy only if needed"
+        },
+        {
           "id": "snacks",
-          "name": "Protein-rich snacks",
+          "name": "Protein-rich snacks according to targets",
           "voila": {
             "url": "https://voila.ca/categories/snacks-candy/WEB1100614",
             "type": "category"
@@ -1194,35 +1166,19 @@
         },
         {
           "id": "desserts",
-          "name": "Desserts of your choice",
+          "name": "Optional desserts according to goals",
           "voila": {
             "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
             "type": "category"
           }
-        },
-        {
-          "id": "oregano",
-          "name": "Dried oregano (or use dried basil)"
-        },
-        {
-          "id": "cocoa",
-          "name": "Unsweetened cocoa powder (optional with chocolate whey)"
-        },
-        {
-          "id": "salt",
-          "name": "Salt (check pantry)"
-        },
-        {
-          "id": "blackpepper",
-          "name": "Ground black pepper (check pantry)"
         }
       ]
     },
     {
-      "Protein & refrigerated": [
+      "Protein and refrigerated": [
         {
           "id": "chicken",
-          "name": "Chicken breasts or thighs (~1 kg)",
+          "name": "Boneless chicken: W1 450 g RAW (2 × 225 g) / W2 1,150 g RAW (4 × 225 g + 250 g)",
           "voila": {
             "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
             "type": "product"
@@ -1230,23 +1186,15 @@
         },
         {
           "id": "groundbeef",
-          "name": "Lean ground beef (~225 g)",
+          "name": "Lean ground beef: W1 225 g RAW / W2 450 g RAW (2 × 225 g)",
           "voila": {
             "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA",
             "type": "product"
           }
         },
         {
-          "id": "beefstrips",
-          "name": "Lean beef strips (~225 g)",
-          "voila": {
-            "url": "https://voila.ca/categories/meat-seafood/beef-veal/stew-cubes-and-strips/WEB3100863",
-            "type": "category"
-          }
-        },
-        {
           "id": "porkstrips",
-          "name": "Lean pork strips (~225 g)",
+          "name": "225 g RAW lean pork strips for udon",
           "voila": {
             "url": "https://voila.ca/products/stir-fry-pork-strips/453351KG",
             "type": "product"
@@ -1254,7 +1202,7 @@
         },
         {
           "id": "shrimp",
-          "name": "Compliments raw peeled deveined shrimp 340 g (1 bag/week; 2 bags/14 days)",
+          "name": "250 g RAW peeled shrimp per week (340 g bag per week is sufficient)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
             "type": "product"
@@ -1263,7 +1211,7 @@
         },
         {
           "id": "tuna",
-          "name": "Compliments canned light tuna 170 g (2 cans/week; 4 cans/14 days)",
+          "name": "Light canned tuna 170 g × 2 cans per week",
           "voila": {
             "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
             "type": "product"
@@ -1272,17 +1220,17 @@
         },
         {
           "id": "whey",
-          "name": "Whey protein powder (3 Wednesday shakes)",
+          "name": "Whey for three Wednesday shakes",
           "voila": {
             "url": "https://voila.ca/categories/health-beauty/diet-fitness/protein-powders-shakes/WEB31035247",
             "type": "category"
           }
         }
       ],
-      "Produce & frozen": [
+      "Fruit, vegetables and frozen": [
         {
           "id": "cucumber",
-          "name": "Cucumbers (2)",
+          "name": "Cucumber: W1 1 (½ tuna, ½ chicken) / W2 2 (Mon and Thu)",
           "voila": {
             "url": "https://voila.ca/products/organic-english-cucumber-1-count/129818EA",
             "type": "product"
@@ -1290,63 +1238,31 @@
         },
         {
           "id": "tomatoes",
-          "name": "Tomatoes and cherry tomatoes",
+          "name": "Tomatoes: W1 ½ cup diced / W2 ~1¾ cups including cherry",
           "voila": {
             "url": "https://voila.ca/products/cherry-tomatoes-cameo-elite-1-pint/628257EA",
             "type": "product"
           }
         },
         {
-          "id": "pepper",
-          "name": "Bell peppers (2–3)",
-          "voila": {
-            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-vegetables/bell-peppers/WEB3100792",
-            "type": "category"
-          }
-        },
-        {
-          "id": "onion",
-          "name": "Onions (2)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-onions-yellow-1-36-kg/615526EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "broccoli",
-          "name": "Frozen broccoli florets (500 g)",
+          "name": "FROZEN broccoli: 1½ cups per week (one 500 g bag suffices)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
             "type": "product"
           }
         },
         {
-          "id": "mushroom",
-          "name": "Mushrooms",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-mushroom-white-sliced-washed-227-g/452211EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "cabbage",
-          "name": "Shredded cabbage",
+          "name": "1 cup BAGGED shredded cabbage for Friday",
           "voila": {
             "url": "https://voila.ca/products/compliments-salad-mix-coleslaw-397-g/655261EA",
             "type": "product"
           }
         },
         {
-          "id": "carrots",
-          "name": "Shredded carrots",
-          "voila": {
-            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-cut-fruits-vegetables/fresh-cut-vegetables/WEB39229849",
-            "type": "category"
-          }
-        },
-        {
           "id": "stirfryveg",
-          "name": "Compliments frozen Asian stir-fry vegetables 500 g (1 bag/week; 2 bags/14 days)",
+          "name": "FROZEN Asian vegetables: W1 2 cups / W2 4½ cups (~two 500 g bags)",
           "voila": {
             "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
             "type": "product"
@@ -1355,7 +1271,7 @@
         },
         {
           "id": "spinach",
-          "name": "Spinach",
+          "name": "Baby spinach: 2 cups per week",
           "voila": {
             "url": "https://voila.ca/products/compliments-baby-spinach-312-g/370340EA",
             "type": "product"
@@ -1363,23 +1279,15 @@
         },
         {
           "id": "potatoes",
-          "name": "Same 2.27 kg bag REGULAR potatoes (350 g for chili + 250 g tuna salad)",
+          "name": "REGULAR potatoes RAW: W1 650 g (200 + 200 + 250); W2 450 g (200 + 250). ONE 2.27 kg bag covers both weeks.",
           "voila": {
             "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
             "type": "product"
           }
         },
         {
-          "id": "mango",
-          "name": "Mango",
-          "voila": {
-            "url": "https://voila.ca/products/ataulfo-mango-1-count/243393EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "lemons",
-          "name": "Lemons",
+          "name": "Lemon: about 1 per week",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/lemons/WEB3100780",
             "type": "category"
@@ -1387,91 +1295,45 @@
         },
         {
           "id": "limes",
-          "name": "Limes",
+          "name": "Limes: about 2 per week",
           "voila": {
             "url": "https://voila.ca/products/lime-1-count/7687EA",
             "type": "product"
           }
         },
         {
-          "id": "berries",
-          "name": "Frozen berries",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-jumbleberry-fruit-blend-600-g/43805EA",
-            "type": "product"
-          }
-        },
-        {
           "id": "avocado",
-          "name": "Avocado",
+          "name": "1 avocado: ½ for Week 1 tuna; optional Week 2",
           "voila": {
             "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/avocados/WEB3100786",
             "type": "category"
           }
         },
         {
+          "id": "berries",
+          "name": "300 g FROZEN mixed berries for 3 shakes",
+          "voila": {
+            "url": "https://voila.ca/products/compliments-frozen-jumbleberry-fruit-blend-600-g/43805EA",
+            "type": "product"
+          }
+        },
+        {
           "id": "garlic",
-          "name": "Garlic",
+          "name": "Garlic for oregano chicken (or powdered)",
           "voila": {
             "url": "https://voila.ca/products/fresh-garlic-3-count/204613EA",
             "type": "product"
           }
         },
         {
-          "id": "ginger",
-          "name": "Fresh ginger",
-          "voila": {
-            "url": "https://voila.ca/products/ginger-root/8440KG",
-            "type": "product"
-          }
-        },
-        {
-          "id": "parsley",
-          "name": "Parsley",
-          "voila": {
-            "url": "https://voila.ca/products/parsley-italian-1-bunch/868246EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "greenonion",
-          "name": "Green onions (optional for chili potato)"
-        },
-        {
-          "id": "cilantro",
-          "name": "Fresh cilantro (optional garnish)"
+          "id": "frozenmango",
+          "name": "½ cup FROZEN mango chunks for Thursday"
         }
       ],
-      "Beans & staples": [
-        {
-          "id": "ricenoodles",
-          "name": "Blue Dragon FLAT PAD THAI RICE NOODLES 300 g (90 g for peanut chicken)",
-          "voila": {
-            "url": "https://voila.ca/products/blue-dragon-rice-noodles-pad-thai-300-g/887520EA",
-            "type": "product"
-          },
-          "searchName": "Blue Dragon Rice Noodles Pad Thai 300 g"
-        },
-        {
-          "id": "udon",
-          "name": "Six Fortune READY-TO-USE PLAIN UDON 200 g (for pork)",
-          "voila": {
-            "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
-            "type": "product"
-          },
-          "searchName": "Six Fortune Udon Noodles Plain 200 g"
-        },
-        {
-          "id": "oats",
-          "name": "Rolled oats",
-          "voila": {
-            "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
-            "type": "product"
-          }
-        },
+      "Beans and staples": [
         {
           "id": "blackbeans",
-          "name": "Black beans",
+          "name": "Black beans: W1 one 540 mL can for chili + ¾ cup fajitas = 2 cans; W2 ¾ cup for tacos",
           "voila": {
             "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA",
             "type": "product"
@@ -1479,7 +1341,7 @@
         },
         {
           "id": "whitebeans",
-          "name": "White beans",
+          "name": "¾ cup canned white beans for Monday",
           "voila": {
             "url": "https://voila.ca/products/unico-white-kidney-beans-540-ml/328658EA",
             "type": "product"
@@ -1487,7 +1349,7 @@
         },
         {
           "id": "chickpeas",
-          "name": "Chickpeas",
+          "name": "¾ cup canned chickpeas for Thursday",
           "voila": {
             "url": "https://voila.ca/products/unico-chickpeas-no-salt-added-540-ml/352549EA",
             "type": "product"
@@ -1495,7 +1357,7 @@
         },
         {
           "id": "corn",
-          "name": "Frozen whole-kernel sweet corn (750 g bag)",
+          "name": "1 cup FROZEN corn (½ tacos + ½ chicken potatoes)",
           "voila": {
             "url": "https://voila.ca/products/best-buy-frozen-whole-kernel-corn-750-g/408982EA",
             "type": "product"
@@ -1503,7 +1365,7 @@
         },
         {
           "id": "crushedtomatoes",
-          "name": "Canned crushed tomatoes",
+          "name": "Crushed tomatoes: W1 796 mL chili; W2 ¾ cup curry",
           "voila": {
             "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA",
             "type": "product"
@@ -1511,33 +1373,50 @@
         },
         {
           "id": "coconutmilk",
-          "name": "Light coconut milk",
+          "name": "Light coconut milk: W1 1 cup curry; W2 ½ cup curry (~400 mL total for two weeks)",
           "voila": {
             "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA",
             "type": "product"
           }
         },
         {
-          "id": "peanutbutter",
-          "name": "Peanut butter",
+          "id": "udon",
+          "name": "200 g READY-TO-USE udon: ONE full packet Sunday",
           "voila": {
-            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
+            "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
             "type": "product"
-          }
+          },
+          "searchName": "Six Fortune Udon Noodles Plain 200 g"
         },
         {
           "id": "oliveoil",
-          "name": "Olive oil",
+          "name": "Olive oil for batch cooking and dressings",
           "voila": {
             "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA",
             "type": "product"
           }
+        },
+        {
+          "id": "oats",
+          "name": "90 g rolled oats for 3 shakes",
+          "voila": {
+            "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
+            "type": "product"
+          }
+        },
+        {
+          "id": "peanutbutter",
+          "name": "Peanut butter for shakes and peanut chicken",
+          "voila": {
+            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
+            "type": "product"
+          }
         }
       ],
-      "Seasonings & extras": [
+      "Seasonings and extras": [
         {
           "id": "harissa",
-          "name": "Harissa paste",
+          "name": "Harissa paste 1 tbsp for Thu",
           "voila": {
             "url": "https://voila.ca/products/al-fez-paste-harissa-162-ml/33737EA",
             "type": "product"
@@ -1545,7 +1424,7 @@
         },
         {
           "id": "soysauce",
-          "name": "Soy sauce",
+          "name": "Soy sauce for sauces and marinades",
           "voila": {
             "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA",
             "type": "product"
@@ -1553,7 +1432,7 @@
         },
         {
           "id": "sweetchili",
-          "name": "Sweet chili sauce",
+          "name": "Sweet chili sauce for chicken and pork",
           "voila": {
             "url": "https://voila.ca/products/kim-phat-chili-sauce-sweet-298-ml/336218EA",
             "type": "product"
@@ -1561,7 +1440,7 @@
         },
         {
           "id": "currypowder",
-          "name": "Curry powder",
+          "name": "Curry powder 1 tsp for Sat",
           "voila": {
             "url": "https://voila.ca/products/club-house-curry-powder-110-g/503753EA",
             "type": "product"
@@ -1569,7 +1448,7 @@
         },
         {
           "id": "garammasala",
-          "name": "Garam masala",
+          "name": "Garam masala ½ tsp for Sat",
           "voila": {
             "url": "https://voila.ca/products/national-garam-masala-powder-50-g/423888EA",
             "type": "product"
@@ -1577,7 +1456,7 @@
         },
         {
           "id": "chilipowder",
-          "name": "Chili powder",
+          "name": "Chili powder for chili or tacos",
           "voila": {
             "url": "https://voila.ca/products/mccormick-gourmet-chili-powder-40-g/681670EA",
             "type": "product"
@@ -1585,7 +1464,7 @@
         },
         {
           "id": "cumin",
-          "name": "Cumin",
+          "name": "Cumin for chili/fajitas/tacos",
           "voila": {
             "url": "https://voila.ca/products/club-house-ground-cumin-90-g/503752EA",
             "type": "product"
@@ -1593,7 +1472,7 @@
         },
         {
           "id": "paprika",
-          "name": "Smoked paprika",
+          "name": "Smoked paprika for chili/fajitas/tacos",
           "voila": {
             "url": "https://voila.ca/products/mccormick-smoked-paprika-46-g/164655EA",
             "type": "product"
@@ -1601,39 +1480,43 @@
         },
         {
           "id": "sesameoil",
-          "name": "Sesame oil",
+          "name": "Sesame oil for soba, beef or pork",
           "voila": {
             "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA",
             "type": "product"
           }
         },
         {
-          "id": "sesameseeds",
-          "name": "Sesame seeds",
+          "id": "maple",
+          "name": "Maple syrup: W1 2 tsp salmon; W2 1 tsp beef",
           "voila": {
-            "url": "https://voila.ca/products/compliments-sesame-seeds-145-g/446178EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "hotsauce",
-          "name": "Hot sauce",
-          "voila": {
-            "url": "https://voila.ca/products/frank-s-red-hot-sauce-original-354-ml/915035EA",
+            "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA",
             "type": "product"
           }
         },
         {
           "id": "salsa",
-          "name": "Salsa",
+          "name": "Salsa for fajitas/tacos, optional on potatoes",
           "voila": {
             "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA",
             "type": "product"
           }
         },
         {
+          "id": "oregano",
+          "name": "Dried oregano for chicken"
+        },
+        {
+          "id": "salt",
+          "name": "Salt to taste, buy only if needed"
+        },
+        {
+          "id": "blackpepper",
+          "name": "Pepper to taste, buy only if needed"
+        },
+        {
           "id": "snacks",
-          "name": "Protein-rich snacks",
+          "name": "Protein-rich snacks according to targets",
           "voila": {
             "url": "https://voila.ca/categories/snacks-candy/WEB1100614",
             "type": "category"
@@ -1641,116 +1524,150 @@
         },
         {
           "id": "desserts",
-          "name": "Desserts of your choice",
+          "name": "Optional desserts according to goals",
           "voila": {
             "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
             "type": "category"
           }
-        },
-        {
-          "id": "oregano",
-          "name": "Dried oregano (or use dried basil)"
-        },
-        {
-          "id": "cinnamon",
-          "name": "Ground cinnamon (optional)"
-        },
-        {
-          "id": "salt",
-          "name": "Salt (check pantry)"
-        },
-        {
-          "id": "blackpepper",
-          "name": "Ground black pepper (check pantry)"
         }
       ]
     }
   ],
-  "shopping_note": "Rice and quinoa are already in your pantry. Use your rice cooker for any recipe calling for cooked rice. Reheat refrigerated rice thoroughly; refrigerate promptly after cooking.",
+  "shopping_note": "Shopping rebuilt for Sunday batch v3: per-week amounts; rice already in pantry; check purchases on hand.",
   "shopping_optimization": {
     "buy_once_ids": [
+      "chicken",
       "groundbeef",
-      "groundturkey",
       "shrimp",
       "tuna",
-      "meatballsangus",
       "whey",
-      "onion",
+      "cucumber",
+      "tomatoes",
       "broccoli",
-      "greenbeans",
+      "spinach",
       "potatoes",
+      "lemons",
+      "limes",
+      "avocado",
       "stirfryveg",
-      "pasta",
-      "noodles",
       "oats",
       "blackbeans",
       "crushedtomatoes",
-      "corn",
       "coconutmilk",
-      "peanutbutter",
       "oliveoil",
+      "peanutbutter",
       "soysauce",
-      "sriracha",
-      "dijon",
       "maple",
       "paprika",
       "cumin",
       "chilipowder",
-      "currypaste",
-      "marinara",
       "salsa",
-      "honey",
       "sesameoil",
-      "vinegar",
-      "ricenoodles",
-      "udon",
-      "whitebeans",
-      "chickpeas",
-      "harissa",
-      "sweetchili",
-      "currypowder",
-      "garammasala",
-      "sesameseeds",
-      "hotsauce",
-      "berries",
-      "redpepperflakes",
-      "driedbasil",
       "oregano",
-      "cocoa",
-      "cinnamon",
       "salt",
-      "blackpepper"
+      "blackpepper",
+      "snacks",
+      "desserts"
     ],
     "hints": {
-      "groundbeef": "1 × 454 g package covers the 225 g meals in Weeks 1 and 2. Freeze half for Week 2.",
-      "groundturkey": "Chili needs 600 g RAW turkey. Voilà product comes in 450 g packs: BUY TWO, use 600 g and freeze 300 g.",
-      "shrimp": "Two 250 g RAW shrimp recipes = 500 g total. The Voilà product is a 340 g bag: BUY TWO, thaw only the portions you need.",
-      "tuna": "Each tuna recipe uses two 170 g cans: BUY FOUR cans over 14 days.",
-      "whey": "9 scoops in total for six shakes across both Wednesdays; check how much you already have.",
-      "onion": "One 1.36 kg bag should cover both weeks; store cool and dry.",
-      "broccoli": "One 500 g bag should cover the two broccoli meals; check actual bag weight versus cup portions.",
-      "greenbeans": "One 750 g bag for the salmon meal; keep leftovers frozen.",
-      "potatoes": "ONE 2.27 kg bag of REGULAR potatoes covers 14 days. W1: 300 g lemon chicken + 300 g salmon (cut 2 cm cubes). W2: 350 g chili potato + 250 g tuna salad. Total 1.2 kg. NO baby potatoes needed.",
-      "stirfryveg": "Voilà product is a 500 g bag. Plan on two bags for the two recipes (one each week).",
-      "oats": "180 g total for six shakes. One 1 kg bag lasts several rotations.",
-      "blackbeans": "About 2 × 540 mL cans across chili and the two bean bowls. Freeze the Week 2 portion after opening.",
-      "crushedtomatoes": "Week 1 needs 796 mL; Week 2 needs about ¾ cup. Buy a smaller second can if available, or freeze the extra from a second large can.",
-      "corn": "Only 1 cup total across both weeks; one 750 g bag lasts multiple rotations.",
-      "coconutmilk": "One 400 mL can is roughly enough for both curries (1½ cups total); freeze the Week 2 portion promptly.",
-      "peanutbutter": "Also works for Week 2's shakes; no need to buy almond butter.",
-      "berries": "Week 2 needs about 300 g for three berry shakes; one 600 g bag is more than enough.",
-      "pasta": "One 410 g penne package; the recipe needs 90 g.",
-      "noodles": "The 250 g pack has THREE tied bundles (~83 g each). For one ginger-beef meal, cook ONE bundle, keep the other two dry. Do NOT cook all 250 g. Penne are for meatballs.",
-      "ricenoodles": "One 300 g rice-noodle package; the recipe needs 90 g.",
-      "udon": "One 200 g package for the Week 2 pork dish.",
-      "redpepperflakes": "About ¼ tsp for meatball pasta; a small bag lasts several rotations.",
-      "driedbasil": "About 1 tsp for meatball pasta; a small bag lasts several rotations.",
-      "oregano": "For lemon chicken and chicken-potato bowl. If absent, dried basil or an Italian herb blend works.",
-      "cocoa": "For Week 1 chocolate-banana shakes; optional if your whey is already chocolate-flavored.",
-      "cinnamon": "Only for Week 2 berry shakes; omit if you don't have any.",
-      "salt": "For seasoning to taste; only buy if you're out.",
-      "blackpepper": "For seasoning to taste; only buy if you're out.",
-      "meatballsangus": "Exact product: one 680 g bag; use 150 g for penne and keep the rest frozen. NOT Long Phung (216 g, deliberately springy texture). Regular version has 14 g fat per 60 g and no listed cheese; tenderness is subjective."
+      "chicken": "Used in both weeks: consider both quantities and what you already own.",
+      "groundbeef": "Used in both weeks: consider both quantities and what you already own.",
+      "shrimp": "Used in both weeks: consider both quantities and what you already own.",
+      "tuna": "Used in both weeks: consider both quantities and what you already own.",
+      "whey": "Used in both weeks: consider both quantities and what you already own.",
+      "cucumber": "Used in both weeks: consider both quantities and what you already own.",
+      "tomatoes": "Used in both weeks: consider both quantities and what you already own.",
+      "broccoli": "Used in both weeks: consider both quantities and what you already own.",
+      "spinach": "Used in both weeks: consider both quantities and what you already own.",
+      "potatoes": "Used in both weeks: consider both quantities and what you already own.",
+      "lemons": "Used in both weeks: consider both quantities and what you already own.",
+      "limes": "Used in both weeks: consider both quantities and what you already own.",
+      "avocado": "Used in both weeks: consider both quantities and what you already own.",
+      "stirfryveg": "Used in both weeks: consider both quantities and what you already own.",
+      "oats": "Used in both weeks: consider both quantities and what you already own.",
+      "blackbeans": "Used in both weeks: consider both quantities and what you already own.",
+      "crushedtomatoes": "Used in both weeks: consider both quantities and what you already own.",
+      "coconutmilk": "Used in both weeks: consider both quantities and what you already own.",
+      "oliveoil": "Used in both weeks: consider both quantities and what you already own.",
+      "peanutbutter": "Used in both weeks: consider both quantities and what you already own.",
+      "soysauce": "Used in both weeks: consider both quantities and what you already own.",
+      "maple": "Used in both weeks: consider both quantities and what you already own.",
+      "paprika": "Used in both weeks: consider both quantities and what you already own.",
+      "cumin": "Used in both weeks: consider both quantities and what you already own.",
+      "chilipowder": "Used in both weeks: consider both quantities and what you already own.",
+      "salsa": "Used in both weeks: consider both quantities and what you already own.",
+      "sesameoil": "Used in both weeks: consider both quantities and what you already own.",
+      "oregano": "Used in both weeks: consider both quantities and what you already own.",
+      "salt": "Used in both weeks: consider both quantities and what you already own.",
+      "blackpepper": "Used in both weeks: consider both quantities and what you already own.",
+      "snacks": "Used in both weeks: consider both quantities and what you already own.",
+      "desserts": "Used in both weeks: consider both quantities and what you already own."
     }
-  }
+  },
+  "batch_prep": [
+    {
+      "title": "Sunday prep — Week 1",
+      "active": "45–60 min hands-on",
+      "elapsed": "90–120 min elapsed (including packing)",
+      "intro": "Batch once before Week 1. The two weeks can be started in either order. Freeze every Thu–Sun cooked portion on prep day.",
+      "equipment": "Oven, Ninja dual-basket air fryer, rice cooker, large pot, skillet, shallow labelled meal containers.",
+      "steps": [
+        "LABEL containers first: MON tuna/rice, MON beef/soba, TUE lemon chicken/potato, TUE chili/rice, THU fajita chicken/rice, THU salmon/potato, FRI penne/meatballs, FRI chili/potato, SAT pork/sweet potato, SUN shrimp curry/rice. Add one extra chili container marked SPARE.",
+        "RICE COOKER: measure exactly 1⅔ STANDARD measuring cups (~300 g) of DRY rice. Add water per rice package and cook (not 1⅔ rice-cooker scoops). After cooking, divide approximately 5 cups: MON tuna 1½; TUE chili 1; THU fajitas 1; SUN shrimp curry 1½.",
+        "NINJA: cut 650 g REGULAR raw potatoes into 2–2.5 cm cubes. AIR FRY at 200°C for 22–25 min with about 5 tsp olive oil total, shake halfway. Divide by INITIAL RAW weight: TUE 200 g, THU 200 g, FRI 250 g. Other basket: 250 g raw diced sweet potato + 1 tsp oil, AIR FRY 200°C for ~18–23 min. Optional soaking adds 20 min; dry very well.",
+        "OVEN 200°C / 400°F: cook 450 g RAW chicken until 74°C / 165°F, about 20–25 min; split evenly into TWO cooked portions equivalent to 225 g raw each. On separate trays cook 225 g salmon with 1 tbsp Dijon + 2 tsp maple (about 12–15 min, 63°C / 145°F) and 225 g boneless pork to 63°C / 145°F followed by 3-min rest. Timing depends on thickness; pull each tray when ready.",
+        "FAJITA VEGETABLES: cook 1 sliced pepper + ½ onion with smoked paprika and cumin on an oven tray or in skillet; pack with THU chicken. TUE chicken stays plain; add lemon-Dijon dressing when serving.",
+        "CHILI: brown 600 g RAW lean ground turkey in large pot to 74°C / 165°F; add 1 can 796 mL crushed tomatoes, 1 can 540 mL black beans (rinsed), 1 diced bell pepper, ½ diced onion, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika. Simmer about 20 min. Divide FINISHED chili evenly into 3 containers: TUE dinner, FRI dinner, spare freezer portion. Optional slow cooker after browning: HIGH ~3–4 h (longer elapsed time).",
+        "BEEF/SOBA: brown 225 g RAW lean ground beef to 71°C / 160°F. Boil ONE tied bundle (~83 g DRY) of Blue Dragon soba, NOT the 250 g packet. Cook 1½ cups frozen broccoli. Toss together with 1 tbsp soy, 1 tsp honey, 1 tsp sesame oil and ½ tsp ginger; pack MON dinner.",
+        "PENNE/MEATBALLS: boil 90 g DRY penne. Heat 150 g fully cooked frozen Angus meatballs in ¾ cup marinara with 2 cups baby spinach and 1 tsp basil. Combine, pack FRI lunch.",
+        "SHRIMP CURRY: simmer 1 cup light coconut milk + 1 tbsp red curry paste + 2 cups FROZEN Asian vegetables. Add 250 g thawed RAW peeled shrimp; cook to 74°C / 165°F. Pack SUN curry beside its measured 1½ cups cooked rice.",
+        "COOL / STORE: refrigerate MON and TUE meals promptly; freeze all THU–SUN labelled portions and chili spare on Sunday. Keep fresh vegetables/cans unopened until serving. Move a frozen portion into the refrigerator the EVENING BEFORE its day."
+      ],
+      "portions": [
+        "RICE: 5 cups cooked = 1½ MON tuna + 1 TUE chili + 1 THU fajitas + 1½ SUN curry.",
+        "CHICKEN: 450 g raw = 2 portions (TUE lemon, THU fajitas), each equivalent to 225 g raw.",
+        "TURKEY CHILI: 600 g raw turkey yields 3 equal cooked servings (TUE, FRI, spare).",
+        "POTATOES: 650 g raw = 200 TUE + 200 THU + 250 FRI; SWEET POTATO 250 g SAT.",
+        "OTHER: beef 225 g + ONE soba bundle MON; salmon 225 g THU; meatballs 150 g + penne 90 g FRI; pork 225 g SAT; shrimp 250 g SUN."
+      ],
+      "storage": [
+        "MON/TUE cooked meals at or below 4°C in fridge; later meals at -18°C in freezer until the day before.",
+        "Chill rice and cooked proteins rapidly in shallow containers and refrigerate/freeze within two hours.",
+        "Use refrigerated leftovers within 2–3 days; reheat leftovers only once to 74°C / 165°F throughout (stir halfway).",
+        "If thawing takes longer, use fridge earlier; do not leave food on the counter. Day-of fresh cucumber/avocado/tomatoes are not frozen."
+      ]
+    },
+    {
+      "title": "Sunday prep — Week 2",
+      "active": "40–55 min hands-on",
+      "elapsed": "75–105 min elapsed (including packing)",
+      "intro": "Week 2 is INDEPENDENT of Week 1: no chili leftovers are required. Everything hot is cooked here, not on weekday evenings.",
+      "equipment": "Oven, Ninja dual-basket air fryer, rice cooker, skillet, shallow labelled meal containers.",
+      "steps": [
+        "LABEL MON tuna/potato; MON lemon chicken/rice; TUE peanut chicken/rice; TUE taco beef/rice; THU shrimp/rice; THU harissa chicken; FRI sweet-chili chicken/potato; FRI Korean beef/rice; SAT tomato–coconut chicken/rice; SUN sesame pork. Mark THU–SUN FREEZE.",
+        "RICE COOKER: measure exactly 2⅔ STANDARD cups (~480 g) DRY rice, add package-recommended water, cook. Yield ~8 cups COOKED. Measure: MON chicken 1½; TUE peanut chicken 1; TUE taco beef 1; THU shrimp 1½; FRI Korean beef 1½; SAT curry 1½.",
+        "NINJA: dice 450 g REGULAR RAW potatoes. Toss with ~3 tsp olive oil. AIR FRY 200°C 22–25 min, shake halfway. Portion MON 200 g and FRI 250 g by initial RAW weight.",
+        "OVEN 200°C / 400°F: roast 1,150 g RAW chicken to 74°C / 165°F (~20–30 min depending on thickness), then split into 5 labelled cooked portions corresponding to RAW weights: MON 225 g oregano, TUE 225 g peanut, THU 225 g harissa, FRI 225 g sweet-chili potato, SAT 250 g curry. Roast 225 g pork strips separately to 63°C / 145°F and rest 3 min.",
+        "BEEF: brown 450 g RAW lean ground beef to 71°C / 160°F. Split into TWO equal cooked portions: TUE tacos (½ tsp chili powder, ¼ tsp cumin, ¼ tsp smoked paprika), FRI Korean (1 tbsp soy, 1 tsp maple, 1 tsp sesame oil).",
+        "SHRIMP: cook 250 g RAW peeled, thawed shrimp until 74°C / 165°F; pack and freeze for THU mango rice bowl. Frozen mango is thawed overnight before serving, NOT cooked with shrimp.",
+        "CHICKEN FLAVOURS: add oregano/garlic to MON chicken, leave TUE peanut chicken plain (1-minute sauce Tuesday), coat THU chicken with 1 tbsp harissa and 2 tsp olive oil, leave FRI potato chicken plain (sweet chili added at serving).",
+        "SAT CURRY: simmer ¾ cup crushed tomatoes + ½ cup light coconut milk + 2 cups baby spinach + 1 tsp curry powder + ½ tsp garam masala. Add the SAT cooked chicken portion (250 g RAW-equivalent); cool and freeze with its rice.",
+        "SUN PORK: add 1 tbsp soy, 1 tbsp sweet chili and 1 tsp sesame oil to the cooked pork. Keep ONE 200 g READY-TO-USE udon packet unopened and 2 cups frozen Asian vegetables frozen for Sunday.",
+        "COOL / STORE: refrigerate MON/TUE meals, freeze THU–SUN cooked portions on prep day. Move frozen food into fridge the night before. Cans of tuna/beans, fresh produce, bagged cabbage, and udon stay in their proper packaging until use."
+      ],
+      "portions": [
+        "RICE: 8 cups cooked = 1½ MON oregano + 1 TUE peanut + 1 TUE tacos + 1½ THU shrimp + 1½ FRI beef + 1½ SAT curry.",
+        "CHICKEN: 1,150 g raw = four 225 g portions (Mon, Tue, Thu, Fri) plus one 250 g portion (Sat).",
+        "BEEF: 450 g raw = two portions of 225 g (Tue taco, Fri Korean). PORK: 225 g raw for Sun. SHRIMP: 250 g raw for Thu.",
+        "POTATOES: 450 g raw = 200 MON tuna + 250 FRI chicken. UDON: ONE ready-to-use 200 g packet SUN.",
+        "FRESH/READY FOOD: tuna/white beans MON; mango + cucumber THU; shredded cabbage FRI."
+      ],
+      "storage": [
+        "MON/TUE refrigerated at 4°C or lower; THU–SUN frozen Sunday at -18°C.",
+        "Transfer frozen portions to fridge the evening before the day; never thaw cooked meals on counter.",
+        "Cool rice/proteins quickly in shallow containers; refrigerate or freeze within two hours. Reheat leftovers once to 74°C / 165°F.",
+        "Total time is 75–105 min Sunday, but serving-day microwave/assembly tasks are designed for 5–8 min."
+      ]
+    }
+  ]
 }
