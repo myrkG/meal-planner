@@ -103,7 +103,7 @@
         "Dice tomatoes and cucumber.",
         "Mix oil, Dijon, lemon and oregano; pour over hot chicken and fresh vegetables."
       ],
-      "before": "TUESDAY: chicken was weighed as 225 g RAW before Sunday's 200°C oven cooking to 74°C / 165°F; cut into bite-size chunks after cooking and refrigerate for Tuesday. The 200 g potatoes refers to RAW weight.",
+      "before": "TUESDAY: use 225 g RAW boneless skinless chicken thighs baked WHOLE Sunday at 200°C / 400°F for about 20–30 min until 74°C / 165°F, then cut into bite-size pieces. The 200 g potatoes are RAW weight before cooking.",
       "tip": "Potato weight 200 g BEFORE cooking.",
       "batch_ready": true,
       "nutrition": {
@@ -147,7 +147,7 @@
       "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW-equivalent boneless chicken, baked plain Sunday (one half of 450 g RAW chicken batch)",
+        "225 g RAW BONELESS SKINLESS chicken thighs, baked whole Sunday then sliced",
         "1 bell pepper, sliced, and ½ onion, sliced",
         "1 tsp (5 mL) SMOKED PAPRIKA",
         "½ tsp (2.5 mL) GROUND CUMIN",
@@ -163,7 +163,7 @@
         "Reheat covered in the microwave for about 4–6 min, stirring halfway, until the food reaches 74°C / 165°F throughout.",
         "Add 1 tbsp salsa and 1 tsp lime juice just before eating. All spices were already added Sunday."
       ],
-      "before": "All 225 g of chicken is its RAW weight before Sunday's batch. The smoked paprika, cumin, salt and pepper are measured and added Sunday to the pepper/onion skillet, then the already cooked chicken is tossed in. Nothing raw to cook Thursday.",
+      "before": "225 g RAW boneless skinless chicken thighs are baked whole Sunday and cut into strips AFTER cooking. Season the peppers and onion Sunday with measured spices; then toss the already-cooked chicken into the skillet. Thursday only reheat and add beans/salsa/lime.",
       "tip": "ONE serving: 1 tsp smoked paprika + ½ tsp cumin + ¼ tsp salt + pinch black pepper, with 1 tsp olive oil. The baked chicken is added to seasoned peppers for 1–2 min. Thursday only reheat and add black beans/salsa/lime.",
       "batch_ready": true,
       "nutrition": {
@@ -174,7 +174,7 @@
         "basis": "per_portion"
       },
       "batch_steps": [
-        "SUNDAY — CUT AND COOK CHICKEN: weigh TWO separate piles of exactly 225 g RAW boneless chicken before baking (450 g total). Keep each breast/piece WHOLE for baking, flatten only an extra-thick section if needed. Put the two 225 g groups next to each other, without overlap, on a parchment-lined baking tray; keep them identifiable. Bake at 200°C / 400°F for about 20–25 min (up to ~30 min if thick), checking that the thickest point reaches 74°C / 165°F. Let rest 3–5 min. Keep the first 225 g-raw group plain for Tuesday lemon potatoes; slice the second COOKED 225 g-raw group into strips about 1 cm wide for Thursday fajitas. Do not weigh the cooked meat and assume it still weighs 225 g.",
+        "SUNDAY — CHICKEN THIGHS: weigh TWO groups of 225 g RAW BONELESS SKINLESS chicken thighs (450 g total). Leave thighs WHOLE for oven baking, do not flatten or slice beforehand. Place on a parchment-lined tray without overlap. Bake at 200°C / 400°F for about 20–30 min until the thickest portion reaches 74°C / 165°F. Rest 3 min. Keep one 225 g RAW-equivalent thigh group plain for Tue lemon-potatoes; slice the second ALREADY COOKED group into about 1-cm strips for Thu fajitas. All weights are RAW and boneless.",
         "FAJITA SEASONING: mix in a small bowl EXACTLY 1 tsp smoked paprika + ½ tsp ground cumin + ¼ tsp salt + one pinch black pepper. This entire spice mixture is for the ONE Thursday fajita portion.",
         "VEGETABLES: slice 1 whole bell pepper and ½ medium onion into thin strips. Heat 1 tsp olive oil in a skillet over medium-high heat.",
         "COOK VEGETABLES: cook the pepper and onion for about 5–7 min, stirring, until tender with some colour. Sprinkle ALL the measured spices over the vegetables and stir for 30 seconds.",
@@ -801,11 +801,7 @@
       "Protein and refrigerated": [
         {
           "id": "chicken",
-          "name": "Boneless chicken: W1 450 g RAW (2 × 225 g) / W2 1,150 g RAW (4 × 225 g + 250 g)",
-          "voila": {
-            "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
-            "type": "product"
-          }
+          "name": "BONELESS SKINLESS CHICKEN THIGHS: W1 450 g RAW (2 × 225 g) / W2 1,150 g RAW (4 × 225 g + 250 g), NOT chicken breasts."
         },
         {
           "id": "groundbeef",
@@ -1206,11 +1202,7 @@
       "Protein and refrigerated": [
         {
           "id": "chicken",
-          "name": "Boneless chicken: W1 450 g RAW (2 × 225 g) / W2 1,150 g RAW (4 × 225 g + 250 g)",
-          "voila": {
-            "url": "https://voila.ca/products/chicken-breast-boneless-skinless/1295338KG",
-            "type": "product"
-          }
+          "name": "BONELESS SKINLESS CHICKEN THIGHS: W1 450 g RAW (2 × 225 g) / W2 1,150 g RAW (4 × 225 g + 250 g), NOT chicken breasts."
         },
         {
           "id": "groundbeef",
@@ -1643,7 +1635,7 @@
         "LABEL containers first: MON tuna/rice, MON beef/soba, TUE lemon chicken/potato, TUE chili/rice, THU fajita chicken/rice, THU salmon/potato, FRI penne/meatballs, FRI chili/potato, SAT pork/sweet potato, SUN shrimp curry/rice. Add one extra chili container marked SPARE.",
         "RICE COOKER: measure exactly 1⅔ STANDARD measuring cups (~300 g) of DRY rice. Add water per rice package and cook (not 1⅔ rice-cooker scoops). After cooking, divide approximately 5 cups: MON tuna 1½; TUE chili 1; THU fajitas 1; SUN shrimp curry 1½.",
         "NINJA: cut 650 g REGULAR raw potatoes into 2–2.5 cm cubes. AIR FRY at 200°C for 22–25 min with about 5 tsp olive oil total, shake halfway. Divide by INITIAL RAW weight: TUE 200 g, THU 200 g, FRI 250 g. Other basket: 250 g raw diced sweet potato + 1 tsp oil, AIR FRY 200°C for ~18–23 min. Optional soaking adds 20 min; dry very well.",
-        "OVEN CHICKEN (FOR TUE + THU): preheat oven to 200°C / 400°F. Weigh exactly TWO separate groups of 225 g RAW boneless chicken BEFORE baking; label/group A for TUE lemon, group B for THU fajitas. Leave breasts whole, but flatten extra-thick parts gently for even cooking; place side by side (not overlapping) on a parchment-lined baking tray. Bake 20–25 min, up to about 30 min depending on thickness, until 74°C / 165°F in the thickest part. Rest 3–5 min. Keep TUE portion plain (cut into bite-size chunks after baking); cut THU portion into ~1 cm-wide strips AFTER baking. Cook fajita peppers/onion separately with their measured spices, then toss in the already cooked THU chicken strips for 1–2 min. Do not guess RAW weights by weighing cooked chicken. OTHER OVEN TRAYS: cook 225 g salmon with 1 tbsp Dijon + 2 tsp maple (about 12–18 min, to 70°C / 158°F), and 225 g boneless pork separately to 71°C / 160°F; remove each tray when ready.",
+        "OVEN — CHICKEN THIGHS FOR TUE + THU: preheat oven to 200°C / 400°F. Use 450 g RAW BONELESS SKINLESS chicken thighs, split into TWO distinct 225 g RAW groups: Tue lemon chicken and Thu fajitas. Leave the thighs WHOLE, do not flatten or slice before baking. Arrange without overlap on a parchment-lined tray. Bake about 20–30 min depending on thickness, until the thickest part reaches 74°C / 165°F. Rest 3 min. Cut TUE into bite-sized pieces AFTER baking; cut THU into ~1 cm strips AFTER baking, then toss 1–2 min into pre-cooked spiced fajita peppers/onion. The 225 g is RAW weight; do not weigh cooked chicken expecting 225 g. If thighs have bones, debone BEFORE weighing, or serving amounts will not match. OTHER TRAYS: cook 225 g salmon with 1 tbsp Dijon + 2 tsp maple to 70°C / 158°F, and 225 g boneless pork separately to 71°C / 160°F.",
         "FAJITA CHICKEN / VEGETABLES (ONE THURSDAY PORTION): take HALF of the 450 g-RAW chicken batch already baked to 74°C / 165°F (225 g RAW equivalent); the other half stays plain for Tuesday. Mix exactly 1 tsp SMOKED PAPRIKA + ½ tsp GROUND CUMIN + ¼ tsp SALT + 1 pinch BLACK PEPPER in a small bowl. Slice 1 whole bell pepper and ½ onion. Heat 1 tsp olive oil in a skillet on medium-high; cook pepper/onion 5–7 min, add the spice mix and stir for 30 sec. Add the Thursday portion of ALREADY-COOKED chicken, cut in strips, plus 1–2 tbsp water if dry; toss 1–2 min. Pack with exactly 1 cup Sunday-COOKED rice, then cool promptly and FREEZE Sunday for Thursday. Thursday add ¾ cup black beans, 1 tbsp salsa and 1 tsp lime. Do not add fajita spices to Tuesday's chicken.",
         "CHILI: brown 600 g RAW lean ground turkey in large pot to 74°C / 165°F; add 1 can 796 mL crushed tomatoes, 1 can 540 mL black beans (rinsed), 1 diced bell pepper, ½ diced onion, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika. Simmer about 20 min. Divide FINISHED chili evenly into 3 containers: TUE dinner, FRI dinner, spare freezer portion. Optional slow cooker after browning: HIGH ~3–4 h (longer elapsed time).",
         "BEEF/SOBA: in a bowl mix SAUCE = 1 tbsp soy + 1 tsp honey + 1 tsp sesame oil + ½ tsp grated ginger + 2 tbsp water. Boil ONE tied Blue Dragon soba bundle (~83 g DRY) per package (NOT all 250 g); drain. Microwave 1½ cups frozen broccoli covered with a little water 4–6 min until hot; drain. Brown 225 g RAW lean ground beef in a skillet ~6–8 min to 71°C / 160°F. REDUCE to medium heat and POUR THE SAUCE INTO THE COOKED BEEF; stir 1–2 min. Add drained soba and cooked broccoli; toss 1 min. Pack MON dinner and refrigerate promptly.",
@@ -1675,7 +1667,7 @@
         "LABEL MON tuna/potato; MON lemon chicken/rice; TUE peanut chicken/rice; TUE taco beef/rice; THU shrimp/rice; THU harissa chicken; FRI sweet-chili chicken/potato; FRI Korean beef/rice; SAT tomato–coconut chicken/rice; SUN sesame pork. Mark THU–SUN FREEZE.",
         "RICE COOKER: measure exactly 2⅔ STANDARD cups (~480 g) DRY rice, add package-recommended water, cook. Yield ~8 cups COOKED. Measure: MON chicken 1½; TUE peanut chicken 1; TUE taco beef 1; THU shrimp 1½; FRI Korean beef 1½; SAT curry 1½.",
         "NINJA: dice 450 g REGULAR RAW potatoes. Toss with ~3 tsp olive oil. AIR FRY 200°C 22–25 min, shake halfway. Portion MON 200 g and FRI 250 g by initial RAW weight.",
-        "OVEN 200°C / 400°F: roast 1,150 g RAW chicken to 74°C / 165°F (~20–30 min depending on thickness), then split into 5 labelled cooked portions corresponding to RAW weights: MON 225 g oregano, TUE 225 g peanut, THU 225 g harissa, FRI 225 g sweet-chili potato, SAT 250 g curry. Roast 225 g pork strips separately to 71°C / 160°F.",
+        "OVEN — BONELESS SKINLESS CHICKEN THIGHS: weigh 1,150 g RAW boneless, skinless thighs for FIVE portions: 225 g Mon oregano, 225 g Tue peanut, 225 g Thu harissa, 225 g Fri sweet-chili potatoes, and 250 g Sat curry. Bake thighs WHOLE in a single layer on baking trays at 200°C / 400°F for about 20–30 min until the thickest part is 74°C / 165°F. Cut into bite-sized pieces AFTER cooking as needed, keeping five portions corresponding to RAW weights separate. Season as indicated in the following steps. Roast 225 g pork strips separately to 71°C / 160°F. If thighs have bones, debone BEFORE weighing servings.",
         "BEEF: brown 450 g RAW lean ground beef to 71°C / 160°F. Split into TWO equal cooked portions: TUE tacos (½ tsp chili powder, ¼ tsp cumin, ¼ tsp smoked paprika), FRI Korean (1 tbsp soy, 1 tsp maple, 1 tsp sesame oil).",
         "SHRIMP: cook 250 g RAW peeled, thawed shrimp until 74°C / 165°F; pack and freeze for THU mango rice bowl. Frozen mango is thawed overnight before serving, NOT cooked with shrimp.",
         "CHICKEN FLAVOURS: add oregano/garlic to MON chicken, leave TUE peanut chicken plain (1-minute sauce Tuesday), coat THU chicken with 1 tbsp harissa and 2 tsp olive oil, leave FRI potato chicken plain (sweet chili added at serving).",
