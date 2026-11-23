@@ -53,17 +53,21 @@
       "active_minutes": 5,
       "servings": 1,
       "ingredients": [
-        "225 g RAW lean ground beef, COOKED Sunday",
-        "ONE tied bundle (~83 g DRY) Blue Dragon soba, COOKED Sunday",
-        "1½ cups frozen broccoli, heated Sunday",
-        "1 tbsp soy; 1 tsp honey; 1 tsp sesame oil; ½ tsp ginger, mixed Sunday"
+        "225 g lean ground beef, RAW before Sunday's cooking",
+        "ONE tied Blue Dragon soba bundle (~83 g DRY; do not cook the whole 250 g package)",
+        "1½ cups (375 mL) FROZEN broccoli florets",
+        "1 tbsp (15 mL) reduced-sodium soy sauce",
+        "1 tsp (5 mL) honey",
+        "1 tsp (5 mL) sesame oil",
+        "½ tsp grated ginger",
+        "2 tbsp (30 mL) water for the sauce"
       ],
       "steps": [
-        "Take the MON dinner beef–soba container from the fridge.",
-        "Microwave covered 3–5 min; stir halfway and reach 74°C / 165°F."
+        "MONDAY — remove the completely cooked beef–soba–broccoli container from the fridge. No extra sauce or seasoning is needed: everything was added Sunday.",
+        "Microwave covered for about 3–5 min, stirring halfway, until the centre reaches 74°C / 165°F. Eat immediately."
       ],
-      "before": "Entire dish cooked and assembled in Sunday's batch.",
-      "tip": "ONE soba bundle only; NEVER cook the whole 250 g bag.",
+      "before": "Sunday prep: cook the meat, soba and broccoli; mix and add the soy–honey–sesame–ginger sauce in the skillet BEFORE packing. Monday: just reheat.",
+      "tip": "Exactly ONE of the three tied Blue Dragon soba bundles (~83 g dry), never the entire 250 g packet. The soy, honey, sesame oil and ginger go into one sauce bowl and are poured over cooked beef before mixing in noodles and broccoli.",
       "batch_ready": true,
       "nutrition": {
         "calories": 850,
@@ -71,7 +75,16 @@
         "carbs_g": 82,
         "fat_g": 31,
         "basis": "per_portion"
-      }
+      },
+      "batch_steps": [
+        "SUNDAY — SAUCE FIRST: in a small bowl, mix 1 tbsp soy sauce, 1 tsp honey, 1 tsp sesame oil, ½ tsp ginger and 2 tbsp water. Set aside. Do not pour the sauce into the pasta cooking water.",
+        "SOBA: bring water to a boil in a saucepan. Add ONE Blue Dragon tied bundle (about 83 g DRY) only, cook as directed on its packet, then drain.",
+        "BROCCOLI: put 1½ cups frozen broccoli in a covered microwave-safe bowl with a splash of water. Microwave about 4–6 min until hot and tender; drain excess water.",
+        "BEEF: heat a non-stick skillet over medium-high heat; add 225 g RAW lean ground beef. Break it apart with a spatula and brown for about 6–8 min, until fully cooked (71°C / 160°F).",
+        "SAUCE GOES ON THE BEEF: reduce heat to medium and pour the entire bowl of soy–honey–sesame–ginger sauce into the skillet with the cooked beef. Stir and simmer 1–2 min until it lightly coats the meat (do not boil it dry).",
+        "COMBINE: add drained cooked soba and cooked drained broccoli to the sauced beef. Toss gently over medium heat about 1 min until evenly coated.",
+        "PORTION: transfer the entire dish to the labelled MON dinner shallow container. Cool promptly and refrigerate within 2 hours."
+      ]
     },
     "lemonpotato": {
       "id": "lemonpotato",
@@ -1618,7 +1631,7 @@
         "OVEN 200°C / 400°F: cook 450 g RAW chicken until 74°C / 165°F, about 20–25 min; split evenly into TWO cooked portions equivalent to 225 g raw each. On separate trays cook 225 g salmon with 1 tbsp Dijon + 2 tsp maple (about 12–18 min, until 70°C / 158°F) and 225 g boneless pork to 71°C / 160°F. Timing depends on thickness; pull each tray when ready.",
         "FAJITA VEGETABLES: cook 1 sliced pepper + ½ onion with smoked paprika and cumin on an oven tray or in skillet; pack with THU chicken. TUE chicken stays plain; add lemon-Dijon dressing when serving.",
         "CHILI: brown 600 g RAW lean ground turkey in large pot to 74°C / 165°F; add 1 can 796 mL crushed tomatoes, 1 can 540 mL black beans (rinsed), 1 diced bell pepper, ½ diced onion, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika. Simmer about 20 min. Divide FINISHED chili evenly into 3 containers: TUE dinner, FRI dinner, spare freezer portion. Optional slow cooker after browning: HIGH ~3–4 h (longer elapsed time).",
-        "BEEF/SOBA: brown 225 g RAW lean ground beef to 71°C / 160°F. Boil ONE tied bundle (~83 g DRY) of Blue Dragon soba, NOT the 250 g packet. Cook 1½ cups frozen broccoli. Toss together with 1 tbsp soy, 1 tsp honey, 1 tsp sesame oil and ½ tsp ginger; pack MON dinner.",
+        "BEEF/SOBA: in a bowl mix SAUCE = 1 tbsp soy + 1 tsp honey + 1 tsp sesame oil + ½ tsp grated ginger + 2 tbsp water. Boil ONE tied Blue Dragon soba bundle (~83 g DRY) per package (NOT all 250 g); drain. Microwave 1½ cups frozen broccoli covered with a little water 4–6 min until hot; drain. Brown 225 g RAW lean ground beef in a skillet ~6–8 min to 71°C / 160°F. REDUCE to medium heat and POUR THE SAUCE INTO THE COOKED BEEF; stir 1–2 min. Add drained soba and cooked broccoli; toss 1 min. Pack MON dinner and refrigerate promptly.",
         "PENNE/MEATBALLS: boil 90 g DRY penne. Heat 150 g fully cooked frozen Angus meatballs in ¾ cup marinara with 2 cups baby spinach and 1 tsp basil. Combine, pack FRI lunch.",
         "SHRIMP CURRY: simmer 1 cup light coconut milk + 1 tbsp red curry paste + 2 cups FROZEN Asian vegetables. Add 250 g thawed RAW peeled shrimp; cook to 74°C / 165°F. Pack SUN curry beside its measured 1½ cups cooked rice.",
         "COOL / STORE: refrigerate MON and TUE meals promptly; freeze all THU–SUN labelled portions and chili spare on Sunday. Keep fresh vegetables/cans unopened until serving. Move a frozen portion into the refrigerator the EVENING BEFORE its day."
