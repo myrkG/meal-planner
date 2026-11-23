@@ -254,7 +254,7 @@
         "Heat cooked pork and sweet potato to 74°C / 165°F and add lime."
       ],
       "before": "Pork and sweet potato fully cooked Sunday, then FROZEN.",
-      "tip": "Initial pork cook 63°C / 145°F plus 3-min rest; leftovers reheat to 74°C.",
+      "tip": "Initially cook pork chop to 71°C / 160°F; reheat leftovers to 74°C / 165°F.",
       "batch_ready": true,
       "nutrition": {
         "calories": 730,
@@ -1615,7 +1615,7 @@
         "LABEL containers first: MON tuna/rice, MON beef/soba, TUE lemon chicken/potato, TUE chili/rice, THU fajita chicken/rice, THU salmon/potato, FRI penne/meatballs, FRI chili/potato, SAT pork/sweet potato, SUN shrimp curry/rice. Add one extra chili container marked SPARE.",
         "RICE COOKER: measure exactly 1⅔ STANDARD measuring cups (~300 g) of DRY rice. Add water per rice package and cook (not 1⅔ rice-cooker scoops). After cooking, divide approximately 5 cups: MON tuna 1½; TUE chili 1; THU fajitas 1; SUN shrimp curry 1½.",
         "NINJA: cut 650 g REGULAR raw potatoes into 2–2.5 cm cubes. AIR FRY at 200°C for 22–25 min with about 5 tsp olive oil total, shake halfway. Divide by INITIAL RAW weight: TUE 200 g, THU 200 g, FRI 250 g. Other basket: 250 g raw diced sweet potato + 1 tsp oil, AIR FRY 200°C for ~18–23 min. Optional soaking adds 20 min; dry very well.",
-        "OVEN 200°C / 400°F: cook 450 g RAW chicken until 74°C / 165°F, about 20–25 min; split evenly into TWO cooked portions equivalent to 225 g raw each. On separate trays cook 225 g salmon with 1 tbsp Dijon + 2 tsp maple (about 12–15 min, 63°C / 145°F) and 225 g boneless pork to 63°C / 145°F followed by 3-min rest. Timing depends on thickness; pull each tray when ready.",
+        "OVEN 200°C / 400°F: cook 450 g RAW chicken until 74°C / 165°F, about 20–25 min; split evenly into TWO cooked portions equivalent to 225 g raw each. On separate trays cook 225 g salmon with 1 tbsp Dijon + 2 tsp maple (about 12–18 min, until 70°C / 158°F) and 225 g boneless pork to 71°C / 160°F. Timing depends on thickness; pull each tray when ready.",
         "FAJITA VEGETABLES: cook 1 sliced pepper + ½ onion with smoked paprika and cumin on an oven tray or in skillet; pack with THU chicken. TUE chicken stays plain; add lemon-Dijon dressing when serving.",
         "CHILI: brown 600 g RAW lean ground turkey in large pot to 74°C / 165°F; add 1 can 796 mL crushed tomatoes, 1 can 540 mL black beans (rinsed), 1 diced bell pepper, ½ diced onion, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika. Simmer about 20 min. Divide FINISHED chili evenly into 3 containers: TUE dinner, FRI dinner, spare freezer portion. Optional slow cooker after browning: HIGH ~3–4 h (longer elapsed time).",
         "BEEF/SOBA: brown 225 g RAW lean ground beef to 71°C / 160°F. Boil ONE tied bundle (~83 g DRY) of Blue Dragon soba, NOT the 250 g packet. Cook 1½ cups frozen broccoli. Toss together with 1 tbsp soy, 1 tsp honey, 1 tsp sesame oil and ½ tsp ginger; pack MON dinner.",
@@ -1647,7 +1647,7 @@
         "LABEL MON tuna/potato; MON lemon chicken/rice; TUE peanut chicken/rice; TUE taco beef/rice; THU shrimp/rice; THU harissa chicken; FRI sweet-chili chicken/potato; FRI Korean beef/rice; SAT tomato–coconut chicken/rice; SUN sesame pork. Mark THU–SUN FREEZE.",
         "RICE COOKER: measure exactly 2⅔ STANDARD cups (~480 g) DRY rice, add package-recommended water, cook. Yield ~8 cups COOKED. Measure: MON chicken 1½; TUE peanut chicken 1; TUE taco beef 1; THU shrimp 1½; FRI Korean beef 1½; SAT curry 1½.",
         "NINJA: dice 450 g REGULAR RAW potatoes. Toss with ~3 tsp olive oil. AIR FRY 200°C 22–25 min, shake halfway. Portion MON 200 g and FRI 250 g by initial RAW weight.",
-        "OVEN 200°C / 400°F: roast 1,150 g RAW chicken to 74°C / 165°F (~20–30 min depending on thickness), then split into 5 labelled cooked portions corresponding to RAW weights: MON 225 g oregano, TUE 225 g peanut, THU 225 g harissa, FRI 225 g sweet-chili potato, SAT 250 g curry. Roast 225 g pork strips separately to 63°C / 145°F and rest 3 min.",
+        "OVEN 200°C / 400°F: roast 1,150 g RAW chicken to 74°C / 165°F (~20–30 min depending on thickness), then split into 5 labelled cooked portions corresponding to RAW weights: MON 225 g oregano, TUE 225 g peanut, THU 225 g harissa, FRI 225 g sweet-chili potato, SAT 250 g curry. Roast 225 g pork strips separately to 71°C / 160°F.",
         "BEEF: brown 450 g RAW lean ground beef to 71°C / 160°F. Split into TWO equal cooked portions: TUE tacos (½ tsp chili powder, ¼ tsp cumin, ¼ tsp smoked paprika), FRI Korean (1 tbsp soy, 1 tsp maple, 1 tsp sesame oil).",
         "SHRIMP: cook 250 g RAW peeled, thawed shrimp until 74°C / 165°F; pack and freeze for THU mango rice bowl. Frozen mango is thawed overnight before serving, NOT cooked with shrimp.",
         "CHICKEN FLAVOURS: add oregano/garlic to MON chicken, leave TUE peanut chicken plain (1-minute sauce Tuesday), coat THU chicken with 1 tbsp harissa and 2 tsp olive oil, leave FRI potato chicken plain (sweet chili added at serving).",
