@@ -167,8 +167,8 @@
       "week": 1,
       "title": "Côtelettes ail-lime, patates et haricots verts",
       "servings": 3,
-      "minutes": 50,
-      "equipment": "Four, 2 plaques, papier parchemin, petit bol",
+      "minutes": 40,
+      "equipment": "Four, Ninja air fryer, micro-ondes, 1 plaque de four, 2 bols",
       "ingredients": [
         {
           "id": "pork",
@@ -224,17 +224,22 @@
           "id": "peppercorn",
           "qty": 0.25,
           "detail": "¼ c. à thé"
+        },
+        {
+          "id": "water",
+          "qty": 30,
+          "detail": "2 c. à soupe pour les haricots verts au micro-ondes; égoutter ensuite"
         }
       ],
       "steps": [
-        "Préchauffer le FOUR à 205 °C (400 °F). Recouvrir DEUX plaques de papier parchemin : une pour les patates et haricots verts, l’autre pour les côtelettes.",
-        "Peser 600 g de patates CRUES, puis les couper en cubes d’environ 2 cm. Dans un bol ou directement sur la première plaque, mélanger les cubes avec 15 ml (1 c. à soupe) d’huile d’olive, ¾ c. à thé de paprika fumé et ¼ c. à thé de sel. Étaler en UNE couche. Mettre au four immédiatement pour 20 minutes.",
-        "Pendant ces 20 minutes, préparer TOUTE la sauce pour le porc dans un petit bol : 22,5 ml (1½ c. à soupe) de moutarde Dijon + 7,5 ml (1½ c. à thé) de miel + le jus d’UNE lime entière (~30 ml) + 2 gousses d’ail finement hachées + 10 ml (2 c. à thé) d’huile d’olive + ¼ c. à thé de sel + ¼ c. à thé de poivre. Mélanger à la cuillère.",
-        "Déposer les 452 g de côtelettes désossées CRUES sur la deuxième plaque sans les superposer. Badigeonner TOUTE la sauce sur les deux faces des côtelettes. Ne pas réserver de sauce pour le service.",
-        "Après les 20 premières minutes des patates, sortir brièvement leur plaque. Retourner les patates et ajouter 300 g de haricots verts encore SURGELÉS à côté, en une couche. Remettre cette plaque au four. Enfourner EN MÊME TEMPS la deuxième plaque avec les côtelettes. Poursuivre environ 18 à 25 minutes; mélanger les haricots à mi-cuisson.",
-        "Retirer les côtelettes dès que la partie la plus épaisse atteint 71 °C au centre (le temps dépend de leur épaisseur). Si les patates ne sont pas encore dorées et tendres, prolonger leur cuisson 5 à 10 minutes séparément. Les haricots doivent être bien chauds et tendres.",
-        "Laisser reposer le porc 3 minutes. Diviser les côtelettes, les 600 g de patates CRUES maintenant cuites et les 300 g de haricots cuits en EXACTEMENT TROIS contenants égaux. Répartir également sur les portions le jus de cuisson de la plaque du porc, après cuisson complète.",
-        "Les 3 plats sont COMPLETS : porc, sauce, patates et haricots. Pour manger plus tard, seulement réchauffer couvert jusqu’à 74 °C, sans rien ajouter."
+        "Préchauffer le four à 205 °C (400 °F). Préparer une seule plaque avec papier parchemin pour le porc. Les patates iront dans le Ninja; les haricots au micro-ondes.",
+        "Peser 600 g de patates CRUES. Les laver sans obligation de les éplucher, puis les couper en cubes d’environ 2 cm. Mélanger avec 15 ml (1 c. à soupe) d’huile d’olive, ¾ c. à thé de paprika fumé et ¼ c. à thé de sel.",
+        "Mettre les patates dans le Ninja, fonction AIR FRY à 200 °C pendant 22 à 25 minutes. Secouer à mi-cuisson, vers 12 minutes. Si le panier est trop rempli, répartir entre les deux paniers. Ajouter 3 à 5 minutes si elles ne sont pas dorées et tendres.",
+        "Pendant ce temps, préparer TOUTE la sauce dans un bol : 22,5 ml (1½ c. à soupe) de Dijon + 7,5 ml (1½ c. à thé) de miel + jus d’une lime entière (~30 ml) + 2 gousses d’ail hachées finement + 10 ml (2 c. à thé) d’huile d’olive + ¼ c. à thé de sel + ¼ c. à thé de poivre. Mélanger.",
+        "Déposer les 452 g de côtelettes désossées CRUES sur la seule plaque de four, sans superposer. Badigeonner TOUTE la sauce sur les deux faces des côtelettes, sans en réserver. Enfourner à 205 °C environ 18 à 25 minutes, selon l’épaisseur, et sortir le porc dès qu’il atteint 71 °C au centre du morceau le plus épais. Laisser reposer 3 minutes.",
+        "Vers la fin, mettre les 300 g de haricots verts encore SURGELÉS dans un bol allant au micro-ondes avec 30 ml (2 c. à soupe) d’eau. Couvrir sans fermer hermétiquement. Chauffer environ 5 à 7 minutes, remuer, vérifier que les haricots sont chauds et tendres, puis ÉGOUTTER.",
+        "Répartir en TROIS contenants égaux : les côtelettes cuites, les patates cuites au Ninja et les haricots égouttés. Répartir aussi dans les trois contenants les jus de cuisson du porc après cuisson complète.",
+        "Ces trois repas sont COMPLETS : porc, sauce, patates et haricots. Pour servir, seulement réchauffer la portion voulue à couvert jusqu’à 74 °C. Aucun ajout nécessaire."
       ],
       "storage": "3 portions d’environ 151 g de porc CRU chacune, plus 200 g de patates CRUES et 100 g de haricots SURGELÉS chacune (avant cuisson). Sauce déjà ajoutée. Refroidir rapidement; réfrigérer ou congeler dans les 2 heures. Réchauffer couvert jusqu’à 74 °C.",
       "nutrition": {
