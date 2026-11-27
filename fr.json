@@ -165,7 +165,7 @@
     "porkchop": {
       "id": "porkchop",
       "week": 1,
-      "title": "Côtelettes ail-lime, patates et haricots verts",
+      "title": "Côtelettes citron-ail, frites au Ninja et haricots verts",
       "servings": 3,
       "minutes": 40,
       "equipment": "Four, Ninja air fryer, micro-ondes, 1 plaque de four, 2 bols",
@@ -201,14 +201,14 @@
           "detail": "1½ c. à thé"
         },
         {
-          "id": "lime",
+          "id": "lemon",
           "qty": 1,
-          "detail": "presser tout le jus, environ 30 ml"
+          "detail": "jus d’un citron entier, environ 30 à 45 ml (2 à 3 c. à soupe)"
         },
         {
-          "id": "garlic",
-          "qty": 2,
-          "detail": "2 gousses, hachées fin"
+          "id": "garlicpowder",
+          "qty": 0.5,
+          "detail": "½ c. à thé d’ail en poudre; remplace les 2 gousses d’ail frais"
         },
         {
           "id": "paprika",
@@ -235,7 +235,7 @@
         "Préchauffer le four à 205 °C (400 °F). Préparer une seule plaque avec papier parchemin pour le porc. Les patates iront dans le Ninja; les haricots au micro-ondes.",
         "Peser exactement 600 g de pommes de terre ordinaires CRUES. Bien laver (garder la pelure si souhaité), puis les passer dans le coupe-frites Starfrit pour obtenir des bâtonnets d’environ 1 cm d’épaisseur. Rincer les frites à l’eau froide pour enlever l’amidon de surface; les SÉCHER très soigneusement avec un linge propre ou du papier absorbant. Mélanger avec 15 ml (1 c. à soupe) d’huile d’olive + ¾ c. à thé de paprika fumé + ¼ c. à thé de sel.",
         "Répartir les 600 g de frites dans le Ninja à deux paniers si nécessaire pour éviter de les entasser. Fonction AIR FRY à 200 °C, environ 18 à 23 minutes pour des bâtonnets d’environ 1 cm (les frites plus fines peuvent cuire plus vite). SECOUER les paniers vers 7 et 14 minutes; vérifier dès 18 minutes. Prolonger de 2 à 5 minutes si elles ne sont pas dorées et tendres. Les patates ne vont PAS au four.",
-        "Pendant ce temps, préparer TOUTE la sauce dans un bol : 22,5 ml (1½ c. à soupe) de Dijon + 7,5 ml (1½ c. à thé) de miel + jus d’une lime entière (~30 ml) + 2 gousses d’ail hachées finement + 10 ml (2 c. à thé) d’huile d’olive + ¼ c. à thé de sel + ¼ c. à thé de poivre. Mélanger.",
+        "Pendant que les frites cuisent, préparer TOUTE la sauce dans un petit bol : 22,5 ml (1½ c. à soupe) de moutarde Dijon + 7,5 ml (1½ c. à thé) de miel + le jus d’UN citron entier (~30 à 45 ml, soit 2 à 3 c. à soupe) + ½ c. à thé d’ail EN POUDRE + 10 ml (2 c. à thé) d’huile d’olive + ¼ c. à thé de sel + ¼ c. à thé de poivre. Mélanger. Aucun ail frais ni lime; ne garder aucune sauce pour plus tard.",
         "Déposer les 452 g de côtelettes désossées CRUES sur la seule plaque de four, sans superposer. Badigeonner TOUTE la sauce sur les deux faces des côtelettes, sans en réserver. Enfourner à 205 °C environ 18 à 25 minutes, selon l’épaisseur, et sortir le porc dès qu’il atteint 71 °C au centre du morceau le plus épais. Laisser reposer 3 minutes.",
         "Vers la fin, mettre les 300 g de haricots verts encore SURGELÉS dans un bol allant au micro-ondes avec 30 ml (2 c. à soupe) d’eau. Couvrir sans fermer hermétiquement. Chauffer environ 5 à 7 minutes, remuer, vérifier que les haricots sont chauds et tendres, puis ÉGOUTTER.",
         "Répartir en TROIS contenants égaux : les côtelettes cuites, les patates cuites au Ninja et les haricots égouttés. Répartir aussi dans les trois contenants les jus de cuisson du porc après cuisson complète.",
@@ -1002,6 +1002,11 @@
       "category": "Autres",
       "unit": "ml",
       "skipShop": true
+    },
+    "garlicpowder": {
+      "name": "Ail en poudre",
+      "category": "Sauces et épices",
+      "unit": "c. à thé"
     }
   },
   "categories": [
