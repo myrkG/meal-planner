@@ -734,14 +734,16 @@
       "name": "Lean ground beef",
       "category": "Meat",
       "unit": "g",
-      "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA"
+      "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA",
+      "pack": 454
     },
     "groundturkey": {
       "name": "Lean ground turkey",
       "category": "Meat",
       "unit": "g",
       "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
-      "hint": "If sold in 450 g packs, buy 2; freeze the remaining 300 g raw."
+      "hint": "If sold in 450 g packs, buy 2; freeze the remaining 300 g raw.",
+      "pack": 450
     },
     "pork": {
       "name": "Boneless pork chops",
@@ -769,19 +771,22 @@
       "name": "Frozen broccoli",
       "category": "Produce & frozen",
       "unit": "g",
-      "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA"
+      "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
+      "pack": 500
     },
     "greenbeans": {
       "name": "Frozen green beans",
       "category": "Produce & frozen",
       "unit": "g",
-      "url": "https://voila.ca/products/best-buy-frozen-green-beans-cut-750-g/408990EA"
+      "url": "https://voila.ca/products/best-buy-frozen-green-beans-cut-750-g/408990EA",
+      "pack": 750
     },
     "asianveg": {
       "name": "Frozen Asian vegetable mix",
       "category": "Produce & frozen",
       "unit": "g",
-      "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA"
+      "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
+      "pack": 500
     },
     "pepper": {
       "name": "Bell pepper",
@@ -798,7 +803,8 @@
       "name": "Regular potatoes (raw weight)",
       "category": "Produce & frozen",
       "unit": "g",
-      "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA"
+      "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
+      "pack": 2270
     },
     "banana": {
       "name": "Medium banana",
@@ -843,90 +849,105 @@
       "category": "Grains & cans",
       "unit": "g",
       "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
-      "hint": "Two tied bundles of ~83 g each; NOT the whole 250 g pack."
+      "hint": "Two tied bundles of ~83 g each; NOT the whole 250 g pack.",
+      "pack": 250
     },
     "blackbeans": {
       "name": "Canned black beans (540 mL can)",
       "category": "Grains & cans",
       "unit": "can",
-      "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA"
+      "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA",
+      "pack": 1
     },
     "crushedtomato": {
       "name": "Crushed tomatoes (796 mL can)",
       "category": "Grains & cans",
       "unit": "can",
-      "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA"
+      "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA",
+      "pack": 1
     },
     "dicedtomato": {
       "name": "Diced tomatoes (398 mL can)",
       "category": "Grains & cans",
-      "unit": "can"
+      "unit": "can",
+      "pack": 1
     },
     "coconut": {
       "name": "Light coconut milk (400 mL can)",
       "category": "Grains & cans",
       "unit": "can",
-      "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA"
+      "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA",
+      "pack": 1
     },
     "oats": {
       "name": "Dry rolled oats",
       "category": "Grains & cans",
       "unit": "g",
-      "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA"
+      "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
+      "pack": 1000
     },
     "oliveoil": {
       "name": "Olive oil",
       "category": "Sauces & spices",
       "unit": "ml",
-      "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA"
+      "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA",
+      "pack": 750
     },
     "soy": {
       "name": "Reduced-sodium soy sauce",
       "category": "Sauces & spices",
       "unit": "ml",
-      "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA"
+      "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA",
+      "pack": 296
     },
     "honey": {
       "name": "Honey",
       "category": "Sauces & spices",
       "unit": "ml",
-      "url": "https://voila.ca/products/compliments-pure-natural-liquid-honey-500-g/289980EA"
+      "url": "https://voila.ca/products/compliments-pure-natural-liquid-honey-500-g/289980EA",
+      "pack": 350
     },
     "sesame": {
       "name": "Sesame oil",
       "category": "Sauces & spices",
       "unit": "ml",
-      "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA"
+      "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA",
+      "pack": 250
     },
     "maple": {
       "name": "Maple syrup",
       "category": "Sauces & spices",
       "unit": "ml",
-      "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA"
+      "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA",
+      "pack": 375
     },
     "salsa": {
       "name": "Salsa",
       "category": "Sauces & spices",
       "unit": "ml",
-      "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA"
+      "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA",
+      "pack": 488
     },
     "dijon": {
       "name": "Dijon mustard",
       "category": "Sauces & spices",
       "unit": "ml",
-      "url": "https://voila.ca/products/compliments-prepared-dijon-mustard-original-325-ml/409731EA"
+      "url": "https://voila.ca/products/compliments-prepared-dijon-mustard-original-325-ml/409731EA",
+      "pack": 325
     },
     "curry": {
       "name": "Red curry paste",
       "category": "Sauces & spices",
       "unit": "ml",
-      "url": "https://voila.ca/products/thai-kitchen-curry-paste-red-112-g/519593EA"
+      "url": "https://voila.ca/products/thai-kitchen-curry-paste-red-112-g/519593EA",
+      "pack": 75
     },
     "peanut": {
       "name": "Natural peanut butter",
       "category": "Sauces & spices",
       "unit": "g",
-      "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA"
+      "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
+      "pack": 500
     },
     "cocoa": {
       "name": "Unsweetened cocoa powder",
