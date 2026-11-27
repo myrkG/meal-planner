@@ -167,8 +167,8 @@
       "week": 1,
       "title": "Garlic-lime pork chops, potatoes and green beans",
       "servings": 3,
-      "minutes": 50,
-      "equipment": "Oven, 2 trays, parchment, small bowl",
+      "minutes": 40,
+      "equipment": "Oven, Ninja air fryer, microwave, 1 oven tray, 2 bowls",
       "ingredients": [
         {
           "id": "pork",
@@ -224,17 +224,22 @@
           "id": "peppercorn",
           "qty": 0.25,
           "detail": "¼ tsp"
+        },
+        {
+          "id": "water",
+          "qty": 30,
+          "detail": "2 tbsp to microwave green beans; DRAIN afterwards"
         }
       ],
       "steps": [
-        "Preheat OVEN to 205°C / 400°F. Line TWO trays with parchment: one for potatoes/green beans, the other for pork chops.",
-        "Weigh 600 g RAW potatoes and cut into about 2-cm cubes. On the first tray, toss with 15 mL (1 tbsp) olive oil, ¾ tsp smoked paprika and ¼ tsp salt. Spread into ONE layer and roast for 20 minutes.",
-        "During these 20 min, make ALL pork sauce in a bowl: 22.5 mL (1½ tbsp) Dijon mustard + 7.5 mL (1½ tsp) honey + juice of ONE whole lime (~30 mL) + 2 finely minced garlic cloves + 10 mL (2 tsp) olive oil + ¼ tsp salt + ¼ tsp black pepper. Stir.",
-        "Put 452 g RAW boneless pork chops on second tray without overlapping. Brush ALL the sauce over BOTH sides of the chops. Do not save any sauce for serving.",
-        "After potatoes roast for 20 minutes, briefly take out their tray, flip potatoes and add 300 g still-FROZEN green beans alongside in one layer. Return potato/bean tray to oven AND put the pork tray in at the same time. Roast approximately 18–25 min more, stirring the beans halfway.",
-        "Remove pork as soon as the thickest center reaches 71°C / 160°F (exact time depends on thickness). If potatoes are not tender and browned, leave the potato/bean tray for 5–10 min longer. Beans should be thoroughly hot and tender.",
-        "Rest pork 3 minutes. Divide cooked pork, potatoes and beans equally into EXACTLY THREE containers. Divide any fully cooked pan juices from the pork tray over the servings.",
-        "All 3 portions are COMPLETE with pork, sauce, potatoes and beans. Only reheat covered to 74°C / 165°F when serving; add nothing."
+        "Preheat OVEN to 205°C / 400°F for pork chops. Prepare ONLY ONE parchment-lined oven tray. Set NINJA AIR FRY to 200°C / 400°F for potatoes; green beans will go in microwave.",
+        "Weigh 600 g RAW potatoes. Wash (no need to peel), cut into ~2-cm cubes and toss in a bowl with 15 mL (1 tbsp) olive oil + ¾ tsp smoked paprika + ¼ tsp salt.",
+        "Put potatoes in Ninja (one basket, or divide across both baskets if overcrowded). AIR FRY at 200°C / 400°F for 22–25 min. SHAKE halfway, about minute 12. Check for tender golden cubes and add 3–5 min if needed. No oven tray for potatoes.",
+        "WHILE potatoes cook, mix ALL pork sauce in a small bowl: 22.5 mL (1½ tbsp) Dijon + 7.5 mL (1½ tsp) honey + juice of ONE whole lime (~30 mL) + 2 finely minced garlic cloves + 10 mL (2 tsp) olive oil + ¼ tsp salt + ¼ tsp black pepper.",
+        "Arrange all 452 g RAW boneless pork chops on the ONE oven tray, without overlap. Brush ALL sauce over BOTH sides, reserve none for later. Bake at 205°C / 400°F for about 18–25 min depending on thickness, until thickest center reaches 71°C / 160°F. Remove promptly and rest 3 min.",
+        "Near the end, put 300 g still-FROZEN green beans in a microwave-safe bowl with 30 mL (2 tbsp) water. Cover loosely or vent the lid. Microwave about 5–7 min, stirring, until hot and tender, then DRAIN water.",
+        "Divide cooked pork, Ninja potatoes, and drained green beans evenly among EXACTLY THREE containers. Divide any fully cooked pork-pan juices across the three servings.",
+        "All THREE meals are COMPLETE with pork, sauce, potatoes and green beans. Add nothing when serving; only reheat the chosen portion covered to 74°C / 165°F."
       ],
       "storage": "3 servings containing ~151 g RAW-equivalent pork each, plus 200 g RAW-equivalent potatoes and 100 g FROZEN-equivalent beans each. Sauce is already included. Cool quickly and refrigerate/freeze within 2 hours. Reheat covered to 74°C / 165°F.",
       "nutrition": {
