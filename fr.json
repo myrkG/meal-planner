@@ -1,1755 +1,996 @@
 {
-  "title": "Rotation 14 jours — batch du dimanche",
-  "version": "3.0 · novembre 2026",
-  "anchor_monday": "2026-11-23",
-  "targets": {
-    "regular_calories": "2,350–2,500 kcal",
-    "wednesday_calories": "~1,350 kcal",
-    "regular_protein": "150–180 g",
-    "dessert": "150–200 kcal"
-  },
-  "background": {
-    "schedule": "Batch le dimanche; 5 à 10 minutes pour les repas les autres jours; mercredi shakes; déjeuners du week-end au restaurant",
-    "avoid": [
-      "fromage",
-      "crème sure",
-      "grandes quantités de pain",
-      "grandes quantités de lait"
+  "version": "4.0",
+  "title": "Mes recettes — rotation souple sur 2 semaines",
+  "intro": "Aucune cuisson obligatoire le dimanche. Choisis une recette quand tu veux; chaque cuisson donne 3 à 4 portions complètes. La liste d’épicerie se recalcule selon les recettes cochées.",
+  "weeks": [
+    [
+      "gingerbeef",
+      "chili",
+      "porkchop",
+      "fajitas",
+      "shakechoc"
+    ],
+    [
+      "koreanbeef",
+      "oregano",
+      "salmon",
+      "tomatocurry",
+      "shakeberry"
     ]
-  },
+  ],
   "recipes": {
-    "tuna": {
-      "id": "tuna",
-      "title": "Bol thon-avocat et riz",
-      "minutes": 5,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "2 boîtes de thon pâle, 170 g chacune avant égouttage",
-        "1½ tasse (375 ml) de riz CUIT dimanche",
-        "½ avocat; ½ concombre",
-        "1 c. à thé de soya; 1 c. à soupe de lime; sriracha facultative"
-      ],
-      "steps": [
-        "Réchauffer le riz étiqueté LUN dîner environ 2 à 3 min.",
-        "Égoutter les 2 boîtes de thon; couper ½ avocat et ½ concombre.",
-        "Mélanger thon, soya et lime; servir sur le riz avec les légumes."
-      ],
-      "before": "Riz préparé dimanche. Ouvrir les conserves et couper les légumes seulement au moment de manger.",
-      "tip": "Aucune viande à cuire.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 760,
-        "protein_g": 70,
-        "carbs_g": 80,
-        "fat_g": 18,
-        "basis": "per_portion"
-      }
-    },
     "gingerbeef": {
       "id": "gingerbeef",
+      "week": 1,
       "title": "Bœuf gingembre-soya, soba et brocoli",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
+      "servings": 3,
+      "minutes": 30,
+      "equipment": "Grande poêle, casserole pour les nouilles, micro-ondes",
       "ingredients": [
-        "225 g de bœuf haché maigre, poids CRU avant la cuisson du dimanche",
-        "UNE botte liée de soba Blue Dragon (~83 g SECS; ne pas cuire le paquet de 250 g)",
-        "1½ tasse (375 ml) de brocoli en fleurons SURGELÉ",
-        "1 c. à soupe (15 ml) de sauce soya réduite en sodium",
-        "1 c. à thé (5 ml) de miel",
-        "1 c. à thé (5 ml) d’huile de sésame",
-        "½ c. à thé de gingembre râpé",
-        "2 c. à soupe (30 ml) d’eau pour la sauce"
+        {
+          "id": "groundbeef",
+          "qty": 450,
+          "detail": "poids CRU"
+        },
+        {
+          "id": "soba",
+          "qty": 166,
+          "detail": "2 bottes attachées de ~83 g, poids SEC"
+        },
+        {
+          "id": "broccoli",
+          "qty": 450,
+          "detail": "surgelé, non décongelé"
+        },
+        {
+          "id": "soy",
+          "qty": 45,
+          "detail": "3 c. à soupe"
+        },
+        {
+          "id": "honey",
+          "qty": 10,
+          "detail": "2 c. à thé"
+        },
+        {
+          "id": "sesame",
+          "qty": 10,
+          "detail": "2 c. à thé"
+        },
+        {
+          "id": "ginger",
+          "qty": 2,
+          "detail": "râpé finement"
+        },
+        {
+          "id": "water",
+          "qty": 75,
+          "detail": "45 ml pour la sauce + 30 ml pour le brocoli"
+        }
       ],
       "steps": [
-        "LUNDI — sortir du frigo le contenant de bœuf, soba et brocoli déjà cuits. Ne rien ajouter : la sauce et les assaisonnements ont été incorporés dimanche.",
-        "Réchauffer couvert au micro-ondes environ 3 à 5 min, en remuant à mi-cuisson, jusqu’à 74 °C au centre. Manger immédiatement."
+        "Mettre une casserole d’eau à bouillir. Prendre EXACTEMENT deux bottes de soba d’environ 83 g chacune (166 g SECS au total), pas tout le paquet de 250 g. Cuire selon la durée indiquée sur l’emballage; égoutter.",
+        "Mettre les 450 g de brocoli encore surgelé dans un bol allant au micro-ondes avec 30 ml d’eau (2 c. à soupe). Couvrir sans sceller; cuire 5 à 7 minutes, remuer, puis ÉGOUTTER le surplus d’eau.",
+        "Dans un bol, préparer TOUTE la sauce : 45 ml de soya + 10 ml de miel + 10 ml d’huile de sésame + 2 c. à thé de gingembre frais râpé + 45 ml d’eau. Mélanger jusqu’à ce que le miel soit dissous.",
+        "Chauffer une grande poêle à feu moyen-vif. Ajouter les 450 g de bœuf haché CRU, émietter et cuire environ 7 à 9 minutes en remuant, jusqu’à cuisson complète (71 °C). Retirer seulement un gros excédent de gras, s’il y en a.",
+        "Baisser à feu moyen. VERSER TOUTE la sauce préparée sur le bœuf cuit et remuer 2 minutes pour l’enrober.",
+        "Ajouter TOUTES les soba égouttées et le brocoli égoutté à la poêle. Mélanger 1 à 2 minutes; ne garder aucune sauce de côté pour plus tard.",
+        "Diviser en 3 contenants de taille semblable. Les repas sont COMPLETS : au moment de manger, seulement réchauffer."
       ],
-      "before": "Dimanche : cuire séparément bœuf, soba et brocoli; préparer la sauce soya–miel–sésame–gingembre, l’ajouter au bœuf dans la poêle, puis mélanger avec les nouilles et le brocoli AVANT de ranger. Lundi : réchauffer seulement.",
-      "tip": "UNE SEULE des trois bottes liées de soba Blue Dragon (~83 g secs), jamais le paquet entier de 250 g. Le soya, le miel, l’huile de sésame et le gingembre se mélangent dans un petit bol et se versent sur le bœuf cuit avant d’ajouter les soba et le brocoli.",
-      "batch_ready": true,
+      "storage": "Réchauffer couvert jusqu’à 74 °C. Les nouilles et la sauce sont déjà dans chaque portion.",
       "nutrition": {
-        "calories": 850,
-        "protein_g": 58,
-        "carbs_g": 82,
-        "fat_g": 31,
-        "basis": "per_portion"
-      },
-      "batch_steps": [
-        "DIMANCHE — PRÉPARER LA SAUCE D’ABORD : dans un petit bol, mélanger 1 c. à soupe de soya, 1 c. à thé de miel, 1 c. à thé d’huile de sésame, ½ c. à thé de gingembre et 2 c. à soupe d’eau. Réserver. Ne PAS mettre la sauce dans l’eau de cuisson des nouilles.",
-        "SOBA : porter une casserole d’eau à ébullition. Ajouter UNE SEULE botte liée de soba Blue Dragon (~83 g SECS), cuire selon l’emballage, puis égoutter.",
-        "BROCOLI : mettre 1½ tasse de brocoli encore SURGELÉ dans un plat couvert allant au micro-ondes avec un peu d’eau. Chauffer environ 4 à 6 min jusqu’à ce qu’il soit chaud et tendre; égoutter.",
-        "BŒUF : chauffer une poêle antiadhésive à feu moyen-vif. Ajouter 225 g de bœuf haché CRU; défaire les morceaux à la spatule et faire brunir environ 6 à 8 min, jusqu’à cuisson complète (71 °C au centre).",
-        "AJOUTER LA SAUCE AU BŒUF : réduire à feu moyen; verser tout le mélange soya–miel–sésame–gingembre sur le bœuf CUIT dans la poêle. Remuer et laisser frémir 1 à 2 min pour enrober la viande, sans laisser la sauce sécher.",
-        "MÉLANGER : ajouter les soba cuites et égouttées ainsi que le brocoli cuit et égoutté dans la poêle contenant le bœuf et sa sauce. Mélanger doucement environ 1 min pour tout enrober.",
-        "PORTIONNER : transférer le repas complet dans le contenant peu profond « LUN souper ». Refroidir rapidement et mettre au réfrigérateur dans les 2 heures."
-      ]
-    },
-    "lemonpotato": {
-      "id": "lemonpotato",
-      "title": "Bol poulet-patates citron",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "225 g de poulet (équivalent CRU), CUIT dimanche",
-        "200 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche",
-        "½ tasse de tomates; ½ tasse de concombre",
-        "1 c. à thé d’huile; 1 c. à thé de Dijon; 1 c. à soupe de citron; ¼ c. à thé d’origan"
-      ],
-      "steps": [
-        "Réchauffer le poulet et les patates de MAR dîner 3 à 5 min jusqu’à 74 °C.",
-        "Couper tomates et concombre.",
-        "Mélanger huile, Dijon, citron et origan; ajouter au bol."
-      ],
-      "before": "MARDI : utiliser 225 g CRUS de hauts de cuisse de poulet désossés et sans peau, cuits ENTIERS dimanche au four à 200 °C pendant environ 20 à 30 min, jusqu’à 74 °C à cœur, puis coupés en bouchées. Les 200 g de patates sont le poids CRU avant cuisson.",
-      "tip": "200 g de patates AVANT cuisson.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 570,
-        "protein_g": 57,
-        "carbs_g": 46,
-        "fat_g": 17,
-        "basis": "per_portion"
+        "calories": 565,
+        "protein_g": 42,
+        "carbs_g": 50,
+        "fat_g": 19,
+        "basis": "per_portion",
+        "estimated": true
       }
     },
     "chili": {
       "id": "chili",
-      "title": "Chili fumé de dinde sur riz",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
+      "week": 1,
+      "title": "Chili fumé de dinde — repas complet",
+      "servings": 4,
+      "minutes": 40,
+      "equipment": "Grande casserole avec couvercle facultatif",
       "ingredients": [
-        "1 des 3 portions de chili fait dimanche avec 600 g de dinde hachée CRUE au total",
-        "1 tasse de riz CUIT dimanche",
-        "Le chili du batch contient tomates broyées 796 ml, haricots noirs 540 ml, poivron, oignon et épices chili"
+        {
+          "id": "groundturkey",
+          "qty": 600,
+          "detail": "poids CRU, pas 900 g de deux paquets"
+        },
+        {
+          "id": "crushedtomato",
+          "qty": 1,
+          "detail": "boîte COMPLÈTE de 796 ml, jus inclus"
+        },
+        {
+          "id": "blackbeans",
+          "qty": 1,
+          "detail": "boîte de 540 ml, rincée et égouttée"
+        },
+        {
+          "id": "pepper",
+          "qty": 1,
+          "detail": "en petits dés"
+        },
+        {
+          "id": "onion",
+          "qty": 0.5,
+          "detail": "en petits dés"
+        },
+        {
+          "id": "oliveoil",
+          "qty": 5,
+          "detail": "1 c. à thé"
+        },
+        {
+          "id": "chilipowder",
+          "qty": 2
+        },
+        {
+          "id": "cumin",
+          "qty": 1
+        },
+        {
+          "id": "paprika",
+          "qty": 1
+        },
+        {
+          "id": "salt",
+          "qty": 0.5
+        }
       ],
       "steps": [
-        "Réchauffer chili et riz de MAR souper couverts 4 à 6 min, en remuant à mi-cuisson, jusqu’à 74 °C.",
-        "Servir le chili sur le riz."
+        "Sortir et PESER 600 g de dinde hachée CRUE. Si tu as acheté deux paquets de 450 g, réserver/congeler les 300 g restants crus; ne pas mettre les deux paquets.",
+        "Couper 1 poivron en petits dés et la MOITIÉ d’un oignon moyen en petits dés. Rincer et égoutter COMPLÈTEMENT une boîte de 540 ml de haricots noirs.",
+        "Chauffer 5 ml d’huile d’olive (1 c. à thé) à feu moyen-vif dans une grande casserole. Faire revenir le poivron et le demi-oignon 4 à 5 minutes.",
+        "Ajouter les 600 g de dinde hachée. Émietter à la spatule, cuire environ 7 à 10 minutes en remuant, jusqu’à cuisson complète (74 °C).",
+        "Ajouter EXACTEMENT 2 c. à thé de poudre de chili, 1 c. à thé de cumin, 1 c. à thé de paprika fumé et ½ c. à thé de sel. Remuer 30 secondes.",
+        "Verser la boîte COMPLÈTE de tomates broyées de 796 ml, avec son jus. Ajouter TOUS les haricots noirs rincés et égouttés. Bien remuer.",
+        "Ramener à un léger bouillonnement puis réduire à feu moyen-doux. Mijoter SANS couvercle 20 minutes, en remuant toutes les 4 à 5 minutes. Si c’est trop liquide, mijoter 5 minutes de plus.",
+        "Goûter une fois la cuisson terminée; répartir en 4 bols ou contenants de même taille. Le chili est un repas complet sans riz obligatoire; ne rien ajouter au dernier moment."
       ],
-      "before": "Le batch dimanche donne TROIS portions égales : mardi, vendredi et une réserve congelée.",
-      "tip": "Aucune casserole ni découpe aujourd’hui.",
-      "batch_ready": true,
+      "storage": "Réchauffer couvert jusqu’à 74 °C; rien à préparer en plus.",
       "nutrition": {
-        "calories": 765,
-        "protein_g": 52,
-        "carbs_g": 89,
-        "fat_g": 20,
-        "basis": "per_portion"
-      }
-    },
-    "fajitas": {
-      "id": "fajitas",
-      "title": "Bol de fajitas poulet-riz",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "225 g de hauts de cuisse de poulet DÉSOSSÉS, SANS PEAU (poids CRU), cuits entiers dimanche puis coupés en lanières",
-        "1 poivron entier, en lanières, et ½ oignon moyen, en lanières",
-        "1 c. à thé (5 ml) de PAPRIKA FUMÉ",
-        "½ c. à thé (2,5 ml) de CUMIN MOULU",
-        "¼ c. à thé (1,25 ml) de sel et 1 pincée de poivre noir",
-        "1 c. à thé (5 ml) d’huile d’olive pour les légumes fajitas",
-        "1 tasse (250 ml) de riz CUIT dimanche",
-        "¾ tasse (180 ml) de haricots noirs en conserve, rincés et égouttés jeudi",
-        "1 c. à soupe (15 ml) de salsa et 1 c. à thé (5 ml) de jus de lime, ajoutés jeudi"
-      ],
-      "steps": [
-        "MERCREDI SOIR : transférer du congélateur au réfrigérateur la portion « JEU dîner » de poulet fajitas, poivron et riz cuit.",
-        "JEUDI : ouvrir la conserve de haricots noirs; en rincer et égoutter exactement ¾ tasse (180 ml). Les ajouter au bol de poulet, légumes et riz déjà cuits.",
-        "Réchauffer au micro-ondes, couvert, environ 4 à 6 minutes en remuant à mi-cuisson, jusqu’à atteindre 74 °C partout.",
-        "Ajouter 1 c. à soupe de salsa et 1 c. à thé de jus de lime juste avant de manger. Toutes les épices ont déjà été ajoutées dimanche."
-      ],
-      "before": "Les 225 g de poulet correspondent à des hauts de cuisse DÉSOSSÉS et SANS PEAU pesés CRUS avant le batch. Cuire entiers au four le dimanche, puis couper en lanières après cuisson. Mesurer les épices et les ajouter dimanche aux poivrons/oignons dans la poêle, puis incorporer le poulet déjà cuit. Jeudi : seulement réchauffer et ajouter haricots/salsa/lime.",
-      "tip": "Pour UNE portion : 1 c. à thé de paprika fumé + ½ c. à thé de cumin + ¼ c. à thé de sel + une pincée de poivre, avec 1 c. à thé d’huile. Ajouter le poulet déjà cuit aux légumes épicés pendant 1 à 2 minutes. Jeudi : réchauffer puis ajouter haricots noirs/salsa/lime.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 715,
-        "protein_g": 59,
-        "carbs_g": 86,
-        "fat_g": 15,
-        "basis": "per_portion"
-      },
-      "batch_steps": [
-        "DIMANCHE — HAUTS DE CUISSE : peser DEUX groupes de 225 g CRUS de hauts de cuisse de poulet DÉSOSSÉS et SANS PEAU (450 g total). Conserver chaque morceau ENTIER pour le four : ne pas l’aplatir et ne pas le couper en lanières avant cuisson. Déposer côte à côte sur une plaque avec papier parchemin, sans superposer. Cuire à 200 °C environ 20 à 30 min, jusqu’à 74 °C au centre du morceau le plus épais. Laisser reposer 3 min. Garder le premier groupe de hauts de cuisse nature pour mardi citron-patates; couper les morceaux du deuxième groupe DÉJÀ CUITS en lanières d’environ 1 cm pour jeudi fajitas. Les 225 g sont le poids AVANT cuisson, sans os.",
-        "ÉPICES FAJITAS : dans un petit bol, mélanger EXACTEMENT 1 c. à thé de paprika fumé + ½ c. à thé de cumin moulu + ¼ c. à thé de sel + 1 pincée de poivre noir. Tout ce mélange sert à l’UNIQUE portion de fajitas du jeudi.",
-        "LÉGUMES : couper 1 poivron entier et ½ oignon moyen en fines lanières. Chauffer 1 c. à thé d’huile d’olive dans une poêle à feu moyen-vif.",
-        "CUIRE LES LÉGUMES : ajouter poivron et oignon; cuire environ 5 à 7 minutes en remuant, jusqu’à ce qu’ils soient tendres et légèrement dorés. Verser TOUTES les épices mesurées; mélanger pendant 30 secondes.",
-        "AJOUTER LE POULET : couper en lanières la portion de poulet de jeudi, DÉJÀ CUITE AU FOUR, et l’ajouter aux légumes assaisonnés. Ajouter 1 à 2 c. à soupe d’eau si la poêle est trop sèche. Mélanger 1 à 2 minutes pour bien enrober. Ne PAS assaisonner le poulet réservé pour mardi avec les épices fajitas.",
-        "PORTIONNER : mettre le poulet fajitas et les légumes cuits dans un petit contenant étiqueté « JEU dîner ». Mesurer exactement 1 tasse (250 ml) de riz DÉJÀ CUIT dans le batch de riz de dimanche, puis l’emballer avec le repas ou séparément. Refroidir rapidement et CONGELER dimanche, puisque jeudi est à plus de 2–3 jours.",
-        "JEUDI : ne PAS ajouter dimanche les haricots noirs, la salsa ou la lime. Garder les haricots dans leur conserve fermée et les ajouter seulement jeudi au moment de réchauffer."
-      ]
-    },
-    "salmon": {
-      "id": "salmon",
-      "title": "Saumon érable-Dijon, patates et haricots",
-      "minutes": 8,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "225 g de saumon CRU CUIT AU FOUR dimanche avec 1 c. à soupe de Dijon + 2 c. à thé de sirop d’érable",
-        "200 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche avec 2 c. à thé d’huile",
-        "2 tasses de haricots verts coupés SURGELÉS",
-        "1 c. à soupe de citron"
-      ],
-      "steps": [
-        "Décongeler au frigo mercredi soir saumon et patates de JEU.",
-        "Réchauffer les haricots surgelés avec 2 c. à soupe d’eau, couverts, 4 à 6 min.",
-        "Réchauffer doucement saumon et patates cuits jusqu’à 74 °C; ajouter le citron."
-      ],
-      "before": "Saumon CUIT AU FOUR dimanche, patates AU NINJA dimanche.",
-      "tip": "La texture du saumon réchauffé est plus tendre qu’au four le jour même.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 790,
-        "protein_g": 53,
-        "carbs_g": 55,
-        "fat_g": 39,
-        "basis": "per_portion"
-      }
-    },
-    "meatballs": {
-      "id": "meatballs",
-      "title": "Penne marinara et boulettes Angus préparés dimanche",
-      "minutes": 8,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "150 g de boulettes Compliments Angus SURGELÉES déjà cuites (PAS Long Phung)",
-        "90 g de penne SÈCHES, CUITES dimanche",
-        "¾ tasse de marinara + 2 tasses d’épinards + 1 c. à thé de basilic, assemblés dimanche"
-      ],
-      "steps": [
-        "Décongeler le contenant VEN dîner au frigo jeudi soir.",
-        "Réchauffer couvert 4 à 6 min, en remuant à mi-cuisson, jusqu’à 74 °C."
-      ],
-      "before": "Pâtes et boulettes cuites et assemblées dimanche.",
-      "tip": "Prendre les PENNE, pas les soba.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 925,
-        "protein_g": 40,
-        "carbs_g": 89,
-        "fat_g": 42,
-        "basis": "per_portion"
-      }
-    },
-    "chilipotato": {
-      "id": "chilipotato",
-      "title": "Patates garnies au chili de dinde",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "1 des 3 portions égales de chili de dinde CUITES dimanche",
-        "250 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche",
-        "Salsa ou sauce piquante facultative"
-      ],
-      "steps": [
-        "Décongeler au frigo jeudi soir le chili et les patates de VEN souper.",
-        "Réchauffer couvert 4 à 6 min jusqu’à 74 °C, en remuant le chili à mi-cuisson.",
-        "Verser le chili sur les patates."
-      ],
-      "before": "Chili et patates CUITS dimanche; aucune patate à cuire vendredi.",
-      "tip": "Troisième portion de chili = réserve, NON requise pour semaine 2.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 790,
-        "protein_g": 52,
-        "carbs_g": 89,
-        "fat_g": 23,
-        "basis": "per_portion"
+        "calories": 405,
+        "protein_g": 42,
+        "carbs_g": 34,
+        "fat_g": 11,
+        "basis": "per_portion",
+        "estimated": true
       }
     },
     "porkchop": {
       "id": "porkchop",
-      "title": "Porc ail-lime et patate douce",
-      "minutes": 8,
-      "active_minutes": 5,
-      "servings": 1,
+      "week": 1,
+      "title": "Côtelettes ail-lime, patates et haricots verts",
+      "servings": 4,
+      "minutes": 50,
+      "equipment": "Four, 2 plaques, papier parchemin, petit bol",
       "ingredients": [
-        "225 g de porc désossé CRU CUIT AU FOUR dimanche",
-        "250 g de patate douce pesée CRUE, CUITE au Ninja dimanche",
-        "1½ tasse de haricots verts SURGELÉS",
-        "1 c. à thé d’huile + 1 c. à soupe de lime; ail et paprika ajoutés dimanche"
+        {
+          "id": "pork",
+          "qty": 600,
+          "detail": "poids CRU sans os : 4 portions d’environ 150 g"
+        },
+        {
+          "id": "potatoes",
+          "qty": 800,
+          "detail": "poids CRU; cubes de 2 cm"
+        },
+        {
+          "id": "greenbeans",
+          "qty": 400,
+          "detail": "surgelés"
+        },
+        {
+          "id": "oliveoil",
+          "qty": 30,
+          "detail": "15 ml pour patates, 15 ml dans sauce porc"
+        },
+        {
+          "id": "dijon",
+          "qty": 30,
+          "detail": "2 c. à soupe"
+        },
+        {
+          "id": "honey",
+          "qty": 10,
+          "detail": "2 c. à thé"
+        },
+        {
+          "id": "lime",
+          "qty": 1,
+          "detail": "presser tout le jus (~30 ml)"
+        },
+        {
+          "id": "garlic",
+          "qty": 3,
+          "detail": "hachées fin"
+        },
+        {
+          "id": "paprika",
+          "qty": 1
+        },
+        {
+          "id": "salt",
+          "qty": 0.5,
+          "detail": "¼ c. à thé patates, ¼ c. à thé porc"
+        },
+        {
+          "id": "peppercorn",
+          "qty": 0.25
+        }
       ],
       "steps": [
-        "Décongeler porc et patate douce de SAM au frigo vendredi soir.",
-        "Réchauffer les haricots surgelés avec 2 c. à soupe d’eau, couverts, 4 à 5 min.",
-        "Réchauffer porc et patate douce cuits jusqu’à 74 °C; ajouter lime."
+        "Préchauffer le four à 205 °C (400 °F). Préparer DEUX plaques recouvertes de papier parchemin, une pour les patates/haricots et l’autre pour le porc.",
+        "Couper les 800 g de patates CRUES en cubes d’environ 2 cm. Mélanger sur la première plaque avec 15 ml d’huile d’olive, 1 c. à thé de paprika fumé et ¼ c. à thé de sel. Étaler en une couche; mettre au four pour 20 minutes.",
+        "Pendant ce temps, faire la sauce dans un bol : 30 ml de Dijon + 10 ml de miel + le jus d’UNE lime (~30 ml) + 3 gousses d’ail hachées + 15 ml d’huile d’olive + ¼ c. à thé de sel + ¼ c. à thé de poivre. Mélanger.",
+        "Déposer les 600 g de côtelettes désossées CRUES sur la deuxième plaque. Badigeonner TOUTE la sauce sur les deux côtés des côtelettes. Ne rien réserver pour le service.",
+        "Quand les patates ont cuit 20 minutes, les retourner et ajouter les 400 g de haricots verts SURGELÉS sur leur plaque. Enfourner en même temps la plaque de porc. Continuer environ 18 à 25 minutes, selon l’épaisseur des côtelettes. Mélanger les haricots une fois.",
+        "Sortir les côtelettes dès qu’elles atteignent 71 °C au centre du morceau le plus épais. Si les patates ne sont pas tendres et dorées, les laisser 5 à 10 minutes de plus; les haricots doivent être bien chauds.",
+        "Laisser reposer le porc 3 minutes. Diviser en 4 contenants : ¼ du porc, ¼ des patates et ¼ des haricots par portion. Répartir le jus de cuisson du porc ENTRE les contenants, après cuisson complète.",
+        "Le repas est COMPLET avec sauce et accompagnements. Pour servir plus tard, seulement réchauffer jusqu’à 74 °C."
       ],
-      "before": "Porc et patate douce entièrement cuits dimanche, puis CONGELÉS.",
-      "tip": "Cuire initialement la côtelette de porc à 71 °C; les restes réchauffés doivent atteindre 74 °C.",
-      "batch_ready": true,
+      "storage": "Le porc et la sauce sont déjà ensemble. Réchauffer couvert à 74 °C; éviter de prolonger inutilement pour ne pas assécher.",
       "nutrition": {
-        "calories": 730,
-        "protein_g": 58,
-        "carbs_g": 72,
-        "fat_g": 22,
-        "basis": "per_portion"
-      }
-    },
-    "thaicurry": {
-      "id": "thaicurry",
-      "title": "Cari rouge de crevettes coco et riz",
-      "minutes": 8,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "250 g de crevettes CRUES décortiquées CUITES dimanche",
-        "1 tasse de lait de coco léger + 2 tasses de légumes asiatiques surgelés + 1 c. à soupe de pâte de cari rouge, CUITS dimanche",
-        "1½ tasse de riz CUIT dimanche",
-        "1 c. à soupe de lime"
-      ],
-      "steps": [
-        "Décongeler cari et riz de DIM au frigo samedi soir.",
-        "Réchauffer couvert 4 à 6 min, en remuant à mi-cuisson, jusqu’à 74 °C; ajouter lime."
-      ],
-      "before": "Cuit puis congelé le DIMANCHE PRÉCÉDENT.",
-      "tip": "250 g de crevettes, PAS tout le sac de 340 g.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 855,
-        "protein_g": 67,
-        "carbs_g": 100,
-        "fat_g": 21,
-        "basis": "per_portion"
-      }
-    },
-    "tunabeans": {
-      "id": "tunabeans",
-      "title": "Bol thon, haricots blancs et patates",
-      "minutes": 6,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "2 boîtes de thon pâle (170 g chacune)",
-        "¾ tasse de haricots blancs en conserve",
-        "200 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche",
-        "1 tasse de tomates cerises; 2 c. à thé d’huile; 1 c. à soupe de citron"
-      ],
-      "steps": [
-        "Réchauffer les patates déjà cuites de LUN 2 à 3 min.",
-        "Égoutter thon et haricots; couper les tomates cerises.",
-        "Mélanger avec huile et citron."
-      ],
-      "before": "Patates CUITES dimanche. Conserves ouvertes lundi seulement.",
-      "tip": "200 g = poids CRU des patates.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 735,
-        "protein_g": 72,
-        "carbs_g": 72,
+        "calories": 485,
+        "protein_g": 36,
+        "carbs_g": 43,
         "fat_g": 16,
-        "basis": "per_portion"
+        "basis": "per_portion",
+        "estimated": true
       }
     },
-    "oregano": {
-      "id": "oregano",
-      "title": "Bol riz-poulet citron-origan",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
+    "fajitas": {
+      "id": "fajitas",
+      "week": 1,
+      "title": "Bol fajitas de hauts de cuisse, riz et haricots",
+      "servings": 4,
+      "minutes": 35,
+      "equipment": "Grande poêle avec couvercle, cuiseur à riz",
       "ingredients": [
-        "225 g de poulet (équivalent CRU) CUIT dimanche",
-        "1½ tasse de riz CUIT dimanche",
-        "¾ tasse de tomates; ¾ tasse de concombre",
-        "2 c. à thé d’huile; 1 c. à soupe de citron; ½ c. à thé d’origan; ail mis dimanche"
+        {
+          "id": "thighs",
+          "qty": 600,
+          "detail": "DÉSOSSÉS, SANS PEAU, poids CRU"
+        },
+        {
+          "id": "rice",
+          "qty": 150,
+          "detail": "pesé SEC, pas 150 g cuits"
+        },
+        {
+          "id": "pepper",
+          "qty": 2,
+          "detail": "en lanières"
+        },
+        {
+          "id": "onion",
+          "qty": 1,
+          "detail": "en lanières"
+        },
+        {
+          "id": "blackbeans",
+          "qty": 1,
+          "detail": "boîte de 540 ml, rincée et égouttée"
+        },
+        {
+          "id": "salsa",
+          "qty": 120,
+          "detail": "8 c. à soupe; cuite avec le poulet"
+        },
+        {
+          "id": "lime",
+          "qty": 1,
+          "detail": "jus ajouté À LA POÊLE"
+        },
+        {
+          "id": "oliveoil",
+          "qty": 15,
+          "detail": "1 c. à soupe"
+        },
+        {
+          "id": "paprika",
+          "qty": 2
+        },
+        {
+          "id": "cumin",
+          "qty": 1
+        },
+        {
+          "id": "chilipowder",
+          "qty": 0.5
+        },
+        {
+          "id": "salt",
+          "qty": 0.5
+        }
       ],
       "steps": [
-        "Réchauffer le poulet et le riz LUN souper couverts 3 à 5 min jusqu’à 74 °C.",
-        "Couper tomates et concombre; ajouter citron et huile.",
-        "Servir avec poulet et riz."
+        "Peser 150 g de riz SEC avec une balance (PAS le petit gobelet du cuiseur). Le mettre dans le cuiseur à riz avec l’eau selon l’emballage et démarrer la cuisson. Il sera partagé entre 4 portions.",
+        "Couper les 600 g de hauts de cuisse DÉSOSSÉS ET SANS PEAU CRUS en cubes de 2 cm. Couper 2 poivrons et 1 oignon en lanières de 1 cm. Rincer et égoutter toute la boîte de 540 ml de haricots noirs.",
+        "Dans un bol, mélanger les épices : EXACTEMENT 2 c. à thé de paprika fumé + 1 c. à thé de cumin + ½ c. à thé de poudre de chili + ½ c. à thé de sel.",
+        "Chauffer 15 ml d’huile d’olive dans une grande poêle à feu moyen-vif. Ajouter les morceaux de poulet et cuire en remuant 8 à 12 minutes, jusqu’à 74 °C dans les morceaux les plus épais. Transférer temporairement le poulet cuit dans une assiette propre.",
+        "Dans la même poêle, cuire poivrons et oignon 6 à 8 minutes jusqu’à tendreté. Remettre le poulet cuit, ajouter TOUT le mélange d’épices, les 120 ml de salsa et TOUT le jus de la lime. Remuer et laisser bouillonner 2 minutes.",
+        "Ajouter TOUS les haricots noirs rincés/égouttés à la poêle et remuer 2 minutes pour réchauffer et enrober de sauce. Il ne doit rester aucune salsa ou lime à ajouter plus tard.",
+        "Répartir le riz CUIT en 4 contenants égaux, puis répartir également TOUT le mélange poulet-légumes-haricots-salsa dans les mêmes contenants. Vérifier que chacun a du poulet, du riz, des légumes ET de la sauce.",
+        "Repas complets : pour manger, réchauffer couvert jusqu’à 74 °C, sans ajouter de sauce ou de conserves."
       ],
-      "before": "Poulet et riz cuits dimanche. Semaine 2 : total 2⅔ tasses standard (~480 g) de riz SEC au cuiseur.",
-      "tip": "225 g de poulet = poids CRU avant cuisson.",
-      "batch_ready": true,
+      "storage": "La salsa, la lime et les épices sont déjà dans le plat. Réchauffer jusqu’à 74 °C.",
       "nutrition": {
-        "calories": 700,
-        "protein_g": 59,
-        "carbs_g": 82,
+        "calories": 490,
+        "protein_g": 38,
+        "carbs_g": 54,
         "fat_g": 15,
-        "basis": "per_portion"
+        "basis": "per_portion",
+        "estimated": true
       }
     },
-    "peanutnoodle": {
-      "id": "peanutnoodle",
-      "title": "Bol de poulet-riz sauce arachides",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
+    "shakechoc": {
+      "id": "shakechoc",
+      "week": 1,
+      "title": "3 shakes chocolat-banane (mercredi)",
+      "servings": 3,
+      "minutes": 5,
+      "equipment": "Mélangeur; trois shakes préparés séparément",
       "ingredients": [
-        "225 g de poulet (équivalent CRU) CUIT dimanche",
-        "1 tasse de riz CUIT dimanche",
-        "1 tasse de légumes asiatiques SURGELÉS",
-        "1½ c. à soupe de beurre d’arachides; 1 c. à soupe de soya; 1 c. à soupe de lime; 2 c. à soupe d’eau chaude"
+        {
+          "id": "whey",
+          "qty": 90,
+          "detail": "30 g par shake"
+        },
+        {
+          "id": "oats",
+          "qty": 90,
+          "detail": "30 g SECS par shake"
+        },
+        {
+          "id": "banana",
+          "qty": 3,
+          "detail": "1 banane par shake"
+        },
+        {
+          "id": "peanut",
+          "qty": 45,
+          "detail": "15 g par shake"
+        },
+        {
+          "id": "cocoa",
+          "qty": 15,
+          "detail": "5 g par shake"
+        },
+        {
+          "id": "water",
+          "qty": 900,
+          "detail": "300 ml par shake"
+        }
       ],
       "steps": [
-        "Réchauffer le poulet et le riz MAR dîner avec légumes surgelés, couverts, 4 à 6 min jusqu’à 74 °C.",
-        "Mélanger beurre d’arachides, soya, lime et eau chaude; verser sur le bol."
+        "Les quantités ci-dessus sont pour TROIS shakes, pas un seul. Chaque shake contient 30 g whey + 30 g avoine sèche + 1 banane + 15 g beurre d’arachides + 5 g cacao + 300 ml d’eau.",
+        "Pour UN shake, mettre 300 ml d’eau dans le mélangeur. Ajouter la banane pelée, la whey, l’avoine sèche, le beurre d’arachides et le cacao, dans les quantités indiquées.",
+        "Mélanger 30 à 45 secondes jusqu’à texture homogène. Boire; répéter la recette identique pour les deux autres shakes au moment voulu.",
+        "Les poudres/avoine peuvent être préportionnées à l’avance; ne pas supposer que trois shakes déjà mélangés resteront aussi bons pendant plusieurs jours."
       ],
-      "before": "Riz à la place des nouilles de riz sèches : pas de cuisson de nouilles la semaine.",
-      "tip": "Poulet et riz cuits dimanche.",
-      "batch_ready": true,
+      "storage": "À mélanger au moment de boire. Une journée de shakes demeure facultative; manger un vrai repas si la faim est trop importante.",
       "nutrition": {
-        "calories": 725,
-        "protein_g": 60,
-        "carbs_g": 67,
-        "fat_g": 20,
-        "basis": "per_portion"
-      }
-    },
-    "tacoskillet": {
-      "id": "tacoskillet",
-      "title": "Bol bœuf tacos-riz",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "225 g de bœuf haché (équivalent CRU) CUIT dimanche avec épices tacos",
-        "1 tasse de riz CUIT dimanche",
-        "¾ tasse de haricots noirs en conserve; ½ tasse de maïs SURGELÉ",
-        "2 c. à soupe de salsa; ⅓ avocat facultatif"
-      ],
-      "steps": [
-        "Réchauffer bœuf et riz MAR souper avec haricots égouttés et maïs surgelé, couverts, 4 à 6 min jusqu’à 74 °C.",
-        "Ajouter salsa et avocat facultatif."
-      ],
-      "before": "Bœuf et riz CUITS dimanche.",
-      "tip": "Aucun bœuf cru ni poivron à couper mardi.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 920,
-        "protein_g": 60,
-        "carbs_g": 102,
-        "fat_g": 30,
-        "basis": "per_portion"
-      }
-    },
-    "shrimpmango": {
-      "id": "shrimpmango",
-      "title": "Bol crevettes lime-chili, mangue-riz",
-      "minutes": 8,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "250 g de crevettes CRUES décortiquées CUITES dimanche",
-        "1½ tasse de riz CUIT dimanche",
-        "½ tasse de mangue en morceaux SURGELÉE, décongelée; ½ concombre",
-        "1 c. à soupe de lime; 1 c. à thé d’huile; piment facultatif"
-      ],
-      "steps": [
-        "Décongeler crevettes/riz JEU et mangue au frigo mercredi soir.",
-        "Réchauffer crevettes/riz couverts 3 à 5 min jusqu’à 74 °C.",
-        "Couper concombre; ajouter mangue et lime sur le bol."
-      ],
-      "before": "Crevettes cuites puis CONGELÉES dimanche; mangue servie froide.",
-      "tip": "Ne pas réchauffer concombre/mangue.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 700,
-        "protein_g": 64,
-        "carbs_g": 86,
-        "fat_g": 11,
-        "basis": "per_portion"
-      }
-    },
-    "harissa": {
-      "id": "harissa",
-      "title": "Bol poulet harissa, pois chiches et légumes",
-      "minutes": 8,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "225 g de poulet (équivalent CRU) CUIT dimanche avec 1 c. à soupe de harissa + 2 c. à thé d’huile",
-        "¾ tasse de pois chiches en conserve",
-        "1½ tasse de légumes asiatiques SURGELÉS",
-        "Citron facultatif"
-      ],
-      "steps": [
-        "Décongeler le poulet harissa JEU au frigo mercredi soir.",
-        "Ajouter pois chiches égouttés et légumes surgelés; réchauffer couvert 4 à 6 min jusqu’à 74 °C.",
-        "Ajouter citron si désiré."
-      ],
-      "before": "Poulet assaisonné et cuit dimanche.",
-      "tip": "Pois chiches déjà cuits en conserve.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 655,
-        "protein_g": 62,
-        "carbs_g": 57,
-        "fat_g": 18,
-        "basis": "per_portion"
-      }
-    },
-    "chickenpotato": {
-      "id": "chickenpotato",
-      "title": "Patates garnies au poulet chili doux",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "225 g de poulet (équivalent CRU) CUIT dimanche",
-        "250 g de patates ORDINAIRES pesées CRUES, CUITES au Ninja dimanche",
-        "½ tasse de maïs SURGELÉ; 1 tasse de chou râpé EN SAC",
-        "1 c. à soupe de sauce chili douce ou salsa"
-      ],
-      "steps": [
-        "Décongeler le poulet et les patates de VEN dîner au frigo jeudi soir.",
-        "Ajouter le maïs surgelé, réchauffer couvert 4 à 6 min jusqu’à 74 °C.",
-        "Ajouter chou déjà râpé et sauce chili douce."
-      ],
-      "before": "Tous les aliments chauds cuits dimanche.",
-      "tip": "250 g de patates = poids CRU avant cuisson.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 670,
-        "protein_g": 58,
-        "carbs_g": 70,
-        "fat_g": 16,
-        "basis": "per_portion"
+        "calories": 445,
+        "protein_g": 38,
+        "carbs_g": 46,
+        "fat_g": 12,
+        "basis": "per_portion",
+        "estimated": true
       }
     },
     "koreanbeef": {
       "id": "koreanbeef",
-      "title": "Bol de bœuf haché collant à la coréenne",
-      "minutes": 7,
-      "active_minutes": 5,
-      "servings": 1,
+      "week": 2,
+      "title": "Bœuf haché sauce soya-érable, riz et brocoli",
+      "servings": 3,
+      "minutes": 30,
+      "equipment": "Poêle, cuiseur à riz, micro-ondes",
       "ingredients": [
-        "225 g de bœuf haché (équivalent CRU) CUIT dimanche avec 1 c. à soupe de soya, 1 c. à thé de sirop d’érable, 1 c. à thé d’huile de sésame",
-        "1½ tasse de riz CUIT dimanche",
-        "1½ tasse de brocoli SURGELÉ"
+        {
+          "id": "groundbeef",
+          "qty": 450,
+          "detail": "poids CRU"
+        },
+        {
+          "id": "rice",
+          "qty": 135,
+          "detail": "poids SEC"
+        },
+        {
+          "id": "broccoli",
+          "qty": 450,
+          "detail": "surgelé"
+        },
+        {
+          "id": "soy",
+          "qty": 45,
+          "detail": "3 c. à soupe"
+        },
+        {
+          "id": "maple",
+          "qty": 30,
+          "detail": "2 c. à soupe"
+        },
+        {
+          "id": "sesame",
+          "qty": 10,
+          "detail": "2 c. à thé"
+        },
+        {
+          "id": "ginger",
+          "qty": 2,
+          "detail": "râpé"
+        },
+        {
+          "id": "garlic",
+          "qty": 2,
+          "detail": "hachées"
+        },
+        {
+          "id": "ricevinegar",
+          "qty": 15,
+          "detail": "1 c. à soupe"
+        },
+        {
+          "id": "water",
+          "qty": 75,
+          "detail": "45 ml sauce + 30 ml brocoli"
+        }
       ],
       "steps": [
-        "Décongeler bœuf/riz VEN au frigo jeudi soir.",
-        "Ajouter brocoli surgelé; réchauffer couvert 4 à 6 min, remuer à mi-cuisson, jusqu’à 74 °C."
+        "Peser 135 g de riz SEC et démarrer le cuiseur avec l’eau selon l’emballage. Ce riz CUIT sera divisé entre trois repas.",
+        "Cuire 450 g de brocoli encore surgelé avec 30 ml d’eau dans un bol couvert/ventilé au micro-ondes 5 à 7 minutes; ÉGOUTTER le surplus d’eau.",
+        "Dans un bol, mélanger TOUTE la sauce : 45 ml de soya + 30 ml de sirop d’érable + 10 ml d’huile de sésame + 2 c. à thé de gingembre râpé + 2 gousses d’ail hachées + 15 ml de vinaigre de riz + 45 ml d’eau.",
+        "Faire brunir 450 g de bœuf haché CRU à feu moyen-vif dans une poêle, en l’émiettant environ 7 à 9 min jusqu’à 71 °C; retirer seulement l’excédent important de gras.",
+        "Baisser à feu moyen, ajouter TOUTE la sauce au bœuf et remuer 2 à 3 minutes, jusqu’à légère réduction.",
+        "Ajouter le brocoli égoutté et mélanger encore 1 à 2 minutes. Ne réserver aucune sauce pour la fin.",
+        "Diviser le riz CUIT en 3 contenants; partager par-dessus TOUT le mélange bœuf-brocoli-sauce. Réchauffer uniquement au moment de manger."
       ],
-      "before": "Bœuf haché remplace les lanières pour un batch plus rapide.",
-      "tip": "Sauce déjà dans le bœuf cuit.",
-      "batch_ready": true,
+      "storage": "Tout est assemblé dans les contenants, sauce comprise. Réchauffer à 74 °C.",
       "nutrition": {
-        "calories": 835,
-        "protein_g": 62,
-        "carbs_g": 84,
-        "fat_g": 28,
-        "basis": "per_portion"
+        "calories": 550,
+        "protein_g": 40,
+        "carbs_g": 58,
+        "fat_g": 18,
+        "basis": "per_portion",
+        "estimated": true
+      }
+    },
+    "oregano": {
+      "id": "oregano",
+      "week": 2,
+      "title": "Poulet citron-origan et riz aux légumes",
+      "servings": 4,
+      "minutes": 30,
+      "equipment": "Grande poêle avec couvercle, cuiseur à riz",
+      "ingredients": [
+        {
+          "id": "thighs",
+          "qty": 600,
+          "detail": "DÉSOSSÉS et SANS PEAU, poids CRU"
+        },
+        {
+          "id": "rice",
+          "qty": 160,
+          "detail": "poids SEC"
+        },
+        {
+          "id": "asianveg",
+          "qty": 500,
+          "detail": "surgelés"
+        },
+        {
+          "id": "lemon",
+          "qty": 1,
+          "detail": "presser tout le jus (~30 ml)"
+        },
+        {
+          "id": "garlic",
+          "qty": 3,
+          "detail": "hachées"
+        },
+        {
+          "id": "oregano",
+          "qty": 2
+        },
+        {
+          "id": "oliveoil",
+          "qty": 15,
+          "detail": "1 c. à soupe"
+        },
+        {
+          "id": "paprika",
+          "qty": 1
+        },
+        {
+          "id": "salt",
+          "qty": 0.5
+        },
+        {
+          "id": "water",
+          "qty": 30,
+          "detail": "2 c. à soupe pour la sauce"
+        }
+      ],
+      "steps": [
+        "Peser 160 g de riz SEC. Le faire cuire dans le cuiseur avec la quantité d’eau recommandée sur l’emballage.",
+        "Couper les 600 g de hauts de cuisse de poulet CRUS désossés sans peau en cubes de 2 cm. Hacher 3 gousses d’ail. Garder les 500 g de légumes asiatiques SURGELÉS.",
+        "Préparer la sauce dans un bol : jus de 1 citron entier (~30 ml) + 2 c. à thé d’origan séché + 1 c. à thé de paprika fumé + ½ c. à thé de sel + 30 ml d’eau. Tout le liquide sera utilisé pendant la cuisson.",
+        "Chauffer 15 ml d’huile dans une grande poêle à feu moyen-vif. Ajouter le poulet et cuire 8 à 12 min en remuant, jusqu’à 74 °C dans les morceaux les plus épais.",
+        "Ajouter 500 g de légumes encore surgelés. Cuire 6 à 8 minutes en remuant, jusqu’à ce que les légumes soient bien chauds et attendris.",
+        "Ajouter les 3 gousses d’ail hachées et remuer 30 secondes. Verser TOUTE la sauce citron-origan dans la poêle, réduire à feu moyen et cuire 2 minutes en mélangeant.",
+        "Partager le riz CUIT entre 4 contenants et répartir par-dessus le mélange de poulet/légumes avec tout son jus. Aucun citron ou assaisonnement supplémentaire n’est requis au service."
+      ],
+      "storage": "Sauce et légumes déjà mélangés; réchauffer à 74 °C.",
+      "nutrition": {
+        "calories": 415,
+        "protein_g": 35,
+        "carbs_g": 45,
+        "fat_g": 12,
+        "basis": "per_portion",
+        "estimated": true
+      }
+    },
+    "salmon": {
+      "id": "salmon",
+      "week": 2,
+      "title": "Saumon érable-Dijon, patates et haricots",
+      "servings": 3,
+      "minutes": 40,
+      "equipment": "Four, Ninja air fryer, micro-ondes",
+      "ingredients": [
+        {
+          "id": "salmon",
+          "qty": 450,
+          "detail": "poids CRU, 3 morceaux d’environ 150 g"
+        },
+        {
+          "id": "potatoes",
+          "qty": 600,
+          "detail": "poids CRU; cubes de 2 cm"
+        },
+        {
+          "id": "greenbeans",
+          "qty": 450,
+          "detail": "surgelés"
+        },
+        {
+          "id": "dijon",
+          "qty": 22.5,
+          "detail": "1½ c. à soupe"
+        },
+        {
+          "id": "maple",
+          "qty": 10,
+          "detail": "2 c. à thé"
+        },
+        {
+          "id": "oliveoil",
+          "qty": 15,
+          "detail": "10 ml patates + 5 ml sauce"
+        },
+        {
+          "id": "salt",
+          "qty": 0.5,
+          "detail": "¼ c. à thé patates + ¼ c. à thé saumon"
+        },
+        {
+          "id": "peppercorn",
+          "qty": 0.25
+        },
+        {
+          "id": "water",
+          "qty": 30,
+          "detail": "pour les haricots surgelés"
+        }
+      ],
+      "steps": [
+        "Préchauffer le FOUR à 200 °C (400 °F). Préparer une plaque avec papier parchemin pour les trois portions de saumon.",
+        "Couper les 600 g de patates CRUES en cubes d’environ 2 cm. Mélanger avec 10 ml d’huile d’olive et ¼ c. à thé de sel. Mettre dans le NINJA, fonction AIR FRY, 200 °C pendant 20 à 25 minutes; secouer à mi-cuisson.",
+        "Préparer la sauce dans un petit bol : 22,5 ml de Dijon (1½ c. à soupe) + 10 ml de sirop d’érable (2 c. à thé) + 5 ml d’huile d’olive + ¼ c. à thé de sel + ¼ c. à thé de poivre.",
+        "Déposer 450 g de saumon cru (environ trois morceaux de 150 g) sur la plaque. Badigeonner TOUTE la sauce sur les trois morceaux. Ne pas garder de sauce pour plus tard.",
+        "Cuire le saumon au four environ 12 à 18 minutes, selon son épaisseur, jusqu’à 70 °C au centre. Le sortir dès qu’il est prêt pour éviter de le dessécher.",
+        "Pendant ce temps, cuire 450 g de haricots verts SURGELÉS au micro-ondes avec 30 ml d’eau, couverts sans sceller, environ 5 à 7 min. Égoutter l’eau.",
+        "Répartir saumon, patates et haricots cuits dans 3 contenants égaux, avec le jus de cuisson du saumon s’il y en a. Toutes les sauces sont déjà ajoutées.",
+        "Pour réchauffer, couvrir et chauffer jusqu’à 74 °C. Le saumon est meilleur consommé tôt après cuisson; tu gères frigo/congélateur selon tes besoins."
+      ],
+      "storage": "Le saumon supporte moins bien les réchauffages répétés : ne réchauffer que la portion voulue.",
+      "nutrition": {
+        "calories": 565,
+        "protein_g": 34,
+        "carbs_g": 44,
+        "fat_g": 24,
+        "basis": "per_portion",
+        "estimated": true
       }
     },
     "tomatocurry": {
       "id": "tomatocurry",
-      "title": "Cari de poulet tomates-coco avec riz",
-      "minutes": 8,
-      "active_minutes": 5,
-      "servings": 1,
+      "week": 2,
+      "title": "Cari de poulet coco-tomate et riz",
+      "servings": 4,
+      "minutes": 35,
+      "equipment": "Grande poêle ou casserole, cuiseur à riz",
       "ingredients": [
-        "250 g de poulet (équivalent CRU) CUIT dimanche",
-        "¾ tasse de tomates broyées + ½ tasse de lait de coco léger + 2 tasses d’épinards",
-        "1½ tasse de riz CUIT dimanche",
-        "1 c. à thé de cari + ½ c. à thé de garam masala, cari CUIT dimanche"
-      ],
-      "steps": [
-        "Décongeler cari/riz SAM au frigo vendredi soir.",
-        "Réchauffer couvert 4 à 6 min, en remuant à mi-cuisson, jusqu’à 74 °C."
-      ],
-      "before": "Cari entièrement cuit et congelé dimanche.",
-      "tip": "Aucun cuiseur à riz samedi.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 780,
-        "protein_g": 64,
-        "carbs_g": 86,
-        "fat_g": 20,
-        "basis": "per_portion"
-      }
-    },
-    "stickypork": {
-      "id": "stickypork",
-      "title": "Udon au porc collant et sésame",
-      "minutes": 8,
-      "active_minutes": 5,
-      "servings": 1,
-      "ingredients": [
-        "225 g de lanières de porc CRUES CUITES dimanche avec 1 c. à soupe de soya + 1 c. à soupe de chili doux + 1 c. à thé d’huile de sésame",
-        "UN sachet de 200 g de UDON NATURE PRÊTES À UTILISER (PAS soba sèches)",
-        "2 tasses de légumes asiatiques SURGELÉS"
-      ],
-      "steps": [
-        "Décongeler le porc cuit DIM au frigo samedi soir.",
-        "Mélanger porc, 200 g de udon prêtes, légumes surgelés et 2 c. à soupe d’eau; réchauffer couvert 5 à 7 min, en remuant à mi-cuisson, jusqu’à 74 °C."
-      ],
-      "before": "Porc CUIT le DIMANCHE PRÉCÉDENT; sachet udon marqué PRÊTES À UTILISER.",
-      "tip": "Si le produit demande une cuisson à l’eau, suivre l’emballage; durée totale potentiellement >10 min.",
-      "batch_ready": true,
-      "nutrition": {
-        "calories": 745,
-        "protein_g": 56,
-        "carbs_g": 85,
-        "fat_g": 21,
-        "basis": "per_portion"
-      }
-    },
-    "restaurant": {
-      "id": "restaurant",
-      "title": "Ton déjeuner habituel au restaurant",
-      "minutes": 0,
-      "servings": 1,
-      "ingredients": [
-        "2 œufs (commandés au restaurant)",
-        "2 saucisses (commandées au restaurant)",
-        "2 tranches de pain de seigle (au restaurant)",
-        "1 portion de pommes de terre déjeuner (au restaurant)"
-      ],
-      "steps": [
-        "Cette entrée correspond à ton déjeuner habituel du samedi et du dimanche AU RESTAURANT. Tu n’as rien à acheter ni à cuisiner à la maison pour ce repas.",
-        "Commander 2 œufs, 2 saucisses, 2 tranches de pain de seigle et une portion de pommes de terre déjeuner.",
-        "Pour la planification seulement, l’estimation de 850 à 1 100 kcal est approximative; les portions et le mode de cuisson varient selon le restaurant."
-      ],
-      "tip": "Repas pris au restaurant : aucun ingrédient de cette fiche ne doit être ajouté à l’épicerie pour la maison.",
-      "nutrition": {
-        "calories": 1000,
-        "protein_g": 40,
-        "carbs_g": 100,
-        "fat_g": 49,
-        "calories_range": [
-          850,
-          1150
-        ],
-        "protein_range_g": [
-          30,
-          45
-        ],
-        "carbs_range_g": [
-          75,
-          120
-        ],
-        "fat_range_g": [
-          40,
-          65
-        ],
-        "basis": "per_portion"
-      },
-      "before": "Repas au restaurant. Rien à cuisiner ni à acheter pour ce repas."
-    },
-    "shakechoc": {
-      "id": "shakechoc",
-      "title": "Shake chocolat-banane (en faire 3)",
-      "minutes": 5,
-      "servings": 3,
-      "ingredients": [
-        "PAR SHAKE (à préparer 3 fois dans la journée) : 1½ mesure de whey, idéalement au chocolat",
-        "30 g de flocons d’avoine (peser secs)",
-        "1 c. à soupe (15 ml) de beurre d’arachides",
-        "½ banane, pelée",
-        "1 c. à thé (5 ml) de cacao non sucré (facultatif si la whey est chocolat)",
-        "300 ml d’eau froide",
-        "4 à 6 glaçons, facultatifs"
-      ],
-      "steps": [
-        "Cette recette donne UN shake. Le mercredi, répéter exactement la recette 3 fois pour faire 3 shakes au total. Pour la journée complète, prévoir 4½ mesures de whey, 90 g d’avoine, 3 c. à soupe de beurre d’arachides et 1½ banane.",
-        "Mettre dans le mélangeur 300 ml d’eau froide et 30 g de flocons d’avoine secs. Mixer 15 à 20 secondes pour briser l’avoine.",
-        "Ajouter 1½ mesure de whey, 1 c. à soupe de beurre d’arachides, ½ banane et, si désiré, 1 c. à thé de cacao. Ajouter 4 à 6 glaçons si tu veux un shake plus froid.",
-        "Fermer le couvercle. Mixer environ 30 à 45 secondes, jusqu’à ce que la préparation soit homogène. Si c’est trop épais, ajouter 50 ml d’eau et mixer encore 10 secondes.",
-        "Boire le shake, puis en préparer un autre plus tard dans la journée avec les mêmes quantités, jusqu’à un total de trois. Ne pas laisser un shake contenant des ingrédients périssables à température ambiante pendant des heures."
-      ],
-      "tip": "Si ta whey est à la vanille plutôt qu’au chocolat, le shake fonctionne : ajoute alors 1 c. à thé de cacao pour la saveur chocolat. Les calories/protéines réelles dépendent de la marque et de la masse d’une mesure.",
-      "nutrition": {
-        "calories": 455,
-        "protein_g": 44,
-        "carbs_g": 43,
-        "fat_g": 12,
-        "basis": "per_shake"
-      },
-      "before": "Les quantités sont pour UN shake. Répéter TROIS fois le mercredi."
-    },
-    "shakeberry": {
-      "id": "shakeberry",
-      "title": "Shake vanille et petits fruits (en faire 3)",
-      "minutes": 5,
-      "servings": 3,
-      "ingredients": [
-        "PAR SHAKE (à préparer 3 fois dans la journée) : 1½ mesure de whey, idéalement à la vanille",
-        "30 g de flocons d’avoine secs",
-        "1 c. à soupe (15 ml) de beurre d’arachides",
-        "100 g de petits fruits surgelés (directement du congélateur)",
-        "¼ c. à thé de cannelle moulue (facultatif)",
-        "300 ml d’eau froide",
-        "4 glaçons, facultatifs"
-      ],
-      "steps": [
-        "Cette recette donne UN shake. Répéter trois fois le mercredi. Pour la journée complète, prévoir 4½ mesures de whey, 90 g d’avoine, 3 c. à soupe de beurre d’arachides et 300 g de petits fruits surgelés.",
-        "Mettre 300 ml d’eau froide et 30 g de flocons d’avoine secs dans le mélangeur. Mixer 15 à 20 secondes.",
-        "Ajouter 1½ mesure de whey, 1 c. à soupe de beurre d’arachides, 100 g de petits fruits encore congelés et, si désiré, ¼ c. à thé de cannelle. Ajouter des glaçons seulement si tu le souhaites.",
-        "Fermer le couvercle. Mixer environ 45 à 60 secondes. Si les fruits sont encore en gros morceaux, arrêter, mélanger avec une cuillère (mélangeur éteint), puis mixer à nouveau 15 secondes.",
-        "Si le shake est trop épais, ajouter 50 ml d’eau et mixer 10 secondes. Boire immédiatement; préparer les autres shakes au moment voulu plutôt que les laisser au chaud."
-      ],
-      "tip": "Le beurre d’arachides remplace le beurre d’amandes : rien d’autre à acheter. Les fruits restent congelés jusqu’au moment de mixer; la cannelle est facultative.",
-      "nutrition": {
-        "calories": 450,
-        "protein_g": 44,
-        "carbs_g": 40,
-        "fat_g": 13,
-        "basis": "per_shake"
-      },
-      "before": "Les quantités sont pour UN shake. Répéter TROIS fois le mercredi."
-    }
-  },
-  "weeks": [
-    [
-      {
-        "day": "Lundi",
-        "subtitle": "Épicé et savoureux",
-        "lunch": "tuna",
-        "dinner": "gingerbeef"
-      },
-      {
-        "day": "Mardi",
-        "subtitle": "Citron et fumé",
-        "lunch": "lemonpotato",
-        "dinner": "chili"
-      },
-      {
-        "day": "Mercredi",
-        "subtitle": "Journée protéines",
-        "lunch": null,
-        "dinner": "shakechoc"
-      },
-      {
-        "day": "Jeudi",
-        "subtitle": "Fraîcheur et érable",
-        "lunch": "fajitas",
-        "dinner": "salmon"
-      },
-      {
-        "day": "Vendredi",
-        "subtitle": "Italie et chili",
-        "lunch": "meatballs",
-        "dinner": "chilipotato"
-      },
-      {
-        "day": "Samedi",
-        "subtitle": "Déjeuner traditionnel",
-        "lunch": "restaurant",
-        "dinner": "porkchop"
-      },
-      {
-        "day": "Dimanche",
-        "subtitle": "Déjeuner et saveurs thaïes",
-        "lunch": "restaurant",
-        "dinner": "thaicurry"
-      }
-    ],
-    [
-      {
-        "day": "Lundi",
-        "subtitle": "Réconfort et Méditerranée",
-        "lunch": "tunabeans",
-        "dinner": "oregano"
-      },
-      {
-        "day": "Mardi",
-        "subtitle": "Arachides et épices fumées",
-        "lunch": "peanutnoodle",
-        "dinner": "tacoskillet"
-      },
-      {
-        "day": "Mercredi",
-        "subtitle": "Journée protéines",
-        "lunch": null,
-        "dinner": "shakeberry"
-      },
-      {
-        "day": "Jeudi",
-        "subtitle": "Frais et relevé",
-        "lunch": "shrimpmango",
-        "dinner": "harissa"
-      },
-      {
-        "day": "Vendredi",
-        "subtitle": "Frais et caramélisé",
-        "lunch": "chickenpotato",
-        "dinner": "koreanbeef"
-      },
-      {
-        "day": "Samedi",
-        "subtitle": "Déjeuner traditionnel",
-        "lunch": "restaurant",
-        "dinner": "tomatocurry"
-      },
-      {
-        "day": "Dimanche",
-        "subtitle": "Déjeuner et nouilles",
-        "lunch": "restaurant",
-        "dinner": "stickypork"
-      }
-    ]
-  ],
-  "notes": [
-    "V3 : toutes les protéines chaudes et le riz sont cuits dimanche; en semaine, réchauffer/assembler en 5 à 10 minutes, avec des portions décongelées au frigo la veille.",
-    "Le dimanche nécessite environ 40 à 60 min de travail actif, mais 75 à 120 min en incluant les cuissons et le rangement.",
-    "Les poids des viandes et patates sont CRUS, mesurés avant la cuisson du dimanche. Le riz SEC est mesuré dans le guide batch.",
-    "Ne pas laisser les repas de jeudi-dimanche au frigo depuis dimanche : congeler dimanche et déplacer au frigo la veille.",
-    "Refroidir rapidement dans des contenants peu profonds et réfrigérer/congeler en 2 heures. Réchauffer une seule fois les restes à 74 °C.",
-    "Calories et macros : estimations approximatives à ajuster selon marques, poids et quantités réellement consommées.",
-    "Sans fromage ni crème sure; shakes mercredi et déjeuner au restaurant samedi/dimanche conservés."
-  ],
-  "shopping": [
-    {
-      "Protéines et produits réfrigérés": [
         {
-          "id": "chicken",
-          "name": "Hauts de cuisse de poulet DÉSOSSÉS SANS PEAU : S1 450 g CRUS (2 × 225 g) / S2 1 150 g CRUS (4 × 225 g + 250 g). PAS des poitrines."
+          "id": "thighs",
+          "qty": 600,
+          "detail": "DÉSOSSÉS, SANS PEAU, poids CRU"
         },
         {
-          "id": "groundbeef",
-          "name": "Bœuf haché maigre : S1 225 g CRUS / S2 450 g CRUS (2 × 225 g)",
-          "voila": {
-            "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA",
-            "type": "product"
-          }
+          "id": "rice",
+          "qty": 160,
+          "detail": "poids SEC"
         },
         {
-          "id": "groundturkey",
-          "name": "Dinde hachée maigre 600 g CRUE pour 3 portions de chili (2 paquets de 450 g si nécessaire; congeler le reste cru)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
-            "type": "product"
-          },
-          "searchName": "Compliments Ground Turkey Extra Lean 450 g"
+          "id": "dicedtomato",
+          "qty": 1,
+          "detail": "boîte COMPLÈTE de 398 ml"
         },
         {
-          "id": "salmon",
-          "name": "Saumon 225 g CRU, à cuire au FOUR dimanche",
-          "voila": {
-            "url": "https://voila.ca/products/atlantic-salmon-fillet/1439110KG",
-            "type": "product"
-          }
+          "id": "coconut",
+          "qty": 1,
+          "detail": "boîte COMPLÈTE de 400 ml"
         },
         {
-          "id": "porkchop",
-          "name": "Côtelette de porc désossée 225 g CRUE",
-          "voila": {
-            "url": "https://voila.ca/categories/meat-seafood/pork/pork-ribs-chops-tenderloin/WEB3100883",
-            "type": "category"
-          }
+          "id": "asianveg",
+          "qty": 500,
+          "detail": "surgelés"
         },
         {
-          "id": "shrimp",
-          "name": "Crevettes CRUES décortiquées 250 g par semaine (sac 340 g suffit par semaine)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
-            "type": "product"
-          },
-          "searchName": "Compliments Frozen Shrimp Pacific White Raw Peeled Deveined 340 g"
-        },
-        {
-          "id": "tuna",
-          "name": "Thon pâle en conserve 170 g × 2 boîtes chaque semaine",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
-            "type": "product"
-          },
-          "searchName": "Compliments Chunked Light Tuna in Water 170 g"
-        },
-        {
-          "id": "meatballsangus",
-          "name": "Boulettes Compliments Angus DÉJÀ CUITES 150 g (sac 680 g, PAS Long Phung)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-meatballs-angus-beef-680-g/432394EA",
-            "type": "product"
-          },
-          "searchName": "Compliments Frozen Meatballs Angus Beef 680 g"
-        },
-        {
-          "id": "whey",
-          "name": "Whey pour 3 shakes du mercredi",
-          "voila": {
-            "url": "https://voila.ca/categories/health-beauty/diet-fitness/protein-powders-shakes/WEB31035247",
-            "type": "category"
-          }
-        }
-      ],
-      "Fruits, légumes et surgelés": [
-        {
-          "id": "pepper",
-          "name": "2 poivrons : 1 pour chili, 1 pour fajitas",
-          "voila": {
-            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-vegetables/bell-peppers/WEB3100792",
-            "type": "category"
-          }
-        },
-        {
-          "id": "onion",
-          "name": "1 oignon : moitié chili, moitié fajitas",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-onions-yellow-1-36-kg/615526EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "cucumber",
-          "name": "Concombre : S1 1 (½ thon, ½ poulet) / S2 2 (lundi et jeudi)",
-          "voila": {
-            "url": "https://voila.ca/products/organic-english-cucumber-1-count/129818EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "tomatoes",
-          "name": "Tomates : S1 ½ tasse de dés / S2 ~1¾ tasse, dont cerises",
-          "voila": {
-            "url": "https://voila.ca/products/cherry-tomatoes-cameo-elite-1-pint/628257EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "broccoli",
-          "name": "Brocoli SURGELÉ : 1½ tasse par semaine (un sac 500 g suffit)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "greenbeans",
-          "name": "Haricots verts SURGELÉS 3½ tasses (saumon 2 + porc 1½)",
-          "voila": {
-            "url": "https://voila.ca/products/best-buy-frozen-green-beans-cut-750-g/408990EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "spinach",
-          "name": "Jeunes épinards : 2 tasses par semaine",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-baby-spinach-312-g/370340EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "potatoes",
-          "name": "Patates ORDINAIRES, poids CRU : S1 650 g (200 + 200 + 250); S2 450 g (200 + 250). UN sac de 2,27 kg couvre les 2 semaines.",
-          "voila": {
-            "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "sweetpotato",
-          "name": "Patate douce 250 g CRUE, pour le Ninja dimanche",
-          "voila": {
-            "url": "https://voila.ca/products/orange-flesh-yams-sweet-potato/130444KG",
-            "type": "product"
-          }
-        },
-        {
-          "id": "lemons",
-          "name": "Citron : 1 par semaine environ",
-          "voila": {
-            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/lemons/WEB3100780",
-            "type": "category"
-          }
-        },
-        {
-          "id": "limes",
-          "name": "Limes : 2 par semaine environ",
-          "voila": {
-            "url": "https://voila.ca/products/lime-1-count/7687EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "avocado",
-          "name": "Avocat 1 : ½ pour thon semaine 1, facultatif semaine 2",
-          "voila": {
-            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/avocados/WEB3100786",
-            "type": "category"
-          }
-        },
-        {
-          "id": "bananas",
-          "name": "Bananes 2 pour les shakes",
-          "voila": {
-            "url": "https://voila.ca/products/banana-1-count-ripe-in-3-4-days/958902EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "stirfryveg",
-          "name": "Légumes asiatiques SURGELÉS : S1 2 tasses / S2 4½ tasses (~2 sacs 500 g)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
-            "type": "product"
-          },
-          "searchName": "Compliments Frozen Stir Fry Asian Style Blend 500 g"
-        },
-        {
-          "id": "ginger",
-          "name": "Gingembre ~½ c. à thé (frais ou en poudre)",
-          "voila": {
-            "url": "https://voila.ca/products/ginger-root/8440KG",
-            "type": "product"
-          }
-        }
-      ],
-      "Haricots et produits de base": [
-        {
-          "id": "pasta",
-          "name": "PENNE RIGATE 90 g SÈCHES, pas soba",
-          "voila": {
-            "url": "https://voila.ca/products/barilla-pasta-penne-rigate-410-g/785494EA",
-            "type": "product"
-          },
-          "searchName": "Barilla Pasta Penne Rigate 410 g"
-        },
-        {
-          "id": "noodles",
-          "name": "Soba Blue Dragon 250 g : UNE SEULE botte liée (~83 g SECS) pour lundi; PAS le paquet entier",
-          "voila": {
-            "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
-            "type": "product"
-          },
-          "searchName": "Blue Dragon Noodles Soba 250 g"
-        },
-        {
-          "id": "oats",
-          "name": "Flocons d’avoine 90 g pour les 3 shakes",
-          "voila": {
-            "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "blackbeans",
-          "name": "Haricots noirs : S1 1 boîte 540 ml (chili) + ¾ tasse (fajitas) = 2 boîtes; S2 ¾ tasse (tacos)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "crushedtomatoes",
-          "name": "Tomates broyées : S1 796 ml chili; S2 ¾ tasse cari",
-          "voila": {
-            "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "coconutmilk",
-          "name": "Lait de coco léger : S1 1 tasse cari; S2 ½ tasse cari (400 ml total sur 14 jours)",
-          "voila": {
-            "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "oliveoil",
-          "name": "Huile d’olive pour batch et vinaigrettes",
-          "voila": {
-            "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "peanutbutter",
-          "name": "Beurre d’arachides : shakes et poulet arachides",
-          "voila": {
-            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
-            "type": "product"
-          }
-        }
-      ],
-      "Assaisonnements et extras": [
-        {
-          "id": "soysauce",
-          "name": "Sauce soya pour sauces et marinades",
-          "voila": {
-            "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "sriracha",
-          "name": "Sriracha (facultative)",
-          "voila": {
-            "url": "https://voila.ca/products/frank-s-red-hot-sauce-sriracha-354-ml/362310EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "dijon",
-          "name": "Moutarde Dijon : 1 c. à soupe saumon + 1 c. à thé poulet",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-prepared-dijon-mustard-original-325-ml/409731EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "maple",
-          "name": "Sirop d’érable : S1 2 c. à thé saumon; S2 1 c. à thé bœuf",
-          "voila": {
-            "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "paprika",
-          "name": "Paprika fumé pour chili/fajitas/tacos",
-          "voila": {
-            "url": "https://voila.ca/products/mccormick-smoked-paprika-46-g/164655EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "cumin",
-          "name": "Cumin pour chili/fajitas/tacos",
-          "voila": {
-            "url": "https://voila.ca/products/club-house-ground-cumin-90-g/503752EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "chilipowder",
-          "name": "Poudre de chili pour chili ou tacos",
-          "voila": {
-            "url": "https://voila.ca/products/mccormick-gourmet-chili-powder-40-g/681670EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "currypaste",
-          "name": "Pâte de cari rouge 1 c. à soupe pour crevettes",
-          "voila": {
-            "url": "https://voila.ca/products/thai-kitchen-curry-paste-red-112-g/519593EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "marinara",
-          "name": "Sauce marinara ¾ tasse pour penne",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-marinara-sauce-sweet-basil-650-ml/404824EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "salsa",
-          "name": "Salsa pour fajitas/tacos, facultative sur patates",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "honey",
-          "name": "Miel 1 c. à thé pour soba",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-pure-natural-liquid-honey-500-g/289980EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "sesameoil",
-          "name": "Huile de sésame pour soba, bœuf ou porc",
-          "voila": {
-            "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "driedbasil",
-          "name": "Basilic séché 1 c. à thé pour penne",
-          "voila": {
-            "url": "https://voila.ca/products/club-house-organic-basil-leaves-bag-10-g/666824EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "oregano",
-          "name": "Origan séché pour poulet"
-        },
-        {
-          "id": "salt",
-          "name": "Sel au goût, seulement si nécessaire"
-        },
-        {
-          "id": "blackpepper",
-          "name": "Poivre au goût, seulement si nécessaire"
-        },
-        {
-          "id": "snacks",
-          "name": "Collations riches en protéines selon objectifs",
-          "voila": {
-            "url": "https://voila.ca/categories/snacks-candy/WEB1100614",
-            "type": "category"
-          }
-        },
-        {
-          "id": "desserts",
-          "name": "Desserts facultatifs selon objectifs",
-          "voila": {
-            "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
-            "type": "category"
-          }
-        }
-      ]
-    },
-    {
-      "Protéines et produits réfrigérés": [
-        {
-          "id": "chicken",
-          "name": "Hauts de cuisse de poulet DÉSOSSÉS SANS PEAU : S1 450 g CRUS (2 × 225 g) / S2 1 150 g CRUS (4 × 225 g + 250 g). PAS des poitrines."
-        },
-        {
-          "id": "groundbeef",
-          "name": "Bœuf haché maigre : S1 225 g CRUS / S2 450 g CRUS (2 × 225 g)",
-          "voila": {
-            "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "porkstrips",
-          "name": "Lanières de porc maigre 225 g CRUES pour udon",
-          "voila": {
-            "url": "https://voila.ca/products/stir-fry-pork-strips/453351KG",
-            "type": "product"
-          }
-        },
-        {
-          "id": "shrimp",
-          "name": "Crevettes CRUES décortiquées 250 g par semaine (sac 340 g suffit par semaine)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-shrimp-pacific-white-raw-peeled-deveined-340-g/371575EA",
-            "type": "product"
-          },
-          "searchName": "Compliments Frozen Shrimp Pacific White Raw Peeled Deveined 340 g"
-        },
-        {
-          "id": "tuna",
-          "name": "Thon pâle en conserve 170 g × 2 boîtes chaque semaine",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-chunked-light-tuna-in-water-170-g/218397EA",
-            "type": "product"
-          },
-          "searchName": "Compliments Chunked Light Tuna in Water 170 g"
-        },
-        {
-          "id": "whey",
-          "name": "Whey pour 3 shakes du mercredi",
-          "voila": {
-            "url": "https://voila.ca/categories/health-beauty/diet-fitness/protein-powders-shakes/WEB31035247",
-            "type": "category"
-          }
-        }
-      ],
-      "Fruits, légumes et surgelés": [
-        {
-          "id": "cucumber",
-          "name": "Concombre : S1 1 (½ thon, ½ poulet) / S2 2 (lundi et jeudi)",
-          "voila": {
-            "url": "https://voila.ca/products/organic-english-cucumber-1-count/129818EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "tomatoes",
-          "name": "Tomates : S1 ½ tasse de dés / S2 ~1¾ tasse, dont cerises",
-          "voila": {
-            "url": "https://voila.ca/products/cherry-tomatoes-cameo-elite-1-pint/628257EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "broccoli",
-          "name": "Brocoli SURGELÉ : 1½ tasse par semaine (un sac 500 g suffit)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "cabbage",
-          "name": "Chou râpé EN SAC 1 tasse pour vendredi",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-salad-mix-coleslaw-397-g/655261EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "stirfryveg",
-          "name": "Légumes asiatiques SURGELÉS : S1 2 tasses / S2 4½ tasses (~2 sacs 500 g)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA",
-            "type": "product"
-          },
-          "searchName": "Compliments Frozen Stir Fry Asian Style Blend 500 g"
-        },
-        {
-          "id": "spinach",
-          "name": "Jeunes épinards : 2 tasses par semaine",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-baby-spinach-312-g/370340EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "potatoes",
-          "name": "Patates ORDINAIRES, poids CRU : S1 650 g (200 + 200 + 250); S2 450 g (200 + 250). UN sac de 2,27 kg couvre les 2 semaines.",
-          "voila": {
-            "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "lemons",
-          "name": "Citron : 1 par semaine environ",
-          "voila": {
-            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/lemons/WEB3100780",
-            "type": "category"
-          }
-        },
-        {
-          "id": "limes",
-          "name": "Limes : 2 par semaine environ",
-          "voila": {
-            "url": "https://voila.ca/products/lime-1-count/7687EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "avocado",
-          "name": "Avocat 1 : ½ pour thon semaine 1, facultatif semaine 2",
-          "voila": {
-            "url": "https://voila.ca/categories/fresh-fruits-vegetables/fresh-fruits/avocados/WEB3100786",
-            "type": "category"
-          }
-        },
-        {
-          "id": "berries",
-          "name": "Petits fruits SURGELÉS 300 g pour les 3 shakes",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-frozen-jumbleberry-fruit-blend-600-g/43805EA",
-            "type": "product"
-          }
+          "id": "curry",
+          "qty": 30,
+          "detail": "2 c. à soupe"
         },
         {
           "id": "garlic",
-          "name": "Ail pour poulet citron-origan (ou ail en poudre)",
-          "voila": {
-            "url": "https://voila.ca/products/fresh-garlic-3-count/204613EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "frozenmango",
-          "name": "Mangue EN MORCEAUX SURGELÉE ½ tasse pour jeudi"
-        }
-      ],
-      "Haricots et produits de base": [
-        {
-          "id": "blackbeans",
-          "name": "Haricots noirs : S1 1 boîte 540 ml (chili) + ¾ tasse (fajitas) = 2 boîtes; S2 ¾ tasse (tacos)",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "whitebeans",
-          "name": "Haricots blancs en conserve ¾ tasse pour lundi",
-          "voila": {
-            "url": "https://voila.ca/products/unico-white-kidney-beans-540-ml/328658EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "chickpeas",
-          "name": "Pois chiches en conserve ¾ tasse pour jeudi",
-          "voila": {
-            "url": "https://voila.ca/products/unico-chickpeas-no-salt-added-540-ml/352549EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "corn",
-          "name": "Maïs SURGELÉ : 1 tasse (½ tacos + ½ poulet patates)",
-          "voila": {
-            "url": "https://voila.ca/products/best-buy-frozen-whole-kernel-corn-750-g/408982EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "crushedtomatoes",
-          "name": "Tomates broyées : S1 796 ml chili; S2 ¾ tasse cari",
-          "voila": {
-            "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "coconutmilk",
-          "name": "Lait de coco léger : S1 1 tasse cari; S2 ½ tasse cari (400 ml total sur 14 jours)",
-          "voila": {
-            "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "udon",
-          "name": "UDON PRÊTES À UTILISER 200 g : UN paquet ENTIER pour dimanche",
-          "voila": {
-            "url": "https://voila.ca/products/six-fortune-udon-noodles-plain-200-g/512357EA",
-            "type": "product"
-          },
-          "searchName": "Six Fortune Udon Noodles Plain 200 g"
+          "qty": 2,
+          "detail": "hachées"
         },
         {
           "id": "oliveoil",
-          "name": "Huile d’olive pour batch et vinaigrettes",
-          "voila": {
-            "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA",
-            "type": "product"
-          }
+          "qty": 5,
+          "detail": "1 c. à thé"
+        }
+      ],
+      "steps": [
+        "Peser 160 g de riz SEC et démarrer le cuiseur avec l’eau prévue sur l’emballage. Le riz cuit donnera 4 portions.",
+        "Couper les 600 g de hauts de cuisse de poulet CRUS désossés sans peau en cubes de 2 cm. Hacher 2 gousses d’ail. Garder 500 g de légumes asiatiques SURGELÉS.",
+        "Chauffer 5 ml d’huile d’olive (1 c. à thé) à feu moyen-vif dans une grande poêle profonde ou casserole. Ajouter le poulet et le faire cuire 8 à 12 min en remuant, jusqu’à 74 °C au centre des morceaux épais.",
+        "Ajouter les 2 gousses d’ail hachées et 30 ml (2 c. à soupe) de pâte de cari rouge. Mélanger 30 à 60 secondes pour parfumer.",
+        "Verser TOUTE la boîte de tomates en dés de 398 ml AVEC son jus, puis TOUTE la boîte de lait de coco léger de 400 ml. Remuer jusqu’à ce que la sauce soit uniforme.",
+        "Ajouter directement les 500 g de légumes asiatiques SURGELÉS. Porter à léger bouillonnement, baisser à feu moyen-doux et laisser mijoter 12 à 15 minutes sans couvercle, en remuant de temps en temps.",
+        "Diviser le riz CUIT entre 4 contenants, puis répartir par-dessus TOUT le cari, poulet, légumes et sauce. Il ne reste rien à ajouter au dernier moment."
+      ],
+      "storage": "Le riz et la sauce coco-tomate sont déjà assemblés. Réchauffer à 74 °C.",
+      "nutrition": {
+        "calories": 515,
+        "protein_g": 36,
+        "carbs_g": 52,
+        "fat_g": 17,
+        "basis": "per_portion",
+        "estimated": true
+      }
+    },
+    "shakeberry": {
+      "id": "shakeberry",
+      "week": 2,
+      "title": "3 shakes vanille-petits fruits (mercredi)",
+      "servings": 3,
+      "minutes": 5,
+      "equipment": "Mélangeur; trois shakes préparés séparément",
+      "ingredients": [
+        {
+          "id": "whey",
+          "qty": 90,
+          "detail": "saveur vanille ou nature : 30 g par shake"
         },
         {
           "id": "oats",
-          "name": "Flocons d’avoine 90 g pour les 3 shakes",
-          "voila": {
-            "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA",
-            "type": "product"
-          }
+          "qty": 120,
+          "detail": "40 g SECS par shake"
         },
         {
-          "id": "peanutbutter",
-          "name": "Beurre d’arachides : shakes et poulet arachides",
-          "voila": {
-            "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA",
-            "type": "product"
-          }
+          "id": "berries",
+          "qty": 450,
+          "detail": "surgelés : 150 g par shake"
+        },
+        {
+          "id": "peanut",
+          "qty": 45,
+          "detail": "15 g par shake"
+        },
+        {
+          "id": "water",
+          "qty": 900,
+          "detail": "300 ml par shake"
         }
       ],
-      "Assaisonnements et extras": [
-        {
-          "id": "harissa",
-          "name": "Pâte de harissa 1 c. à soupe pour jeudi",
-          "voila": {
-            "url": "https://voila.ca/products/al-fez-paste-harissa-162-ml/33737EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "soysauce",
-          "name": "Sauce soya pour sauces et marinades",
-          "voila": {
-            "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "sweetchili",
-          "name": "Sauce chili douce pour poulet et porc",
-          "voila": {
-            "url": "https://voila.ca/products/kim-phat-chili-sauce-sweet-298-ml/336218EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "currypowder",
-          "name": "Poudre de cari 1 c. à thé pour samedi",
-          "voila": {
-            "url": "https://voila.ca/products/club-house-curry-powder-110-g/503753EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "garammasala",
-          "name": "Garam masala ½ c. à thé pour samedi",
-          "voila": {
-            "url": "https://voila.ca/products/national-garam-masala-powder-50-g/423888EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "chilipowder",
-          "name": "Poudre de chili pour chili ou tacos",
-          "voila": {
-            "url": "https://voila.ca/products/mccormick-gourmet-chili-powder-40-g/681670EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "cumin",
-          "name": "Cumin pour chili/fajitas/tacos",
-          "voila": {
-            "url": "https://voila.ca/products/club-house-ground-cumin-90-g/503752EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "paprika",
-          "name": "Paprika fumé pour chili/fajitas/tacos",
-          "voila": {
-            "url": "https://voila.ca/products/mccormick-smoked-paprika-46-g/164655EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "sesameoil",
-          "name": "Huile de sésame pour soba, bœuf ou porc",
-          "voila": {
-            "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "maple",
-          "name": "Sirop d’érable : S1 2 c. à thé saumon; S2 1 c. à thé bœuf",
-          "voila": {
-            "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "salsa",
-          "name": "Salsa pour fajitas/tacos, facultative sur patates",
-          "voila": {
-            "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA",
-            "type": "product"
-          }
-        },
-        {
-          "id": "oregano",
-          "name": "Origan séché pour poulet"
-        },
-        {
-          "id": "salt",
-          "name": "Sel au goût, seulement si nécessaire"
-        },
-        {
-          "id": "blackpepper",
-          "name": "Poivre au goût, seulement si nécessaire"
-        },
-        {
-          "id": "snacks",
-          "name": "Collations riches en protéines selon objectifs",
-          "voila": {
-            "url": "https://voila.ca/categories/snacks-candy/WEB1100614",
-            "type": "category"
-          }
-        },
-        {
-          "id": "desserts",
-          "name": "Desserts facultatifs selon objectifs",
-          "voila": {
-            "url": "https://voila.ca/categories/pantry/crackers-cookies-desserts/packaged-desserts/WEB3432609",
-            "type": "category"
-          }
-        }
-      ]
+      "steps": [
+        "Les ingrédients listés correspondent à TROIS shakes. Pour UN seul : 30 g de whey + 40 g d’avoine sèche + 150 g de petits fruits surgelés + 15 g de beurre d’arachides + 300 ml d’eau.",
+        "Verser 300 ml d’eau dans le mélangeur, puis ajouter l’avoine, la whey, les petits fruits surgelés et le beurre d’arachides.",
+        "Mélanger 45 à 60 secondes, jusqu’à texture lisse. Ajuster uniquement la texture avec un peu d’eau si nécessaire.",
+        "Recommencer deux fois quand tu voudras boire les autres shakes. Tu peux préparer les trois portions d’ingrédients secs à l’avance."
+      ],
+      "storage": "Préparer au moment de boire. La journée de shakes n’est pas obligatoire si tu préfères des repas solides.",
+      "nutrition": {
+        "calories": 445,
+        "protein_g": 37,
+        "carbs_g": 49,
+        "fat_g": 12,
+        "basis": "per_portion",
+        "estimated": true
+      }
     }
+  },
+  "products": {
+    "groundbeef": {
+      "name": "Bœuf haché maigre",
+      "category": "Viandes",
+      "unit": "g",
+      "url": "https://voila.ca/products/ground-beef-lean-454-g/660101EA"
+    },
+    "groundturkey": {
+      "name": "Dinde hachée maigre",
+      "category": "Viandes",
+      "unit": "g",
+      "url": "https://voila.ca/products/compliments-ground-turkey-extra-lean-450-g/850787EA",
+      "hint": "Si paquets de 450 g : en acheter 2; congeler les 300 g restants crus."
+    },
+    "pork": {
+      "name": "Côtelettes de porc désossées",
+      "category": "Viandes",
+      "unit": "g",
+      "url": "https://voila.ca/categories/meat-seafood/pork/pork-ribs-chops-tenderloin/WEB3100883"
+    },
+    "thighs": {
+      "name": "Hauts de cuisse de poulet désossés, sans peau",
+      "category": "Viandes",
+      "unit": "g"
+    },
+    "salmon": {
+      "name": "Filet de saumon cru",
+      "category": "Viandes",
+      "unit": "g",
+      "url": "https://voila.ca/products/atlantic-salmon-fillet/1439110KG"
+    },
+    "whey": {
+      "name": "Protéine en poudre (whey)",
+      "category": "Viandes",
+      "unit": "g"
+    },
+    "broccoli": {
+      "name": "Brocoli surgelé",
+      "category": "Légumes et fruits",
+      "unit": "g",
+      "url": "https://voila.ca/products/compliments-frozen-broccoli-florets-500-g/326594EA"
+    },
+    "greenbeans": {
+      "name": "Haricots verts surgelés",
+      "category": "Légumes et fruits",
+      "unit": "g",
+      "url": "https://voila.ca/products/best-buy-frozen-green-beans-cut-750-g/408990EA"
+    },
+    "asianveg": {
+      "name": "Mélange de légumes asiatiques surgelés",
+      "category": "Légumes et fruits",
+      "unit": "g",
+      "url": "https://voila.ca/products/compliments-frozen-stir-fry-asian-style-blend-500-g/250345EA"
+    },
+    "pepper": {
+      "name": "Poivron",
+      "category": "Légumes et fruits",
+      "unit": "un"
+    },
+    "onion": {
+      "name": "Oignon moyen",
+      "category": "Légumes et fruits",
+      "unit": "un",
+      "url": "https://voila.ca/products/compliments-onions-yellow-1-36-kg/615526EA"
+    },
+    "potatoes": {
+      "name": "Pommes de terre ordinaires (poids cru)",
+      "category": "Légumes et fruits",
+      "unit": "g",
+      "url": "https://voila.ca/products/canada-potatoes-bag-2-27-kg/9051EA"
+    },
+    "banana": {
+      "name": "Banane moyenne",
+      "category": "Légumes et fruits",
+      "unit": "un",
+      "url": "https://voila.ca/products/banana-1-count-ripe-in-3-4-days/958902EA"
+    },
+    "berries": {
+      "name": "Petits fruits mélangés surgelés",
+      "category": "Légumes et fruits",
+      "unit": "g"
+    },
+    "lime": {
+      "name": "Lime",
+      "category": "Légumes et fruits",
+      "unit": "un",
+      "url": "https://voila.ca/products/lime-1-count/7687EA"
+    },
+    "lemon": {
+      "name": "Citron",
+      "category": "Légumes et fruits",
+      "unit": "un"
+    },
+    "garlic": {
+      "name": "Gousse d’ail",
+      "category": "Légumes et fruits",
+      "unit": "gousse"
+    },
+    "ginger": {
+      "name": "Gingembre frais râpé",
+      "category": "Légumes et fruits",
+      "unit": "c. à thé",
+      "url": "https://voila.ca/products/ginger-root/8440KG"
+    },
+    "rice": {
+      "name": "Riz sec (avant cuisson)",
+      "category": "Féculents et conserves",
+      "unit": "g"
+    },
+    "soba": {
+      "name": "Nouilles soba sèches Blue Dragon",
+      "category": "Féculents et conserves",
+      "unit": "g",
+      "url": "https://voila.ca/products/blue-dragon-noodles-soba-250-g/926384EA",
+      "hint": "Deux bottes attachées d’environ 83 g chacune; PAS le paquet de 250 g au complet."
+    },
+    "blackbeans": {
+      "name": "Haricots noirs en conserve (boîte de 540 ml)",
+      "category": "Féculents et conserves",
+      "unit": "boîte",
+      "url": "https://voila.ca/products/compliments-no-salt-added-canned-black-beans-540-ml/331490EA"
+    },
+    "crushedtomato": {
+      "name": "Tomates broyées (boîte de 796 ml)",
+      "category": "Féculents et conserves",
+      "unit": "boîte",
+      "url": "https://voila.ca/products/unico-crushed-tomatoes-796-ml/915600EA"
+    },
+    "dicedtomato": {
+      "name": "Tomates en dés (boîte de 398 ml)",
+      "category": "Féculents et conserves",
+      "unit": "boîte"
+    },
+    "coconut": {
+      "name": "Lait de coco léger (boîte de 400 ml)",
+      "category": "Féculents et conserves",
+      "unit": "boîte",
+      "url": "https://voila.ca/products/kosa-light-coconut-milk-400-ml/569756EA"
+    },
+    "oats": {
+      "name": "Flocons d’avoine secs",
+      "category": "Féculents et conserves",
+      "unit": "g",
+      "url": "https://voila.ca/products/dan-d-pak-rolled-oats-1-kg/313459EA"
+    },
+    "oliveoil": {
+      "name": "Huile d’olive",
+      "category": "Sauces et épices",
+      "unit": "ml",
+      "url": "https://voila.ca/products/liv99-extra-virgin-olive-oil-750-ml/785263EA"
+    },
+    "soy": {
+      "name": "Sauce soya réduite en sodium",
+      "category": "Sauces et épices",
+      "unit": "ml",
+      "url": "https://voila.ca/products/kikkoman-soy-sauce-less-sodium-296-ml/502424EA"
+    },
+    "honey": {
+      "name": "Miel",
+      "category": "Sauces et épices",
+      "unit": "ml",
+      "url": "https://voila.ca/products/compliments-pure-natural-liquid-honey-500-g/289980EA"
+    },
+    "sesame": {
+      "name": "Huile de sésame",
+      "category": "Sauces et épices",
+      "unit": "ml",
+      "url": "https://voila.ca/products/emile-noel-organic-toasted-sesame-oil-virgin-250-ml/664012EA"
+    },
+    "maple": {
+      "name": "Sirop d’érable",
+      "category": "Sauces et épices",
+      "unit": "ml",
+      "url": "https://voila.ca/products/sensations-pure-maple-syrup-375-ml/249806EA"
+    },
+    "salsa": {
+      "name": "Salsa",
+      "category": "Sauces et épices",
+      "unit": "ml",
+      "url": "https://voila.ca/products/compliments-naturally-simple-salsa-medium-488-ml/697118EA"
+    },
+    "dijon": {
+      "name": "Moutarde Dijon",
+      "category": "Sauces et épices",
+      "unit": "ml",
+      "url": "https://voila.ca/products/compliments-prepared-dijon-mustard-original-325-ml/409731EA"
+    },
+    "curry": {
+      "name": "Pâte de cari rouge",
+      "category": "Sauces et épices",
+      "unit": "ml",
+      "url": "https://voila.ca/products/thai-kitchen-curry-paste-red-112-g/519593EA"
+    },
+    "peanut": {
+      "name": "Beurre d’arachides naturel",
+      "category": "Sauces et épices",
+      "unit": "g",
+      "url": "https://voila.ca/products/adams-creamy-natural-unsalted-peanut-butter-500-g/508502EA"
+    },
+    "cocoa": {
+      "name": "Cacao pur non sucré",
+      "category": "Sauces et épices",
+      "unit": "g"
+    },
+    "chilipowder": {
+      "name": "Poudre de chili (mélange d’épices, pas cayenne)",
+      "category": "Sauces et épices",
+      "unit": "c. à thé",
+      "url": "https://voila.ca/products/mccormick-gourmet-chili-powder-40-g/681670EA"
+    },
+    "cumin": {
+      "name": "Cumin moulu",
+      "category": "Sauces et épices",
+      "unit": "c. à thé",
+      "url": "https://voila.ca/products/club-house-ground-cumin-90-g/503752EA"
+    },
+    "paprika": {
+      "name": "Paprika fumé",
+      "category": "Sauces et épices",
+      "unit": "c. à thé",
+      "url": "https://voila.ca/products/mccormick-smoked-paprika-46-g/164655EA"
+    },
+    "oregano": {
+      "name": "Origan séché",
+      "category": "Sauces et épices",
+      "unit": "c. à thé"
+    },
+    "ricevinegar": {
+      "name": "Vinaigre de riz",
+      "category": "Sauces et épices",
+      "unit": "ml"
+    },
+    "salt": {
+      "name": "Sel",
+      "category": "Sauces et épices",
+      "unit": "c. à thé"
+    },
+    "peppercorn": {
+      "name": "Poivre noir moulu",
+      "category": "Sauces et épices",
+      "unit": "c. à thé"
+    },
+    "water": {
+      "name": "Eau",
+      "category": "Autres",
+      "unit": "ml",
+      "skipShop": true
+    }
+  },
+  "categories": [
+    "Viandes",
+    "Légumes et fruits",
+    "Féculents et conserves",
+    "Sauces et épices"
   ],
-  "ui": {
-    "static": {
-      ".brand": "<span class=\"brandmark\">✳</span> Rotation de 14 jours",
-      ".nav [data-nav=\"plan\"]": "📅 Menu",
-      ".nav [data-nav=\"recipes\"]": "🍳 Recettes",
-      ".nav [data-nav=\"shopping\"]": "🛒 Épicerie",
-      ".nav [data-nav=\"settings\"]": "⚙️ Notes",
-      ".hero .kicker": "Préparer dimanche • ≤ 10 min les autres jours",
-      ".hero h1": "Des repas qui donnent<br><span class=\"accent\">vraiment envie.</span>",
-      ".hero .lead": "Deux semaines indépendantes de repas variés. On prépare les bases le dimanche, puis on réchauffe ou assemble les repas en 5 à 10 minutes les autres jours. Sans fromage ni crème sure; mercredi shakes et week-end déjeuners au restaurant.",
-      ".heroStat .statRow > div:nth-child(1) span:first-child": "Objectif des jours habituels",
-      ".heroStat .statRow > div:nth-child(2) span:first-child": "Objectif de protéines",
-      ".heroStat .statRow > div:nth-child(2) span:last-child": "les jours habituels",
-      ".heroStat .statRow > div:nth-child(3) span:first-child": "Mercredi",
-      "button[data-week=\"0\"]": "Semaine 1",
-      "button[data-week=\"1\"]": "Semaine 2",
-      "#today": "↗ Début de semaine",
-      "#copyDay": "⧉ Copier cette journée",
-      "#plan .controlbar .utility button[onclick]": "⎙ Imprimer",
-      "#plan .sectionhead h2": "Garder de la flexibilité",
-      "#plan .snackstrip .minicard:nth-child(1) strong": "Collation riche en protéines",
-      "#plan .snackstrip .minicard:nth-child(1) p": "Whey avec de l’eau, des fruits et des amandes; ou œufs, edamames et fruits. Ajuster pour atteindre tes objectifs de protéines et de calories.",
-      "#plan .snackstrip .minicard:nth-child(2) strong": "Le dessert reste permis",
-      "#plan .snackstrip .minicard:nth-child(2) p": "Prévoir 150 à 200 kcal quand tu veux une touche sucrée. Pas besoin d’interdire chocolat ou crème glacée.",
-      "#plan .snackstrip .minicard:nth-child(3) strong": "Routine du matin",
-      "#plan .snackstrip .minicard:nth-child(3) p": "Si tu prends des suppléments, compter leurs calories. Ils ne remplacent pas une alimentation équilibrée.",
-      "#recipes .sectionhead .kicker": "Toutes les recettes",
-      "#recipes .sectionhead h2": "Bibliothèque de recettes",
-      "#shopping .sectionhead .kicker": "Cocher au fur et à mesure",
-      "#shopping .sectionhead h2": "Épicerie optimisée",
-      "button[data-shopweek=\"0\"]": "Semaine 1",
-      "button[data-shopweek=\"1\"]": "Semaine 2",
-      "#shopping > p.muted": "L’épicerie correspond maintenant aux deux batches du dimanche. Les anciennes coches peuvent être conservées : vérifie les nouvelles quantités avant de supposer que tout est acheté. Riz et quinoa déjà dans tes réserves.",
-      "#copyGroceries": "⧉ Copier la liste",
-      "#clearGroceries": "↺ Effacer les coches",
-      "#settings .sectionhead .kicker": "Ton menu, tes ajustements",
-      "#settings .sectionhead h2": "Notes et partage",
-      "#settings .settings .panel:first-child h3": "Notes sur les recettes",
-      "#settings .settings .panel:first-child p.muted:first-of-type": "Noter les substitutions et les repas moins aimés. Ces notes restent dans ce navigateur; elles ne sont pas automatiquement partagées avec ChatGPT.",
-      "#settings .settings .panel:first-child p.muted:last-of-type": "Enregistré automatiquement sur cet appareil.",
-      "#settings .settings .panel:nth-child(2) h3": "Travailler avec ChatGPT",
-      "#settings .settings .panel:nth-child(2) p.muted": "Pour que ChatGPT lise la dernière version du menu dans une autre conversation, fournir l’URL de ce site. Les fichiers publics index.html et plan.json sont accessibles; les coches et notes locales ne le sont pas.",
-      "#export": "↓ Télécharger le plan JSON",
-      "#copyForChat": "⧉ Copier les notes pour ChatGPT",
-      "#settings > .panel h3": "Repères et hypothèses",
-      ".footer p": "Version 3.0 · Batch du dimanche · Calories et macros estimatives.",
-      "#shopping .seg button[data-shopweek=\"2\"]": "14 jours",
-      ".nav [data-nav=\"prep\"]": "🥘 Batch dimanche",
-      "#prep .sectionhead .kicker": "Une seule séance groupée chaque dimanche",
-      "#prep .sectionhead h2": "Préparer la semaine",
-      "#openPrep": "🥘 Préparation du dimanche",
-      "#copyPrep": "⧉ Copier le batch",
-      "#resetPrep": "↺ Réinitialiser les étapes",
-      "button[data-prepweek=\"0\"]": "Semaine 1",
-      "button[data-prepweek=\"1\"]": "Semaine 2",
-      "#prep > p.muted": "Commence par la semaine de ton choix. Effectue la préparation avant son lundi; coche les étapes pendant que tu cuisines. L’épicerie est dans l’onglet voisin."
-    },
-    "placeholders": {
-      "#recipeSearch": "Chercher poulet, cari, nouilles, recettes rapides…",
-      "#notes": "Ex. : J’ai aimé le bœuf au gingembre; ajouter plus de lime au cari de crevettes…"
-    }
-  },
-  "shopping_note": "Liste reconstruite pour le batch v3 : quantités par semaine; riz déjà disponible; vérifier ce qui est déjà acheté.",
-  "shopping_optimization": {
-    "buy_once_ids": [
-      "chicken",
-      "groundbeef",
-      "shrimp",
-      "tuna",
-      "whey",
-      "cucumber",
-      "tomatoes",
-      "broccoli",
-      "spinach",
-      "potatoes",
-      "lemons",
-      "limes",
-      "avocado",
-      "stirfryveg",
-      "oats",
-      "blackbeans",
-      "crushedtomatoes",
-      "coconutmilk",
-      "oliveoil",
-      "peanutbutter",
-      "soysauce",
-      "maple",
-      "paprika",
-      "cumin",
-      "chilipowder",
-      "salsa",
-      "sesameoil",
-      "oregano",
-      "salt",
-      "blackpepper",
-      "snacks",
-      "desserts"
-    ],
-    "hints": {
-      "chicken": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "groundbeef": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "shrimp": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "tuna": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "whey": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "cucumber": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "tomatoes": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "broccoli": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "spinach": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "potatoes": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "lemons": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "limes": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "avocado": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "stirfryveg": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "oats": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "blackbeans": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "crushedtomatoes": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "coconutmilk": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "oliveoil": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "peanutbutter": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "soysauce": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "maple": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "paprika": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "cumin": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "chilipowder": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "salsa": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "sesameoil": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "oregano": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "salt": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "blackpepper": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "snacks": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés.",
-      "desserts": "Présent dans les deux semaines : tenir compte des quantités S1 et S2 et de tes produits déjà achetés."
-    }
-  },
-  "batch_prep": [
-    {
-      "title": "Batch du dimanche — Semaine 1",
-      "active": "45 à 60 min de travail actif",
-      "elapsed": "90 à 120 min au total, cuissons et contenants compris",
-      "intro": "À préparer une fois avant de commencer la semaine 1. Tu peux commencer par la semaine 1 OU 2. Congeler dès dimanche tous les plats cuits de jeudi à dimanche.",
-      "equipment": "Four, Ninja à deux bacs, cuiseur à riz, grande casserole, poêle, contenants peu profonds étiquetés.",
-      "steps": [
-        "ÉTIQUETER d’abord : LUN dîner thon/riz; LUN souper bœuf/soba; MAR dîner poulet/patates; MAR souper chili/riz; JEU dîner fajitas/riz; JEU souper saumon/patates; VEN dîner penne/boulettes; VEN souper chili/patates; SAM souper porc/patate douce; DIM souper cari crevettes/riz. Prévoir 1 contenant chili « RÉSERVE ».",
-        "CUISEUR À RIZ : mesurer exactement 1⅔ tasse STANDARD (environ 300 g) de riz SEC. Ajouter l’eau selon l’emballage (PAS 1⅔ petits gobelets du cuiseur). Après cuisson, répartir ~5 tasses de riz CUIT : LUN thon 1½; MAR chili 1; JEU fajitas 1; DIM cari crevettes 1½.",
-        "NINJA : couper 650 g de patates ORDINAIRES CRUES en cubes 2–2,5 cm. AIR FRY à 200 °C pendant 22–25 min avec ~5 c. à thé d’huile au total; secouer à mi-cuisson. Répartir selon le poids CRU initial : MAR 200 g, JEU 200 g, VEN 250 g. Autre bac : 250 g de patate douce CRUE en cubes + 1 c. à thé d’huile, AIR FRY à 200 °C ~18–23 min. Trempage facultatif +20 min; sécher soigneusement.",
-        "FOUR — HAUTS DE CUISSE POUR MAR + JEU : préchauffer le four à 200 °C. Utiliser 450 g de hauts de cuisse de poulet DÉSOSSÉS et SANS PEAU, pesés CRUS avant cuisson. Former DEUX groupes de 225 g crus, l’un pour mardi citron et l’autre pour jeudi fajitas. Ne pas aplatir ni couper les hauts de cuisse avant cuisson : les déposer entiers, sans les superposer, sur une plaque avec papier parchemin. Cuire environ 20 à 30 min selon l’épaisseur, jusqu’à 74 °C au centre du morceau le plus épais. Laisser reposer 3 min. Après cuisson : couper le groupe MAR en bouchées; couper le groupe JEU en lanières d’environ 1 cm, puis les mélanger 1–2 min avec les poivrons/oignons et épices fajitas déjà cuits. Ne PAS mesurer 225 g sur le poulet cuit : c’est le poids CRU. Si les hauts de cuisse ont un OS, il faut les désosser avant la pesée pour obtenir 225 g de viande crue par portion; le temps au four sera différent. AUTRES PLAQUES : cuire séparément 225 g de saumon avec 1 c. à soupe de Dijon + 2 c. à thé d’érable (jusqu’à 70 °C) et 225 g de porc désossé jusqu’à 71 °C.",
-        "FAJITAS POULET / LÉGUMES (UNE portion de jeudi) : prendre la MOITIÉ du batch de 450 g de poulet CRU déjà cuit au four à 74 °C (équivalant à 225 g CRUS); garder l’autre moitié nature pour mardi. Mélanger exactement 1 c. à thé de PAPRIKA FUMÉ + ½ c. à thé de CUMIN MOULU + ¼ c. à thé de SEL + 1 pincée de POIVRE NOIR dans un petit bol. Couper 1 poivron entier et ½ oignon en lanières. Chauffer 1 c. à thé d’huile d’olive dans une poêle à feu moyen-vif; cuire poivron/oignon 5–7 min, ajouter toutes les épices et remuer 30 sec. Ajouter la portion de poulet de jeudi DÉJÀ CUITE et coupée en lanières, plus 1–2 c. à soupe d’eau si trop sec; mélanger 1–2 min. Emballer avec exactement 1 tasse de riz CUIT dimanche, refroidir rapidement et CONGELER dès dimanche pour jeudi. Jeudi, ajouter ¾ tasse de haricots noirs, 1 c. à soupe de salsa et 1 c. à thé de lime. Ne pas assaisonner le poulet de mardi avec les épices fajitas.",
-        "CHILI : brunir 600 g de dinde hachée CRUE dans la casserole jusqu’à 74 °C; ajouter 1 boîte de tomates broyées 796 ml, 1 boîte de haricots noirs 540 ml rincés, 1 poivron en dés, ½ oignon en dés, 2 c. à thé de poudre chili, 1 c. à thé de cumin, 1 c. à thé de paprika fumé. Mijoter ~20 min. Diviser le CHILI CUIT en 3 portions égales : MAR, VEN, réserve à congeler. Option mijoteuse après brunissage : HIGH ~3–4 h (durée totale beaucoup plus longue).",
-        "BŒUF/SOBA : dans un bol, mélanger la SAUCE = 1 c. à soupe soya + 1 c. à thé miel + 1 c. à thé huile de sésame + ½ c. à thé gingembre + 2 c. à soupe eau. Cuire UNE SEULE botte liée de soba Blue Dragon (~83 g SECS) selon l’emballage (PAS les 250 g); égoutter. Réchauffer 1½ tasse de brocoli surgelé au micro-ondes couvert avec un peu d’eau, environ 4–6 min; égoutter. Faire brunir 225 g de bœuf haché CRU à la poêle 6–8 min, jusqu’à 71 °C. BAISSER à feu moyen et VERSER LA SAUCE SUR LE BŒUF CUIT; remuer 1–2 min. Ajouter soba et brocoli égouttés; mélanger 1 min. Emballer LUN souper et réfrigérer rapidement.",
-        "PENNE/BOULETTES : cuire 90 g de penne SÈCHES. Chauffer 150 g de boulettes Angus surgelées DÉJÀ CUITES avec ¾ tasse de marinara, 2 tasses d’épinards et 1 c. à thé de basilic; mélanger aux penne. Emballer VEN dîner.",
-        "CARI CREVETTES : mijoter 1 tasse de lait de coco léger + 1 c. à soupe de pâte de cari rouge + 2 tasses de légumes asiatiques SURGELÉS; ajouter 250 g de crevettes CRUES décortiquées décongelées et cuire jusqu’à 74 °C. Emballer pour DIM souper avec 1½ tasse de riz cuit préparé.",
-        "REFROIDIR / RANGER : les repas LUN/MAR au FRIGO; les plats cuits de JEU–DIM et le chili de réserve au CONGÉLATEUR dès dimanche. Garder les légumes frais et conserves non ouvertes jusqu’au service. Déplacer les portions congelées au FRIGO le SOIR PRÉCÉDANT leur journée."
-      ],
-      "portions": [
-        "RIZ : 5 tasses CUITES = 1½ LUN thon + 1 MAR chili + 1 JEU fajitas + 1½ DIM cari.",
-        "POULET : 450 g CRUS = 2 portions (MAR citron, JEU fajitas), équivalant à 225 g crus chacune.",
-        "CHILI DINDE : 600 g de dinde CRUE donne 3 portions égales de chili cuit (MAR, VEN, réserve).",
-        "PATATES : 650 g CRUES = 200 MAR + 200 JEU + 250 VEN. PATATE DOUCE 250 g pour SAM.",
-        "AUTRES : bœuf 225 g + UNE botte soba LUN; saumon 225 g JEU; boulettes 150 g + penne 90 g VEN; porc 225 g SAM; crevettes 250 g DIM."
-      ],
-      "storage": [
-        "Plats cuits de LUN/MAR au frigo à 4 °C ou moins; portions ultérieures au congélo à -18 °C jusqu’à la veille.",
-        "Refroidir rapidement riz et viandes dans de petits contenants peu profonds et les mettre au frigo/congélo dans les 2 heures.",
-        "Consommer les restes réfrigérés en 2 à 3 jours; réchauffer une seule fois à 74 °C partout, en remuant à mi-cuisson.",
-        "Si le repas n’est pas complètement décongelé, prévoir plus de temps. Ne pas décongeler sur le comptoir. Garder avocat/concombre/tomates frais à part."
-      ]
-    },
-    {
-      "title": "Batch du dimanche — Semaine 2",
-      "active": "40 à 55 min de travail actif",
-      "elapsed": "75 à 105 min au total, cuissons et contenants compris",
-      "intro": "Semaine 2 INDÉPENDANTE de la semaine 1 : aucun chili restant n’est nécessaire. Toutes les protéines chaudes sont préparées ici, pas les soirs de semaine.",
-      "equipment": "Four, Ninja à deux bacs, cuiseur à riz, poêle, contenants peu profonds étiquetés.",
-      "steps": [
-        "ÉTIQUETER : LUN thon/patates, LUN poulet citron/riz, MAR poulet arachides/riz, MAR bœuf tacos/riz, JEU crevettes/riz, JEU poulet harissa, VEN poulet chili/patates, VEN bœuf coréen/riz, SAM cari de poulet/riz, DIM porc sésame. Marquer JEU–DIM « CONGELER ».",
-        "CUISEUR À RIZ : mesurer exactement 2⅔ tasses STANDARD (environ 480 g) de riz SEC; ajouter l’eau selon l’emballage et cuire. Donne ~8 tasses CUITES. Répartir : LUN poulet 1½; MAR poulet arachides 1; MAR tacos 1; JEU crevettes 1½; VEN bœuf coréen 1½; SAM cari 1½.",
-        "NINJA : couper en dés 450 g de patates ORDINAIRES CRUES. Mélanger avec ~3 c. à thé d’huile d’olive. AIR FRY à 200 °C pendant 22–25 min, secouer à mi-cuisson. Répartir selon poids CRU : LUN 200 g et VEN 250 g.",
-        "FOUR — HAUTS DE CUISSE : peser 1 150 g de hauts de cuisse de poulet DÉSOSSÉS et SANS PEAU, poids CRU sans os, pour cinq portions : 225 g lun citron-origan + 225 g mar arachides + 225 g jeu harissa + 225 g ven patates chili doux + 250 g sam cari. Cuire les hauts de cuisse ENTIERS sur une ou plusieurs plaques, sans les superposer, au four à 200 °C pendant environ 20 à 30 min, jusqu’à 74 °C au centre de la partie la plus épaisse. Après cuisson, couper en bouchées au besoin; garder les cinq groupes bien distincts selon leur poids CRU, et assaisonner selon les étapes suivantes. Cuire séparément 225 g de lanières de porc jusqu’à 71 °C. Si les hauts de cuisse ont un os, les désosser AVANT de peser les portions, sinon les quantités de viande seront inexactes.",
-        "BŒUF : brunir 450 g de bœuf haché maigre CRU jusqu’à 71 °C. Diviser en DEUX portions égales : MAR tacos (½ c. à thé de poudre chili, ¼ c. à thé cumin, ¼ c. à thé paprika fumé), VEN coréen (1 c. à soupe soya, 1 c. à thé érable, 1 c. à thé huile de sésame).",
-        "CREVETTES : cuire 250 g de crevettes CRUES décortiquées, décongelées, jusqu’à 74 °C; emballer pour JEU et congeler. La mangue surgelée sera décongelée la veille du repas, PAS cuite avec les crevettes.",
-        "POULET / SAVEURS : ajouter origan et ail au poulet de LUN; garder le poulet de MAR nature (sauce arachides en 1 min mardi); enrober JEU avec 1 c. à soupe de harissa et 2 c. à thé d’huile; garder VEN nature (sauce chili douce au service).",
-        "CARI SAM : faire frémir ¾ tasse de tomates broyées + ½ tasse de lait de coco léger + 2 tasses d’épinards + 1 c. à thé poudre de cari + ½ c. à thé garam masala. Ajouter la portion de poulet cuit pour SAM (équivalant à 250 g CRUS); refroidir et congeler avec son riz.",
-        "PORC DIM : mélanger au porc cuit 1 c. à soupe de soya, 1 c. à soupe de sauce chili douce et 1 c. à thé d’huile de sésame. Garder UN sachet de udon PRÊTES À UTILISER 200 g fermé, ainsi que 2 tasses de légumes asiatiques surgelés pour dimanche.",
-        "REFROIDIR / RANGER : plats LUN/MAR au FRIGO; plats cuits JEU–DIM CONGELÉS dimanche. Déplacer au frigo le soir avant de manger. Conserver thon/haricots, légumes frais, chou râpé et udon dans leurs emballages appropriés jusqu’au jour du repas."
-      ],
-      "portions": [
-        "RIZ : 8 tasses CUITES = 1½ LUN origan + 1 MAR arachides + 1 MAR tacos + 1½ JEU crevettes + 1½ VEN bœuf + 1½ SAM cari.",
-        "POULET : 1 150 g CRUS = quatre portions 225 g (lun/mar/jeu/ven) et une portion 250 g (sam).",
-        "BŒUF : 450 g CRUS = deux portions 225 g (MAR tacos, VEN coréen). PORC : 225 g CRUS DIM. CREVETTES : 250 g CRUES JEU.",
-        "PATATES : 450 g CRUES = 200 LUN thon + 250 VEN poulet. UDON : UN paquet 200 g prêtes à utiliser DIM.",
-        "PRÊTS / FRAIS : thon-haricots blancs LUN; mangue-concombre JEU; chou râpé VEN."
-      ],
-      "storage": [
-        "Plats LUN/MAR au frigo à 4 °C ou moins; plats JEU–DIM congelés dimanche à -18 °C.",
-        "Transférer au frigo le soir avant; jamais décongeler sur le comptoir.",
-        "Refroidir riz et viandes rapidement dans de petits contenants en moins de 2 h; réchauffer une fois les restes à 74 °C.",
-        "Le dimanche prend de 75 à 105 minutes au total, mais les autres jours demandent 5–8 min de réchauffage/assemblage."
-      ]
-    }
-  ]
+  "assumptions": [
+    "Toutes les viandes sont pesées CRUES; riz, soba et avoine sont pesés SECS. Les quantités d’ingrédients correspondent à TOUTE la recette, pas à une portion.",
+    "Chaque plat salé contient déjà la sauce et tous ses accompagnements AVANT d’être rangé. Pour servir : réchauffer seulement.",
+    "Le mercredi peut rester une journée de trois shakes. Les déjeuners au restaurant la fin de semaine sont conservés comme habitudes, pas des repas imposés.",
+    "Réfrigérer ou congeler les plats périssables au plus tard 2 h après cuisson, dans de petits contenants peu profonds. Réfrigérateur ≤ 4 °C; manger les restes au frigo idéalement en 2 à 3 jours, sinon congeler.",
+    "Réchauffer les restes jusqu’à 74 °C. Cuisson initiale : volaille 74 °C, bœuf haché 71 °C, porc 71 °C, poisson 70 °C. Source : Santé Canada."
+  ],
+  "safety_url": "https://www.canada.ca/fr/sante-canada/services/conseils-generaux-salubrite/temperatures-securitaires-cuisson-interne.html",
+  "storage_url": "https://www.canada.ca/fr/sante-canada/services/conseils-generaux-salubrite/conseils-salubrite-restes-alimentaires.html"
 }
