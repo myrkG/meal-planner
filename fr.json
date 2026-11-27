@@ -166,75 +166,77 @@
       "id": "porkchop",
       "week": 1,
       "title": "Côtelettes ail-lime, patates et haricots verts",
-      "servings": 4,
+      "servings": 3,
       "minutes": 50,
       "equipment": "Four, 2 plaques, papier parchemin, petit bol",
       "ingredients": [
         {
           "id": "pork",
-          "qty": 600,
-          "detail": "poids CRU sans os : 4 portions d’environ 150 g"
+          "qty": 452,
+          "detail": "poids CRU et désossé : 3 portions d’environ 151 g"
         },
         {
           "id": "potatoes",
-          "qty": 800,
+          "qty": 600,
           "detail": "poids CRU; cubes de 2 cm"
         },
         {
           "id": "greenbeans",
-          "qty": 400,
-          "detail": "surgelés"
+          "qty": 300,
+          "detail": "surgelés, non décongelés"
         },
         {
           "id": "oliveoil",
-          "qty": 30,
-          "detail": "15 ml pour patates, 15 ml dans sauce porc"
+          "qty": 25,
+          "detail": "15 ml (1 c. à soupe) pour les patates + 10 ml (2 c. à thé) pour la sauce porc"
         },
         {
           "id": "dijon",
-          "qty": 30,
-          "detail": "2 c. à soupe"
+          "qty": 22.5,
+          "detail": "1½ c. à soupe"
         },
         {
           "id": "honey",
-          "qty": 10,
-          "detail": "2 c. à thé"
+          "qty": 7.5,
+          "detail": "1½ c. à thé"
         },
         {
           "id": "lime",
           "qty": 1,
-          "detail": "presser tout le jus (~30 ml)"
+          "detail": "presser tout le jus, environ 30 ml"
         },
         {
           "id": "garlic",
-          "qty": 3,
-          "detail": "hachées fin"
+          "qty": 2,
+          "detail": "2 gousses, hachées fin"
         },
         {
           "id": "paprika",
-          "qty": 1
+          "qty": 0.75,
+          "detail": "¾ c. à thé"
         },
         {
           "id": "salt",
           "qty": 0.5,
-          "detail": "¼ c. à thé patates, ¼ c. à thé porc"
+          "detail": "¼ c. à thé patates + ¼ c. à thé porc"
         },
         {
           "id": "peppercorn",
-          "qty": 0.25
+          "qty": 0.25,
+          "detail": "¼ c. à thé"
         }
       ],
       "steps": [
-        "Préchauffer le four à 205 °C (400 °F). Préparer DEUX plaques recouvertes de papier parchemin, une pour les patates/haricots et l’autre pour le porc.",
-        "Couper les 800 g de patates CRUES en cubes d’environ 2 cm. Mélanger sur la première plaque avec 15 ml d’huile d’olive, 1 c. à thé de paprika fumé et ¼ c. à thé de sel. Étaler en une couche; mettre au four pour 20 minutes.",
-        "Pendant ce temps, faire la sauce dans un bol : 30 ml de Dijon + 10 ml de miel + le jus d’UNE lime (~30 ml) + 3 gousses d’ail hachées + 15 ml d’huile d’olive + ¼ c. à thé de sel + ¼ c. à thé de poivre. Mélanger.",
-        "Déposer les 600 g de côtelettes désossées CRUES sur la deuxième plaque. Badigeonner TOUTE la sauce sur les deux côtés des côtelettes. Ne rien réserver pour le service.",
-        "Quand les patates ont cuit 20 minutes, les retourner et ajouter les 400 g de haricots verts SURGELÉS sur leur plaque. Enfourner en même temps la plaque de porc. Continuer environ 18 à 25 minutes, selon l’épaisseur des côtelettes. Mélanger les haricots une fois.",
-        "Sortir les côtelettes dès qu’elles atteignent 71 °C au centre du morceau le plus épais. Si les patates ne sont pas tendres et dorées, les laisser 5 à 10 minutes de plus; les haricots doivent être bien chauds.",
-        "Laisser reposer le porc 3 minutes. Diviser en 4 contenants : ¼ du porc, ¼ des patates et ¼ des haricots par portion. Répartir le jus de cuisson du porc ENTRE les contenants, après cuisson complète.",
-        "Le repas est COMPLET avec sauce et accompagnements. Pour servir plus tard, seulement réchauffer jusqu’à 74 °C."
+        "Préchauffer le FOUR à 205 °C (400 °F). Recouvrir DEUX plaques de papier parchemin : une pour les patates et haricots verts, l’autre pour les côtelettes.",
+        "Peser 600 g de patates CRUES, puis les couper en cubes d’environ 2 cm. Dans un bol ou directement sur la première plaque, mélanger les cubes avec 15 ml (1 c. à soupe) d’huile d’olive, ¾ c. à thé de paprika fumé et ¼ c. à thé de sel. Étaler en UNE couche. Mettre au four immédiatement pour 20 minutes.",
+        "Pendant ces 20 minutes, préparer TOUTE la sauce pour le porc dans un petit bol : 22,5 ml (1½ c. à soupe) de moutarde Dijon + 7,5 ml (1½ c. à thé) de miel + le jus d’UNE lime entière (~30 ml) + 2 gousses d’ail finement hachées + 10 ml (2 c. à thé) d’huile d’olive + ¼ c. à thé de sel + ¼ c. à thé de poivre. Mélanger à la cuillère.",
+        "Déposer les 452 g de côtelettes désossées CRUES sur la deuxième plaque sans les superposer. Badigeonner TOUTE la sauce sur les deux faces des côtelettes. Ne pas réserver de sauce pour le service.",
+        "Après les 20 premières minutes des patates, sortir brièvement leur plaque. Retourner les patates et ajouter 300 g de haricots verts encore SURGELÉS à côté, en une couche. Remettre cette plaque au four. Enfourner EN MÊME TEMPS la deuxième plaque avec les côtelettes. Poursuivre environ 18 à 25 minutes; mélanger les haricots à mi-cuisson.",
+        "Retirer les côtelettes dès que la partie la plus épaisse atteint 71 °C au centre (le temps dépend de leur épaisseur). Si les patates ne sont pas encore dorées et tendres, prolonger leur cuisson 5 à 10 minutes séparément. Les haricots doivent être bien chauds et tendres.",
+        "Laisser reposer le porc 3 minutes. Diviser les côtelettes, les 600 g de patates CRUES maintenant cuites et les 300 g de haricots cuits en EXACTEMENT TROIS contenants égaux. Répartir également sur les portions le jus de cuisson de la plaque du porc, après cuisson complète.",
+        "Les 3 plats sont COMPLETS : porc, sauce, patates et haricots. Pour manger plus tard, seulement réchauffer couvert jusqu’à 74 °C, sans rien ajouter."
       ],
-      "storage": "Le porc et la sauce sont déjà ensemble. Réchauffer couvert à 74 °C; éviter de prolonger inutilement pour ne pas assécher.",
+      "storage": "3 portions d’environ 151 g de porc CRU chacune, plus 200 g de patates CRUES et 100 g de haricots SURGELÉS chacune (avant cuisson). Sauce déjà ajoutée. Refroidir rapidement; réfrigérer ou congeler dans les 2 heures. Réchauffer couvert jusqu’à 74 °C.",
       "nutrition": {
         "calories": 485,
         "protein_g": 36,
